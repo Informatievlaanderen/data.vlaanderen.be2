@@ -251,6 +251,7 @@ finalize:
 		do \
 		rm $${file} ;\
 	 done 
+	cp README.statistics.md ${TARGETDIR}/README.md
 
 print:
 	echo "${CLEANSTATSPERSPECIFICATIONS}" > L
