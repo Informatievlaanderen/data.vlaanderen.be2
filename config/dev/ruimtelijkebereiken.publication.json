@@ -58,7 +58,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
     },
-    "dummy": "30",
+    "dummy": "31",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/ruimtelijke-bereiken/kandidaatstandaard/2024-10-01",
     "original": {
@@ -74,19 +74,10 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/ruimtelijke-bereiken/",
-    "seealso": "/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/2024-10-01",
-    "type": "raw",
-    "dummy": "22",
-    "directory": "/doc/applicatieprofiel/ruimtelijke-bereiken/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/applicatieprofiel/ruimtelijke-bereiken/",
       "seealso": "/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/2024-10-01",
       "type": "ap",
       "dummy": "22"
-    }
   },
   {
     "urlref": "/doc/vocabularium/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01",
@@ -144,7 +135,7 @@
     "branchtag": "production",
     "name": "ruimtelijke-bereiken",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-RuimtelijkeBereiken.json",
-    "dummy": "31",
+    "dummy": "32",
     "navigation": {
       "prev": "/doc/vocabularium/ruimtelijke-bereiken/ontwerpstandaard/2024-04-15"
     },
@@ -163,19 +154,10 @@
     }
   },
   {
-    "urlref": "/ns/ruimtelijke-bereiken",
-    "seealso": "/doc/vocabularium/ruimtelijke-bereiken/kandidaatstandaard/2024-10-01",
-    "type": "raw",
-    "dummy": "23",
-    "directory": "/ns/ruimtelijke-bereiken",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/ns/ruimtelijke-bereiken",
       "seealso": "/doc/vocabularium/ruimtelijke-bereiken/kandidaatstandaard/2024-10-01",
       "type": "voc",
       "dummy": "22"
-    }
   },
   {
     "urlref": "/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/toolchain4",
