@@ -264,11 +264,11 @@
                               <div class="region region--no-space-top">
                                  <p>This document describes the usage of the following entities for a correct usage of the Implementation Model:  <br/> |
                                     {%- for entity in data.classes %}
-                                       {% if entity.applicationProfileLabel[language] %}
-                                          <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag() }}">
-                                          {{ entity.applicationProfileLabel[language] }}</a>
-                                          |
-                                       {% endif %}
+                                    {% if entity.applicationProfileLabel[language] %}
+                                    <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag() }}">
+                                    {{ entity.applicationProfileLabel[language] }}</a>
+                                    |
+                                    {% endif %}
                                     {%- endfor %}  
                                  </p>
                               </div>
@@ -278,11 +278,11 @@
                                  <p>
                                     This document describes the usage of the following datatypes for a correct usage of the Implementation Model:<br/> |
                                     {%- for dataType in data.dataTypes %}
-                                       {% if dataType.applicationProfileLabel[language] %}
-                                          <a href="#{{ dataType.applicationProfileLabel[language] | generateAnchorTag() }}">
-                                          {{ dataType.applicationProfileLabel[language] }}</a>
-                                          |
-                                       {% endif %}
+                                    {% if dataType.applicationProfileLabel[language] %}
+                                    <a href="#{{ dataType.applicationProfileLabel[language] | generateAnchorTag() }}">
+                                    {{ dataType.applicationProfileLabel[language] }}</a>
+                                    |
+                                    {% endif %}
                                     {%- endfor %}
                                  </p>
                               </div>
@@ -300,12 +300,12 @@
                      <div class="region region--no-space-top">
                         <h2 class="h2">Entities</h2>
                      </div>
-                        {% for entity in data.classes %}
-                           {% if entity.applicationProfileLabel[language] %}
-      			               {% set entitylabel = entity.applicationProfileLabel[language] %}
-			                  {% else %}
-      			               {% set entitylabel = "ERROR" %}
-                           {% endif %}
+                     {% for entity in data.classes %}
+                     {% if entity.applicationProfileLabel[language] %}
+                     {% set entitylabel = entity.applicationProfileLabel[language] %}
+                     {% else %}
+                     {% set entitylabel = "ERROR" %}
+                     {% endif %}
                      <div class="region region--no-space-top">
                         <h3 class="h3" id="{{ entity.id }}">
                            <a href="{{ entity.id }}" data-toggle="tooltip" data-content="{{ entity.id }}" id="{{ entitylabel | generateAnchorTag() }}" data-placement="right">
@@ -316,15 +316,15 @@
                               <dt>Description</dt>
                               <dd>
                                  {% if entity.applicationProfileDefinition[language] %}
-                                    {{ entity.applicationProfileDefinition[language] }}
+                                 {{ entity.applicationProfileDefinition[language] }}
                                  {% endif %}
                               </dd>
-                                 {% if entity.applicationProfileUsageNote[language] %}
-                                    <dt>Usage</dt>
-                                    <dd>
-                                       {{ entity.applicationProfileUsageNote[language] | safe }}
-                                    </dd>
-                                 {% endif %}
+                              {% if entity.applicationProfileUsageNote[language] %}
+                              <dt>Usage</dt>
+                              <dd>
+                                 {{ entity.applicationProfileUsageNote[language] | safe }}
+                              </dd>
+                              {% endif %}
                               {% if ((entity.parents | length) > 0 ) %}
                               <dt>Subclass of
                               <dt>
@@ -341,14 +341,14 @@
                               {% if ((entity.properties | length) > 0 ) %}
                               <dd>
                                  For this entity the following properties are defined:
-                                    {%- for prop in entity['properties'] %}
-                                       {% if prop.applicationProfileLabel[language] %}
-                                          <a href="#{{ entitylabel | generateAnchorTag(prop.applicationProfileLabel[language]) }}">
-                                          {{ prop.applicationProfileLabel[language] }}</a>
-                                       {% endif %}
-                                       {% if not loop.last %},
-                                       {% endif %}
-                                    {%- endfor %}.
+                                 {%- for prop in entity['properties'] %}
+                                 {% if prop.applicationProfileLabel[language] %}
+                                 <a href="#{{ entitylabel | generateAnchorTag(prop.applicationProfileLabel[language]) }}">
+                                 {{ prop.applicationProfileLabel[language] }}</a>
+                                 {% endif %}
+                                 {% if not loop.last %},
+                                 {% endif %}
+                                 {%- endfor %}.
                               </dd>
                               {% else %}
                               <dd>No properties have been defined for this entity.</dd>
@@ -357,71 +357,71 @@
                         </div>
                         {% if ((entity.properties | length) > 0 ) %}
                         <div class="u-table-overflow">
-                        <table class="data-table">
-                        <thead>
-                        <tr class="data-table__header">
-                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                        <th class="data-table__header-title--sortable">Expected Range</th>
-                        <th class="data-table__header-title--sortable">Cardinality</th>
-                        <th class="data-table__header-title--sortable">Description</th>
-                        <th class="data-table__header-title--sortable">Usage</th>
-                        <th class="data-table__header-title--sortable">Codelist</th>
-                        </tr>
-                        </thead>
-                        <tbody class="supertype">
-                        {% for prop in entity['properties'] %}
-                           {% if prop.applicationProfileLabel[language] %}
-                              {% set proplabel = prop.applicationProfileLabel[language] %}
-                           {% else %}
-                              {% set proplabel = "ERROR" %}
-                           {% endif %}
-                        <tr id="{{ entitylabel | generateAnchorTag(proplabel) }}" typeof="rdfs:Property" resource="{{ prop.uri }}">
-                        <td>
-                        <code property="rdfs:label">
-                        <a href="{{ prop.id }}" data-toggle="tooltip" data-content="{{ prop.id }}" data-placement="right">
-                        {{ proplabel }}</a>
-                        </code>
-                        </td>
-                        <td>
-                           {% if prop.range %}
-                           	{% if prop.range.applicationProfileLabel[language] %}
-                                 {% if prop.range.listedInDocument %}
-                                 <a href="#{{ prop.range.applicationProfileLabel[language] | generateAnchorTag() }}" data-toggle="tooltip" data-content="{{ prop.range.applicationProfileLabel[language] }}" data-placement="right">
-                                    {{ prop.range.applicationProfileLabel[language] }}</a>
+                           <table class="data-table">
+                              <thead>
+                                 <tr class="data-table__header">
+                                    <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                                    <th class="data-table__header-title--sortable">Expected Range</th>
+                                    <th class="data-table__header-title--sortable">Cardinality</th>
+                                    <th class="data-table__header-title--sortable">Description</th>
+                                    <th class="data-table__header-title--sortable">Usage</th>
+                                    <th class="data-table__header-title--sortable">Codelist</th>
+                                 </tr>
+                              </thead>
+                              <tbody class="supertype">
+                                 {% for prop in entity['properties'] %}
+                                 {% if prop.applicationProfileLabel[language] %}
+                                 {% set proplabel = prop.applicationProfileLabel[language] %}
                                  {% else %}
-                                 <a href="{{ prop.range.id }}" data-toggle="tooltip" data-content="{{ prop.range.id }}" data-placement="right">
-                                    {{ prop.range.applicationProfileLabel[language] }}</a>
+                                 {% set proplabel = "ERROR" %}
                                  {% endif %}
-                              {% endif %}
-                           {% endif %}
-                        </td>
-                        <td>
-                        {% if prop.minCount == prop.maxCount %}
-                        {% set cardinality = prop.minCount %}
-                        {% else %}
-                        {% set cardinality = prop.minCount + '..' + prop.maxCount %}
-                        {% endif %}
-                        {{ cardinality }}
-                        </td>
-                        <td property="rdfs:comment">
-                           {% if prop.applicationProfileDefinition[language] %}
-                           {{ prop.applicationProfileDefinition[language] }}
-                           {% endif %}
-                        </td>
-                        <td property="vann:usageNote">
-                           {% if prop.applicationProfileUsageNote[language] %}
-                           {{ prop.applicationProfileUsageNote[language] | safe }}
-                           {% endif %}
-                        </td>
-                        <td>
-                        {% if prop.codelist %}
-                        <a href="{{ prop.codelist }}">Link</a>
-                        {% endif %}
-                        </td>
-                        </tr>
-                        {% endfor %}
-                        </tbody>
-                        </table>
+                                 <tr id="{{ entitylabel | generateAnchorTag(proplabel) }}" typeof="rdfs:Property" resource="{{ prop.uri }}">
+                                    <td>
+                                       <code property="rdfs:label">
+                                       <a href="{{ prop.id }}" data-toggle="tooltip" data-content="{{ prop.id }}" data-placement="right">
+                                       {{ proplabel }}</a>
+                                       </code>
+                                    </td>
+                                    <td>
+                                       {% if prop.range %}
+                                       {% if prop.range.applicationProfileLabel[language] %}
+                                       {% if prop.range.listedInDocument %}
+                                       <a href="#{{ prop.range.applicationProfileLabel[language] | generateAnchorTag() }}" data-toggle="tooltip" data-content="{{ prop.range.applicationProfileLabel[language] }}" data-placement="right">
+                                       {{ prop.range.applicationProfileLabel[language] }}</a>
+                                       {% else %}
+                                       <a href="{{ prop.range.id }}" data-toggle="tooltip" data-content="{{ prop.range.id }}" data-placement="right">
+                                       {{ prop.range.applicationProfileLabel[language] }}</a>
+                                       {% endif %}
+                                       {% endif %}
+                                       {% endif %}
+                                    </td>
+                                    <td>
+                                       {% if prop.minCount == prop.maxCount %}
+                                       {% set cardinality = prop.minCount %}
+                                       {% else %}
+                                       {% set cardinality = prop.minCount + '..' + prop.maxCount %}
+                                       {% endif %}
+                                       {{ cardinality }}
+                                    </td>
+                                    <td property="rdfs:comment">
+                                       {% if prop.applicationProfileDefinition[language] %}
+                                       {{ prop.applicationProfileDefinition[language] }}
+                                       {% endif %}
+                                    </td>
+                                    <td property="vann:usageNote">
+                                       {% if prop.applicationProfileUsageNote[language] %}
+                                       {{ prop.applicationProfileUsageNote[language] | safe }}
+                                       {% endif %}
+                                    </td>
+                                    <td>
+                                       {% if prop.codelist %}
+                                       <a href="{{ prop.codelist }}">Link</a>
+                                       {% endif %}
+                                    </td>
+                                 </tr>
+                                 {% endfor %}
+                              </tbody>
+                           </table>
                         </div>
                         {% endif %}
                      </div>
@@ -430,12 +430,12 @@
                      <div class="region region--no-space-top">
                         <h2 class="h2">Datatypes</h2>
                      </div>
-                        {% for dataType in data.dataTypes %}
-                           {% if dataType.applicationProfileLabel[language] %}
-      			               {% set dataTypelabel = dataType.applicationProfileLabel[language] %}
-			                  {% else %}
-      			               {% set dataTypelabel = "ERROR" %}
-                           {% endif %}
+                     {% for dataType in data.dataTypes %}
+                     {% if dataType.applicationProfileLabel[language] %}
+                     {% set dataTypelabel = dataType.applicationProfileLabel[language] %}
+                     {% else %}
+                     {% set dataTypelabel = "ERROR" %}
+                     {% endif %}
                      <div class="region region--no-space-top">
                         <h3 class="h3" id="{{ dataType.id }}">
                            <a href="{{ dataType.id }}" data-toggle="tooltip" data-content="{{ dataType.id }}" id="{{ dataTypelabel | generateAnchorTag() }}" data-placement="right">
@@ -444,15 +444,15 @@
                         <div class="region region--no-space-top">
                            <dl>
                               <dt>Description</dt>
-                                {% if dataType.applicationProfileDefinition[language] %}
-                                    {{ dataType.applicationProfileDefinition[language] }}
-                                 {% endif %}
-                                 {% if dataType.applicationProfileUsageNote[language] %}
-                                 <dt>Usage</dt>
-                                 <dd>
-                                    {{ dataType.applicationProfileUsageNote[language] | safe }}
-                                 </dd>
-                                 {% endif %}
+                              {% if dataType.applicationProfileDefinition[language] %}
+                              {{ dataType.applicationProfileDefinition[language] }}
+                              {% endif %}
+                              {% if dataType.applicationProfileUsageNote[language] %}
+                              <dt>Usage</dt>
+                              <dd>
+                                 {{ dataType.applicationProfileUsageNote[language] | safe }}
+                              </dd>
+                              {% endif %}
                               {% if ((dataType.parents | length) > 0 ) %}
                               <dt>Subclass of 
                               <dt>
@@ -494,11 +494,11 @@
                               </thead>
                               <tbody class="supertype">
                                  {% for prop in dataType['properties'] %}
-                           		   {% if prop.applicationProfileLabel[language] %}
-      			   		               {% set proplabel = prop.applicationProfileLabel[language] %}
-			   		                  {% else %}
-      			   		               {% set proplabel = "ERROR" %}
-                           		   {% endif %}
+                                 {% if prop.applicationProfileLabel[language] %}
+                                 {% set proplabel = prop.applicationProfileLabel[language] %}
+                                 {% else %}
+                                 {% set proplabel = "ERROR" %}
+                                 {% endif %}
                                  <tr id="{{ dataTypelabel | generateAnchorTag(proplabel) }}" typeof="rdfs:Property" resource="{{ prop.uri }}">
                                     <td>
                                        <code property="rdfs:label">
@@ -507,14 +507,14 @@
                                        </code>
                                     </td>
                                     <td>
-                                    {% if prop.range %}
+                                       {% if prop.range %}
                                        {% if prop.range.listedInDocument %}
-                                          <a href="#{{ prop.range.applicationProfileLabel[language] | generateAnchorTag() }}" data-toggle="tooltip" data-content="{{ prop.range.applicationProfileLabel[language] }}" data-placement="right">
-                                             {{ prop.range.applicationProfileLabel[language] }}</a>
-                                          {% else %}
-                                          <a href="{{ prop.range.id }}" data-toggle="tooltip" data-content="{{ prop.range.id }}" data-placement="right">
-                                             {{ prop.range.applicationProfileLabel[language] }}</a>
-                                          {% endif %}
+                                       <a href="#{{ prop.range.applicationProfileLabel[language] | generateAnchorTag() }}" data-toggle="tooltip" data-content="{{ prop.range.applicationProfileLabel[language] }}" data-placement="right">
+                                       {{ prop.range.applicationProfileLabel[language] }}</a>
+                                       {% else %}
+                                       <a href="{{ prop.range.id }}" data-toggle="tooltip" data-content="{{ prop.range.id }}" data-placement="right">
+                                       {{ prop.range.applicationProfileLabel[language] }}</a>
+                                       {% endif %}
                                        {% endif %}
                                     </td>
                                     <td>
@@ -525,16 +525,16 @@
                                        {% endif %}
                                        {{ cardinality }}
                                     </td>
-                                       <td property="rdfs:comment">
-                                          {% if prop.applicationProfileDefinition[language] %}
-                                          {{ prop.applicationProfileDefinition[language] }}
-                                          {% endif %}
-                                       </td>
-                                       <td property="vann:usageNote">
-                                          {% if prop.applicationProfileUsageNote[language] %}
-                                          {{ prop.applicationProfileUsageNote[language] | safe }}
-                                          {% endif %}
-                                       </td>
+                                    <td property="rdfs:comment">
+                                       {% if prop.applicationProfileDefinition[language] %}
+                                       {{ prop.applicationProfileDefinition[language] }}
+                                       {% endif %}
+                                    </td>
+                                    <td property="vann:usageNote">
+                                       {% if prop.applicationProfileUsageNote[language] %}
+                                       {{ prop.applicationProfileUsageNote[language] | safe }}
+                                       {% endif %}
+                                    </td>
                                     <td>
                                        {% if prop.codelist %}
                                        <a href="{{ prop.codelist }}">Link</a>
@@ -578,7 +578,6 @@
                                  <li class="side-navigation__item">
                                     <a href="#introduction">Introduction</a>
                                  </li>
-
                                  <li class="side-navigation__item">
                                     <a href="#summary">Summary</a>
                                  </li>
