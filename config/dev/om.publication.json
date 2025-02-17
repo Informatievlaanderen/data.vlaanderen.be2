@@ -81,7 +81,7 @@
     "branchtag": "production",
     "name": "ap-observaties-en-metingen",
     "filename": "config/OSLO-BodemEnOndergrond-AP-ObservatiesEnMetingen.json",
-    "dummy": "053",
+    "dummy": "054",
     "navigation": {
       "prev": "/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-04-15"
     },
@@ -100,19 +100,10 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/observaties-en-metingen/",
-    "seealso": "/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01",
-    "type": "raw",
-    "dummy": "048",
-    "directory": "/doc/applicatieprofiel/observaties-en-metingen/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/applicatieprofiel/observaties-en-metingen/",
       "seealso": "/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01",
       "type": "ap",
       "dummy": "048"
-    }
   },
   {
     "urlref": "/doc/vocabularium/observaties-en-metingen/ontwerpstandaard/2021-08-01",
@@ -196,7 +187,7 @@
     "branchtag": "production",
     "name": "observaties-en-metingen",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-ObservatiesEnMetingen.json",
-    "dummy": "055",
+    "dummy": "056",
     "navigation": {
       "prev": "/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2024-04-15"
     },
@@ -215,24 +206,15 @@
     }
   },
   {
-    "urlref": "/ns/observaties-en-metingen/",
-    "seealso": "/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2024-10-01",
-    "type": "raw",
-    "dummy": "048",
-    "directory": "/ns/observaties-en-metingen/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/ns/observaties-en-metingen/",
       "seealso": "/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2024-10-01",
       "type": "voc",
       "dummy": "048"
-    }
   },
   {
     "urlref": "/doc/applicatieprofiel/observaties-en-metingen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
-    "branchtag": "master-node-toolchain",
+    "branchtag": "master",
     "name": "ap-observaties-en-metingen",
     "filename": "config/OSLO-BodemEnOndergrond-AP-ObservatiesEnMetingen.json",
     "directory": "/doc/applicatieprofiel/observaties-en-metingen/ontwerpstandaard/toolchain4",
@@ -244,7 +226,7 @@
   {
     "urlref": "/doc/vocabularium/observaties-en-metingen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
-    "branchtag": "master-node-toolchain",
+    "branchtag": "master",
     "name": "observaties-en-metingen",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-ObservatiesEnMetingen.json",
     "directory": "/doc/vocabularium/observaties-en-metingen/ontwerpstandaard/toolchain4",
