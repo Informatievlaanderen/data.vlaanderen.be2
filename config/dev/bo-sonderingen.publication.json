@@ -1,0 +1,66 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "ap-sonderingen",
+    "filename": "config/OSLO-BodemEnOndergrond-AP-Sonderingen.json",
+    "dummy": "001",
+    "navigation": {},
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
+      "branchtag": "kandidaat-2022-04-28-03",
+      "name": "ap-sonderingen",
+      "filename": "config/OSLO-BodemEnOndergrond-AP-Sonderingen.json",
+      "dummy": "001",
+      "navigation": {}
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "sonderingen",
+    "filename": "config/OSLO-BodemEnOndergrond-VOC-Sonderingen.json",
+    "dummy": "001",
+    "navigation": {},
+    "type": "raw",
+    "directory": "/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01",
+    "original": {
+      "urlref": "/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
+      "branchtag": "kandidaat-2022-04-28-03",
+      "name": "sonderingen",
+      "filename": "config/OSLO-BodemEnOndergrond-VOC-Sonderingen.json",
+      "dummy": "001",
+      "navigation": {}
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
+    "branchtag": "master",
+    "name": "ap-sonderingen",
+    "filename": "config/OSLO-BodemEnOndergrond-AP-Sonderingen.json",
+    "directory": "/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
+    "branchtag": "master",
+    "name": "sonderingen",
+    "filename": "config/OSLO-BodemEnOndergrond-VOC-Sonderingen.json",
+    "directory": "/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
+    },
+    "dummy": "002"
+  }
+]
