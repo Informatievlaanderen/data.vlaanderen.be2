@@ -53,10 +53,10 @@ jobs:
             touch /tmp/workspace/report4/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/ea-converter
+          command: sudo npm install --global @oslo-flanders/ea-converter@1.0.0
       - run:
           name: install software stakeholders
-          command: sudo npm install --global @oslo-flanders/stakeholders-converter
+          command: sudo npm install --global @oslo-flanders/stakeholders-converter@1.0.0
       - run:
           name: upgrade configs to this toolchain 
           command: |
