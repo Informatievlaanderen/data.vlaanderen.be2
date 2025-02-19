@@ -108,5 +108,17 @@
       "prev": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/2025-01-09"
     },
     "dummy": "002"
+  },
+  {
+    "urlref": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-02-18",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis",
+    "branchtag": "main",
+    "name": "energiehuis",
+    "filename": "config/energiehuis-voc.json",
+    "directory": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-02-18",
+    "navigation": {
+      "prev": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-01-09"
+    },
+    "dummy": "002"
   }
 ]
