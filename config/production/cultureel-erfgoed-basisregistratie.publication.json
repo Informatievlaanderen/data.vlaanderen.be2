@@ -1,19 +1,43 @@
 [
   {
     "urlref": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-cultureelErfgoed",
-    "branchtag": "master-node-toolchain",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
     "name": "cultureel-erfgoed-basisregistratie",
     "filename": "config/cultureel-erfgoed-impl.json",
-    "type": "ap",
+    "type": "raw",
     "navigation": {},
     "disabled": false,
-    "dummy": "020"
+    "dummy": "021",
+    "directory": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20",
+    "original": {
+      "urlref": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-cultureelErfgoed",
+      "branchtag": "master-node-toolchain",
+      "name": "cultureel-erfgoed-basisregistratie",
+      "filename": "config/cultureel-erfgoed-impl.json",
+      "type": "ap",
+      "navigation": {},
+      "disabled": false,
+      "dummy": "020"
+    }
   },
   {
     "urlref": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie",
     "seealso": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20",
     "type": "ap",
     "dummy": "020"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-cultureelErfgoed",
+    "branchtag": "master-node-toolchain",
+    "name": "cultureel-erfgoed-basisregistratie",
+    "filename": "config/cultureel-erfgoed-impl.json",
+    "directory": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20"
+    },
+    "dummy": "002"
   }
 ]
