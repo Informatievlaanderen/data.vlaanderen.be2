@@ -1,0 +1,26 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
+    "branchtag": "main",
+    "name": "leermiddelen",
+    "filename": "config/leermiddelen-ap.json",
+    "directory": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-02-24"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/leermiddelen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
+    "branchtag": "main",
+    "name": "leermiddelen",
+    "filename": "config/leermiddelen-voc.json",
+    "directory": "/doc/vocabularium/leermiddelen/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-02-24"
+    },
+    "dummy": "001"
+  }
+]
