@@ -110,5 +110,14 @@
     "type": "voc",
     "disabled": false,
     "dummy": "029"
+  },
+  {
+    "urlref": "/doc/vocabularium/gezondheidstoestand/ontwerpstandaard/test",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-overlijdensaangifte",
+    "branchtag": "main-kristof",
+    "name": "gezondheidstoestand",
+    "filename": "config/gezondheidstoestand-voc.json",
+    "disabled": false,
+    "dummy": "005"
   }
 ]
