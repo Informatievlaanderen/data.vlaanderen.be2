@@ -118,6 +118,6 @@
     "name": "gezondheidstoestand",
     "filename": "config/gezondheidstoestand-voc.json",
     "disabled": false,
-    "dummy": "007"
+    "dummy": "008"
   }
 ]
