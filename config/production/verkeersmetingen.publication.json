@@ -60,13 +60,13 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/verkeersmetingen/kandidaatstandaard/2023-12-01"
     },
-    "dummy": "009"
+    "dummy": "010"
   },
   {
     "urlref": "/doc/applicatieprofiel/verkeersmetingen",
     "seealso": "/doc/applicatieprofiel/verkeersmetingen/erkendestandaard/2024-04-17",
     "type": "ap",
-    "dummy": "008"
+    "dummy": "009"
   },
   {
     "urlref": "/doc/vocabularium/verkeersmetingen/ontwerpstandaard/2023-03-14",
@@ -127,12 +127,12 @@
     "navigation": {
       "prev": "/doc/vocabularium/verkeersmetingen/kandidaatstandaard/2023-12-01"
     },
-    "dummy": "009"
+    "dummy": "010"
   },
   {
     "urlref": "/ns/verkeersmetingen",
     "seealso": "/doc/vocabularium/verkeersmetingen/erkendestandaard/2024-04-17",
     "type": "voc",
-    "dummy": "005"
+    "dummy": "006"
   }
 ]
