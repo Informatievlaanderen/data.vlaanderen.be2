@@ -90,15 +90,15 @@
     "dummy": "001"
   },
   {
-    "urlref": "/doc/vocabularium/mobiliteitsbudget/ontwerpstandaard/toolchain4",
+    "urlref": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-moBurgers",
     "branchtag": "main",
     "name": "mobiliteitsbudget",
     "filename": "config/mobiliteitsbudget-voc.json",
-    "directory": "/doc/vocabularium/mobiliteitsbudget/ontwerpstandaard/toolchain4",
+    "directory": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
     },
-    "dummy": "001"
+    "dummy": "002"
   }
 ]
