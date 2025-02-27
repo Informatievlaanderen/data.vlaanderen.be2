@@ -107,7 +107,13 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/2025-01-09"
     },
-    "dummy": "25"
+    "contextgenerator": {
+    "parameters": "-c -l label"
+    },
+    "shaclgenerator": {
+    "parameters": "-m individual -c 'uniqueLanguages' -c 'nodeKind'"
+    },
+    "dummy": "26"
   },
   {
     "urlref": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-02-18",
@@ -119,18 +125,18 @@
     "navigation": {
       "prev": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-01-09"
     },
-    "dummy": "25"
+    "dummy": "26"
   },
   {
         "urlref": "/doc/applicatieprofiel/energiehuis/notawerkgroep",
         "seealso": "/doc/applicatieprofiel/energiehuis/notawerkgroep/2025-02-18",
         "type": "ap",
-        "dummy": "25"
+        "dummy": "26"
   },
   {
         "urlref": "/ns/energiehuis",
         "seealso": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-02-18",
         "type": "voc",
-        "dummy": "25"
+        "dummy": "26"
   }
 ]
