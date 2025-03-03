@@ -149,6 +149,18 @@
     "navigation": {
       "prev": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-01-09"
     },
+    "dummy": "003"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/test",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis",
+    "branchtag": "main-kristof",
+    "name": "energiehuis",
+    "filename": "config/energiehuis-ap.json",
+    "directory": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/2025-01-09"
+    },
     "dummy": "002"
   }
 ]
