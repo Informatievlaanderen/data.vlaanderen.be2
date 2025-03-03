@@ -78,27 +78,27 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/mobiliteitsbudget/ontwerpstandaard/toolchain4",
+    "urlref": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-moBurgers",
     "branchtag": "main",
     "name": "mobiliteitsbudget-ap",
     "filename": "config/mobiliteitsbudget-ap.json",
-    "directory": "/doc/applicatieprofiel/mobiliteitsbudget/ontwerpstandaard/toolchain4",
+    "directory": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
     },
-    "dummy": "001"
+    "dummy": "007"
   },
   {
-    "urlref": "/doc/vocabularium/mobiliteitsbudget/ontwerpstandaard/toolchain4",
+    "urlref": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-moBurgers",
     "branchtag": "main",
     "name": "mobiliteitsbudget",
     "filename": "config/mobiliteitsbudget-voc.json",
-    "directory": "/doc/vocabularium/mobiliteitsbudget/ontwerpstandaard/toolchain4",
+    "directory": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
     },
-    "dummy": "001"
+    "dummy": "006"
   }
 ]
