@@ -100,5 +100,29 @@
       "prev": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
     },
     "dummy": "006"
+  },
+  {
+    "urlref": "/doc/vocabularium/mobiliteitsbudget/",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-moBurgers",
+    "branchtag": "main",
+    "name": "mobiliteitsbudget",
+    "filename": "config/mobiliteitsbudget-voc.json",
+    "directory": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
+    },
+    "dummy": "006"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteitsbudget/",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-moBurgers",
+    "branchtag": "main",
+    "name": "mobiliteitsbudget-ap",
+    "filename": "config/mobiliteitsbudget-ap.json",
+    "directory": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
+    },
+    "dummy": "007"
   }
 ]
