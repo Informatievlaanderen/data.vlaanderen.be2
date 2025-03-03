@@ -6,7 +6,7 @@
     "name": "mobiliteitsbudget-ap",
     "filename": "config/mobiliteitsbudget-ap.json",
     "disabled": false,
-    "dummy": "011",
+    "dummy": "012",
     "navigation": {},
     "type": "raw",
     "directory": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
@@ -17,25 +17,8 @@
       "name": "mobiliteitsbudget-ap",
       "filename": "config/mobiliteitsbudget-ap.json",
       "disabled": false,
-      "dummy": "011",
+      "dummy": "012",
       "navigation": {}
-    }
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/mobiliteitsbudget",
-    "seealso": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
-    "type": "raw",
-    "disabled": false,
-    "dummy": "011",
-    "directory": "/doc/applicatieprofiel/mobiliteitsbudget",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/mobiliteitsbudget",
-      "seealso": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
-      "type": "ap",
-      "disabled": false,
-      "dummy": "011"
     }
   },
   {
@@ -45,7 +28,7 @@
     "name": "mobiliteitsbudget",
     "filename": "config/mobiliteitsbudget-voc.json",
     "disabled": false,
-    "dummy": "011",
+    "dummy": "012",
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
@@ -56,73 +39,53 @@
       "name": "mobiliteitsbudget",
       "filename": "config/mobiliteitsbudget-voc.json",
       "disabled": false,
-      "dummy": "011",
+      "dummy": "012",
       "navigation": {}
     }
   },
   {
-    "urlref": "/ns/mobiliteitsbudget",
-    "seealso": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
-    "type": "raw",
+    "urlref": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/2025-02-06",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-moBurgers",
+    "branchtag": "erkend-2025-02-06_001",
+    "name": "mobiliteitsbudget-ap",
+    "filename": "config/mobiliteitsbudget-ap.json",
+    "directory": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/2025-02-06",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
+    },
+    "dummy": "008"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteitsbudget",
+    "seealso": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/2025-02-06",
+    "type": "ap",
     "disabled": false,
-    "dummy": "011",
-    "directory": "/ns/mobiliteitsbudget",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/mobiliteitsbudget",
-      "seealso": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
-      "type": "voc",
-      "disabled": false,
-      "dummy": "011"
-    }
+    "dummy": "008"
   },
   {
-    "urlref": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/toolchain4",
+    "urlref": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/2025-02-06",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-moBurgers",
-    "branchtag": "main",
-    "name": "mobiliteitsbudget-ap",
-    "filename": "config/mobiliteitsbudget-ap.json",
-    "directory": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/toolchain4",
-    "navigation": {
-      "prev": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
-    },
-    "dummy": "007"
-  },
-  {
-    "urlref": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/toolchain4",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-moBurgers",
-    "branchtag": "main",
+    "branchtag": "erkend-2025-02-06_001",
     "name": "mobiliteitsbudget",
     "filename": "config/mobiliteitsbudget-voc.json",
-    "directory": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/toolchain4",
+    "directory": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/2025-02-06",
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
     },
-    "dummy": "006"
+    "dummy": "008"
   },
   {
-    "urlref": "/doc/vocabularium/mobiliteitsbudget/",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-moBurgers",
-    "branchtag": "main",
-    "name": "mobiliteitsbudget",
-    "filename": "config/mobiliteitsbudget-voc.json",
-    "directory": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/toolchain4",
-    "navigation": {
-      "prev": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
-    },
-    "dummy": "006"
+    "urlref": "/doc/vocabularium/mobiliteitsbudget",
+    "seealso": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/2025-02-06",
+    "type": "voc",
+    "disabled": false,
+    "dummy": "008"
   },
   {
-    "urlref": "/doc/applicatieprofiel/mobiliteitsbudget/",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-moBurgers",
-    "branchtag": "main",
-    "name": "mobiliteitsbudget-ap",
-    "filename": "config/mobiliteitsbudget-ap.json",
-    "directory": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/toolchain4",
-    "navigation": {
-      "prev": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
-    },
-    "dummy": "007"
+    "urlref": "/ns/mobiliteitsbudget",
+    "seealso": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/2025-02-06",
+    "type": "voc",
+    "disabled": false,
+    "dummy": "012"
   }
 ]
