@@ -1,4 +1,21 @@
 [
+  { "urlref": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur",
+      "branchtag": "master",
+      "name": "fietsinfrastructuur-ap",
+      "filename": "config/fietsinfrastructuur-ap.json",
+      "navigation": {},
+      "dummy": "01"
+  },
+  {
+      "urlref": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur",
+      "branchtag": "master",
+      "name": "fiets",
+      "filename": "config/fietsinfrastructuur-voc.json",
+      "navigation": {},
+      "dummy": "01"
+  },
   {
     "urlref": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
