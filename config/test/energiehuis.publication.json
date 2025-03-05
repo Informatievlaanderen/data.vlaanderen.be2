@@ -149,7 +149,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-01-09"
     },
-    "dummy": "004"
+    "dummy": "005"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/test",
@@ -161,7 +161,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/2025-01-09"
     },
-    "dummy": "004",
+    "dummy": "005",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
       }
