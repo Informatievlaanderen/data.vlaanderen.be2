@@ -20,9 +20,9 @@ jobs:
           command: $PWD/scripts/findPublicationsToUpdate.sh /tmp/workspace $PWD/config/publication.json $PWD/
       - run:
           command: $PWD/scripts/checkoutRepositories.sh /tmp/workspace $PWD/config/publication.json $PWD/config
-#      - run:
-#          command: $PWD/scripts/upgrade_config-4.sh /tmp/workspace $PWD/config 
-#          This is executed in next step
+      #      - run:
+      #          command: $PWD/scripts/upgrade_config-4.sh /tmp/workspace $PWD/config
+      #          This is executed in next step
       - run: if [ -e /tmp/workspace/checkouts.txt ] ; then cat /tmp/workspace/checkouts.txt ; fi
       - run: if [ -e /tmp/workspace/rawcheckouts.txt ] ; then cat /tmp/workspace/rawcheckouts.txt ; fi
       - run: if [ -e /home/circleci/project/changes.txt ] ; then cat /home/circleci/project/changes.txt ; fi
@@ -53,12 +53,12 @@ jobs:
             touch /tmp/workspace/report4/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/ea-converter@1.0.0
+          command: sudo npm install --global @oslo-flanders/ea-converter@beta
       - run:
           name: install software stakeholders
-          command: sudo npm install --global @oslo-flanders/stakeholders-converter@1.0.0
+          command: sudo npm install --global @oslo-flanders/stakeholders-converter
       - run:
-          name: upgrade configs to this toolchain 
+          name: upgrade configs to this toolchain
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             ${CIRCLEWKD}/scripts/upgrade_config-4.sh /tmp/workspace ${CIRCLEWKD}/config
@@ -151,8 +151,8 @@ jobs:
       - run:
           name: install software
           command: |
-            sudo npm install --global @oslo-flanders/json-webuniversum-generator@1.0.0
-            sudo npm install --global @oslo-flanders/html-generator@1.0.0
+            sudo npm install --global @oslo-flanders/json-webuniversum-generator
+            sudo npm install --global @oslo-flanders/html-generator
       - run:
           name: Render HTML version of merged json file (a)
           command: |
@@ -185,16 +185,16 @@ jobs:
             touch /tmp/workspace/report4/respec/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/html-respec-generator@1.0.0
+          command: sudo npm install --global @oslo-flanders/html-respec-generator
       - run:
           name: Render HTML version of merged json file (a)
           command: |
             mkdir -p /tmp/workspace/target /tmp/workspace/reporthtml
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace respec ${CIRCLEWKD}/config
-#      - run:
-#          name: copy the site-skeleton for the html -- XXX to be activated when only using this as hmtl renderer / or updated with a target to disambiguate 
-#          command: $PWD/scripts/copy_skeleton.sh
+      #      - run:
+      #          name: copy the site-skeleton for the html -- XXX to be activated when only using this as hmtl renderer / or updated with a target to disambiguate
+      #          command: $PWD/scripts/copy_skeleton.sh
       - run:
           name: List the files which have been created
           command: |
@@ -218,9 +218,9 @@ jobs:
             touch /tmp/workspace/report4/rdf/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/rdf-vocabulary-generator@1.0.0
+          command: sudo npm install --global @oslo-flanders/rdf-vocabulary-generator
       - run:
-          name: Render RDF version 
+          name: Render RDF version
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace rdf ${CIRCLEWKD}/config
@@ -247,7 +247,7 @@ jobs:
             touch /tmp/workspace/report4/shacl/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/shacl-template-generator@1.0.0
+          command: sudo npm install --global @oslo-flanders/shacl-template-generator
       - run:
           name: Render SHACL version of merged json file (a)
           command: |
@@ -277,7 +277,7 @@ jobs:
             touch /tmp/workspace/report4/context/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/jsonld-context-generator@1.0.0
+          command: sudo npm install --global @oslo-flanders/jsonld-context-generator
       - run:
           name: Render JSONLD context of merged json file (a)
           command: |
@@ -496,12 +496,12 @@ jobs:
           command: |
             cp -R site-skeleton/* /tmp/generated/
       - run:
-          name: deploy statistics 
+          name: deploy statistics
           command: |
-           export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-           pushd ${CIRCLEWKD}/statistics
-           ./deploy.sh ${CIRCLEWKD}/config /tmp/generated
-           popd
+            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            pushd ${CIRCLEWKD}/statistics
+            ./deploy.sh ${CIRCLEWKD}/config /tmp/generated
+            popd
       - run:
           name: clean report directory
           working_directory: /tmp/workspace/report4
@@ -529,13 +529,13 @@ jobs:
           command: |
             ls -1
             if [ -d autotranslation ] ; then tar -zcf autotranslation.tgz autotranslation ; cp autotranslation.tgz /tmp/generated/autotranslation.tgz ; fi
-#      - run:
-#          name: check if all publication points are generated
-#          working_directory: /tmp/generated
-#          command: |
-#            ls -al *
-#            if [ -d report ] ; then ls -al report/* || ls -al report ; fi
-#            find report
+      #      - run:
+      #          name: check if all publication points are generated
+      #          working_directory: /tmp/generated
+      #          command: |
+      #            ls -al *
+      #            if [ -d report ] ; then ls -al report/* || ls -al report ; fi
+      #            find report
       - run:
           name: check the existence of all publication points
           command: |
@@ -546,7 +546,7 @@ jobs:
           command: |
             $PWD/scripts/remove_obsolete_publicationpoints.sh $PWD/config /tmp/generated false > /tmp/generated/report4/support_publicationpoints.report.md
       - run:
-          name: make summary 
+          name: make summary
           command: |
             rm -rf /tmp/generated/report4/publicationpoint.report.md
             $PWD/scripts/render_publicationpointsstatus.sh /tmp/generated/report4/publicationpoint.report.md

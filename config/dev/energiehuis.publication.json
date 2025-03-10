@@ -96,5 +96,32 @@
       "prev": "/doc/vocabularium/energiehuis/ontwerpstandaard/2024-12-03"
     },
     "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/energiehuis/ontwerpstandaard/test",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis",
+    "branchtag": "main-kristof",
+    "name": "energiehuis",
+    "filename": "config/energiehuis-voc.json",
+    "directory": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-02-18",
+    "navigation": {
+      "prev": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-01-09"
+    },
+    "dummy": "008"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/test",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis",
+    "branchtag": "main-kristof",
+    "name": "energiehuis",
+    "filename": "config/energiehuis-ap.json",
+    "directory": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/2025-01-09"
+    },
+    "dummy": "007",
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    }
   }
 ]
