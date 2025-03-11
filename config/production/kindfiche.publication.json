@@ -1,6 +1,6 @@
 [
   {
-    "urlref": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
+    "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2024-06-03",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "kindfiche-ap",
@@ -9,9 +9,9 @@
     "navigation": {},
     "dummy": "011",
     "type": "raw",
-    "directory": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
+    "directory": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2024-06-03",
     "original": {
-      "urlref": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
+      "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2024-06-03",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
       "branchtag": "ontwerpstandaard_2024-06-03_001",
       "name": "kindfiche-ap",
@@ -22,32 +22,32 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/kindfiche",
-    "seealso": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
+    "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen",
+    "seealso": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2024-06-03",
     "disabled": false,
     "type": "raw",
     "dummy": "011",
-    "directory": "/doc/applicatieprofiel/kindfiche",
+    "directory": "/doc/applicatieprofiel/dienstverlening-aan-personen",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "original": {
-      "urlref": "/doc/applicatieprofiel/kindfiche",
-      "seealso": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
+      "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen",
+      "seealso": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2024-06-03",
       "disabled": false,
       "type": "ap",
       "dummy": "011"
     }
   },
   {
-    "urlref": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
+    "urlref": "/doc/vocabularium/dienstverlening-aan-personen/ontwerpstandaard/2024-06-03",
     "disabled": false,
     "type": "raw",
     "dummy": "011",
-    "directory": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
+    "directory": "/doc/vocabularium/dienstverlening-aan-personen/ontwerpstandaard/2024-06-03",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "original": {
-      "urlref": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
+      "urlref": "/doc/vocabularium/dienstverlening-aan-personen/ontwerpstandaard/2024-06-03",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
       "branchtag": "ontwerpstandaard_2024-06-03_001",
       "name": "kindfiche",
@@ -74,14 +74,14 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/toolchain4",
+    "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
     "branchtag": "main",
     "name": "kindfiche-ap",
     "filename": "config/kindfiche-ap.json",
-    "directory": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/toolchain4",
+    "directory": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/toolchain4",
     "navigation": {
-      "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03"
+      "prev": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2024-06-03"
     },
     "dummy": "001"
   },
@@ -96,5 +96,12 @@
       "prev": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03"
     },
     "dummy": "001"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen",
+    "seealso": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2024-06-03",
+    "type": "ap",
+    "disabled": false,
+    "dummy": "008"
   }
 ]
