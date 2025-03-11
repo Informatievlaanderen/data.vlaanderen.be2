@@ -46,46 +46,46 @@
   {
     "urlref": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/2025-02-06",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-moBurgers",
-    "branchtag": "erkend-2025-02-06_001",
+    "branchtag": "erkend-2025-02-06_002",
     "name": "mobiliteitsbudget-ap",
     "filename": "config/mobiliteitsbudget-ap.json",
     "directory": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/2025-02-06",
     "navigation": {
       "prev": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
     },
-    "dummy": "008"
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/mobiliteitsbudget",
-    "seealso": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/2025-02-06",
-    "type": "ap",
-    "disabled": false,
-    "dummy": "008"
+    "dummy": "009"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/2025-02-06",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-moBurgers",
-    "branchtag": "erkend-2025-02-06_001",
+    "branchtag": "erkend-2025-02-06_002",
     "name": "mobiliteitsbudget",
     "filename": "config/mobiliteitsbudget-voc.json",
     "directory": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/2025-02-06",
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
     },
-    "dummy": "008"
+    "dummy": "009"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteitsbudget",
+    "seealso": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/2025-02-06",
+    "type": "ap",
+    "disabled": false,
+    "dummy": "009"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteitsbudget",
     "seealso": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/2025-02-06",
     "type": "voc",
     "disabled": false,
-    "dummy": "008"
+    "dummy": "009"
   },
   {
     "urlref": "/ns/mobiliteitsbudget",
     "seealso": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/2025-02-06",
     "type": "voc",
     "disabled": false,
-    "dummy": "012"
+    "dummy": "009"
   }
 ]
