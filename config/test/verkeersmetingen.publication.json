@@ -53,7 +53,7 @@
   {
     "urlref": "/doc/applicatieprofiel/verkeersmetingen/erkendestandaard/2024-04-17",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-verkeersmetingen",
-    "branchtag": "main",
+    "branchtag": "erkend-2024-04-17",
     "directory": "/doc/applicatieprofiel/verkeersmetingen/erkendestandaard/2024-04-17",
     "name": "Verkeersmetingen-ap",
     "filename": "config/verkeersmetingen.json",
@@ -121,7 +121,7 @@
   {
     "urlref": "/doc/vocabularium/verkeersmetingen/erkendestandaard/2024-04-17",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-verkeersmetingen",
-    "branchtag": "main",
+    "branchtag": "erkend-2024-04-17",
     "name": "verkeersmetingen",
     "filename": "config/verkeersmetingen-voc.json",
     "navigation": {
