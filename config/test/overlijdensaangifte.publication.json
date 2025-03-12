@@ -112,9 +112,9 @@
     "dummy": "029"
   },
   {
-    "urlref": "/doc/vocabularium/gezondheidstoestand/ontwerpstandaard/test",
+    "urlref": "/doc/vocabularium/gezondheidstoestand/ontwerpstandaard/2025-03-12",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-overlijdensaangifte",
-    "branchtag": "main-kristof",
+    "branchtag": "main",
     "name": "gezondheidstoestand",
     "filename": "config/gezondheidstoestand-voc.json",
     "disabled": false,
