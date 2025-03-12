@@ -57,23 +57,6 @@
     }
   },
   {
-    "urlref": "/ns/kindfiche",
-    "seealso": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
-    "disabled": false,
-    "type": "raw",
-    "dummy": "011",
-    "directory": "/ns/kindfiche",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/kindfiche",
-      "seealso": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
-      "disabled": false,
-      "type": "voc",
-      "dummy": "011"
-    }
-  },
-  {
     "urlref": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
     "branchtag": "main",
@@ -84,17 +67,5 @@
       "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03"
     },
     "dummy": "002"
-  },
-  {
-    "urlref": "/doc/vocabularium/kindfiche/ontwerpstandaard/toolchain4",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
-    "branchtag": "main",
-    "name": "kindfiche",
-    "filename": "config/kindfiche-voc.json",
-    "directory": "/doc/vocabularium/kindfiche/ontwerpstandaard/toolchain4",
-    "navigation": {
-      "prev": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03"
-    },
-    "dummy": "010"
   }
 ]
