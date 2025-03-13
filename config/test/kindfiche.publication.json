@@ -57,12 +57,12 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/toolchain4",
+    "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
     "branchtag": "main",
-    "name": "kindfiche-ap",
-    "filename": "config/kindfiche-ap.json",
-    "directory": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/toolchain4",
+    "name": "dienstverlening-aan-personen-ap",
+    "filename": "config/dienstverlening-aan-personen-ap.json",
+    "directory": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03"
     },
