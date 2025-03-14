@@ -8,7 +8,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluitvorming/kandidaatstandaard/2020-10-01"
     },
-    "dummy": "trigger",
+    "dummy": "1",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04",
     "original": {
@@ -135,6 +135,15 @@
       "directory": "/doc/applicatieprofiel/besluitvorming/ontwerpstandaard/2020-02-26"
     }
   },
+
+  {
+      "urlref": "/doc/applicatieprofiel/besluitvorming/",
+      "seealso": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04",
+      "type": "ap"
+  },
+
+
+
   {
     "urlref": "/doc/applicatieprofiel/besluit-subsidie/ontwerpstandaard/2019-12-02",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
@@ -173,24 +182,8 @@
       "branchtag": "production"
     }
   },
-  {
-    "urlref": "/doc/applicatieprofiel/besluitvorming/",
-    "seealso": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04",
-    "type": "raw",
-    "dummy": "dimi-2021-03-04-2",
-    "directory": "/doc/applicatieprofiel/besluitvorming/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/besluitvorming/",
-      "seealso": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04",
-      "type": "raw",
-      "dummy": "dimi-2021-03-04-2",
-      "directory": "/doc/applicatieprofiel/besluitvorming/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
-  },
+
+
   {
     "urlref": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
@@ -200,7 +193,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/besluitvorming/kandidaatstandaard/2020-10-01"
     },
-    "dummy": "001",
+    "dummy": "002",
     "type": "raw",
     "directory": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04",
     "original": {
@@ -330,8 +323,7 @@
   {
     "urlref": "/ns/besluitvorming",
     "seealso": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04",
-    "type": "voc",
-    "dummy": "002"
+    "type": "voc"
   },
 
 
@@ -397,7 +389,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04"
     },
-    "dummy": "002"
+    "dummy": "003"
   },
   {
     "urlref": "/doc/vocabularium/besluitvorming/ontwerpstandaard/toolchain4",
@@ -409,7 +401,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04"
     },
-    "dummy": "001"
+    "dummy": "003"
   }
 
 
