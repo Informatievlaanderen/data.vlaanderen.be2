@@ -258,7 +258,7 @@
     "urlref": "/doc/applicatieprofiel/begraafplaats/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
-    "name": "openbaardomein",
+    "name": "begraafplaatsen-ap",
     "filename": "config/begraafplaats.json",
     "directory": "/doc/applicatieprofiel/begraafplaats/ontwerpstandaard/toolchain4",
     "navigation": {
@@ -270,7 +270,7 @@
     "urlref": "/doc/applicatieprofiel/begraafplaatsenbeheer/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
-    "name": "openbaardomein",
+    "name": "begraafplaatsenbeheer-ap",
     "filename": "config/begraafplaats.json",
     "directory": "/doc/applicatieprofiel/begraafplaatsenbeheer/ontwerpstandaard/toolchain4",
     "navigation": {
@@ -282,7 +282,7 @@
     "urlref": "/doc/vocabularium/openbaardomein/begraafplaats/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
-    "name": "openbaardomein",
+    "name": "begraafplaats",
     "filename": "config/begraafplaats.json",
     "directory": "/doc/vocabularium/openbaardomein/begraafplaats/ontwerpstandaard/toolchain4",
     "navigation": {
