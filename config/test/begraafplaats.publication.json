@@ -259,7 +259,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "openbaardomein",
-    "filename": "config/eap-mapping.json",
+    "filename": "config/begraafplaats.json",
     "directory": "/doc/applicatieprofiel/begraafplaats/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/begraafplaats/standaard/2018-11-27"
@@ -271,7 +271,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "openbaardomein",
-    "filename": "config/eap-mapping.json",
+    "filename": "config/begraafplaats.json",
     "directory": "/doc/applicatieprofiel/begraafplaatsenbeheer/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/begraafplaatsenbeheer/standaard/2018-11-27"
@@ -283,7 +283,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "openbaardomein",
-    "filename": "config/eap-mapping.json",
+    "filename": "config/begraafplaats.json",
     "directory": "/doc/vocabularium/openbaardomein/begraafplaats/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/begraafplaats/standaard/2018-11-27"
