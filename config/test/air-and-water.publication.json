@@ -27,7 +27,6 @@
     "branchtag": "master",
     "name": "OSLO-airAndWater-Core-ap",
     "filename": "config/OSLO-AirAndWater-Core-AP.datavlaanderen.json",
-    "directory": "/doc/applicatieprofiel/AirAndWater/Core/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/AirAndWater/Core/ontwerpstandaard/2021-10-01"
     },
@@ -39,7 +38,6 @@
     "branchtag": "master",
     "name": "OSLO-airAndWater-Air-ap",
     "filename": "config/OSLO-AirAndWater-Air-AP.json",
-    "directory": "/doc/applicatieprofiel/AirAndWater/Air/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/AirAndWater/Air/ontwerpstandaard/2021-04-16"
     },
@@ -51,7 +49,6 @@
     "branchtag": "master",
     "name": "OSLO-airAndWater-Water-ap",
     "filename": "config/OSLO-AirAndWater-Water-AP.json",
-    "directory": "/doc/applicatieprofiel/AirAndWater/Water/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/AirAndWater/Water/ontwerpstandaard/2021-04-16"
     },

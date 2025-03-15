@@ -145,7 +145,6 @@
     "branchtag": "master",
     "name": "adres",
     "filename": "config/adres.json",
-    "directory": "/doc/vocabularium/adres/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/adres/standaard/2018-07-03"
     },
@@ -157,7 +156,6 @@
     "branchtag": "master",
     "name": "adressenregister",
     "filename": "config/adressenregister.json",
-    "directory": "/doc/applicatieprofiel/adresregister/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald"
     },

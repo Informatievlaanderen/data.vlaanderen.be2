@@ -61,7 +61,6 @@
     "branchtag": "master",
     "name": "wetgeving",
     "filename": "config/wetgeving.json",
-    "directory": "/doc/vocabularium/wetgeving/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald"
     },
