@@ -33,7 +33,6 @@
     "branchtag": "master",
     "name": "besluit-publicatie",
     "filename": "config/besluit-publicatie.json",
-    "directory": "/doc/applicatieprofiel/besluit-publicatie/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluit-publicatie/standaard/2018-07-20"
     },

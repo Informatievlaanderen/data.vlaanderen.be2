@@ -34,7 +34,6 @@
     "branchtag": "master",
     "name": "bestuur",
     "filename": "config/bestuur.json",
-    "directory": "/doc/vocabularium/bestuur/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald"
     },

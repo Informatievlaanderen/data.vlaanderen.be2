@@ -82,7 +82,6 @@
     "branchtag": "master",
     "name": "besluit-mobiliteit-ap",
     "filename": "config/besluit-mobiliteit-ap.json",
-    "directory": "/doc/applicatieprofiel/besluit-mobiliteit/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluit-mobiliteit/kandidaat-standaard/2025-02-04"
     },

@@ -372,7 +372,6 @@
     "branchtag": "master",
     "name": "besluitvorming-ap",
     "filename": "config/besluitvorming-ap.json",
-    "directory": "/doc/applicatieprofiel/besluitvorming/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04"
     },
@@ -384,7 +383,6 @@
     "branchtag": "master",
     "name": "besluitvorming",
     "filename": "config/besluitvorming-voc.json",
-    "directory": "/doc/vocabularium/besluitvorming/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04"
     },
