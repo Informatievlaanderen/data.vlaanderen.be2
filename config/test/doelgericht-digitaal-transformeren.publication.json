@@ -173,7 +173,6 @@
     "branchtag": "master",
     "name": "DoelgerichtDigitaalTransformeren-ap",
     "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
-    "directory": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01"
     },
@@ -365,7 +364,6 @@
     "branchtag": "master",
     "name": "DoelgerichtDigitaalTransformeren-ap",
     "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
-    "directory": "/doc/applicatieprofiel/cultuurparticipatie/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-09-11"
     },
@@ -377,7 +375,6 @@
     "branchtag": "master",
     "name": "DoelgerichtDigitaalTransformeren-voc",
     "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
-    "directory": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11"
     },

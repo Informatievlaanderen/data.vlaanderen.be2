@@ -131,7 +131,6 @@
     "branchtag": "master",
     "name": "Feitelijke-Verenigingen-ap",
     "filename": "config/Feitelijke-Verenigingen-ap.json",
-    "directory": "/doc/applicatieprofiel/FeitelijkeVerenigingen/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/FeitelijkeVerenigingen/kandidaatstandaard/2021-06-22"
     },
@@ -143,7 +142,6 @@
     "branchtag": "master",
     "name": "FeitelijkeVerenigingen",
     "filename": "config/Feitelijke-Verenigingen-voc.json",
-    "directory": "/doc/vocabularium/FeitelijkeVerenigingen/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/FeitelijkeVerenigingen/kandidaatstandaard/2021-06-22"
     },

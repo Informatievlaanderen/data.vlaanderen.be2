@@ -121,7 +121,6 @@
     "branchtag": "main",
     "name": "DigitaleWatermeter-ap",
     "filename": "config/mijn-applicatieprofiel-ap.json",
-    "directory": "/doc/applicatieprofiel/DigitaleWatermeter/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20"
     },
@@ -133,7 +132,6 @@
     "branchtag": "main",
     "name": "meters",
     "filename": "config/mijn-vocabularium-voc.json",
-    "directory": "/doc/vocabularium/DigitaleWatermeter/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/DigitaleWatermeter/kandidaatstandaard/2024-08-30"
     },

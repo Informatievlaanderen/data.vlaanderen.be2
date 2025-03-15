@@ -243,7 +243,6 @@
     "branchtag": "master",
     "name": "dossier-ap",
     "filename": "config/dossier-ap.json",
-    "directory": "/doc/applicatieprofiel/dossier/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/dossier/erkendestandaard/2023-09-25"
     },
@@ -255,7 +254,6 @@
     "branchtag": "master",
     "name": "dossier",
     "filename": "config/dossier-voc.json",
-    "directory": "/doc/vocabularium/dossier/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/dossier/erkendestandaard/2023-09-25"
     },

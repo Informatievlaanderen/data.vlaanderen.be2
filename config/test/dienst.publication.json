@@ -255,7 +255,6 @@
     "branchtag": "master",
     "name": "dienst-transactiemodel",
     "filename": "config/dienst-transactiemodel.json",
-    "directory": "/doc/applicatieprofiel/dienst-transactiemodel/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/dienst-transactiemodel/standaard/2019-02-07"
     },
@@ -267,7 +266,6 @@
     "branchtag": "master",
     "name": "dienstencataloog",
     "filename": "config/dienstencataloog.json",
-    "directory": "/doc/applicatieprofiel/dienstencataloog/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/dienstencataloog/kandidaatstandaard/niet-bepaald"
     },
@@ -279,7 +277,6 @@
     "branchtag": "master",
     "name": "dienst",
     "filename": "config/dienst.json",
-    "directory": "/doc/vocabularium/dienst/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/dienst/standaard/2018-07-03"
     },
@@ -291,7 +288,6 @@
     "branchtag": "master",
     "name": "transactie",
     "filename": "config/transactie.json",
-    "directory": "/doc/vocabularium/transactie/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/transactie/standaard/2019-02-07"
     },
