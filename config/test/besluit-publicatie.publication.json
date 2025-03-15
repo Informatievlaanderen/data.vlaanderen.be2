@@ -23,9 +23,9 @@
     }
   },
   {
-     "urlref": "/doc/applicatieprofiel/besluit-publicatie",
-     "seealso": "/doc/applicatieprofiel/besluit-publicatie/standaard/2018-07-20",
-     "type" : "ap"
+    "urlref": "/doc/applicatieprofiel/besluit-publicatie",
+    "seealso": "/doc/applicatieprofiel/besluit-publicatie/standaard/2018-07-20",
+    "type": "ap"
   },
   {
     "urlref": "/doc/applicatieprofiel/besluit-publicatie/ontwerpstandaard/toolchain4",
@@ -37,6 +37,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluit-publicatie/standaard/2018-07-20"
     },
-    "dummy": "002"
+    "dummy": "2025-03-15 21:47:08"
   }
 ]

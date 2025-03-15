@@ -135,15 +135,11 @@
       "directory": "/doc/applicatieprofiel/besluitvorming/ontwerpstandaard/2020-02-26"
     }
   },
-
   {
-      "urlref": "/doc/applicatieprofiel/besluitvorming/",
-      "seealso": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04",
-      "type": "ap"
+    "urlref": "/doc/applicatieprofiel/besluitvorming/",
+    "seealso": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04",
+    "type": "ap"
   },
-
-
-
   {
     "urlref": "/doc/applicatieprofiel/besluit-subsidie/ontwerpstandaard/2019-12-02",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
@@ -182,8 +178,6 @@
       "branchtag": "production"
     }
   },
-
-
   {
     "urlref": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
@@ -325,8 +319,6 @@
     "seealso": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04",
     "type": "voc"
   },
-
-
   {
     "urlref": "/doc/vocabularium/besluit/standaard/2018-07-20",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
@@ -353,19 +345,17 @@
     }
   },
   {
-      "urlref": "/doc/vocabularium/besluit/ontwerpstandaard/toolchain4",
-      "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
-      "branchtag": "master",
-      "name": "besluit",
-      "filename": "config/besluit.json",
-      "navigation": {
-        "prev": "/doc/vocabularium/besluit/standaard/2018-07-20"
-      },
-      "dummy": "6",
-      "type": "voc"
+    "urlref": "/doc/vocabularium/besluit/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
+    "branchtag": "master",
+    "name": "besluit",
+    "filename": "config/besluit.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/besluit/standaard/2018-07-20"
+    },
+    "dummy": "2025-03-15 21:47:08",
+    "type": "voc"
   },
-
-
   {
     "urlref": "/doc/vocabularium/besluit",
     "seealso": "/doc/vocabularium/besluit/standaard/2018-07-20",
@@ -376,9 +366,6 @@
     "seealso": "/doc/vocabularium/besluit/standaard/2018-07-20",
     "type": "voc"
   },
-
-
-
   {
     "urlref": "/doc/applicatieprofiel/besluitvorming/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-besluitvorming",
@@ -389,7 +376,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04"
     },
-    "dummy": "007"
+    "dummy": "2025-03-15 21:47:08"
   },
   {
     "urlref": "/doc/vocabularium/besluitvorming/ontwerpstandaard/toolchain4",
@@ -401,8 +388,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04"
     },
-    "dummy": "007"
+    "dummy": "2025-03-15 21:47:08"
   }
-
-
 ]

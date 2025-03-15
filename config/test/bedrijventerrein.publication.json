@@ -101,7 +101,8 @@
     "filename": "config/bedrijventerrein-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/bedrijventerrein/erkendestandaard/2020-06-18"
-    }
+    },
+    "dummy": "2025-03-15 21:47:08"
   },
   {
     "urlref": "/doc/applicatieprofiel/bedrijventerrein",
@@ -189,7 +190,8 @@
     "filename": "config/bedrijventerrein-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/bedrijventerrein/erkendestandaard/2020-06-18"
-    }
+    },
+    "dummy": "2025-03-15 21:47:08"
   },
   {
     "urlref": "/ns/bedrijventerrein",
