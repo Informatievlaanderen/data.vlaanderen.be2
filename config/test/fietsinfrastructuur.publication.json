@@ -92,7 +92,6 @@
     "branchtag": "master",
     "name": "fietsinfrastructuur-ap",
     "filename": "config/fietsinfrastructuur-ap.json",
-    "directory": "/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2021-12-17"
     },
@@ -104,7 +103,6 @@
     "branchtag": "master",
     "name": "fiets",
     "filename": "config/fietsinfrastructuur-voc.json",
-    "directory": "/doc/vocabularium/fietsinfrastructuur/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2021-12-17"
     },

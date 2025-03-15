@@ -97,7 +97,6 @@
     "branchtag": "main",
     "name": "hulp-dienstverlening-gedetineerden-ap",
     "filename": "config/hdg-ap.json",
-    "directory": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18"
     },
@@ -109,7 +108,6 @@
     "branchtag": "main",
     "name": "hulp-dienstverlening-gedetineerden",
     "filename": "config/hdg-voc.json",
-    "directory": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18"
     },

@@ -119,7 +119,6 @@
     "branchtag": "main",
     "name": "kwaliteitWegenEnWegmarkeringen-impl",
     "filename": "config/kwaliteitWegenEnWegmarkeringen-impl.json",
-    "directory": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05"
     },
@@ -131,7 +130,6 @@
     "branchtag": "main",
     "name": "kwaliteit-wegen-en-wegmarkeringen",
     "filename": "config/kwaliteitWegenEnWegmarkeringen-voc.json",
-    "directory": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05"
     },

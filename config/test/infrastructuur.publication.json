@@ -191,7 +191,6 @@
     "branchtag": "master",
     "name": "openbaardomein",
     "filename": "config/eap-mapping.json",
-    "directory": "/doc/applicatieprofiel/infrastructuurelementen/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/infrastructuurelementen/standaard/2018-11-27"
     },
@@ -203,7 +202,6 @@
     "branchtag": "master",
     "name": "openbaardomein",
     "filename": "config/eap-mapping.json",
-    "directory": "/doc/vocabularium/openbaardomein/infrastructuur/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/infrastructuur/standaard/2018-11-27"
     },

@@ -300,7 +300,6 @@
     "branchtag": "master",
     "name": "financieledata-ap",
     "filename": "config/financieledata-ap.json",
-    "directory": "/doc/applicatieprofiel/financiele-rapportering/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/financiele-rapportering/erkendestandaard/2024-04-17"
     },
@@ -312,7 +311,6 @@
     "branchtag": "master",
     "name": "financiele-rapportering",
     "filename": "config/financieledata-voc.json",
-    "directory": "/doc/vocabularium/financiele-rapportering/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/financiele-rapportering/erkendestandaard/2024-04-17"
     },

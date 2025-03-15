@@ -157,7 +157,6 @@
     "branchtag": "master",
     "name": "logies",
     "filename": "config/logies.json",
-    "directory": "/doc/vocabularium/logies/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/logies/erkendestandaard/2019-03-14"
     },
@@ -169,7 +168,6 @@
     "branchtag": "master",
     "name": "logies-basis",
     "filename": "config/logies-basis.json",
-    "directory": "/doc/applicatieprofiel/logies-basis/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/logies-basis/erkendestandaard/2019-03-14"
     },

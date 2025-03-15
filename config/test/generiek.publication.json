@@ -160,7 +160,6 @@
     "branchtag": "zonder-status",
     "name": "generiek-basis",
     "filename": "config/generiek-basis.json",
-    "directory": "/doc/applicatieprofiel/generiek-basis/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01"
     },
@@ -172,7 +171,6 @@
     "branchtag": "zonder-status",
     "name": "generiek",
     "filename": "config/generiek.json",
-    "directory": "/doc/vocabularium/generiek/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/generiek/zonderstatus/2019-07-01"
     },
