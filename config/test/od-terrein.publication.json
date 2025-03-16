@@ -287,18 +287,6 @@
       "type": "ap"
   },
   {
-    "urlref": "/doc/applicatieprofiel/vegetatie-elementen/ontwerpstandaard/toolchain4",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
-    "branchtag": "master",
-    "name": "vegetatie-elementen-ap",
-    "filename": "config/eap-mapping.json",
-    "directory": "/doc/applicatieprofiel/vegetatie-elementen/ontwerpstandaard/toolchain4",
-    "navigation": {
-      "prev": "/doc/applicatieprofiel/vegetatie-elementen/standaard/2018-11-27"
-    },
-    "dummy": "001"
-  },
-  {
       "urlref": "/doc/vocabularium/openbaardomein/vegetatie",
       "seealso": "/doc/vocabularium/openbaardomein/vegetatie/erkendestandaard/2021-09-30",
       "type": "voc",
@@ -311,12 +299,22 @@
       "type": "voc"
   },
   {
+    "urlref": "/doc/applicatieprofiel/vegetatie-elementen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "master",
+    "name": "vegetatie-elementen-ap",
+    "filename": "config/eap-mapping.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/vegetatie-elementen/standaard/2018-11-27"
+    },
+    "dummy": "001"
+  },
+  {
     "urlref": "/doc/vocabularium/openbaardomein/vegetatie/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "vegetatie",
     "filename": "config/eap-mapping.json",
-    "directory": "/doc/vocabularium/openbaardomein/vegetatie/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/vegetatie/standaard/2018-11-27"
     },
@@ -342,7 +340,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30"
     },
-    "dummy": "002"
+    "dummy": "003"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/terreindeel/ontwerpstandaard/toolchain4",
@@ -353,6 +351,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30"
     },
-    "dummy": "002"
+    "dummy": "003"
   }
 ]
