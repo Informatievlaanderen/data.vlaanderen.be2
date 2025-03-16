@@ -25,7 +25,7 @@
     "branchtag": "production",
     "name": "begroeid-voorkomen-ap",
     "filename": "config/eap-mapping.json",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "navigation": {
       "prev": "/doc/applicatieprofiel/begroeid-voorkomen/standaard/2018-11-27"
     },
@@ -173,7 +173,7 @@
     "branchtag": "production",
     "name": "onbegroeid-voorkomen-ap",
     "filename": "config/eap-mapping.json",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "navigation": {
       "prev": "/doc/applicatieprofiel/onbegroeid-voorkomen/standaard/2018-11-27"
     },
@@ -247,7 +247,7 @@
     "branchtag": "production",
     "name": "onbegroeid-voorkomen-voc",
     "filename": "config/eap-mapping.json",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/standaard/2018-11-27"
     },
@@ -273,7 +273,7 @@
     "branchtag": "production",
     "name": "onbegroeid-voorkomen-voc",
     "filename": "config/eap-mapping.json",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/standaard/2018-11-27",
       "next": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/erkendestandaard/2021-09-30"
@@ -303,7 +303,7 @@
     "navigation": {},
     "directory": "/doc/applicatieprofiel/watervoorkomen/standaard/2018-11-27",
     "type": "raw",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "original": {
       "urlref": "/doc/applicatieprofiel/watervoorkomen/standaard/2018-11-27",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -321,7 +321,7 @@
     "branchtag": "production",
     "name": "watervoorkomen-ap",
     "filename": "config/eap-mapping.json",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "navigation": {
       "prev": "/doc/applicatieprofiel/watervoorkomen/standaard/2018-11-27"
     },
@@ -347,7 +347,7 @@
     "branchtag": "production",
     "name": "watervoorkomen-ap",
     "filename": "config/eap-mapping.json",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "navigation": {
       "prev": "/doc/applicatieprofiel/watervoorkomen/standaard/2018-11-27",
       "next": "/doc/applicatieprofiel/watervoorkomen/erkendestandaard/2021-09-30"
@@ -375,7 +375,7 @@
     "branchtag": "production",
     "name": "watervoorkomen-voc",
     "filename": "config/eap-mapping.json",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/watervoorkomen/standaard/2018-11-27",
       "next": "/doc/vocabularium/openbaardomein/watervoorkomen/erkendestandaard/2021-09-30"
@@ -403,7 +403,7 @@
     "branchtag": "production",
     "name": "watervoorkomen-voc",
     "filename": "config/eap-mapping.json",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/watervoorkomen/standaard/2018-11-27"
     },
@@ -431,7 +431,7 @@
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/openbaardomein/watervoorkomen/standaard/2018-11-27",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "original": {
       "urlref": "/doc/vocabularium/openbaardomein/watervoorkomen/standaard/2018-11-27",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -444,174 +444,57 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/begroeid-voorkomen/",
-    "seealso": "/doc/applicatieprofiel/begroeid-voorkomen/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "dummy": "dimi-2021-10-07-2",
-    "directory": "/doc/applicatieprofiel/begroeid-voorkomen/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/applicatieprofiel/begroeid-voorkomen/",
       "seealso": "/doc/applicatieprofiel/begroeid-voorkomen/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "dimi-2021-10-07-2",
-      "directory": "/doc/applicatieprofiel/begroeid-voorkomen/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+      "type": "ap"
   },
   {
-    "urlref": "/doc/vocabularium/openbaardomein/begroeidvoorkomen",
-    "seealso": "/doc/vocabularium/openbaardomein/begroeidvoorkomen/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "directory": "/doc/vocabularium/openbaardomein/begroeidvoorkomen",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "trigger",
-    "original": {
       "urlref": "/doc/vocabularium/openbaardomein/begroeidvoorkomen",
       "seealso": "/doc/vocabularium/openbaardomein/begroeidvoorkomen/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "directory": "/doc/vocabularium/openbaardomein/begroeidvoorkomen",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+      "type": "voc"
   },
   {
-    "urlref": "/ns/openbaardomein/begroeidvoorkomen",
-    "seealso": "/doc/vocabularium/openbaardomein/begroeidvoorkomen/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "directory": "/ns/openbaardomein/begroeidvoorkomen",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "trigger",
-    "original": {
       "urlref": "/ns/openbaardomein/begroeidvoorkomen",
       "seealso": "/doc/vocabularium/openbaardomein/begroeidvoorkomen/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "directory": "/ns/openbaardomein/begroeidvoorkomen",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+      "type": "voc"
   },
   {
-    "urlref": "/doc/applicatieprofiel/onbegroeid-voorkomen/",
-    "seealso": "/doc/applicatieprofiel/onbegroeid-voorkomen/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "dummy": "dimi-2021-10-07-2",
-    "directory": "/doc/applicatieprofiel/onbegroeid-voorkomen/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/applicatieprofiel/onbegroeid-voorkomen/",
       "seealso": "/doc/applicatieprofiel/onbegroeid-voorkomen/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "dimi-2021-10-07-2",
-      "directory": "/doc/applicatieprofiel/onbegroeid-voorkomen/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+      "type": "ap"
   },
   {
-    "urlref": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen",
-    "seealso": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "dummy": "trigger",
-    "directory": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen",
       "seealso": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "trigger",
-      "directory": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+      "type": "voc"
   },
   {
-    "urlref": "/ns/openbaardomein/onbegroeidvoorkomen",
-    "seealso": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "dummy": "trigger",
-    "directory": "/ns/openbaardomein/onbegroeidvoorkomen",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/ns/openbaardomein/onbegroeidvoorkomen",
       "seealso": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "trigger",
-      "directory": "/ns/openbaardomein/onbegroeidvoorkomen",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+      "type": "voc"
   },
   {
-    "urlref": "/doc/applicatieprofiel/watervoorkomen/",
-    "seealso": "/doc/applicatieprofiel/watervoorkomen/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "dummy": "dimi-2021-10-07-2",
-    "directory": "/doc/applicatieprofiel/watervoorkomen/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/applicatieprofiel/watervoorkomen/",
       "seealso": "/doc/applicatieprofiel/watervoorkomen/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "dimi-2021-10-07-2",
-      "directory": "/doc/applicatieprofiel/watervoorkomen/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
+      "type": "ap"
     }
   },
   {
-    "urlref": "/doc/vocabularium/openbaardomein/watervoorkomen",
-    "seealso": "/doc/vocabularium/openbaardomein/watervoorkomen/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "dummy": "trigger",
-    "directory": "/doc/vocabularium/openbaardomein/watervoorkomen",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/vocabularium/openbaardomein/watervoorkomen",
       "seealso": "/doc/vocabularium/openbaardomein/watervoorkomen/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "trigger",
-      "directory": "/doc/vocabularium/openbaardomein/watervoorkomen",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+      "type": "voc"
   },
   {
-    "urlref": "/ns/openbaardomein/watervoorkomen",
-    "seealso": "/doc/vocabularium/openbaardomein/watervoorkomen/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "directory": "/ns/openbaardomein/watervoorkomen",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "trigger",
-    "original": {
       "urlref": "/ns/openbaardomein/watervoorkomen",
       "seealso": "/doc/vocabularium/openbaardomein/watervoorkomen/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "directory": "/ns/openbaardomein/watervoorkomen",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+      "type": "voc"
   },
   {
     "urlref": "/doc/applicatieprofiel/begroeid-voorkomen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "begroeid-voorkomen-ap",
-    "filename": "config/eap-mapping.json",
-    "directory": "/doc/applicatieprofiel/begroeid-voorkomen/ontwerpstandaard/toolchain4",
+    "filename": "config/voorkomen.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/begroeid-voorkomen/erkendestandaard/2021-09-30"
     },
@@ -622,8 +505,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "begroeidvoorkomen",
-    "filename": "config/eap-mapping.json",
-    "directory": "/doc/vocabularium/openbaardomein/begroeidvoorkomen/ontwerpstandaard/toolchain4",
+    "filename": "config/voorkomen.json",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/begroeidvoorkomen/erkendestandaard/2021-09-30"
     },
@@ -634,8 +516,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "onbegroeid-voorkomen-ap",
-    "filename": "config/eap-mapping.json",
-    "directory": "/doc/applicatieprofiel/onbegroeid-voorkomen/ontwerpstandaard/toolchain4",
+    "filename": "config/voorkomen.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/onbegroeid-voorkomen/erkendestandaard/2021-09-30"
     },
@@ -646,8 +527,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "onbegroeidvoorkomen",
-    "filename": "config/eap-mapping.json",
-    "directory": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/ontwerpstandaard/toolchain4",
+    "filename": "config/voorkomen.json",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/erkendestandaard/2021-09-30"
     },
@@ -658,8 +538,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "watervoorkomen-ap",
-    "filename": "config/eap-mapping.json",
-    "directory": "/doc/applicatieprofiel/watervoorkomen/ontwerpstandaard/toolchain4",
+    "filename": "config/voorkomen.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/watervoorkomen/erkendestandaard/2021-09-30"
     },
@@ -670,8 +549,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "watervoorkomen",
-    "filename": "config/eap-mapping.json",
-    "directory": "/doc/vocabularium/openbaardomein/watervoorkomen/ontwerpstandaard/toolchain4",
+    "filename": "config/voorkomen.json",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/watervoorkomen/erkendestandaard/2021-09-30"
     },
