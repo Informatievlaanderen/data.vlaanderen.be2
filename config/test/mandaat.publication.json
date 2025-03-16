@@ -94,7 +94,6 @@
     "branchtag": "master",
     "name": "mandatendatabank",
     "filename": "config/mandatendatabank.json",
-    "directory": "/doc/applicatieprofiel/mandatendatabank/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20"
     },
@@ -106,7 +105,6 @@
     "branchtag": "master",
     "name": "mandaat",
     "filename": "config/mandaat.json",
-    "directory": "/doc/vocabularium/mandaat/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/mandaat/standaard/2018-07-20"
     },

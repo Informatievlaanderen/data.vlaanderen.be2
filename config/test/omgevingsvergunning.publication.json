@@ -131,7 +131,6 @@
     "branchtag": "main",
     "name": "omgevingsvergunning-ap",
     "filename": "config/eap-mapping.json",
-    "directory": "/doc/applicatieprofiel/omgevingsvergunning/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07"
     },
@@ -143,7 +142,6 @@
     "branchtag": "main",
     "name": "omgevingsvergunning",
     "filename": "config/eap-mapping.json",
-    "directory": "/doc/vocabularium/omgevingsvergunning/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
     },

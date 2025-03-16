@@ -83,7 +83,6 @@
     "branchtag": "main",
     "name": "mobiliteitsbudget-ap",
     "filename": "config/mobiliteitsbudget-ap.json",
-    "directory": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
     },
@@ -95,7 +94,6 @@
     "branchtag": "main",
     "name": "mobiliteitsbudget",
     "filename": "config/mobiliteitsbudget-voc.json",
-    "directory": "/doc/vocabularium/mobiliteitsbudget/erkendestandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
     },

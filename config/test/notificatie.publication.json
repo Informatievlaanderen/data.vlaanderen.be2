@@ -286,7 +286,6 @@
     "branchtag": "master",
     "name": "notificatie",
     "filename": "config/notificatie.json",
-    "directory": "/doc/vocabularium/notificatie/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/notificatie/standaard/2019-02-07"
     },
@@ -298,7 +297,6 @@
     "branchtag": "master",
     "name": "notificatie-basis",
     "filename": "config/notificatie-basis.json",
-    "directory": "/doc/applicatieprofiel/notificatie-basis/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07"
     },

@@ -223,7 +223,6 @@
     "branchtag": "master",
     "name": "melding",
     "filename": "config/melding.json",
-    "directory": "/doc/vocabularium/melding/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/melding/standaard/2019-02-07"
     },
@@ -235,7 +234,6 @@
     "branchtag": "master",
     "name": "generieke-terugmeldfaciliteit",
     "filename": "config/generieke-terugmeldfaciliteit.json",
-    "directory": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/standaard/2019-02-07"
     },
@@ -247,7 +245,6 @@
     "branchtag": "master",
     "name": "issue-tracking-voor-burgers-en-organisaties",
     "filename": "config/issue-tracking-voor-burgers-en-organisaties.json",
-    "directory": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07"
     },

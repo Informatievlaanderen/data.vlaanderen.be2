@@ -97,7 +97,6 @@
     "branchtag": "main",
     "name": "mobiliteit-intelligente-toegang-ap",
     "filename": "config/mobiliteit-intelligente-toegang-ap.json",
-    "directory": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
     },
@@ -109,7 +108,6 @@
     "branchtag": "main",
     "name": "mobiliteit-intelligente-toegang",
     "filename": "config/mobiliteit-intelligente-toegang-voc.json",
-    "directory": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
     },

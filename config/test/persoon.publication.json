@@ -177,7 +177,6 @@
     "branchtag": "master",
     "name": "persoon-basis",
     "filename": "config/persoon-basis.json",
-    "directory": "/doc/applicatieprofiel/persoon-basis/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/persoon-basis/kandidaatstandaard/niet-bepaald"
     },
@@ -189,7 +188,6 @@
     "branchtag": "master",
     "name": "persoon",
     "filename": "config/persoon.json",
-    "directory": "/doc/vocabularium/persoon/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/persoon/standaard/2019-07-03"
     },
