@@ -51,7 +51,7 @@
     "navigation": {},
     "directory": "/doc/applicatieprofiel/gebieden/erkendestandaard/2021-09-30",
     "type": "raw",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "original": {
       "urlref": "/doc/applicatieprofiel/gebieden/erkendestandaard/2021-09-30",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -64,22 +64,9 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/gebieden/",
-    "seealso": "/doc/applicatieprofiel/gebieden/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "dummy": "dimi-2021-10-07-2",
-    "directory": "/doc/applicatieprofiel/gebieden/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/applicatieprofiel/gebieden/",
       "seealso": "/doc/applicatieprofiel/gebieden/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "dimi-2021-10-07-2",
-      "directory": "/doc/applicatieprofiel/gebieden/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+      "type": "ap"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/gebied/standaard/2018-11-27",
@@ -133,7 +120,7 @@
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/openbaardomein/gebied/erkendestandaard/2021-09-30",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "original": {
       "urlref": "/doc/vocabularium/openbaardomein/gebied/erkendestandaard/2021-09-30",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -146,51 +133,23 @@
     }
   },
   {
-    "urlref": "/doc/vocabularium/openbaardomein/gebied",
-    "seealso": "/doc/vocabularium/openbaardomein/gebied/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "prefix": "openbaardomein",
-    "dummy": "001",
-    "directory": "/doc/vocabularium/openbaardomein/gebied",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/vocabularium/openbaardomein/gebied",
       "seealso": "/doc/vocabularium/openbaardomein/gebied/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "prefix": "openbaardomein",
-      "dummy": "001",
-      "directory": "/doc/vocabularium/openbaardomein/gebied",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+      "type": "voc",
+      "prefix": "openbaardomein"
   },
   {
-    "urlref": "/ns/openbaardomein/gebied",
-    "seealso": "/doc/vocabularium/openbaardomein/gebied/erkendestandaard/2021-09-30",
-    "prefix": "openbaardomein",
-    "type": "raw",
-    "directory": "/ns/openbaardomein/gebied",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "001",
-    "original": {
       "urlref": "/ns/openbaardomein/gebied",
       "seealso": "/doc/vocabularium/openbaardomein/gebied/erkendestandaard/2021-09-30",
       "prefix": "openbaardomein",
-      "type": "raw",
-      "directory": "/ns/openbaardomein/gebied",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "001"
-    }
+      "type": "voc"
   },
   {
     "urlref": "/doc/applicatieprofiel/gebieden/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "openbaardomein",
-    "filename": "config/eap-mapping.json",
+    "filename": "config/gebied.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/gebieden/standaard/2018-11-27"
     },
@@ -201,7 +160,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "openbaardomein",
-    "filename": "config/eap-mapping.json",
+    "filename": "config/gebied.json",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/gebied/standaard/2018-11-27"
     },

@@ -303,7 +303,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "vegetatie-elementen-ap",
-    "filename": "config/eap-mapping.json",
+    "filename": "config/terrein.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/vegetatie-elementen/standaard/2018-11-27"
     },
@@ -314,7 +314,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "vegetatie",
-    "filename": "config/eap-mapping.json",
+    "filename": "config/terrein.json",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/vegetatie/standaard/2018-11-27"
     },
