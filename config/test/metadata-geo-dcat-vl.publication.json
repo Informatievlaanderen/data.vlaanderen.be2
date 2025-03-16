@@ -68,7 +68,6 @@
     "branchtag": "master",
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
-    "directory": "/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
     },

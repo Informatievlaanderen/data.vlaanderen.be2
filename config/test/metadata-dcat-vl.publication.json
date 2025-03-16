@@ -259,7 +259,6 @@
     "branchtag": "master",
     "name": "DCAT-AP-VL-20",
     "filename": "config/DCAT-AP-VL-20.json",
-    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21"
     },

@@ -197,7 +197,6 @@
     "branchtag": "main",
     "name": "ruimtelijke-indicatoren-ap",
     "filename": "config/ruimtelijke-indicatoren-ap.json",
-    "directory": "/doc/applicatieprofiel/ruimtelijke-indicatoren/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/ruimtelijke-indicatoren/erkendestandaard/2024-12-05"
     },
@@ -209,7 +208,6 @@
     "branchtag": "main",
     "name": "ruimtelijke-indicatoren",
     "filename": "config/ruimtelijke-indicatoren-voc.json",
-    "directory": "/doc/vocabularium/ruimtelijke-indicatoren/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/ruimtelijke-indicatoren/erkendestandaard/2024-12-05"
     },

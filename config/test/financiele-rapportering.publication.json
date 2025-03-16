@@ -322,7 +322,6 @@
     "branchtag": "master",
     "name": "taxonomie-dcjm",
     "filename": "config/financieledata-dcjm-voc.json",
-    "directory": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/erkendestandaard/2024-04-17"
     },

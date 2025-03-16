@@ -411,7 +411,6 @@
     "branchtag": "master",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
-    "directory": "/doc/applicatieprofiel/metadata-dcat/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21"
     },
@@ -423,7 +422,6 @@
     "branchtag": "master",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
-    "directory": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21"
     },

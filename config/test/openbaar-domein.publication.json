@@ -203,7 +203,6 @@
     "branchtag": "master",
     "name": "openbaar-domein-ap",
     "filename": "config/eap-mapping.json",
-    "directory": "/doc/applicatieprofiel/openbaar-domein/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30"
     },
@@ -215,7 +214,6 @@
     "branchtag": "master",
     "name": "openbaardomein",
     "filename": "config/eap-mapping.json",
-    "directory": "/doc/vocabularium/openbaardomein/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30"
     },

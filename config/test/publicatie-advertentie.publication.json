@@ -85,7 +85,6 @@
     "branchtag": "main",
     "name": "mijn-applicatieprofiel-ap",
     "filename": "config/mijn-applicatieprofiel-ap.json",
-    "directory": "/doc/applicatieprofiel/publicatie-advertentie/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/publicatie-advertentie/erkendestandaard/2023-11-09"
     },
@@ -97,7 +96,6 @@
     "branchtag": "main",
     "name": "publicatie",
     "filename": "config/mijn-vocabularium-voc.json",
-    "directory": "/doc/vocabularium/publicatie-advertentie/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/publicatie-advertentie/erkendestandaard/2023-11-09"
     },

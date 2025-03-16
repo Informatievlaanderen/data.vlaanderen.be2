@@ -79,7 +79,6 @@
     "branchtag": "master",
     "name": "loongegevens-ap",
     "filename": "config/loongegevens-ap.json",
-    "directory": "/doc/applicatieprofiel/loongegevens/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/loongegevens/kandidaatstandaard/2022-03-17"
     },
@@ -91,7 +90,6 @@
     "branchtag": "master",
     "name": "loongegevens",
     "filename": "config/loongegevens-voc.json",
-    "directory": "/doc/vocabularium/loongegevens/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/loongegevens/kandidaatstandaard/2022-03-17"
     },

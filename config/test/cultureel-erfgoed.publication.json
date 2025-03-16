@@ -389,7 +389,6 @@
     "branchtag": "master-node-toolchain",
     "name": "cultureel-erfgoed",
     "filename": "config/cultureel-erfgoed-voc.json",
-    "directory": "/doc/vocabularium/cultureel-erfgoed/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/cultureel-erfgoed/erkendestandaard/2021-04-22"
     },
@@ -401,7 +400,6 @@
     "branchtag": "master-node-toolchain",
     "name": "cultureel-erfgoed-object-ap",
     "filename": "config/cultureel-erfgoed-ap.json",
-    "directory": "/doc/applicatieprofiel/cultureel-erfgoed-object/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/cultureel-erfgoed-object/erkendestandaard/2021-04-22"
     },
@@ -413,7 +411,6 @@
     "branchtag": "master-node-toolchain",
     "name": "cultureel-erfgoed-event-ap",
     "filename": "config/cultureel-erfgoed-ap.json",
-    "directory": "/doc/applicatieprofiel/cultureel-erfgoed-event/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/cultureel-erfgoed-event/erkendestandaard/2021-04-22"
     },

@@ -131,7 +131,6 @@
     "branchtag": "main",
     "name": "lokale-economie-ap",
     "filename": "config/lokale-economie-ap.json",
-    "directory": "/doc/applicatieprofiel/lokale-economie/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/lokale-economie/erkendestandaard/2024-12-05"
     },
@@ -143,7 +142,6 @@
     "branchtag": "main",
     "name": "lokale-economie",
     "filename": "config/lokale-economie-voc.json",
-    "directory": "/doc/vocabularium/lokale-economie/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/lokale-economie/erkendestandaard/2024-12-05"
     },

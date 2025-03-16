@@ -62,7 +62,6 @@
     "branchtag": "main",
     "name": "dienstverlening-aan-personen-ap",
     "filename": "config/dienstverlening-aan-personen-ap.json",
-    "directory": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03"
     },
