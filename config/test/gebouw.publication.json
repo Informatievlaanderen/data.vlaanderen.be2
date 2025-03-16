@@ -118,7 +118,8 @@
     "filename": "config/gebouw.json",
     "navigation": {
       "prev": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald"
-    }
+    },
+    "dummy": "2025-03-16 21:02:59"
   },
   {
     "urlref": "/doc/applicatieprofiel/gebouwenregister/ontwerpstandaard/toolchain4",
@@ -128,6 +129,7 @@
     "filename": "config/gebouwenregister.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald"
-    }
+    },
+    "dummy": "2025-03-16 21:02:59"
   }
 ]
