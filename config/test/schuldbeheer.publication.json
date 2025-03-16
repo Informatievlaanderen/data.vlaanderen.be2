@@ -46,10 +46,10 @@
     }
   },
   {
-     "urlref": "/doc/applicatieprofiel/schuldbeheer",
-     "seealso": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
-     "type": "ap",
-     "dummy": "01"
+    "urlref": "/doc/applicatieprofiel/schuldbeheer",
+    "seealso": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
+    "type": "ap",
+    "dummy": "01"
   },
   {
     "urlref": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
