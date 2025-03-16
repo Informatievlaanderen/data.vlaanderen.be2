@@ -148,7 +148,7 @@
     "urlref": "/doc/applicatieprofiel/gebieden/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
-    "name": "openbaardomein",
+    "name": "gebieden-ap",
     "filename": "config/gebied.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/gebieden/standaard/2018-11-27"
@@ -159,7 +159,7 @@
     "urlref": "/doc/vocabularium/openbaardomein/gebied/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
-    "name": "openbaardomein",
+    "name": "gebied",
     "filename": "config/gebied.json",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/gebied/standaard/2018-11-27"
