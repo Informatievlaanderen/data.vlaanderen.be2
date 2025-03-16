@@ -75,7 +75,6 @@
     "branchtag": "master",
     "name": "OSLO-Vastgoed-AP",
     "filename": "config/OSLO-Vastgoed-AP.json",
-    "directory": "/doc/applicatieprofiel/vastgoed/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/vastgoed/ontwerpstandaard/2021-06-30"
     },
@@ -87,7 +86,6 @@
     "branchtag": "master",
     "name": "vastgoed",
     "filename": "config/OSLO-Vastgoed-VOC.json",
-    "directory": "/doc/vocabularium/vastgoed/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/vastgoed/ontwerpstandaard/2021-06-30"
     },

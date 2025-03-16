@@ -91,7 +91,6 @@
     "branchtag": "master",
     "name": "weg",
     "filename": "config/weg.json",
-    "directory": "/doc/vocabularium/weg/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/weg/standaard/2018-11-27"
     },
@@ -169,7 +168,6 @@
     "branchtag": "master",
     "name": "wegenregister",
     "filename": "config/wegenregister.json",
-    "directory": "/doc/applicatieprofiel/wegenregister/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04"
     },

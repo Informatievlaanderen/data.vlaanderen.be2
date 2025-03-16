@@ -44,7 +44,6 @@
     "branchtag": "main",
     "name": "OSLO-voorwaardendienstverlening-ap",
     "filename": "config/Voorwaarden-Dienstverlening-ap.json",
-    "directory": "/doc/applicatieprofiel/voorwaarden-dienstverlening/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11"
     },

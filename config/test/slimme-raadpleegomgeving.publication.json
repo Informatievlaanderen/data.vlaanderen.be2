@@ -330,7 +330,6 @@
     "branchtag": "main",
     "name": "slimme-raadpleegomgeving-ap",
     "filename": "config/slimme-raadpleegomgeving-ap.json",
-    "directory": "/doc/applicatieprofiel/slimmeraadpleegomgeving/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2024-12-05"
     },
@@ -342,7 +341,6 @@
     "branchtag": "main",
     "name": "slimmeraadpleegomgeving",
     "filename": "config/slimme-raadpleegomgeving-voc.json",
-    "directory": "/doc/vocabularium/slimmeraadpleegomgeving/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05"
     },

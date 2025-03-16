@@ -135,7 +135,6 @@
     "branchtag": "master",
     "name": "OSLO-Vervoersknooppunten-ap",
     "filename": "config/vervoersknooppunten-ap.json",
-    "directory": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten/erkendestandaard/2022-12-01"
     },
@@ -147,7 +146,6 @@
     "branchtag": "master",
     "name": "vervoersknooppunten",
     "filename": "config/vervoersknooppunten-voc.json",
-    "directory": "/doc/vocabularium/mobiliteit/vervoersknooppunten/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteit/vervoersknooppunten/erkendestandaard/2022-12-01"
     },

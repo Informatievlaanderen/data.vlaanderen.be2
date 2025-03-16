@@ -41,7 +41,6 @@
     "branchtag": "master",
     "name": "verkeersborden",
     "filename": "config/verkeersborden.json",
-    "directory": "/doc/applicatieprofiel/verkeersborden/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersborden/ontwerpdocument/niet-bepaald"
     },
