@@ -6,7 +6,6 @@
     "name": "oms",
     "filename": "config/oms.json",
     "dummy": "054",
-    "navigation": {
-    }
+    "navigation": {}
   }
 ]

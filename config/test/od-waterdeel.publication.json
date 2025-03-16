@@ -148,21 +148,21 @@
     }
   },
   {
-      "urlref": "/doc/applicatieprofiel/waterdelen/",
-      "seealso": "/doc/applicatieprofiel/waterdelen/erkendestandaard/2021-09-30",
-      "type": "ap"
+    "urlref": "/doc/applicatieprofiel/waterdelen/",
+    "seealso": "/doc/applicatieprofiel/waterdelen/erkendestandaard/2021-09-30",
+    "type": "ap"
   },
   {
-      "urlref": "/doc/vocabularium/openbaardomein/waterdeel",
-      "seealso": "/doc/vocabularium/openbaardomein/waterdeel/erkendestandaard/2021-09-30",
-      "type": "voc",
-      "prefix": "openbaardomein"
+    "urlref": "/doc/vocabularium/openbaardomein/waterdeel",
+    "seealso": "/doc/vocabularium/openbaardomein/waterdeel/erkendestandaard/2021-09-30",
+    "type": "voc",
+    "prefix": "openbaardomein"
   },
   {
-      "urlref": "/ns/openbaardomein/waterdeel",
-      "seealso": "/doc/vocabularium/openbaardomein/waterdeel/erkendestandaard/2021-09-30",
-      "type": "voc",
-      "prefix": "openbaardomein"
+    "urlref": "/ns/openbaardomein/waterdeel",
+    "seealso": "/doc/vocabularium/openbaardomein/waterdeel/erkendestandaard/2021-09-30",
+    "type": "voc",
+    "prefix": "openbaardomein"
   },
   {
     "urlref": "/doc/applicatieprofiel/waterdelen/ontwerpstandaard/toolchain4",
@@ -173,7 +173,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/waterdelen/erkendestandaard/2021-09-30"
     },
-    "dummy": "001"
+    "dummy": "2025-03-16 21:15:32"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/waterdeel/ontwerpstandaard/toolchain4",
@@ -184,6 +184,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/waterdeel/erkendestandaard/2021-09-30"
     },
-    "dummy": "001"
+    "dummy": "2025-03-16 21:15:32"
   }
 ]

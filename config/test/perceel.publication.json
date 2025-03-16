@@ -77,7 +77,8 @@
     "filename": "config/perceel-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/perceel/erkendestandaard/2020-06-18"
-    }
+    },
+    "dummy": "2025-03-16 21:15:32"
   },
   {
     "urlref": "/doc/applicatieprofiel/perceel",
@@ -162,7 +163,8 @@
     "filename": "config/perceel-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/perceel/erkendestandaard/2020-06-18"
-    }
+    },
+    "dummy": "2025-03-16 21:15:32"
   },
   {
     "urlref": "/ns/perceel",

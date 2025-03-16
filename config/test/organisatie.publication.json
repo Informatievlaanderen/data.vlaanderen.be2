@@ -57,14 +57,13 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01"
     },
-    "dummy": 1
+    "dummy": "2025-03-16 21:15:32"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/",
     "seealso": "/doc/applicatieprofiel/organisatie-basis/kandidaatstandaard/niet-bepaald",
     "type": "ap"
   },
-
   {
     "comment": "Dit is een referentie naar het oorspronkelijke extractie uit toolchain 1",
     "urlref": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
@@ -110,7 +109,7 @@
     "branchtag": "master-node-toolchain",
     "name": "organisatie",
     "filename": "config/organisatie.json",
-    "dummy": 2
+    "dummy": "2025-03-16 21:15:32"
   },
   {
     "urlref": "/ns/organisatie",

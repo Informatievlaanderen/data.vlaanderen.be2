@@ -35,8 +35,8 @@
     "type": "raw",
     "directory": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
     "navigation": {
-    	"next": "/doc/applicatieprofiel/mandatendatabank/ontwerpstandaard/toolchain4"
-      },
+      "next": "/doc/applicatieprofiel/mandatendatabank/ontwerpstandaard/toolchain4"
+    },
     "original": {
       "urlref": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -45,14 +45,14 @@
       "type": "raw",
       "directory": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
       "navigation": {
-    	"next": "/doc/applicatieprofiel/mandatendatabank/ontwerpstandaard/toolchain4"
+        "next": "/doc/applicatieprofiel/mandatendatabank/ontwerpstandaard/toolchain4"
       }
     }
   },
   {
-      "urlref": "/doc/applicatieprofiel/mandatendatabank",
-      "seealso": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
-      "type": "ap"
+    "urlref": "/doc/applicatieprofiel/mandatendatabank",
+    "seealso": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
+    "type": "ap"
   },
   {
     "urlref": "/doc/vocabularium/mandaat/standaard/2018-07-20",
@@ -79,14 +79,14 @@
     }
   },
   {
-      "urlref": "/doc/vocabularium/mandaat",
-      "seealso": "/doc/vocabularium/mandaat/standaard/2018-07-20",
-      "type" : "voc"
+    "urlref": "/doc/vocabularium/mandaat",
+    "seealso": "/doc/vocabularium/mandaat/standaard/2018-07-20",
+    "type": "voc"
   },
   {
-      "urlref": "/ns/mandaat",
-      "seealso": "/doc/vocabularium/mandaat/standaard/2018-07-20",
-      "type": "voc"
+    "urlref": "/ns/mandaat",
+    "seealso": "/doc/vocabularium/mandaat/standaard/2018-07-20",
+    "type": "voc"
   },
   {
     "urlref": "/doc/applicatieprofiel/mandatendatabank/ontwerpstandaard/toolchain4",
@@ -97,7 +97,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20"
     },
-    "dummy": "011"
+    "dummy": "2025-03-16 21:15:32"
   },
   {
     "urlref": "/doc/vocabularium/mandaat/ontwerpstandaard/toolchain4",
@@ -108,6 +108,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/mandaat/standaard/2018-07-20"
     },
-    "dummy": "011"
+    "dummy": "2025-03-16 21:15:32"
   }
 ]
