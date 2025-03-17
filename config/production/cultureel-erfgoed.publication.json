@@ -2,47 +2,20 @@
   {
     "urlref": "/ns/cultureel-erfgoed",
     "seealso": "/doc/vocabularium/cultureel-erfgoed/erkendestandaard/2021-04-22",
-    "type": "raw",
-    "dummy": "002",
-    "directory": "/ns/cultureel-erfgoed",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/cultureel-erfgoed",
-      "seealso": "/doc/vocabularium/cultureel-erfgoed/erkendestandaard/2021-04-22",
-      "type": "voc",
-      "dummy": "002"
-    }
+    "type": "voc",
+    "dummy": "002"
   },
   {
     "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-object",
     "seealso": "/doc/applicatieprofiel/cultureel-erfgoed-object/erkendestandaard/2021-04-22",
-    "type": "raw",
-    "dummy": "002",
-    "directory": "/doc/applicatieprofiel/cultureel-erfgoed-object",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-object",
-      "seealso": "/doc/applicatieprofiel/cultureel-erfgoed-object/erkendestandaard/2021-04-22",
-      "type": "ap",
-      "dummy": "002"
-    }
+    "type": "ap",
+    "dummy": "002"
   },
   {
     "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-event",
     "seealso": "/doc/applicatieprofiel/cultureel-erfgoed-event/erkendestandaard/2021-04-22",
-    "type": "raw",
-    "dummy": "002",
-    "directory": "/doc/applicatieprofiel/cultureel-erfgoed-event",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-event",
-      "seealso": "/doc/applicatieprofiel/cultureel-erfgoed-event/erkendestandaard/2021-04-22",
-      "type": "ap",
-      "dummy": "002"
-    }
+    "type": "ap",
+    "dummy": "002"
   },
   {
     "urlref": "/doc/vocabularium/cultureel-erfgoed/erkendestandaard/2021-04-22",

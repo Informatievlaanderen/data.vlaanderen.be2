@@ -45,15 +45,8 @@
   {
     "urlref": "/doc/applicatieprofiel/dienst-transactiemodel/",
     "seealso": "/doc/applicatieprofiel/dienst-transactiemodel/standaard/2019-02-07",
-    "type": "raw",
-    "directory": "/doc/applicatieprofiel/dienst-transactiemodel/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/dienst-transactiemodel/",
-      "seealso": "/doc/applicatieprofiel/dienst-transactiemodel/standaard/2019-02-07",
-      "type": "ap"
-    }
+    "type": "ap",
+    "dummy": "001"
   },
   {
     "urlref": "/doc/applicatieprofiel/dienstencataloog/kandidaatstandaard/niet-bepaald",
@@ -101,15 +94,8 @@
   {
     "urlref": "/doc/applicatieprofiel/dienstencataloog/",
     "seealso": "/doc/applicatieprofiel/dienstencataloog/kandidaatstandaard/niet-bepaald",
-    "type": "raw",
-    "directory": "/doc/applicatieprofiel/dienstencataloog/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/dienstencataloog/",
-      "seealso": "/doc/applicatieprofiel/dienstencataloog/kandidaatstandaard/niet-bepaald",
-      "type": "ap"
-    }
+    "type": "ap",
+    "dummy": "001"
   },
   {
     "urlref": "/doc/vocabularium/dienst/standaard/2018-07-03",
@@ -157,28 +143,14 @@
   {
     "urlref": "/doc/vocabularium/dienst",
     "seealso": "/doc/vocabularium/dienst/standaard/2018-07-03",
-    "type": "raw",
-    "directory": "/doc/vocabularium/dienst",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/vocabularium/dienst",
-      "seealso": "/doc/vocabularium/dienst/standaard/2018-07-03",
-      "type": "voc"
-    }
+    "type": "voc",
+    "dummy": "001"
   },
   {
     "urlref": "/ns/dienst",
     "seealso": "/doc/vocabularium/dienst/standaard/2018-07-03",
-    "type": "raw",
-    "directory": "/ns/dienst",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/dienst",
-      "seealso": "/doc/vocabularium/dienst/standaard/2018-07-03",
-      "type": "voc"
-    }
+    "type": "voc",
+    "dummy": "001"
   },
   {
     "urlref": "/doc/vocabularium/transactie/standaard/2019-02-07",
@@ -226,28 +198,14 @@
   {
     "urlref": "/doc/vocabularium/transactie",
     "seealso": "/doc/vocabularium/transactie/standaard/2019-02-07",
-    "type": "raw",
-    "directory": "/doc/vocabularium/transactie",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/vocabularium/transactie",
-      "seealso": "/doc/vocabularium/transactie/standaard/2019-02-07",
-      "type": "voc"
-    }
+    "type": "voc",
+    "dummy": "001"
   },
   {
     "urlref": "/ns/transactie",
     "seealso": "/doc/vocabularium/transactie/standaard/2019-02-07",
-    "type": "raw",
-    "directory": "/ns/transactie",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/transactie",
-      "seealso": "/doc/vocabularium/transactie/standaard/2019-02-07",
-      "type": "voc"
-    }
+    "type": "voc",
+    "dummy": "001"
   },
   {
     "urlref": "/doc/applicatieprofiel/dienst-transactiemodel/ontwerpstandaard/toolchain4",

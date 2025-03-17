@@ -46,38 +46,14 @@
   {
     "urlref": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur",
     "seealso": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
-    "type": "raw",
-    "dummy": "002",
-    "directory": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur",
-      "seealso": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
-      "type": "raw",
-      "dummy": "002",
-      "directory": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+    "type": "ap",
+    "dummy": "002"
   },
   {
     "urlref": "/ns/cultuur-en-jeugdinfrastructuur",
     "seealso": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
-    "type": "raw",
-    "dummy": "trigger",
-    "directory": "/ns/cultuur-en-jeugdinfrastructuur",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/cultuur-en-jeugdinfrastructuur",
-      "seealso": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
-      "type": "raw",
-      "dummy": "trigger",
-      "directory": "/ns/cultuur-en-jeugdinfrastructuur",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+    "type": "voc",
+    "dummy": "trigger"
   },
   {
     "urlref": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/toolchain4",

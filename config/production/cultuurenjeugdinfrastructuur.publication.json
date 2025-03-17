@@ -24,19 +24,9 @@
   {
     "urlref": "/doc/applicatieprofiel/cultuur-en-jeugd/infrastructuur",
     "seealso": "/doc/applicatieprofiel/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21",
-    "type": "raw",
+    "type": "ap",
     "disabled": false,
-    "dummy": "009",
-    "directory": "/doc/applicatieprofiel/cultuur-en-jeugd/infrastructuur",
-    "repository": " https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/cultuur-en-jeugd/infrastructuur",
-      "seealso": "/doc/applicatieprofiel/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21",
-      "type": "ap",
-      "disabled": false,
-      "dummy": "009"
-    }
+    "dummy": "009"
   },
   {
     "urlref": "/doc/vocabularium/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21",
@@ -62,39 +52,17 @@
     "urlref": "/ns/cultuur-en-jeugd/infrastructuur",
     "seealso": "/doc/vocabularium/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21",
     "prefix": "cultuur-en-jeugd",
-    "type": "raw",
+    "type": "voc",
     "disabled": false,
-    "dummy": "012",
-    "directory": "/ns/cultuur-en-jeugd/infrastructuur",
-    "repository": " https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/cultuur-en-jeugd/infrastructuur",
-      "seealso": "/doc/vocabularium/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21",
-      "prefix": "cultuur-en-jeugd",
-      "type": "voc",
-      "disabled": false,
-      "dummy": "012"
-    }
+    "dummy": "012"
   },
   {
     "comment": "een vocabularium in ns kan maar op 1 plaats gepubliceerd zijn",
     "urlref": "/ns/cultuur-en-jeugd",
     "seealso": "/doc/vocabularium/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21",
-    "type": "raw",
-    "disabled": false,
-    "dummy": "014",
-    "directory": "/ns/cultuur-en-jeugd",
-    "repository": " https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "comment": "een vocabularium in ns kan maar op 1 plaats gepubliceerd zijn",
-      "urlref": "/ns/cultuur-en-jeugd",
-      "seealso": "/doc/vocabularium/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21",
-      "type": "voc",
-      "disabled": true,
-      "dummy": "012"
-    }
+    "type": "voc",
+    "disabled": true,
+    "dummy": "012"
   },
   {
     "urlref": "/doc/applicatieprofiel/cultuur-en-jeugd/infrastructuur/ontwerpstandaard/toolchain4",
