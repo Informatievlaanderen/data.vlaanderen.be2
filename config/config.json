@@ -1,9 +1,9 @@
 {
   "primeLanguage": "nl",
   "otherLanguages": [],
-  "hostname": "https://data.test-vlaanderen.be",
+  "hostname": "https://data.vlaanderen.be",
   "domain": "data.vlaanderen.be",
-  "publicationpoints": ["test", "production"],
+  "publicationpoints": ["production"],
   "generatedrepository": {
     "organisation": "informatievlaanderen",
     "repository": "data.vlaanderen.be2-generated",
