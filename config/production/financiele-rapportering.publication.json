@@ -86,17 +86,8 @@
   {
     "urlref": "/doc/applicatieprofiel/financiele-rapportering",
     "seealso": "/doc/applicatieprofiel/financiele-rapportering/erkendestandaard/2024-04-17",
-    "type": "raw",
-    "dummy": "002",
-    "directory": "/doc/applicatieprofiel/financiele-rapportering",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/financiele-rapportering",
-      "seealso": "/doc/applicatieprofiel/financiele-rapportering/erkendestandaard/2024-04-17",
-      "type": "ap",
-      "dummy": "002"
-    }
+    "type": "ap",
+    "dummy": "002"
   },
   {
     "urlref": "/doc/vocabularium/financiele-rapportering/ontwerpstandaard/2020-01-31",
@@ -183,17 +174,8 @@
   {
     "urlref": "/ns/financiele-rapportering",
     "seealso": "/doc/vocabularium/financiele-rapportering/erkendestandaard/2024-04-17",
-    "type": "raw",
-    "dummy": "003",
-    "directory": "/ns/financiele-rapportering",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/financiele-rapportering",
-      "seealso": "/doc/vocabularium/financiele-rapportering/erkendestandaard/2024-04-17",
-      "type": "voc",
-      "dummy": "003"
-    }
+    "type": "voc",
+    "dummy": "003"
   },
   {
     "urlref": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/ontwerpstandaard/2022-05-01",
@@ -281,18 +263,8 @@
     "urlref": "/ns/financiele-rapportering/taxonomie-dcjm",
     "prefix": "financiele-rapportering",
     "seealso": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/erkendestandaard/2024-04-17",
-    "type": "raw",
-    "dummy": "008",
-    "directory": "/ns/financiele-rapportering/taxonomie-dcjm",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/financiele-rapportering/taxonomie-dcjm",
-      "prefix": "financiele-rapportering",
-      "seealso": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/erkendestandaard/2024-04-17",
-      "type": "voc",
-      "dummy": "008"
-    }
+    "type": "voc",
+    "dummy": "008"
   },
   {
     "urlref": "/doc/applicatieprofiel/financiele-rapportering/ontwerpstandaard/toolchain4",

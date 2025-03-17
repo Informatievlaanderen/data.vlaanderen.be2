@@ -50,17 +50,8 @@
   {
     "urlref": "/doc/applicatieprofiel/FeitelijkeVerenigingen/",
     "seealso": "/doc/applicatieprofiel/FeitelijkeVerenigingen/kandidaatstandaard/2021-06-22",
-    "type": "raw",
-    "dummy": "001",
-    "directory": "/doc/applicatieprofiel/FeitelijkeVerenigingen/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/FeitelijkeVerenigingen/",
-      "seealso": "/doc/applicatieprofiel/FeitelijkeVerenigingen/kandidaatstandaard/2021-06-22",
-      "type": "ap",
-      "dummy": "001"
-    }
+    "type": "ap",
+    "dummy": "001"
   },
   {
     "urlref": "/doc/vocabularium/FeitelijkeVerenigingen/ontwerpstandaard/2021-06-22",
@@ -113,17 +104,8 @@
   {
     "urlref": "/ns/FeitelijkeVerenigingen/",
     "seealso": "/doc/vocabularium/FeitelijkeVerenigingen/kandidaatstandaard/2021-06-22",
-    "type": "raw",
-    "dummy": "001",
-    "directory": "/ns/FeitelijkeVerenigingen/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/FeitelijkeVerenigingen/",
-      "seealso": "/doc/vocabularium/FeitelijkeVerenigingen/kandidaatstandaard/2021-06-22",
-      "type": "voc",
-      "dummy": "001"
-    }
+    "type": "voc",
+    "dummy": "001"
   },
   {
     "urlref": "/doc/applicatieprofiel/FeitelijkeVerenigingen/ontwerpstandaard/toolchain4",
