@@ -92,16 +92,8 @@
     "comment": "Dit is een referentie naar het oorspronkelijke extractie uit toolchain 1",
     "urlref": "/doc/vocabularium/organisatie",
     "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
-    "directory": "/doc/vocabularium/organisatie",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "type": "raw",
-    "original": {
-      "comment": "Dit is een referentie naar het oorspronkelijke extractie uit toolchain 1",
-      "urlref": "/doc/vocabularium/organisatie",
-      "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
-      "type": "voc"
-    }
+    "type": "voc",
+    "dummy": "010"
   },
   {
     "urlref": "/doc/vocabularium/organisatie/ontwerpdocument/toolchain4",

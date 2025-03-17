@@ -102,17 +102,8 @@
   {
     "urlref": "/doc/applicatieprofiel/observaties-en-metingen/",
     "seealso": "/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01",
-    "type": "raw",
-    "dummy": "048",
-    "directory": "/doc/applicatieprofiel/observaties-en-metingen/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/observaties-en-metingen/",
-      "seealso": "/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01",
-      "type": "ap",
-      "dummy": "048"
-    }
+    "type": "ap",
+    "dummy": "048"
   },
   {
     "urlref": "/doc/vocabularium/observaties-en-metingen/ontwerpstandaard/2021-08-01",
@@ -217,17 +208,8 @@
   {
     "urlref": "/ns/observaties-en-metingen/",
     "seealso": "/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2024-10-01",
-    "type": "raw",
-    "dummy": "048",
-    "directory": "/ns/observaties-en-metingen/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/observaties-en-metingen/",
-      "seealso": "/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2024-10-01",
-      "type": "voc",
-      "dummy": "048"
-    }
+    "type": "voc",
+    "dummy": "048"
   },
   {
     "urlref": "/doc/applicatieprofiel/observaties-en-metingen/ontwerpstandaard/toolchain4",
