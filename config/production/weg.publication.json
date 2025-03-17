@@ -52,38 +52,14 @@
   {
     "urlref": "/doc/vocabularium/weg",
     "seealso": "/doc/vocabularium/weg/standaard/2018-11-27",
-    "type": "raw",
-    "directory": "/doc/vocabularium/weg",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "trigger",
-    "original": {
-      "urlref": "/doc/vocabularium/weg",
-      "seealso": "/doc/vocabularium/weg/standaard/2018-11-27",
-      "type": "raw",
-      "directory": "/doc/vocabularium/weg",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+    "type": "voc",
+    "dummy": "001"
   },
   {
     "urlref": "/ns/weg",
     "seealso": "/doc/vocabularium/weg/standaard/2018-11-27",
-    "type": "raw",
-    "directory": "/ns/weg",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "001",
-    "original": {
-      "urlref": "/ns/weg",
-      "seealso": "/doc/vocabularium/weg/standaard/2018-11-27",
-      "type": "raw",
-      "directory": "/ns/weg",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+    "type": "voc",
+    "dummy": "trigger"
   },
   {
     "urlref": "/doc/vocabularium/weg/ontwerpstandaard/toolchain4",
@@ -147,9 +123,9 @@
     }
   },
   {
-      "urlref": "/doc/applicatieprofiel/wegenregister/",
-      "seealso": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04",
-      "type": "ap"
+    "urlref": "/doc/applicatieprofiel/wegenregister/",
+    "seealso": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04",
+    "type": "ap"
   },
   {
     "urlref": "/doc/applicatieprofiel/wegenregister/ontwerpstandaard/toolchain4",
