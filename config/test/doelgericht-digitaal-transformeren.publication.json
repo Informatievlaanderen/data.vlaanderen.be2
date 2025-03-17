@@ -1,0 +1,383 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-09-11",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DoelgerichtDigitaalTransformeren-ap",
+    "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-06-20"
+    },
+    "disabled": false,
+    "dummy": "001",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-09-11",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-09-11",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+      "branchtag": "cultuurparticipatie_1.0.6",
+      "name": "DoelgerichtDigitaalTransformeren-ap",
+      "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-06-20"
+      },
+      "disabled": false,
+      "dummy": "001"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-06-20",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DoelgerichtDigitaalTransformeren-ap",
+    "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-10-01"
+    },
+    "disabled": false,
+    "dummy": "007",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-06-20",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-06-20",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+      "branchtag": "cultuurparticipatie_1.0.5",
+      "name": "DoelgerichtDigitaalTransformeren-ap",
+      "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-10-01"
+      },
+      "disabled": false,
+      "dummy": "007"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-10-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DoelgerichtDigitaalTransformeren-ap",
+    "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-09-01"
+    },
+    "disabled": false,
+    "dummy": "001",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-10-01",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-10-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+      "branchtag": "cultuurparticipatie_1.0.4",
+      "name": "DoelgerichtDigitaalTransformeren-ap",
+      "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-09-01"
+      },
+      "disabled": true,
+      "dummy": "001"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-09-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DoelgerichtDigitaalTransformeren-ap",
+    "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/cultuurparticipatie/ontwerpstandaard/2023-05-10"
+    },
+    "disabled": false,
+    "dummy": "001",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-09-01",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-09-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+      "branchtag": "cultuurparticipatie_1.0.3",
+      "name": "DoelgerichtDigitaalTransformeren-ap",
+      "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/cultuurparticipatie/ontwerpstandaard/2023-05-10"
+      },
+      "disabled": true,
+      "dummy": "001"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/cultuurparticipatie/ontwerpstandaard/2023-05-10",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DoelgerichtDigitaalTransformeren-ap",
+    "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+    "navigation": {},
+    "disabled": false,
+    "dummy": "002",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/cultuurparticipatie/ontwerpstandaard/2023-05-10",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/cultuurparticipatie/ontwerpstandaard/2023-05-10",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+      "branchtag": "cultuurparticipatie_1.0.2",
+      "name": "DoelgerichtDigitaalTransformeren-ap",
+      "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+      "navigation": {},
+      "disabled": true,
+      "dummy": "002"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DoelgerichtDigitaalTransformeren-ap",
+    "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+    "navigation": {},
+    "disabled": false,
+    "dummy": "trigger",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "DoelgerichtDigitaalTransformeren-ap",
+      "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+      "navigation": {},
+      "disabled": false,
+      "dummy": "trigger",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren",
+    "seealso": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01",
+    "type": "raw",
+    "dummy": "004",
+    "directory": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren",
+      "seealso": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01",
+      "type": "raw",
+      "dummy": "004",
+      "directory": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+    "branchtag": "master",
+    "name": "DoelgerichtDigitaalTransformeren-ap",
+    "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01"
+    },
+    "dummy": "2025-03-16 21:02:59"
+  },
+  {
+    "urlref": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DoelgerichtDigitaalTransformeren-voc",
+    "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-06-20"
+    },
+    "disabled": false,
+    "dummy": "001",
+    "type": "raw",
+    "directory": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11",
+    "original": {
+      "urlref": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+      "branchtag": "cultuurparticipatie_1.0.6",
+      "name": "DoelgerichtDigitaalTransformeren-voc",
+      "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-06-20"
+      },
+      "disabled": false,
+      "dummy": "001"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-06-20",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DoelgerichtDigitaalTransformeren-voc",
+    "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-10-01"
+    },
+    "disabled": false,
+    "dummy": "007",
+    "type": "raw",
+    "directory": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-06-20",
+    "original": {
+      "urlref": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-06-20",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+      "branchtag": "cultuurparticipatie_1.0.5",
+      "name": "DoelgerichtDigitaalTransformeren-voc",
+      "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-10-01"
+      },
+      "disabled": false,
+      "dummy": "007"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-10-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "cultuurparticipatie",
+    "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-09-01"
+    },
+    "disabled": false,
+    "dummy": "001",
+    "type": "raw",
+    "directory": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-10-01",
+    "original": {
+      "urlref": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-10-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+      "branchtag": "cultuurparticipatie_1.0.4",
+      "name": "cultuurparticipatie",
+      "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-09-01"
+      },
+      "disabled": true,
+      "dummy": "001"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-09-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "cultuurparticipatie",
+    "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/2023-05-10"
+    },
+    "disabled": false,
+    "dummy": "001",
+    "type": "raw",
+    "directory": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-09-01",
+    "original": {
+      "urlref": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-09-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+      "branchtag": "cultuurparticipatie_1.0.3",
+      "name": "cultuurparticipatie",
+      "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/2023-05-10"
+      },
+      "disabled": true,
+      "dummy": "001"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/2023-05-10",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "cultuurparticipatie",
+    "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+    "navigation": {},
+    "disabled": false,
+    "dummy": "002",
+    "type": "raw",
+    "directory": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/2023-05-10",
+    "original": {
+      "urlref": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/2023-05-10",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+      "branchtag": "cultuurparticipatie_1.0.2",
+      "name": "cultuurparticipatie",
+      "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+      "navigation": {},
+      "disabled": true,
+      "dummy": "002"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/2021-10-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DoelgerichtDigitaalTransformeren-voc",
+    "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+    "navigation": {},
+    "disabled": false,
+    "dummy": "001",
+    "type": "raw",
+    "directory": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/2021-10-01",
+    "original": {
+      "urlref": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/2021-10-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "DoelgerichtDigitaalTransformeren-voc",
+      "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+      "navigation": {},
+      "disabled": false,
+      "dummy": "trigger",
+      "type": "raw",
+      "directory": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/2021-10-01"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/cultuurparticipatie",
+    "seealso": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-09-11",
+    "type": "raw",
+    "dummy": "011",
+    "directory": "/doc/applicatieprofiel/cultuurparticipatie",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/cultuurparticipatie",
+      "seealso": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-09-11",
+      "type": "ap",
+      "dummy": "011"
+    }
+  },
+  {
+    "urlref": "/ns/cultuurparticipatie",
+    "seealso": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11",
+    "type": "raw",
+    "dummy": "011",
+    "directory": "/ns/cultuurparticipatie",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/cultuurparticipatie",
+      "seealso": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11",
+      "type": "voc",
+      "dummy": "011"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/cultuurparticipatie/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+    "branchtag": "master",
+    "name": "DoelgerichtDigitaalTransformeren-ap",
+    "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-09-11"
+    },
+    "dummy": "2025-03-16 21:02:59"
+  },
+  {
+    "urlref": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-DoelgerichtDigitaalTransformeren",
+    "branchtag": "master",
+    "name": "DoelgerichtDigitaalTransformeren-voc",
+    "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11"
+    },
+    "dummy": "2025-03-16 21:02:59"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "kindfiche-ap",
+    "disabled": false,
+    "filename": "config/kindfiche-ap.json",
+    "navigation": {},
+    "dummy": "011",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
+      "branchtag": "ontwerpstandaard_2024-06-03_001",
+      "name": "kindfiche-ap",
+      "disabled": false,
+      "filename": "config/kindfiche-ap.json",
+      "navigation": {},
+      "dummy": "011"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/kindfiche",
+    "seealso": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
+    "disabled": false,
+    "type": "raw",
+    "dummy": "011",
+    "directory": "/doc/applicatieprofiel/kindfiche",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/kindfiche",
+      "seealso": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
+      "disabled": false,
+      "type": "ap",
+      "dummy": "011"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
+    "disabled": false,
+    "type": "raw",
+    "dummy": "011",
+    "directory": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
+      "branchtag": "ontwerpstandaard_2024-06-03_001",
+      "name": "kindfiche",
+      "filename": "config/kindfiche-voc.json",
+      "navigation": {},
+      "dummy": "016"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
+    "branchtag": "main",
+    "name": "dienstverlening-aan-personen-ap",
+    "filename": "config/dienstverlening-aan-personen-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03"
+    },
+    "dummy": "2025-03-16 21:15:32"
+  }
+]

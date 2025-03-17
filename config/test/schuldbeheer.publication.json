@@ -1,0 +1,81 @@
+[
+  {
+    "urlref": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2024-09-05",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "schuldbeheer",
+    "filename": "config/eap-mapping.json",
+    "navigation": {},
+    "dummy": "04",
+    "type": "raw",
+    "directory": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2024-09-05",
+    "original": {
+      "urlref": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2024-09-05",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
+      "branchtag": "main",
+      "name": "schuldbeheer",
+      "filename": "config/eap-mapping.json",
+      "navigation": {},
+      "dummy": "04"
+    }
+  },
+  {
+    "urlref": "/ns/schuldbeheer",
+    "seealso": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
+    "type": "voc",
+    "dummy": "01"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "schuldbeheer-ap",
+    "filename": "config/eap-mapping.json",
+    "navigation": {},
+    "dummy": "04",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
+      "branchtag": "main",
+      "name": "schuldbeheer-ap",
+      "filename": "config/eap-mapping.json",
+      "navigation": {},
+      "dummy": "04"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/schuldbeheer",
+    "seealso": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
+    "type": "ap",
+    "dummy": "01"
+  },
+  {
+    "urlref": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
+    "branchtag": "main",
+    "name": "schuldbeheer",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
+    "navigation": {
+      "prev": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2024-09-05"
+    },
+    "dummy": "004"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
+    "branchtag": "main",
+    "name": "schuldbeheer-ap",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05"
+    },
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "005"
+  }
+]

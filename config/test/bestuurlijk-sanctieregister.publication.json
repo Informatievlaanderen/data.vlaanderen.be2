@@ -1,0 +1,93 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "bestuurlijk-sanctieregister-ap",
+    "filename": "config/bestuurlijk-sanctieregister-ap.json",
+    "disabled": false,
+    "dummy": "001",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/bestuurlijk-sanctieregister/ontwerpstandaard/2021-02-28",
+      "next": "/doc/applicatieprofiel/bestuurlijk-sanctieregister/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-bestuurlijkSanctieregister",
+      "branchtag": "8261d86",
+      "name": "bestuurlijk-sanctieregister-ap",
+      "filename": "config/bestuurlijk-sanctieregister-ap.json",
+      "disabled": false,
+      "dummy": "001",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/bestuurlijk-sanctieregister/ontwerpstandaard/2021-02-28"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "bestuurlijk-sanctieregister",
+    "filename": "config/bestuurlijk-sanctieregister-voc.json",
+    "dummy": "004",
+    "navigation": {
+      "next": "/doc/vocabularium/bestuurlijk-sanctieregister/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23",
+    "original": {
+      "urlref": "/doc/vocabularium/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-bestuurlijkSanctieregister",
+      "branchtag": "bestuurlijkSanctieregister_0.4.0",
+      "name": "bestuurlijk-sanctieregister",
+      "filename": "config/bestuurlijk-sanctieregister-voc.json",
+      "dummy": "003"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/bestuurlijk-sanctieregister",
+    "seealso": "/doc/applicatieprofiel/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23",
+    "type": "raw",
+    "dummy": "002",
+    "directory": "/doc/applicatieprofiel/bestuurlijk-sanctieregister",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/bestuurlijk-sanctieregister",
+      "seealso": "/doc/applicatieprofiel/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23",
+      "type": "ap",
+      "dummy": "002"
+    }
+  },
+  {
+    "urlref": "/ns/bestuurlijk-sanctieregister",
+    "seealso": "/doc/vocabularium/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23",
+    "type": "voc",
+    "dummy": "004"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/bestuurlijk-sanctieregister/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-bestuurlijkSanctieregister",
+    "branchtag": "master",
+    "name": "bestuurlijk-sanctieregister-ap",
+    "filename": "config/bestuurlijk-sanctieregister-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23"
+    },
+    "dummy": "2025-03-15 21:47:08"
+  },
+  {
+    "urlref": "/doc/vocabularium/bestuurlijk-sanctieregister/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-bestuurlijkSanctieregister",
+    "branchtag": "master",
+    "name": "bestuurlijk-sanctieregister",
+    "filename": "config/bestuurlijk-sanctieregister-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23"
+    },
+    "dummy": "2025-03-15 21:47:08"
+  }
+]
