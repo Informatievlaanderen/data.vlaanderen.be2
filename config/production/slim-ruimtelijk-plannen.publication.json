@@ -82,19 +82,9 @@
   {
     "urlref": "/doc/applicatieprofiel/ruimtelijke-indicatoren",
     "seealso": "/doc/applicatieprofiel/ruimtelijke-indicatoren/erkendestandaard/2024-12-05",
-    "type": "raw",
+    "type": "ap",
     "disabled": false,
-    "dummy": "017",
-    "directory": "/doc/applicatieprofiel/ruimtelijke-indicatoren",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/ruimtelijke-indicatoren",
-      "seealso": "/doc/applicatieprofiel/ruimtelijke-indicatoren/erkendestandaard/2024-12-05",
-      "type": "ap",
-      "disabled": false,
-      "dummy": "017"
-    }
+    "dummy": "017"
   },
   {
     "urlref": "/doc/vocabularium/ruimtelijke-indicatoren/ontwerpstandaard/2024-01-22",
@@ -177,19 +167,9 @@
   {
     "urlref": "/ns/ruimtelijke-indicatoren",
     "seealso": "/doc/vocabularium/ruimtelijke-indicatoren/erkendestandaard/2024-12-05",
-    "type": "raw",
+    "type": "voc",
     "disabled": false,
-    "dummy": "020",
-    "directory": "/ns/ruimtelijke-indicatoren",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/ruimtelijke-indicatoren",
-      "seealso": "/doc/vocabularium/ruimtelijke-indicatoren/erkendestandaard/2024-12-05",
-      "type": "voc",
-      "disabled": false,
-      "dummy": "020"
-    }
+    "dummy": "020"
   },
   {
     "urlref": "/doc/applicatieprofiel/ruimtelijke-indicatoren/ontwerpstandaard/toolchain4",

@@ -122,54 +122,20 @@
   {
     "urlref": "/doc/applicatieprofiel/persoon-basis/",
     "seealso": "/doc/applicatieprofiel/persoon-basis/kandidaatstandaard/niet-bepaald",
-    "type": "raw",
-    "directory": "/doc/applicatieprofiel/persoon-basis/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/persoon-basis/",
-      "seealso": "/doc/applicatieprofiel/persoon-basis/kandidaatstandaard/niet-bepaald",
-      "type": "raw",
-      "directory": "/doc/applicatieprofiel/persoon-basis/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+    "type": "ap",
+    "dummy": "trigger"
   },
   {
     "urlref": "/doc/vocabularium/persoon",
     "seealso": "/doc/vocabularium/persoon/standaard/2019-07-03",
-    "type": "raw",
-    "directory": "/doc/vocabularium/persoon",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "trigger",
-    "original": {
-      "urlref": "/doc/vocabularium/persoon",
-      "seealso": "/doc/vocabularium/persoon/standaard/2019-07-03",
-      "type": "raw",
-      "directory": "/doc/vocabularium/persoon",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+    "type": "voc",
+    "dummy": "trigger"
   },
   {
     "urlref": "/ns/persoon",
     "seealso": "/doc/vocabularium/persoon/standaard/2019-07-03",
-    "type": "raw",
-    "directory": "/ns/persoon",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "trigger",
-    "original": {
-      "urlref": "/ns/persoon",
-      "seealso": "/doc/vocabularium/persoon/standaard/2019-07-03",
-      "type": "raw",
-      "directory": "/ns/persoon",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+    "type": "voc",
+    "dummy": "trigger"
   },
   {
     "urlref": "/doc/applicatieprofiel/persoon-basis/ontwerpstandaard/toolchain4",

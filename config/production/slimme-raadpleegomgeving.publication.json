@@ -154,17 +154,8 @@
   {
     "urlref": "/doc/applicatieprofiel/slimmeraadpleegomgeving",
     "seealso": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
-    "type": "raw",
-    "dummy": "22",
-    "directory": "/doc/applicatieprofiel/slimmeraadpleegomgeving",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/slimmeraadpleegomgeving",
-      "seealso": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
-      "type": "ap",
-      "dummy": "22"
-    }
+    "type": "ap",
+    "dummy": "22"
   },
   {
     "urlref": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
@@ -297,32 +288,14 @@
   {
     "urlref": "/doc/vocabularium/slimmeraadpleegomgeving",
     "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
-    "type": "raw",
-    "dummy": "023",
-    "directory": "/doc/vocabularium/slimmeraadpleegomgeving",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/vocabularium/slimmeraadpleegomgeving",
-      "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
-      "type": "voc",
-      "dummy": "023"
-    }
+    "type": "voc",
+    "dummy": "023"
   },
   {
     "urlref": "/ns/slimmeraadpleegomgeving",
     "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
-    "type": "raw",
-    "dummy": "023",
-    "directory": "/ns/slimmeraadpleegomgeving",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/slimmeraadpleegomgeving",
-      "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
-      "type": "voc",
-      "dummy": "023"
-    }
+    "type": "voc",
+    "dummy": "023"
   },
   {
     "urlref": "/doc/applicatieprofiel/slimmeraadpleegomgeving/ontwerpstandaard/toolchain4",

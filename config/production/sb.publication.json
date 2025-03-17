@@ -102,17 +102,8 @@
   {
     "urlref": "/doc/applicatieprofiel/sensoren-en-bemonstering/",
     "seealso": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01",
-    "type": "raw",
-    "dummy": "045",
-    "directory": "/doc/applicatieprofiel/sensoren-en-bemonstering/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/sensoren-en-bemonstering/",
-      "seealso": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01",
-      "type": "ap",
-      "dummy": "045"
-    }
+    "type": "ap",
+    "dummy": "045"
   },
   {
     "urlref": "/doc/vocabularium/sensoren-en-bemonstering/ontwerpstandaard/2021-08-01",
@@ -217,17 +208,8 @@
   {
     "urlref": "/ns/sensoren-en-bemonstering/",
     "seealso": "/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01",
-    "type": "raw",
-    "dummy": "045",
-    "directory": "/ns/sensoren-en-bemonstering/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/sensoren-en-bemonstering/",
-      "seealso": "/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01",
-      "type": "voc",
-      "dummy": "045"
-    }
+    "type": "voc",
+    "dummy": "045"
   },
   {
     "urlref": "/doc/applicatieprofiel/sensoren-en-bemonstering/ontwerpstandaard/toolchain4",
