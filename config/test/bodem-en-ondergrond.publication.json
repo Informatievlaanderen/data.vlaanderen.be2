@@ -642,10 +642,9 @@
   {
     "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
-    "branchtag": "master",
+    "branchtag": "master-node-toolchain",
     "name": "ap-grondboringen",
     "filename": "config/OSLO-BodemEnOndergrond-AP-Grondboringen.json",
-    "directory": "/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2023-04-01"
     },
@@ -654,10 +653,9 @@
   {
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
-    "branchtag": "master",
+    "branchtag": "master-node-toolchain",
     "name": "grondboringen",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-Grondboringen.json",
-    "directory": "/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/2023-04-01"
     },
@@ -666,10 +664,9 @@
   {
     "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
-    "branchtag": "master",
+    "branchtag": "master-node-toolchain",
     "name": "ap-bo-observaties",
     "filename": "config/OSLO-BodemEnOndergrond-AP-BOObservaties.json",
-    "directory": "/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/bo-observaties/ontwerpstandaard/2021-08-01"
     },
@@ -678,10 +675,9 @@
   {
     "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/observaties/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
-    "branchtag": "master",
+    "branchtag": "master-node-toolchain",
     "name": "ap-bo-observaties",
     "filename": "config/OSLO-BodemEnOndergrond-AP-BOObservaties.json",
-    "directory": "/doc/applicatieprofiel/bodem-en-ondergrond/observaties/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/observaties/ontwerpstandaard/2023-04-01"
     },
@@ -793,10 +789,9 @@
   {
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/grondwatermeetnet/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
-    "branchtag": "master",
+    "branchtag": "master-node-toolchain",
     "name": "grondwatermeetnet",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-Grondwatermeetnet.json",
-    "directory": "/doc/vocabularium/bodem-en-ondergrond/grondwatermeetnet/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/bodem-en-ondergrond/grondwatermeetnet/ontwerpstandaard/2021-08-01"
     },
