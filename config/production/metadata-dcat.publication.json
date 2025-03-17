@@ -176,17 +176,8 @@
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/",
     "seealso": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21",
-    "type": "raw",
-    "dummy": 1,
-    "directory": "/doc/applicatieprofiel/metadata-dcat/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/metadata-dcat/",
-      "seealso": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21",
-      "type": "ap",
-      "dummy": 1
-    }
+    "type": "ap",
+    "dummy": 1
   },
   {
     "urlref": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21",
@@ -393,17 +384,8 @@
   {
     "urlref": "/ns/metadata-dcat/",
     "seealso": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21",
-    "type": "raw",
-    "dummy": 1,
-    "directory": "/ns/metadata-dcat/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/metadata-dcat/",
-      "seealso": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21",
-      "type": "voc",
-      "dummy": 1
-    }
+    "type": "voc",
+    "dummy": 1
   },
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/ontwerpstandaard/toolchain4",

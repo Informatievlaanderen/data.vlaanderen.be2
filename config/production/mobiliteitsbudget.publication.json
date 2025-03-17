@@ -24,19 +24,9 @@
   {
     "urlref": "/doc/applicatieprofiel/mobiliteitsbudget",
     "seealso": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
-    "type": "raw",
+    "type": "ap",
     "disabled": false,
-    "dummy": "011",
-    "directory": "/doc/applicatieprofiel/mobiliteitsbudget",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/mobiliteitsbudget",
-      "seealso": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
-      "type": "ap",
-      "disabled": false,
-      "dummy": "011"
-    }
+    "dummy": "011"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
@@ -63,19 +53,9 @@
   {
     "urlref": "/ns/mobiliteitsbudget",
     "seealso": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
-    "type": "raw",
+    "type": "voc",
     "disabled": false,
-    "dummy": "011",
-    "directory": "/ns/mobiliteitsbudget",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/mobiliteitsbudget",
-      "seealso": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
-      "type": "voc",
-      "disabled": false,
-      "dummy": "011"
-    }
+    "dummy": "011"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/toolchain4",

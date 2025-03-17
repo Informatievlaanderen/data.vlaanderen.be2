@@ -2,36 +2,14 @@
   {
     "urlref": "/doc/applicatieprofiel/notificatie-basis/",
     "seealso": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
-    "type": "raw",
-    "directory": "/doc/applicatieprofiel/notificatie-basis/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/notificatie-basis/",
-      "seealso": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
-      "type": "raw",
-      "directory": "/doc/applicatieprofiel/notificatie-basis/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+    "type": "ap",
+    "dummy": "trigger"
   },
   {
     "urlref": "/ns/notificatie",
     "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
-    "type": "raw",
-    "directory": "/ns/notificatie",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "trigger",
-    "original": {
-      "urlref": "/ns/notificatie",
-      "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
-      "type": "raw",
-      "directory": "/ns/notificatie",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+    "type": "voc",
+    "dummy": "trigger"
   },
   {
     "urlref": "/doc/vocabularium/notificatie/standaard/2019-02-07",
@@ -136,46 +114,20 @@
   {
     "urlref": "/doc/vocabularium/notificatie",
     "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
-    "type": "raw",
-    "directory": "/doc/vocabularium/notificatie",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "trigger",
-    "original": {
-      "urlref": "/doc/vocabularium/notificatie",
-      "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
-      "type": "raw",
-      "directory": "/doc/vocabularium/notificatie",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+    "type": "voc",
+    "dummy": "trigger"
   },
   {
     "urlref": "/doc/applicatieprofiel/notificatie-basis/",
     "seealso": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
-    "type": "raw",
-    "directory": "/doc/applicatieprofiel/notificatie-basis/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/notificatie-basis/",
-      "seealso": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
-      "type": "ap"
-    }
+    "type": "ap",
+    "dummy": "trigger"
   },
   {
     "urlref": "/ns/notificatie",
     "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
-    "type": "raw",
-    "directory": "/ns/notificatie",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/notificatie",
-      "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
-      "type": "voc"
-    }
+    "type": "voc",
+    "dummy": "trigger"
   },
   {
     "urlref": "/doc/vocabularium/notificatie/standaard/2019-02-07",
@@ -270,15 +222,8 @@
   {
     "urlref": "/doc/vocabularium/notificatie",
     "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
-    "type": "raw",
-    "directory": "/doc/vocabularium/notificatie",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/vocabularium/notificatie",
-      "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
-      "type": "voc"
-    }
+    "type": "voc",
+    "dummy": "trigger"
   },
   {
     "urlref": "/doc/vocabularium/notificatie/ontwerpstandaard/toolchain4",

@@ -194,58 +194,21 @@
   {
     "urlref": "/doc/vocabularium/openbaardomein/begraafplaats",
     "seealso": "/doc/vocabularium/openbaardomein/begraafplaats/erkendestandaard/2021-09-30",
-    "type": "raw",
+    "type": "voc",
     "dummy": "001",
-    "prefix": "openbaardomein",
-    "directory": "/doc/vocabularium/openbaardomein/begraafplaats",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/vocabularium/openbaardomein/begraafplaats",
-      "seealso": "/doc/vocabularium/openbaardomein/begraafplaats/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "001",
-      "prefix": "openbaardomein",
-      "directory": "/doc/vocabularium/openbaardomein/begraafplaats",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+    "prefix": "openbaardomein"
   },
   {
     "urlref": "/doc/applicatieprofiel/begraafplaatsen/",
     "seealso": "/doc/applicatieprofiel/begraafplaatsen/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "dummy": "dimi-2021-10-07-2",
-    "directory": "/doc/applicatieprofiel/begraafplaatsen/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/begraafplaatsen/",
-      "seealso": "/doc/applicatieprofiel/begraafplaatsen/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "dimi-2021-10-07-2",
-      "directory": "/doc/applicatieprofiel/begraafplaatsen/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+    "type": "ap",
+    "dummy": "dimi-2021-10-07-2"
   },
   {
     "urlref": "/doc/applicatieprofiel/begraafplaatsenbeheer/",
     "seealso": "/doc/applicatieprofiel/begraafplaatsenbeheer/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "dummy": "dimi-2021-10-07-2",
-    "directory": "/doc/applicatieprofiel/begraafplaatsenbeheer/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/begraafplaatsenbeheer/",
-      "seealso": "/doc/applicatieprofiel/begraafplaatsenbeheer/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "dimi-2021-10-07-2",
-      "directory": "/doc/applicatieprofiel/begraafplaatsenbeheer/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+    "type": "ap",
+    "dummy": "dimi-2021-10-07-2"
   },
   {
     "urlref": "/ns/openbaardomein/begraafplaats",

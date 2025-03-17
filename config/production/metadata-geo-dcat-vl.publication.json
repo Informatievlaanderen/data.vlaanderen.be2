@@ -2,17 +2,8 @@
   {
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
     "seealso": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",
-    "type": "raw",
-    "dummy": 1,
-    "directory": "/doc/applicatieprofiel/GEODCAT-AP-VL",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
-      "seealso": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",
-      "type": "ap",
-      "dummy": 1
-    }
+    "type": "ap",
+    "dummy": 1
   },
   {
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",

@@ -52,7 +52,8 @@
   {
     "urlref": "/doc/applicatieprofiel/mandatendatabank",
     "seealso": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
-    "type": "ap"
+    "type": "ap",
+    "dummy": "001"
   },
   {
     "urlref": "/doc/vocabularium/mandaat/standaard/2018-07-20",
