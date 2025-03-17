@@ -26,16 +26,8 @@
   {
     "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden",
     "seealso": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
-    "dummy": "004",
-    "type": "raw",
-    "directory": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden",
-      "seealso": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
-      "dummy": "004"
-    }
+    "type": "ap",
+    "dummy": "004"
   },
   {
     "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
@@ -64,32 +56,14 @@
   {
     "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden",
     "seealso": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
-    "type": "raw",
-    "dummy": "004",
-    "directory": "/doc/vocabularium/hulp-dienstverlening-gedetineerden",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden",
-      "seealso": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
-      "type": "voc",
-      "dummy": "004"
-    }
+    "type": "voc",
+    "dummy": "004"
   },
   {
     "urlref": "/ns/hulp-dienstverlening-gedetineerden",
     "seealso": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
-    "type": "raw",
-    "dummy": "004",
-    "directory": "/ns/hulp-dienstverlening-gedetineerden",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/hulp-dienstverlening-gedetineerden",
-      "seealso": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
-      "type": "voc",
-      "dummy": "004"
-    }
+    "type": "voc",
+    "dummy": "004"
   },
   {
     "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/toolchain4",
