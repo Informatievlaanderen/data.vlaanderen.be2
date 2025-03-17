@@ -50,17 +50,8 @@
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten",
     "seealso": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten/erkendestandaard/2022-12-01",
-    "type": "raw",
-    "dummy": "002",
-    "directory": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten",
-      "seealso": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten/erkendestandaard/2022-12-01",
-      "type": "ap",
-      "dummy": "002"
-    }
+    "type": "ap",
+    "dummy": "002"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit/vervoersknooppunten/kandidaatstandaard/2022-04-01",
@@ -116,18 +107,8 @@
     "urlref": "/ns/mobiliteit/vervoersknooppunten",
     "prefix": "mobiliteit",
     "seealso": "/doc/vocabularium/mobiliteit/vervoersknooppunten/erkendestandaard/2022-12-01",
-    "type": "raw",
-    "dummy": "003",
-    "directory": "/ns/mobiliteit/vervoersknooppunten",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/mobiliteit/vervoersknooppunten",
-      "prefix": "mobiliteit",
-      "seealso": "/doc/vocabularium/mobiliteit/vervoersknooppunten/erkendestandaard/2022-12-01",
-      "type": "voc",
-      "dummy": "003"
-    }
+    "type": "voc",
+    "dummy": "003"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten/ontwerpstandaard/toolchain4",

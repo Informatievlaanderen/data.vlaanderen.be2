@@ -54,19 +54,9 @@
   {
     "urlref": "/doc/applicatieprofiel/waterkwaliteit",
     "seealso": "/doc/applicatieprofiel/waterkwaliteit/kandidaatstandaard/2023-06-01",
-    "type": "raw",
+    "type": "ap",
     "disabled": false,
-    "dummy": "geert047",
-    "directory": "/doc/applicatieprofiel/waterkwaliteit",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/waterkwaliteit",
-      "seealso": "/doc/applicatieprofiel/waterkwaliteit/kandidaatstandaard/2023-06-01",
-      "type": "ap",
-      "disabled": false,
-      "dummy": "geert047"
-    }
+    "dummy": "geert047"
   },
   {
     "urlref": "/doc/applicatieprofiel/waterkwaliteit/kandidaatstandaard/2023-06-01",
@@ -147,19 +137,9 @@
   {
     "urlref": "/ns/waterkwaliteit",
     "seealso": "/doc/vocabularium/waterkwaliteit/kandidaatstandaard/2023-06-01",
-    "type": "raw",
+    "type": "voc",
     "disabled": false,
-    "dummy": "geert043",
-    "directory": "/ns/waterkwaliteit",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/waterkwaliteit",
-      "seealso": "/doc/vocabularium/waterkwaliteit/kandidaatstandaard/2023-06-01",
-      "type": "voc",
-      "disabled": false,
-      "dummy": "geert043"
-    }
+    "dummy": "geert043"
   },
   {
     "urlref": "/doc/vocabularium/waterkwaliteit/kandidaatstandaard/2023-06-01",
@@ -240,19 +220,9 @@
   {
     "urlref": "/doc/applicatieprofiel/statistiek",
     "seealso": "/doc/applicatieprofiel/statistiek/kandidaatstandaard/2023-06-01",
-    "type": "raw",
+    "type": "ap",
     "disabled": false,
-    "dummy": "013",
-    "directory": "/doc/applicatieprofiel/statistiek",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/statistiek",
-      "seealso": "/doc/applicatieprofiel/statistiek/kandidaatstandaard/2023-06-01",
-      "type": "ap",
-      "disabled": false,
-      "dummy": "013"
-    }
+    "dummy": "013"
   },
   {
     "urlref": "/doc/applicatieprofiel/statistiek/kandidaatstandaard/2023-06-01",
@@ -335,19 +305,9 @@
   {
     "urlref": "/ns/statistiek",
     "seealso": "/doc/vocabularium/statistiek/kandidaatstandaard/2023-06-01",
-    "type": "raw",
+    "type": "voc",
     "disabled": false,
-    "dummy": "013",
-    "directory": "/ns/statistiek",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/statistiek",
-      "seealso": "/doc/vocabularium/statistiek/kandidaatstandaard/2023-06-01",
-      "type": "voc",
-      "disabled": false,
-      "dummy": "013"
-    }
+    "dummy": "013"
   },
   {
     "urlref": "/doc/vocabularium/statistiek/kandidaatstandaard/2023-06-01",
@@ -430,19 +390,9 @@
   {
     "urlref": "/doc/applicatieprofiel/datakwaliteit",
     "seealso": "/doc/applicatieprofiel/datakwaliteit/kandidaatstandaard/2023-06-01",
-    "type": "raw",
+    "type": "ap",
     "disabled": false,
-    "dummy": "geert030",
-    "directory": "/doc/applicatieprofiel/datakwaliteit",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/datakwaliteit",
-      "seealso": "/doc/applicatieprofiel/datakwaliteit/kandidaatstandaard/2023-06-01",
-      "type": "ap",
-      "disabled": false,
-      "dummy": "geert030"
-    }
+    "dummy": "geert030"
   },
   {
     "urlref": "/doc/applicatieprofiel/datakwaliteit/kandidaatstandaard/2023-06-01",
@@ -551,19 +501,9 @@
   {
     "urlref": "/ns/datakwaliteit",
     "seealso": "/doc/vocabularium/datakwaliteit/kandidaatstandaard/2023-06-01",
-    "type": "raw",
+    "type": "voc",
     "disabled": false,
-    "dummy": "029",
-    "directory": "/ns/datakwaliteit",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/datakwaliteit",
-      "seealso": "/doc/vocabularium/datakwaliteit/kandidaatstandaard/2023-06-01",
-      "type": "voc",
-      "disabled": false,
-      "dummy": "029"
-    }
+    "dummy": "029"
   },
   {
     "urlref": "/doc/applicatieprofiel/waterkwaliteit/ontwerpstandaard/toolchain4",

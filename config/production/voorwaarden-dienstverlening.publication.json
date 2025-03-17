@@ -24,19 +24,9 @@
   {
     "urlref": "/doc/applicatieprofiel/voorwaarden-dienstverlening",
     "seealso": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11",
-    "type": "raw",
+    "type": "ap",
     "disabled": false,
-    "dummy": "003",
-    "directory": "/doc/applicatieprofiel/voorwaarden-dienstverlening",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/voorwaarden-dienstverlening",
-      "seealso": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11",
-      "type": "ap",
-      "disabled": false,
-      "dummy": "003"
-    }
+    "dummy": "003"
   },
   {
     "urlref": "/doc/applicatieprofiel/voorwaarden-dienstverlening/ontwerpstandaard/toolchain4",

@@ -52,18 +52,8 @@
   {
     "urlref": "/doc/applicatieprofiel/vlaamse-codex/",
     "seealso": "/doc/applicatieprofiel/vlaamse-codex/standaard/2019-02-07",
-    "type": "raw",
-    "directory": "/doc/applicatieprofiel/vlaamse-codex/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/vlaamse-codex/",
-      "seealso": "/doc/applicatieprofiel/vlaamse-codex/standaard/2019-02-07",
-      "type": "raw",
-      "directory": "/doc/applicatieprofiel/vlaamse-codex/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+    "type": "ap",
+    "dummy": "trigger"
   },
   {
     "urlref": "/doc/applicatieprofiel/vlaamse-codex/ontwerpstandaard/toolchain4",

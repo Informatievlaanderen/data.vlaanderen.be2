@@ -22,17 +22,8 @@
   {
     "urlref": "/doc/applicatieprofiel/vastgoed",
     "seealso": "/doc/applicatieprofiel/vastgoed/ontwerpstandaard/2021-06-30",
-    "type": "raw",
-    "dummy": "003",
-    "directory": "/doc/applicatieprofiel/vastgoed",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/vastgoed",
-      "seealso": "/doc/applicatieprofiel/vastgoed/ontwerpstandaard/2021-06-30",
-      "type": "ap",
-      "dummy": "003"
-    }
+    "type": "ap",
+    "dummy": "003"
   },
   {
     "urlref": "/doc/vocabularium/vastgoed/ontwerpstandaard/2021-06-30",
@@ -57,17 +48,8 @@
   {
     "urlref": "/ns/vastgoed",
     "seealso": "/doc/vocabularium/vastgoed/ontwerpstandaard/2021-06-30",
-    "type": "raw",
-    "dummy": "004",
-    "directory": "/ns/vastgoed",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/vastgoed",
-      "seealso": "/doc/vocabularium/vastgoed/ontwerpstandaard/2021-06-30",
-      "type": "voc",
-      "dummy": "004"
-    }
+    "type": "voc",
+    "dummy": "004"
   },
   {
     "urlref": "/doc/applicatieprofiel/vastgoed/ontwerpstandaard/toolchain4",
