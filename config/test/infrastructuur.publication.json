@@ -51,7 +51,7 @@
     "navigation": {},
     "type": "raw",
     "directory": "/doc/applicatieprofiel/infrastructuurelementen/erkendestandaard/2021-09-30",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "original": {
       "urlref": "/doc/applicatieprofiel/infrastructuurelementen/erkendestandaard/2021-09-30",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -115,7 +115,7 @@
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/openbaardomein/infrastructuur/erkendestandaard/2021-09-30",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "original": {
       "urlref": "/doc/vocabularium/openbaardomein/infrastructuur/erkendestandaard/2021-09-30",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -128,69 +128,28 @@
     }
   },
   {
-    "urlref": "/doc/vocabularium/openbaardomein/infrastructuur",
-    "seealso": "/doc/vocabularium/openbaardomein/infrastructuur/erkendestandaard/2021-09-30",
-    "prefix": "openbaardomein",
-    "type": "raw",
-    "dummy": "001",
-    "directory": "/doc/vocabularium/openbaardomein/infrastructuur",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/vocabularium/openbaardomein/infrastructuur",
       "seealso": "/doc/vocabularium/openbaardomein/infrastructuur/erkendestandaard/2021-09-30",
       "prefix": "openbaardomein",
-      "type": "raw",
-      "dummy": "001",
-      "directory": "/doc/vocabularium/openbaardomein/infrastructuur",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+      "type": "voc"
   },
   {
-    "urlref": "/doc/applicatieprofiel/infrastructuurelementen/",
-    "seealso": "/doc/applicatieprofiel/infrastructuurelementen/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "dummy": "dimi-2021-10-07-2",
-    "directory": "/doc/applicatieprofiel/infrastructuurelementen/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/applicatieprofiel/infrastructuurelementen/",
       "seealso": "/doc/applicatieprofiel/infrastructuurelementen/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "dimi-2021-10-07-2",
-      "directory": "/doc/applicatieprofiel/infrastructuurelementen/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+      "type": "ap"
   },
   {
-    "urlref": "/ns/openbaardomein/infrastructuur",
-    "seealso": "/doc/vocabularium/openbaardomein/infrastructuur/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "prefix": "openbaardomein",
-    "directory": "/ns/openbaardomein/infrastructuur",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "001",
-    "original": {
       "urlref": "/ns/openbaardomein/infrastructuur",
       "seealso": "/doc/vocabularium/openbaardomein/infrastructuur/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "prefix": "openbaardomein",
-      "directory": "/ns/openbaardomein/infrastructuur",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "001"
-    }
+      "type": "voc",
+      "prefix": "openbaardomein"
   },
   {
     "urlref": "/doc/applicatieprofiel/infrastructuurelementen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
-    "name": "openbaardomein",
-    "filename": "config/eap-mapping.json",
+    "name": "infrastructuurelementen-ap",
+    "filename": "config/infrastructuur.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/infrastructuurelementen/standaard/2018-11-27"
     },
@@ -200,8 +159,8 @@
     "urlref": "/doc/vocabularium/openbaardomein/infrastructuur/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
-    "name": "openbaardomein",
-    "filename": "config/eap-mapping.json",
+    "name": "infrastructuur",
+    "filename": "config/infrastructuur.json",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/infrastructuur/standaard/2018-11-27"
     },
