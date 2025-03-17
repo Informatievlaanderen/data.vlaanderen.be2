@@ -771,10 +771,9 @@
   {
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/bodem/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
-    "branchtag": "master",
+    "branchtag": "master-node-toolchain",
     "name": "bodem",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-Bodem.json",
-    "directory": "/doc/vocabularium/bodem-en-ondergrond/bodem/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
     },
@@ -783,10 +782,9 @@
   {
     "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/grondwatermeetnet/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
-    "branchtag": "master",
+    "branchtag": "master-node-toolchain",
     "name": "ap-grondwatermeetnet",
     "filename": "config/OSLO-BodemEnOndergrond-AP-Grondwatermeetnet.json",
-    "directory": "/doc/applicatieprofiel/bodem-en-ondergrond/grondwatermeetnet/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/grondwatermeetnet/ontwerpstandaard/2021-08-01"
     },
