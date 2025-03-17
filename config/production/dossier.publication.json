@@ -210,32 +210,14 @@
   {
     "urlref": "/doc/applicatieprofiel/dossier",
     "seealso": "/doc/applicatieprofiel/dossier/erkendestandaard/2023-09-25",
-    "type": "raw",
-    "dummy": "004",
-    "directory": "/doc/applicatieprofiel/dossier",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/dossier",
-      "seealso": "/doc/applicatieprofiel/dossier/erkendestandaard/2023-09-25",
-      "type": "ap",
-      "dummy": "004"
-    }
+    "type": "ap",
+    "dummy": "004"
   },
   {
     "urlref": "/ns/dossier",
     "seealso": "/doc/vocabularium/dossier/erkendestandaard/2023-09-25",
-    "type": "raw",
-    "dummy": "004",
-    "directory": "/ns/dossier",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/dossier",
-      "seealso": "/doc/vocabularium/dossier/erkendestandaard/2023-09-25",
-      "type": "voc",
-      "dummy": "004"
-    }
+    "type": "voc",
+    "dummy": "004"
   },
   {
     "urlref": "/doc/applicatieprofiel/dossier/ontwerpstandaard/toolchain4",

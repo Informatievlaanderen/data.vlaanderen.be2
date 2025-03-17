@@ -86,34 +86,15 @@
   {
     "urlref": "/doc/applicatieprofiel/DigitaleWatermeter",
     "seealso": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20",
-    "type": "raw",
-    "dummy": "33",
-    "directory": "/doc/applicatieprofiel/DigitaleWatermeter",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/DigitaleWatermeter",
-      "seealso": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20",
-      "type": "ap",
-      "dummy": "33"
-    }
+    "type": "ap",
+    "dummy": "33"
   },
   {
     "urlref": "/ns/nutsvoorzieningen/meters",
     "prefix": "nutsvoorzieningen",
     "seealso": "/doc/vocabularium/nutsvoorzieningen/meters/kandidaatstandaard/2025-01-20",
-    "type": "raw",
-    "dummy": "38",
-    "directory": "/ns/nutsvoorzieningen/meters",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/nutsvoorzieningen/meters",
-      "prefix": "nutsvoorzieningen",
-      "seealso": "/doc/vocabularium/nutsvoorzieningen/meters/kandidaatstandaard/2025-01-20",
-      "type": "voc",
-      "dummy": "38"
-    }
+    "type": "voc",
+    "dummy": "38"
   },
   {
     "urlref": "/doc/applicatieprofiel/DigitaleWatermeter/ontwerpstandaard/toolchain4",

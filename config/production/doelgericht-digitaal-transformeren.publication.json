@@ -153,19 +153,7 @@
     "urlref": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren",
     "seealso": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01",
     "type": "raw",
-    "dummy": "004",
-    "directory": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren",
-      "seealso": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01",
-      "type": "raw",
-      "dummy": "004",
-      "directory": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+    "dummy": "004"
   },
   {
     "urlref": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/toolchain4",
@@ -331,32 +319,14 @@
   {
     "urlref": "/doc/applicatieprofiel/cultuurparticipatie",
     "seealso": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-09-11",
-    "type": "raw",
-    "dummy": "011",
-    "directory": "/doc/applicatieprofiel/cultuurparticipatie",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/cultuurparticipatie",
-      "seealso": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-09-11",
-      "type": "ap",
-      "dummy": "011"
-    }
+    "type": "ap",
+    "dummy": "011"
   },
   {
     "urlref": "/ns/cultuurparticipatie",
     "seealso": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11",
-    "type": "raw",
-    "dummy": "011",
-    "directory": "/ns/cultuurparticipatie",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/cultuurparticipatie",
-      "seealso": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11",
-      "type": "voc",
-      "dummy": "011"
-    }
+    "type": "voc",
+    "dummy": "011"
   },
   {
     "urlref": "/doc/applicatieprofiel/cultuurparticipatie/ontwerpstandaard/toolchain4",

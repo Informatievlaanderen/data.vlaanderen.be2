@@ -61,17 +61,8 @@
   {
     "urlref": "/ns/energiehuis",
     "seealso": "/doc/vocabularium/energiehuis/ontwerpstandaard/2024-12-03",
-    "type": "raw",
-    "dummy": "017",
-    "directory": "/ns/energiehuis",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/energiehuis",
-      "seealso": "/doc/vocabularium/energiehuis/ontwerpstandaard/2024-12-03",
-      "type": "voc",
-      "dummy": "017"
-    }
+    "type": "voc",
+    "dummy": "017"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/toolchain4",
@@ -136,31 +127,5 @@
     "seealso": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-02-18",
     "type": "voc",
     "dummy": "52"
-  },
-  {
-    "urlref": "/doc/vocabularium/energiehuis/ontwerpstandaard/test",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis",
-    "branchtag": "main-kristof",
-    "name": "energiehuis",
-    "filename": "config/energiehuis-voc.json",
-    "directory": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-02-18",
-    "navigation": {
-      "prev": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-01-09"
-    },
-    "dummy": "008"
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/test",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis",
-    "branchtag": "main-kristof",
-    "name": "energiehuis",
-    "filename": "config/energiehuis-ap.json",
-    "navigation": {
-      "prev": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/2025-01-09"
-    },
-    "dummy": "007",
-    "contextgenerator": {
-      "parameters": "--addDomainPrefix true"
-    }
   }
 ]
