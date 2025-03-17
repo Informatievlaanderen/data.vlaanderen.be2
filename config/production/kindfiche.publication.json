@@ -55,6 +55,13 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03"
     },
-    "dummy": "2025-03-16 21:15:32"
+    "dummy": "012"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen",
+    "seealso": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/toolchain4",
+    "disabled": false,
+    "type": "ap",
+    "dummy": "011"
   }
 ]
