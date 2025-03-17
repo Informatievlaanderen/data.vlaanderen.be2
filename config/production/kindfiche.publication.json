@@ -25,18 +25,8 @@
     "urlref": "/doc/applicatieprofiel/kindfiche",
     "seealso": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
     "disabled": false,
-    "type": "raw",
-    "dummy": "011",
-    "directory": "/doc/applicatieprofiel/kindfiche",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/kindfiche",
-      "seealso": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
-      "disabled": false,
-      "type": "ap",
-      "dummy": "011"
-    }
+    "type": "ap",
+    "dummy": "011"
   },
   {
     "urlref": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",

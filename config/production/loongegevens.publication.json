@@ -46,32 +46,14 @@
   {
     "urlref": "/doc/applicatieprofiel/loongegevens",
     "seealso": "/doc/applicatieprofiel/loongegevens/kandidaatstandaard/2022-03-17",
-    "type": "raw",
-    "dummy": "002",
-    "directory": "/doc/applicatieprofiel/loongegevens",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/loongegevens",
-      "seealso": "/doc/applicatieprofiel/loongegevens/kandidaatstandaard/2022-03-17",
-      "type": "ap",
-      "dummy": "002"
-    }
+    "type": "ap",
+    "dummy": "002"
   },
   {
     "urlref": "/ns/loongegevens",
     "seealso": "/doc/vocabularium/loongegevens/kandidaatstandaard/2022-03-17",
-    "type": "raw",
-    "dummy": "002",
-    "directory": "/ns/loongegevens",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/loongegevens",
-      "seealso": "/doc/vocabularium/loongegevens/kandidaatstandaard/2022-03-17",
-      "type": "voc",
-      "dummy": "002"
-    }
+    "type": "voc",
+    "dummy": "002"
   },
   {
     "urlref": "/doc/applicatieprofiel/loongegevens/ontwerpstandaard/toolchain4",

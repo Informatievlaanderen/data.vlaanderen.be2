@@ -143,33 +143,14 @@
   {
     "urlref": "/doc/applicatieprofiel/ldes",
     "seealso": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01",
-    "type": "raw",
-    "dummy": "001",
-    "directory": "/doc/applicatieprofiel/ldes",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/ldes",
-      "seealso": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01",
-      "type": "raw",
-      "directory": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01",
-      "dummy": "001"
-    }
+    "type": "ap",
+    "dummy": "001"
   },
   {
     "urlref": "/ns/ldes",
     "seealso": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01",
-    "type": "raw",
-    "dummy": "002",
-    "directory": "/ns/ldes",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/ldes",
-      "seealso": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01",
-      "type": "voc",
-      "dummy": "001"
-    }
+    "type": "voc",
+    "dummy": "001"
   },
   {
     "urlref": "/doc/applicatieprofiel/ldes/ontwerpstandaard/toolchain4",

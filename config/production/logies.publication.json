@@ -100,56 +100,20 @@
   {
     "urlref": "/doc/vocabularium/logies",
     "seealso": "/doc/vocabularium/logies/erkendestandaard/2019-03-14",
-    "type": "raw",
-    "directory": "/doc/vocabularium/logies",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "trigger",
-    "original": {
-      "urlref": "/doc/vocabularium/logies",
-      "seealso": "/doc/vocabularium/logies/erkendestandaard/2019-03-14",
-      "type": "raw",
-      "directory": "/doc/vocabularium/logies",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+    "type": "voc",
+    "dummy": "trigger"
   },
   {
     "urlref": "/ns/logies",
     "seealso": "/doc/vocabularium/logies/erkendestandaard/2019-03-14",
-    "type": "raw",
-    "directory": "/ns/logies",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "trigger",
-    "original": {
-      "urlref": "/ns/logies",
-      "seealso": "/doc/vocabularium/logies/erkendestandaard/2019-03-14",
-      "type": "raw",
-      "directory": "/ns/logies",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+    "type": "voc",
+    "dummy": "trigger"
   },
   {
     "urlref": "/doc/applicatieprofiel/logies-basis",
     "seealso": "/doc/applicatieprofiel/logies-basis/erkendestandaard/2019-03-14",
-    "type": "raw",
-    "dummpy": "1",
-    "directory": "/doc/applicatieprofiel/logies-basis",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/logies-basis",
-      "seealso": "/doc/applicatieprofiel/logies-basis/erkendestandaard/2019-03-14",
-      "type": "raw",
-      "dummpy": "1",
-      "directory": "/doc/applicatieprofiel/logies-basis",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+    "type": "ap",
+    "dummy": "1"
   },
   {
     "urlref": "/doc/vocabularium/logies/ontwerpstandaard/toolchain4",

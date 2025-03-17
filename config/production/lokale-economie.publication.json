@@ -50,17 +50,8 @@
   {
     "urlref": "/doc/applicatieprofiel/lokale-economie",
     "seealso": "/doc/applicatieprofiel/lokale-economie/erkendestandaard/2024-12-05",
-    "type": "raw",
-    "dummy": "011",
-    "directory": "/doc/applicatieprofiel/lokale-economie",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/lokale-economie",
-      "seealso": "/doc/applicatieprofiel/lokale-economie/erkendestandaard/2024-12-05",
-      "type": "ap",
-      "dummy": "011"
-    }
+    "type": "ap",
+    "dummy": "011"
   },
   {
     "urlref": "/doc/vocabularium/lokale-economie/kandidaatstandaard/2024-03-21",
@@ -113,17 +104,8 @@
   {
     "urlref": "/ns/lokale-economie",
     "seealso": "/doc/vocabularium/lokale-economie/erkendestandaard/2024-12-05",
-    "type": "raw",
-    "dummy": "010",
-    "directory": "/ns/lokale-economie",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/ns/lokale-economie",
-      "seealso": "/doc/vocabularium/lokale-economie/erkendestandaard/2024-12-05",
-      "type": "voc",
-      "dummy": "010"
-    }
+    "type": "voc",
+    "dummy": "010"
   },
   {
     "urlref": "/doc/applicatieprofiel/lokale-economie/ontwerpstandaard/toolchain4",
