@@ -726,10 +726,9 @@
   {
     "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
-    "branchtag": "master",
+    "branchtag": "master-node-toolchain",
     "name": "ap-bo-interpretaties",
     "filename": "config/OSLO-BodemEnOndergrond-AP-BOInterpretaties.json",
-    "directory": "/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/ontwerpstandaard/2023-04-01"
     },
