@@ -20,40 +20,14 @@
     }
   },
   {
-    "urlref": "/doc/vocabularium/wetgeving",
-    "seealso": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald",
-    "type": "raw",
-    "directory": "/doc/vocabularium/wetgeving",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "trigger",
-    "original": {
       "urlref": "/doc/vocabularium/wetgeving",
       "seealso": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald",
-      "type": "raw",
-      "directory": "/doc/vocabularium/wetgeving",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+      "type": "voc"
   },
   {
-    "urlref": "/ns/wetgeving",
-    "seealso": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald",
-    "type": "raw",
-    "directory": "/ns/wetgeving",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "dummy": "trigger",
-    "original": {
       "urlref": "/ns/wetgeving",
       "seealso": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald",
-      "type": "raw",
-      "directory": "/ns/wetgeving",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
-      "dummy": "trigger"
-    }
+      "type": "voc"
   },
   {
     "urlref": "/doc/vocabularium/wetgeving/ontwerpstandaard/toolchain4",
