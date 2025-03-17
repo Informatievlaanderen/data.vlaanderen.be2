@@ -50,17 +50,8 @@
   {
     "urlref": "/doc/applicatieprofiel/bestuurlijk-sanctieregister",
     "seealso": "/doc/applicatieprofiel/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23",
-    "type": "raw",
-    "dummy": "002",
-    "directory": "/doc/applicatieprofiel/bestuurlijk-sanctieregister",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/bestuurlijk-sanctieregister",
-      "seealso": "/doc/applicatieprofiel/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23",
-      "type": "ap",
-      "dummy": "002"
-    }
+    "type": "ap",
+    "dummy": "002"
   },
   {
     "urlref": "/ns/bestuurlijk-sanctieregister",
