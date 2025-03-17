@@ -1,0 +1,39 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/inname-openbaar-domein/ontwerpdocument/2018-05-10",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "inname-openbaar-domein",
+    "filename": "config/inname-openbaar-domein.json",
+    "type": "raw",
+    "dummy": "trigger",
+    "directory": "/doc/applicatieprofiel/inname-openbaar-domein/ontwerpdocument/2018-05-10",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/inname-openbaar-domein/ontwerpdocument/2018-05-10",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "inname-openbaar-domein",
+      "filename": "config/inname-openbaar-domein.json",
+      "type": "raw",
+      "dummy": "trigger",
+      "directory": "/doc/applicatieprofiel/inname-openbaar-domein/ontwerpdocument/2018-05-10"
+    }
+  },
+  {
+    "comment": "This publication does not have a proper setup in the original repository. No toolchain4 variant added because there was no configuration.",
+    "urlref": "/doc/applicatieprofiel/inname-openbaar-domein/",
+    "seealso": "/doc/applicatieprofiel/inname-openbaar-domein/ontwerpdocument/2018-05-10",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/inname-openbaar-domein/",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/inname-openbaar-domein/",
+      "seealso": "/doc/applicatieprofiel/inname-openbaar-domein/ontwerpdocument/2018-05-10",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/inname-openbaar-domein/",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  }
+]

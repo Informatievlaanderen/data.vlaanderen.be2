@@ -1,0 +1,196 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/ldes/ontwerpstandaard/2022-05-17",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "OSLO-LDES-ap",
+    "filename": "config/OSLO-LDES-ap.json",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/ldes/kandidaatstandaard/2022-06-13"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/ldes/ontwerpstandaard/2022-05-17",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/ldes/ontwerpstandaard/2022-05-17",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-ldes",
+      "branchtag": "ontwerp-20220517",
+      "name": "OSLO-LDES-ap",
+      "filename": "config/OSLO-LDES-ap.json",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/ldes/kandidaatstandaard/2022-06-13"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/ldes/kandidaatstandaard/2022-06-13",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "OSLO-LDES-ap",
+    "filename": "config/OSLO-LDES-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/ldes/ontwerpstandaard/2022-05-17",
+      "next": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/ldes/kandidaatstandaard/2022-06-13",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/ldes/kandidaatstandaard/2022-06-13",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-ldes",
+      "branchtag": "kandidaat-20220613",
+      "name": "OSLO-LDES-ap",
+      "filename": "config/OSLO-LDES-ap.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/ldes/ontwerpstandaard/2022-05-17",
+        "next": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "OSLO-LDES-ap",
+    "filename": "config/OSLO-LDES-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/ldes/kandidaatstandaard/2022-06-13",
+      "next": "/doc/applicatieprofiel/ldes/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-ldes",
+      "branchtag": "erkend-20221201_01",
+      "name": "OSLO-LDES-ap",
+      "filename": "config/OSLO-LDES-ap.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/ldes/kandidaatstandaard/2022-06-13",
+        "next": "/doc/applicatieprofiel/ldes/ontwerpstandaard/toolchain4"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/ldes/ontwerpstandaard/2022-05-17",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "OSLO-LDES-voc",
+    "filename": "config/OSLO-LDES-voc.json",
+    "navigation": {
+      "next": "/doc/vocabularium/ldes/kandidaatstandaard/2022-06-13"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/ldes/ontwerpstandaard/2022-05-17",
+    "original": {
+      "urlref": "/doc/vocabularium/ldes/ontwerpstandaard/2022-05-17",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-ldes",
+      "branchtag": "ontwerp-20220517",
+      "name": "OSLO-LDES-voc",
+      "filename": "config/OSLO-LDES-voc.json",
+      "navigation": {
+        "next": "/doc/vocabularium/ldes/kandidaatstandaard/2022-06-13"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/ldes/kandidaatstandaard/2022-06-13",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "ldes",
+    "filename": "config/OSLO-LDES-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/ldes/ontwerpstandaard/2022-05-17",
+      "next": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/ldes/kandidaatstandaard/2022-06-13",
+    "original": {
+      "urlref": "/doc/vocabularium/ldes/kandidaatstandaard/2022-06-13",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-ldes",
+      "branchtag": "kandidaat-20220613",
+      "name": "ldes",
+      "filename": "config/OSLO-LDES-voc.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/ldes/ontwerpstandaard/2022-05-17",
+        "next": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "ldes",
+    "dummy": "001",
+    "filename": "config/OSLO-LDES-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/ldes/kandidaatstandaard/2022-06-13",
+      "next": "/doc/vocabularium/ldes/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01",
+    "original": {
+      "urlref": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-ldes",
+      "branchtag": "erkend-20221201_01",
+      "name": "ldes",
+      "filename": "config/OSLO-LDES-voc.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/ldes/kandidaatstandaard/2022-06-13",
+        "next": "/doc/vocabularium/ldes/ontwerpstandaard/toolchain4"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/ldes",
+    "seealso": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01",
+    "type": "raw",
+    "dummy": "001",
+    "directory": "/doc/applicatieprofiel/ldes",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/ldes",
+      "seealso": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01",
+      "dummy": "001"
+    }
+  },
+  {
+    "urlref": "/ns/ldes",
+    "seealso": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01",
+    "type": "raw",
+    "dummy": "002",
+    "directory": "/ns/ldes",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/ldes",
+      "seealso": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01",
+      "type": "voc",
+      "dummy": "001"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/ldes/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-ldes",
+    "branchtag": "master-node-toolchain",
+    "name": "OSLO-LDES-ap",
+    "filename": "config/OSLO-LDES-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01"
+    },
+    "dummy": "006"
+  },
+  {
+    "urlref": "/doc/vocabularium/ldes/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-ldes",
+    "branchtag": "master-node-toolchain",
+    "name": "ldes",
+    "filename": "config/OSLO-LDES-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01"
+    },
+    "dummy": "002"
+  }
+]

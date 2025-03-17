@@ -1,0 +1,50 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/verkeersborden/ontwerpdocument/niet-bepaald",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "verkeersborden",
+    "filename": "config/verkeersborden.json",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/verkeersborden/ontwerpdocument/niet-bepaald",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/verkeersborden/ontwerpdocument/niet-bepaald",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "verkeersborden",
+      "filename": "config/verkeersborden.json",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/verkeersborden/ontwerpdocument/niet-bepaald",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/verkeersborden/",
+    "seealso": "/doc/applicatieprofiel/verkeersborden/ontwerpdocument/2020-01-06",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/verkeersborden/",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/verkeersborden/",
+      "seealso": "/doc/applicatieprofiel/verkeersborden/ontwerpdocument/2020-01-06",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/verkeersborden/",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/verkeersborden/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-verkeersborden",
+    "branchtag": "master",
+    "name": "verkeersborden",
+    "filename": "config/verkeersborden.json",
+    "directory": "/doc/applicatieprofiel/verkeersborden/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersborden/ontwerpdocument/niet-bepaald"
+    },
+    "dummy": "001"
+  }
+]

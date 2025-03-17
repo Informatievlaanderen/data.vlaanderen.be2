@@ -1,0 +1,224 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/openbaar-domein/standaard/2018-11-27",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaardomein",
+    "navigation": {},
+    "directory": "/doc/applicatieprofiel/openbaar-domein/standaard/2018-11-27",
+    "type": "raw",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/openbaar-domein/standaard/2018-11-27",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "openbaardomein",
+      "navigation": {},
+      "directory": "/doc/applicatieprofiel/openbaar-domein/standaard/2018-11-27",
+      "type": "raw",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/openbaar-domein/kandidaatstandaard/2020-06-18",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaar-domein-ap",
+    "filename": "config/eap-mapping.json",
+    "dummy": "trigger",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/openbaar-domein/standaard/2018-11-27",
+      "next": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/openbaar-domein/kandidaatstandaard/2020-06-18",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/openbaar-domein/kandidaatstandaard/2020-06-18",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "openbaar-domein-ap",
+      "filename": "config/eap-mapping.json",
+      "dummy": "trigger",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/openbaar-domein/standaard/2018-11-27",
+        "next": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/openbaar-domein/kandidaatstandaard/2020-06-18"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaar-domein-ap",
+    "filename": "config/eap-mapping.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/openbaar-domein/standaard/2018-11-27"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "openbaar-domein-ap",
+      "filename": "config/eap-mapping.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/openbaar-domein/standaard/2018-11-27"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/standaard/2018-11-27",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaardomein",
+    "navigation": {},
+    "type": "raw",
+    "directory": "/doc/vocabularium/openbaardomein/standaard/2018-11-27",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/openbaardomein/standaard/2018-11-27",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "openbaardomein",
+      "navigation": {},
+      "type": "raw",
+      "directory": "/doc/vocabularium/openbaardomein/standaard/2018-11-27",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/kandidaatstandaard/2020-06-18",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaar-domein-voc",
+    "filename": "config/eap-mapping.json",
+    "dummy": "trigger",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/standaard/2018-11-27",
+      "next": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/openbaardomein/kandidaatstandaard/2020-06-18",
+    "original": {
+      "urlref": "/doc/vocabularium/openbaardomein/kandidaatstandaard/2020-06-18",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "openbaar-domein-voc",
+      "filename": "config/eap-mapping.json",
+      "dummy": "trigger",
+      "navigation": {
+        "prev": "/doc/vocabularium/openbaardomein/standaard/2018-11-27",
+        "next": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/openbaardomein/kandidaatstandaard/2020-06-18"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaar-domein-voc",
+    "filename": "config/eap-mapping.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/standaard/2018-11-27"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30",
+    "original": {
+      "urlref": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "openbaar-domein-voc",
+      "filename": "config/eap-mapping.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/openbaardomein/standaard/2018-11-27"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/openbaar-domein",
+    "seealso": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30",
+    "type": "raw",
+    "dummy": "dimi-2021-10-07-2",
+    "directory": "/doc/applicatieprofiel/openbaar-domein",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/openbaar-domein",
+      "seealso": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30",
+      "type": "raw",
+      "dummy": "dimi-2021-10-07-2",
+      "directory": "/doc/applicatieprofiel/openbaar-domein",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein",
+    "seealso": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30",
+    "type": "raw",
+    "dummy": "002",
+    "directory": "/doc/vocabularium/openbaardomein",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/vocabularium/openbaardomein",
+      "seealso": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30",
+      "type": "raw",
+      "dummy": "002",
+      "directory": "/doc/vocabularium/openbaardomein",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/ns/openbaardomein",
+    "seealso": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30",
+    "type": "raw",
+    "directory": "/ns/openbaardomein",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "002",
+    "original": {
+      "urlref": "/ns/openbaardomein",
+      "seealso": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30",
+      "type": "raw",
+      "directory": "/ns/openbaardomein",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "002"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/openbaar-domein/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "master",
+    "name": "openbaar-domein-ap",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/applicatieprofiel/openbaar-domein/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "master",
+    "name": "openbaardomein",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/vocabularium/openbaardomein/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30"
+    },
+    "dummy": "001"
+  }
+]

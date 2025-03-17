@@ -1,0 +1,140 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/2023-05-05",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "kwaliteitWegenEnWegmarkeringen-impl",
+    "filename": "config/kwaliteitWegenEnWegmarkeringen-impl.json",
+    "disabled": false,
+    "dummy": "020",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/2023-05-05",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/2023-05-05",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen",
+      "branchtag": "ontwerp_2023-05-05_002",
+      "name": "kwaliteitWegenEnWegmarkeringen-impl",
+      "filename": "config/kwaliteitWegenEnWegmarkeringen-impl.json",
+      "disabled": false,
+      "dummy": "020"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "kwaliteitWegenEnWegmarkeringen-impl",
+    "filename": "config/kwaliteitWegenEnWegmarkeringen-impl.json",
+    "disabled": false,
+    "dummy": "020",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen",
+      "branchtag": "erkend-2024-12-05",
+      "name": "kwaliteitWegenEnWegmarkeringen-impl",
+      "filename": "config/kwaliteitWegenEnWegmarkeringen-impl.json",
+      "disabled": false,
+      "dummy": "020"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen",
+    "seealso": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
+    "type": "raw",
+    "disabled": false,
+    "dummy": "020",
+    "directory": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen",
+      "seealso": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
+      "type": "ap",
+      "disabled": false,
+      "dummy": "020"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/2023-05-05",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "kwaliteit-wegen-en-wegmarkeringen",
+    "filename": "config/kwaliteitWegenEnWegmarkeringen-voc.json",
+    "disabled": false,
+    "dummy": "020",
+    "type": "raw",
+    "directory": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/2023-05-05",
+    "original": {
+      "urlref": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/2023-05-05",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen",
+      "branchtag": "ontwerp_2023-05-05_002",
+      "name": "kwaliteit-wegen-en-wegmarkeringen",
+      "filename": "config/kwaliteitWegenEnWegmarkeringen-voc.json",
+      "disabled": false,
+      "dummy": "020"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "kwaliteit-wegen-en-wegmarkeringen",
+    "filename": "config/kwaliteitWegenEnWegmarkeringen-voc.json",
+    "disabled": false,
+    "dummy": "020",
+    "type": "raw",
+    "directory": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
+    "original": {
+      "urlref": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen",
+      "branchtag": "erkend-2024-12-05",
+      "name": "kwaliteit-wegen-en-wegmarkeringen",
+      "filename": "config/kwaliteitWegenEnWegmarkeringen-voc.json",
+      "disabled": false,
+      "dummy": "020"
+    }
+  },
+  {
+    "urlref": "/ns/kwaliteit-wegen-en-wegmarkeringen",
+    "seealso": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
+    "type": "raw",
+    "disabled": false,
+    "dummy": "020",
+    "directory": "/ns/kwaliteit-wegen-en-wegmarkeringen",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/kwaliteit-wegen-en-wegmarkeringen",
+      "seealso": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
+      "type": "voc",
+      "disabled": false,
+      "dummy": "020"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen",
+    "branchtag": "main",
+    "name": "kwaliteitWegenEnWegmarkeringen-impl",
+    "filename": "config/kwaliteitWegenEnWegmarkeringen-impl.json",
+    "directory": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-wegenEnWegmarkeringen",
+    "branchtag": "main",
+    "name": "kwaliteit-wegen-en-wegmarkeringen",
+    "filename": "config/kwaliteitWegenEnWegmarkeringen-voc.json",
+    "directory": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05"
+    },
+    "dummy": "001"
+  }
+]

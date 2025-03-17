@@ -1,0 +1,152 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/omgevingsvergunning/kandidaatstandaard/2024-10-17",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "omgevingsvergunning-ap",
+    "filename": "config/eap-mapping.json",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07"
+    },
+    "dummy": "010",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/omgevingsvergunning/kandidaatstandaard/2024-10-17",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/omgevingsvergunning/kandidaatstandaard/2024-10-17",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-omgevingsvergunning",
+      "branchtag": "kandidaat-2024-09-16-01",
+      "name": "omgevingsvergunning-ap",
+      "filename": "config/eap-mapping.json",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07"
+      },
+      "dummy": "010"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "omgevingsvergunning-ap",
+    "filename": "config/eap-mapping.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/omgevingsvergunning/kandidaatstandaard/2024-10-17"
+    },
+    "dummy": "002",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-omgevingsvergunning",
+      "branchtag": "erkend-2024-11-07-001",
+      "name": "omgevingsvergunning-ap",
+      "filename": "config/eap-mapping.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/omgevingsvergunning/kandidaatstandaard/2024-10-17"
+      },
+      "dummy": "002"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/omgevingsvergunning",
+    "seealso": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07",
+    "type": "raw",
+    "dummy": "010",
+    "directory": "/doc/applicatieprofiel/omgevingsvergunning",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/omgevingsvergunning",
+      "seealso": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07",
+      "type": "ap",
+      "dummy": "010"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/omgevingsvergunning/kandidaatstandaard/2024-10-17",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "omgevingsvergunning",
+    "filename": "config/eap-mapping.json",
+    "navigation": {
+      "next": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+    },
+    "dummy": "010",
+    "type": "raw",
+    "directory": "/doc/vocabularium/omgevingsvergunning/kandidaatstandaard/2024-10-17",
+    "original": {
+      "urlref": "/doc/vocabularium/omgevingsvergunning/kandidaatstandaard/2024-10-17",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-omgevingsvergunning",
+      "branchtag": "kandidaat-2024-09-16-01",
+      "name": "omgevingsvergunning",
+      "filename": "config/eap-mapping.json",
+      "navigation": {
+        "next": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+      },
+      "dummy": "010"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "omgevingsvergunning",
+    "filename": "config/eap-mapping.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/omgevingsvergunning/kandidaatstandaard/2024-10-17"
+    },
+    "dummy": "002",
+    "type": "raw",
+    "directory": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07",
+    "original": {
+      "urlref": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-omgevingsvergunning",
+      "branchtag": "erkend-2024-11-07-001",
+      "name": "omgevingsvergunning",
+      "filename": "config/eap-mapping.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/omgevingsvergunning/kandidaatstandaard/2024-10-17"
+      },
+      "dummy": "002"
+    }
+  },
+  {
+    "urlref": "/ns/omgevingsvergunning",
+    "seealso": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07",
+    "type": "raw",
+    "dummy": "010",
+    "directory": "/ns/omgevingsvergunning",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/omgevingsvergunning",
+      "seealso": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07",
+      "type": "voc",
+      "dummy": "010"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/omgevingsvergunning/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-omgevingsvergunning",
+    "branchtag": "main",
+    "name": "omgevingsvergunning-ap",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/applicatieprofiel/omgevingsvergunning/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/omgevingsvergunning/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-omgevingsvergunning",
+    "branchtag": "main",
+    "name": "omgevingsvergunning",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/vocabularium/omgevingsvergunning/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+    },
+    "dummy": "001"
+  }
+]

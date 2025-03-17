@@ -1,0 +1,118 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "hulp-dienstverlening-gedetineerden-ap",
+    "filename": "config/hdg-ap.json",
+    "navigation": {
+      "prev": ""
+    },
+    "dummy": "004",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
+      "branchtag": "v1.0.5",
+      "name": "hulp-dienstverlening-gedetineerden-ap",
+      "filename": "config/hdg-ap.json",
+      "navigation": {
+        "prev": ""
+      },
+      "dummy": "004"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden",
+    "seealso": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
+    "dummy": "004",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden",
+      "seealso": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
+      "dummy": "004"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "hulp-dienstverlening-gedetineerden",
+    "filename": "config/hdg-voc.json",
+    "navigation": {
+      "prev": ""
+    },
+    "dummy": "004",
+    "type": "raw",
+    "directory": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
+    "original": {
+      "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
+      "branchtag": "v1.0.5",
+      "name": "hulp-dienstverlening-gedetineerden",
+      "filename": "config/hdg-voc.json",
+      "navigation": {
+        "prev": ""
+      },
+      "dummy": "004"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden",
+    "seealso": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
+    "type": "raw",
+    "dummy": "004",
+    "directory": "/doc/vocabularium/hulp-dienstverlening-gedetineerden",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden",
+      "seealso": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
+      "type": "voc",
+      "dummy": "004"
+    }
+  },
+  {
+    "urlref": "/ns/hulp-dienstverlening-gedetineerden",
+    "seealso": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
+    "type": "raw",
+    "dummy": "004",
+    "directory": "/ns/hulp-dienstverlening-gedetineerden",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/hulp-dienstverlening-gedetineerden",
+      "seealso": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
+      "type": "voc",
+      "dummy": "004"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
+    "branchtag": "main",
+    "name": "hulp-dienstverlening-gedetineerden-ap",
+    "filename": "config/hdg-ap.json",
+    "directory": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
+    "branchtag": "main",
+    "name": "hulp-dienstverlening-gedetineerden",
+    "filename": "config/hdg-voc.json",
+    "directory": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18"
+    },
+    "dummy": "001"
+  }
+]

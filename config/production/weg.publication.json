@@ -1,0 +1,178 @@
+[
+  {
+    "urlref": "/doc/vocabularium/weg/standaard/2018-11-27",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "weg",
+    "navigation": {
+      "next": "/doc/vocabularium/weg/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/weg/standaard/2018-11-27",
+    "dummy": "001",
+    "original": {
+      "urlref": "/doc/vocabularium/weg/standaard/2018-11-27",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "weg",
+      "navigation": {
+        "next": "/doc/vocabularium/weg/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/weg/standaard/2018-11-27",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/weg/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "weg",
+    "filename": "config/weg.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/weg/standaard/2018-11-27"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/weg/ontwerpdocument/2020-01-06",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/weg/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "weg",
+      "filename": "config/weg.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/weg/standaard/2018-11-27"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/weg/ontwerpdocument/2020-01-06",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/weg",
+    "seealso": "/doc/vocabularium/weg/standaard/2018-11-27",
+    "type": "raw",
+    "directory": "/doc/vocabularium/weg",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/weg",
+      "seealso": "/doc/vocabularium/weg/standaard/2018-11-27",
+      "type": "raw",
+      "directory": "/doc/vocabularium/weg",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/ns/weg",
+    "seealso": "/doc/vocabularium/weg/standaard/2018-11-27",
+    "type": "raw",
+    "directory": "/ns/weg",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "001",
+    "original": {
+      "urlref": "/ns/weg",
+      "seealso": "/doc/vocabularium/weg/standaard/2018-11-27",
+      "type": "raw",
+      "directory": "/ns/weg",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/weg/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-weg",
+    "branchtag": "master",
+    "name": "weg",
+    "filename": "config/weg.json",
+    "directory": "/doc/vocabularium/weg/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/weg/standaard/2018-11-27"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "wegenregister",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/wegenregister/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "wegenregister",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/wegenregister/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/wegenregister/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "wegenregister",
+    "filename": "config/wegenregister.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/wegenregister/ontwerpdocument/2020-01-06",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/wegenregister/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "wegenregister",
+      "filename": "config/wegenregister.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/wegenregister/ontwerpdocument/2020-01-06",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/wegenregister/",
+    "seealso": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/wegenregister/",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/wegenregister/",
+      "seealso": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/wegenregister/",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/wegenregister/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-weg",
+    "branchtag": "master",
+    "name": "wegenregister",
+    "filename": "config/wegenregister.json",
+    "directory": "/doc/applicatieprofiel/wegenregister/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04"
+    },
+    "dummy": "001"
+  }
+]

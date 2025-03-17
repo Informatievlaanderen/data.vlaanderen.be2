@@ -1,0 +1,107 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "cultuurenjeugdinfrastructuur-ap",
+    "filename": "config/cultuurenjeugdinfrastructuur-ap.json",
+    "navigation": {},
+    "dummy": "trigger",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "cultuurenjeugdinfrastructuur-ap",
+      "filename": "config/cultuurenjeugdinfrastructuur-ap.json",
+      "navigation": {},
+      "dummy": "trigger",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "cultuurenjeugdinfrastructuur-voc",
+    "filename": "config/cultuurenjeugdinfrastructuur-voc.json",
+    "navigation": {},
+    "dummy": "trigger",
+    "type": "raw",
+    "directory": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
+    "original": {
+      "urlref": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "cultuurenjeugdinfrastructuur-voc",
+      "filename": "config/cultuurenjeugdinfrastructuur-voc.json",
+      "navigation": {},
+      "dummy": "trigger",
+      "type": "raw",
+      "directory": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur",
+    "seealso": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
+    "type": "raw",
+    "dummy": "002",
+    "directory": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur",
+      "seealso": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
+      "type": "raw",
+      "dummy": "002",
+      "directory": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/ns/cultuur-en-jeugdinfrastructuur",
+    "seealso": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
+    "type": "raw",
+    "dummy": "trigger",
+    "directory": "/ns/cultuur-en-jeugdinfrastructuur",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/cultuur-en-jeugdinfrastructuur",
+      "seealso": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
+      "type": "raw",
+      "dummy": "trigger",
+      "directory": "/ns/cultuur-en-jeugdinfrastructuur",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur",
+    "branchtag": "master",
+    "name": "cultuurenjeugdinfrastructuur-ap",
+    "filename": "config/cultuurenjeugdinfrastructuur-ap.json",
+    "directory": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-cultuurandjeugdinfrastructuur",
+    "branchtag": "master",
+    "prefix": "cultuur-en-jeugd",
+    "name": "infrastructuur",
+    "filename": "config/cultuurenjeugdinfrastructuur-voc.json",
+    "directory": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21"
+    },
+    "dummy": "001"
+  }
+]

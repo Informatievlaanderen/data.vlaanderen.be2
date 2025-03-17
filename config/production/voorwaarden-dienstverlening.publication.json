@@ -1,0 +1,53 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "OSLO-voorwaardendienstverlening-ap",
+    "filename": "config/Voorwaarden-Dienstverlening-ap.json",
+    "navigation": {},
+    "disabled": false,
+    "dummy": "003",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening",
+      "branchtag": "main",
+      "name": "OSLO-voorwaardendienstverlening-ap",
+      "filename": "config/Voorwaarden-Dienstverlening-ap.json",
+      "navigation": {},
+      "disabled": false,
+      "dummy": "003"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/voorwaarden-dienstverlening",
+    "seealso": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11",
+    "type": "raw",
+    "disabled": false,
+    "dummy": "003",
+    "directory": "/doc/applicatieprofiel/voorwaarden-dienstverlening",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/voorwaarden-dienstverlening",
+      "seealso": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11",
+      "type": "ap",
+      "disabled": false,
+      "dummy": "003"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/voorwaarden-dienstverlening/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-voorwaarden-dienstverlening",
+    "branchtag": "main",
+    "name": "OSLO-voorwaardendienstverlening-ap",
+    "filename": "config/Voorwaarden-Dienstverlening-ap.json",
+    "directory": "/doc/applicatieprofiel/voorwaarden-dienstverlening/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11"
+    },
+    "dummy": "001"
+  }
+]

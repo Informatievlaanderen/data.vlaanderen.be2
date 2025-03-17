@@ -1,0 +1,256 @@
+[
+  {
+    "urlref": "/doc/vocabularium/melding/standaard/2019-02-07",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "melding",
+    "navigation": {
+      "next": "/doc/vocabularium/melding/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/melding/standaard/2019-02-07",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/melding/standaard/2019-02-07",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "melding",
+      "navigation": {
+        "next": "/doc/vocabularium/melding/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/melding/standaard/2019-02-07",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/melding/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "melding",
+    "filename": "config/melding.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/melding/standaard/2019-02-07"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/melding/ontwerpdocument/2020-01-06",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/melding/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "melding",
+      "filename": "config/melding.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/melding/standaard/2019-02-07"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/melding/ontwerpdocument/2020-01-06",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/melding",
+    "seealso": "/doc/vocabularium/melding/standaard/2019-02-07",
+    "type": "raw",
+    "directory": "/doc/vocabularium/melding",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/melding",
+      "seealso": "/doc/vocabularium/melding/standaard/2019-02-07",
+      "type": "raw",
+      "directory": "/doc/vocabularium/melding",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/ns/melding",
+    "seealso": "/doc/vocabularium/melding/standaard/2019-02-07",
+    "type": "raw",
+    "directory": "/ns/melding",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/ns/melding",
+      "seealso": "/doc/vocabularium/melding/standaard/2019-02-07",
+      "type": "raw",
+      "directory": "/ns/melding",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/standaard/2019-02-07",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "generieke-terugmeldfaciliteit",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/standaard/2019-02-07",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/standaard/2019-02-07",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "generieke-terugmeldfaciliteit",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/standaard/2019-02-07",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "generieke-terugmeldfaciliteit",
+    "filename": "config/generieke-terugmeldfaciliteit.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpdocument/2019-02-07"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpdocument/2020-01-06",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "generieke-terugmeldfaciliteit",
+      "filename": "config/generieke-terugmeldfaciliteit.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpdocument/2019-02-07"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpdocument/2020-01-06",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/",
+    "seealso": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/standaard/2019-02-07",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/",
+      "seealso": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/standaard/2019-02-07",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "issue-tracking-voor-burgers-en-organisaties",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "issue-tracking-voor-burgers-en-organisaties",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "issue-tracking-voor-burgers-en-organisaties",
+    "filename": "config/issue-tracking-voor-burgers-en-organisaties.json",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpdocument/2020-01-06",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "issue-tracking-voor-burgers-en-organisaties",
+      "filename": "config/issue-tracking-voor-burgers-en-organisaties.json",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpdocument/2020-01-06",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/",
+    "seealso": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/",
+      "seealso": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/melding/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-melding",
+    "branchtag": "master",
+    "name": "melding",
+    "filename": "config/melding.json",
+    "directory": "/doc/vocabularium/melding/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/melding/standaard/2019-02-07"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-melding",
+    "branchtag": "master",
+    "name": "generieke-terugmeldfaciliteit",
+    "filename": "config/generieke-terugmeldfaciliteit.json",
+    "directory": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/standaard/2019-02-07"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-melding",
+    "branchtag": "master",
+    "name": "issue-tracking-voor-burgers-en-organisaties",
+    "filename": "config/issue-tracking-voor-burgers-en-organisaties.json",
+    "directory": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07"
+    },
+    "dummy": "001"
+  }
+]

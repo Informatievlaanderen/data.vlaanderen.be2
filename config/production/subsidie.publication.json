@@ -1,0 +1,91 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/subsidieregister/ontwerpdocument/niet-bepaald",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "subsidieregister",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/subsidieregister/ontwerpdocument/niet-bepaald",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/subsidieregister/ontwerpdocument/niet-bepaald",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "subsidieregister",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/subsidieregister/ontwerpdocument/niet-bepaald",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/subsidie/ontwerpdocument/niet-bepaald",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "subsidie",
+    "type": "raw",
+    "directory": "/doc/vocabularium/subsidie/ontwerpdocument/niet-bepaald",
+    "dummy": "002",
+    "original": {
+      "urlref": "/doc/vocabularium/subsidie/ontwerpdocument/niet-bepaald",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "subsidie",
+      "type": "raw",
+      "directory": "/doc/vocabularium/subsidie/ontwerpdocument/niet-bepaald",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/subsidie",
+    "seealso": "/doc/vocabularium/subsidie/ontwerpdocument/niet-bepaald",
+    "type": "raw",
+    "directory": "/doc/vocabularium/subsidie",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/subsidie",
+      "seealso": "/doc/vocabularium/subsidie/ontwerpdocument/niet-bepaald",
+      "type": "raw",
+      "directory": "/doc/vocabularium/subsidie",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/ns/subsidie",
+    "seealso": "/doc/vocabularium/subsidie/ontwerpdocument/niet-bepaald",
+    "type": "raw",
+    "directory": "/ns/subsidie",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "001",
+    "original": {
+      "urlref": "/ns/subsidie",
+      "seealso": "/doc/vocabularium/subsidie/ontwerpdocument/niet-bepaald",
+      "type": "raw",
+      "directory": "/ns/subsidie",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "comment": "This publication does not have a proper setup in the original repository. No toolchain4 variant added because there was no configuration.",
+    "urlref": "/doc/applicatieprofiel/subsidieregister/",
+    "seealso": "/doc/applicatieprofiel/subsidieregister/ontwerpdocument/niet-bepaald",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/subsidieregister/",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/subsidieregister/",
+      "seealso": "/doc/applicatieprofiel/subsidieregister/ontwerpdocument/niet-bepaald",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/subsidieregister/",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  }
+]

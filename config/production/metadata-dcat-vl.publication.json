@@ -1,0 +1,268 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpdocument/2018-12-21",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DCAT-AP-VL",
+    "filename": "config/DCAT-AP-VL.json",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2019-01-20"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpdocument/2018-12-21",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpdocument/2018-12-21",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "DCAT-AP-VL",
+      "filename": "config/DCAT-AP-VL.json",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2019-01-20"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpdocument/2018-12-21"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2019-01-20",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DCAT-AP-VL",
+    "filename": "config/DCAT-AP-VL.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpdocument/2018-12-21",
+      "next": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2019-01-20",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2019-01-20",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "DCAT-AP-VL",
+      "filename": "config/DCAT-AP-VL.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpdocument/2018-12-21",
+        "next": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2019-01-20"
+    }
+  },
+  {
+    "dummy": 1,
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-06-13",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DCAT-AP-VL",
+    "filename": "config/DCAT-AP-VL.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2019-01-20",
+      "next": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-06-13",
+    "original": {
+      "dummy": 1,
+      "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-06-13",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "DCAT-AP-VL",
+      "filename": "config/DCAT-AP-VL.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2019-01-20",
+        "next": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-06-13"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DCAT-AP-VL",
+    "filename": "config/DCAT-AP-VL.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2019-01-20",
+      "next": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "DCAT-AP-VL",
+      "filename": "config/DCAT-AP-VL.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2019-01-20",
+        "next": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpstandaard/2021-06-27",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DCAT-AP-VL-20",
+    "filename": "config/DCAT-AP-VL-20.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpstandaard/2021-06-27",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpstandaard/2021-06-27",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "DCAT-AP-VL-20",
+      "filename": "config/DCAT-AP-VL-20.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpstandaard/2021-06-27"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2021-09-16",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DCAT-AP-VL-20",
+    "filename": "config/DCAT-AP-VL-20.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03",
+      "next": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2021-09-16",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2021-09-16",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "DCAT-AP-VL-20",
+      "filename": "config/DCAT-AP-VL-20.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03",
+        "next": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2021-09-16"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DCAT-AP-VL-20",
+    "filename": "config/DCAT-AP-VL-20.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2021-09-16",
+      "next": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2022-02-03"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "DCAT-AP-VL-20",
+      "filename": "config/DCAT-AP-VL-20.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2021-09-16",
+        "next": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2022-02-03"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2022-02-03",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DCAT-AP-VL-20",
+    "filename": "config/DCAT-AP-VL-20.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02",
+      "next": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2022-02-03",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2022-02-03",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen",
+      "branchtag": "kandidaatstandaard-2022-02-03",
+      "name": "DCAT-AP-VL-20",
+      "filename": "config/DCAT-AP-VL-20.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02",
+        "next": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DCAT-AP-VL-20",
+    "filename": "config/DCAT-AP-VL-20.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2022-02-03"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen",
+      "branchtag": "7bb85dd3526dc1ba380d04a33dc4fd63f65c0c99",
+      "name": "DCAT-AP-VL-20",
+      "filename": "config/DCAT-AP-VL-20.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2022-02-03"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/standaard/2019-06-13",
+    "seealso": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-06-13",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/standaard/2019-06-13",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/standaard/2019-06-13",
+      "seealso": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-06-13",
+      "type": "ap"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/",
+    "seealso": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21",
+    "type": "raw",
+    "dummy": 1,
+    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/",
+      "seealso": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21",
+      "type": "ap",
+      "dummy": 1
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen",
+    "branchtag": "master",
+    "name": "DCAT-AP-VL-20",
+    "filename": "config/DCAT-AP-VL-20.json",
+    "directory": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21"
+    },
+    "dummy": "001"
+  }
+]

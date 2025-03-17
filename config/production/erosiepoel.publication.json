@@ -1,0 +1,67 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/erosiepoel",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "erosiepoel-ap",
+    "filename": "config/erosiepoel-ap.json",
+    "navigation": {
+      "prev": ""
+    },
+    "disabled": false,
+    "dummy": "0",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/erosiepoel",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/erosiepoel",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
+      "branchtag": "v1.0.3",
+      "name": "erosiepoel-ap",
+      "filename": "config/erosiepoel-ap.json",
+      "navigation": {
+        "prev": ""
+      },
+      "disabled": false,
+      "dummy": "0"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/erosiepoel",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "erosiepoel-voc",
+    "filename": "config/erosiepoel-voc.json",
+    "navigation": {
+      "prev": ""
+    },
+    "dummy": "0",
+    "type": "raw",
+    "directory": "/doc/vocabularium/erosiepoel",
+    "original": {
+      "urlref": "/doc/vocabularium/erosiepoel",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
+      "branchtag": "v1.0.3",
+      "name": "erosiepoel-voc",
+      "filename": "config/erosiepoel-voc.json",
+      "navigation": {
+        "prev": ""
+      },
+      "dummy": "0"
+    }
+  },
+  {
+    "urlref": "/ns/erosiepoel",
+    "seealso": "/doc/vocabularium/erosiepoel",
+    "type": "raw",
+    "dummy": "0",
+    "directory": "/ns/erosiepoel",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/erosiepoel",
+      "seealso": "/doc/vocabularium/erosiepoel",
+      "type": "voc",
+      "dummy": "0"
+    }
+  }
+]

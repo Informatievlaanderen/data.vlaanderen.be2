@@ -1,0 +1,181 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2018-10-04",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "generiek-basis",
+    "filename": "config/generiek-basis.json",
+    "dummy": "trigger",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2018-10-04",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2018-10-04",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "generiek-basis",
+      "filename": "config/generiek-basis.json",
+      "dummy": "trigger",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2018-10-04"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/generiek/zonderstatus/2018-10-04",
+    "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+    "branchtag": "production",
+    "name": "generiek",
+    "dummy": "trigger",
+    "filename": "config/generiek.json",
+    "navigation": {
+      "next": "/doc/vocabularium/generiek/zonderstatus/2019-07-01"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/generiek/zonderstatus/2018-10-04"
+  },
+  {
+    "urlref": "/doc/vocabularium/generiek/zonderstatus/2018-10-04",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "generiek",
+    "filename": "config/generiek.json",
+    "dummy": "trigger",
+    "navigation": {
+      "next": "/doc/vocabularium/generiek/zonderstatus/2019-07-01"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/generiek/zonderstatus/2018-10-04",
+    "original": {
+      "urlref": "/doc/vocabularium/generiek/zonderstatus/2018-10-04",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "generiek",
+      "filename": "config/generiek.json",
+      "dummy": "trigger",
+      "navigation": {
+        "next": "/doc/vocabularium/generiek/zonderstatus/2019-07-01"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/generiek/zonderstatus/2018-10-04"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/generiek/zonderstatus/2019-07-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "generiek",
+    "filename": "config/generiek.json",
+    "dummy": "trigger",
+    "navigation": {
+      "prev": "/doc/vocabularium/generiek/zonderstatus/2018-10-04",
+      "next": "/ns/generiek"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/generiek/zonderstatus/2019-07-01",
+    "original": {
+      "urlref": "/doc/vocabularium/generiek/zonderstatus/2019-07-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "generiek",
+      "filename": "config/generiek.json",
+      "dummy": "trigger",
+      "navigation": {
+        "prev": "/doc/vocabularium/generiek/zonderstatus/2018-10-04",
+        "next": "/ns/generiek"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/generiek/zonderstatus/2019-07-01"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "generiek-basis",
+    "filename": "config/generiek-basis.json",
+    "dummy": "trigger",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2018-10-04"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "generiek-basis",
+      "filename": "config/generiek-basis.json",
+      "dummy": "trigger",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2018-10-04"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01"
+    }
+  },
+  {
+    "urlref": "/ns/generiek",
+    "seealso": "/doc/vocabularium/generiek/zonderstatus/2019-07-01",
+    "dummy": "trigger",
+    "type": "raw",
+    "directory": "/ns/generiek",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/generiek",
+      "seealso": "/doc/vocabularium/generiek/zonderstatus/2019-07-01",
+      "dummy": "trigger",
+      "type": "raw",
+      "directory": "/ns/generiek",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/generiek-basis",
+    "seealso": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01",
+    "dummy": "dummy027",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/generiek-basis",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/generiek-basis",
+      "seealso": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01",
+      "dummy": "dummy027",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/generiek-basis",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/generiek-basis/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-generiek",
+    "branchtag": "zonder-status",
+    "name": "generiek-basis",
+    "filename": "config/generiek-basis.json",
+    "directory": "/doc/applicatieprofiel/generiek-basis/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/generiek/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-generiek",
+    "branchtag": "zonder-status",
+    "name": "generiek",
+    "filename": "config/generiek.json",
+    "directory": "/doc/vocabularium/generiek/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/generiek/zonderstatus/2019-07-01"
+    },
+    "dummy": "001"
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "terreindelen-ap",
+    "filename": "config/eap-mapping.json",
+    "dummy": "trigger",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/terreindeel/standaard/2018-11-27"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "terreindelen-ap",
+      "filename": "config/eap-mapping.json",
+      "dummy": "trigger",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/terreindeel/standaard/2018-11-27"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/terreindeel/standaard/2018-11-27",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaardomein",
+    "navigation": {},
+    "directory": "/doc/applicatieprofiel/terreindeel/standaard/2018-11-27",
+    "type": "raw",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/terreindeel/standaard/2018-11-27",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "openbaardomein",
+      "navigation": {},
+      "directory": "/doc/applicatieprofiel/terreindeel/standaard/2018-11-27",
+      "type": "raw",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/terreindelen/kandidaatstandaard/2020-06-18",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "terreindelen-ap",
+    "filename": "config/eap-mapping.json",
+    "dummy": "trigger",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/terreindeel/standaard/2018-11-27",
+      "next": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/terreindelen/kandidaatstandaard/2020-06-18",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/terreindelen/kandidaatstandaard/2020-06-18",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "terreindelen-ap",
+      "filename": "config/eap-mapping.json",
+      "dummy": "trigger",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/terreindeel/standaard/2018-11-27",
+        "next": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/terreindelen/kandidaatstandaard/2020-06-18"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "terreindeel-voc",
+    "filename": "config/eap-mapping.json",
+    "dummy": "trigger",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/terreindeel/standaard/2018-11-27"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30",
+    "original": {
+      "urlref": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "terreindeel-voc",
+      "filename": "config/eap-mapping.json",
+      "dummy": "trigger",
+      "navigation": {
+        "prev": "/doc/vocabularium/openbaardomein/terreindeel/standaard/2018-11-27"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/terreindeel/standaard/2018-11-27",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaardomein",
+    "navigation": {},
+    "type": "raw",
+    "directory": "/doc/vocabularium/openbaardomein/terreindeel/standaard/2018-11-27",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/openbaardomein/terreindeel/standaard/2018-11-27",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "openbaardomein",
+      "navigation": {},
+      "type": "raw",
+      "directory": "/doc/vocabularium/openbaardomein/terreindeel/standaard/2018-11-27",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/terreindeel/kandidaatstandaard/2020-06-18",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "terreindeel-voc",
+    "filename": "config/eap-mapping.json",
+    "dummy": "trigger",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/terreindeel/standaard/2018-11-27",
+      "next": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/openbaardomein/terreindeel/kandidaatstandaard/2020-06-18",
+    "original": {
+      "urlref": "/doc/vocabularium/openbaardomein/terreindeel/kandidaatstandaard/2020-06-18",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "terreindeel-voc",
+      "filename": "config/eap-mapping.json",
+      "dummy": "trigger",
+      "navigation": {
+        "prev": "/doc/vocabularium/openbaardomein/terreindeel/standaard/2018-11-27",
+        "next": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/openbaardomein/terreindeel/kandidaatstandaard/2020-06-18"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/vegetatie-elementen/standaard/2018-11-27",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaardomein",
+    "navigation": {},
+    "directory": "/doc/applicatieprofiel/vegetatie-elementen/standaard/2018-11-27",
+    "type": "raw",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/vegetatie-elementen/standaard/2018-11-27",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "openbaardomein",
+      "navigation": {},
+      "directory": "/doc/applicatieprofiel/vegetatie-elementen/standaard/2018-11-27",
+      "type": "raw",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/vegetatie-elementen/kandidaatstandaard/2020-06-18",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaardomein",
+    "navigation": {},
+    "directory": "/doc/applicatieprofiel/vegetatie-elementen/kandidaatstandaard/2020-06-18",
+    "type": "raw",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/vegetatie-elementen/kandidaatstandaard/2020-06-18",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "vegetatie-elementen-ap",
+      "filename": "config/eap-mapping.json",
+      "dummy": "trigger",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/vegetatie-elementen/standaard/2018-11-27",
+        "next": "/doc/applicatieprofiel/vegetatie-elementen/erkendestandaard/2021-09-30"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/vegetatie-elementen/kandidaatstandaard/2020-06-18"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/vegetatie-elementen/erkendestandaard/2021-09-30",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaardomein",
+    "navigation": {},
+    "directory": "/doc/applicatieprofiel/vegetatie-elementen/erkendestandaard/2021-09-30",
+    "type": "raw",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/vegetatie-elementen/erkendestandaard/2021-09-30",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "openbaardomein",
+      "navigation": {},
+      "directory": "/doc/applicatieprofiel/vegetatie-elementen/erkendestandaard/2021-09-30",
+      "type": "raw",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/vegetatie/standaard/2018-11-27",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaardomein",
+    "navigation": {},
+    "type": "raw",
+    "directory": "/doc/vocabularium/openbaardomein/vegetatie/standaard/2018-11-27",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/openbaardomein/vegetatie/standaard/2018-11-27",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "openbaardomein",
+      "navigation": {},
+      "type": "raw",
+      "directory": "/doc/vocabularium/openbaardomein/vegetatie/standaard/2018-11-27",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/vegetatie/kandidaatstandaard/2020-06-18",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaardomein",
+    "navigation": {},
+    "type": "raw",
+    "directory": "/doc/vocabularium/openbaardomein/vegetatie/kandidaatstandaard/2020-06-18",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/openbaardomein/vegetatie/kandidaatstandaard/2020-06-18",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "vegetatie-voc",
+      "filename": "config/eap-mapping.json",
+      "dummy": "trigger",
+      "navigation": {
+        "prev": "/doc/vocabularium/openbaardomein/vegetatie/standaard/2018-11-27",
+        "next": "/doc/vocabularium/openbaardomein/vegetatie/erkendestandaard/2021-09-30"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/openbaardomein/vegetatie/kandidaatstandaard/2020-06-18"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/vegetatie/erkendestandaard/2021-09-30",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "openbaardomein",
+    "navigation": {},
+    "type": "raw",
+    "directory": "/doc/vocabularium/openbaardomein/vegetatie/erkendestandaard/2021-09-30",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/openbaardomein/vegetatie/erkendestandaard/2021-09-30",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "openbaardomein",
+      "navigation": {},
+      "type": "raw",
+      "directory": "/doc/vocabularium/openbaardomein/vegetatie/erkendestandaard/2021-09-30",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/terreindeel",
+    "seealso": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30",
+    "type": "raw",
+    "prefix": "openbaardomein",
+    "dummy": "001",
+    "directory": "/doc/vocabularium/openbaardomein/terreindeel",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/vocabularium/openbaardomein/terreindeel",
+      "seealso": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30",
+      "type": "raw",
+      "prefix": "openbaardomein",
+      "dummy": "001",
+      "directory": "/doc/vocabularium/openbaardomein/terreindeel",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/terreindelen/",
+    "seealso": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30",
+    "type": "raw",
+    "dummy": "dimi-2021-10-07-2",
+    "directory": "/doc/applicatieprofiel/terreindelen/",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/terreindelen/",
+      "seealso": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30",
+      "type": "raw",
+      "dummy": "dimi-2021-10-07-2",
+      "directory": "/doc/applicatieprofiel/terreindelen/",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/ns/openbaardomein/terreindeel",
+    "seealso": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30",
+    "prefix": "openbaardomein",
+    "type": "raw",
+    "directory": "/ns/openbaardomein/terreindeel",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "001",
+    "original": {
+      "urlref": "/ns/openbaardomein/terreindeel",
+      "seealso": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30",
+      "prefix": "openbaardomein",
+      "type": "raw",
+      "directory": "/ns/openbaardomein/terreindeel",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "001"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/vegetatie-elementen/",
+    "seealso": "/doc/applicatieprofiel/vegetatie-elementen/erkendestandaard/2021-09-30",
+    "type": "raw",
+    "dummy": "dimi-2021-10-07-2",
+    "directory": "/doc/applicatieprofiel/vegetatie-elementen/",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/vegetatie-elementen/",
+      "seealso": "/doc/applicatieprofiel/vegetatie-elementen/erkendestandaard/2021-09-30",
+      "type": "raw",
+      "dummy": "dimi-2021-10-07-2",
+      "directory": "/doc/applicatieprofiel/vegetatie-elementen/",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/vegetatie",
+    "seealso": "/doc/vocabularium/openbaardomein/vegetatie/erkendestandaard/2021-09-30",
+    "type": "raw",
+    "prefix": "openbaardomein",
+    "dummy": "001",
+    "directory": "/doc/vocabularium/openbaardomein/vegetatie",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/vocabularium/openbaardomein/vegetatie",
+      "seealso": "/doc/vocabularium/openbaardomein/vegetatie/erkendestandaard/2021-09-30",
+      "type": "raw",
+      "prefix": "openbaardomein",
+      "dummy": "001",
+      "directory": "/doc/vocabularium/openbaardomein/vegetatie",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/ns/openbaardomein/vegetatie",
+    "seealso": "/doc/vocabularium/openbaardomein/vegetatie/erkendestandaard/2021-09-30",
+    "prefix": "openbaardomein",
+    "type": "raw",
+    "directory": "/ns/openbaardomein/vegetatie",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "001",
+    "original": {
+      "urlref": "/ns/openbaardomein/vegetatie",
+      "seealso": "/doc/vocabularium/openbaardomein/vegetatie/erkendestandaard/2021-09-30",
+      "prefix": "openbaardomein",
+      "type": "raw",
+      "directory": "/ns/openbaardomein/vegetatie",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "001"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/vegetatie-elementen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "master",
+    "name": "vegetatie-elementen-ap",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/applicatieprofiel/vegetatie-elementen/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/vegetatie-elementen/standaard/2018-11-27"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/vegetatie/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "master",
+    "name": "vegetatie",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/vocabularium/openbaardomein/vegetatie/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/vegetatie/standaard/2018-11-27"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/terreindelen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "master",
+    "name": "terreindelen-ap",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/applicatieprofiel/terreindelen/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/terreindeel/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "master",
+    "name": "terreindeel",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/vocabularium/openbaardomein/terreindeel/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30"
+    },
+    "dummy": "001"
+  }
+]

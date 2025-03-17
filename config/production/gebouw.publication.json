@@ -1,0 +1,133 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "gebouwenregister",
+    "filename": "config/gebouwenregister.json",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/gebouwenregister/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-gebouwEnAdres",
+      "branchtag": "gebouwenregister",
+      "name": "gebouwenregister",
+      "filename": "config/gebouwenregister.json",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/gebouwenregister/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw"
+    }
+  },
+  {
+    "comment": "Dit is een versie op master die ongecontroleerde verbeteringen bevat van toolchain 2",
+    "urlref": "/doc/applicatieprofiel/gebouwenregister/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "gebouwenregister",
+    "filename": "config/gebouwenregister.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald",
+      "next": "/doc/applicatieprofiel/gebouwenregister/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/gebouwenregister/ontwerpdocument/2020-01-06",
+    "original": {
+      "comment": "Dit is een versie op master die ongecontroleerde verbeteringen bevat van toolchain 2",
+      "urlref": "/doc/applicatieprofiel/gebouwenregister/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-gebouwEnAdres",
+      "branchtag": "master",
+      "name": "gebouwenregister",
+      "filename": "config/gebouwenregister.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald",
+        "next": "/doc/applicatieprofiel/gebouwenregister/ontwerpstandaard/toolchain4"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/gebouwenregister",
+    "seealso": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald",
+    "type": "ap"
+  },
+  {
+    "urlref": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "gebouw",
+    "navigation": {
+      "next": "/doc/vocabularium/gebouw/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
+    "original": {
+      "urlref": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-gebouwEnAdres",
+      "branchtag": "gebouw",
+      "name": "gebouw",
+      "navigation": {
+        "next": "/doc/vocabularium/gebouw/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw"
+    }
+  },
+  {
+    "comment": "Dit is een versie op master die ongecontroleerde verbeteringen bevat van toolchain 2",
+    "urlref": "/doc/vocabularium/gebouw/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "gebouw",
+    "filename": "config/gebouw.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
+      "next": "/doc/vocabularium/gebouw/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/gebouw/ontwerpdocument/2020-01-06",
+    "original": {
+      "comment": "Dit is een versie op master die ongecontroleerde verbeteringen bevat van toolchain 2",
+      "urlref": "/doc/vocabularium/gebouw/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-gebouwEnAdres",
+      "branchtag": "master",
+      "name": "gebouw",
+      "filename": "config/gebouw.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
+        "next": "/doc/vocabularium/gebouw/ontwerpstandaard/toolchain4"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/gebouw",
+    "seealso": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
+    "type": "voc"
+  },
+  {
+    "urlref": "/ns/gebouw",
+    "seealso": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
+    "type": "voc"
+  },
+  {
+    "urlref": "/doc/vocabularium/gebouw/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-gebouwEnAdres",
+    "branchtag": "master",
+    "name": "gebouw",
+    "filename": "config/gebouw.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/gebouwenregister/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-gebouwEnAdres",
+    "branchtag": "master",
+    "name": "gebouwenregister",
+    "filename": "config/gebouwenregister.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald"
+    }
+  }
+]

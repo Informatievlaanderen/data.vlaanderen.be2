@@ -1,0 +1,97 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/vrachtwagenparkeren",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "vrachtwagenParkeren-ap",
+    "filename": "config/vrachtwagenParkeren-ap.json",
+    "disabled": false,
+    "dummy": "027",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/vrachtwagenparkeren",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/vrachtwagenparkeren",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-vrachtwagenParkeren",
+      "branchtag": "2023-11-30_001",
+      "name": "vrachtwagenParkeren-ap",
+      "filename": "config/vrachtwagenParkeren-ap.json",
+      "disabled": false,
+      "dummy": "027"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/vrachtwagenparkeren",
+    "seealso": "/doc/applicatieprofiel/vrachtwagenparkeren/2023-11-30",
+    "type": "raw",
+    "disabled": false,
+    "dummy": "027",
+    "directory": "/doc/applicatieprofiel/vrachtwagenparkeren",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/vrachtwagenparkeren",
+      "seealso": "/doc/applicatieprofiel/vrachtwagenparkeren/2023-11-30",
+      "type": "ap",
+      "disabled": false,
+      "dummy": "027"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/2023-11-30",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "vrachtwagenparkeren",
+    "filename": "config/Vrachtwagenparkeren-voc.json",
+    "disabled": false,
+    "dummy": "021",
+    "type": "raw",
+    "directory": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/2023-11-30",
+    "original": {
+      "urlref": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/2023-11-30",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-vrachtwagenParkeren",
+      "branchtag": "2023-11-30_001",
+      "name": "vrachtwagenparkeren",
+      "filename": "config/Vrachtwagenparkeren-voc.json",
+      "disabled": false,
+      "dummy": "021"
+    }
+  },
+  {
+    "urlref": "/ns/vrachtwagenparkeren",
+    "seealso": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/2023-11-30",
+    "type": "raw",
+    "disabled": false,
+    "dummy": "021",
+    "directory": "/ns/vrachtwagenparkeren",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/vrachtwagenparkeren",
+      "seealso": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/2023-11-30",
+      "type": "voc",
+      "disabled": false,
+      "dummy": "021"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/vrachtwagenparkeren/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-vrachtwagenParkeren",
+    "branchtag": "main",
+    "name": "vrachtwagenParkeren-ap",
+    "filename": "config/vrachtwagenParkeren-ap.json",
+    "disabled": false,
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-vrachtwagenParkeren",
+    "branchtag": "main",
+    "name": "vrachtwagenparkeren",
+    "filename": "config/Vrachtwagenparkeren-voc.json",
+    "directory": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/2023-11-30"
+    },
+    "dummy": "001"
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/incentiveringsplatform/erkendestandaard/2024-10-03",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-incentiveringsplatform",
+    "branchtag": "main",
+    "name": "incentiveringsplatform",
+    "filename": "config/incentiveringsplatform.json",
+    "directory": "/doc/applicatieprofiel/incentiveringsplatform/erkendestandaard/2024-10-03",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/incentiveringsplatform/kandidaatstandaard/2023-11-09"
+    },
+    "dummy": "012",
+    "disabled": false
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/incentiveringsplatform/kandidaatstandaard/2023-11-09",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "incentiveringsplatform",
+    "filename": "config/incentiveringsplatform.json",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/incentiveringsplatform/erkendestandaard/2024-10-03"
+    },
+    "dummy": "011",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/incentiveringsplatform/kandidaatstandaard/2023-11-09",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/incentiveringsplatform/kandidaatstandaard/2023-11-09",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-incentiveringsplatform",
+      "branchtag": "INPL-0.2.0",
+      "name": "incentiveringsplatform",
+      "filename": "config/incentiveringsplatform.json",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/incentiveringsplatform/erkendestandaard/2024-10-03"
+      },
+      "dummy": "011"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/incentiveringsplatform",
+    "seealso": "/doc/applicatieprofiel/incentiveringsplatform/erkendestandaard/2024-10-03",
+    "type": "ap",
+    "dummy": "012"
+  },
+  {
+    "urlref": "/doc/vocabularium/incentiveringsplatform/erkendestandaard/2024-10-03",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-incentiveringsplatform",
+    "branchtag": "main",
+    "directory": "/doc/vocabularium/incentiveringsplatform/erkendestandaard/2024-10-03",
+    "name": "incentiveringsplatform",
+    "filename": "config/incentiveringsplatform-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/incentiveringsplatform/kandidaatstandaard/2023-11-09"
+    },
+    "dummy": "012"
+  },
+  {
+    "urlref": "/doc/vocabularium/incentiveringsplatform/kandidaatstandaard/2023-11-09",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "incentiveringsplatform",
+    "filename": "config/incentiveringsplatform-voc.json",
+    "navigation": {
+      "next": "/doc/vocabularium/incentiveringsplatform/erkendestandaard/2024-10-03"
+    },
+    "dummy": "011",
+    "type": "raw",
+    "directory": "/doc/vocabularium/incentiveringsplatform/kandidaatstandaard/2023-11-09",
+    "original": {
+      "urlref": "/doc/vocabularium/incentiveringsplatform/kandidaatstandaard/2023-11-09",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-incentiveringsplatform",
+      "branchtag": "INPL-0.2.0",
+      "name": "incentiveringsplatform",
+      "filename": "config/incentiveringsplatform-voc.json",
+      "navigation": {
+        "next": "/doc/vocabularium/incentiveringsplatform/erkendestandaard/2024-10-03"
+      },
+      "dummy": "011"
+    }
+  },
+  {
+    "urlref": "/ns/incentiveringsplatform",
+    "seealso": "/doc/vocabularium/incentiveringsplatform/erkendestandaard/2024-10-03",
+    "type": "voc",
+    "dummy": "012"
+  }
+]

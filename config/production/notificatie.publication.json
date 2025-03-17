@@ -1,0 +1,307 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/notificatie-basis/",
+    "seealso": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/notificatie-basis/",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/notificatie-basis/",
+      "seealso": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/notificatie-basis/",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/ns/notificatie",
+    "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+    "type": "raw",
+    "directory": "/ns/notificatie",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/ns/notificatie",
+      "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+      "type": "raw",
+      "directory": "/ns/notificatie",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "notificatie",
+    "dummy": "trigger",
+    "navigation": {
+      "next": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+    "original": {
+      "urlref": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "notificatie",
+      "dummy": "trigger",
+      "navigation": {
+        "next": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/notificatie/standaard/2019-02-07"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "notificatie",
+    "filename": "config/notificatie.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/notificatie/standaard/2019-02-07"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "notificatie",
+      "filename": "config/notificatie.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/notificatie/standaard/2019-02-07"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "trigger",
+    "name": "notificatie-basis",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "trigger",
+      "name": "notificatie-basis",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "notificatie-basis",
+    "filename": "config/notificatie-basis.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "notificatie-basis",
+      "filename": "config/notificatie-basis.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/notificatie",
+    "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+    "type": "raw",
+    "directory": "/doc/vocabularium/notificatie",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/notificatie",
+      "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+      "type": "raw",
+      "directory": "/doc/vocabularium/notificatie",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/notificatie-basis/",
+    "seealso": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/notificatie-basis/",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/notificatie-basis/",
+      "seealso": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
+      "type": "ap"
+    }
+  },
+  {
+    "urlref": "/ns/notificatie",
+    "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+    "type": "raw",
+    "directory": "/ns/notificatie",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/notificatie",
+      "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+      "type": "voc"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "notificatie",
+    "dummy": 1,
+    "navigation": {
+      "next": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+    "original": {
+      "urlref": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-notificatie",
+      "branchtag": "notificatie",
+      "name": "notificatie",
+      "dummy": 1,
+      "navigation": {
+        "next": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "notificatie",
+    "filename": "config/notificatie.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/notificatie/standaard/2019-02-07"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06",
+    "original": {
+      "urlref": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-notificatie",
+      "branchtag": "master",
+      "name": "notificatie",
+      "filename": "config/notificatie.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/notificatie/standaard/2019-02-07"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": 1,
+    "name": "notificatie-basis",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-notificatie",
+      "branchtag": "notificatie-basis",
+      "dummy": 1,
+      "name": "notificatie-basis",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "notificatie-basis",
+    "filename": "config/notificatie-basis.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-notificatie",
+      "branchtag": "master",
+      "name": "notificatie-basis",
+      "filename": "config/notificatie-basis.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/notificatie",
+    "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+    "type": "raw",
+    "directory": "/doc/vocabularium/notificatie",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/vocabularium/notificatie",
+      "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+      "type": "voc"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/notificatie/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-notificatie",
+    "branchtag": "master",
+    "name": "notificatie",
+    "filename": "config/notificatie.json",
+    "directory": "/doc/vocabularium/notificatie/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/notificatie/standaard/2019-02-07"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/notificatie-basis/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-notificatie",
+    "branchtag": "master",
+    "name": "notificatie-basis",
+    "filename": "config/notificatie-basis.json",
+    "directory": "/doc/applicatieprofiel/notificatie-basis/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07"
+    },
+    "dummy": "001"
+  }
+]

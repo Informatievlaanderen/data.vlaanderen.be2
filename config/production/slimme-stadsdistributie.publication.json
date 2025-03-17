@@ -1,0 +1,28 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/slimme-stadsdistributie",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SlimmeStadsdistributie",
+    "branchtag": "46210798e8c4583a68699a4970daaf6d8b483f5b",
+    "name": "OSLO-slimmestadsdistributie-ap",
+    "disabled": false,
+    "type": "ap",
+    "filename": "config/OSLO-slimmestadsdistributie-ap.json",
+    "navigation": {},
+    "dummy": "006"
+  },
+  {
+    "urlref": "/doc/vocabularium/slimme-stadsdistributie",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SlimmeStadsdistributie",
+    "branchtag": "46210798e8c4583a68699a4970daaf6d8b483f5b",
+    "name": "slimme-stadsdistributie",
+    "filename": "config/slimmestadsdistributie-voc.json",
+    "navigation": {},
+    "dummy": "005"
+  },
+  {
+    "urlref": "/ns/slimme-stadsdistributie",
+    "seealso": "/doc/vocabularium/slimme-stadsdistributie",
+    "type": "voc",
+    "dummy": "005"
+  }
+]

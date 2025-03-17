@@ -1,0 +1,152 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/lokale-economie/kandidaatstandaard/2024-03-21",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "lokale-economie-ap",
+    "filename": "config/lokale-economie-ap.json",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/lokale-economie/erkendestandaard/2024-12-05"
+    },
+    "dummy": "010",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/lokale-economie/kandidaatstandaard/2024-03-21",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/lokale-economie/kandidaatstandaard/2024-03-21",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleEconomie",
+      "branchtag": "kandidaat-2024-03-21",
+      "name": "lokale-economie-ap",
+      "filename": "config/lokale-economie-ap.json",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/lokale-economie/erkendestandaard/2024-12-05"
+      },
+      "dummy": "010"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/lokale-economie/erkendestandaard/2024-12-05",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "lokale-economie-ap",
+    "filename": "config/lokale-economie-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/lokale-economie/kandidaatstandaard/2024-03-21"
+    },
+    "dummy": "011",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/lokale-economie/erkendestandaard/2024-12-05",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/lokale-economie/erkendestandaard/2024-12-05",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleEconomie",
+      "branchtag": "erkend-2024-12-05",
+      "name": "lokale-economie-ap",
+      "filename": "config/lokale-economie-ap.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/lokale-economie/kandidaatstandaard/2024-03-21"
+      },
+      "dummy": "011"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/lokale-economie",
+    "seealso": "/doc/applicatieprofiel/lokale-economie/erkendestandaard/2024-12-05",
+    "type": "raw",
+    "dummy": "011",
+    "directory": "/doc/applicatieprofiel/lokale-economie",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/lokale-economie",
+      "seealso": "/doc/applicatieprofiel/lokale-economie/erkendestandaard/2024-12-05",
+      "type": "ap",
+      "dummy": "011"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/lokale-economie/kandidaatstandaard/2024-03-21",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "lokale-economie",
+    "filename": "config/lokale-economie-voc.json",
+    "navigation": {
+      "next": "/doc/vocabularium/lokale-economie/erkendestandaard/2024-12-05"
+    },
+    "dummy": "010",
+    "type": "raw",
+    "directory": "/doc/vocabularium/lokale-economie/kandidaatstandaard/2024-03-21",
+    "original": {
+      "urlref": "/doc/vocabularium/lokale-economie/kandidaatstandaard/2024-03-21",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleEconomie",
+      "branchtag": "kandidaat-2024-03-21",
+      "name": "lokale-economie",
+      "filename": "config/lokale-economie-voc.json",
+      "navigation": {
+        "next": "/doc/vocabularium/lokale-economie/erkendestandaard/2024-12-05"
+      },
+      "dummy": "010"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/lokale-economie/erkendestandaard/2024-12-05",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "lokale-economie",
+    "filename": "config/lokale-economie-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/lokale-economie/kandidaatstandaard/2024-03-21"
+    },
+    "dummy": "010",
+    "type": "raw",
+    "directory": "/doc/vocabularium/lokale-economie/erkendestandaard/2024-12-05",
+    "original": {
+      "urlref": "/doc/vocabularium/lokale-economie/erkendestandaard/2024-12-05",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleEconomie",
+      "branchtag": "erkend-2024-12-05",
+      "name": "lokale-economie",
+      "filename": "config/lokale-economie-voc.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/lokale-economie/kandidaatstandaard/2024-03-21"
+      },
+      "dummy": "010"
+    }
+  },
+  {
+    "urlref": "/ns/lokale-economie",
+    "seealso": "/doc/vocabularium/lokale-economie/erkendestandaard/2024-12-05",
+    "type": "raw",
+    "dummy": "010",
+    "directory": "/ns/lokale-economie",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/lokale-economie",
+      "seealso": "/doc/vocabularium/lokale-economie/erkendestandaard/2024-12-05",
+      "type": "voc",
+      "dummy": "010"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/lokale-economie/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleEconomie",
+    "branchtag": "main",
+    "name": "lokale-economie-ap",
+    "filename": "config/lokale-economie-ap.json",
+    "directory": "/doc/applicatieprofiel/lokale-economie/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/lokale-economie/erkendestandaard/2024-12-05"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/lokale-economie/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleEconomie",
+    "branchtag": "main",
+    "name": "lokale-economie",
+    "filename": "config/lokale-economie-voc.json",
+    "directory": "/doc/vocabularium/lokale-economie/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/lokale-economie/erkendestandaard/2024-12-05"
+    },
+    "dummy": "001"
+  }
+]

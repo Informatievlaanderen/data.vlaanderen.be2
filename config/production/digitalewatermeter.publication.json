@@ -1,0 +1,142 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "DigitaleWatermeter-ap",
+    "filename": "config/mijn-applicatieprofiel-ap.json",
+    "dummy": "32",
+    "examples": true,
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2024-12-17"
+    },
+    "shaclgenerator": {
+      "parameters": ""
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter",
+      "branchtag": "DW-0.7.0",
+      "name": "DigitaleWatermeter-ap",
+      "filename": "config/mijn-applicatieprofiel-ap.json",
+      "dummy": "32",
+      "examples": true,
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2024-12-17"
+      },
+      "shaclgenerator": {
+        "parameters": ""
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/DigitaleWatermeter/kandidaatstandaard/2024-08-30",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "prefix": "nutsvoorzieningen",
+    "branchtag": "production",
+    "name": "meters",
+    "filename": "config/mijn-vocabularium-voc.json",
+    "dummy": "38",
+    "navigation": {
+      "prev": "/doc/vocabularium/DigitaleWatermeter/kandidaatstandaard/2024-08-30"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/DigitaleWatermeter/kandidaatstandaard/2024-08-30",
+    "original": {
+      "urlref": "/doc/vocabularium/DigitaleWatermeter/kandidaatstandaard/2024-08-30",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter",
+      "prefix": "nutsvoorzieningen",
+      "branchtag": "DW-0.3.0",
+      "name": "meters",
+      "filename": "config/mijn-vocabularium-voc.json",
+      "dummy": "38",
+      "navigation": {
+        "prev": "/doc/vocabularium/DigitaleWatermeter/kandidaatstandaard/2024-08-30"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/nutsvoorzieningen/meters/kandidaatstandaard/2025-01-20",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "prefix": "nutsvoorzieningen",
+    "branchtag": "production",
+    "name": "meters",
+    "filename": "config/mijn-vocabularium-voc.json",
+    "dummy": "38",
+    "navigation": {
+      "prev": "/doc/vocabularium/nutsvoorzieningen/meters/kandidaatstandaard/2024-12-17"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/nutsvoorzieningen/meters/kandidaatstandaard/2025-01-20",
+    "original": {
+      "urlref": "/doc/vocabularium/nutsvoorzieningen/meters/kandidaatstandaard/2025-01-20",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter",
+      "prefix": "nutsvoorzieningen",
+      "branchtag": "DW-0.7.0",
+      "name": "meters",
+      "filename": "config/mijn-vocabularium-voc.json",
+      "dummy": "38",
+      "navigation": {
+        "prev": "/doc/vocabularium/nutsvoorzieningen/meters/kandidaatstandaard/2024-12-17"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/DigitaleWatermeter",
+    "seealso": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20",
+    "type": "raw",
+    "dummy": "33",
+    "directory": "/doc/applicatieprofiel/DigitaleWatermeter",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/DigitaleWatermeter",
+      "seealso": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20",
+      "type": "ap",
+      "dummy": "33"
+    }
+  },
+  {
+    "urlref": "/ns/nutsvoorzieningen/meters",
+    "prefix": "nutsvoorzieningen",
+    "seealso": "/doc/vocabularium/nutsvoorzieningen/meters/kandidaatstandaard/2025-01-20",
+    "type": "raw",
+    "dummy": "38",
+    "directory": "/ns/nutsvoorzieningen/meters",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/nutsvoorzieningen/meters",
+      "prefix": "nutsvoorzieningen",
+      "seealso": "/doc/vocabularium/nutsvoorzieningen/meters/kandidaatstandaard/2025-01-20",
+      "type": "voc",
+      "dummy": "38"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/DigitaleWatermeter/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter",
+    "branchtag": "main",
+    "name": "DigitaleWatermeter-ap",
+    "filename": "config/mijn-applicatieprofiel-ap.json",
+    "directory": "/doc/applicatieprofiel/DigitaleWatermeter/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/DigitaleWatermeter/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter",
+    "branchtag": "main",
+    "name": "meters",
+    "filename": "config/mijn-vocabularium-voc.json",
+    "directory": "/doc/vocabularium/DigitaleWatermeter/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/DigitaleWatermeter/kandidaatstandaard/2024-08-30"
+    },
+    "dummy": "001"
+  }
+]

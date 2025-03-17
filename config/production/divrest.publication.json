@@ -1,0 +1,36 @@
+[
+  {
+    "dummy": "trigger",
+    "urlref": "/doc/implementatiemodel/divrest-registrations/ontwerpstandaard/master",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "divrest-registrations-im",
+    "filename": "config/divrest-registrations-im.json",
+    "navigation": {},
+    "type": "raw",
+    "directory": "/doc/implementatiemodel/divrest-registrations/ontwerpstandaard/master",
+    "original": {
+      "dummy": "trigger",
+      "urlref": "/doc/implementatiemodel/divrest-registrations/ontwerpstandaard/master",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "divrest-registrations-im",
+      "filename": "config/divrest-registrations-im.json",
+      "navigation": {},
+      "type": "raw",
+      "directory": "/doc/implementatiemodel/divrest-registrations/ontwerpstandaard/master"
+    }
+  },
+  {
+    "urlref": "/doc/implementatiemodel/divrest-registrations/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/IM-DIVREST",
+    "branchtag": "master",
+    "name": "divrest-registrations-im",
+    "filename": "config/divrest-registrations-im.json",
+    "directory": "/doc/implementatiemodel/divrest-registrations/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/divrest-registrations/ontwerpstandaard/master"
+    },
+    "dummy": "001"
+  }
+]

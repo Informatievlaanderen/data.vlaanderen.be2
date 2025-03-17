@@ -1,0 +1,547 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/erkendestandaard/2022-04-21",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "stopplaatsen-ap",
+    "dummy": "001",
+    "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/erkendestandaard/2022-04-21",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/erkendestandaard/2022-04-21",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
+      "branchtag": "a88d6e4111270822d75f82f51c022257c646a020",
+      "name": "stopplaatsen-ap",
+      "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/ontwerpstandaard/toolchain4"
+      }
+    }
+  },
+  {
+    "dummy": 4,
+    "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
+    "branchtag": "master-node-toolchain",
+    "name": "stopplaatsen-ap",
+    "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/erkendestandaard/2022-04-21"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen",
+    "seealso": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/erkendestandaard/2022-04-21",
+    "directory": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen",
+    "dummy": "002"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/erkendestandaard/2022-04-21",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "voertuigplanning-ap",
+    "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+    "dummy": "002",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/erkendestandaard/2022-04-21",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/erkendestandaard/2022-04-21",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
+      "branchtag": "a88d6e4111270822d75f82f51c022257c646a020",
+      "name": "voertuigplanning-ap",
+      "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/ontwerpstandaard/toolchain4"
+      }
+    }
+  },
+  {
+    "dummy": 4,
+    "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
+    "branchtag": "master-node-toolchain",
+    "name": "voertuigplanning-ap",
+    "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/erkendestandaard/2022-04-21"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning",
+    "seealso": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/erkendestandaard/2022-04-21",
+    "type": "ap",
+    "dummy": "002"
+  },
+  {
+    "dummy": 4,
+    "urlref": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/erkendestandaard/2022-04-21",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "dienstregeling-en-planning",
+    "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+    "prefix": "mobiliteit",
+    "navigation": {
+      "next": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/erkendestandaard/2022-04-21",
+    "original": {
+      "urlref": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/erkendestandaard/2022-04-21",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
+      "branchtag": "a88d6e4111270822d75f82f51c022257c646a020",
+      "name": "dienstregeling-en-planning",
+      "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+      "prefix": "mobiliteit",
+      "navigation": {
+        "next": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/ontwerpstandaard/toolchain4"
+      }
+    }
+  },
+  {
+    "dummy": 5,
+    "urlref": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
+    "branchtag": "master-node-toolchain",
+    "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+    "name": "dienstregeling-en-planning",
+    "prefix": "mobiliteit",
+    "navigation": {
+      "prev": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/erkendestandaard/2022-04-21"
+    }
+  },
+  {
+    "urlref": "/ns/mobiliteit/dienstregeling-en-planning",
+    "prefix": "mobiliteit",
+    "seealso": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/erkendestandaard/2022-04-21",
+    "type": "voc"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "tijdstabellen-ap",
+    "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+    "prefix": "mobiliteit",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
+      "branchtag": "a88d6e4111270822d75f82f51c022257c646a020",
+      "name": "tijdstabellen-ap",
+      "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+      "prefix": "mobiliteit",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/toolchain4"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
+    "branchtag": "a88d6e4111270822d75f82f51c022257c646a020",
+    "name": "tijdstabellen-ap",
+    "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+    "prefix": "mobiliteit",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen",
+    "seealso": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21",
+    "prefix": "mobiliteit",
+    "type": "ap"
+  },
+
+  {
+    "urlref": "/doc/vocabularium/netwerk/kandidaatstandaard/2020-04-09",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "netwerk-voc",
+    "navigation": {
+      "next": "/doc/vocabularium/netwerk/erkendestandaard/2020-04-23"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/netwerk/kandidaatstandaard/2020-04-09",
+    "original": {
+      "urlref": "/doc/vocabularium/netwerk/kandidaatstandaard/2020-04-09",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "0d2a976d8206386c0d76d7c302f2a53cf65f5ea0",
+      "name": "netwerk-voc",
+      "navigation": {
+        "next": "/doc/vocabularium/netwerk/erkendestandaard/2020-04-23"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/netwerk/erkendestandaard/2020-04-23",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "netwerk",
+    "navigation": {
+      "prev": "/doc/vocabularium/netwerk/kandidaatstandaard/2020-04-09",
+      "next": "/doc/vocabularium/netwerk/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/netwerk/erkendestandaard/2020-04-23",
+    "original": {
+      "urlref": "/doc/vocabularium/netwerk/erkendestandaard/2020-04-23",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "2478513675390f7d5401409b9dc9d166a6f2b2f8",
+      "name": "netwerk",
+      "navigation": {
+        "prev": "/doc/vocabularium/netwerk/kandidaatstandaard/2020-04-09",
+        "next": "/doc/vocabularium/netwerk/ontwerpstandaard/toolchain4"
+      }
+    }
+  },
+  {
+    "dummy": 1,
+    "urlref": "/doc/vocabularium/netwerk/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+    "branchtag": "master-node-toolchain",
+    "name": "netwerk",
+    "navigation": {
+      "prev": "/doc/vocabularium/netwerk/erkendestandaard/2020-04-23"
+    }
+  },
+  {
+    "urlref": "/ns/netwerk",
+    "seealso": "/doc/vocabularium/netwerk/erkendestandaard/2020-04-23",
+    "type": "voc"
+  },
+
+  {
+    "urlref": "/doc/vocabularium/transportnetwerk/kandidaatstandaard/2020-04-09",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "transportnetwerk-voc",
+    "navigation": {
+      "next": "/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/transportnetwerk/kandidaatstandaard/2020-04-09",
+    "original": {
+      "urlref": "/doc/vocabularium/transportnetwerk/kandidaatstandaard/2020-04-09",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "kandidaat-2020-04-09",
+      "name": "transportnetwerk-voc",
+      "navigation": {
+        "next": "/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23"
+      },
+      "type": "voc"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "transportnetwerk",
+    "navigation": {
+      "prev": "/doc/vocabularium/transportnetwerk/kandidaatstandaard/2020-04-09",
+      "next": "/doc/vocabularium/transportnetwerk/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23",
+    "original": {
+      "urlref": "/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "master",
+      "name": "transportnetwerk",
+      "navigation": {
+        "prev": "/doc/vocabularium/transportnetwerk/kandidaatstandaard/2020-04-09",
+        "next": "/doc/vocabularium/transportnetwerk/ontwerpstandaard/toolchain4"
+      },
+      "type": "voc"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/transportnetwerk/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+    "branchtag": "master-node-toolchain",
+    "name": "transportnetwerk",
+    "navigation": {
+      "prev": "/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23"
+    },
+    "type": "voc"
+  },
+  {
+    "urlref": "/ns/transportnetwerk",
+    "seealso": "/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23",
+    "type": "voc"
+  },
+  {
+    "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mobiliteit-trips-en-aanbod-voc",
+    "prefix": "mobiliteit",
+    "navigation": {
+      "next": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
+    "original": {
+      "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "OntwerpStandaard-20191216",
+      "name": "mobiliteit-trips-en-aanbod-voc",
+      "prefix": "mobiliteit",
+      "navigation": {
+        "next": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mobiliteit-trips-en-aanbod-voc",
+    "prefix": "mobiliteit",
+    "navigation": {
+      "prev": "/doc/vocabularium/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
+      "next": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
+    "original": {
+      "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "KandidaatStandaard-20200112",
+      "name": "mobiliteit-trips-en-aanbod-voc",
+      "prefix": "mobiliteit",
+      "navigation": {
+        "prev": "/doc/vocabularium/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
+        "next": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mobiliteit-trips-en-aanbod-voc",
+    "prefix": "mobiliteit",
+    "navigation": {
+      "prev": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
+      "next": "/doc/vocabularium/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
+    "original": {
+      "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "kandidaat-2020-04-09",
+      "name": "mobiliteit-trips-en-aanbod-voc",
+      "prefix": "mobiliteit",
+      "navigation": {
+        "prev": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
+        "next": "/doc/vocabularium/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "trips-en-aanbod",
+    "prefix": "mobiliteit",
+    "navigation": {
+      "prev": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
+      "next": "/doc/vocabularium/mobiliteit-trips-en-aanbod/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
+    "original": {
+      "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "erkend-2020-04-23.hotfix2",
+      "name": "trips-en-aanbod",
+      "prefix": "mobiliteit",
+      "navigation": {
+        "prev": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
+        "next": "/doc/vocabularium/mobiliteit-trips-en-aanbod/ontwerpstandaard/toolchain4"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+    "branchtag": "master-node-toolchain",
+    "name": "trips-en-aanbod",
+    "prefix": "mobiliteit",
+    "navigation": {
+      "prev": "/doc/vocabularium/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23"
+    }
+  },
+  {
+    "urlref": "/ns/mobiliteit/trips-en-aanbod",
+    "prefix": "mobiliteit",
+    "seealso": "/doc/vocabularium/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
+    "type": "voc"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-11-20",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mobiliteit-maas",
+    "filename": "config/mobiliteit-maas.json",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-11-20",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-11-20",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "OntwerpStandaard-20191120-correct",
+      "name": "mobiliteit-maas",
+      "filename": "config/mobiliteit-maas.json",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mobiliteit-trips-en-aanbod-ap",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-11-20",
+      "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "OntwerpStandaard-20191216",
+      "name": "mobiliteit-trips-en-aanbod-ap",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-11-20",
+        "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mobiliteit-trips-en-aanbod-ap",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
+      "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "KandidaatStandaard-20200112",
+      "name": "mobiliteit-trips-en-aanbod-ap",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
+        "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mobiliteit-trips-en-aanbod-ap",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
+      "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "kandidaat-2020-04-09",
+      "name": "mobiliteit-trips-en-aanbod-ap",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
+        "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mobiliteit-trips-en-aanbod-ap",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
+      "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/toolchain4"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+      "branchtag": "erkend-2020-04-23-1",
+      "name": "mobiliteit-trips-en-aanbod-ap",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
+        "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/toolchain4"
+      }
+    }
+  },
+  {
+    "dummy": "trigger",
+    "urlref": "/doc/vocabularium/mobiliteit/kandidaatstandaard/2018-09-30",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mobiliteit",
+    "filename": "config/mobiliteit.json",
+    "navigation": {},
+    "type": "raw",
+    "directory": "/doc/vocabularium/mobiliteit/kandidaatstandaard/2018-09-30"
+  },
+  {
+    "dummy": "trigger",
+    "urlref": "/doc/vocabularium/mobiliteit",
+    "seealso": "/doc/vocabularium/mobiliteit/kandidaatstandaard/2018-09-30",
+    "type": "raw",
+    "directory": "/doc/vocabularium/mobiliteit",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production"
+  },
+  {
+    "dummy": "trigger",
+    "urlref": "/ns/mobiliteit",
+    "seealso": "/doc/vocabularium/mobiliteit/kandidaatstandaard/2018-09-30",
+    "type": "raw",
+    "directory": "/ns/mobiliteit",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
+    "branchtag": "master-node-toolchain",
+    "name": "mobiliteit-trips-en-aanbod-ap",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod",
+    "seealso": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
+    "type": "ap"
+  }
+]

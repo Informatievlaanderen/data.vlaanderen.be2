@@ -1,0 +1,174 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/mandatendatabank/ontwerpdocument/2018-07-20",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mandatendatabank",
+    "filename": "config/mandatendatabank.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mandatendatabank/ontwerpdocument",
+      "next": "/doc/applicatieprofiel/mandatendatabank/kandidaatstandaard"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/mandatendatabank/ontwerpdocument/2018-07-20",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/mandatendatabank/ontwerpdocument/2018-07-20",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "mandatendatabank",
+      "filename": "config/mandatendatabank.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/mandatendatabank/ontwerpdocument",
+        "next": "/doc/applicatieprofiel/mandatendatabank/kandidaatstandaard"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/mandatendatabank/ontwerpdocument/2018-07-20",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mandatendatabank",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "mandatendatabank",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mandatendatabank",
+    "seealso": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/mandatendatabank",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/mandatendatabank",
+      "seealso": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/mandatendatabank",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/mandaat/standaard/2018-07-20",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mandaat",
+    "dummy": "001",
+    "navigation": {
+      "next": "/doc/vocabularium/mandaat/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/mandaat/standaard/2018-07-20",
+    "original": {
+      "urlref": "/doc/vocabularium/mandaat/standaard/2018-07-20",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "mandaat",
+      "dummy": "trigger",
+      "navigation": {
+        "next": "/doc/vocabularium/mandaat/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/mandaat/standaard/2018-07-20"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/mandaat/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "mandaat",
+    "filename": "config/mandaat.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/mandaat/standaard/2018-07-20"
+    },
+    "type": "raw",
+    "directory": "/doc/vocabularium/mandaat/ontwerpdocument/2020-01-06",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/mandaat/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "mandaat",
+      "filename": "config/mandaat.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/mandaat/standaard/2018-07-20"
+      },
+      "type": "raw",
+      "directory": "/doc/vocabularium/mandaat/ontwerpdocument/2020-01-06",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/mandaat",
+    "seealso": "/doc/vocabularium/mandaat/standaard/2018-07-20",
+    "type": "raw",
+    "directory": "/doc/vocabularium/mandaat",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "trigger",
+    "original": {
+      "urlref": "/doc/vocabularium/mandaat",
+      "seealso": "/doc/vocabularium/mandaat/standaard/2018-07-20",
+      "type": "raw",
+      "directory": "/doc/vocabularium/mandaat",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/ns/mandaat",
+    "seealso": "/doc/vocabularium/mandaat/standaard/2018-07-20",
+    "type": "raw",
+    "directory": "/ns/mandaat",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "dummy": "001",
+    "original": {
+      "urlref": "/ns/mandaat",
+      "seealso": "/doc/vocabularium/mandaat/standaard/2018-07-20",
+      "type": "raw",
+      "directory": "/ns/mandaat",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mandatendatabank/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokalebesluiten",
+    "branchtag": "master",
+    "name": "mandatendatabank",
+    "filename": "config/mandatendatabank.json",
+    "directory": "/doc/applicatieprofiel/mandatendatabank/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/mandaat/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokalebesluiten",
+    "branchtag": "master",
+    "name": "mandaat",
+    "filename": "config/mandaat.json",
+    "directory": "/doc/vocabularium/mandaat/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/mandaat/standaard/2018-07-20"
+    },
+    "dummy": "001"
+  }
+]

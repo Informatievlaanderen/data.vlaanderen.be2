@@ -1,0 +1,100 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/loongegevens/kandidaatstandaard/2022-03-17",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "loongegevens-ap",
+    "filename": "config/loongegevens-ap.json",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/loongegevens/ontwerpstandaard/toolchain4"
+    },
+    "dummy": "001",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/loongegevens/kandidaatstandaard/2022-03-17",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/loongegevens/kandidaatstandaard/2022-03-17",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-loongegevens",
+      "branchtag": "kandidaat-2022-03-17_06",
+      "name": "loongegevens-ap",
+      "filename": "config/loongegevens-ap.json",
+      "navigation": {},
+      "dummy": "001"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/loongegevens/kandidaatstandaard/2022-03-17",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "loongegevens",
+    "filename": "config/loongegevens-voc.json",
+    "navigation": {
+      "next": "/doc/vocabularium/loongegevens/ontwerpstandaard/toolchain4"
+    },
+    "dummy": "003",
+    "type": "raw",
+    "directory": "/doc/vocabularium/loongegevens/kandidaatstandaard/2022-03-17",
+    "original": {
+      "urlref": "/doc/vocabularium/loongegevens/kandidaatstandaard/2022-03-17",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-loongegevens",
+      "branchtag": "kandidaat-2022-03-17_06",
+      "name": "loongegevens",
+      "filename": "config/loongegevens-voc.json",
+      "navigation": {},
+      "dummy": "003"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/loongegevens",
+    "seealso": "/doc/applicatieprofiel/loongegevens/kandidaatstandaard/2022-03-17",
+    "type": "raw",
+    "dummy": "002",
+    "directory": "/doc/applicatieprofiel/loongegevens",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/loongegevens",
+      "seealso": "/doc/applicatieprofiel/loongegevens/kandidaatstandaard/2022-03-17",
+      "type": "ap",
+      "dummy": "002"
+    }
+  },
+  {
+    "urlref": "/ns/loongegevens",
+    "seealso": "/doc/vocabularium/loongegevens/kandidaatstandaard/2022-03-17",
+    "type": "raw",
+    "dummy": "002",
+    "directory": "/ns/loongegevens",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/loongegevens",
+      "seealso": "/doc/vocabularium/loongegevens/kandidaatstandaard/2022-03-17",
+      "type": "voc",
+      "dummy": "002"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/loongegevens/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-loongegevens",
+    "branchtag": "master",
+    "name": "loongegevens-ap",
+    "filename": "config/loongegevens-ap.json",
+    "directory": "/doc/applicatieprofiel/loongegevens/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/loongegevens/kandidaatstandaard/2022-03-17"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/loongegevens/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-loongegevens",
+    "branchtag": "master",
+    "name": "loongegevens",
+    "filename": "config/loongegevens-voc.json",
+    "directory": "/doc/vocabularium/loongegevens/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/loongegevens/kandidaatstandaard/2022-03-17"
+    },
+    "dummy": "001"
+  }
+]

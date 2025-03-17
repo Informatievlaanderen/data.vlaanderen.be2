@@ -1,0 +1,264 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2023-04-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "dossier-ap",
+    "filename": "config/dossier-ap.json",
+    "navigation": {},
+    "dummy": "geert05",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2023-04-01",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2023-04-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-dossier",
+      "branchtag": "master",
+      "name": "dossier-ap",
+      "filename": "config/dossier-ap.json",
+      "navigation": {},
+      "dummy": "geert05"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/dossier/erkendestandaard/2023-09-25",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "dossier-ap",
+    "filename": "config/dossier-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2023-04-01"
+    },
+    "dummy": "002",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/dossier/erkendestandaard/2023-09-25",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/dossier/erkendestandaard/2023-09-25",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-dossier",
+      "branchtag": "master",
+      "name": "dossier-ap",
+      "filename": "config/dossier-ap.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2023-04-01"
+      },
+      "dummy": "002"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/dossier/kandidaatstandaard/2023-04-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "dossier",
+    "filename": "config/dossier-voc.json",
+    "navigation": {},
+    "dummy": "geert05",
+    "type": "raw",
+    "directory": "/doc/vocabularium/dossier/kandidaatstandaard/2023-04-01",
+    "original": {
+      "urlref": "/doc/vocabularium/dossier/kandidaatstandaard/2023-04-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-dossier",
+      "branchtag": "master",
+      "name": "dossier",
+      "filename": "config/dossier-voc.json",
+      "navigation": {},
+      "dummy": "geert05"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/dossier/kandidaatstandaard/2021-04-22",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "dossier",
+    "filename": "config/dossier-voc.json",
+    "navigation": {},
+    "dummy": "geert05",
+    "type": "raw",
+    "directory": "/doc/vocabularium/dossier/kandidaatstandaard/2021-04-22",
+    "original": {
+      "urlref": "/doc/vocabularium/dossier/kandidaatstandaard/2021-04-22",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-dossier",
+      "branchtag": "master",
+      "name": "dossier",
+      "filename": "config/dossier-voc.json",
+      "navigation": {},
+      "dummy": "geert05"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/dossier/kandidaatstandaard/2020-10-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "dossier",
+    "filename": "config/dossier-voc.json",
+    "navigation": {},
+    "dummy": "geert05",
+    "type": "raw",
+    "directory": "/doc/vocabularium/dossier/kandidaatstandaard/2020-10-01",
+    "original": {
+      "urlref": "/doc/vocabularium/dossier/kandidaatstandaard/2020-10-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "dossier",
+      "filename": "config/dossier-voc-20201001.json",
+      "navigation": {
+        "next": "/doc/vocabularium/dossier/kandidaatstandaard/2021-04-22"
+      },
+      "dummy": "trigger",
+      "type": "raw",
+      "directory": "/doc/vocabularium/dossier/kandidaatstandaard/2020-10-01"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2021-04-22",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "dossier",
+    "filename": "config/dossier-voc.json",
+    "navigation": {},
+    "dummy": "geert05",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2021-04-22",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2021-04-22",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "dossier-ap",
+      "filename": "config/dossier-ap.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2020-10-01"
+      },
+      "dummy": "trigger",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2021-04-22"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2020-10-01",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "dossier",
+    "filename": "config/dossier-voc.json",
+    "navigation": {},
+    "dummy": "geert05",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2020-10-01",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2020-10-01",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "dossier-ap",
+      "filename": "config/dossier-ap.json",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2021-04-22"
+      },
+      "dummy": "trigger",
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2020-10-01"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/dossier/erkendestandaard/2023-09-25",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "dossier",
+    "filename": "config/dossier-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/dossier/kandidaatstandaard/2023-04-01"
+    },
+    "dummy": "002",
+    "type": "raw",
+    "directory": "/doc/vocabularium/dossier/erkendestandaard/2023-09-25",
+    "original": {
+      "urlref": "/doc/vocabularium/dossier/erkendestandaard/2023-09-25",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-dossier",
+      "branchtag": "master",
+      "name": "dossier",
+      "filename": "config/dossier-voc.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/dossier/kandidaatstandaard/2023-04-01"
+      },
+      "dummy": "002"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/dossier/erkendestandaard/2021-02-04",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "dossier",
+    "filename": "config/dossier-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/dossier/kandidaatstandaard/2020-10-01",
+      "next": "/doc/vocabularium/dossier/kandidaatstandaard/2021-04-22"
+    },
+    "dummy": "002",
+    "type": "raw",
+    "directory": "/doc/vocabularium/dossier/erkendestandaard/2021-02-04",
+    "original": {
+      "urlref": "/doc/vocabularium/dossier/erkendestandaard/2021-02-04",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "dossier",
+      "filename": "config/dossier-voc-20210204.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/dossier/kandidaatstandaard/2020-10-01",
+        "next": "/doc/vocabularium/dossier/kandidaatstandaard/2021-04-22"
+      },
+      "dummy": "trigger",
+      "type": "raw",
+      "directory": "/doc/vocabularium/dossier/erkendestandaard/2021-02-04"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/dossier",
+    "seealso": "/doc/applicatieprofiel/dossier/erkendestandaard/2023-09-25",
+    "type": "raw",
+    "dummy": "004",
+    "directory": "/doc/applicatieprofiel/dossier",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/dossier",
+      "seealso": "/doc/applicatieprofiel/dossier/erkendestandaard/2023-09-25",
+      "type": "ap",
+      "dummy": "004"
+    }
+  },
+  {
+    "urlref": "/ns/dossier",
+    "seealso": "/doc/vocabularium/dossier/erkendestandaard/2023-09-25",
+    "type": "raw",
+    "dummy": "004",
+    "directory": "/ns/dossier",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/ns/dossier",
+      "seealso": "/doc/vocabularium/dossier/erkendestandaard/2023-09-25",
+      "type": "voc",
+      "dummy": "004"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/dossier/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-dossier",
+    "branchtag": "master",
+    "name": "dossier-ap",
+    "filename": "config/dossier-ap.json",
+    "directory": "/doc/applicatieprofiel/dossier/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/dossier/erkendestandaard/2023-09-25"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/dossier/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-dossier",
+    "branchtag": "master",
+    "name": "dossier",
+    "filename": "config/dossier-voc.json",
+    "directory": "/doc/vocabularium/dossier/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/dossier/erkendestandaard/2023-09-25"
+    },
+    "dummy": "001"
+  }
+]
