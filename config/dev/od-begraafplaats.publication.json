@@ -264,7 +264,10 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/begraafplaats/standaard/2018-11-27"
     },
-    "dummy": "001"
+    "dummy": "001",
+    "webuniversumgenerator": {
+      "parameters": "--propagateParentProperties true"
+    }
   },
   {
     "urlref": "/doc/applicatieprofiel/begraafplaatsenbeheer/ontwerpstandaard/toolchain4",
@@ -275,6 +278,9 @@
     "directory": "/doc/applicatieprofiel/begraafplaatsenbeheer/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/begraafplaatsenbeheer/standaard/2018-11-27"
+    },
+    "webuniversumgenerator": {
+      "parameters": "--propagateParentProperties true"
     },
     "dummy": "001"
   },
