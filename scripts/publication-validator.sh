@@ -17,7 +17,6 @@ failed_details=()
 
 # Count total publication files
 total_pubs=$(find "$CONFIGDIR/$DIRECTORY" -name '*.publication.json' | wc -l)
-echo "Found $total_pubs publication files, will process max 5"
 
 # Use process substitution to avoid subshell issues
 while read -r pub_file; do
@@ -155,7 +154,7 @@ while read -r pub_file; do
             echo "URL type not recognized, skipping additional checks: $urlref"
         fi
     done
-done < <(find "$CONFIGDIR/$DIRECTORY" -name '*.publication.json' | head -n 5)
+done < <(find "$CONFIGDIR/$DIRECTORY" -name '*.publication.json')
 
 # Summary of validation results
 echo "======= Validation Summary ======="

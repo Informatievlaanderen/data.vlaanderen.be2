@@ -2,8 +2,8 @@ name: Publication Validator
 
 on:
   schedule:
-    # Run at 1:00 AM UTC every day
-    - cron: "0 1 * * *"
+    # Run at 1:00 PM UTC every Tuesday
+    - cron: "0 13 * * 2"
   # Allow manual triggering with parameters
   workflow_dispatch:
     inputs:
@@ -29,7 +29,7 @@ jobs:
       - name: Run validator and save full output
         run: |
           mkdir -p $RUNNER_TEMP/validation
-          ./scripts/publication-validator.sh ${{ github.event.inputs.config_path || './config' }} > $RUNNER_TEMP/validation/full-log.txt 2>&1
+          ./scripts/publication-validator.sh ${{ github.event.inputs.config_path || './config' }} 2>&1 | tee $RUNNER_TEMP/validation/full-log.txt
           # Copy to workspace for artifact upload
           cp $RUNNER_TEMP/validation/full-log.txt validation-full-log.txt
 
