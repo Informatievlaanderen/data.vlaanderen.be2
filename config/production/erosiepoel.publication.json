@@ -29,7 +29,7 @@
     "urlref": "/doc/vocabularium/erosiepoel",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "name": "erosiepoel-voc",
+    "name": "erosiepoel",
     "filename": "config/erosiepoel-voc.json",
     "navigation": {
       "prev": ""
@@ -46,14 +46,14 @@
       "navigation": {
         "prev": ""
       },
-      "dummy": "0"
+      "dummy": "1"
     }
   },
   {
     "urlref": "/ns/erosiepoel",
     "seealso": "/doc/vocabularium/erosiepoel",
     "type": "raw",
-    "dummy": "0",
+    "dummy": "1",
     "directory": "/ns/erosiepoel",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
