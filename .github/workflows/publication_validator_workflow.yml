@@ -1,0 +1,49 @@
+name: Publication Validator
+
+on:
+  schedule:
+    # Run at 1:00 AM UTC every day
+    - cron: "0 1 * * *"
+  # Allow manual triggering with parameters
+  workflow_dispatch:
+    inputs:
+      config_path:
+        description: "Path to configuration directory"
+        required: false
+        default: "./config"
+
+jobs:
+  validate-publications:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y curl jq
+
+      - name: Make validator script executable
+        run: chmod +x ./scripts/publication-validator.sh
+
+      - name: Run validator and save full output
+        run: |
+          mkdir -p $RUNNER_TEMP/validation
+          ./scripts/publication-validator.sh ${{ github.event.inputs.config_path || './config' }} > $RUNNER_TEMP/validation/full-log.txt 2>&1
+          # Copy to workspace for artifact upload
+          cp $RUNNER_TEMP/validation/full-log.txt validation-full-log.txt
+
+      - name: Extract and display validation summary
+        run: |
+          echo "## Publication Validator Summary" >> $GITHUB_STEP_SUMMARY
+          # Extract everything from the validation summary section
+          sed -n '/======= Validation Summary =======/{:a;p;n;/^$/!ba;}' validation-full-log.txt >> $GITHUB_STEP_SUMMARY
+          # Also output to console
+          sed -n '/======= Validation Summary =======/{:a;p;n;/^$/!ba;}' validation-full-log.txt
+
+      - name: Upload full log as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-full-log
+          path: validation-full-log.txt
+          retention-days: 2
