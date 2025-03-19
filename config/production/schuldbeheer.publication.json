@@ -23,7 +23,7 @@
     "urlref": "/ns/schuldbeheer",
     "seealso": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
     "type": "voc",
-    "dummy": "002"
+    "dummy": "003"
   },
   {
     "urlref": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05",
@@ -49,7 +49,7 @@
     "urlref": "/doc/applicatieprofiel/schuldbeheer",
     "seealso": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
     "type": "ap",
-    "dummy": "002"
+    "dummy": "003"
   },
   {
     "urlref": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
@@ -61,7 +61,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2024-09-05"
     },
-    "dummy": "005"
+    "dummy": "006"
   },
   {
     "urlref": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
@@ -76,6 +76,6 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "006"
+    "dummy": "007"
   }
 ]
