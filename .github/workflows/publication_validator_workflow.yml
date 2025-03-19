@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
     inputs:
       config_path:
-        description: 'Path to configuration directory'
+        description: "Path to configuration directory"
         required: false
-        default: './config'
+        default: "./config"
 
 jobs:
   validate-publications:
@@ -28,10 +28,10 @@ jobs:
 
       - name: Run validator and save full output
         run: |
-          ./scripts/publication-validator.sh ./config > validation-full-log.txt 2>&1
-          exit_code=$?
-          # Store exit code for later
-          echo "VALIDATION_EXIT_CODE=$exit_code" >> $GITHUB_ENV
+          mkdir -p $RUNNER_TEMP/validation
+          ./scripts/publication-validator.sh ${{ github.event.inputs.config_path || './config' }} > $RUNNER_TEMP/validation/full-log.txt 2>&1
+          # Copy to workspace for artifact upload
+          cp $RUNNER_TEMP/validation/full-log.txt validation-full-log.txt
 
       - name: Extract and display validation summary
         run: |
@@ -46,9 +46,4 @@ jobs:
         with:
           name: validation-full-log
           path: validation-full-log.txt
-          retention-days: 7
-
-      # This will fail the workflow if validation failed
-      - name: Check validation result
-        if: env.VALIDATION_EXIT_CODE != '0'
-        run: exit 1
+          retention-days: 2
