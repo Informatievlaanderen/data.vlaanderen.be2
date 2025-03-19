@@ -28,7 +28,10 @@ jobs:
 
       - name: Run validator and save full output
         run: |
-          ./scripts/publication-validator.sh ./config > validation-full-log.txt 2>&1
+          mkdir -p $RUNNER_TEMP/validation
+          ./scripts/publication-validator.sh ${{ github.event.inputs.config_path || './config' }} > $RUNNER_TEMP/validation/full-log.txt 2>&1
+          # Copy to workspace for artifact upload
+          cp $RUNNER_TEMP/validation/full-log.txt validation-full-log.txt
 
       - name: Extract and display validation summary
         run: |
