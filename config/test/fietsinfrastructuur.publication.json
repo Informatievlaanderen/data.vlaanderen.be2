@@ -68,7 +68,7 @@
     "name": "fietsinfrastructuur-ap",
     "filename": "config/fietsinfrastructuur-ap.json",
     "navigation": {},
-    "dummy": "014"
+    "dummy": "015"
   },
   {
     "urlref": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
@@ -77,18 +77,18 @@
     "name": "fiets",
     "filename": "config/fietsinfrastructuur-voc.json",
     "navigation": {},
-    "dummy": "014"
+    "dummy": "015"
   },
   {
     "urlref": "/doc/applicatieprofiel/fietsinfrastructuur",
     "seealso": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
     "type": "ap",
-    "dummy": "014"
+    "dummy": "015"
   },
   {
     "urlref": "/ns/fiets",
     "seealso": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
     "type": "voc",
-    "dummy": "014"
+    "dummy": "015"
   }
 ]
