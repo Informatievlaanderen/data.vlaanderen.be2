@@ -22,6 +22,7 @@
     "parameters-old": "-m individual -c 'uniqueLanguages' -c 'nodeKind'"
   },
   "contextgenerator": {
-    "parameters": "--scopedContext true"
+    "parameters": "--scopedContext true",
+    "parameters-old": "--scopedContext false --addDomainPrefix true"
   }
 }
