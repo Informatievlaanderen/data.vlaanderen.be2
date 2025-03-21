@@ -148,7 +148,10 @@
     "navigation": {
       "prev": "/doc/vocabularium/adres/standaard/2018-07-03"
     },
-    "dummy": "2025-03-15 21:47:08"
+    "dummy": "2025-03-15 21:47:08",
+  "contextgenerator": {
+    "parameters-old": "-c -l label --scopedContext true"
+  }
   },
   {
     "urlref": "/doc/applicatieprofiel/adresregister/ontwerpstandaard/toolchain4",
