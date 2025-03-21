@@ -22,6 +22,6 @@
     "parameters-old": "-m individual -c 'uniqueLanguages' -c 'nodeKind'"
   },
   "contextgenerator": {
-    "parameters-old": "-c -l label"
+    "parameters": "--scopedContext true"
   }
 }
