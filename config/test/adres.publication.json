@@ -161,7 +161,7 @@
     },
     "dummy": "3",
   "contextgenerator": {
-    "parameters-old": "-c -l label --scopedContext true"
+    "parameters": "-c -l label --scopedContext true"
   }
   }
 ]
