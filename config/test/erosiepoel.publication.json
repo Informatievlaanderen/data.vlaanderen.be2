@@ -54,7 +54,7 @@
   {
     "urlref": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
-    "branchtag": "v1.0.1",
+    "branchtag": "main",
     "name": "erosiepoel-ap",
     "filename": "config/erosiepoel-ap.json",
     "navigation": {
