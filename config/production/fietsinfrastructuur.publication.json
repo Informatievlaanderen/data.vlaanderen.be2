@@ -100,7 +100,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2021-12-17"
     },
-    "dummy": "01"
+    "dummy": "020"
   },
   {
     "urlref": "/doc/vocabularium/fietsinfrastructuur/ontwerpstandaard/2025-03-05",
@@ -111,6 +111,18 @@
     "navigation": {
       "prev": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2021-12-17"
     },
-    "dummy": "01"
+    "dummy": "020"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/fietsinfrastructuur",
+    "seealso": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
+    "type": "ap",
+    "dummy": "020"
+  },
+  {
+    "urlref": "/ns/fiets",
+    "seealso": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
+    "type": "voc",
+    "dummy": "020"
   }
 ]
