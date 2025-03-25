@@ -126,7 +126,7 @@
   {
     "urlref": "/doc/applicatieprofiel/generiek-basis/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-generiek",
-    "branchtag": "zonder-status",
+    "branchtag": "zonder-status-2",
     "name": "generiek-basis",
     "filename": "config/generiek-basis.json",
     "navigation": {
@@ -143,7 +143,7 @@
   {
     "urlref": "/doc/vocabularium/generiek/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-generiek",
-    "branchtag": "zonder-status",
+    "branchtag": "zonder-status-2",
     "name": "generiek",
     "filename": "config/generiek.json",
     "navigation": {
