@@ -6,12 +6,12 @@
 		"name": "rooilijnplannen-ap",
 		"filename": "config/rooilijnplannen.json",
 		"navigation": {},
-		"dummy": "009"
+		"dummy": "010"
 	},
 	{
 		"urlref": "/doc/applicatieprofiel/rooilijnplannen",
 		"seealso": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-04-015",
 		"type": "ap",
-		"dummy": "009"
+		"dummy": "010"
 	}
 ]
