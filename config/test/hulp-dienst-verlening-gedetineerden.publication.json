@@ -112,5 +112,27 @@
       "prev": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18"
     },
     "dummy": "2025-03-16 21:02:59"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/public-review",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
+    "branchtag": "public-review",
+    "name": "hulp-dienstverlening-gedetineerden-ap",
+    "filename": "config/hdg-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18"
+    },
+    "dummy": "2025-04-02 08:10:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/public-review",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
+    "branchtag": "public-review",
+    "name": "hulp-dienstverlening-gedetineerden",
+    "filename": "config/hdg-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18"
+    },
+    "dummy": "2025-04-02 08:10:00"
   }
 ]
