@@ -2,16 +2,16 @@
 	{
 		"urlref": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-04-01",
 		"repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
-		"branchtag": "master",
+		"branchtag": "main",
 		"name": "rooilijnplannen",
 		"filename": "config/rooilijnplannen.json",
 		"navigation": {},
-		"dummy": "001"
+		"dummy": "002"
 	},
 	{
 		"urlref": "/doc/applicatieprofiel/rooilijnplannen",
 		"seealso": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-04-015",
 		"type": "ap",
-		"dummy": "001"
+		"dummy": "002"
 	}
 ]
