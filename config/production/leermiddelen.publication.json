@@ -21,18 +21,18 @@
     "nav": {
       "prev": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-02-24"
     },
-    "dummy": "005"
+    "dummy": "006"
   },
   {
     "urlref": "/doc/vocabularium/leermiddelen",
-    "seealso": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-02-24",
+    "seealso": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
     "type": "voc",
-    "dummy": "003"
+    "dummy": "006"
   },
   {
     "urlref": "/ns/leermiddelen",
-    "seealso": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-02-24",
+    "seealso": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
     "type": "voc",
-    "dummy": "003"
+    "dummy": "006"
   }
 ]
