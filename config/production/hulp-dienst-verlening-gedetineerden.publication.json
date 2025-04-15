@@ -79,7 +79,7 @@
   {
     "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
-    "branchtag": "main",
+    "branchtag": "public-review",
     "name": "hulp-dienstverlening-gedetineerden",
     "filename": "config/hdg-voc.json",
     "navigation": {
