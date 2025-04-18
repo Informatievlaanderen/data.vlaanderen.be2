@@ -1,0 +1,76 @@
+[
+  {
+      "urlref": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
+      "branchtag": "v1.0.1",
+      "name": "zaalreservatie-ap",
+      "filename": "config/zaalreservatie-ap.json",
+      "navigation": {
+	      "next" : "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+      }
+  },
+  {
+      "urlref": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
+      "branchtag": "main",
+      "name": "zaalreservatie-ap",
+      "filename": "config/zaalreservatie-ap.json",
+      "navigation": {
+          "prev": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+      }
+  },
+  {
+      "urlref": "/doc/applicatieprofiel/zaalreservatie",
+      "seealso": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
+      "type": "ap"
+  },
+
+  {
+      "urlref": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
+      "branchtag": "v1.0.1",
+      "name": "zaalreservatie-voc",
+      "filename": "config/mijn-vocabularium-voc.json",
+      "navigation": {
+          "next": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18"
+
+      }
+  },
+  {
+      "urlref": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
+      "branchtag": "v1.0.3",
+      "name": "zaalreservatie-voc",
+      "filename": "config/zaalreservatie-voc.json",
+      "navigation": {
+         "prev": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18"
+      }
+  },
+  {
+      "urlref": "/ns/zaalreservatie",
+      "seealso": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
+      "type": "voc"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
+    "branchtag": "main",
+    "name": "zaalreservatie-ap",
+    "filename": "config/zaalreservatie-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+    },
+    "dummy": "2025-04-18 11:00:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
+    "branchtag": "main",
+    "name": "mijn-vocabularium",
+    "filename": "config/mijn-vocabularium-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18"
+    },
+    "dummy": "2025-04-18 11:00:00"
+  }
+]
