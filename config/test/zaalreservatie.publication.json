@@ -20,8 +20,8 @@
       "urlref": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
       "branchtag": "main",
-      "name": "zaalreservatie-voc",
-      "filename": "config/mijn-vocabularium-voc.json",
+      "name": "zaalreservatie",
+      "filename": "config/zaalreservatie-voc.json",
       "navigation": {
       },
       "dummy" : "1"
