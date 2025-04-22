@@ -3,12 +3,12 @@
       "urlref": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
       "name": "zaalreservatie-ap",
-	"branchtag": "main",
+       "branchtag": "main",
       "filename": "config/zaalreservatie-ap.json",
       "navigation": {
 	      "next" : "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
       },
-      "dummy" : "1"
+      "dummy" : "2"
   },
   {
       "urlref": "/doc/applicatieprofiel/zaalreservatie",
