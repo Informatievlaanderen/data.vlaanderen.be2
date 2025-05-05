@@ -125,7 +125,18 @@
     "dummy": "1"
   },
   {
-    "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/public-review",
+    "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/kristof-public-review",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
+    "branchtag": "public-review",
+    "name": "hulp-dienstverlening-gedetineerden-ap",
+    "filename": "config/hdg-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18"
+    },
+    "dummy": "002"
+  },
+  {
+    "urlref": " ",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
     "branchtag": "public-review",
     "name": "hulp-dienstverlening-gedetineerden",
