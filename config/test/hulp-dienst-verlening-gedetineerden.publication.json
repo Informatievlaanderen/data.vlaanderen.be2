@@ -134,5 +134,16 @@
       "prev": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18"
     },
     "dummy": "2"
+  },
+  {
+    "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/kristof-public-review",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
+    "branchtag": "public-review",
+    "name": "hulp-dienstverlening-gedetineerden",
+    "filename": "config/hdg-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18"
+    },
+    "dummy": "2025-03-16 21:02:591"
   }
 ]
