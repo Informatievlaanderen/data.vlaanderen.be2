@@ -25,9 +25,9 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden",
-    "seealso": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-04-22",
+    "seealso": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-05-05",
     "type": "ap",
-    "dummy": "004"
+    "dummy": "005"
   },
   {
     "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18",
@@ -97,6 +97,17 @@
       "prev": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18"
     },
     "dummy": "2025-04-22 19:12"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-05-05",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
+    "branchtag": "v1.1.1",
+    "name": "hulp-dienstverlening-gedetineerden-ap",
+    "filename": "config/hdg-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-04-22"
+    },
+    "dummy": "2025-05-05 16:25"
   },
   {
     "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-04-22",
