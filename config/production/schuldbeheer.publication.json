@@ -40,18 +40,6 @@
     }
   },
   {
-    "urlref": "/ns/schuldbeheer",
-    "seealso": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
-    "type": "voc",
-    "dummy": "008"
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/schuldbeheer",
-    "seealso": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
-    "type": "ap",
-    "dummy": "008"
-  },
-  {
     "urlref": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
     "branchtag": "main",
@@ -76,6 +64,18 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
+    "dummy": "011"
+  },
+  {
+    "urlref": "/ns/schuldbeheer",
+    "seealso": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
+    "type": "voc",
     "dummy": "008"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/schuldbeheer",
+    "seealso": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
+    "type": "ap",
+    "dummy": "010"
   }
 ]
