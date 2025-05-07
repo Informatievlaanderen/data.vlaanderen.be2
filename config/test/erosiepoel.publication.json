@@ -1,55 +1,49 @@
 [
   {
-      "urlref": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-07-22",
-      "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
-      "branchtag": "v1.0.1",
-      "name": "erosiepoel-ap",
-      "filename": "config/erosiepoel-ap.json",
-      "navigation": {
-	      "next" : "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-10-07"
-      }
+    "urlref": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-07-22",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
+    "branchtag": "v1.0.1",
+    "name": "erosiepoel-ap",
+    "filename": "config/erosiepoel-ap.json",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-10-07"
+    }
   },
   {
-      "urlref": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-10-07",
-      "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
-      "branchtag": "main",
-      "name": "erosiepoel-ap",
-      "filename": "config/erosiepoel-ap.json",
-      "navigation": {
-          "prev": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-07-22"
-      }
+    "urlref": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-10-07",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
+    "branchtag": "main",
+    "name": "erosiepoel-ap",
+    "filename": "config/erosiepoel-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-07-22"
+    }
   },
   {
-      "urlref": "/doc/applicatieprofiel/erosiepoel",
-      "seealso": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-10-07",
-      "type": "ap"
+    "urlref": "/doc/applicatieprofiel/erosiepoel",
+    "seealso": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-10-07",
+    "type": "ap"
   },
 
   {
-      "urlref": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-07-22",
-      "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
-      "branchtag": "v1.0.1",
-      "name": "erosiepoel-voc",
-      "filename": "config/erosiepoel-voc.json",
-      "navigation": {
-          "next": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-10-07"
-
-      }
+    "urlref": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-07-22",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
+    "branchtag": "v1.0.1",
+    "name": "erosiepoel-voc",
+    "filename": "config/erosiepoel-voc.json",
+    "navigation": {
+      "next": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-10-07"
+    }
   },
   {
-      "urlref": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-10-07",
-      "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
-      "branchtag": "v1.0.3",
-      "name": "erosiepoel-voc",
-      "filename": "config/erosiepoel-voc.json",
-      "navigation": {
-         "prev": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-07-22"
-      }
-  },
-  {
-      "urlref": "/ns/erosiepoel",
-      "seealso": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-10-07",
-      "type": "voc"
+    "urlref": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-10-07",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
+    "branchtag": "v1.0.3",
+    "name": "erosiepoel-voc",
+    "filename": "config/erosiepoel-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-07-22"
+    }
   },
   {
     "urlref": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/toolchain4",
@@ -82,6 +76,12 @@
     "navigation": {
       "prev": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-10-07"
     },
-    "dummy": "2025-04-24 08:24:00"
+    "dummy": "002"
+  },
+  {
+    "urlref": "/ns/erosiepoel",
+    "seealso": "/doc/vocabularium/erosiepoel/ontwerpstandaard/toolchain4",
+    "dummy": "002",
+    "type": "voc"
   }
 ]
