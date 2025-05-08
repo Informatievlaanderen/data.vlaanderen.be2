@@ -81,7 +81,7 @@
   {
     "urlref": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/kristof",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
-    "branchtag": "main",
+    "branchtag": "main-kristof",
     "name": "schuldbeheer-ap",
     "filename": "config/eap-mapping.json",
     "directory": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
@@ -91,6 +91,6 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "001"
+    "dummy": "002"
   }
 ]
