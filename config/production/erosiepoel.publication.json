@@ -3,7 +3,7 @@
     "urlref": "/doc/applicatieprofiel/erosiepoel",
     "seealso": "/doc/applicatieprofiel/erosiepoel/kandidaatstandaard/2025-05-07",
     "type": "ap",
-    "dummy": "2025-05-07 11:02:00"
+    "dummy": "2025-05-08 07:29:00"
   },
   {
     "urlref": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2025-04-30",
@@ -19,7 +19,7 @@
   {
     "urlref": "/doc/applicatieprofiel/erosiepoel/kandidaatstandaard/2025-05-07",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
-    "branchtag": "v1.0.5",
+    "branchtag": "v1.0.6",
     "name": "erosiepoel-ap",
     "filename": "config/erosiepoel-ap.json",
     "navigation": {
@@ -41,7 +41,7 @@
   {
     "urlref": "/doc/vocabularium/erosiepoel/kandidaatstandaard/2025-05-07",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
-    "branchtag": "v1.0.5",
+    "branchtag": "v1.0.6",
     "name": "erosiepoel",
     "filename": "config/erosiepoel-voc.json",
     "navigation": {
@@ -53,12 +53,12 @@
     "urlref": "/doc/vocabularium/erosiepoel",
     "seealso": "/doc/vocabularium/erosiepoel/kandidaatstandaard/2025-05-07",
     "type": "voc",
-    "dummy": "2025-05-07 10:26:00"
+    "dummy": "2025-05-08 07:29:00"
   },
   {
     "urlref": "/ns/erosiepoel",
     "seealso": "/doc/vocabularium/erosiepoel/kandidaatstandaard/2025-05-07",
     "type": "voc",
-    "dummy": "2025-05-07 10:26:00"
+    "dummy": "2025-05-08 07:29:00"
   }
 ]
