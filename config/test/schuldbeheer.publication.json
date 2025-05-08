@@ -76,7 +76,7 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "007"
+    "dummy": "008"
   },
   {
     "urlref": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/kristof",
@@ -91,6 +91,6 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "009"
+    "dummy": "008"
   }
 ]
