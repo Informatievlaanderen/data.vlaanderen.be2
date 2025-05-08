@@ -77,5 +77,20 @@
       "parameters": "--addDomainPrefix true"
     },
     "dummy": "007"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/kristof",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
+    "branchtag": "main",
+    "name": "schuldbeheer-ap",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05"
+    },
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "001"
   }
 ]
