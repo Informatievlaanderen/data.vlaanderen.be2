@@ -83,7 +83,8 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03"
     },
-    "dummy": "003"
+    "dummy": "003",
+    "disabled": "true"
   },
   {
     "urlref": "/doc/vocabularium/kindfiche/ontwerpstandaard/toolchain4",
