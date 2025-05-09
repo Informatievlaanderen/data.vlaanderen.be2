@@ -167,7 +167,7 @@ render_report_line() {
     local SECONDPARTLINE=$(echo $LINE | cut -d'/' -f4-)
     HOSTNAME=$(jq -r .hostname ${JSONI}) 
     URLREF=$(jq -r .urlref ${JSONI}) 
-    echo -n "| [${FIRSTPARTLINE}/ ${SECONDPARTLINE}](${HOSTNAME}${URLREF}) <br/> [&9883;](/report4/${LINE}) [&9884;](${HOSTNAME}${URLREF})" >>${EXECUTIONVIEW}
+    echo -n "| [${FIRSTPARTLINE}/ ${SECONDPARTLINE}](${HOSTNAME}${URLREF}) <br/> [&#9883;](/report4/${LINE}) [&#9884;](${HOSTNAME}${URLREF})" >>${EXECUTIONVIEW}
 
     REPORTS="branchtag oslo-converter-ea oslo-stakeholders-converter translate autotranslate merge generator-webuniversum-json metadata generator-html generator-respec generator-jsonld-context generator-rdf generator-shacl"
 
