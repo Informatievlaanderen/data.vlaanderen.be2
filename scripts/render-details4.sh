@@ -165,7 +165,9 @@ render_report_line() {
     render_report_header ${EXECUTIONVIEW}
     local FIRSTPARTLINE=$(echo $LINE | cut -d'/' -f2-3)
     local SECONDPARTLINE=$(echo $LINE | cut -d'/' -f4-)
-    echo -n "| [${FIRSTPARTLINE}/ ${SECONDPARTLINE}](/report4/${LINE}) " >>${EXECUTIONVIEW}
+    HOSTNAME=$(jq -r .hostname ${JSONI}) 
+    URLREF=$(jq -r .urlref ${JSONI}) 
+    echo -n "| [${FIRSTPARTLINE}/ ${SECONDPARTLINE}](/report4/${LINE}) <br/> [report](/report4/${LINE}) [spec](${HOSTNAME}${URLREF})" >>${EXECUTIONVIEW}
 
     REPORTS="branchtag oslo-converter-ea oslo-stakeholders-converter translate autotranslate merge generator-webuniversum-json metadata generator-html generator-respec generator-jsonld-context generator-rdf generator-shacl"
 
@@ -192,7 +194,7 @@ render_report_line() {
 
     ${PWD}/scripts/countRepoIssues.sh ${REPOSITORY} /tmp/issues
     NBIssues=$(cat /tmp/issues)
-    echo -n "| [${NBIssues}]/(${REPOSITORY}/issues)" >>${EXECUTIONVIEW}
+    echo -n "| [ ${NBIssues} ](${REPOSITORY}/issues)" >>${EXECUTIONVIEW}
 
 
     # end processing issues
