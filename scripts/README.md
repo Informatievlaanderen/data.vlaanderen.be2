@@ -9,5 +9,7 @@ Executing the scripts thus cannot be done directly after checking out this repos
 One has to create an execution environment (a Docker container) satisfying the needs.
 This can be done by manually executing the CIRCLECI configuration.
 
-
+# supporting github issues reporting
+To report the issues of the thema repositories a GH_TOKEN environment variable has to be set in the CircleCI.
+This token is a Personal Access Token with minimal rights (read rights).
 

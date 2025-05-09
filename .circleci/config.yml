@@ -58,7 +58,7 @@ jobs:
           name: install software stakeholders
           command: sudo npm install --global @oslo-flanders/stakeholders-converter
       - run:
-          name: upgrade configs to this toolchain 
+          name: upgrade configs to this toolchain
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             ${CIRCLEWKD}/scripts/upgrade_config-4.sh /tmp/workspace ${CIRCLEWKD}/config
@@ -220,7 +220,7 @@ jobs:
           name: install software
           command: sudo npm install --global @oslo-flanders/rdf-vocabulary-generator
       - run:
-          name: Render RDF version 
+          name: Render RDF version
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace rdf ${CIRCLEWKD}/config
@@ -373,6 +373,11 @@ jobs:
       - attach_workspace:
           at: /tmp/workspace
       - run:
+          name: install gh cli
+          command: |
+            sudo apt-get update
+            sudo apt-get -y install gh
+      - run:
           name: Copy raw assets
           working_directory: /tmp/workspace
           command: |
@@ -390,31 +395,31 @@ jobs:
 
             # Check if the directories exist
             if [ -d "${RLINE}/context" ]; then
-              cp -r ${RLINE}/context/* ${RLINE}
+              cp -r ${RLINE}/context/* ${RLINE} || true
               rm -rvf ${RLINE}/context
             else
               echo "No context directory found"
             fi
             if [ -d "${RLINE}/rdf" ]; then
-              cp -r ${RLINE}/rdf/* ${RLINE}
+              cp -r ${RLINE}/rdf/* ${RLINE} || true
               rm -rvf ${RLINE}/rdf
             else
               echo "No rdf directory found"
             fi
             if [ -d "${RLINE}/html" ]; then
-              cp -r ${RLINE}/html/* ${RLINE}
+              cp -r ${RLINE}/html/* ${RLINE} || true
               rm -rf ${RLINE}/html
             else
               echo "No html directory found"
             fi
             if [ -d "${RLINE}/respec" ]; then
-              cp -r ${RLINE}/respec/* ${RLINE}
+              cp -r ${RLINE}/respec/* ${RLINE} || true
               rm -rf ${RLINE}/respec
             else
               echo "No respec directory found"
             fi
             if [ -d "${RLINE}/shacl" ]; then
-              cp -r ${RLINE}/shacl/* ${RLINE}
+              cp -r ${RLINE}/shacl/* ${RLINE} || true
               rm -rf ${RLINE}/shacl
             else
               echo "No shacl directory found"
@@ -496,12 +501,12 @@ jobs:
           command: |
             cp -R site-skeleton/* /tmp/generated/
       - run:
-          name: deploy statistics 
+          name: deploy statistics
           command: |
-           export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-           pushd ${CIRCLEWKD}/statistics
-           ./deploy.sh ${CIRCLEWKD}/config /tmp/generated
-           popd
+            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            pushd ${CIRCLEWKD}/statistics
+            ./deploy.sh ${CIRCLEWKD}/config /tmp/generated
+            popd
       - run:
           name: clean report directory
           working_directory: /tmp/workspace/report4
@@ -546,7 +551,7 @@ jobs:
           command: |
             $PWD/scripts/remove_obsolete_publicationpoints.sh $PWD/config /tmp/generated false > /tmp/generated/report4/support_publicationpoints.report.md
       - run:
-          name: make summary 
+          name: make summary
           command: |
             rm -rf /tmp/generated/report4/publicationpoint.report.md
             $PWD/scripts/render_publicationpointsstatus.sh /tmp/generated/report4/publicationpoint.report.md
@@ -559,7 +564,7 @@ jobs:
           working_directory: /tmp/generated
           command: |
             export TAG=`echo "${CIRCLE_SHA1}" | cut -c1-15`
-            echo "{\"commit\" : \"$TAG\"}" > report/commit.json
+            echo "{\"commit\" : \"$TAG\"}" > report4/commit.json
       - run:
           name: Push results to github
           working_directory: /tmp/generated
