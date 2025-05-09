@@ -13,7 +13,7 @@ REPOSITORY=$1
 TARGET=$2
 
 
-echo GH_TOKEN
+# echo GH_TOKEN
 
 if [ "$GH_TOKEN" == "" ] ; then 
 	echo "WARNING: no access to GitHub to extract the number of issues"

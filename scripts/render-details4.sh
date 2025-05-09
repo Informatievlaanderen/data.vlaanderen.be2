@@ -182,13 +182,15 @@ render_report_line() {
     # 
     REPOSITORY=$(jq -r .repository ${JSONI}) 
     FEEDBACKURL=$(jq -r .feedbackurl ${JSONI})
-    if [ "${REPOSITORY}/issues" == "${FEEDBACKURL}"] ; then 
+    if [ "${REPOSITORY}/issues" == "${FEEDBACKURL}" ] ; then 
 	echo ""
     else
         echo "WARNING: feedback url and thema repository differ"
+        echo "       REPOSITORY > ${REPOSITORY}/issues"
+        echo "       FEEDBACK   > ${FEEDBACKURL}"
     fi
 
-    countRepoIssues.sh ${REPOSITORY} /tmp/issues
+    ${PWD}/scripts/countRepoIssues.sh ${REPOSITORY} /tmp/issues
     NBIssues=$(cat /tmp/issues)
     echo -n "| [${NBIssues}]/(${REPOSITORY}/issues)" >>${EXECUTIONVIEW}
 
