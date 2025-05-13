@@ -8,7 +8,7 @@
     "type": "ap",
     "filename": "config/ThermAI-ap.json",
     "navigation": {},
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/doc/vocabularium/thermAI/ontwerpstandaard/15-05-2025",
@@ -17,6 +17,6 @@
     "name": "thermAI",
     "filename": "config/thermAI-voc.json",
     "navigation": {},
-    "dummy": "001"
+    "dummy": "002"
   }
 ]
