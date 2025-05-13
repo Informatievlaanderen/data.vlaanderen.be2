@@ -20,14 +20,14 @@
     }
   },
   {
-      "urlref": "/doc/vocabularium/wetgeving",
-      "seealso": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald",
-      "type": "voc"
+    "urlref": "/doc/vocabularium/wetgeving",
+    "seealso": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald",
+    "type": "voc"
   },
   {
-      "urlref": "/ns/wetgeving",
-      "seealso": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald",
-      "type": "voc"
+    "urlref": "/ns/wetgeving",
+    "seealso": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald",
+    "type": "voc"
   },
   {
     "urlref": "/doc/vocabularium/wetgeving/ontwerpstandaard/toolchain4",
@@ -38,6 +38,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald"
     },
-    "dummy": "2025-03-16 21:57:51"
+    "dummy": "2025-05-13 10:21:13"
   }
 ]

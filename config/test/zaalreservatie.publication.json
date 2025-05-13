@@ -1,34 +1,32 @@
 [
   {
-      "urlref": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
-      "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
-      "name": "zaalreservatie-ap",
-       "branchtag": "main",
-      "filename": "config/zaalreservatie-ap.json",
-      "navigation": {
-	      "next" : "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
-      },
-      "dummy" : "2"
+    "urlref": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
+    "name": "zaalreservatie-ap",
+    "branchtag": "main",
+    "filename": "config/zaalreservatie-ap.json",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+    },
+    "dummy": "2"
   },
   {
-      "urlref": "/doc/applicatieprofiel/zaalreservatie",
-      "seealso": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
-      "type": "ap"
-  },
-
-  {
-      "urlref": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
-      "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
-      "branchtag": "main",
-      "name": "zaalreservatie",
-      "filename": "config/zaalreservatie-voc.json",
-      "navigation": {
-      },
-      "dummy" : "1"
+    "urlref": "/doc/applicatieprofiel/zaalreservatie",
+    "seealso": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
+    "type": "ap"
   },
   {
-      "urlref": "/ns/zaalreservatie",
-      "seealso": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
-      "type": "voc"
+    "urlref": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
+    "branchtag": "main",
+    "name": "zaalreservatie",
+    "filename": "config/zaalreservatie-voc.json",
+    "navigation": {},
+    "dummy": "1"
+  },
+  {
+    "urlref": "/ns/zaalreservatie",
+    "seealso": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
+    "type": "voc"
   }
 ]
