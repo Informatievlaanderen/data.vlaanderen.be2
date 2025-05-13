@@ -4,7 +4,7 @@ TARGETDIR:=/tmp/workspace/triggerall
 # find a way to support a group
 GROUPS="[a-c] [d-h] [g-l] [m-r] [s-u] [v-z]"
 
-ALLPUBLICATIONPOINTS=$(shell find . -name "[w-z]*publication.json" )
+ALLPUBLICATIONPOINTS=$(shell find . -name "[s-u]*publication.json" )
 TRIGGERALL=$(patsubst %.publication.json, %.publication.trigger, ${ALLPUBLICATIONPOINTS})
 
 %.publication.trigger : %.publication.json
