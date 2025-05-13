@@ -57,7 +57,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01"
     },
-    "dummy": "2025-03-18 11:47:34"
+    "dummy": "2025-05-13 10:40:20"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/",
@@ -109,7 +109,7 @@
     "branchtag": "master",
     "name": "organisatie",
     "filename": "config/organisatie.json",
-    "dummy": "2025-03-18 11:47:34"
+    "dummy": "2025-05-13 10:40:20"
   },
   {
     "urlref": "/ns/organisatie",

@@ -74,9 +74,9 @@
     }
   },
   {
-      "urlref": "/doc/applicatieprofiel/ruimtelijke-bereiken/",
-      "seealso": "/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/2024-10-01",
-      "type": "ap"
+    "urlref": "/doc/applicatieprofiel/ruimtelijke-bereiken/",
+    "seealso": "/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/2024-10-01",
+    "type": "ap"
   },
   {
     "urlref": "/doc/vocabularium/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01",
@@ -153,9 +153,9 @@
     }
   },
   {
-      "urlref": "/ns/ruimtelijke-bereiken",
-      "seealso": "/doc/vocabularium/ruimtelijke-bereiken/kandidaatstandaard/2024-10-01",
-      "type": "voc"
+    "urlref": "/ns/ruimtelijke-bereiken",
+    "seealso": "/doc/vocabularium/ruimtelijke-bereiken/kandidaatstandaard/2024-10-01",
+    "type": "voc"
   },
   {
     "urlref": "/doc/applicatieprofiel/ruimtelijke-bereiken/ontwerpstandaard/toolchain4",
@@ -167,7 +167,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/ruimtelijke-bereiken/kandidaatstandaard/2024-10-01"
     },
-    "dummy": "2025-03-16 21:41:44"
+    "dummy": "2025-05-13 10:40:20"
   },
   {
     "urlref": "/doc/vocabularium/ruimtelijke-bereiken/ontwerpstandaard/toolchain4",
@@ -179,6 +179,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/ruimtelijke-bereiken/kandidaatstandaard/2024-10-01"
     },
-    "dummy": "2025-03-16 21:41:44"
+    "dummy": "2025-05-13 10:40:20"
   }
 ]

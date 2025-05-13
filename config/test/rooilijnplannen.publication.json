@@ -1,32 +1,32 @@
 [
-	{
-		"urlref": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-04-01",
-		"repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
-		"branchtag": "main",
-		"name": "rooilijnplannen-ap",
-		"filename": "config/rooilijnplannen.json",
-		"navigation": {},
-		"dummy": "020"
-	},
-	{
-		"urlref": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-04-01",
-		"repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
-		"branchtag": "main",
-		"name": "rooilijnplannen-voc",
-		"filename": "config/rooilijnplannen.json",
-		"navigation": {},
-		"dummy": "020"
-	},	
-	{
-		"urlref": "/doc/applicatieprofiel/rooilijnplannen",
-		"seealso": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-04-015",
-		"type": "ap",
-		"dummy": "020"
-	},	
-	{
-		"urlref": "/doc/ns/rooilijn",
-		"seealso": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-04-01",
-		"type": "voc",
-		"dummy": "020"
-	}
+  {
+    "urlref": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-04-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
+    "branchtag": "main",
+    "name": "rooilijnplannen-ap",
+    "filename": "config/rooilijnplannen.json",
+    "navigation": {},
+    "dummy": "020"
+  },
+  {
+    "urlref": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-04-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
+    "branchtag": "main",
+    "name": "rooilijnplannen-voc",
+    "filename": "config/rooilijnplannen.json",
+    "navigation": {},
+    "dummy": "020"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/rooilijnplannen",
+    "seealso": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-04-015",
+    "type": "ap",
+    "dummy": "020"
+  },
+  {
+    "urlref": "/doc/ns/rooilijn",
+    "seealso": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-04-01",
+    "type": "voc",
+    "dummy": "020"
+  }
 ]

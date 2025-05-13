@@ -9,7 +9,6 @@
       "next": "/doc/applicatieprofiel/notificatie-basis/ontwerpstandaard/toolchain4"
     },
     "type": "raw",
-    "dummy" : 1,
     "directory": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
     "original": {
       "urlref": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
@@ -24,9 +23,9 @@
     }
   },
   {
-      "urlref": "/doc/applicatieprofiel/notificatie-basis/",
-      "seealso": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
-      "type": "ap"
+    "urlref": "/doc/applicatieprofiel/notificatie-basis/",
+    "seealso": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
+    "type": "ap"
   },
   {
     "urlref": "/doc/applicatieprofiel/notificatie-basis/ontwerpstandaard/toolchain4",
@@ -37,10 +36,8 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07"
     },
-    "dummy": "2025-03-18 09:55:02"
+    "dummy": "2025-05-13 10:40:19"
   },
-
-
   {
     "urlref": "/doc/vocabularium/notificatie/standaard/2019-02-07",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
@@ -65,14 +62,14 @@
     }
   },
   {
-      "urlref": "/doc/vocabularium/notificatie",
-      "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
-      "type": "voc"
+    "urlref": "/doc/vocabularium/notificatie",
+    "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+    "type": "voc"
   },
   {
-      "urlref": "/ns/notificatie",
-      "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
-      "type": "raw"
+    "urlref": "/ns/notificatie",
+    "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
+    "type": "raw"
   },
   {
     "urlref": "/doc/vocabularium/notificatie/ontwerpstandaard/toolchain4",
@@ -83,6 +80,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/notificatie/standaard/2019-02-07"
     },
-    "dummy": "2025-03-18 09:55:02"
+    "dummy": "2025-05-13 10:40:19"
   }
 ]
