@@ -24,7 +24,6 @@
     "seealso": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-10-07",
     "type": "ap"
   },
-
   {
     "urlref": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-07-22",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
@@ -54,7 +53,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-10-07"
     },
-    "dummy": "2025-04-24 08:24:01"
+    "dummy": "2025-05-13 11:34:23"
   },
   {
     "urlref": "/doc/applicatieprofiel/erosiepoel/kandidaatstandaard/2025-05-07",
@@ -76,7 +75,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-10-07"
     },
-    "dummy": "003"
+    "dummy": "2025-05-13 11:34:23"
   },
   {
     "urlref": "/ns/erosiepoel",
