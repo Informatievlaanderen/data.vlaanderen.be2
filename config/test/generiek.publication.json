@@ -119,9 +119,9 @@
     }
   },
   {
-      "urlref": "/doc/applicatieprofiel/generiek-basis",
-      "seealso": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01",
-      "type": "ap"
+    "urlref": "/doc/applicatieprofiel/generiek-basis",
+    "seealso": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01",
+    "type": "ap"
   },
   {
     "urlref": "/doc/applicatieprofiel/generiek-basis/ontwerpstandaard/toolchain4",
@@ -132,13 +132,12 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01"
     },
-    "dummy": "1"
+    "dummy": "2025-05-13 10:52:57"
   },
-
   {
-      "urlref": "/ns/generiek",
-      "seealso": "/doc/vocabularium/generiek/zonderstatus/2019-07-01",
-      "type": "voc"
+    "urlref": "/ns/generiek",
+    "seealso": "/doc/vocabularium/generiek/zonderstatus/2019-07-01",
+    "type": "voc"
   },
   {
     "urlref": "/doc/vocabularium/generiek/ontwerpstandaard/toolchain4",
@@ -149,6 +148,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/generiek/zonderstatus/2019-07-01"
     },
-    "dummy": "1"
+    "dummy": "2025-05-13 10:52:57"
   }
 ]
