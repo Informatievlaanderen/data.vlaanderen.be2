@@ -1012,7 +1012,7 @@ render_shacl_languageaware() {
         HH=$(echo ${HOSTNAME} | sed -e "s|/$||g")
         LL=$(echo ${LINE} | sed -e "s|^/||g")
 
-        SHAPEBASEURI="${HH}/${LL}/"
+        SHAPEBASEURI="${HH}/${LL}#"
         DOCUMENTURL="${HH}/${LL}"
         mkdir -p ${TLINE}/shacl
         mkdir -p ${RLINE}/shacl
