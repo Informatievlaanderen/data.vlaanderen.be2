@@ -106,7 +106,7 @@
     "dummy": "2025-03-16 21:02:59"
   },
   {
-    "urlref": "/doc/applicatieprofiel/DigitaleWatermeter/erkendestandaard/2025-04-24",
+    "urlref": "/doc/applicatieprofiel/DigitaleWatermeter/erkendestandaard/2025-02-06",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter",
     "name": "DigitaleWatermeter-ap",
     "branchtag": "DW-1.0.0",
@@ -114,28 +114,28 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20"
     },
-    "dummy": "1"
+    "dummy": "2"
   },
   {
-    "urlref": "/doc/vocabularium/DigitaleWatermeter/erkendestandaard/2025-04-24",
+    "urlref": "/doc/vocabularium/DigitaleWatermeter/erkendestandaard/2025-02-06",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter",
     "branchtag": "DW-1.0.0",
     "name": "meters",
     "filename": "config/mijn-vocabularium-voc.json",
     "navigation": {},
-    "dummy": "1"
+    "dummy": "2"
   },
   {
     "urlref": "/doc/applicatieprofiel/DigitaleWatermeter",
-    "seealso": "/doc/applicatieprofiel/DigitaleWatermeter/erkendestandaard/2025-04-24",
+    "seealso": "/doc/applicatieprofiel/DigitaleWatermeter/erkendestandaard/2025-02-06",
     "type": "ap",
-    "dummy": "35"
+    "dummy": "41"
   },
   {
     "urlref": "/ns/nutsvoorzieningen/meters",
     "prefix": "nutsvoorzieningen",
-    "seealso": "/doc/vocabularium/nutsvoorzieningen/meters/erkendestandaard/2025-04-24",
+    "seealso": "/doc/vocabularium/nutsvoorzieningen/meters/erkendestandaard/2025-02-06",
     "type": "voc",
-    "dummy": "40"
+    "dummy": "41"
   }
 ]
