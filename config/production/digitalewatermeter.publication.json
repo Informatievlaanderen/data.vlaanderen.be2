@@ -1,5 +1,27 @@
 [
   {
+        "urlref": "/doc/applicatieprofiel/DigitaleWatermeter/erkendestandaard/2025-04-24",
+        "repository": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter",
+        "name": "DigitaleWatermeter-ap",
+         "branchtag": "DW-1.0.0",
+        "filename": "config/mijn-applicatieprofiel-ap.json",
+        "navigation": {
+          "prev": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20"
+    },
+        },
+        "dummy" : "1"
+    },
+   {
+        "urlref": "/doc/vocabularium/DigitaleWatermeter/erkendestandaard/2025-04-24",
+        "repository": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter",
+        "branchtag": "DW-1.0.0",
+        "name": "meters",
+        "filename": "config/mijn-vocabularium-voc.json",
+        "navigation": {
+        },
+        "dummy" : "1"
+    },
+  {
     "urlref": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -85,16 +107,16 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/DigitaleWatermeter",
-    "seealso": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20",
+    "seealso": "/doc/applicatieprofiel/DigitaleWatermeter/erkendestandaard/2025-04-24",
     "type": "ap",
-    "dummy": "33"
+    "dummy": "35"
   },
   {
     "urlref": "/ns/nutsvoorzieningen/meters",
     "prefix": "nutsvoorzieningen",
-    "seealso": "/doc/vocabularium/nutsvoorzieningen/meters/kandidaatstandaard/2025-01-20",
+    "seealso": "/doc/vocabularium/nutsvoorzieningen/meters/erkendestandaard/2025-04-24",
     "type": "voc",
-    "dummy": "38"
+    "dummy": "40"
   },
   {
     "urlref": "/doc/applicatieprofiel/DigitaleWatermeter/ontwerpstandaard/toolchain4",
