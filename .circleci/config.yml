@@ -247,7 +247,7 @@ jobs:
             touch /tmp/workspace/report4/shacl/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/shacl-template-generator@1.1.0-beta.2
+          command: sudo npm install --global @oslo-flanders/shacl-template-generator
       - run:
           name: Render SHACL version of merged json file (a)
           command: |
