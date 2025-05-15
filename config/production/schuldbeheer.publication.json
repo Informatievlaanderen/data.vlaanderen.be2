@@ -67,15 +67,42 @@
     "dummy": "011"
   },
   {
-    "urlref": "/ns/schuldbeheer",
-    "seealso": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
-    "type": "voc",
+    "urlref": "/doc/vocabularium/schuldbeheer/erkendestandaard/2025-05-15",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
+    "branchtag": "erkende-standaard-20250515-001",
+    "name": "schuldbeheer",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/vocabularium/schuldbeheer/erkendestandaard/2025-05-15",
+    "navigation": {
+      "prev": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03"
+    },
     "dummy": "008"
   },
   {
+    "urlref": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
+    "branchtag": "erkende-standaard-20250515-001",
+    "name": "schuldbeheer-ap",
+    "filename": "config/eap-mapping.json",
+    "directory": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    },
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "011"
+  },
+  {
+    "urlref": "/ns/schuldbeheer",
+    "seealso": "/doc/vocabularium/schuldbeheer/erkendestandaard/2025-05-15",
+    "type": "voc",
+    "dummy": "001"
+  },
+  {
     "urlref": "/doc/applicatieprofiel/schuldbeheer",
-    "seealso": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
+    "seealso": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
     "type": "ap",
-    "dummy": "010"
+    "dummy": "001"
   }
 ]
