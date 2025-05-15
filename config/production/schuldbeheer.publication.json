@@ -76,7 +76,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03"
     },
-    "dummy": "002"
+    "dummy": "003"
   },
   {
     "urlref": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
@@ -91,7 +91,7 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "002"
+    "dummy": "003"
   },
   {
     "urlref": "/ns/schuldbeheer",
