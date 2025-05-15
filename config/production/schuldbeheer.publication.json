@@ -69,19 +69,19 @@
   {
     "urlref": "/doc/vocabularium/schuldbeheer/erkendestandaard/2025-05-15",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
-    "branchtag": "erkende-standaard-20250515-001",
+    "branchtag": "erkende-standaard-20250515-002",
     "name": "schuldbeheer",
     "filename": "config/eap-mapping.json",
     "directory": "/doc/vocabularium/schuldbeheer/erkendestandaard/2025-05-15",
     "navigation": {
       "prev": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03"
     },
-    "dummy": "008"
+    "dummy": "002"
   },
   {
     "urlref": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
-    "branchtag": "erkende-standaard-20250515-001",
+    "branchtag": "erkende-standaard-20250515-002",
     "name": "schuldbeheer-ap",
     "filename": "config/eap-mapping.json",
     "directory": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
@@ -91,7 +91,7 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "011"
+    "dummy": "002"
   },
   {
     "urlref": "/ns/schuldbeheer",
