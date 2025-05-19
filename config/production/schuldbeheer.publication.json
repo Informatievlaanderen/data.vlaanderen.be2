@@ -97,12 +97,12 @@
     "urlref": "/ns/schuldbeheer",
     "seealso": "/doc/vocabularium/schuldbeheer/erkendestandaard/2025-05-15",
     "type": "voc",
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/doc/applicatieprofiel/schuldbeheer",
     "seealso": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
     "type": "ap",
-    "dummy": "001"
+    "dummy": "002"
   }
 ]
