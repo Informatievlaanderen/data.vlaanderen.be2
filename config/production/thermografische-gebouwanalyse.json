@@ -7,7 +7,7 @@
         "filename": "config/ThermAI-ap.json",
         "navigation": {
         },
-        "dummy" : "1"
+        "dummy" : "2"
     },
     {
         "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse",
@@ -23,7 +23,7 @@
         "filename": "config/ThermAI-voc.json",
         "navigation": {
         },
-        "dummy" : "1"
+        "dummy" : "2"
     },
     {
         "urlref": "/ns/thermografische-gebouwanalyse",
