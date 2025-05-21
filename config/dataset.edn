@@ -75,14 +75,6 @@
                       :clj-pipelines.file-import/filename "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardstatus/standaardstatus.ttl"
                       :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/codelists/standaardstatus"
                       :clj-pipelines/dumpname             "standaardstatus.ttl.gz"}
- :standaardtype    {:clj-pipelines/type                 :clj-pipelines/file-import
-                      :clj-pipelines.file-import/filename "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardtype/standaardtype.ttl"
-                      :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/codelists/standaardtype"
-                      :clj-pipelines/dumpname             "standaardstatus.ttl.gz"}
- :standaardgebruik    {:clj-pipelines/type                 :clj-pipelines/file-import
-                      :clj-pipelines.file-import/filename "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardgebruik/standaardgebruik.ttl"
-                      :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/codelists/standaardgebruik"
-                      :clj-pipelines/dumpname             "standaardgebruik.ttl.gz"}
  :adresstatus        {:clj-pipelines/type                 :clj-pipelines/file-import
                       :clj-pipelines.file-import/filename "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/adresstatus.ttl"
                       :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/codelists/adresstatus"
@@ -326,4 +318,12 @@
                       :clj-pipelines.file-import/filename "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/energiehuis-main/all.nt"
                       :clj-pipelines/graphname             "https://data.vlaanderen.be/id/dataset/codelists/energiehuis"
                       :clj-pipelines/dumpname             "energiehuis.ttl.gz"}
+:standaardtype      {:clj-pipelines/type                 :clj-pipelines/file-import
+                      :clj-pipelines.file-import/filename "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardtype/standaardtype.ttl"
+                      :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/codelists/standaardtype"
+                      :clj-pipelines/dumpname             "standaardstatus.ttl.gz"}
+:standaardgebruik   {:clj-pipelines/type                 :clj-pipelines/file-import
+                      :clj-pipelines.file-import/filename "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardgebruik/standaardgebruik.ttl"
+                      :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/codelists/standaardgebruik"
+                      :clj-pipelines/dumpname             "standaardgebruik.ttl.gz"}
 }
