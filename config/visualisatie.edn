@@ -364,4 +364,10 @@
                       :clj-pipelines.file-import/filename "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/energiehuis-main/muuid.nt"
                       :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/energiehuis/muuuid"
                       :clj-pipelines/dumpname             "energiehuis-muuid.ttl.gz"} 
+  :codelistmuuuid67  {:clj-pipelines/type                  :clj-pipelines/addmuuuid
+                      :clj-pipelines.addmuuuid/from            "https://data.vlaanderen.be/id/dataset/codelists/standaardgebruik"
+                      :clj-pipelines.addmuuuid/batch       "200000"
+                      :clj-pipelines.addmuuuid/domain      "data.vlaanderen.be"
+                      :clj-pipelines/graphname             "https://data.vlaanderen.be/id/dataset/codelists/muuuid"
+                      :clj-pipelines/dumpname              "muuid.ttl.gz"}
 }
