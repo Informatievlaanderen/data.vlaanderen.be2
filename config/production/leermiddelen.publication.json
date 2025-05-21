@@ -6,9 +6,6 @@
     "name": "leermiddelen-ap",
     "filename": "config/leermiddelen-ap.json",
     "directory": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-03-21",
-    "nav": {
-      "prev": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-02-24"
-    },
     "dummy": "003"
   },
   {
@@ -18,9 +15,6 @@
     "name": "leermiddelen",
     "filename": "config/leermiddelen-voc.json",
     "directory": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
-    "nav": {
-      "prev": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-02-24"
-    },
     "dummy": "006"
   },
   {
