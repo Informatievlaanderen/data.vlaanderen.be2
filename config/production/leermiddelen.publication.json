@@ -34,5 +34,11 @@
     "seealso": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
     "type": "voc",
     "dummy": "006"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/leermiddelen",
+    "seealso": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
+    "type": "ap",
+    "dummy": "003"
   }
 ]
