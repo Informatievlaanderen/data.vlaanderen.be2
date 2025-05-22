@@ -84,6 +84,35 @@ jobs:
           root: /tmp/workspace
           paths:
             - report4/
+  validate-jsonld-4:
+    docker:
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - run:
+          name: touch a file
+          command: |
+            mkdir -p /tmp/workspace/report4/jsonld-validation
+            touch /tmp/workspace/report4/jsonld-validation/.ignore
+      - run:
+          name: install software
+          command: sudo npm install --global @oslo-flanders/jsonld-validator
+      - run:
+          name: Validate OSLO jsonld
+          command: |
+            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace jsonld-validation ${CIRCLEWKD}/config
+      - run:
+          name: List the files which have been created
+          command: |
+            if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - target
+            - report4/jsonld-validation
   render-translation-4:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
