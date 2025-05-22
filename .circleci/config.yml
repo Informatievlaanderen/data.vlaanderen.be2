@@ -623,6 +623,9 @@ workflows:
           generatedRepoFingerprint: "$$SSHKEYFINGERPRINT"
           requires:
             - extract-jsonld-details-4
+      - validate-jsonld-4:
+          requires:
+            - extract-jsonld-details-4
       - render-rdf-details-4:
           requires:
             - render-translation-4
@@ -653,6 +656,7 @@ workflows:
       - expand-links:
           requires:
             - render-context-details-4
+            - validate-jsonld-4
             - convert-json-to-ttl
             - render-rdf-details-4
             - render-html-details-4
