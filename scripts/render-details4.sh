@@ -394,11 +394,12 @@ validate_jsonld() {
     #cp -n ${HOME}/project/templates/icons/* ${SLINE}/templates/icons
     mkdir -p ${RLINE}
 
+    echo "${MERGEFILE} exists, the files will be validated."
+
     REPORTFILE=${RLINE}/jsonld-validation.report.md
     echo "${REPORTLINEPREFIX}oslo-jsonld-validator for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-    oslo-jsonld-validator
-    --input ${MERGEDFILE} \
+    oslo-jsonld-validator --input ${MERGEDFILE} \
         --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json
     &>>${REPORTFILE}
 
