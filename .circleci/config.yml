@@ -103,7 +103,7 @@ jobs:
           name: Validate OSLO jsonld
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace jsonld-validation ${CIRCLEWKD}/config
+            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace validation ${CIRCLEWKD}/config
       - run:
           name: List the files which have been created
           command: |

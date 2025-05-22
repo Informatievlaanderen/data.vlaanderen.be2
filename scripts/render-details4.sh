@@ -1235,7 +1235,7 @@ cat ${CHECKOUTFILE} | while read line; do
                     fi
                 done
                 ;;
-            jsonld-validation)
+            validation)
                 echo "test"
                 # the source for the context generator is solely the intermediate json
                 SLINE=${TARGETDIR}/report4/${line}
