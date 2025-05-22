@@ -1236,6 +1236,7 @@ cat ${CHECKOUTFILE} | while read line; do
                 done
                 ;;
             jsonld-validation)
+                echo "test"
                 # the source for the context generator is solely the intermediate json
                 SLINE=${TARGETDIR}/report4/${line}
                 TLINE=${TARGETDIR}/target/${line}
@@ -1244,10 +1245,7 @@ cat ${CHECKOUTFILE} | while read line; do
                 mkdir -p ${RLINE}
                 validate_jsonld $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
                 for g in ${GOALLANGUAGE}; do
-                    generate_for_language ${g} ${i}
-                    if [ ${GENERATEDARTEFACT} == true ]; then
-                        validate_jsonld $SLINE $TLINE $i $RLINE ${g}
-                    fi
+                    validate_jsonld $SLINE $TLINE $i $RLINE ${g}
                 done
                 ;;
             xsd)
