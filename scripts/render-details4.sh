@@ -135,8 +135,8 @@ render_report_header() {
             ["ctx"]="JSON-LD Context file generation"
             ["rdf"]="RDF file generation"
             ["shcl"]="SHACL file generation"
-            ["issu"]="Open Issues"
             ["ns"]="Validate the used namespaces in the jsonldƒ"
+            ["issu"]="Open Issues"
         )
 
         for term in "${!terms[@]}"; do
@@ -148,7 +148,7 @@ render_report_header() {
         echo "</details>" >>${OVERVIEW}
         echo "" >>${OVERVIEW}
 
-        echo "| Specification | tag | uml | stak | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | issu | ns |" >>${OVERVIEW}
+        echo "| Specification | tag | uml | stak | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | ns | issu  |" >>${OVERVIEW}
         echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >>${OVERVIEW}
 
     fi
