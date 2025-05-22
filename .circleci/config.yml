@@ -565,6 +565,7 @@ jobs:
           command: |
             export TAG=`echo "${CIRCLE_SHA1}" | cut -c1-15`
             echo "{\"commit\" : \"$TAG\"}" > report4/commit.json
+            echo "{\"commit\" : \"$TAG\"}" > report/commit.json
       - run:
           name: Push results to github
           working_directory: /tmp/generated
