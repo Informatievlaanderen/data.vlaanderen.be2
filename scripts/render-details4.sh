@@ -262,6 +262,12 @@ consolidate_reporting() {
     else
         echo "No shacl directory found"
     fi
+    # if [ -d "${RLINE}/jsonld-validation" ]; then
+    #     cp -r ${RLINE}/jsonld-validation/* ${RLINE}
+    #     rm -rf ${RLINE}/jsonld-validation
+    # else
+    #     echo "No jsonld-validation directory found"
+    # fi
 }
 
 render_merged_files() {
@@ -387,8 +393,6 @@ validate_jsonld() {
     #cp -n /app/views/* ${SLINE}/templates
     #cp -n ${HOME}/project/templates/icons/* ${SLINE}/templates/icons
     mkdir -p ${RLINE}
-
-    COMMAND=$(echo '.type')
 
     REPORTFILE=${RLINE}/jsonld-validation.report.md
     echo "${REPORTLINEPREFIX}oslo-jsonld-validator for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
@@ -1236,8 +1240,8 @@ cat ${CHECKOUTFILE} | while read line; do
                 done
                 ;;
             validation)
-                echo "test"
                 # the source for the context generator is solely the intermediate json
+                echo "RENDER-DETAILS: validation"
                 SLINE=${TARGETDIR}/report4/${line}
                 TLINE=${TARGETDIR}/target/${line}
                 RLINE=${TARGETDIR}/report4/jsonld-validation/${line}
