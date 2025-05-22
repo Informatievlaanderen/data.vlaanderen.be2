@@ -1240,16 +1240,35 @@ cat ${CHECKOUTFILE} | while read line; do
                 done
                 ;;
             validation)
-                # the source for the context generator is solely the intermediate json
-                echo "RENDER-DETAILS: validation"
-                SLINE=${TARGETDIR}/report4/${line}
-                TLINE=${TARGETDIR}/target/${line}
+                # Create output directory
+                mkdir -p ${TLINE}/validation
                 RLINE=${TARGETDIR}/report4/jsonld-validation/${line}
-                mkdir -p ${TLINE}
                 mkdir -p ${RLINE}
-                validate_jsonld $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
-                for g in ${GOALLANGUAGE}; do
-                    validate_jsonld $SLINE $TLINE $i $RLINE ${g}
+
+                # Run validation for each jsonld file
+                echo "Validating JSONLD files in ${SLINE}"
+                for i in ${SLINE}/*.jsonld; do
+                    FILENAME=$(basename "$i")
+                    echo "Validating $i"
+                    REPORTFILE=${RLINE}/validation-${FILENAME}.report.md
+
+                    echo "${REPORTLINEPREFIX}jsonld-validator for ${FILENAME}${REPORTLINENEWLINE}" &>>${REPORTFILE}
+                    echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
+
+                    # Run the validator and capture output
+                    validate_jsonld $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
+                    for g in ${GOALLANGUAGE}; do
+                        validate_jsonld $SLINE $TLINE $i $RLINE ${g}
+                    done
+
+                    if [ $? -gt 0 ]; then
+                        echo "Validation failed for $i"
+                        cat ${REPORTFILE}
+                        # Uncomment if you want validation failures to fail the build
+                        # execution_strickness
+                    else
+                        echo "Validation successful for $i"
+                    fi
                 done
                 ;;
             xsd)
