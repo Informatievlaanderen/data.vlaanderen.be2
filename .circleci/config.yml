@@ -199,8 +199,8 @@ jobs:
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
-            - target
-            - report4/jsonld-validation
+            - report4/jsonld-validation/
+            - target/
   render-respec-html-details-4:
     docker:
       - image: cimg/node:20.15.0

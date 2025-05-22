@@ -1250,7 +1250,10 @@ cat ${CHECKOUTFILE} | while read line; do
                 mkdir -p ${RLINE}
                 validate_jsonld $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
                 for g in ${GOALLANGUAGE}; do
-                    validate_jsonld $SLINE $TLINE $i $RLINE ${g}
+                    generate_for_language ${g} ${i}
+                    if [ ${GENERATEDARTEFACT} == true ]; then
+                        validate_jsonld $SLINE $TLINE $i $RLINE ${g}
+                    fi
                 done
                 ;;
             xsd)
