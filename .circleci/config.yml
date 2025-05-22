@@ -187,13 +187,9 @@ jobs:
           name: install software
           command: |
             sudo npm install --global @oslo-flanders/jsonld-validator
-            sudo npm install --global @oslo-flanders/json-webuniversum-generator@beta
-            sudo npm install --global @oslo-flanders/html-generator
       - run:
           name: Validate OSLO jsonld
           command: |
-            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace html ${CIRCLEWKD}/config
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace validation ${CIRCLEWKD}/config
       - run:
