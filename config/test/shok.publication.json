@@ -1,0 +1,31 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/shok/ontwerpstandaard/2025-05-26",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-shok",
+    "name": "shok-ap",
+    "branchtag": "main",
+    "filename": "config/shok-ap.json",
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/shok",
+    "seealso": "/doc/applicatieprofiel/shok/ontwerpstandaard/2025-05-26",
+    "type": "ap",
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/shok/ontwerpstandaard/2025-05-26",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-shok",
+    "branchtag": "main",
+    "name": "shok",
+    "filename": "config/shok-voc.json",
+    "navigation": {},
+    "dummy": "001"
+  },
+  {
+    "urlref": "/ns/shok",
+    "seealso": "/doc/vocabularium/shok/ontwerpstandaard/2025-05-26",
+    "type": "voc",
+    "dummy": "001"
+  }
+]
