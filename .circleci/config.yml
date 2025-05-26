@@ -190,6 +190,7 @@ jobs:
       - run:
           name: Validate OSLO jsonld
           command: |
+            mkdir -p /tmp/workspace/target /tmp/workspace/report4/jsonld-validation
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace validation ${CIRCLEWKD}/config
       - run:

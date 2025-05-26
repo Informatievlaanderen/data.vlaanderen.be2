@@ -1237,7 +1237,7 @@ cat ${CHECKOUTFILE} | while read line; do
                 echo ${line}
                 SLINE=${TARGETDIR}/report4/${line}
                 TLINE=${TARGETDIR}/target/${line}
-                RLINE=${TARGETDIR}/report4/${line}
+                RLINE=${TARGETDIR}/report4/jsonld-validation/${line}
                 mkdir -p ${TLINE}
                 mkdir -p ${RLINE}
                 validate_jsonld $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
