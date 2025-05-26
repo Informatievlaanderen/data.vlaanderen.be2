@@ -263,9 +263,6 @@ consolidate_reporting() {
         echo "No shacl directory found"
     fi
     if [ -d "${RLINE}/jsonld-validation" ]; then
-        echo "jsonld-validation directory found"
-        echo "jsonld-validation directory found"
-        echo "jsonld-validation directory found"
         cp -r ${RLINE}/jsonld-validation/* ${RLINE}
         rm -rf ${RLINE}/jsonld-validation
     else
@@ -392,10 +389,6 @@ validate_jsonld() {
 
     mkdir -p ${RLINE}
 
-    echo "validate jsonld for language $LANGUAGE in the directory $RLINE"
-    echo "validate jsonld for language $LANGUAGE in the directory $RLINE"
-    echo "validate jsonld for language $LANGUAGE in the directory $RLINE"
-
     REPORTFILE=${RLINE}/jsonld-validation.report.md
     echo "${REPORTLINEPREFIX}oslo-jsonld-validator for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
@@ -403,13 +396,7 @@ validate_jsonld() {
         --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json \
         >>${REPORTFILE} 2>&1
 
-    cat ${REPORTFILE} | grep -v "${REPORTLINEPREFIX}" | grep -v "^\s*$" >${RLINE}/jsonld-validation.report.md
-
-    if [ $? -gt 0 ]; then
-        echo "RENDER-DETAILS: failed"
-        cat ${REPORTFILE}
-        execution_strickness
-    fi
+    cat ${REPORTFILE}
 }
 
 render_translationfiles() {
