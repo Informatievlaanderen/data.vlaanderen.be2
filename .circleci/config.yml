@@ -455,6 +455,14 @@ jobs:
             else
               echo "No shacl directory found"
             fi
+            if [ -d "${RLINE}/jsonld-validation" ]; then
+              echo "jsonld-validation directory found"
+
+              cp -r ${RLINE}/jsonld-validation/* ${RLINE}
+              rm -rf ${RLINE}/jsonld-validation
+            else
+              echo "No jsonld-validation directory found"
+            fi
       - run:
           name: download global overview memory
           working_directory: /tmp/workspace
