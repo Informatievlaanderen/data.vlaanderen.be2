@@ -263,6 +263,9 @@ consolidate_reporting() {
         echo "No shacl directory found"
     fi
     if [ -d "${RLINE}/jsonld-validation" ]; then
+        echo "jsonld-validation directory found"
+        echo "jsonld-validation directory found"
+        echo "jsonld-validation directory found"
         cp -r ${RLINE}/jsonld-validation/* ${RLINE}
         rm -rf ${RLINE}/jsonld-validation
     else
@@ -399,6 +402,8 @@ validate_jsonld() {
     oslo-jsonld-validator --input ${MERGEDFILE} \
         --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json \
         >>${REPORTFILE} 2>&1
+
+    cat ${REPORTFILE} | grep -v "${REPORTLINEPREFIX}" | grep -v "^\s*$" >${RLINE}/jsonld-validation.report.md
 
     if [ $? -gt 0 ]; then
         echo "RENDER-DETAILS: failed"
