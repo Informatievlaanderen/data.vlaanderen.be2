@@ -396,7 +396,8 @@ validate_jsonld() {
         --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json \
         >>${REPORTFILE} 2>&1
 
-    cat ${REPORTFILE}
+    echo ${RLINE}/jsonld-validation.report.md
+    echo ${RLINE}/jsonld-validation.report.md
     echo ${RLINE}/jsonld-validation.report.md
 }
 
@@ -1237,7 +1238,7 @@ cat ${CHECKOUTFILE} | while read line; do
                 echo ${line}
                 SLINE=${TARGETDIR}/report4/${line}
                 TLINE=${TARGETDIR}/target/${line}
-                RLINE=${TARGETDIR}/report4/${line}
+                RLINE=${TARGETDIR}/report4/jsonld-validation/${line}
                 mkdir -p ${TLINE}
                 mkdir -p ${RLINE}
                 validate_jsonld $SLINE $TLINE $i $RLINE ${line} ${TARGETDIR}/report4/${line} ${PRIMELANGUAGE} true
