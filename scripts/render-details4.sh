@@ -368,18 +368,16 @@ render_metadata() {
 }
 
 validate_jsonld() {
-    echo "validate jsonld: $1 $2 $3 $4 $5 $6 $7"
+    echo "validate jsonld: $1 $2 $3 $4 $5"
     local SLINE=$1
     local TLINE=$2
     local JSONI=$3
     local RLINE=$4
-    local DROOT=$5
-    local RRLINE=$6
-    local LANGUAGE=$7
-    local PRIMELANGUAGE=${8-false}
+    local GOALLANGUAGE=$5
+    local PRIMELANGUAGE=${6-false}
 
     FILENAME=$(jq -r ".name" ${JSONI})
-    MERGEDFILENAME=merged_${FILENAME}_${LANGUAGE}.jsonld
+    MERGEDFILENAME=merged_${FILENAME}_${GOALLANGUAGE}.jsonld
     MERGEDFILE=${RRLINE}/merged/${MERGEDFILENAME}
 
     if [ -f ${MERGEDFILE} ]; then
@@ -392,7 +390,8 @@ validate_jsonld() {
     mkdir -p ${RLINE}
 
     REPORTFILE=${RLINE}/jsonld-validation.report.md
-    echo "${REPORTLINEPREFIX}oslo-jsonld-validator for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
+    echo "${REPORTFILE}"
+    echo "${REPORTLINEPREFIX}oslo-jsonld-validator for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
     oslo-jsonld-validator --input ${MERGEDFILE} \
         --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json \
