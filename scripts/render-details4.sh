@@ -262,12 +262,12 @@ consolidate_reporting() {
     else
         echo "No shacl directory found"
     fi
-    # if [ -d "${RLINE}/jsonld-validation" ]; then
-    #     cp -r ${RLINE}/jsonld-validation/* ${RLINE}
-    #     rm -rf ${RLINE}/jsonld-validation
-    # else
-    #     echo "No jsonld-validation directory found"
-    # fi
+    if [ -d "${RLINE}/jsonld-validation" ]; then
+        cp -r ${RLINE}/jsonld-validation/* ${RLINE}
+        rm -rf ${RLINE}/jsonld-validation
+    else
+        echo "No jsonld-validation directory found"
+    fi
 }
 
 render_merged_files() {
@@ -387,11 +387,6 @@ validate_jsonld() {
         MERGEDFILE=${JSONI}
     fi
 
-    # precendence order: Theme repository > publication repository > tool repository
-    # XXX TODO: reactivate
-    #cp -n ${HOME}/project/templates/* ${SLINE}/templates
-    #cp -n /app/views/* ${SLINE}/templates
-    #cp -n ${HOME}/project/templates/icons/* ${SLINE}/templates/icons
     mkdir -p ${RLINE}
 
     echo "${MERGEFILE} exists, the files will be validated."
@@ -400,8 +395,8 @@ validate_jsonld() {
     echo "${REPORTLINEPREFIX}oslo-jsonld-validator for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
     oslo-jsonld-validator --input ${MERGEDFILE} \
-        --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json
-    &>>${REPORTFILE}
+        --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json \
+        >>${REPORTFILE} 2>&1
 
     if [ $? -gt 0 ]; then
         echo "RENDER-DETAILS: failed"
@@ -1248,7 +1243,7 @@ cat ${CHECKOUTFILE} | while read line; do
                 RLINE=${TARGETDIR}/report4/jsonld-validation/${line}
                 mkdir -p ${TLINE}
                 mkdir -p ${RLINE}
-                validate_jsonld $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
+                validate_jsonld $SLINE $TLINE $i $RLINE ${line} ${TARGETDIR}/report4/${line} ${PRIMELANGUAGE} true
                 for g in ${GOALLANGUAGE}; do
                     generate_for_language ${g} ${i}
                     if [ ${GENERATEDARTEFACT} == true ]; then
