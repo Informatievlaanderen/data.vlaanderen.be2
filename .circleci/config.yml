@@ -190,18 +190,18 @@ jobs:
       - run:
           name: Validate OSLO jsonld
           command: |
-            mkdir -p /tmp/workspace/target /tmp/workspace/report4/jsonld-validation
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace validation ${CIRCLEWKD}/config
       - run:
           name: List the files which have been created
           command: |
+            if [ -d /tmp/workspace/doc ] ; then ls -al /tmp/workspace/doc/* ; fi || true
             if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
-            - report4/jsonld-validation/
-            - target/
+            - report4/jsonld-validation
+            - target
   render-respec-html-details-4:
     docker:
       - image: cimg/node:20.15.0
