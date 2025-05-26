@@ -389,7 +389,9 @@ validate_jsonld() {
 
     mkdir -p ${RLINE}
 
-    echo "${MERGEFILE} exists, the files will be validated."
+    echo "validate jsonld for language $LANGUAGE in the directory $RLINE"
+    echo "validate jsonld for language $LANGUAGE in the directory $RLINE"
+    echo "validate jsonld for language $LANGUAGE in the directory $RLINE"
 
     REPORTFILE=${RLINE}/jsonld-validation.report.md
     echo "${REPORTLINEPREFIX}oslo-jsonld-validator for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
