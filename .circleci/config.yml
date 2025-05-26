@@ -181,8 +181,8 @@ jobs:
       - run:
           name: touch a file
           command: |
-            mkdir -p /tmp/workspace/report4/validation/
-            touch /tmp/workspace/report4/validation/.ignore
+            mkdir -p /tmp/workspace/report4/jsonld-validation/
+            touch /tmp/workspace/report4/jsonld-validation/.ignore
       - run:
           name: install software
           command: |
