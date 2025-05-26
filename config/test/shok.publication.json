@@ -7,7 +7,7 @@
     "disabled": false,
     "filename": "config/shok-ap.json",
     "navigation": {},
-    "dummy": "001",
+    "dummy": "002",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/shok/ontwerpstandaard/2025-05-26",
     "original": {
@@ -18,7 +18,7 @@
       "disabled": false,
       "filename": "config/shok-ap.json",
       "navigation": {},
-      "dummy": "001"
+      "dummy": "002"
     }
   },
   {
@@ -26,7 +26,7 @@
     "seealso": "/doc/applicatieprofiel/shok/ontwerpstandaard/2025-05-26",
     "disabled": false,
     "type": "raw",
-    "dummy": "001",
+    "dummy": "002",
     "directory": "/doc/applicatieprofiel/shok",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -35,14 +35,14 @@
       "seealso": "/doc/applicatieprofiel/shok/ontwerpstandaard/2025-05-26",
       "disabled": false,
       "type": "ap",
-      "dummy": "001"
+      "dummy": "002"
     }
   },
   {
     "urlref": "/doc/vocabularium/shok/ontwerpstandaard/2025-05-26",
     "disabled": false,
     "type": "raw",
-    "dummy": "001",
+    "dummy": "002",
     "directory": "/doc/vocabularium/shok/ontwerpstandaard/2025-05-26",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -53,7 +53,7 @@
       "name": "shok",
       "filename": "config/shok-voc.json",
       "navigation": {},
-      "dummy": "001"
+      "dummy": "002"
     }
   },
   {
