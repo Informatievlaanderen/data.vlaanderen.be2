@@ -396,8 +396,7 @@ validate_jsonld() {
         --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json \
         >>${REPORTFILE} 2>&1
 
-    echo ${RLINE}/jsonld-validation.report.md
-    echo ${RLINE}/jsonld-validation.report.md
+    cat ${REPORTFILE}
     echo ${RLINE}/jsonld-validation.report.md
 }
 
@@ -1217,7 +1216,6 @@ cat ${CHECKOUTFILE} | while read line; do
                 #                move this in the report handling
                 ;;
             context)
-
                 # the source for the context generator is solely the intermediate json
                 SLINE=${TARGETDIR}/report4/${line}
                 TLINE=${TARGETDIR}/target/${line}
@@ -1233,7 +1231,7 @@ cat ${CHECKOUTFILE} | while read line; do
                 done
                 ;;
             validation)
-                # the source for the context generator is solely the intermediate json
+                # the source for the jsonld validator is solely the intermediate json
                 echo "RENDER-DETAILS: validation"
                 echo ${line}
                 SLINE=${TARGETDIR}/report4/${line}
@@ -1241,11 +1239,11 @@ cat ${CHECKOUTFILE} | while read line; do
                 RLINE=${TARGETDIR}/report4/jsonld-validation/${line}
                 mkdir -p ${TLINE}
                 mkdir -p ${RLINE}
-                validate_jsonld $SLINE $TLINE $i $RLINE ${line} ${TARGETDIR}/report4/${line} ${PRIMELANGUAGE} true
+                validate_jsonld $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
                 for g in ${GOALLANGUAGE}; do
                     generate_for_language ${g} ${i}
                     if [ ${GENERATEDARTEFACT} == true ]; then
-                        validate_jsonld $SLINE $TLINE $i $RLINE ${line} ${TARGETDIR}/report4/${line} ${g}
+                        validate_jsonld $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
                     fi
                 done
                 ;;
