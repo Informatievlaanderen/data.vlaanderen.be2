@@ -387,9 +387,9 @@ validate_jsonld() {
         MERGEDFILE=${JSONI}
     fi
 
-    mkdir -p ${RLINE}
+    mkdir -p ${TLINE}
 
-    REPORTFILE=${RLINE}/jsonld-validation.report.md
+    REPORTFILE=${TLINE}/jsonld-validation.report.md
     echo "${REPORTLINEPREFIX}oslo-jsonld-validator for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
     oslo-jsonld-validator --input ${MERGEDFILE} \
@@ -397,6 +397,7 @@ validate_jsonld() {
         >>${REPORTFILE} 2>&1
 
     cat ${REPORTFILE}
+    echo ${TLINE}/jsonld-validation.report.md
 }
 
 render_translationfiles() {
