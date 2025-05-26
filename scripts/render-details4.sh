@@ -1221,6 +1221,7 @@ cat ${CHECKOUTFILE} | while read line; do
                 #                move this in the report handling
                 ;;
             context)
+
                 # the source for the context generator is solely the intermediate json
                 SLINE=${TARGETDIR}/report4/${line}
                 TLINE=${TARGETDIR}/target/${line}
@@ -1236,6 +1237,7 @@ cat ${CHECKOUTFILE} | while read line; do
                 done
                 ;;
             validation)
+                echo ${line}
                 # the source for the context generator is solely the intermediate json
                 echo "RENDER-DETAILS: validation"
                 SLINE=${TARGETDIR}/report4/${line}
@@ -1247,7 +1249,7 @@ cat ${CHECKOUTFILE} | while read line; do
                 for g in ${GOALLANGUAGE}; do
                     generate_for_language ${g} ${i}
                     if [ ${GENERATEDARTEFACT} == true ]; then
-                        validate_jsonld $SLINE $TLINE $i $RLINE ${g}
+                        validate_jsonld $SLINE $TLINE $i $RLINE ${line} ${TARGETDIR}/report4/${line} ${g}
                     fi
                 done
                 ;;
