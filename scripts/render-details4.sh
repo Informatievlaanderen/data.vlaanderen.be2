@@ -1237,12 +1237,14 @@ cat ${CHECKOUTFILE} | while read line; do
                 done
                 ;;
             validation)
-                echo ${line}
                 # the source for the context generator is solely the intermediate json
                 echo "RENDER-DETAILS: validation"
+                echo "RENDER-DETAILS: validation"
+                echo "RENDER-DETAILS: validati  on"
+                echo ${line}
                 SLINE=${TARGETDIR}/report4/${line}
                 TLINE=${TARGETDIR}/target/${line}
-                RLINE=${TARGETDIR}/report4/jsonld-validation/${line}
+                RLINE=${TARGETDIR}/report4/doc/${line}
                 mkdir -p ${TLINE}
                 mkdir -p ${RLINE}
                 validate_jsonld $SLINE $TLINE $i $RLINE ${line} ${TARGETDIR}/report4/${line} ${PRIMELANGUAGE} true
