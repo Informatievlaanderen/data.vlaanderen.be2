@@ -321,7 +321,7 @@
 :standaardtype      {:clj-pipelines/type                 :clj-pipelines/file-import
                       :clj-pipelines.file-import/filename "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardtype/standaardtype.ttl"
                       :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/codelists/standaardtype"
-                      :clj-pipelines/dumpname             "standaardstatus.ttl.gz"}
+                      :clj-pipelines/dumpname             "standaardtype.ttl.gz"}
 :standaardgebruik   {:clj-pipelines/type                 :clj-pipelines/file-import
                       :clj-pipelines.file-import/filename "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardgebruik/standaardgebruik.ttl"
                       :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/codelists/standaardgebruik"
