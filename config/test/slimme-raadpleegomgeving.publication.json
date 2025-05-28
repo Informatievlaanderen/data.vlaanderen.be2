@@ -327,7 +327,7 @@
   {
     "urlref": "/doc/applicatieprofiel/slimmeraadpleegomgeving/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving",
-    "branchtag": "main",
+    "branchtag": "toolchain4-2025-05-28",
     "name": "slimme-raadpleegomgeving-ap",
     "filename": "config/slimme-raadpleegomgeving-ap.json",
     "navigation": {
@@ -338,7 +338,7 @@
   {
     "urlref": "/doc/vocabularium/slimmeraadpleegomgeving/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving",
-    "branchtag": "main",
+    "branchtag": "toolchain4-2025-05-28",
     "name": "slimmeraadpleegomgeving",
     "filename": "config/slimme-raadpleegomgeving-voc.json",
     "navigation": {
