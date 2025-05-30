@@ -1,17 +1,32 @@
 [
     {
-        "urlref": "/doc/applicatieprofiel/openbarekasten/ontwerpstandaard/2025-05-30",
+        "urlref": "/doc/applicatieprofiel/openbarekasten/ontwerpstandaard/2025-05-26",
         "repository": "https://github.com/Informatievlaanderen/OSLOthema-SHOK",
         "name": "openbarekasten",
          "branchtag": "main",
         "filename": "config/shok-ap.json",
         "navigation": {
         },
-        "dummy" : "1"
+        "dummy" : "2"
     },
     {
         "urlref": "/doc/applicatieprofiel/openbarekasten",
-        "seealso": "/doc/applicatieprofiel/openbarekasten/ontwerpstandaard/2025-05-30",
+        "seealso": "/doc/applicatieprofiel/openbarekasten/ontwerpstandaard/2025-05-26",
         "type": "ap"
+    },
+    {
+        "urlref": "/ns/openbarekasten/ontwerpstandaard/2025-05-26",
+        "repository": "https://github.com/Informatievlaanderen/OSLOthema-SHOK",
+        "name": "openbarekasten",
+         "branchtag": "main",
+        "filename": "config/shok-voc.json",
+        "navigation": {
+        },
+        "dummy" : "2"
+    },
+    {
+        "urlref": "/ns/openbarekasten",
+        "seealso": "/ns/openbarekasten/ontwerpstandaard/2025-05-26",
+        "type": "voc"
     }
   ]
