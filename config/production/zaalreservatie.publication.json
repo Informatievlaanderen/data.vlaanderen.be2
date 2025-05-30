@@ -7,7 +7,7 @@
         "filename": "config/zaalreservatie-ap.json",
         "navigation": {
         },
-        "dummy" : "5"
+        "dummy" : "6"
     },
     {
         "urlref": "/doc/applicatieprofiel/zaalreservatie",
@@ -23,7 +23,7 @@
         "filename": "config/zaalreservatie-voc.json",
         "navigation": {
         },
-        "dummy" : "4"
+        "dummy" : "6"
     },
     {
         "urlref": "/ns/zaalreservatie",
