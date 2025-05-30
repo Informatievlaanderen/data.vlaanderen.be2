@@ -1,0 +1,17 @@
+[
+    {
+        "urlref": "/doc/applicatieprofiel/openbarekasten/ontwerpstandaard/2025-05-30",
+        "repository": "https://github.com/Informatievlaanderen/OSLOthema-SHOK",
+        "name": "openbarekasten",
+         "branchtag": "main",
+        "filename": "config/shok-ap.json",
+        "navigation": {
+        },
+        "dummy" : "1"
+    },
+    {
+        "urlref": "/doc/applicatieprofiel/openbarekasten",
+        "seealso": "/doc/applicatieprofiel/openbarekasten/ontwerpstandaard/2025-05-30",
+        "type": "ap"
+    }
+  ]
