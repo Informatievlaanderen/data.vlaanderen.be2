@@ -1,7 +1,7 @@
 [
     {
         "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14",
-        "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiemanagementsysteem",
+        "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiemanagementsystem",
         "name": "energiemanagementsysteem",
         "branchtag": "main",
         "filename": "config/energiemanagementsysteem-ap.json",
