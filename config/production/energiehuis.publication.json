@@ -89,7 +89,7 @@
   {
     "urlref": "/doc/applicatieprofiel/energiehuis/kandidaatstandaard/2025-02-18",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis",
-    "branchtag": "main",
+    "branchtag": "kandidaat_2025-05-12_v0.1.0",
     "name": "energiehuis",
     "filename": "config/energiehuis-ap.json",
     "directory": "/doc/applicatieprofiel/energiehuis/kandidaatstandaard/2025-02-18",
@@ -102,30 +102,30 @@
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "68"
+    "dummy": "69"
   },
   {
     "urlref": "/doc/vocabularium/energiehuis/kandidaatstandaard/2025-02-18",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis",
-    "branchtag": "main",
+    "branchtag": "kandidaat_2025-05-12_v0.1.0",
     "name": "energiehuis",
     "filename": "config/energiehuis-voc.json",
     "directory": "/doc/vocabularium/energiehuis/kandidaatstandaard/2025-02-18",
     "navigation": {
       "prev": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-01-09"
     },
-    "dummy": "68"
+    "dummy": "69"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiehuis",
     "seealso": "/doc/applicatieprofiel/energiehuis/kandidaatstandaard/2025-02-18",
     "type": "ap",
-    "dummy": "68"
+    "dummy": "69"
   },
   {
     "urlref": "/ns/energiehuis",
     "seealso": "/doc/vocabularium/energiehuis/kandidaatstandaard/2025-02-18",
     "type": "voc",
-    "dummy": "68"
+    "dummy": "69"
   }
 ]
