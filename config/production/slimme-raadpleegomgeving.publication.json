@@ -1,5 +1,27 @@
 [
   {
+    "urlref": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2025-06-03",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving",
+    "branchtag": "toolchain4-2025-06-03",
+    "name": "slimme-raadpleegomgeving-ap",
+    "filename": "config/slimme-raadpleegomgeving-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2024-12-05"
+    },
+    "dummy": "2025-06-03"
+  },
+  {
+    "urlref": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2025-06-03",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving",
+    "branchtag": "toolchain4-2025-06-03",
+    "name": "slimmeraadpleegomgeving",
+    "filename": "config/slimme-raadpleegomgeving-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05"
+    },
+    "dummy": "2025-06-03"
+  },
+  {
     "urlref": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -153,7 +175,7 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/slimmeraadpleegomgeving",
-    "seealso": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
+    "seealso": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2025-06-03",
     "type": "ap",
     "dummy": "22"
   },
@@ -287,13 +309,13 @@
   },
   {
     "urlref": "/doc/vocabularium/slimmeraadpleegomgeving",
-    "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
+    "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2025-06-03",
     "type": "voc",
     "dummy": "023"
   },
   {
     "urlref": "/ns/slimmeraadpleegomgeving",
-    "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
+    "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2025-06-03",
     "type": "voc",
     "dummy": "023"
   },
