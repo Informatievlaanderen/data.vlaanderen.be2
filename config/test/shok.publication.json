@@ -1,31 +1,30 @@
 [
   {
-    "urlref": "/doc/applicatieprofiel/shok/ontwerpstandaard/2025-05-26",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-shok",
-    "name": "shok-ap",
+    "urlref": "/doc/applicatieprofiel/shok/ontwerpstandaard/2025-06-03",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SHOK",
+    "name": "SHOK",
     "branchtag": "main",
     "filename": "config/shok-ap.json",
-    "dummy": "006"
+    "dummy": "001"
   },
   {
     "urlref": "/doc/applicatieprofiel/shok",
-    "seealso": "/doc/applicatieprofiel/shok/ontwerpstandaard/2025-05-26",
+    "seealso": "/doc/applicatieprofiel/shok/ontwerpstandaard/2025-06-03",
     "type": "ap",
-    "dummy": "006"
+    "dummy": "001"
   },
   {
-    "urlref": "/doc/vocabularium/shok/ontwerpstandaard/2025-05-26",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-shok",
+    "urlref": "/doc/vocabularium/shok/ontwerpstandaard/2025-06-03",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SHOK",
+    "name": "SHOK",
     "branchtag": "main",
-    "name": "shok",
     "filename": "config/shok-voc.json",
-    "navigation": {},
-    "dummy": "006"
+    "dummy": "001"
   },
   {
     "urlref": "/ns/shok",
-    "seealso": "/doc/vocabularium/shok/ontwerpstandaard/2025-05-26",
+    "seealso": "/doc/vocabularium/shok/ontwerpstandaard/2025-06-03",
     "type": "voc",
-    "dummy": "006"
+    "dummy": "001"
   }
 ]
