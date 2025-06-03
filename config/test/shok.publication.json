@@ -5,13 +5,13 @@
     "name": "SHOK",
     "branchtag": "main",
     "filename": "config/shok-ap.json",
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/doc/applicatieprofiel/shok",
     "seealso": "/doc/applicatieprofiel/shok/ontwerpstandaard/2025-06-03",
     "type": "ap",
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/doc/vocabularium/shok/ontwerpstandaard/2025-06-03",
@@ -19,12 +19,12 @@
     "name": "SHOK",
     "branchtag": "main",
     "filename": "config/shok-voc.json",
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/ns/shok",
     "seealso": "/doc/vocabularium/shok/ontwerpstandaard/2025-06-03",
     "type": "voc",
-    "dummy": "001"
+    "dummy": "002"
   }
 ]
