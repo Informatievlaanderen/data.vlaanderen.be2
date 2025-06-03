@@ -2,7 +2,7 @@
   {
     "urlref": "/doc/applicatieprofiel/shok/ontwerpstandaard/2025-06-03",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-SHOK",
-    "name": "SHOK",
+    "name": "shok-ap",
     "branchtag": "main",
     "filename": "config/shok-ap.json",
     "dummy": "002"
@@ -16,7 +16,7 @@
   {
     "urlref": "/doc/vocabularium/shok/ontwerpstandaard/2025-06-03",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-SHOK",
-    "name": "SHOK",
+    "name": "shok",
     "branchtag": "main",
     "filename": "config/shok-voc.json",
     "dummy": "002"
