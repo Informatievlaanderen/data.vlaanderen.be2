@@ -90,13 +90,16 @@ if [ -d "${WORKSPACE_DIR}/target" ]; then
 
         # Extract spec name from path
         relative_path=$(echo "$generated_file" | sed "s|${WORKSPACE_DIR}/target/||")
+        echo "Relative path: $relative_path"
         spec_name=$(echo "$relative_path" | cut -d'/' -f1)
+        echo "Spec name: $spec_name"
 
         # Get type and language
         type_lang=$(determine_type_and_language "$generated_file")
         type=$(echo "$type_lang" | cut -d':' -f1)
         language=$(echo "$type_lang" | cut -d':' -f2)
         filename=$(basename "$generated_file")
+        echo "Type: $type, Language: $language, Filename: $filename"
 
         # Create target directory structure
         target_dir="content/${spec_name}/${language}/${type}"
