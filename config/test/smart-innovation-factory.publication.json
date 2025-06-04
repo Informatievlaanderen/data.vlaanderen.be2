@@ -1,34 +1,31 @@
 [
   {
     "urlref": "/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/",
-    "name": "smart-innovation-factory-ap",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory",
+    "name": "smart-innovation-factory",
     "branchtag": "main",
     "filename": "config/SIF-ap.json",
-    "navigation": {
-      "next": "/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
-    },
-    "dummy": "003"
+    "dummy": "004"
   },
   {
     "urlref": "/doc/implementatiemodel/smart-innovation-factory",
     "seealso": "/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04",
-    "type": "impl",
-    "dummy": "002"
+    "type": "ap",
+    "dummy": "004"
   },
   {
     "urlref": "/doc/vocabularium/smart-innovation-factory/ontwerpstandaard/2025-06-04",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory",
     "branchtag": "main",
     "name": "smart-innovation-factory",
     "filename": "config/SIF-voc.json",
     "navigation": {},
-    "dummy": "002"
+    "dummy": "004"
   },
   {
     "urlref": "/ns/smart-innovation-factory",
     "seealso": "/doc/vocabularium/smart-innovation-factory/ontwerpstandaard/2025-06-04",
     "type": "voc",
-    "dummy": "002"
+    "dummy": "004"
   }
 ]
