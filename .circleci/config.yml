@@ -512,6 +512,7 @@ jobs:
           name: Push all generated files to oslo-publications-service
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            echo "Pushing all generated files to oslo-publications-service"
             ${CIRCLEWKD}/scripts/push_to_nuxt.sh /tmp/workspace << parameters.generatedRepoFingerprint >>
 
   create-artifact:

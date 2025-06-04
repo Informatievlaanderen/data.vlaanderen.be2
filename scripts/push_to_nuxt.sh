@@ -7,6 +7,9 @@ WORKSPACE_DIR=$1
 SSH_KEY_FINGERPRINT=$2
 CURRENT_BRANCH=${CIRCLE_BRANCH:-"main"}
 
+echo "Current branch: ${CURRENT_BRANCH}"
+
+
 if [ -z "$WORKSPACE_DIR" ] || [ -z "$SSH_KEY_FINGERPRINT" ]; then
     echo "Usage: $0 <workspace-dir> <ssh-key-fingerprint>"
     exit 1
