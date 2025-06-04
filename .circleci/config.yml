@@ -53,7 +53,7 @@ jobs:
             touch /tmp/workspace/report4/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/ea-converter@beta
+          command: sudo npm install --global @oslo-flanders/ea-converter
       - run:
           name: install software stakeholders
           command: sudo npm install --global @oslo-flanders/stakeholders-converter
@@ -151,7 +151,7 @@ jobs:
       - run:
           name: install software
           command: |
-            sudo npm install --global @oslo-flanders/json-webuniversum-generator@beta
+            sudo npm install --global @oslo-flanders/json-webuniversum-generator
             sudo npm install --global @oslo-flanders/html-generator
       - run:
           name: Render HTML version of merged json file (a)
@@ -201,7 +201,7 @@ jobs:
           root: /tmp/workspace
           paths:
             - report4/jsonld-validation
-            - target
+            - target 
   render-respec-html-details-4:
     docker:
       - image: cimg/node:20.15.0
@@ -455,14 +455,6 @@ jobs:
             else
               echo "No shacl directory found"
             fi
-            if [ -d "${RLINE}/jsonld-validation" ]; then
-              echo "jsonld-validation directory found"
-
-              cp -r ${RLINE}/jsonld-validation/* ${RLINE}
-              rm -rf ${RLINE}/jsonld-validation
-            else
-              echo "No jsonld-validation directory found"
-            fi
       - run:
           name: download global overview memory
           working_directory: /tmp/workspace
@@ -503,6 +495,25 @@ jobs:
           root: /tmp/workspace
           paths:
             - raw/
+  push-all-generated-files:
+    docker:
+      - image: cimg/node:20.15.0
+    parameters:
+      generatedRepoFingerprint:
+        type: string
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - add_ssh_keys:
+          fingerprints:
+            - << parameters.generatedRepoFingerprint >>
+      - run:
+          name: Push all generated files to oslo-publications-service
+          command: |
+            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            ${CIRCLEWKD}/scripts/push-to-oslo-publications.sh /tmp/workspace << parameters.generatedRepoFingerprint >>
+
   create-artifact:
     parameters:
       generatedRepoFingerprint:
@@ -604,6 +615,7 @@ jobs:
           command: |
             export TAG=`echo "${CIRCLE_SHA1}" | cut -c1-15`
             echo "{\"commit\" : \"$TAG\"}" > report4/commit.json
+            echo "{\"commit\" : \"$TAG\"}" > report/commit.json
       - run:
           name: Push results to github
           working_directory: /tmp/generated
@@ -667,7 +679,6 @@ workflows:
       - expand-links:
           requires:
             - render-context-details-4
-            - validate-jsonld-4
             - convert-json-to-ttl
             - render-rdf-details-4
             - render-html-details-4
@@ -678,3 +689,18 @@ workflows:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
           requires:
             - expand-links
+      - push-all-generated-files:
+          generatedRepoFingerprint: ""
+          requires:
+            - render-html-details-4
+            - render-rdf-details-4
+            - render-shacl-details-4
+            - render-context-details-4
+            - validate-jsonld-4
+            - expand-links
+          filters:
+            branches:
+              only:
+                - test
+                - production
+                - dev
