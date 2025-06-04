@@ -513,7 +513,7 @@ jobs:
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             echo "Pushing all generated files to oslo-publications-service"
-            ${CIRCLEWKD}/scripts/push_to_nuxt.sh /tmp/workspace << parameters.publications-repo >>
+            ${CIRCLEWKD}/scripts/push_to_nuxt.sh /tmp/workspace << parameters.publications-repo >> ${CIRCLEWKD}/config
 
   create-artifact:
     parameters:

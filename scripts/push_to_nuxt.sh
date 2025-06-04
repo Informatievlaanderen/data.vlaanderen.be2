@@ -5,14 +5,17 @@
 
 WORKSPACE_DIR=$1
 SSH_KEY_FINGERPRINT=$2
+JSONI=$3
 CURRENT_BRANCH=${CIRCLE_BRANCH:-"main"}
 
 echo "Current branch: ${CURRENT_BRANCH}"
 echo "Workspace directory: ${WORKSPACE_DIR}"
 echo "SSH key fingerprint: ${SSH_KEY_FINGERPRINT}"
+echo "JSONI: ${JSONI}"
 
+TYPE=$(jq -r "${COMMAND}" ${JSONI})
 
-if [ -z "$WORKSPACE_DIR" ] || [ -z "$SSH_KEY_FINGERPRINT" ]; then
+if [ -z "$WORKSPACE_DIR" ] || [ -z "$SSH_KEY_FINGERPRINT" ] || [ -z "$JSONI"]; then
     echo "Usage: $0 <workspace-dir> <ssh-key-fingerprint>"
     exit 1
 fi
@@ -62,7 +65,6 @@ determine_type_and_language() {
     "shacl") type="shacl" ;;
     "html") type="html" ;;
     "md") type="markdown" ;;
-    "xsd") type="xsd" ;;
     *)
         # Try to determine type from directory structure
         if [[ "$file" == *"/html/"* ]]; then
@@ -102,7 +104,7 @@ if [ -d "${WORKSPACE_DIR}/target" ]; then
         echo "Type: $type, Language: $language, Filename: $filename"
 
         # Create target directory structure
-        target_dir="content/${spec_name}/${language}/${type}"
+        target_dir="content/${spec_name}/${language}/${TYPE}"
         mkdir -p "$target_dir"
 
         # Copy the file
@@ -114,7 +116,7 @@ fi
 # Process files from report4 directory
 if [ -d "${WORKSPACE_DIR}/report4" ]; then
     echo "Processing report4 directory files..."
-    find "${WORKSPACE_DIR}/report4" -type f \( -name "*.json" -o -name "*.jsonld" -o -name "*.ttl" -o -name "*.rdf" -o -name "*.shacl" -o -name "*.html" -o -name "*.xsd" \) | while read report_file; do
+    find "${WORKSPACE_DIR}/report4" -type f \( -name "*.json" -o -name "*.jsonld" -o -name "*.ttl" -o -name "*.rdf" -o -name "*.shacl" -o -name "*.html" \) | while read report_file; do
         echo "Processing report file: $report_file"
 
         # Extract spec name from path
