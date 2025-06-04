@@ -5,13 +5,13 @@
     "name": "shok-ap",
     "branchtag": "main",
     "filename": "config/shok-ap.json",
-    "dummy": "003"
+    "dummy": "004"
   },
   {
     "urlref": "/doc/applicatieprofiel/shok",
     "seealso": "/doc/applicatieprofiel/shok/ontwerpstandaard/2025-06-03",
     "type": "ap",
-    "dummy": "003"
+    "dummy": "004"
   },
   {
     "urlref": "/doc/vocabularium/shok/ontwerpstandaard/2025-06-03",
