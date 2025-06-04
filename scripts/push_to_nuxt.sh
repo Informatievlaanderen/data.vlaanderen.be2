@@ -12,6 +12,8 @@ echo "Current branch: ${CURRENT_BRANCH}"
 echo "Workspace directory: ${WORKSPACE_DIR}"
 echo "SSH key fingerprint: ${SSH_KEY_FINGERPRINT}"
 
+echo $JSONI
+
 TYPE=$(jq -r ".type" ${JSONI})
 echo "Type: ${TYPE} from JSONI"
 
@@ -118,9 +120,6 @@ if [ -d "${WORKSPACE_DIR}/target" ]; then
         Relative path: doc/applicatieprofiel/energiehuis/ontwerpstandaard/test/context/energiehuis.jsonld
         echo "Relative path: $relative_path"
         spec_name=$(extract_spec_name "$relative_path")
-        echo "Spec name: $spec_name"
-        echo "Spec name: $spec_name"
-        echo "Spec name: $spec_name"
 
         # Get type and language
         type_lang=$(determine_type_and_language "$generated_file")
@@ -147,7 +146,7 @@ if [ -d "${WORKSPACE_DIR}/report4" ]; then
 
         # Extract spec name from path
         relative_path=$(echo "$report_file" | sed "s|${WORKSPACE_DIR}/report4/||")
-        spec_name=$(echo "$relative_path" | cut -d'/' -f1)
+        spec_name=$(extract_spec_name "$relative_path")
 
         # Get type and language
         type_lang=$(determine_type_and_language "$report_file")
