@@ -495,11 +495,11 @@ jobs:
           root: /tmp/workspace
           paths:
             - raw/
-  push-all-generated-files:
+  push-to-nuxt:
     docker:
       - image: cimg/node:20.15.0
     parameters:
-      generatedRepoFingerprint:
+      publications-repo:
         type: string
     steps:
       - checkout
@@ -507,13 +507,13 @@ jobs:
           at: /tmp/workspace
       - add_ssh_keys:
           fingerprints:
-            - << parameters.generatedRepoFingerprint >>
+            - << parameters.publications-repo >>
       - run:
           name: Push all generated files to oslo-publications-service
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             echo "Pushing all generated files to oslo-publications-service"
-            ${CIRCLEWKD}/scripts/push_to_nuxt.sh /tmp/workspace << parameters.generatedRepoFingerprint >>
+            ${CIRCLEWKD}/scripts/push_to_nuxt.sh /tmp/workspace << parameters.publications-repo >>
 
   create-artifact:
     parameters:
@@ -690,8 +690,8 @@ workflows:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
           requires:
             - expand-links
-      - push-all-generated-files:
-          generatedRepoFingerprint: ""
+      - push-to-nuxt:
+          publications-repo: "SHA256:/ljztOYlSbrDXtMAG3H5wvg5XJvmHnqvctC5Aj7fmCY"
           requires:
             - render-html-details-4
             - render-rdf-details-4
