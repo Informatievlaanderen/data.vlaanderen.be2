@@ -20,9 +20,9 @@ jobs:
           command: $PWD/scripts/findPublicationsToUpdate.sh /tmp/workspace $PWD/config/publication.json $PWD/
       - run:
           command: $PWD/scripts/checkoutRepositories.sh /tmp/workspace $PWD/config/publication.json $PWD/config
-#      - run:
-#          command: $PWD/scripts/upgrade_config-4.sh /tmp/workspace $PWD/config 
-#          This is executed in next step
+      #      - run:
+      #          command: $PWD/scripts/upgrade_config-4.sh /tmp/workspace $PWD/config
+      #          This is executed in next step
       - run: if [ -e /tmp/workspace/checkouts.txt ] ; then cat /tmp/workspace/checkouts.txt ; fi
       - run: if [ -e /tmp/workspace/rawcheckouts.txt ] ; then cat /tmp/workspace/rawcheckouts.txt ; fi
       - run: if [ -e /home/circleci/project/changes.txt ] ; then cat /home/circleci/project/changes.txt ; fi
@@ -192,9 +192,9 @@ jobs:
             mkdir -p /tmp/workspace/target /tmp/workspace/reporthtml
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace respec ${CIRCLEWKD}/config
-#      - run:
-#          name: copy the site-skeleton for the html -- XXX to be activated when only using this as hmtl renderer / or updated with a target to disambiguate 
-#          command: $PWD/scripts/copy_skeleton.sh
+      #      - run:
+      #          name: copy the site-skeleton for the html -- XXX to be activated when only using this as hmtl renderer / or updated with a target to disambiguate
+      #          command: $PWD/scripts/copy_skeleton.sh
       - run:
           name: List the files which have been created
           command: |
@@ -464,6 +464,25 @@ jobs:
           root: /tmp/workspace
           paths:
             - raw/
+  push-all-generated-files:
+    docker:
+      - image: cimg/node:20.15.0
+    parameters:
+      nuxtRepoFingerprint:
+        type: string
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - add_ssh_keys:
+          fingerprints:
+            - << parameters.nuxtRepoFingerprint >>
+      - run:
+          name: Push all generated files to oslo-publications-service
+          command: |
+            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            ${CIRCLEWKD}/scripts/push-to-oslo-publications.sh /tmp/workspace << parameters.nuxtRepoFingerprint >>
+
   create-artifact:
     parameters:
       generatedRepoFingerprint:
@@ -534,13 +553,13 @@ jobs:
           command: |
             ls -1
             if [ -d autotranslation ] ; then tar -zcf autotranslation.tgz autotranslation ; cp autotranslation.tgz /tmp/generated/autotranslation.tgz ; fi
-#      - run:
-#          name: check if all publication points are generated
-#          working_directory: /tmp/generated
-#          command: |
-#            ls -al *
-#            if [ -d report ] ; then ls -al report/* || ls -al report ; fi
-#            find report
+      #      - run:
+      #          name: check if all publication points are generated
+      #          working_directory: /tmp/generated
+      #          command: |
+      #            ls -al *
+      #            if [ -d report ] ; then ls -al report/* || ls -al report ; fi
+      #            find report
       - run:
           name: check the existence of all publication points
           command: |
@@ -635,3 +654,18 @@ workflows:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
           requires:
             - expand-links
+      - push-all-generated-files:
+          nuxtRepoFingerprint: "SHA256:/ljztOYlSbrDXtMAG3H5wvg5XJvmHnqvctC5Aj7fmCY"
+          requires:
+            - render-html-details-4
+            - render-rdf-details-4
+            - render-shacl-details-4
+            - render-context-details-4
+            - validate-jsonld-4
+            - expand-links
+          filters:
+            branches:
+              only:
+                - test
+                - production
+                - dev
