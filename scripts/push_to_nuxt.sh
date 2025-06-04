@@ -12,8 +12,7 @@ echo "Current branch: ${CURRENT_BRANCH}"
 echo "Workspace directory: ${WORKSPACE_DIR}"
 echo "SSH key fingerprint: ${SSH_KEY_FINGERPRINT}"
 
-COMMAND=$(echo '.type')
-TYPE=$(jq -r "${COMMAND}" ${JSONI})
+TYPE=$(jq -r ".type" ${JSONI})
 echo "Type: ${TYPE} from JSONI"
 
 if [ -z "$WORKSPACE_DIR" ] || [ -z "$SSH_KEY_FINGERPRINT" ] || [ -z "$JSONI"]; then
@@ -87,8 +86,6 @@ determine_type_and_language() {
 
 extract_spec_name() {
     local path="$1"
-    echo "Full path for spec extraction: $path"
-
     # Handle different path patterns
     if [[ "$path" =~ ^doc/applicatieprofiel/([^/]+) ]]; then
         # Pattern: doc/applicatieprofiel/SPEC_NAME/...
