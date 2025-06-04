@@ -1,109 +1,34 @@
 [
   {
+    "urlref": "/doc/implementatiemodel/SIF/ontwerpstandaard/2025-06-04",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/",
+    "name": "Smart Innovation Factory",
+    "branchtag": "main",
+    "filename": "config/SIF-ap.json",
+    "navigation": {
+      "next": "/doc/implementatiemodel/SIF/ontwerpstandaard/2025-06-04"
+    },
+    "dummy": "001"
+  },
+  {
     "urlref": "/doc/implementatiemodel/SIF",
     "seealso": "/doc/implementatiemodel/SIF/ontwerpstandaard/2025-06-04",
     "type": "impl",
-    "dummy": "01"
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/SIF/ontwerpstandaard/2025-06-04",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/",
+    "branchtag": "main",
+    "name": "Smart Innovation Factory",
+    "filename": "config/SIF-voc.json",
+    "navigation": {},
+    "dummy": "001"
   },
   {
     "urlref": "/ns/SIF",
     "seealso": "/doc/vocabularium/SIF/ontwerpstandaard/2025-06-04",
     "type": "voc",
-    "dummy": "01"
-  },
-  {
-    "urlref": "/doc/vocabularium/SIF/ontwerpstandaard/2025-06-04",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "name": "schuldbeheer",
-    "filename": "config/eap-mapping.json",
-    "navigation": {},
-    "dummy": "04",
-    "type": "raw",
-    "directory": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2024-09-05",
-    "original": {
-      "urlref": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2024-09-05",
-      "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
-      "branchtag": "main",
-      "name": "schuldbeheer",
-      "filename": "config/eap-mapping.json",
-      "navigation": {},
-      "dummy": "04"
-    }
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "name": "schuldbeheer-ap",
-    "filename": "config/eap-mapping.json",
-    "navigation": {},
-    "dummy": "04",
-    "type": "raw",
-    "directory": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05",
-      "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
-      "branchtag": "main",
-      "name": "schuldbeheer-ap",
-      "filename": "config/eap-mapping.json",
-      "navigation": {},
-      "dummy": "04"
-    }
-  },
-  {
-    "urlref": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
-    "branchtag": "main",
-    "name": "schuldbeheer",
-    "filename": "config/eap-mapping.json",
-    "directory": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
-    "navigation": {
-      "prev": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2024-09-05"
-    },
-    "dummy": "005"
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
-    "branchtag": "main",
-    "name": "schuldbeheer-ap",
-    "filename": "config/eap-mapping.json",
-    "directory": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
-    "navigation": {
-      "prev": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05"
-    },
-    "contextgenerator": {
-      "parameters": "--addDomainPrefix true"
-    },
-    "dummy": "009"
-  },
-  {
-    "urlref": "/doc/vocabularium/schuldbeheer/erkendestandaard/2025-05-15",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
-    "branchtag": "erkende-standaard-20250515-003",
-    "name": "schuldbeheer",
-    "filename": "config/eap-mapping.json",
-    "directory": "/doc/vocabularium/schuldbeheer/erkendestandaard/2025-05-15",
-    "navigation": {
-      "prev": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03"
-    },
-    "dummy": "002"
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
-    "branchtag": "erkende-standaard-20250515-003",
-    "name": "schuldbeheer-ap",
-    "filename": "config/eap-mapping.json",
-    "directory": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
-    "navigation": {
-      "prev": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
-    },
-    "contextgenerator": {
-      "parameters": "--addDomainPrefix true"
-    },
-    "dummy": "003"
+    "dummy": "001"
   }
-
 ]
