@@ -8,6 +8,8 @@ SSH_KEY_FINGERPRINT=$2
 CURRENT_BRANCH=${CIRCLE_BRANCH:-"main"}
 
 echo "Current branch: ${CURRENT_BRANCH}"
+echo "Workspace directory: ${WORKSPACE_DIR}"
+echo "SSH key fingerprint: ${SSH_KEY_FINGERPRINT}"
 
 
 if [ -z "$WORKSPACE_DIR" ] || [ -z "$SSH_KEY_FINGERPRINT" ]; then
