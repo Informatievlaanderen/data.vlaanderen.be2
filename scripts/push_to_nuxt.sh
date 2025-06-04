@@ -11,9 +11,9 @@ CURRENT_BRANCH=${CIRCLE_BRANCH:-"main"}
 echo "Current branch: ${CURRENT_BRANCH}"
 echo "Workspace directory: ${WORKSPACE_DIR}"
 echo "SSH key fingerprint: ${SSH_KEY_FINGERPRINT}"
-echo "JSONI: ${JSONI}"
 
 TYPE=$(jq -r "${COMMAND}" ${JSONI})
+echo "Type: ${TYPE} from JSONI"
 
 if [ -z "$WORKSPACE_DIR" ] || [ -z "$SSH_KEY_FINGERPRINT" ] || [ -z "$JSONI"]; then
     echo "Usage: $0 <workspace-dir> <ssh-key-fingerprint>"
@@ -84,6 +84,31 @@ determine_type_and_language() {
     echo "${type}:${language}"
 }
 
+extract_spec_name() {
+    local path="$1"
+    echo "Full path for spec extraction: $path"
+
+    # Handle different path patterns
+    if [[ "$path" =~ ^doc/applicatieprofiel/([^/]+) ]]; then
+        # Pattern: doc/applicatieprofiel/SPEC_NAME/...
+        spec_name="${BASH_REMATCH[1]}"
+    elif [[ "$path" =~ ^doc/vocabularium/([^/]+) ]]; then
+        # Pattern: doc/vocabularium/SPEC_NAME/...
+        spec_name="${BASH_REMATCH[1]}"
+    elif [[ "$path" =~ ^doc/implementatiemodel/([^/]+) ]]; then
+        # Pattern: doc/implementatiemodel/SPEC_NAME/...
+        spec_name="${BASH_REMATCH[1]}"
+    elif [[ "$path" =~ ^([^/]+)/([^/]+) ]]; then
+        # Fallback: assume second part is spec name
+        spec_name="${BASH_REMATCH[2]}"
+    else
+        # Last resort: use first directory
+        spec_name=$(echo "$path" | cut -d'/' -f1)
+    fi
+
+    echo "$spec_name"
+}
+
 # Process files from target directory
 if [ -d "${WORKSPACE_DIR}/target" ]; then
     echo "Processing target directory files..."
@@ -92,8 +117,9 @@ if [ -d "${WORKSPACE_DIR}/target" ]; then
 
         # Extract spec name from path
         relative_path=$(echo "$generated_file" | sed "s|${WORKSPACE_DIR}/target/||")
+        Relative path: doc/applicatieprofiel/energiehuis/ontwerpstandaard/test/context/energiehuis.jsonld
         echo "Relative path: $relative_path"
-        spec_name=$(echo "$relative_path" | cut -d'/' -f1)
+        spec_name=$(extract_spec_name "$relative_path")
         echo "Spec name: $spec_name"
 
         # Get type and language
@@ -101,7 +127,7 @@ if [ -d "${WORKSPACE_DIR}/target" ]; then
         type=$(echo "$type_lang" | cut -d':' -f1)
         language=$(echo "$type_lang" | cut -d':' -f2)
         filename=$(basename "$generated_file")
-        echo "Type: $type, Language: $language, Filename: $filename"
+        echo "Type: $TYPE, Language: $language, Filename: $filename"
 
         # Create target directory structure
         target_dir="content/${spec_name}/${language}/${TYPE}"
