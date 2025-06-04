@@ -8,13 +8,13 @@
     "navigation": {
       "next": "/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
     },
-    "dummy": "002"
+    "dummy": "003"
   },
   {
     "urlref": "/doc/implementatiemodel/smart-innovation-factory",
     "seealso": "/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04",
     "type": "impl",
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/doc/vocabularium/smart-innovation-factory/ontwerpstandaard/2025-06-04",
@@ -23,12 +23,12 @@
     "name": "smart-innovation-factory",
     "filename": "config/SIF-voc.json",
     "navigation": {},
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/ns/smart-innovation-factory",
     "seealso": "/doc/vocabularium/smart-innovation-factory/ontwerpstandaard/2025-06-04",
     "type": "voc",
-    "dummy": "001"
+    "dummy": "002"
   }
 ]
