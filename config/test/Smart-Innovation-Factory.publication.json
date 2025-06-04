@@ -1,12 +1,12 @@
 [
   {
-    "urlref": "/doc/implementatiemodel/SIF/ontwerpstandaard/2025-06-04",
+    "urlref": "/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/",
     "name": "smart-innovation-factory-ap",
     "branchtag": "main",
     "filename": "config/SIF-ap.json",
     "navigation": {
-      "next": "/doc/implementatiemodel/SIF/ontwerpstandaard/2025-06-04"
+      "next": "/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
     },
     "dummy": "001"
   },
