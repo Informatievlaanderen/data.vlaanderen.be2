@@ -2,7 +2,7 @@
   {
     "urlref": "/doc/implementatiemodel/SIF/ontwerpstandaard/2025-06-04",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/",
-    "name": "Smart Innovation Factory",
+    "name": "smart-innovation-factory-ap",
     "branchtag": "main",
     "filename": "config/SIF-ap.json",
     "navigation": {
@@ -11,13 +11,13 @@
     "dummy": "001"
   },
   {
-    "urlref": "/doc/implementatiemodel/SIF",
-    "seealso": "/doc/implementatiemodel/SIF/ontwerpstandaard/2025-06-04",
+    "urlref": "/doc/implementatiemodel/smart-innovation-factory",
+    "seealso": "/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04",
     "type": "impl",
     "dummy": "001"
   },
   {
-    "urlref": "/doc/vocabularium/SIF/ontwerpstandaard/2025-06-04",
+    "urlref": "/doc/vocabularium/smart-innovation-factory/ontwerpstandaard/2025-06-04",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/",
     "branchtag": "main",
     "name": "Smart Innovation Factory",
@@ -26,8 +26,8 @@
     "dummy": "001"
   },
   {
-    "urlref": "/ns/SIF",
-    "seealso": "/doc/vocabularium/SIF/ontwerpstandaard/2025-06-04",
+    "urlref": "/ns/smart-innovation-factory",
+    "seealso": "/doc/vocabularium/smart-innovation-factory/ontwerpstandaard/2025-06-04",
     "type": "voc",
     "dummy": "001"
   }
