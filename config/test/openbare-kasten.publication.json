@@ -6,14 +6,14 @@
     "branchtag": "main",
     "filename": "config/shok-ap.json",
     "disabled": false,
-    "dummy": "005"
+    "dummy": "006"
   },
   {
     "urlref": "/doc/applicatieprofiel/openbare-kasten",
     "seealso": "/doc/applicatieprofiel/openbare-kasten/ontwerpstandaard/2025-06-03",
     "type": "ap",
     "disabled": false,
-    "dummy": "005"
+    "dummy": "006"
   },
   {
     "urlref": "/doc/vocabularium/openbare-kasten/ontwerpstandaard/2025-06-03",
@@ -22,13 +22,13 @@
     "branchtag": "main",
     "filename": "config/shok-voc.json",
     "disabled": false,
-    "dummy": "005"
+    "dummy": "006"
   },
   {
     "urlref": "/ns/openbare-kasten",
     "seealso": "/doc/vocabularium/openbare-kasten/ontwerpstandaard/2025-06-03",
     "type": "voc",
     "disabled": false,
-    "dummy": "005"
+    "dummy": "006"
   }
 ]
