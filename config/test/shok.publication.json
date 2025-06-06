@@ -6,14 +6,14 @@
     "branchtag": "main",
     "filename": "config/shok-ap.json",
     "disabled": false,
-    "dummy": "014"
+    "dummy": "015"
   },
   {
     "urlref": "/doc/applicatieprofiel/openbare-nutsvoorzieningkasten",
     "seealso": "/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03",
     "type": "ap",
     "disabled": false,
-    "dummy": "014"
+    "dummy": "015"
   },
   {
     "urlref": "/doc/vocabularium/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03",
@@ -22,13 +22,13 @@
     "branchtag": "main",
     "filename": "config/shok-voc.json",
     "disabled": false,
-    "dummy": "014"
+    "dummy": "015"
   },
   {
     "urlref": "/ns/openbare-nutsvoorzieningkasten",
     "seealso": "/doc/vocabularium/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03",
     "type": "voc",
     "disabled": false,
-    "dummy": "014"
+    "dummy": "015"
   }
 ]
