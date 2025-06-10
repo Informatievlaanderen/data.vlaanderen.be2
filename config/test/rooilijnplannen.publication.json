@@ -12,7 +12,7 @@
     "urlref": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
     "branchtag": "main",
-    "name": "rooilijnplannen-voc",
+    "name": "rooilijnplannen",
     "filename": "config/rooilijnplannen.json",
     "navigation": {},
     "dummy": "034"
@@ -24,7 +24,7 @@
     "dummy": "034"
   },
   {
-    "urlref": "/doc/ns/rooilijn",
+    "urlref": "/ns/rooilijn",
     "seealso": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "type": "voc",
     "dummy": "034"
