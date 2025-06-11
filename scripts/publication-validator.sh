@@ -84,7 +84,7 @@ while read -r pub_file; do
         # Check for different URL types and perform specific validations
         if [[ "$urlref" == *"applicatieprofiel"* ]] || [[ "$urlref" == *"implementatiemodel"* ]]; then
             # Check .ttl file for application profiles
-            ttl_url="$HOSTNAME$urlref/shacl/$name.ttl"
+            ttl_url="$HOSTNAME$urlref/shacl/$name-SHACL.ttl"
             status_code=$(curl -L -o /dev/null -s -w "%{http_code}\n" "$ttl_url")
             if [ "$status_code" -ne 200 ]; then
                 echo "TTL URL: $ttl_url - Status Code: $status_code"
