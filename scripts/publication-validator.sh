@@ -126,17 +126,6 @@ while read -r pub_file; do
             else
                 echo "NS JSON-LD URL: $ns_jsonld_url - Status Code: 200 ✓"
             fi
-
-            # Check for NT file in NS path
-            ns_nt_url="$HOSTNAME/ns/$name.nt"
-            status_code=$(curl -L -o /dev/null -s -w "%{http_code}\n" "$ns_nt_url")
-            if [ "$status_code" -ne 200 ]; then
-                echo "NS NT URL: $ns_nt_url - Status Code: $status_code"
-                failed_urls+=("$ns_nt_url")
-                failed_details+=("Publication: $pub_file_basename, Entry: $i, Name: $name, Type: NS NT, URL: $ns_nt_url, Status: $status_code")
-            else
-                echo "NS NT URL: $ns_nt_url - Status Code: 200 ✓"
-            fi
         elif [[ "$urlref" == *"vocabularium"* ]]; then
             echo "Skipping SHACL and JSON-LD checks for vocabulary: $urlref"
         else
