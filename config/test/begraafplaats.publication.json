@@ -212,14 +212,14 @@
     }
   },
   {
-      "urlref": "/doc/applicatieprofiel/begraafplaatsen/",
-      "seealso": "/doc/applicatieprofiel/begraafplaatsen/erkendestandaard/2021-09-30",
-      "type": "ap"
+    "urlref": "/doc/applicatieprofiel/begraafplaatsen/",
+    "seealso": "/doc/applicatieprofiel/begraafplaatsen/erkendestandaard/2021-09-30",
+    "type": "ap"
   },
   {
-      "urlref": "/doc/applicatieprofiel/begraafplaatsenbeheer/",
-      "seealso": "/doc/applicatieprofiel/begraafplaatsenbeheer/erkendestandaard/2021-09-30",
-      "type": "ap"
+    "urlref": "/doc/applicatieprofiel/begraafplaatsenbeheer/",
+    "seealso": "/doc/applicatieprofiel/begraafplaatsenbeheer/erkendestandaard/2021-09-30",
+    "type": "ap"
   },
   {
     "urlref": "/ns/openbaardomein/begraafplaats",
@@ -237,7 +237,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/begraafplaatsen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2"
+    "dummy": "2025-06-11 09:32:15"
   },
   {
     "urlref": "/doc/applicatieprofiel/begraafplaatsenbeheer/ontwerpstandaard/toolchain4",
@@ -248,7 +248,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/begraafplaatsenbeheer/erkendestandaard/2021-09-30"
     },
-    "dummy": "005"
+    "dummy": "2025-06-11 09:32:15"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/begraafplaats/ontwerpstandaard/toolchain4",
@@ -259,6 +259,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/begraafplaats/erkendestandaard/2021-09-30"
     },
-    "dummy": "004"
+    "dummy": "2025-06-11 09:32:15"
   }
 ]
