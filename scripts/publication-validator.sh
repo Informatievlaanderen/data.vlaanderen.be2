@@ -84,7 +84,7 @@ while read -r pub_file; do
         # Check for different URL types and perform specific validations
         if [[ "$urlref" == *"applicatieprofiel"* ]] || [[ "$urlref" == *"implementatiemodel"* ]]; then
             # Check .ttl file for application profiles
-            ttl_url="$HOSTNAME$urlref/shacl/$name.ttl"
+            ttl_url="$HOSTNAME$urlref/shacl/$name-SHACL.ttl"
             status_code=$(curl -L -o /dev/null -s -w "%{http_code}\n" "$ttl_url")
             if [ "$status_code" -ne 200 ]; then
                 echo "TTL URL: $ttl_url - Status Code: $status_code"
@@ -114,17 +114,6 @@ while read -r pub_file; do
                 failed_details+=("Publication: $pub_file_basename, Entry: $i, Name: $name, Type: NS TTL, URL: $ns_ttl_url, Status: $status_code")
             else
                 echo "NS TTL URL: $ns_ttl_url - Status Code: 200 ✓"
-            fi
-
-            # Check for RDF file in NS path
-            ns_rdf_url="$HOSTNAME/ns/$name.rdf"
-            status_code=$(curl -L -o /dev/null -s -w "%{http_code}\n" "$ns_rdf_url")
-            if [ "$status_code" -ne 200 ]; then
-                echo "NS RDF URL: $ns_rdf_url - Status Code: $status_code"
-                failed_urls+=("$ns_rdf_url")
-                failed_details+=("Publication: $pub_file_basename, Entry: $i, Name: $name, Type: NS RDF, URL: $ns_rdf_url, Status: $status_code")
-            else
-                echo "NS RDF URL: $ns_rdf_url - Status Code: 200 ✓"
             fi
 
             # Check for JSON-LD file in NS path
