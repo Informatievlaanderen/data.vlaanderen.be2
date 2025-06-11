@@ -6,13 +6,13 @@
     "branchtag": "kandidaat_2025-05-22-v0.1.0",
     "filename": "config/ThermAI-ap.json",
     "navigation": {},
-    "dummy": "8"
+    "dummy": "9"
   },
   {
     "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse",
     "seealso": "/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22",
     "type": "ap",
-    "dummy": "8"
+    "dummy": "9"
   },
 
   {
@@ -22,12 +22,12 @@
     "name": "thermografische-gebouwanalyse",
     "filename": "config/ThermAI-voc.json",
     "navigation": {},
-    "dummy": "8"
+    "dummy": "9"
   },
   {
     "urlref": "/ns/thermografische-gebouwanalyse",
     "seealso": "/doc/vocabularium/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22",
     "type": "voc",
-    "dummy": "8"
+    "dummy": "9"
   }
 ]
