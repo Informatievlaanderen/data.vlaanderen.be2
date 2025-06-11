@@ -51,7 +51,7 @@
     "navigation": {},
     "directory": "/doc/applicatieprofiel/begraafplaatsen/erkendestandaard/2021-09-30",
     "type": "raw",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "original": {
       "urlref": "/doc/applicatieprofiel/begraafplaatsen/erkendestandaard/2021-09-30",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -115,7 +115,7 @@
     "navigation": {},
     "directory": "/doc/applicatieprofiel/begraafplaatsenbeheer/erkendestandaard/2021-09-30",
     "type": "raw",
-    "dummy": "trigger",
+    "dummy": "trigger1",
     "original": {
       "urlref": "/doc/applicatieprofiel/begraafplaatsenbeheer/erkendestandaard/2021-09-30",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -212,40 +212,14 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/begraafplaatsen/",
-    "seealso": "/doc/applicatieprofiel/begraafplaatsen/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "dummy": "dimi-2021-10-07-2",
-    "directory": "/doc/applicatieprofiel/begraafplaatsen/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/applicatieprofiel/begraafplaatsen/",
       "seealso": "/doc/applicatieprofiel/begraafplaatsen/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "dimi-2021-10-07-2",
-      "directory": "/doc/applicatieprofiel/begraafplaatsen/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+      "type": "ap"
   },
   {
-    "urlref": "/doc/applicatieprofiel/begraafplaatsenbeheer/",
-    "seealso": "/doc/applicatieprofiel/begraafplaatsenbeheer/erkendestandaard/2021-09-30",
-    "type": "raw",
-    "dummy": "dimi-2021-10-07-2",
-    "directory": "/doc/applicatieprofiel/begraafplaatsenbeheer/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
       "urlref": "/doc/applicatieprofiel/begraafplaatsenbeheer/",
       "seealso": "/doc/applicatieprofiel/begraafplaatsenbeheer/erkendestandaard/2021-09-30",
-      "type": "raw",
-      "dummy": "dimi-2021-10-07-2",
-      "directory": "/doc/applicatieprofiel/begraafplaatsenbeheer/",
-      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production"
-    }
+      "type": "ap"
   },
   {
     "urlref": "/ns/openbaardomein/begraafplaats",
@@ -255,13 +229,13 @@
     "dummy": "001"
   },
   {
-    "urlref": "/doc/applicatieprofiel/begraafplaats/ontwerpstandaard/toolchain4",
+    "urlref": "/doc/applicatieprofiel/begraafplaatsen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
     "name": "begraafplaatsen-ap",
     "filename": "config/begraafplaats.json",
     "navigation": {
-      "prev": "/doc/applicatieprofiel/begraafplaats/standaard/2018-11-27"
+      "prev": "/doc/applicatieprofiel/begraafplaatsen/erkendestandaard/2021-09-30"
     },
     "dummy": "2"
   },
@@ -272,7 +246,7 @@
     "name": "begraafplaatsenbeheer-ap",
     "filename": "config/begraafplaats.json",
     "navigation": {
-      "prev": "/doc/applicatieprofiel/begraafplaatsenbeheer/standaard/2018-11-27"
+      "prev": "/doc/applicatieprofiel/begraafplaatsenbeheer/erkendestandaard/2021-09-30"
     },
     "dummy": "3"
   },
@@ -283,7 +257,7 @@
     "name": "begraafplaats",
     "filename": "config/begraafplaats.json",
     "navigation": {
-      "prev": "/doc/vocabularium/openbaardomein/begraafplaats/standaard/2018-11-27"
+      "prev": "/doc/vocabularium/openbaardomein/begraafplaats/erkendestandaard/2021-09-30"
     },
     "dummy": "2"
   }
