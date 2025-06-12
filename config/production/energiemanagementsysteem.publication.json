@@ -7,12 +7,12 @@
         "filename": "config/energiemanagementsysteem-ap.json",
         "navigation": {
         },
-        "dummy" : "10"
+        "dummy" : "11"
     },
     {
         "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
         "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14",
         "type": "ap",
-        "dummy" : "10"
+        "dummy" : "11"
     }
   ]
