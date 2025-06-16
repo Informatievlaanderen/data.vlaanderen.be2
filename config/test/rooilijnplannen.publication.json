@@ -6,7 +6,7 @@
     "name": "rooilijnplannen-ap",
     "filename": "config/rooilijnplannen.json",
     "navigation": {},
-    "dummy": "50"
+    "dummy": "51"
   },
   {
     "urlref": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01",
@@ -15,18 +15,18 @@
     "name": "rooilijnplannen",
     "filename": "config/rooilijnplannen.json",
     "navigation": {},
-    "dummy": "50"
+    "dummy": "51"
   },
   {
     "urlref": "/doc/applicatieprofiel/rooilijnplannen",
     "seealso": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "type": "ap",
-    "dummy": "50"
+    "dummy": "51"
   },
   {
     "urlref": "/ns/rooilijnplannen",
     "seealso": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "type": "voc",
-    "dummy": "50"
+    "dummy": "51"
   }
 ]
