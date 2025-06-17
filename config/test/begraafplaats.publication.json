@@ -237,6 +237,9 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/begraafplaatsen/erkendestandaard/2021-09-30"
     },
+    "webuniversumgenerator": {
+      "parameters": "--inheritance true"
+    },
     "dummy": "2025-06-12 06:33:34"
   },
   {
