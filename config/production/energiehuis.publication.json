@@ -26,7 +26,7 @@
     "seealso": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/2025-01-09",
     "disabled": false,
     "type": "raw",
-    "dummy": "011",
+    "dummy": "012",
     "directory": "/doc/applicatieprofiel/energiehuis/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -144,7 +144,7 @@
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "0"
+    "dummy": "1"
   },
   {
     "urlref": "/doc/vocabularium/energiehuis/kandidaatstandaard/2025-05-12",
@@ -156,18 +156,18 @@
     "navigation": {
       "prev": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-02-18"
     },
-    "dummy": "0"
+    "dummy": "1"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiehuis",
     "seealso": "/doc/applicatieprofiel/energiehuis/kandidaatstandaard/2025-05-12",
     "type": "ap",
-    "dummy": "0"
+    "dummy": "1"
   },
   {
     "urlref": "/ns/energiehuis",
     "seealso": "/doc/vocabularium/energiehuis/kandidaatstandaard/2025-05-12",
     "type": "voc",
-    "dummy": "0"
+    "dummy": "1"
   }
 ]
