@@ -1,17 +1,17 @@
 [
   {
-    "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22",
+    "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse/kandidaatstandaard/2025-05-22",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-thermAI",
     "name": "thermografische-gebouwanalyse",
     "branchtag": "main",
     "filename": "config/ThermAI-ap.json",
     "navigation": {},
-    "dummy": "7"
+    "dummy": "8"
   },
   {
     "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse",
-    "seealso": "/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22",
+    "seealso": "/doc/applicatieprofiel/thermografische-gebouwanalyse/kandidaatstandaard/2025-05-22",
     "type": "ap",
-    "dummy": "7"
+    "dummy": "8"
   }
 ]
