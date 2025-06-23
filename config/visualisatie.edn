@@ -376,6 +376,6 @@
                       :clj-pipelines/dumpname             "rooilijnplannen-muuid.ttl.gz"} 
 :codelistmuuuid70    {:clj-pipelines/type                 :clj-pipelines/file-import
                       :clj-pipelines.file-import/filename "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/citerra-main/muuid.nt"
-                      :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/rooilijnplannen/muuuid"
+                      :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/citerra/muuuid"
                       :clj-pipelines/dumpname             "citerra-muuid.ttl.gz"} 
 }
