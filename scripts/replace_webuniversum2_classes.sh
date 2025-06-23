@@ -15,6 +15,12 @@ CLASS_MAPPINGS=(
     "h3:vl-title--h3"
     "h4:vl-title--h4"
     "h5:vl-title--h5"
+    "col--1-1--s:vl-col--1-1--s"
+    "col--3-12:vl-col--3-12"
+    "col--4-12--m:vl-col--4-12--m"
+    "col--8-12:vl-col--8-12"
+    "col--9-12:vl-col--9-12"
+    "col--12-12--s:vl-col--12-12--s"
 )
 
 # Input file (change this to your template file path)
@@ -70,69 +76,10 @@ for my $i (0..99) {  # Support up to 100 mappings
 # Sort mappings by length of old_class (longest first) to avoid substring issues
 @mappings = sort { length($b->[0]) <=> length($a->[0]) } @mappings;
 
-my $in_head = 0;
-my $replaced_links = 0;
-
 while (<>) {
     my $line = $_;
     
-    # Track if we're in the head section
-    if ($line =~ /<head[^>]*>/) {
-        $in_head = 1;
-    } elsif ($line =~ /<\/head>/) {
-        # Insert new link tags before </head> if we haven't already
-        if (!$replaced_links) {
-            print <<'LINKS';
-    <link rel="stylesheet" href="https://ui.vlaanderen.be/3.latest/css/vlaanderen-ui.css"/>
-    <link rel="stylesheet" href="https://ui.vlaanderen.be/3.latest/css/vlaanderen-ui-corporate.css"/>
-    <link
-      rel="icon"
-      sizes="192x192"
-      href="https://ui.vlaanderen.be/3.latest/icons/app-icon/icon-highres-precomposed.png"/>
-    <link
-      rel="apple-touch-icon"
-      href="https://ui.vlaanderen.be/3.latest/icons/app-icon/touch-icon-iphone-precomposed.png"/>
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="https://ui.vlaanderen.be/3.latest/icons/app-icon/touch-icon-ipad-precomposed.png"/>
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="https://ui.vlaanderen.be/3.latest/icons/app-icon/touch-icon-iphone-retina-precomposed.png"/>
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="https://ui.vlaanderen.be/3.latest/icons/app-icon/touch-icon-ipad-retina-precomposed.png"/>
-    <meta
-      name="msapplication-square70x70logo"
-      content="https://ui.vlaanderen.be/3.latest/icons/app-icon/tile-small.png"/>
-    <meta
-      name="msapplication-square150x150logo"
-      content="https://ui.vlaanderen.be/3.latest/icons/app-icon/tile-medium.png"/>
-    <meta
-      name="msapplication-wide310x150logo"
-      content="https://ui.vlaanderen.be/3.latest/icons/app-icon/tile-wide.png"/>
-    <meta
-      name="msapplication-square310x310logo"
-      content="https://ui.vlaanderen.be/3.latest/icons/app-icon/tile-large.png"/>
-    <meta name="msapplication-TileColor" content="#FFE615"/>
-    <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/node_modules/@govflanders/vl-widget-polyfill/dist/index.js"></script>
-LINKS
-            $replaced_links = 1;
-        }
-        $in_head = 0;
-    }
-    
-    # Skip existing link and meta tags in head section that we're replacing
-    if ($in_head && ($line =~ /<link[^>]*rel=["']?(stylesheet|icon|apple-touch-icon)["']?[^>]*>/ ||
-                     $line =~ /<meta[^>]*name=["']?msapplication-[^"']*["']?[^>]*>/ ||
-                     $line =~ /<meta[^>]*name=["']?msapplication-TileColor["']?[^>]*>/ ||
-                     $line =~ /<script[^>]*@govflanders\/vl-widget-polyfill[^>]*>/)) {
-        next; # Skip this line
-    }
-    
-    # Only process lines that contain class attributes for CSS class replacement
+    # Only process lines that contain class attributes
     if ($line =~ /class="/) {
         # Apply all mappings to class attributes only
         for my $mapping (@mappings) {
@@ -146,11 +93,6 @@ LINKS
             $line =~ s/(class="[^"]*?)(?<![a-zA-Z0-9_-])\Q$old\E(--[a-zA-Z0-9-]+)(?![a-zA-Z0-9_-])([^"]*")/$1$new$2$3/g;
             $line =~ s/(class="[^"]*?)(?<![a-zA-Z0-9_-])\Q$old\E(__[a-zA-Z0-9-]+)(?![a-zA-Z0-9_-])([^"]*")/$1$new$2$3/g;
         }
-    }
-    
-    # Update JavaScript URL to version 3
-    if ($line =~ /vlaanderen-ui\.js/) {
-        $line =~ s/ui\.vlaanderen\.be\/2\.latest/ui.vlaanderen.be\/3.latest/g;
     }
     
     print $line;
@@ -169,7 +111,7 @@ for i in "${!CLASS_MAPPINGS[@]}"; do
 done
 
 # Run the replacement
-echo "Processing all class replacements and link updates in a single pass..."
+echo "Processing all class replacements in a single pass..."
 perl temp_replace.pl "$INPUT_FILE" >"$OUTPUT_FILE.tmp"
 
 # Clean up
@@ -179,6 +121,7 @@ for i in "${!CLASS_MAPPINGS[@]}"; do
     unset "NEW_CLASS_$i"
 done
 
+# Count total replacements
 # Count total replacements
 for mapping in "${CLASS_MAPPINGS[@]}"; do
     IFS=':' read -r old_class new_class <<<"$mapping"
@@ -220,18 +163,6 @@ for mapping in "${CLASS_MAPPINGS[@]}"; do
     fi
 done
 
-# Count link replacements
-echo ""
-echo "Checking link tag updates..."
-old_link_count=$(grep -c "ui\.vlaanderen\.be/2\.latest" "$INPUT_FILE" 2>/dev/null || echo 0)
-new_link_count=$(grep -c "ui\.vlaanderen\.be/3\.latest" "$OUTPUT_FILE.tmp" 2>/dev/null || echo 0)
-link_replacements=$((new_link_count - $(grep -c "ui\.vlaanderen\.be/3\.latest" "$INPUT_FILE" 2>/dev/null || echo 0)))
-
-if [[ $link_replacements -gt 0 ]]; then
-    echo "  ✓ Updated $link_replacements Webuniversum links from v2 to v3"
-    total_replacements=$((total_replacements + link_replacements))
-fi
-
 echo ""
 echo "Summary:"
 echo "========"
@@ -246,10 +177,6 @@ if [[ $total_replacements -gt 0 ]]; then
         readable_key=$(echo "$key" | sed 's/_to_/ → /g')
         echo "  $readable_key: $value replacement(s)"
     done
-
-    if [[ $link_replacements -gt 0 ]]; then
-        echo "  Webuniversum v2 → v3 links: $link_replacements replacement(s)"
-    fi
 fi
 
 echo ""
@@ -398,35 +325,10 @@ for mapping in "${CLASS_MAPPINGS[@]}"; do
     fi
 done
 
-# Validate link updates
-echo ""
-echo "Validating link updates:"
-
-# Fix: Ensure variables are properly initialized as integers
-v2_links=$(grep -c "ui\.vlaanderen\.be/2\.latest" "$OUTPUT_FILE" 2>/dev/null) || v2_links=0
-
-# Strip any whitespace and ensure they're integers
-v2_links=$(echo "$v2_links" | tr -d ' \n\r')
-
-# Default to 0 if empty
-v2_links=${v2_links:-0}
-
-echo "Debug: v2_links='$v2_links', v3_links='$v3_links'"
-
-if [[ $v2_links -eq 0 ]] && [[ $v3_links -gt 0 ]]; then
-    echo "  ✅ SUCCESS: All Webuniversum links updated to v3 ($v3_links links found)"
-elif [[ $v2_links -gt 0 ]]; then
-    echo "  ⚠️  PARTIAL: $v2_links Webuniversum v2 links still remain, $v3_links v3 links found"
-else
-    echo "  ℹ️  INFO: No Webuniversum links found (v2: $v2_links, v3: $v3_links)"
-fi
-
 echo ""
 echo "Final Summary:"
 echo "=============="
 echo "✓ Webuniversum 3 conversion completed successfully!"
-echo "✓ CSS classes updated to Webuniversum 3"
-echo "✓ Link tags updated to Webuniversum 3"
 echo "✓ HTML formatting applied!"
 echo "✓ Output file: $OUTPUT_FILE"
 echo ""
