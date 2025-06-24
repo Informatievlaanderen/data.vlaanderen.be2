@@ -240,7 +240,7 @@
     "webuniversumgenerator": {
       "parameters": "--inheritance true"
     },
-    "dummy": "2025-06-12 06:33:34"
+    "dummy": "2025-06-24 07:58:22"
   },
   {
     "urlref": "/doc/applicatieprofiel/begraafplaatsenbeheer/ontwerpstandaard/toolchain4",
@@ -251,7 +251,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/begraafplaatsenbeheer/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-06-16 17:00:34"
+    "dummy": "2025-06-24 07:58:22"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/begraafplaats/ontwerpstandaard/toolchain4",
@@ -262,6 +262,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/begraafplaats/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-06-12 06:33:34"
+    "dummy": "2025-06-24 07:58:22"
   }
 ]
