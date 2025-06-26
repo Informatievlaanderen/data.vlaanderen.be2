@@ -6,12 +6,12 @@
     "branchtag": "main",
     "filename": "config/ThermAI-ap.json",
     "navigation": {},
-    "dummy": "10"
+    "dummy": "11"
   },
   {
     "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse",
     "seealso": "/doc/applicatieprofiel/thermografische-gebouwanalyse/kandidaatstandaard/2025-05-22",
     "type": "ap",
-    "dummy": "10"
+    "dummy": "11"
   }
 ]
