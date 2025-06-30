@@ -5,14 +5,19 @@
         "name": "energiemanagementsysteem",
         "branchtag": "main",
         "filename": "config/energiemanagementsysteem-ap.json",
-        "navigation": {
+        "navigation": {},
+        "contextgenerator": {
+            "parameters": "--addDomainPrefix true"
         },
-        "dummy" : "11"
+        "shaclgenerator": {
+            "parameters": ""
+        },
+        "dummy": "12"
     },
     {
         "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
         "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14",
         "type": "ap",
-        "dummy" : "11"
+        "dummy": "12"
     }
-  ]
+]
