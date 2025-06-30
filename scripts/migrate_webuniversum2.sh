@@ -1,18 +1,18 @@
 #!/bin/bash
- 
+
 # filepath: scripts/migrate_webuniversum2.sh
 # Script to recursively run webuniversum replacement scripts on files in a directory
- 
+
 # Parameters
 TARGET_DIR="${1:-.}"        # Default to current directory if not specified
 FILE_PATTERN="${2:-*.html}" # Default to .html files if not specified
 SCRIPT_TYPE="${3:-all}" # Default to classes script, can be "classes", "links", "tooltip", or combinations
- 
+
 SCRIPT_DIR=$(dirname "$0")
 CLASSES_SCRIPT="$SCRIPT_DIR/replace_webuniversum2_classes.sh"
 LINKS_SCRIPT="$SCRIPT_DIR/replace_webuniversum2_links.sh"
 TOOLTIP_SCRIPT="$SCRIPT_DIR/replace_webuniversum_tooltip.sh"
- 
+
 # Check if the target directory exists
 if [ ! -d "$TARGET_DIR" ]; then
     echo "Error: Directory '$TARGET_DIR' not found!"
@@ -21,10 +21,10 @@ if [ ! -d "$TARGET_DIR" ]; then
     echo "  Available combinations: classes, links, tooltip, classes+links, classes+tooltip, links+tooltip, all"
     exit 1
 fi
- 
+
 # Parse script types (support comma-separated and plus-separated values)
 IFS=',+' read -ra SCRIPT_TYPES <<<"$SCRIPT_TYPE"
- 
+
 # Normalize script types
 NORMALIZE_SCRIPTS=()
 for script in "${SCRIPT_TYPES[@]}"; do
@@ -44,18 +44,33 @@ for script in "${SCRIPT_TYPES[@]}"; do
         ;;
     esac
 done
- 
-# Remove duplicates
-SCRIPT_TYPES=($(printf "%s\n" "${NORMALIZE_SCRIPTS[@]}" | sort -u))
- 
+
+# Remove duplicates using bash 3.x compatible method
+SCRIPT_TYPES=()
+for script in "${NORMALIZE_SCRIPTS[@]}"; do
+    # Check if script is already in SCRIPT_TYPES array
+    already_exists=false
+    for existing in "${SCRIPT_TYPES[@]}"; do
+        if [[ "$existing" == "$script" ]]; then
+            already_exists=true
+            break
+        fi
+    done
+
+    # Add to array if not already present
+    if [[ "$already_exists" == false ]]; then
+        SCRIPT_TYPES+=("$script")
+    fi
+done
+
 if [ ${#SCRIPT_TYPES[@]} -eq 0 ]; then
     echo "Error: No valid script types specified!"
     echo "Valid options: classes, links, tooltip, both, all"
     exit 1
 fi
- 
+
 echo "Script types to run: ${SCRIPT_TYPES[*]}"
- 
+
 # Check if the requested script(s) exist
 for script_type in "${SCRIPT_TYPES[@]}"; do
     case "$script_type" in
@@ -79,20 +94,30 @@ for script_type in "${SCRIPT_TYPES[@]}"; do
         ;;
     esac
 done
- 
+
 # Find all files matching the pattern in the target directory and subdirectories
-# Exclude files that already have "_webuniversum3" in their name
-mapfile -t files < <(find "$TARGET_DIR" -type f -name "$FILE_PATTERN" | grep -v "_webuniversum3" || true)
+# Use bash 3.x compatible method instead of mapfile
+echo "Searching for files in '$TARGET_DIR' with pattern '$FILE_PATTERN'..."
+files=()
+while IFS= read -r -d '' file; do
+    # Skip files that already have "_webuniversum3" in their name
+    if [[ "$file" != *"_webuniversum3"* ]]; then
+        files+=("$file")
+    fi
+done < <(find "$TARGET_DIR" -type f -name "$FILE_PATTERN" -print0 2>/dev/null)
+
 file_count=${#files[@]}
- 
+
 if [ "$file_count" -eq 0 ]; then
     echo "No files matching '$FILE_PATTERN' found in '$TARGET_DIR'"
+    echo "Checking what files exist in the directory..."
+    find "$TARGET_DIR" -type f -name "*.html" -o -name "*.j2" | head -10
     exit 0
 fi
- 
+
 echo "Found $file_count files matching '$FILE_PATTERN' in '$TARGET_DIR'"
 echo "Starting webuniversum conversion using script types: ${SCRIPT_TYPES[*]}"
- 
+
 # Process each file
 classes_success=0
 classes_failure=0
@@ -100,12 +125,12 @@ links_success=0
 links_failure=0
 tooltip_success=0
 tooltip_failure=0
- 
+
 for file in "${files[@]}"; do
     echo "Processing: $file"
     current_file="$file"
     file_success=true
- 
+
     # Run scripts in order: classes, tooltip, links
     for script_type in "${SCRIPT_TYPES[@]}"; do
         case "$script_type" in
@@ -114,13 +139,13 @@ for file in "${files[@]}"; do
             if "$CLASSES_SCRIPT" "$current_file"; then
                 echo "  ✅ Successfully processed classes for: $file"
                 ((classes_success++))
- 
+
                 # Update current file to the output file for chaining
                 dirname=$(dirname "$current_file")
                 basename=$(basename "$current_file")
                 filename="${basename%.*}"
                 extension="${basename##*.}"
- 
+
                 if [[ "$basename" == "$filename" ]]; then
                     current_file="${dirname}/${filename}"
                 else
@@ -132,53 +157,53 @@ for file in "${files[@]}"; do
                 file_success=false
             fi
             ;;
- 
+
         "tooltip")
             echo "  Applying webuniversum tooltip conversion..."
             # Tooltip script modifies file in place, so we use current_file
             if "$TOOLTIP_SCRIPT" "$current_file"; then
-                echo "  ✅ Successfully processed tooltips for: $file"
+                echo "  ✅ Successfully processed tooltips for: $current_file"
                 ((tooltip_success++))
             else
-                echo "  ❌ Failed to process tooltips for: $file"
+                echo "  ❌ Failed to process tooltips for: $current_file"
                 ((tooltip_failure++))
                 file_success=false
             fi
             ;;
- 
+
         "links")
             echo "  Applying webuniversum links conversion..."
-            # Create a temporary file for links output since it doesn't work in-place
+            # Links script needs input and output files
             temp_links_file=$(mktemp)
             if "$LINKS_SCRIPT" "$current_file" "$temp_links_file"; then
                 mv "$temp_links_file" "$current_file"
-                echo "  ✅ Successfully processed links for: $file"
+                echo "  ✅ Successfully processed links for: $current_file"
                 ((links_success++))
             else
                 rm -f "$temp_links_file"
-                echo "  ❌ Failed to process links for: $file"
+                echo "  ❌ Failed to process links for: $current_file"
                 ((links_failure++))
                 file_success=false
             fi
             ;;
         esac
- 
+
         # If any script fails, break the chain for this file
         if [ "$file_success" = false ]; then
             break
         fi
     done
- 
+
     echo "-----------------------------------"
 done
- 
+
 echo ""
 echo "Conversion Summary:"
 echo "=================="
- 
+
 total_success=0
 total_failure=0
- 
+
 for script_type in "${SCRIPT_TYPES[@]}"; do
     case "$script_type" in
     "classes")
@@ -204,7 +229,7 @@ for script_type in "${SCRIPT_TYPES[@]}"; do
         ;;
     esac
 done
- 
+
 echo ""
 echo "Overall Summary:"
 echo "==============="
@@ -212,7 +237,7 @@ echo "Total files found: $file_count"
 echo "Total successful operations: $total_success"
 echo "Total failed operations: $total_failure"
 echo ""
- 
+
 if [ $total_failure -eq 0 ]; then
     echo "🎉 All conversions completed successfully!"
 else
