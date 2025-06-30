@@ -31,12 +31,16 @@ PERL_SCRIPT=$(mktemp)
 
 # New links to add - pass as an environment variable to Perl
 # If more webunversum links are needed, add more options here!
-export NEW_LINKS='    <link rel="stylesheet" href="https://data.vlaanderen.be/assets/css/index.css"/>
+export NEW_LINKS='
+    <link rel="stylesheet" href="https://data.vlaanderen.be/assets/css/index.css"/>
     <link rel="icon" sizes="192x192" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
     <link rel="apple-touch-icon" href="https://data.vlaanderen.be/assets/favicon/icons/apple-touch-icon.png"/>
     <link rel="apple-touch-icon" sizes="76x76" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
     <link rel="apple-touch-icon" sizes="120x120" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
-    <link rel="apple-touch-icon" sizes="152x152" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>'
+    <link rel="apple-touch-icon" sizes="152x152" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+    <script src="data.vlaanderen.be/assets/dist/core.js"/>
+    <script src="data.vlaanderen.be/assets/dist/tooltip.js"/>
+'
 
 # Write the Perl script to a file for cleaner execution
 cat >"$PERL_SCRIPT" <<'EOL'
