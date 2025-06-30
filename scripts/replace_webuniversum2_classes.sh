@@ -57,9 +57,6 @@ total_replacements=0
 replacement_keys=()
 replacement_values=()
 
-echo "Performing CSS class replacements..."
-echo ""
-
 create_perl_script() {
     cat >temp_replace.pl <<'EOF'
 use strict;
@@ -122,52 +119,6 @@ for i in "${!CLASS_MAPPINGS[@]}"; do
     unset "NEW_CLASS_$i"
 done
 
-# Count total replacements
-# Count total replacements
-for mapping in "${CLASS_MAPPINGS[@]}"; do
-    IFS=':' read -r old_class new_class <<<"$mapping"
-
-    echo "Checking replacements for '$old_class' → '$new_class'..."
-
-    # Count occurrences in original and new files using precise patterns
-    # FIXED: Ensure grep always returns a number, not empty string
-    old_count_original=$(grep -c "class=\"[^\"]*[[:space:]]${old_class}[[:space:]\"]" "$INPUT_FILE" 2>/dev/null || echo 0)
-    old_count_original=$((old_count_original + $(grep -c "class=\"${old_class}[[:space:]\"]" "$INPUT_FILE" 2>/dev/null || echo 0)))
-    old_count_original=$((old_count_original + $(grep -c "class=\"[^\"]*[[:space:]]${old_class}\"" "$INPUT_FILE" 2>/dev/null || echo 0)))
-    old_count_original=$((old_count_original + $(grep -c "class=\"${old_class}\"" "$INPUT_FILE" 2>/dev/null || echo 0)))
-
-    old_count_final=$(grep -c "class=\"[^\"]*[[:space:]]${old_class}[[:space:]\"]" "$OUTPUT_FILE.tmp" 2>/dev/null || echo 0)
-    old_count_final=$((old_count_final + $(grep -c "class=\"${old_class}[[:space:]\"]" "$OUTPUT_FILE.tmp" 2>/dev/null || echo 0)))
-    old_count_final=$((old_count_final + $(grep -c "class=\"[^\"]*[[:space:]]${old_class}\"" "$OUTPUT_FILE.tmp" 2>/dev/null || echo 0)))
-    old_count_final=$((old_count_final + $(grep -c "class=\"${old_class}\"" "$OUTPUT_FILE.tmp" 2>/dev/null || echo 0)))
-
-    new_count_final=$(grep -c "class=\"[^\"]*[[:space:]]${new_class}[[:space:]\"]" "$OUTPUT_FILE.tmp" 2>/dev/null || echo 0)
-    new_count_final=$((new_count_final + $(grep -c "class=\"${new_class}[[:space:]\"]" "$OUTPUT_FILE.tmp" 2>/dev/null || echo 0)))
-    new_count_final=$((new_count_final + $(grep -c "class=\"[^\"]*[[:space:]]${new_class}\"" "$OUTPUT_FILE.tmp" 2>/dev/null || echo 0)))
-    new_count_final=$((new_count_final + $(grep -c "class=\"${new_class}\"" "$OUTPUT_FILE.tmp" 2>/dev/null || echo 0)))
-
-    new_count_original=$(grep -c "class=\"[^\"]*[[:space:]]${new_class}[[:space:]\"]" "$INPUT_FILE" 2>/dev/null || echo 0)
-    new_count_original=$((new_count_original + $(grep -c "class=\"${new_class}[[:space:]\"]" "$INPUT_FILE" 2>/dev/null || echo 0)))
-    new_count_original=$((new_count_original + $(grep -c "class=\"[^\"]*[[:space:]]${new_class}\"" "$INPUT_FILE" 2>/dev/null || echo 0)))
-    new_count_original=$((new_count_original + $(grep -c "class=\"${new_class}\"" "$INPUT_FILE" 2>/dev/null || echo 0)))
-
-    replacements=$((old_count_original - old_count_final))
-
-    if [[ $replacements -gt 0 ]]; then
-        echo "  ✓ Replaced $replacements instances of '$old_class' CSS classes with '$new_class'"
-        # Store replacement info in regular arrays
-        replacement_keys+=("${old_class}_to_${new_class}")
-        replacement_values+=("$replacements")
-        total_replacements=$((total_replacements + replacements))
-    else
-        echo "  No CSS class replacements needed for '$old_class'"
-    fi
-done
-
-echo ""
-echo "Summary:"
-echo "========"
-echo "Total replacements made: $total_replacements"
 
 if [[ $total_replacements -gt 0 ]]; then
     echo ""

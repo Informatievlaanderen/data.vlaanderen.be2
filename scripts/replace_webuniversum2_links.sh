@@ -38,8 +38,8 @@ export NEW_LINKS='
     <link rel="apple-touch-icon" sizes="76x76" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
     <link rel="apple-touch-icon" sizes="120x120" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
     <link rel="apple-touch-icon" sizes="152x152" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
-    <script src="data.vlaanderen.be/assets/dist/core.js"/>
-    <script src="data.vlaanderen.be/assets/dist/tooltip.js"/>
+    <script src="https://data.vlaanderen.be/assets/dist/core.js"/>
+    <script src="https://data.vlaanderen.be/assets/dist/tooltip.js"/>
 '
 
 # Write the Perl script to a file for cleaner execution
