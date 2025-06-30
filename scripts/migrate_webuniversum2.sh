@@ -6,7 +6,7 @@
 # Parameters
 TARGET_DIR="${1:-.}"        # Default to current directory if not specified
 FILE_PATTERN="${2:-*.html}"   # Default to .html files if not specified
-SCRIPT_TYPE="${3:-classes}" # Default to classes script, can be "classes", "links", or "both"
+SCRIPT_TYPE="${3:-both}" # Default to classes script, can be "classes", "links", or "both"
 
 SCRIPT_DIR=$(dirname "$0")
 CLASSES_SCRIPT="$SCRIPT_DIR/replace_webuniversum2_classes.sh"
@@ -63,16 +63,15 @@ for file in "${files[@]}"; do
 
             # If we're running both scripts, update the current file to the output of the classes script
             if [[ "$SCRIPT_TYPE" == "both" ]]; then
-                # Determine the output filename with _webuniversum3 suffix
                 dirname=$(dirname "$current_file")
                 basename=$(basename "$current_file")
                 filename="${basename%.*}"
                 extension="${basename##*.}"
 
                 if [[ "$basename" == "$filename" ]]; then
-                    next_file="${dirname}/${filename}_webuniversum3"
+                    next_file="${dirname}/${filename}"
                 else
-                    next_file="${dirname}/${filename}_webuniversum3.${extension}"
+                    next_file="${dirname}/${filename}.${extension}"
                 fi
 
                 current_file="$next_file"
@@ -86,7 +85,7 @@ for file in "${files[@]}"; do
     # Run links script if requested
     if [[ "$SCRIPT_TYPE" == "links" || "$SCRIPT_TYPE" == "both" ]]; then
         echo "  Applying webuniversum links conversion..."
-        if "$LINKS_SCRIPT" "$current_file"; then
+        if "$LINKS_SCRIPT" "$current_file" "${current_file}"; then
             echo "  ✅ Successfully processed links for: $file"
             ((links_success++))
         else

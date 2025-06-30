@@ -75,7 +75,6 @@ NEW_COUNT=$(echo "$NEW_COUNT" | tr -d '[:space:]')
 echo "Original link count: $ORIG_COUNT"
 echo "New link count: $NEW_COUNT"
 echo "Links removed: $ORIG_COUNT"
-echo "Links added: 6"
 
 # Output the result
 if [ -n "$OUTPUT_FILE" ]; then

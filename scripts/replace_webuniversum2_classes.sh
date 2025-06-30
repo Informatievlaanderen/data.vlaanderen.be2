@@ -41,9 +41,9 @@ FILENAME="${BASENAME%.*}"
 EXTENSION="${BASENAME##*.}"
 
 if [[ "$BASENAME" == "$FILENAME" ]]; then
-    OUTPUT_FILE="${DIR}/${FILENAME}_webuniversum3"
+    OUTPUT_FILE="${DIR}/${FILENAME}"
 else
-    OUTPUT_FILE="${DIR}/${FILENAME}_webuniversum3.${EXTENSION}"
+    OUTPUT_FILE="${DIR}/${FILENAME}.${EXTENSION}"
 fi
 
 echo "CSS Class Replacement Script (Webuniversum 2 → 3)"
