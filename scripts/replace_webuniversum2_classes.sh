@@ -10,6 +10,7 @@ CLASS_MAPPINGS=(
     "introduction:vl-introduction"
     "side-navigation:vl-side-navigation"
     "main-content:vl-main-content"
+    "data-table":vl-data-table"
     "h1:vl-title--h1"
     "h2:vl-title--h2"
     "h3:vl-title--h3"
