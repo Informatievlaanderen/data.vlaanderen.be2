@@ -27,6 +27,7 @@ CLASS_MAPPINGS=(
     "col--9-12:vl-col--9-12"
     "col--12-12--s:vl-col--12-12--s"
     "push--1-12:vl-push--1-12"
+    "push--reset--m:vl-push--reset--m"
     "skiplink:vl-skiplink"
 
 )
