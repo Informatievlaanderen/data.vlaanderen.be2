@@ -88,34 +88,49 @@ while (my $line = <>) {
         next;
     }
     
-    # Replace tooltip attributes in anchor tags - more flexible pattern
+    # Replace tooltip attributes in <a> tags specifically
     if ($line =~ /data-toggle\s*=\s*["']tooltip["']/) {
         my $line_modified = 0;
         
-        # Add js-vl-tooltip class if class attribute exists
-        if ($line =~ /class\s*=\s*["']([^"']*?)["']/) {
-            my $existing_classes = $1;
-            if ($existing_classes !~ /\bjs-vl-tooltip\b/) {
-                $line =~ s/(class\s*=\s*["'])([^"']*?)(["'])/$1$2 js-vl-tooltip$3/;
+        # Use a more specific regex that targets <a> tags with data-toggle="tooltip"
+        # This pattern looks for <a tags followed by any attributes including data-toggle="tooltip"
+        while ($line =~ /(<a\s[^>]*?)(\s+data-toggle\s*=\s*["']tooltip["'])([^>]*>)/g) {
+            my $before_data_toggle = $1;
+            my $data_toggle_attr = $2;
+            my $after_data_toggle = $3;
+            my $full_original_tag = $before_data_toggle . $data_toggle_attr . $after_data_toggle;
+            
+            # Check if there's already a class attribute in this <a> tag
+            if ($before_data_toggle =~ /^(.*?)(\s+class\s*=\s*["']([^"']*?)["'])(.*?)$/i) {
+                my $before_class = $1;
+                my $class_attr_full = $2;
+                my $existing_classes = $3;
+                my $after_class = $4;
+                
+                # Add js-vl-tooltip if not already present
+                if ($existing_classes !~ /\bjs-vl-tooltip\b/) {
+                    my $new_classes = $existing_classes . " js-vl-tooltip";
+                    my $new_class_attr = " class=\"$new_classes\"";
+                    $before_data_toggle = $before_class . $new_class_attr . $after_class;
+                    $line_modified = 1;
+                }
+            } else {
+                # No class attribute exists in this <a> tag, add it
+                $before_data_toggle .= ' class="js-vl-tooltip"';
                 $line_modified = 1;
             }
-        } else {
-            # No class attribute exists, add it before the data-toggle
-            $line =~ s/(\s+)data-toggle/$1class="js-vl-tooltip" data-toggle/;
-            $line_modified = 1;
-        }
-        
-        # Remove data-toggle="tooltip"
-        $line =~ s/\s*data-toggle\s*=\s*["']tooltip["']//g;
-        $line_modified = 1;
-        
-        # Replace data-content with data-vl-tooltip-content
-        if ($line =~ s/data-content\s*=/data-vl-tooltip-content=/g) {
-            $line_modified = 1;
-        }
-        
-        # Replace data-placement with data-vl-tooltip-placement
-        if ($line =~ s/data-placement\s*=/data-vl-tooltip-placement=/g) {
+            
+            # Reconstruct the tag without data-toggle
+            my $new_tag = $before_data_toggle . $after_data_toggle;
+            
+            # Replace data-content with data-vl-tooltip-content in the new tag
+            $new_tag =~ s/\bdata-content\s*=/data-vl-tooltip-content=/g;
+            
+            # Replace data-placement with data-vl-tooltip-placement in the new tag
+            $new_tag =~ s/\bdata-placement\s*=/data-vl-tooltip-placement=/g;
+            
+            # Replace the original tag with the new tag in the line
+            $line =~ s/\Q$full_original_tag\E/$new_tag/g;
             $line_modified = 1;
         }
         
@@ -126,9 +141,6 @@ while (my $line = <>) {
     
     print $line;
 }
-
-print STDERR "TOOLTIP_COUNT:$total_tooltip_replacements\n";
-print STDERR "CSS_COUNT:$css_replacements\n";
 EOF
 
 # Run the Perl script and capture the replacement count

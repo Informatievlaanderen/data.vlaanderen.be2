@@ -9,8 +9,12 @@ CLASS_MAPPINGS=(
     "typography:vl-typography"
     "introduction:vl-introduction"
     "side-navigation:vl-side-navigation"
+    "js-sticky:vl-u-sticky"
     "main-content:vl-main-content"
+    # Remove the sortable part from it since there is no logic to actually sort the items inside the table
+    "data-table__header-title--sortable:data-table__header-title"
     "data-table:vl-data-table"
+    "u-table-overflow:vl-u-table-overflow"
     "h1:vl-title--h1"
     "h2:vl-title--h2"
     "h3:vl-title--h3"
@@ -22,7 +26,9 @@ CLASS_MAPPINGS=(
     "col--8-12:vl-col--8-12"
     "col--9-12:vl-col--9-12"
     "col--12-12--s:vl-col--12-12--s"
-    push--1-12:vl-push--1-12
+    "push--1-12:vl-push--1-12"
+    "skiplink:vl-skiplink"
+
 )
 
 # Input file (change this to your template file path)
@@ -119,7 +125,6 @@ for i in "${!CLASS_MAPPINGS[@]}"; do
     unset "OLD_CLASS_$i"
     unset "NEW_CLASS_$i"
 done
-
 
 if [[ $total_replacements -gt 0 ]]; then
     echo ""

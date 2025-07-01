@@ -6,7 +6,7 @@
 # Parameters
 TARGET_DIR="${1:-.}"        # Default to current directory if not specified
 FILE_PATTERN="${2:-*.html}" # Default to .html files if not specified
-SCRIPT_TYPE="${3:-all}" # Default to classes script, can be "classes", "links", "tooltip", or combinations
+SCRIPT_TYPE="${3:-all}"     # Default to classes script, can be "classes", "links", "tooltip", or combinations
 
 SCRIPT_DIR=$(dirname "$0")
 CLASSES_SCRIPT="$SCRIPT_DIR/replace_webuniversum2_classes.sh"
@@ -37,7 +37,7 @@ for script in "${SCRIPT_TYPES[@]}"; do
         NORMALIZE_SCRIPTS+=("classes" "links")
         ;;
     "all")
-        NORMALIZE_SCRIPTS+=("classes" "links" "tooltip")
+        NORMALIZE_SCRIPTS+=("links" "tooltip" "classes")
         ;;
     *)
         echo "Warning: Unknown script type '$script' ignored"
