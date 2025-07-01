@@ -186,10 +186,10 @@
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "2"
+    "dummy": "3"
   },
   {
-    "urlref": "/doc/vocabularium/energiehuis/kandidaatstandaard/2025-06-19",
+    "urlref": "/doc/vocabularium/energiehuis/erkendestandaard/2025-06-19",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis",
     "branchtag": "erkend_2025-06-19_v0.1.0",
     "name": "energiehuis",
@@ -198,18 +198,18 @@
     "navigation": {
       "prev": "/doc/vocabularium/energiehuis/kandidaatstandaard/2025-05-12"
     },
-    "dummy": "2"
+    "dummy": "3"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiehuis",
     "seealso": "/doc/applicatieprofiel/energiehuis/erkendestandaard/2025-06-19",
     "type": "ap",
-    "dummy": "2"
+    "dummy": "3"
   },
   {
     "urlref": "/ns/energiehuis",
     "seealso": "/doc/vocabularium/energiehuis/erkendestandaard/2025-06-19",
     "type": "voc",
-    "dummy": "2"
+    "dummy": "3"
   }
 ]
