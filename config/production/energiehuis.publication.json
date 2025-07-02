@@ -173,7 +173,7 @@
   {
     "urlref": "/doc/applicatieprofiel/energiehuis/erkendestandaard/2025-06-19",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis",
-    "branchtag": "erkend_2025-06-19_v0.1.0",
+    "branchtag": "erkend_2025-06-19_v0.2.0",
     "name": "energiehuis",
     "filename": "config/energiehuis-ap.json",
     "directory": "/doc/applicatieprofiel/energiehuis/erkendestandaard/2025-06-19",
@@ -186,30 +186,30 @@
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "3"
+    "dummy": "4"
   },
   {
     "urlref": "/doc/vocabularium/energiehuis/erkendestandaard/2025-06-19",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiehuis",
-    "branchtag": "erkend_2025-06-19_v0.1.0",
+    "branchtag": "erkend_2025-06-19_v0.2.0",
     "name": "energiehuis",
     "filename": "config/energiehuis-voc.json",
     "directory": "/doc/vocabularium/energiehuis/erkendestandaard/2025-06-19",
     "navigation": {
       "prev": "/doc/vocabularium/energiehuis/kandidaatstandaard/2025-05-12"
     },
-    "dummy": "3"
+    "dummy": "4"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiehuis",
     "seealso": "/doc/applicatieprofiel/energiehuis/erkendestandaard/2025-06-19",
     "type": "ap",
-    "dummy": "3"
+    "dummy": "4"
   },
   {
     "urlref": "/ns/energiehuis",
     "seealso": "/doc/vocabularium/energiehuis/erkendestandaard/2025-06-19",
     "type": "voc",
-    "dummy": "3"
+    "dummy": "4"
   }
 ]
