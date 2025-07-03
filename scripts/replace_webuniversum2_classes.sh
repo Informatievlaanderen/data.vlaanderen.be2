@@ -8,8 +8,9 @@ CLASS_MAPPINGS=(
     "grid:vl-grid"
     "typography:vl-typography"
     "introduction:vl-introduction"
+    "side-navigation js-sticky region:side-navigation js-sticky region"
+    "side-navigation js-sticky:vl-side-navigation vl-u-sticky vl-region"
     "side-navigation:vl-side-navigation"
-    "js-sticky:vl-u-sticky"
     "main-content:vl-main-content"
     # Remove the sortable part from it since there is no logic to actually sort the items inside the table
     "data-table__header-title--sortable:data-table__header-title"
@@ -29,16 +30,61 @@ CLASS_MAPPINGS=(
     "push--1-12:vl-push--1-12"
     "push--reset--m:vl-push--reset--m"
     "skiplink:vl-skiplink"
-
 )
 
-# Input file (change this to your template file path)
-INPUT_FILE="${1:-packages/oslo-generator-html/lib/templates/voc2.j2}"
+# Parse command line arguments
+VALIDATE=false
+INPUT_FILE=""
+
+show_usage() {
+    echo "Usage: $0 [options] input_file"
+    echo "Options:"
+    echo "  -v, --validate    Enable validation of class replacements (default: off)"
+    echo "  -h, --help        Show this help message"
+    echo ""
+    echo "Example:"
+    echo "  $0 templates/voc2.j2                    # Process without validation"
+    echo "  $0 --validate templates/voc2.j2         # Process with validation"
+}
+
+# Parse arguments
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        -v|--validate)
+            VALIDATE=true
+            shift
+            ;;
+        -h|--help)
+            show_usage
+            exit 0
+            ;;
+        -*)
+            echo "Unknown option: $1"
+            show_usage
+            exit 1
+            ;;
+        *)
+            if [[ -z "$INPUT_FILE" ]]; then
+                INPUT_FILE="$1"
+            else
+                echo "Error: Multiple input files specified"
+                show_usage
+                exit 1
+            fi
+            shift
+            ;;
+    esac
+done
+
+# Default input file if none provided
+if [[ -z "$INPUT_FILE" ]]; then
+    INPUT_FILE="packages/oslo-generator-html/lib/templates/voc2.j2"
+fi
 
 # Check if input file exists
 if [[ ! -f "$INPUT_FILE" ]]; then
     echo "Error: Input file '$INPUT_FILE' not found!"
-    echo "Usage: $0 [input_file]"
+    show_usage
     exit 1
 fi
 
@@ -58,6 +104,7 @@ echo "CSS Class Replacement Script (Webuniversum 2 → 3)"
 echo "================================================="
 echo "Input file: $INPUT_FILE"
 echo "Output file: $OUTPUT_FILE"
+echo "Validation: $([ "$VALIDATE" = true ] && echo "enabled" || echo "disabled")"
 echo ""
 
 total_replacements=0
@@ -247,42 +294,49 @@ echo ""
 echo "Webuniversum 3 file created: $OUTPUT_FILE"
 echo ""
 
-# FINAL VALIDATION - Uses precise class matching to avoid false positives
-echo "Final Validation:"
-echo "================="
-echo "Analyzing the generated output file for class replacement success..."
-echo ""
+# CONDITIONAL VALIDATION - Only run if --validate flag is provided
+if [[ "$VALIDATE" = true ]]; then
+    echo "Final Validation:"
+    echo "================="
+    echo "Analyzing the generated output file for class replacement success..."
+    echo ""
 
-for mapping in "${CLASS_MAPPINGS[@]}"; do
-    IFS=':' read -r old_class new_class <<<"$mapping"
+    for mapping in "${CLASS_MAPPINGS[@]}"; do
+        IFS=':' read -r old_class new_class <<<"$mapping"
 
-    echo "Validating mapping: '$old_class' → '$new_class'"
+        echo "Validating mapping: '$old_class' → '$new_class'"
 
-    # Count old classes remaining in the OUTPUT file (should be 0)
-    old_total=$(count_exact_class_matches "$old_class" "$OUTPUT_FILE")
+        # Count old classes remaining in the OUTPUT file (should be 0)
+        old_total=$(count_exact_class_matches "$old_class" "$OUTPUT_FILE")
 
-    # Count new classes present in the OUTPUT file
-    new_total=$(count_exact_class_matches "$new_class" "$OUTPUT_FILE")
+        # Count new classes present in the OUTPUT file
+        new_total=$(count_exact_class_matches "$new_class" "$OUTPUT_FILE")
 
-    # Calculate how many replacements were made for this mapping
-    original_old_count=$(count_exact_class_matches "$old_class" "$INPUT_FILE")
-    original_new_count=$(count_exact_class_matches "$new_class" "$INPUT_FILE")
-    replacements_made=$((new_total - original_new_count))
+        # Calculate how many replacements were made for this mapping
+        original_old_count=$(count_exact_class_matches "$old_class" "$INPUT_FILE")
+        original_new_count=$(count_exact_class_matches "$new_class" "$INPUT_FILE")
+        replacements_made=$((new_total - original_new_count))
 
-    if [[ $original_old_count -gt 0 ]]; then
-        if [[ $old_total -eq 0 ]]; then
-            echo "  ✅ SUCCESS: All $replacements_made instances of '$old_class' were replaced with '$new_class'"
+        if [[ $original_old_count -gt 0 ]]; then
+            if [[ $old_total -eq 0 ]]; then
+                echo "  ✅ SUCCESS: All $replacements_made instances of '$old_class' were replaced with '$new_class'"
+            else
+                echo "  ⚠️  PARTIAL: $replacements_made replaced, but $old_total instances of '$old_class' still remain"
+            fi
         else
-            echo "  ⚠️  PARTIAL: $replacements_made replaced, but $old_total instances of '$old_class' still remain"
+            if [[ $new_total -gt 0 ]]; then
+                echo "  ℹ️  INFO: No '$old_class' found in input, but $new_total instances of '$new_class' exist in output"
+            else
+                echo "  ℹ️  INFO: No instances of '$old_class' or '$new_class' found"
+            fi
         fi
-    else
-        if [[ $new_total -gt 0 ]]; then
-            echo "  ℹ️  INFO: No '$old_class' found in input, but $new_total instances of '$new_class' exist in output"
-        else
-            echo "  ℹ️  INFO: No instances of '$old_class' or '$new_class' found"
-        fi
-    fi
-done
+    done
+
+    echo ""
+    echo "All validation completed!"
+else
+    echo "Validation skipped (use --validate flag to enable)"
+fi
 
 echo ""
 echo "Final Summary:"
@@ -291,4 +345,3 @@ echo "✓ Webuniversum 3 conversion completed successfully!"
 echo "✓ HTML formatting applied!"
 echo "✓ Output file: $OUTPUT_FILE"
 echo ""
-echo "All validation completed!"

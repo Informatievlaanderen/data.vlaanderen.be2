@@ -100,23 +100,45 @@ done
 echo "Searching for files in '$TARGET_DIR' with pattern '$FILE_PATTERN'..."
 files=()
 while IFS= read -r -d '' file; do
-    # Skip files that already have "_webuniversum3" in their name
-    if [[ "$file" != *"_webuniversum3"* ]]; then
-        files+=("$file")
+    # Extract just the filename from the full path
+    filename=$(basename "$file")
+
+    # Only include files that:
+    # 1. Start with "index"
+    # 2. End with ".html"
+    # 3. Don't already have "_webuniversum3" in their name
+    if [[ "$filename" == index*.html ]]; then
+        # Additional filter: exclude files that start with something other than "index"
+        # (e.g., exclude "respec_index.html" but include "index_nl.html")
+        if [[ "$filename" =~ ^index.*\.html$ ]]; then
+            files+=("$file")
+        fi
     fi
 done < <(find "$TARGET_DIR" -type f -name "$FILE_PATTERN" -print0 2>/dev/null)
 
 file_count=${#files[@]}
 
 if [ "$file_count" -eq 0 ]; then
-    echo "No files matching '$FILE_PATTERN' found in '$TARGET_DIR'"
+    echo "No index*.html files matching '$FILE_PATTERN' found in '$TARGET_DIR'"
     echo "Checking what files exist in the directory..."
-    find "$TARGET_DIR" -type f -name "*.html" -o -name "*.j2" | head -10
+    echo "All HTML files found:"
+    find "$TARGET_DIR" -type f -name "*.html" | head -10
+    echo ""
+    echo "Files starting with 'index':"
+    find "$TARGET_DIR" -type f -name "index*.html" | head -10
     exit 0
 fi
 
-echo "Found $file_count files matching '$FILE_PATTERN' in '$TARGET_DIR'"
+echo "Found $file_count index*.html files matching '$FILE_PATTERN' in '$TARGET_DIR'"
 echo "Starting webuniversum conversion using script types: ${SCRIPT_TYPES[*]}"
+
+# List the files that will be processed
+echo ""
+echo "Files to be processed:"
+for file in "${files[@]}"; do
+    echo "  - $file"
+done
+echo ""
 
 # Process each file
 classes_success=0
@@ -147,9 +169,9 @@ for file in "${files[@]}"; do
                 extension="${basename##*.}"
 
                 if [[ "$basename" == "$filename" ]]; then
-                    current_file="${dirname}/${filename}"
+                    current_file="${dirname}/${filename}_webuniversum3"
                 else
-                    current_file="${dirname}/${filename}.${extension}"
+                    current_file="${dirname}/${filename}_webuniversum3.${extension}"
                 fi
             else
                 echo "  ❌ Failed to process classes for: $file"
