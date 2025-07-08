@@ -497,7 +497,10 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/begroeid-voorkomen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-06-11 07:27:04"
+    "webuniversumgenerator": {
+      "parameters": "--inheritance true"
+    },
+    "dummy": "2025-07-08 14:10:31"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/begroeidvoorkomen/ontwerpstandaard/toolchain4",
@@ -508,7 +511,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/begroeidvoorkomen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-06-11 07:27:04"
+    "dummy": "2025-07-08 14:10:31"
   },
   {
     "urlref": "/doc/applicatieprofiel/onbegroeid-voorkomen/ontwerpstandaard/toolchain4",
@@ -519,7 +522,10 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/onbegroeid-voorkomen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-06-11 07:27:04"
+    "webuniversumgenerator": {
+      "parameters": "--inheritance true"
+    },
+    "dummy": "2025-07-08 14:10:31"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/ontwerpstandaard/toolchain4",
@@ -530,7 +536,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-06-11 07:27:04"
+    "dummy": "2025-07-08 14:10:31"
   },
   {
     "urlref": "/doc/applicatieprofiel/watervoorkomen/ontwerpstandaard/toolchain4",
@@ -541,7 +547,10 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/watervoorkomen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-06-11 07:27:04"
+    "webuniversumgenerator": {
+      "parameters": "--inheritance true"
+    },
+    "dummy": "2025-07-08 14:10:31"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/watervoorkomen/ontwerpstandaard/toolchain4",
@@ -552,6 +561,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/watervoorkomen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-06-11 07:27:04"
+    "dummy": "2025-07-08 14:10:31"
   }
 ]
