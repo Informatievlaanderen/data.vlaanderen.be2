@@ -195,13 +195,12 @@ jobs:
       - run:
           name: List the files which have been created
           command: |
-            if [ -d /tmp/workspace/doc ] ; then ls -al /tmp/workspace/doc/* ; fi || true
             if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
+            - target
             - report4/jsonld-validation
-            - target 
   render-respec-html-details-4:
     docker:
       - image: cimg/node:20.15.0

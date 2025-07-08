@@ -390,12 +390,16 @@ validate_jsonld() {
     mkdir -p ${RLINE}
 
     REPORTFILE=${RLINE}/jsonld-validation.report.md
-    echo "${REPORTFILE}"
-    echo "${REPORTLINEPREFIX}oslo-jsonld-validator for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
+    echo "REPORT FILE: ${REPORTFILE}"
+    echo "REPORTLINE: ${REPORTLINEPREFIX}oslo-jsonld-validator for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
+    
+    echo "Running oslo-jsonld-validator command..."
+    echo "Command: oslo-jsonld-validator --input ${MERGEDFILE} --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json"
+    
     oslo-jsonld-validator --input ${MERGEDFILE} \
         --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json \
-        >>${REPORTFILE} 2>&1
+        2>&1 | tee -a ${REPORTFILE}
 
     echo ${RLINE}/jsonld-validation.report.md
 }
