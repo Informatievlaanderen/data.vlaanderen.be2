@@ -171,6 +171,36 @@ jobs:
           paths:
             - target/
             - report4/html
+  validate-jsonld-4:
+    docker:
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - run:
+          name: touch a file
+          command: |
+            mkdir -p /tmp/workspace/report4/jsonld-validation
+            touch /tmp/workspace/report4/jsonld-validation/.ignore
+      - run:
+          name: install software
+          command: |
+            sudo npm install --global @oslo-flanders/jsonld-validator
+      - run:
+          name: Validate OSLO jsonld
+          command: |
+            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace validation ${CIRCLEWKD}/config
+      - run:
+          name: List the files which have been created
+          command: |
+            if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - target
+            - report4/jsonld-validation
   render-respec-html-details-4:
     docker:
       - image: cimg/node:20.15.0
@@ -424,6 +454,12 @@ jobs:
             else
               echo "No shacl directory found"
             fi
+            if [ -d "${RLINE}/jsonld-validation" ]; then
+              cp -r ${RLINE}/jsonld-validation/* ${RLINE} || true
+              rm -rf ${RLINE}/jsonld-validation
+            else
+              echo "No jsonld-validation directory found"
+            fi
       - run:
           name: download global overview memory
           working_directory: /tmp/workspace
@@ -516,6 +552,7 @@ jobs:
             rm -rf rdf
             rm -rf respec
             rm -rf shacl
+            rm -rf jsonld-validation
       - run:
           name: Copy generated assets
           working_directory: /tmp/workspace
@@ -595,6 +632,10 @@ workflows:
           generatedRepoFingerprint: "$$SSHKEYFINGERPRINT"
           requires:
             - extract-jsonld-details-4
+      - validate-jsonld-4:
+          requires:
+            - render-translation-4
+            - extract-jsonld-details-4
       - render-rdf-details-4:
           requires:
             - render-translation-4
@@ -629,6 +670,7 @@ workflows:
             - render-rdf-details-4
             - render-html-details-4
             - render-respec-html-details-4
+            - validate-jsonld-4
             # - render-example-templates
             - copy-raw
       - create-artifact:
