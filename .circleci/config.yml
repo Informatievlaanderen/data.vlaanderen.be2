@@ -572,6 +572,7 @@ jobs:
             rm -rf rdf
             rm -rf respec
             rm -rf shacl
+            rm -rf jsonld-validation
       - run:
           name: Copy generated assets
           working_directory: /tmp/workspace
