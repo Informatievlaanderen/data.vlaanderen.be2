@@ -51,7 +51,7 @@ function update (source) {
     .style('fill', function (d) { return d._children ? 'lightsteelblue' : '#fff' })
 
 nodeEnter.append('a')
-    .attr('xlink:href', function (d) {return '#' + d.target || '#' + d.name})
+    .attr('xlink:href', function (d) {return d.target ? '#' + d.target : '#' + d.name })
     .append('text')
     .attr('x', function (d) { return d.children || d._children ? -13 : 13 })
     .attr('dy', '.35em')
