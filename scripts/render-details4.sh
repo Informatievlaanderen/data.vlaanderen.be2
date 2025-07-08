@@ -135,7 +135,7 @@ render_report_header() {
             ["ctx"]="JSON-LD Context file generation"
             ["rdf"]="RDF file generation"
             ["shcl"]="SHACL file generation"
-            ["ns"]="Validate the used namespaces in the jsonld"
+            ["val"]="Validate the jsonld"
             ["issu"]="Open Issues"
         )
 
@@ -148,7 +148,7 @@ render_report_header() {
         echo "</details>" >>${OVERVIEW}
         echo "" >>${OVERVIEW}
 
-        echo "| Specification | tag | uml | stak | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | ns | issu  |" >>${OVERVIEW}
+        echo "| Specification | tag | uml | stak | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | val | issu  |" >>${OVERVIEW}
         echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >>${OVERVIEW}
 
     fi
