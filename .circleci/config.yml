@@ -689,6 +689,7 @@ workflows:
             - render-rdf-details-4
             - render-html-details-4
             - render-respec-html-details-4
+            - validate-jsonld-4
             # - render-example-templates
             - copy-raw
       - create-artifact:
