@@ -379,8 +379,7 @@ validate_jsonld() {
     mkdir -p ${RLINE}
 
     REPORTFILE=${RLINE}/jsonld-validation.report.md
-    echo "REPORT FILE: ${REPORTFILE}"
-    echo "REPORTLINE: ${REPORTLINEPREFIX}oslo-jsonld-validator ${REPORTLINENEWLINE}" &>>${REPORTFILE}
+    echo "${REPORTLINEPREFIX}oslo-jsonld-validator ${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
 
     oslo-jsonld-validator --input ${MERGEDFILE} \
