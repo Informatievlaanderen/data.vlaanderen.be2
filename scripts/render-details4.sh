@@ -388,6 +388,8 @@ validate_jsonld() {
         2>&1 | tee -a ${REPORTFILE}
 
     echo ${REPORTFILE}
+    echo "RENDER-DETAILS(JSONLD-VALIDATION): File was rendered in ${REPORTFILE}"
+
 }
 
 render_translationfiles() {
