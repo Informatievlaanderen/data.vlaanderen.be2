@@ -124,6 +124,7 @@ render_report_header() {
         terms=(
             ["tag"]="Branchtag check"
             ["uml"]="Extraction of the data out of the UML"
+            ["val"]="Validate the jsonld"
             ["stak"]="Validate and convert the stakeholders"
             ["trns"]="Translation files generation, based on existing translation files"
             ["aut"]="Autotranslate the translation files, if active"
@@ -135,7 +136,6 @@ render_report_header() {
             ["ctx"]="JSON-LD Context file generation"
             ["rdf"]="RDF file generation"
             ["shcl"]="SHACL file generation"
-            ["val"]="Validate the jsonld"
             ["issu"]="Open Issues"
         )
 
@@ -148,7 +148,7 @@ render_report_header() {
         echo "</details>" >>${OVERVIEW}
         echo "" >>${OVERVIEW}
 
-        echo "| Specification | tag | uml | stak | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | val | issu  |" >>${OVERVIEW}
+        echo "| Specification | tag | uml | val | stak | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | issu |" >>${OVERVIEW}
         echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >>${OVERVIEW}
 
     fi
