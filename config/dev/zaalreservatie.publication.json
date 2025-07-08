@@ -21,12 +21,12 @@
     "name": "zaalreservatie",
     "filename": "config/zaalreservatie-voc.json",
     "navigation": {},
-    "dummy": "020"
+    "dummy": "021"
   },
   {
     "urlref": "/ns/zaalreservatie",
     "seealso": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
     "type": "voc",
-    "dummy": "015"
+    "dummy": "016"
   }
 ]
