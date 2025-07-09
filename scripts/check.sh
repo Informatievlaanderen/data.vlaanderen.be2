@@ -9,18 +9,21 @@ FILE=$1
 TARGETDIR=$2
 EXITCODE=${3:-false}
 
+# global config
+REPORTLINEPREFIX='#||# '
+
 TMPFILE=/tmp/tocheck.json
 echo '0' > /tmp/checkexit
 
 #echo "Checking ${FILE}"
-echo "Directory check"
+echo "${REPORTLINEPREFIX}Directory check"
 
 # test directory
 jq --arg trg ${TARGETDIR} '[ .[] | $trg + .urlref ]' ${FILE} > ${TMPFILE}
 jq --arg trg ${TARGETDIR} --arg ex ${EXITCODE} -r  '.[]  | @sh " if ! [ -d \(.) ] ; then  echo \"error: missing \(.)\" ; echo \"1\" > /tmp/checkexit ; fi" ' ${TMPFILE} | bash -e 
 
-echo ""
-echo "index.html check"
+echo "${REPORTLINEPREFIX}"
+echo "${REPORTLINEPREFIX}index.html check"
 
 # test index.html in the directory 
 # should have the same conclusion as above

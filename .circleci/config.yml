@@ -581,6 +581,7 @@ jobs:
       - run:
           name: check the existence of all publication points
           command: |
+            bash
             $PWD/scripts/validate_publicationpoints.sh $PWD/config /tmp/generated false > /tmp/generated/report4/existence_publicationpoints.report.md
             #$PWD/scripts/validate_publicationpoints.sh $PWD/config /tmp/generated true # enable this line to make the test blocking
       - run:
