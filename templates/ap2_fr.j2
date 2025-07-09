@@ -1,26 +1,31 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTDXHTML1.0Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xml:lang="{{ language }}" lang="{{ language }}" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="{{ language }}" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p:
-            http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
+               http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
    <head>
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="msapplication-square70x70logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-small.png"/>
-    <meta name="msapplication-square150x150logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-medium.png"/>
-    <meta name="msapplication-wide310x150logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-wide.png"/>
-    <meta name="msapplication-square310x310logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-large.png"/>
-    <meta name="msapplication-TileColor" content="#FFE615"/>
-
-
-    <link rel="stylesheet" href="https://data.vlaanderen.be/assets/css/index.css"/>
-    <link rel="icon" sizes="192x192" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
-    <link rel="apple-touch-icon" href="https://data.vlaanderen.be/assets/favicon/icons/apple-touch-icon.png"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
-    <link rel="apple-touch-icon" sizes="120x120" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
-    <link rel="apple-touch-icon" sizes="152x152" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
-
-      {% set name = data.metadata.title|lower|replace(' ', '-') %}
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta name="msapplication-square70x70logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-small.png"/>
+      <meta name="msapplication-square150x150logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-medium.png"/>
+      <meta name="msapplication-wide310x150logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-wide.png"/>
+      <meta name="msapplication-square310x310logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-large.png"/>
+      <meta name="msapplication-TileColor" content="#FFE615"/>
+      <link rel="stylesheet" href="https://data.vlaanderen.be/assets/css/index.css"/>
+      <link rel="icon" sizes="192x192" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+      <link rel="apple-touch-icon" href="https://data.vlaanderen.be/assets/favicon/icons/apple-touch-icon.png"/>
+      <link
+         rel="apple-touch-icon"
+         sizes="76x76"
+         href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+      <link
+         rel="apple-touch-icon"
+         sizes="120x120"
+         href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+      <link
+         rel="apple-touch-icon"
+         sizes="152x152"
+         href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+         {% set name = data.metadata.title|lower|replace(' ', '-') %}
       <title>{{ data.metadata.title }}</title>
       <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/node_modules/@govflanders/vl-widget-polyfill/dist/index.js"></script>
    </head>
@@ -428,7 +433,7 @@
                                     {% endif %}
                                  </div>
                               {% endfor %}
-                              {% if data.dataTypes %}
+                              {% if ( ( data.dataTypes | length ) > 0 ) %}
                                  <div class="vl-region vl-region.vl-region--no-space-top">
                                     <h2 class="vl-title--h2">Types de données</h2>
                                  </div>
@@ -677,7 +682,7 @@
                                        </table>
                                     </div>
                                  </div>
-                                 <div class="vl-col--2-12 vl-col--12-12--s vl-push--1-12" id="sideNav">
+                                 <div class="vl-col--3-12 vl-col--12-12--s push--1-12" id="sideNav">
                                     <nav class="vl-side-navigation vl-u-sticky vl-region vl-region" id="sideNav">
                                        <div class="vl-side-navigation__content js-scrollspy">
                                           <div class="vl-side-navigation__group">
@@ -765,11 +770,9 @@
                            max-width: 128rem;
                         }
                      </style>
-                  
-    <script src="https://data.vlaanderen.be/assets/dist/core.js"></script>
-    <script src="https://data.vlaanderen.be/assets/dist/tooltip.js"></script>
-
-</body>
+                     <script src="https://data.vlaanderen.be/assets/dist/core.js"></script>
+                     <script src="https://data.vlaanderen.be/assets/dist/tooltip.js"></script>
+                  </body>
                </html>
             </body>
          </html>
