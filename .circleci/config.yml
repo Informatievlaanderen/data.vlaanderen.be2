@@ -20,9 +20,9 @@ jobs:
           command: $PWD/scripts/findPublicationsToUpdate.sh /tmp/workspace $PWD/config/publication.json $PWD/
       - run:
           command: $PWD/scripts/checkoutRepositories.sh /tmp/workspace $PWD/config/publication.json $PWD/config
-#      - run:
-#          command: $PWD/scripts/upgrade_config-4.sh /tmp/workspace $PWD/config 
-#          This is executed in next step
+      #      - run:
+      #          command: $PWD/scripts/upgrade_config-4.sh /tmp/workspace $PWD/config
+      #          This is executed in next step
       - run: if [ -e /tmp/workspace/checkouts.txt ] ; then cat /tmp/workspace/checkouts.txt ; fi
       - run: if [ -e /tmp/workspace/rawcheckouts.txt ] ; then cat /tmp/workspace/rawcheckouts.txt ; fi
       - run: if [ -e /home/circleci/project/changes.txt ] ; then cat /home/circleci/project/changes.txt ; fi
@@ -58,7 +58,7 @@ jobs:
           name: install software stakeholders
           command: sudo npm install --global @oslo-flanders/stakeholders-converter
       - run:
-          name: upgrade configs to this toolchain 
+          name: upgrade configs to this toolchain
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             ${CIRCLEWKD}/scripts/upgrade_config-4.sh /tmp/workspace ${CIRCLEWKD}/config
@@ -171,6 +171,36 @@ jobs:
           paths:
             - target/
             - report4/html
+  validate-jsonld-4:
+    docker:
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - run:
+          name: touch a file
+          command: |
+            mkdir -p /tmp/workspace/report4/jsonld-validation
+            touch /tmp/workspace/report4/jsonld-validation/.ignore
+      - run:
+          name: install software
+          command: |
+            sudo npm install --global @oslo-flanders/jsonld-validator
+      - run:
+          name: Validate OSLO jsonld
+          command: |
+            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace validation ${CIRCLEWKD}/config
+      - run:
+          name: List the files which have been created
+          command: |
+            if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - target
+            - report4/jsonld-validation
   render-respec-html-details-4:
     docker:
       - image: cimg/node:20.15.0
@@ -192,9 +222,9 @@ jobs:
             mkdir -p /tmp/workspace/target /tmp/workspace/reporthtml
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace respec ${CIRCLEWKD}/config
-#      - run:
-#          name: copy the site-skeleton for the html -- XXX to be activated when only using this as hmtl renderer / or updated with a target to disambiguate 
-#          command: $PWD/scripts/copy_skeleton.sh
+      #      - run:
+      #          name: copy the site-skeleton for the html -- XXX to be activated when only using this as hmtl renderer / or updated with a target to disambiguate
+      #          command: $PWD/scripts/copy_skeleton.sh
       - run:
           name: List the files which have been created
           command: |
@@ -220,7 +250,7 @@ jobs:
           name: install software
           command: sudo npm install --global @oslo-flanders/rdf-vocabulary-generator
       - run:
-          name: Render RDF version 
+          name: Render RDF version
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
             ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace rdf ${CIRCLEWKD}/config
@@ -373,6 +403,11 @@ jobs:
       - attach_workspace:
           at: /tmp/workspace
       - run:
+          name: install gh cli
+          command: |
+            sudo apt-get update
+            sudo apt-get -y install gh
+      - run:
           name: Copy raw assets
           working_directory: /tmp/workspace
           command: |
@@ -390,34 +425,40 @@ jobs:
 
             # Check if the directories exist
             if [ -d "${RLINE}/context" ]; then
-              cp -r ${RLINE}/context/* ${RLINE}
+              cp -r ${RLINE}/context/* ${RLINE} || true
               rm -rvf ${RLINE}/context
             else
               echo "No context directory found"
             fi
             if [ -d "${RLINE}/rdf" ]; then
-              cp -r ${RLINE}/rdf/* ${RLINE}
+              cp -r ${RLINE}/rdf/* ${RLINE} || true
               rm -rvf ${RLINE}/rdf
             else
               echo "No rdf directory found"
             fi
             if [ -d "${RLINE}/html" ]; then
-              cp -r ${RLINE}/html/* ${RLINE}
+              cp -r ${RLINE}/html/* ${RLINE} || true
               rm -rf ${RLINE}/html
             else
               echo "No html directory found"
             fi
             if [ -d "${RLINE}/respec" ]; then
-              cp -r ${RLINE}/respec/* ${RLINE}
+              cp -r ${RLINE}/respec/* ${RLINE} || true
               rm -rf ${RLINE}/respec
             else
               echo "No respec directory found"
             fi
             if [ -d "${RLINE}/shacl" ]; then
-              cp -r ${RLINE}/shacl/* ${RLINE}
+              cp -r ${RLINE}/shacl/* ${RLINE} || true
               rm -rf ${RLINE}/shacl
             else
               echo "No shacl directory found"
+            fi
+            if [ -d "${RLINE}/jsonld-validation" ]; then
+              cp -r ${RLINE}/jsonld-validation/* ${RLINE} || true
+              rm -rf ${RLINE}/jsonld-validation
+            else
+              echo "No jsonld-validation directory found"
             fi
       - run:
           name: download global overview memory
@@ -496,12 +537,12 @@ jobs:
           command: |
             cp -R site-skeleton/* /tmp/generated/
       - run:
-          name: deploy statistics 
+          name: deploy statistics
           command: |
-           export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-           pushd ${CIRCLEWKD}/statistics
-           ./deploy.sh ${CIRCLEWKD}/config /tmp/generated
-           popd
+            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            pushd ${CIRCLEWKD}/statistics
+            ./deploy.sh ${CIRCLEWKD}/config /tmp/generated
+            popd
       - run:
           name: clean report directory
           working_directory: /tmp/workspace/report4
@@ -511,6 +552,7 @@ jobs:
             rm -rf rdf
             rm -rf respec
             rm -rf shacl
+            rm -rf jsonld-validation
       - run:
           name: Copy generated assets
           working_directory: /tmp/workspace
@@ -529,13 +571,13 @@ jobs:
           command: |
             ls -1
             if [ -d autotranslation ] ; then tar -zcf autotranslation.tgz autotranslation ; cp autotranslation.tgz /tmp/generated/autotranslation.tgz ; fi
-#      - run:
-#          name: check if all publication points are generated
-#          working_directory: /tmp/generated
-#          command: |
-#            ls -al *
-#            if [ -d report ] ; then ls -al report/* || ls -al report ; fi
-#            find report
+      #      - run:
+      #          name: check if all publication points are generated
+      #          working_directory: /tmp/generated
+      #          command: |
+      #            ls -al *
+      #            if [ -d report ] ; then ls -al report/* || ls -al report ; fi
+      #            find report
       - run:
           name: check the existence of all publication points
           command: |
@@ -546,7 +588,7 @@ jobs:
           command: |
             $PWD/scripts/remove_obsolete_publicationpoints.sh $PWD/config /tmp/generated false > /tmp/generated/report4/support_publicationpoints.report.md
       - run:
-          name: make summary 
+          name: make summary
           command: |
             rm -rf /tmp/generated/report4/publicationpoint.report.md
             $PWD/scripts/render_publicationpointsstatus.sh /tmp/generated/report4/publicationpoint.report.md
@@ -559,6 +601,7 @@ jobs:
           working_directory: /tmp/generated
           command: |
             export TAG=`echo "${CIRCLE_SHA1}" | cut -c1-15`
+            echo "{\"commit\" : \"$TAG\"}" > report4/commit.json
             echo "{\"commit\" : \"$TAG\"}" > report/commit.json
       - run:
           name: Push results to github
@@ -588,6 +631,10 @@ workflows:
       - render-translation-4:
           generatedRepoFingerprint: "$$SSHKEYFINGERPRINT"
           requires:
+            - extract-jsonld-details-4
+      - validate-jsonld-4:
+          requires:
+            - render-translation-4
             - extract-jsonld-details-4
       - render-rdf-details-4:
           requires:
@@ -623,6 +670,7 @@ workflows:
             - render-rdf-details-4
             - render-html-details-4
             - render-respec-html-details-4
+            - validate-jsonld-4
             # - render-example-templates
             - copy-raw
       - create-artifact:

@@ -124,17 +124,19 @@ render_report_header() {
         terms=(
             ["tag"]="Branchtag check"
             ["uml"]="Extraction of the data out of the UML"
-            ["stake"]="Validate and convert the stakeholders"
+            ["val"]="Validate the jsonld"
+            ["stak"]="Validate and convert the stakeholders"
             ["trns"]="Translation files generation, based on existing translation files"
             ["aut"]="Autotranslate the translation files, if active"
             ["mrg"]="Merge translations to create for each language a single source of truth"
             ["web"]="Extract all data model for html rendering "
-            ["meta"]="Extract metadata for html rendering"
+            ["met"]="Extract metadata for html rendering"
             ["html"]="Render html using generic nunjuncks"
             ["rspc"]="Render html using specific RESPEC integration "
             ["ctx"]="JSON-LD Context file generation"
             ["rdf"]="RDF file generation"
             ["shcl"]="SHACL file generation"
+            ["issu"]="Open Issues"
         )
 
         for term in "${!terms[@]}"; do
@@ -146,8 +148,8 @@ render_report_header() {
         echo "</details>" >>${OVERVIEW}
         echo "" >>${OVERVIEW}
 
-        echo "| Specification | tag | uml | stake | trns | aut  | mrg | web | meta | html | rspc| ctx | rdf | shcl |" >>${OVERVIEW}
-        echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >>${OVERVIEW}
+        echo "| Specification | tag | uml | val | stak | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | issu |" >>${OVERVIEW}
+        echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >>${OVERVIEW}
 
     fi
 }
@@ -164,9 +166,11 @@ render_report_line() {
     render_report_header ${EXECUTIONVIEW}
     local FIRSTPARTLINE=$(echo $LINE | cut -d'/' -f2-3)
     local SECONDPARTLINE=$(echo $LINE | cut -d'/' -f4-)
-    echo -n "| [${FIRSTPARTLINE}/ ${SECONDPARTLINE}](/report4/${LINE}) " >>${EXECUTIONVIEW}
+    HOSTNAME=$(jq -r .hostname ${JSONI})
+    URLREF=$(jq -r .urlref ${JSONI})
+    echo -n "| [${FIRSTPARTLINE}/ ${SECONDPARTLINE}](${HOSTNAME}${URLREF}) <br/> [&#9883;](/report4/${LINE}) [&#9884;](${HOSTNAME}${URLREF})" >>${EXECUTIONVIEW}
 
-    REPORTS="branchtag oslo-converter-ea oslo-stakeholders-converter translate autotranslate merge generator-webuniversum-json metadata generator-html generator-respec generator-jsonld-context generator-rdf generator-shacl"
+    REPORTS="branchtag oslo-converter-ea jsonld-validation oslo-stakeholders-converter translate autotranslate merge generator-webuniversum-json metadata generator-html generator-respec generator-jsonld-context generator-rdf generator-shacl"
 
     for REPORTFILE in ${REPORTS}; do
         if [ -f ${RLINE}/${REPORTFILE}.report.md ]; then
@@ -177,6 +181,24 @@ render_report_line() {
         fi
     done
 
+    # process the issues
+    #
+    REPOSITORY=$(jq -r .repository ${JSONI})
+    FEEDBACKURL=$(jq -r .feedbackurl ${JSONI})
+    if [ "${REPOSITORY}/issues" == "${FEEDBACKURL}" ]; then
+        echo ""
+    else
+        echo "WARNING: feedback url and thema repository differ"
+        echo "       REPOSITORY > ${REPOSITORY}/issues"
+        echo "       FEEDBACK   > ${FEEDBACKURL}"
+    fi
+
+    ${PWD}/scripts/countRepoIssues.sh ${REPOSITORY} /tmp/issues
+    NBIssues=$(cat /tmp/issues)
+    echo -n "| [ ${NBIssues} ](${REPOSITORY}/issues)" >>${EXECUTIONVIEW}
+
+    # end processing issues
+
     echo "|" >>${EXECUTIONVIEW}
 
     # Merge old and new overview
@@ -185,7 +207,7 @@ render_report_line() {
         execution_strickness
     else
         echo "RENDER-DETAILS: overview merged succesfully"
-        pretty_print_json ${OUTPUTTRANSLATIONFILE}
+        pretty_print_json ${OUTPUTTRANSLATIONFILE} # What is this doing? Relict?
     fi
 
     for REPORTFILE in ${REPORTS}; do
@@ -239,6 +261,14 @@ consolidate_reporting() {
         rm -rf ${RLINE}/shacl
     else
         echo "No shacl directory found"
+    fi
+    if [ -d "${RLINE}/jsonld-validation" ]; then
+        echo "jsonld-validation directory found"
+
+        cp -r ${RLINE}/jsonld-validation/* ${RLINE}
+        rm -rf ${RLINE}/jsonld-validation
+    else
+        echo "No jsonld-validation directory found"
     fi
 }
 
@@ -334,6 +364,30 @@ render_metadata() {
         echo "RENDER-DETAILS: metadata file succesfully updated"
         pretty_print_json ${METAOUTPUT}
     fi
+
+}
+
+validate_jsonld() {
+    echo "validate jsonld: $1 $2 $3 $4"
+    local SLINE=$1
+    local TLINE=$2
+    local JSONI=$3
+    local RLINE=$4
+
+    MERGEDFILE=${JSONI}
+
+    mkdir -p ${RLINE}
+
+    REPORTFILE=${RLINE}/jsonld-validation.report.md
+    echo "${REPORTLINEPREFIX}oslo-jsonld-validator ${REPORTLINENEWLINE}" &>>${REPORTFILE}
+    echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
+
+    oslo-jsonld-validator --input ${MERGEDFILE} \
+        --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json \
+        2>&1 | tee -a ${REPORTFILE}
+
+    echo ${REPORTFILE}
+    echo "RENDER-DETAILS(JSONLD-VALIDATION): File was rendered in ${REPORTFILE}"
 
 }
 
@@ -591,9 +645,9 @@ render_rdf() { # SLINE TLINE JSON
             cat ${REPORTFILE}
             execution_strickness
         fi
-	if [ -f ${OUTPUT} ] ; then
-		echo "RENDER-DETAILs: success"
-	else
+        if [ -f ${OUTPUT} ]; then
+            echo "RENDER-DETAILs: success"
+        else
             echo "RENDER-DETAILS: failed"
             cat ${REPORTFILE}
             execution_strickness
@@ -721,13 +775,13 @@ render_nunjunks_html() { # SLINE TLINE JSON
         cat ${REPORTFILE}
         execution_strickness
     fi
-	if [ -f ${OUTPUT} ] ; then
-		echo "RENDER-DETAILs: success"
-	else
-            echo "RENDER-DETAILS: failed"
-            cat ${REPORTFILE}
-            execution_strickness
-        fi
+    if [ -f ${OUTPUT} ]; then
+        echo "RENDER-DETAILs: success"
+    else
+        echo "RENDER-DETAILS: failed"
+        cat ${REPORTFILE}
+        execution_strickness
+    fi
 
     if [ ${PRIMELANGUAGE} == true ]; then
         cp ${OUTPUT} ${TLINE}/index.html
@@ -918,7 +972,7 @@ render_context() { # SLINE TLINE JSON
 
     COMMAND=$(echo '.type')
     TYPE=$(jq -r "${COMMAND}" ${JSONI})
-    OUTPUT=${TLINE}/context/${OUTFILELANGUAGE} 
+    OUTPUT=${TLINE}/context/${OUTFILELANGUAGE}
 
     generator_parameters contextgenerator ${JSONI}
 
@@ -938,9 +992,9 @@ render_context() { # SLINE TLINE JSON
             cat ${REPORTFILE}
             execution_strickness
         fi
-	if [ -f ${OUTPUT} ] ; then
-		echo "RENDER-DETAILs: success"
-	else
+        if [ -f ${OUTPUT} ]; then
+            echo "RENDER-DETAILs: success"
+        else
             echo "RENDER-DETAILS: failed"
             cat ${REPORTFILE}
             execution_strickness
@@ -1010,9 +1064,9 @@ render_shacl_languageaware() {
             cat ${REPORTFILE}
             execution_strickness
         fi
-	if [ -f ${OUTFILE} ] ; then
-		echo "RENDER-DETAILs: success"
-	else
+        if [ -f ${OUTFILE} ]; then
+            echo "RENDER-DETAILs: success"
+        else
             echo "RENDER-DETAILS: failed"
             cat ${REPORTFILE}
             execution_strickness
@@ -1164,6 +1218,23 @@ cat ${CHECKOUTFILE} | while read line; do
                     generate_for_language ${g} ${i}
                     if [ ${GENERATEDARTEFACT} == true ]; then
                         render_context $SLINE $TLINE $i $RLINE ${g}
+                    fi
+                done
+                ;;
+            validation)
+                # the source for the jsonld validator is solely the intermediate json
+                echo "RENDER-DETAILS: validation"
+                echo ${line}
+                SLINE=${TARGETDIR}/report4/${line}
+                TLINE=${TARGETDIR}/target/${line}
+                RLINE=${TARGETDIR}/report4/jsonld-validation/${line}
+                mkdir -p ${TLINE}
+                mkdir -p ${RLINE}
+                validate_jsonld $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
+                for g in ${GOALLANGUAGE}; do
+                    generate_for_language ${g} ${i}
+                    if [ ${GENERATEDARTEFACT} == true ]; then
+                        validate_jsonld $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
                     fi
                 done
                 ;;
