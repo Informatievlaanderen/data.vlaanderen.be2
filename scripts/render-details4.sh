@@ -373,6 +373,7 @@ validate_jsonld() {
     local TLINE=$2
     local JSONI=$3
     local RLINE=$4
+    
 
     MERGEDFILE=${JSONI}
 
