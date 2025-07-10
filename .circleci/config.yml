@@ -167,8 +167,9 @@ jobs:
           name: List the files which have been created
           command: |
             if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
-            if [ -d /tmp/workspace/report4/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04 ] ; then ls -al /tmp/workspace/report4/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04 ; fi || true
+            if [ -d /tmp/workspace/report4/implementatiemodel ] ; then ls -al /tmp/workspace/report4/implementatiemodel ; fi || true
       - persist_to_workspace:
+          when: always
           root: /tmp/workspace
           paths:
             - target/
@@ -663,33 +664,33 @@ workflows:
       - expand-links:
           requires:
             - render-context-details-4:
-              - failed
-              - success
-              - canceled
+                - failed
+                - success
+                - canceled
             - render-rdf-details-4:
-              - failed
-              - success
-              - canceled
+                - failed
+                - success
+                - canceled
             - render-html-details-4:
-              - failed
-              - success
-              - canceled
+                - failed
+                - success
+                - canceled
             - render-respec-html-details-4:
-              - failed
-              - success
-              - canceled
+                - failed
+                - success
+                - canceled
             - validate-jsonld-4:
-              - failed
-              - success
-              - canceled
+                - failed
+                - success
+                - canceled
             - render-shacl-details-4:
-              - failed
-              - success
-              - canceled
+                - failed
+                - success
+                - canceled
             - render-html-details-4:
-              - failed
-              - success
-              - canceled
+                - failed
+                - success
+                - canceled
       # Make create-artifact depend only on expand-links (the final consolidation step)
       - create-artifact:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
