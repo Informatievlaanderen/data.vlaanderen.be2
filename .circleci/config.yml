@@ -708,6 +708,14 @@ workflows:
       # Make expand-links depend on ALL the jobs that produce data
       - expand-links:
           requires:
+            - extract-jsonld-details-4:
+                - failed
+                - success
+                - canceled
+            - render-translation-4:
+                - failed
+                - success
+                - canceled
             - render-context-details-4:
                 - failed
                 - success
