@@ -81,7 +81,6 @@ jobs:
             egrep " ERROR " /tmp/workspace/report4/*.report || true
             egrep " Error " /tmp/workspace/report4/*.report || true
       - persist_to_workspace:
-          when: always
           root: /tmp/workspace
           paths:
             - report4
