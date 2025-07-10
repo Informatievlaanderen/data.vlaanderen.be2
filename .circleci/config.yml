@@ -167,8 +167,8 @@ jobs:
           name: List the files which have been created
           command: |
             if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
+            if [ -d /tmp/workspace/report4/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04 ] ; then ls -al /tmp/workspace/report4/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04 ; fi || true
       - persist_to_workspace:
-          
           root: /tmp/workspace
           paths:
             - target/
