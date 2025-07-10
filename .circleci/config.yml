@@ -78,20 +78,27 @@ jobs:
       - run:
           name: Show the errors found (for debugging purposes)
           command: |
-            ERROR_OUTPUT=$(
-              {
-                egrep " ERROR " /tmp/workspace/report4/*.report 2>/dev/null || true
-                egrep " Error " /tmp/workspace/report4/*.report 2>/dev/null || true
-                egrep " error:" /tmp/workspace/report4/*.report 2>/dev/null || true
-              }
-            )
+            TEMP_ERROR_FILE="/tmp/error_output.txt"
+            > "$TEMP_ERROR_FILE"  # Clear the file
 
-            echo "$ERROR_OUTPUT"
+            # Write all egrep outputs to the temp file
+            egrep " ERROR " /tmp/workspace/report4/*.report 2>/dev/null >> "$TEMP_ERROR_FILE" || true
+            egrep " Error " /tmp/workspace/report4/*.report 2>/dev/null >> "$TEMP_ERROR_FILE" || true
+            egrep " error:" /tmp/workspace/report4/*.report 2>/dev/null >> "$TEMP_ERROR_FILE" || true
 
-            if [ $ERROR_OUTPUT -gt 0 ]; then
-              echo "❌ Found $ERROR_OUTPUT error(s) - failing step"
+            # Check if temp file has content
+            if [ -s "$TEMP_ERROR_FILE" ]; then
+              echo "ERROR"
+              echo "=== ERRORS FOUND ==="
+              cat "$TEMP_ERROR_FILE"
+              echo "❌ Errors found in report files - failing step"
               exit 1
+            else
+              echo "✅ No errors found in report files"
             fi
+
+            # Clean up temp file
+            rm -f "$TEMP_ERROR_FILE"
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
