@@ -660,6 +660,34 @@ workflows:
       # Make expand-links depend on ALL the jobs that produce data
       - expand-links:
           requires:
+            - render-context-details-4:
+              - failed
+              - success
+              - canceled
+            - convert-json-to-ttl:
+              - failed
+              - success
+              - canceled
+            - render-rdf-details-4:
+              - failed
+              - success
+              - canceled
+            - render-html-details-4:
+              - failed
+              - success
+              - canceled
+            - render-respec-html-details-4:
+              - failed
+              - success
+              - canceled
+            - validate-jsonld-4:
+              - failed
+              - success
+              - canceled
+            - render-shacl-details-4:
+              - failed
+              - success
+              - canceled
             - render-html-details-4:
               - failed
               - success
