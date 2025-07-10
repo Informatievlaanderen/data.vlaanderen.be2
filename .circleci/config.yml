@@ -202,10 +202,14 @@ jobs:
           command: |
             if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
       - persist_to_workspace:
+          when: always
           root: /tmp/workspace
           paths:
-            - target
             - report4/jsonld-validation
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - target/
   render-respec-html-details-4:
     docker:
       - image: cimg/node:20.15.0
@@ -265,9 +269,13 @@ jobs:
             if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
       - persist_to_workspace:
           root: /tmp/workspace
+          when: always
+          paths:
+            - report4/rdf
+      - persist_to_workspace:
+          root: /tmp/workspace
           paths:
             - target
-            - report4/rdf
   render-shacl-details-4:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
@@ -295,8 +303,12 @@ jobs:
             if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
       - persist_to_workspace:
           root: /tmp/workspace
+          when: always
           paths:
             - report4/shacl
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
             - target
   render-context-details-4:
     docker:
