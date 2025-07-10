@@ -163,7 +163,6 @@ jobs:
           name: copy the site-skeleton for the html
           command: $PWD/scripts/copy_skeleton.sh
       - run:
-          when: always
           name: List the files which have been created
           command: |
             if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
@@ -172,8 +171,11 @@ jobs:
           when: always
           root: /tmp/workspace
           paths:
-            - target/
             - report4/html
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - target/
   validate-jsonld-4:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
