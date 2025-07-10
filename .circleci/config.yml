@@ -740,4 +740,7 @@ workflows:
       - create-artifact:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
           requires:
-            - expand-links
+            - expand-links:
+                - failed
+                - success
+                - canceled
