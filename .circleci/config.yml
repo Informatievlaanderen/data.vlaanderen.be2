@@ -679,20 +679,11 @@ workflows:
       - render-translation-4:
           generatedRepoFingerprint: "$$SSHKEYFINGERPRINT"
           requires:
-            - extract-jsonld-details-4:
-                - failed
-                - success
-                - canceled
+            - extract-jsonld-details-4
       - validate-jsonld-4:
           requires:
-            - render-translation-4:
-                - failed
-                - success
-                - canceled
-            - extract-jsonld-details-4:
-                - failed
-                - success
-                - canceled
+            - render-translation-4
+            - extract-jsonld-details-4
       - render-rdf-details-4:
           requires:
             - render-translation-4
