@@ -660,24 +660,22 @@ workflows:
       - convert-json-to-ttl:
           requires:
             - render-shacl-details-4
-      # - render-example-templates:
-      #     requires:
-      #       - render-merged-jsonld
-      # - render-xsd-details:
-      #          requires:
-      #            - render-merged-jsonld
       - copy-raw:
           requires:
             - checkout
-      - expand-links
-      - create-artifact:
-          generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
+      # Make expand-links depend on ALL the jobs that produce data
+      - expand-links:
+          when: always
           requires:
-            - extract-jsonld-details-4
             - render-context-details-4
             - convert-json-to-ttl
             - render-rdf-details-4
             - render-html-details-4
             - render-respec-html-details-4
             - validate-jsonld-4
+            - copy-raw
+      # Make create-artifact depend only on expand-links (the final consolidation step)
+      - create-artifact:
+          generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
+          requires:
             - expand-links
