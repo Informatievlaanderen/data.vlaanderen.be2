@@ -89,7 +89,7 @@ jobs:
               echo "❌ Errors found in report files - failing step"
               exit 1
             else
-              echo "✅ No errors found in report files"
+              echo "✅ No errors found in report files. Check for warnings in the weather forecast"
             fi
       - persist_to_workspace:
           root: /tmp/workspace
