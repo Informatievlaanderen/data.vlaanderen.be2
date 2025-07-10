@@ -80,6 +80,7 @@ jobs:
           command: |
             egrep " ERROR " /tmp/workspace/report4/*.report || true
             egrep " Error " /tmp/workspace/report4/*.report || true
+            egrep " error:" /tmp/workspace/report4/*.report || true
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
@@ -170,7 +171,6 @@ jobs:
           name: List the files which have been created
           command: |
             if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
-            if [ -d /tmp/workspace/report4/implementatiemodel ] ; then ls -al /tmp/workspace/report4/implementatiemodel ; fi || true
       - persist_to_workspace:
           when: always
           root: /tmp/workspace
