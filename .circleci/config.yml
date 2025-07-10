@@ -81,12 +81,15 @@ jobs:
             egrep " ERROR " /tmp/workspace/report4/*.report || true
             egrep " Error " /tmp/workspace/report4/*.report || true
             egrep " error:" /tmp/workspace/report4/*.report || true   
-            ERROR_COUNT=$(egrep -c " ERROR | Error | error:" /tmp/workspace/report4/*.report 2>/dev/null | awk -F: '{sum += $2} END {print sum+0}')
+            ERROR_COUNT=0
+            if ls /tmp/workspace/report4/*.report 1> /dev/null 2>&1; then
+              ERROR_COUNT=$(( ERROR_COUNT + $(egrep -c " ERROR " /tmp/workspace/report4/*.report 2>/dev/null | awk -F: '{sum += $2} END {print sum+0}') ))
+              ERROR_COUNT=$(( ERROR_COUNT + $(egrep -c " Error " /tmp/workspace/report4/*.report 2>/dev/null | awk -F: '{sum += $2} END {print sum+0}') ))
+              ERROR_COUNT=$(( ERROR_COUNT + $(egrep -c " error:" /tmp/workspace/report4/*.report 2>/dev/null | awk -F: '{sum += $2} END {print sum+0}') ))
+            fi
 
             echo "$ERROR_COUNT"
-            echo "$ERROR_COUNT"
-            echo "$ERROR_COUNT"
-            
+
             if [ $ERROR_COUNT -gt 0 ]; then
               echo "❌ Found $ERROR_COUNT error(s) - failing step"
               exit 255
