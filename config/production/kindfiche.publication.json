@@ -47,7 +47,7 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/toolchain4",
+    "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2025-07-10",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
     "branchtag": "main",
     "name": "dienstverlening-aan-personen-ap",
@@ -55,13 +55,13 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03"
     },
-    "dummy": "013"
+    "dummy": "014"
   },
   {
     "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen",
-    "seealso": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/toolchain4",
+    "seealso": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2025-07-10",
     "disabled": false,
     "type": "ap",
-    "dummy": "012"
+    "dummy": "014"
   }
 ]
