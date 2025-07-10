@@ -660,27 +660,10 @@ workflows:
       # Make expand-links depend on ALL the jobs that produce data
       - expand-links:
           requires:
-            - render-context-details-4:
-              - failed
-              - success
-            - convert-json-to-ttl:
-              - failed
-              - success
-            - render-rdf-details-4:
-              - failed
-              - success
             - render-html-details-4:
               - failed
               - success
-            - render-respec-html-details-4:
-              - failed
-              - success
-            - validate-jsonld-4:
-              - failed
-              - success
-            - copy-raw:
-              - failed
-              - success
+              - canceled
       # Make create-artifact depend only on expand-links (the final consolidation step)
       - create-artifact:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
