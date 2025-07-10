@@ -81,9 +81,10 @@ jobs:
             egrep " ERROR " /tmp/workspace/report4/*.report || true
             egrep " Error " /tmp/workspace/report4/*.report || true
       - persist_to_workspace:
+          when: always
           root: /tmp/workspace
           paths:
-            - report4/
+            - report4
   render-translation-4:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
@@ -133,8 +134,12 @@ jobs:
             ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace merge ${CIRCLEWKD}/config
       - persist_to_workspace:
           root: /tmp/workspace
+          when: always
           paths:
-            - report4/
+            - report4
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
             - autotranslation
   render-html-details-4:
     docker:
@@ -175,7 +180,7 @@ jobs:
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
-            - target/
+            - target
   validate-jsonld-4:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
@@ -209,7 +214,7 @@ jobs:
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
-            - target/
+            - target
   render-respec-html-details-4:
     docker:
       - image: cimg/node:20.15.0
@@ -240,9 +245,13 @@ jobs:
             if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
       - persist_to_workspace:
           root: /tmp/workspace
+          when: always
           paths:
-            - report4/respec/
-            - target/
+            - report4/respec
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - target
   render-rdf-details-4:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
@@ -336,9 +345,13 @@ jobs:
             if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
       - persist_to_workspace:
           root: /tmp/workspace
+          when: always
+          paths:
+            - report4/context
+      - persist_to_workspace:
+          root: /tmp/workspace
           paths:
             - target
-            - report4/context
   render-example-templates:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.9
@@ -358,9 +371,13 @@ jobs:
             $PWD/scripts/render-details.sh /tmp/workspace example $PWD/config
       - persist_to_workspace:
           root: /tmp/workspace
+          when: always
+          paths:
+            - report4/examples
+      - persist_to_workspace:
+          root: /tmp/workspace
           paths:
             - target
-            - report4/examples
   render-xsd-details:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.9
@@ -492,9 +509,13 @@ jobs:
             ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace report ${CIRCLEWKD}/config
       - persist_to_workspace:
           root: /tmp/workspace
+          when: always
           paths:
-            - target/
-            - report4/
+            - report4
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - target
   copy-raw:
     docker:
       - image: cimg/node:20.15.0
@@ -516,7 +537,7 @@ jobs:
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
-            - raw/
+            - raw
   create-artifact:
     parameters:
       generatedRepoFingerprint:
