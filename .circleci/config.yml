@@ -82,10 +82,14 @@ jobs:
             egrep " Error " /tmp/workspace/report4/*.report || true
             egrep " error:" /tmp/workspace/report4/*.report || true   
             ERROR_COUNT=$(egrep -c " ERROR | Error | error:" /tmp/workspace/report4/*.report 2>/dev/null | awk -F: '{sum += $2} END {print sum+0}')
+
+            echo "$ERROR_COUNT"
+            echo "$ERROR_COUNT"
+            echo "$ERROR_COUNT"
             
             if [ $ERROR_COUNT -gt 0 ]; then
               echo "❌ Found $ERROR_COUNT error(s) - failing step"
-              exit 1
+              exit 255
             fi
       - persist_to_workspace:
           root: /tmp/workspace
