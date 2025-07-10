@@ -740,7 +740,7 @@ workflows:
                 - failed
                 - success
                 - canceled
-            - render-html-details-4:
+            - convert-json-to-ttl:
                 - failed
                 - success
                 - canceled
