@@ -669,15 +669,7 @@ workflows:
       - copy-raw:
           requires:
             - checkout
-      - expand-links:
-          requires:
-            - render-context-details-4
-            - render-rdf-details-4
-            - render-html-details-4
-            - render-respec-html-details-4
-            - validate-jsonld-4
-            # - render-example-templates
-            - copy-raw
+      - expand-links
       - create-artifact:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
           requires:
