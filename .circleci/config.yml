@@ -80,7 +80,13 @@ jobs:
           command: |
             egrep " ERROR " /tmp/workspace/report4/*.report || true
             egrep " Error " /tmp/workspace/report4/*.report || true
-            egrep " error:" /tmp/workspace/report4/*.report || true
+            egrep " error:" /tmp/workspace/report4/*.report || true   
+            ERROR_COUNT=$(egrep -c " ERROR | Error | error:" /tmp/workspace/report4/*.report 2>/dev/null | awk -F: '{sum += $2} END {print sum+0}')
+            
+            if [ $ERROR_COUNT -gt 0 ]; then
+              echo "❌ Found $ERROR_COUNT error(s) - failing step"
+              exit 1
+            fi
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
