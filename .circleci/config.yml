@@ -620,6 +620,16 @@ jobs:
             git tag "${TAG}"
             git push --force origin "${CIRCLE_BRANCH}"
             git push --tags
+  check-commitresult:
+    docker:
+      - image: cimg/node:20.15.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - run:
+          cp /tmp/XXX 
+
 workflows:
   version: 2
   generate_documentation:
@@ -677,3 +687,6 @@ workflows:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
           requires:
             - expand-links
+      - check-commitresult:
+          requires:
+            - create-artifact
