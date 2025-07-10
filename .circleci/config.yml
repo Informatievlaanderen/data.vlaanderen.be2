@@ -685,7 +685,10 @@ workflows:
                 - canceled
       - validate-jsonld-4:
           requires:
-            - render-translation-4
+            - render-translation-4:
+                - failed
+                - success
+                - canceled
             - extract-jsonld-details-4:
                 - failed
                 - success
