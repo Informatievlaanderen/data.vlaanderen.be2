@@ -1,5 +1,8 @@
 version: 2.1
 
+orbs:
+  swissknife: roopakv/swissknife@0.69.0
+
 jobs:
   checkout:
     docker:
@@ -395,6 +398,32 @@ jobs:
           root: /tmp/workspace
           paths:
             - target/
+  wait-and-expand:
+    docker:
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+    steps:
+      # Wait for all required jobs
+      - swissknife/wait_for_job:
+          job-name: render-context-details-4
+          max-wait: "600"
+      - swissknife/wait_for_job:
+          job-name: convert-json-to-ttl
+          max-wait: "600"
+      - swissknife/wait_for_job:
+          job-name: render-rdf-details-4
+          max-wait: "600"
+      - swissknife/wait_for_job:
+          job-name: render-html-details-4
+          max-wait: "600"
+      - swissknife/wait_for_job:
+          job-name: render-respec-html-details-4
+          max-wait: "600"
+      - swissknife/wait_for_job:
+          job-name: validate-jsonld-4
+          max-wait: "600"
+      - swissknife/wait_for_job:
+          job-name: copy-raw
+          max-wait: "600"
   expand-links:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
@@ -664,16 +693,12 @@ workflows:
           requires:
             - checkout
       # Make expand-links depend on ALL the jobs that produce data
-      - expand-links:
-          when: always
+      - wait-and-expand:
           requires:
-            - render-context-details-4
-            - convert-json-to-ttl
-            - render-rdf-details-4
-            - render-html-details-4
-            - render-respec-html-details-4
-            - validate-jsonld-4
-            - copy-raw
+            - checkout
+      - expand-links:
+          requires:
+            - wait-and-expand
       # Make create-artifact depend only on expand-links (the final consolidation step)
       - create-artifact:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
