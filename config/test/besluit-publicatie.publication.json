@@ -30,12 +30,12 @@
   {
     "urlref": "/doc/applicatieprofiel/besluit-publicatie/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
-    "branchtag": "master",
+    "branchtag": "toolchain4-fix-warnings",
     "name": "besluit-publicatie",
     "filename": "config/besluit-publicatie.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluit-publicatie/standaard/2018-07-20"
     },
-    "dummy": "2025-05-13 12:09:03"
+    "dummy": "2025-07-10 1"
   }
 ]
