@@ -672,7 +672,6 @@ workflows:
       - expand-links:
           requires:
             - render-context-details-4
-            - convert-json-to-ttl
             - render-rdf-details-4
             - render-html-details-4
             - render-respec-html-details-4
