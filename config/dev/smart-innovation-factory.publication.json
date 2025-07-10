@@ -1,0 +1,16 @@
+[
+  {
+    "urlref": "/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory",
+    "name": "verkeersmeldingen",
+    "branchtag": "main",
+    "filename": "config/SIF-impl.json",
+    "dummy": "018"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/verkeersmeldingen",
+    "seealso": "/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04",
+    "type": "ap",
+    "dummy": "018"
+  }
+]

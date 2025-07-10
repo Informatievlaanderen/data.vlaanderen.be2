@@ -403,20 +403,24 @@ jobs:
       - attach_workspace:
           at: /tmp/workspace
       - run:
+          when: always
           name: install gh cli
           command: |
             sudo apt-get update
             sudo apt-get -y install gh
       - run:
+          when: always
           name: Copy raw assets
           working_directory: /tmp/workspace
           command: |
             if [ -d raw ] ; then count="$( find raw -mindepth 1 -maxdepth 1 | wc -l )" ; if [ $count -ne 0 ] ; then cp -R raw/* /tmp/workspace/target/ ; fi  ; fi
       - run:
+          when: always
           name: expand default links
           command: |
             $PWD/scripts/expand-links.sh /tmp/workspace $PWD/config
       - run:
+          when: always
           name: Consolidate reporting
           no_output_timeout: 45m
           command: |
@@ -461,6 +465,7 @@ jobs:
               echo "No jsonld-validation directory found"
             fi
       - run:
+          when: always
           name: download global overview memory
           working_directory: /tmp/workspace
           command: |
@@ -468,6 +473,7 @@ jobs:
             GENERATEDREPO=$(jq --arg bt "${CIRCLE_BRANCH}" -r '.generatedrepository + {"filepath":"report4/README.md", "branchtag":"\($bt)"}' ${CIRCLEWKD}/config/config.json)
             if  ${CIRCLEWKD}/scripts/downloadFileGithub.sh "${GENERATEDREPO}" README.md ${TOOLCHAIN_TOKEN} ; then echo "global report downloaded" ; fi
       - run:
+          when: always
           name: create overview report
           no_output_timeout: 45m
           command: |
@@ -620,16 +626,6 @@ jobs:
             git tag "${TAG}"
             git push --force origin "${CIRCLE_BRANCH}"
             git push --tags
-  check-commitresult:
-    docker:
-      - image: cimg/node:20.15.0
-    steps:
-      - checkout
-      - attach_workspace:
-          at: /tmp/workspace
-      - run:
-          cp /tmp/XXX 
-
 workflows:
   version: 2
   generate_documentation:
@@ -686,7 +682,11 @@ workflows:
       - create-artifact:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
           requires:
+            - extract-jsonld-details-4
+            - render-context-details-4
+            - convert-json-to-ttl
+            - render-rdf-details-4
+            - render-html-details-4
+            - render-respec-html-details-4
+            - validate-jsonld-4
             - expand-links
-      - check-commitresult:
-          requires:
-            - create-artifact
