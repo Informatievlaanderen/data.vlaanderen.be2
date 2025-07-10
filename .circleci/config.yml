@@ -163,10 +163,12 @@ jobs:
           name: copy the site-skeleton for the html
           command: $PWD/scripts/copy_skeleton.sh
       - run:
+          when: always
           name: List the files which have been created
           command: |
             if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
       - persist_to_workspace:
+          
           root: /tmp/workspace
           paths:
             - target/
