@@ -1,8 +1,5 @@
 version: 2.1
 
-orbs:
-  swissknife: roopakv/swissknife@0.69.0
-
 jobs:
   checkout:
     docker:
@@ -398,32 +395,6 @@ jobs:
           root: /tmp/workspace
           paths:
             - target/
-  wait-and-expand:
-    docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
-    steps:
-      # Wait for all required jobs
-      - swissknife/wait_for_job:
-          job-name: render-context-details-4
-          max-wait: "600"
-      - swissknife/wait_for_job:
-          job-name: convert-json-to-ttl
-          max-wait: "600"
-      - swissknife/wait_for_job:
-          job-name: render-rdf-details-4
-          max-wait: "600"
-      - swissknife/wait_for_job:
-          job-name: render-html-details-4
-          max-wait: "600"
-      - swissknife/wait_for_job:
-          job-name: render-respec-html-details-4
-          max-wait: "600"
-      - swissknife/wait_for_job:
-          job-name: validate-jsonld-4
-          max-wait: "600"
-      - swissknife/wait_for_job:
-          job-name: copy-raw
-          max-wait: "600"
   expand-links:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
@@ -432,24 +403,20 @@ jobs:
       - attach_workspace:
           at: /tmp/workspace
       - run:
-          when: always
           name: install gh cli
           command: |
             sudo apt-get update
             sudo apt-get -y install gh
       - run:
-          when: always
           name: Copy raw assets
           working_directory: /tmp/workspace
           command: |
             if [ -d raw ] ; then count="$( find raw -mindepth 1 -maxdepth 1 | wc -l )" ; if [ $count -ne 0 ] ; then cp -R raw/* /tmp/workspace/target/ ; fi  ; fi
       - run:
-          when: always
           name: expand default links
           command: |
             $PWD/scripts/expand-links.sh /tmp/workspace $PWD/config
       - run:
-          when: always
           name: Consolidate reporting
           no_output_timeout: 45m
           command: |
@@ -494,7 +461,6 @@ jobs:
               echo "No jsonld-validation directory found"
             fi
       - run:
-          when: always
           name: download global overview memory
           working_directory: /tmp/workspace
           command: |
@@ -502,7 +468,6 @@ jobs:
             GENERATEDREPO=$(jq --arg bt "${CIRCLE_BRANCH}" -r '.generatedrepository + {"filepath":"report4/README.md", "branchtag":"\($bt)"}' ${CIRCLEWKD}/config/config.json)
             if  ${CIRCLEWKD}/scripts/downloadFileGithub.sh "${GENERATEDREPO}" README.md ${TOOLCHAIN_TOKEN} ; then echo "global report downloaded" ; fi
       - run:
-          when: always
           name: create overview report
           no_output_timeout: 45m
           command: |
@@ -693,12 +658,29 @@ workflows:
           requires:
             - checkout
       # Make expand-links depend on ALL the jobs that produce data
-      - wait-and-expand:
-          requires:
-            - checkout
       - expand-links:
           requires:
-            - wait-and-expand
+            - render-context-details-4:
+              - failed
+              - success
+            - convert-json-to-ttl:
+              - failed
+              - success
+            - render-rdf-details-4:
+              - failed
+              - success
+            - render-html-details-4:
+              - failed
+              - success
+            - render-respec-html-details-4:
+              - failed
+              - success
+            - validate-jsonld-4:
+              - failed
+              - success
+            - copy-raw:
+              - failed
+              - success
       # Make create-artifact depend only on expand-links (the final consolidation step)
       - create-artifact:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
