@@ -13,7 +13,7 @@
   },
   "toolchainversion": "4.0.1",
   "toolchain": {
-    "strickness": "not-lazy",
+    "strickness": "lazy",
     "version": 4,
     "triggerall": false,
     "autotranslate": false
