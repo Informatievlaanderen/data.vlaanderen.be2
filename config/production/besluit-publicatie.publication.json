@@ -30,7 +30,7 @@
   {
     "urlref": "/doc/applicatieprofiel/besluit-publicatie/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
-    "branchtag": "master",
+    "branchtag": "toolchain4-fix-warnings",
     "name": "besluit-publicatie",
     "filename": "config/besluit-publicatie.json",
     "navigation": {
