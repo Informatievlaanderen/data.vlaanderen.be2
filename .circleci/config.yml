@@ -168,7 +168,7 @@ jobs:
           name: install software
           command: |
             sudo npm install --global @oslo-flanders/json-webuniversum-generator
-            sudo npm install --global @oslo-flanders/html-generator@2.0.2-beta.0
+            sudo npm install --global @oslo-flanders/html-generator
       - run:
           name: Render HTML version of merged json file (a)
           command: |
