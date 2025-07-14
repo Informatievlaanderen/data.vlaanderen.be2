@@ -147,11 +147,8 @@ jobs:
           root: /tmp/workspace
           when: always
           paths:
-            - report4
-      - persist_to_workspace:
-          root: /tmp/workspace
-          paths:
             - autotranslation
+            - report4
   render-html-details-4:
     docker:
       - image: cimg/node:20.15.0
