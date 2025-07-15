@@ -5,6 +5,7 @@
     "name": "openbare-nutsvoorzieningkasten",
     "branchtag": "main",
     "filename": "config/shok-ap.json",
+    "disabled": true,
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
@@ -14,7 +15,7 @@
     "urlref": "/doc/applicatieprofiel/openbare-nutsvoorzieningkasten",
     "seealso": "/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03",
     "type": "ap",
-    "disabled": false,
+    "disabled": true,
     "dummy": "037"
   }
 ]
