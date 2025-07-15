@@ -738,6 +738,14 @@ workflows:
                 - failed
                 - success
                 - canceled
+            - convert-json-to-ttl:
+                - failed
+                - success
+                - canceled
+            - copy-raw:
+                - failed
+                - success
+                - canceled
       # Make create-artifact depend only on expand-links (the final consolidation step)
       - create-artifact:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
