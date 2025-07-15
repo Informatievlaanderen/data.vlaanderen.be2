@@ -304,6 +304,7 @@
     "branchtag": "master",
     "name": "vegetatie-elementen-ap",
     "filename": "config/vegetatie.json",
+    "parameters": "--inheritance true",
     "navigation": {
       "prev": "/doc/applicatieprofiel/vegetatie-elementen/erkendestandaard/2021-09-30"
     },
@@ -337,6 +338,7 @@
     "branchtag": "master",
     "name": "terreindelen-ap",
     "filename": "config/terrein.json",
+    "parameters": "--inheritance true",
     "navigation": {
       "prev": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30"
     },

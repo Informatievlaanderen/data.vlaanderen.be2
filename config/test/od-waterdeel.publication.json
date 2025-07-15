@@ -170,6 +170,7 @@
     "branchtag": "master",
     "name": "waterdelen-ap",
     "filename": "config/waterdeel.json",
+    "parameters": "--inheritance true",
     "navigation": {
       "prev": "/doc/applicatieprofiel/waterdelen/erkendestandaard/2021-09-30"
     },
