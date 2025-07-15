@@ -5,6 +5,7 @@
     "name": "energiemanagementsysteem",
     "branchtag": "main",
     "filename": "config/energiemanagementsysteem-ap.json",
+    "disabled": true,
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
