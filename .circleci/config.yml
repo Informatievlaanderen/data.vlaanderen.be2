@@ -662,7 +662,10 @@ workflows:
                 - failed
                 - success
                 - canceled
-            - extract-jsonld-details-4
+            - extract-jsonld-details-4:
+                - failed
+                - success
+                - canceled
       - render-rdf-details-4:
           requires:
             - render-translation-4
