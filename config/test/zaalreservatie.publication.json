@@ -8,6 +8,9 @@
     "navigation": {
       "next": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
     },
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
     "dummy": "046"
   },
   {
