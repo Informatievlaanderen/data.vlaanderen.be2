@@ -5,7 +5,9 @@
     "name": "openbare-nutsvoorzieningkasten",
     "branchtag": "main",
     "filename": "config/shok-ap.json",
-    "disabled": false,
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
     "dummy": "037"
   },
   {
