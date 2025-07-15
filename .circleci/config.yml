@@ -147,8 +147,11 @@ jobs:
           root: /tmp/workspace
           when: always
           paths:
-            - autotranslation
             - report4
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - autotranslation
   render-html-details-4:
     docker:
       - image: cimg/node:20.15.0
@@ -732,6 +735,14 @@ workflows:
                 - success
                 - canceled
             - render-shacl-details-4:
+                - failed
+                - success
+                - canceled
+            - convert-json-to-ttl:
+                - failed
+                - success
+                - canceled
+            - copy-raw:
                 - failed
                 - success
                 - canceled
