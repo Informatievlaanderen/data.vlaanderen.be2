@@ -218,9 +218,6 @@ jobs:
           root: /tmp/workspace
           paths:
             - report4/jsonld-validation
-      - persist_to_workspace:
-          root: /tmp/workspace
-          paths:
             - target
   render-respec-html-details-4:
     docker:
@@ -321,11 +318,8 @@ jobs:
           root: /tmp/workspace
           when: always
           paths:
-            - report4/shacl
-      - persist_to_workspace:
-          root: /tmp/workspace
-          paths:
             - target
+            - report4/shacl
   render-context-details-4:
     docker:
       - image: cimg/node:20.15.0
