@@ -8,13 +8,13 @@
     "navigation": {
       "next": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
     },
-    "dummy": "045"
+    "dummy": "046"
   },
   {
     "urlref": "/doc/applicatieprofiel/zaalreservatie",
     "seealso": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
     "type": "ap",
-    "dummy": "045"
+    "dummy": "046"
   },
   {
     "urlref": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
@@ -23,12 +23,12 @@
     "name": "zaalreservatie",
     "filename": "config/zaalreservatie-voc.json",
     "navigation": {},
-    "dummy": "045"
+    "dummy": "046"
   },
   {
     "urlref": "/ns/zaalreservatie",
     "seealso": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
     "type": "voc",
-    "dummy": "045"
+    "dummy": "046"
   }
 ]
