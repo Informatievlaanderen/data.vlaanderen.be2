@@ -358,9 +358,6 @@ jobs:
           when: always
           paths:
             - report4/context
-      - persist_to_workspace:
-          root: /tmp/workspace
-          paths:
             - target
   render-example-templates:
     docker:
