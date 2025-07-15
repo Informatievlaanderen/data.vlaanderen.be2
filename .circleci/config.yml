@@ -148,9 +148,6 @@ jobs:
           when: always
           paths:
             - report4
-      - persist_to_workspace:
-          root: /tmp/workspace
-          paths:
             - autotranslation
   render-html-details-4:
     docker:
