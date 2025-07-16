@@ -5,12 +5,12 @@
     "name": "verkeersmeldingen",
     "branchtag": "main",
     "filename": "config/SIF-impl.json",
-    "dummy": "026"
+    "dummy": "027"
   },
   {
     "urlref": "/doc/implementatiemodel/verkeersmeldingen",
     "seealso": "/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04",
     "type": "ap",
-    "dummy": "026"
+    "dummy": "027"
   }
 ]
