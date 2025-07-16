@@ -683,7 +683,10 @@ workflows:
             - render-translation-4
       - convert-json-to-ttl:
           requires:
-            - render-shacl-details-4
+            - render-shacl-details-4:
+                - failed
+                - success
+                - canceled
       - copy-raw:
           requires:
             - checkout
