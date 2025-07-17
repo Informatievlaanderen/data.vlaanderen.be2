@@ -9,13 +9,13 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "045"
+    "dummy": "046"
   },
   {
     "urlref": "/doc/applicatieprofiel/openbare-nutsvoorzieningkasten",
     "seealso": "/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03",
     "type": "ap",
     "disabled": false,
-    "dummy": "045"
+    "dummy": "046"
   }
 ]
