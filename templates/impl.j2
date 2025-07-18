@@ -187,14 +187,12 @@
                      <div class="vl-region" id="introduction">
                         <div class="vl-introduction vl-typography">
                            {% block introduction %}
-                              <p>
-                                 Dit document beschrijft een
-                                 <strong>implementatiemodel</strong>, in dit geval
-                                 <strong>
-                                    {{ data.metadata.title }}</strong>. <!-- Een implementatiemodel is een specificatie die bestaande termen hergebruikt van verschillende basis-standaarden en
-                                       daar meer specificiteit aan toevoegt. -->
-                                 <!-- Daarbij wordt het gebruik van de termen toegelicht voor de interbestuurlijke uitwisseling van overheidsinformatie.
-                                 -->
+                           <p>
+                              Dit document beschrijft een
+                              <strong>implementatiemodel</strong>, in dit geval
+                              <strong>
+                              {{ data.metadata.title }}</strong>. <!-- Een implementatiemodel is een specificatie die bestaande applicatieprofielen toepast in een specifieke implementatie. -->
+                              <!-- Daarbij wordt het gebruik van de termen toegelicht voor de interbestuurlijke uitwisseling van overheidsinformatie. -->
                               Dit implementatiemodel beantwoordt de vraag over hoe het corresponderende domeinmodel in de praktijk kan toegepast
                               worden. Daarbij worden de beperkingen (kardinaliteit, codelijsten) toegelicht en de overeenkomstige (RDF) termen
                               opgelijst.
@@ -575,6 +573,105 @@
                            {% endblock %}
                         </div>
                      </div>
+                     <div class="region region--no-space-top" id="mappingext">
+                        <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Gebruikte (externe) terminologie</h2>
+                        <p>Deze sectie geeft een overzicht hoe terminologie uit vocabularia is gebruikt in dit implementatiemodel.
+                        </p>
+                        <p>
+                           Dit implementatiemodel steunt op termen uit deze eigen beheerde vocabularia:
+                        <ul>
+                           {% for ns in data.metadata.inDomainNamespaces %}
+                           <li>
+                              <a href="{{ ns }}">{{ ns }}</a>
+                           </li>
+                           {% endfor %}
+                        </ul>
+                        </p>
+                        <p>Voor termen uit vocabularia buiten de namespace {{ data.metadata.uridomain }} neemt de vorm aan van een mapping: voor
+                           de opgesomde termen in deze sectie is er gekozen om een term identifier (de URI) te gebruiken uit vocabularia die niet
+                           onder het beheer van Data.vlaanderen.be vallen.
+                        </p>
+                        <p>Deze vorm van hergebruik is het zich akkoord verklaren met de achterliggende definitie, labels en beperkingen
+                           geassocieerd met de URI in de context van dit implementatiemodel. Dat betekent dat men de bovenstaande definities, labels
+                           en gebruiksnotas niet in tegenspraak zouden moeten zijn met deze van de URI.
+                        </p>
+                        <p>Deze mapping is echter een keuze geldig voor dit implementatiemodel. Maar het vormt een sterke suggestie om deze
+                           mapping ook toe te passen in andere, aansluitende domeinen. Een wijziging aan de mapping is geen semantische wijziging
+                           van het implementatimodel, echter het heeft mogelijks een grote implementatieimpact. Met onderstaande mapping is de
+                           impact is duidelijk en eenduidig te beschrijven.
+                        </p>
+                        <p>Merk op, dat de nood om een mapping wijziging door te voeren ook dikwijls ook semantische aanpassingen met zich mee
+                           brengt. Daarom is het aangewezen om wijzingen in het normale veranderingsbeheer van de standaard op te nemen.
+                        </p>
+                        <table class="definition external">
+                           <thead>
+                              <tr>
+                                 <th>term</th>
+                                 <th>URI</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              {% for entity in data.classes %}
+                              {% if entity.applicationProfileLabel[language] %}
+                              {% if entity.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
+                              <tr>
+                                 <td>
+                                    <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag() }}">{{ entity.applicationProfileLabel[language] }}</a>
+                                 </td>
+                                 <td>
+                                    <b>
+                                    <code>{{ entity.id }}</code>
+                                    </b>
+                                 </td>
+                              </tr>
+                              {% endif %}
+                              {% for prop in entity.properties %}
+                              {% if prop.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
+                              {% if prop.applicationProfileLabel[language] %}
+                              <tr>
+                                 <td>
+                                    <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag(prop.applicationProfileLabel[language]) }}">{{ entity.applicationProfileLabel[language] }}.{{ prop.applicationProfileLabel[language] }}</a>
+                                 </td>
+                                 <td>
+                                    <code>{{ prop.id }}</code>
+                                 </td>
+                              </tr>
+                              {% endif %}
+                              {% endif %}
+                              {% endfor %}
+                              {% endif %}
+                              {% endfor %}
+                              {% for entity in data.dataTypes %}
+                              {% if entity.applicationProfileLabel[language] %}
+                              {% if entity.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
+                              <tr>
+                                 <td>
+                                    <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag() }}">{{ entity.applicationProfileLabel[language] }}</a>
+                                 </td>
+                                 <td>
+                                    <code>{{ entity.id }}</code>
+                                 </td>
+                              </tr>
+                              {% endif %}
+                              {% for prop in entity.properties %}
+                              {% if prop.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
+                              {% if prop.applicationProfileLabel[language] %}
+                              <tr>
+                                 <td>
+                                    <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag(prop.applicationProfileLabel[language]) }}">{{ entity.applicationProfileLabel[language] }}.{{ prop.applicationProfileLabel[language] }}</a>
+                                 </td>
+                                 <td>
+                                    <code>{{ prop.id }}</code>
+                                 </td>
+                              </tr>
+                              {% endif %}
+                              {% endif %}
+                              {% endfor %}
+                              {% endif %}
+                              {% endfor %}
+                           </tbody>
+                        </table>
+                     </div>
                   </div>
                   <div class="vl-col--3-12 vl-col--12-12--s push--1-12" id="sideNav">
                      <nav class="vl-side-navigation vl-u-sticky vl-region" id="sideNav">
@@ -605,6 +702,9 @@
                                  <li class="vl-side-navigation__item">
                                     <a href="#shacl">SHACL template</a>
                                  </li>
+                                 <li class="side-navigation__item">
+                                    <a href="#mappingext">Externe terminologie</a>
+                                 </li>
                               </ul>
                            </div>
                         </div>
@@ -622,6 +722,9 @@
          <!-- End global footer-->
       </div>
       <style>
+         .external {
+         line-break: anywhere;
+         }
          @media screen {
             /* hide from IE3 */
             a[href]:hover {
