@@ -92,13 +92,13 @@
   {
     "urlref": "/doc/applicatieprofiel/mandatendatabank/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokalebesluiten",
-    "branchtag": "master",
+    "branchtag": "toolchain4-fix-warnings",
     "name": "mandatendatabank",
     "filename": "config/mandatendatabank.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20"
     },
-    "dummy": "2025-03-16 21:15:32"
+    "dummy": "2025-07-18 1"
   },
   {
     "urlref": "/doc/vocabularium/mandaat/ontwerpstandaard/toolchain4",
