@@ -8,12 +8,12 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "036"
+    "dummy": "037"
   },
   {
     "urlref": "/doc/implementatiemodel/verkeersmeldingen",
     "seealso": "/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04",
     "type": "ap",
-    "dummy": "036"
+    "dummy": "037"
   }
 ]
