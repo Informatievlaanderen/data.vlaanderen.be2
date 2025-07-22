@@ -337,13 +337,13 @@
   {
     "urlref": "/doc/vocabularium/besluit/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
-    "branchtag": "master",
+    "branchtag": "toolchain4-fix-warnings",
     "name": "besluit",
     "filename": "config/besluit.json",
     "navigation": {
       "prev": "/doc/vocabularium/besluit/standaard/2018-07-20"
     },
-    "dummy": "2025-03-15 21:47:08",
+    "dummy": "2025-07-22 1",
     "type": "voc"
   },
   {
