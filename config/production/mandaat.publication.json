@@ -103,12 +103,12 @@
   {
     "urlref": "/doc/vocabularium/mandaat/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokalebesluiten",
-    "branchtag": "master",
+    "branchtag": "toolchain4-fix-warnings",
     "name": "mandaat",
     "filename": "config/mandaat.json",
     "navigation": {
       "prev": "/doc/vocabularium/mandaat/standaard/2018-07-20"
     },
-    "dummy": "2025-03-16 21:15:32"
+    "dummy": "2025-07-22 1"
   }
 ]
