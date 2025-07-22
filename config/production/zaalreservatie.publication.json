@@ -18,7 +18,7 @@
   {
     "urlref": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
-    "branchtag": "ontwerp_2025-07-14_v0.0.1",
+    "branchtag": "main",
     "name": "zaalreservatie",
     "filename": "config/zaalreservatie-voc.json",
     "navigation": {},
