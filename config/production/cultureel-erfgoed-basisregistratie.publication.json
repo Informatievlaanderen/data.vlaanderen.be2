@@ -7,7 +7,6 @@
     "filename": "config/cultureel-erfgoed-impl.json",
     "type": "ap",
     "navigation": {},
-    "disabled": true,
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
