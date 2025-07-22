@@ -1,8 +1,8 @@
-[
+toolchain[
   {
     "urlref": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-cultureelErfgoed",
-    "branchtag": "master",
+    "branchtag": "master-node-toolchain",
     "name": "cultureel-erfgoed-basisregistratie",
     "filename": "config/cultureel-erfgoed-impl.json",
     "type": "ap",
@@ -14,12 +14,12 @@
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "025"
+    "dummy": "026"
   },
   {
     "urlref": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie",
     "seealso": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20",
     "type": "ap",
-    "dummy": "025"
+    "dummy": "026"
   }
 ]
