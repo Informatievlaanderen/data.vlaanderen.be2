@@ -25,7 +25,7 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden",
-    "seealso": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-05-05",
+    "seealso": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/erkendestandaard/2025-07-225",
     "type": "ap",
     "dummy": "006"
   },
@@ -55,13 +55,13 @@
   },
   {
     "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden",
-    "seealso": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-04-22",
+    "seealso": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/erkendestandaard/2025-07-22",
     "type": "voc",
     "dummy": "004"
   },
   {
     "urlref": "/ns/hulp-dienstverlening-gedetineerden",
-    "seealso": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-04-22",
+    "seealso": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/erkendestandaard/2025-07-22",
     "type": "voc",
     "dummy": "004"
   },
@@ -101,7 +101,7 @@
   {
     "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-05-05",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
-    "branchtag": "v1.1.4",
+    "branchtag": "v1.1.2",
     "name": "hulp-dienstverlening-gedetineerden-ap",
     "filename": "config/hdg-ap.json",
     "navigation": {
@@ -112,12 +112,34 @@
   {
     "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-04-22",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
-    "branchtag": "v1.1.4",
+    "branchtag": "v1.1.2",
     "name": "hulp-dienstverlening-gedetineerden",
     "filename": "config/hdg-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2024-12-18"
     },
     "dummy": "2025-04-23 07:33"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/erkendestandaard/2025-07-22",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
+    "branchtag": "v1.1.4",
+    "name": "hulp-dienstverlening-gedetineerden-ap",
+    "filename": "config/hdg-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-05-05"
+    },
+    "dummy": "2025-07-22 13:47"
+  },
+  {
+    "urlref": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/erkendestandaard/2025-07-22",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
+    "branchtag": "v1.1.4",
+    "name": "hulp-dienstverlening-gedetineerden",
+    "filename": "config/hdg-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-04-22"
+    },
+    "dummy": "2025-07-22 13:47"
   }
 ]
