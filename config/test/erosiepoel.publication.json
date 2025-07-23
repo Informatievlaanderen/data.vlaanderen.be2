@@ -78,6 +78,22 @@
     "dummy": "2025-05-13 11:34:23"
   },
   {
+    "urlref": "/doc/applicatieprofiel/erosiepoel/erkendestandaard/2025-07-23",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
+    "branchtag": "main",
+    "name": "erosiepoel-ap",
+    "filename": "config/erosiepoel-ap.json",
+    "dummy": "2025-07-23 06:55:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/erosiepoel/erkendestandaard/2025-07-23",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
+    "branchtag": "main",
+    "name": "erosiepoel",
+    "filename": "config/erosiepoel-voc.json",
+    "dummy": "2025-07-23 06:55:00"
+  },
+  {
     "urlref": "/ns/erosiepoel",
     "seealso": "/doc/vocabularium/erosiepoel/ontwerpstandaard/toolchain4",
     "dummy": "002",
