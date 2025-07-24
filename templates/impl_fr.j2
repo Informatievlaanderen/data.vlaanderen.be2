@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTDXHTML1.0Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xml:lang="{{ language }}" lang="{{ language }}" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="{{ language }}" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p:
-                        http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
+                                    http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
@@ -573,89 +573,196 @@
                               </p>
                            {% endblock %}
                         </div>
-                     </div>
-                  </div>
-                  <div class="vl-col--3-12 vl-col--12-12--s push--1-12" id="sideNav">
-                     <nav class="vl-side-navigation vl-u-sticky vl-region" id="sideNav">
-                        <div class="vl-side-navigation__content js-scrollspy">
-                           <div class="vl-side-navigation__group">
+                        <div class="vl-region vl-region.vl-region--no-space-top" id="mappingext">
+                           <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">Terminologie (externe) utilisée</h2>
+                           <p>Cette section donne un aperçu de la façon dont la terminologie du vocabulaire a été utilisée dans ce profil de
+                              candidature.
+                           </p>
+                           <p>
+                              Ce profil d'application est basé sur les termes de ces vocabulaires autogérés:
                               <ul>
-                                 <li class="vl-side-navigation__item">
-                                    <a href="#introduction">Introduction</a>
-                                 </li>
-                                 <li class="vl-side-navigation__item">
-                                    <a href="#summary">Résumé</a>
-                                 </li>
-                                 <li class="vl-side-navigation__item">
-                                    <a href="#status">État d'avancement du présent document</a>
-                                 </li>
-                                 <li class="vl-side-navigation__item">
-                                    <a href="#license">Licence</a>
-                                 </li>
-                                 <li class="vl-side-navigation__item">
-                                    <a href="#conformance">Conformité</a>
-                                 </li>
-                                 <li class="vl-side-navigation__item">
-                                    <a href="#overview">Aperçu</a>
-                                 </li>
-                                 <li class="vl-side-navigation__item">
-                                    <a href="#jsonld">Contexte JSON-LD</a>
-                                 </li>
-                                 <li class="vl-side-navigation__item">
-                                    <a href="#shacl">Modèle SHACL</a>
-                                 </li>
+                                 {% for ns in data.metadata.inDomainNamespaces %}
+                                    <li>
+                                       <a href="{{ ns }}">{{ ns }}</a>
+                                    </li>
+                                 {% endfor %}
                               </ul>
-                           </div>
+                           </p>
+                           <p>Pour les termes de vocabulaire en dehors de l'espace de noms, {{ data.metadata.uridomain }} prend la forme d'un
+                              mappage: pour les termes répertoriés dans cette section ont été choisis pour utiliser un identifiant de terme (l'URI) à
+                              partir de vocabulaires qui ne sont pas relèvent de la gestion de Data.vlaanderen.be.
+                           </p>
+                           <p>Cette forme de réutilisation signifie accepter la définition sous-jacente, les étiquettes et les limitations. associé
+                              à l'URI dans le contexte de ce profil d'application. Cela signifie qu'il faut utiliser les définitions ci-dessus, les
+                              étiquettes et les notes d'utilisation ne doivent pas contredire celles de l'URI.
+                           </p>
+                           <p>Cependant, ce mappage est un choix valable pour ce profil d'application. Mais cela fait une forte suggestion à
+                              celui-ci la cartographie peut également être appliquée dans d'autres domaines connexes. Un changement dans le mappage
+                              n'est pas un changement sémantique du profil d'application, mais cela peut avoir un impact majeur sur la mise en œuvre.
+                              Avec la cartographie sous le l'impact peut être décrit clairement et sans ambiguïté.
+                           </p>
+                           <p>Notez que la nécessité d'effectuer une modification de mappage implique souvent également des ajustements
+                              sémantiques. apporte. Il est donc approprié d'inclure les changements dans la gestion normale des changements de la
+                              norme.
+                           </p>
+                           <table class="definition external">
+                              <thead>
+                                 <tr>
+                                    <th>terme</th>
+                                    <th>URI</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 {% for entity in data.classes %}
+                                    {% if entity.applicationProfileLabel[language] %}
+                                       {% if entity.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
+                                          <tr>
+                                             <td>
+                                                <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag() }}">{{ entity.applicationProfileLabel[language] }}</a>
+                                             </td>
+                                             <td>
+                                                <b>
+                                                   <code>{{ entity.id }}</code>
+                                                </b>
+                                             </td>
+                                          </tr>
+                                       {% endif %}
+                                       {% for prop in entity.properties %}
+                                          {% if prop.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
+                                             {% if prop.applicationProfileLabel[language] %}
+                                                <tr>
+                                                   <td>
+                                                      <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag(prop.applicationProfileLabel[language]) }}">{{ entity.applicationProfileLabel[language] }}.{{ prop.applicationProfileLabel[language] }}</a>
+                                                   </td>
+                                                   <td>
+                                                      <code>{{ prop.id }}</code>
+                                                   </td>
+                                                </tr>
+                                             {% endif %}
+                                          {% endif %}
+                                       {% endfor %}
+                                    {% endif %}
+                                 {% endfor %}
+                                 {% for entity in data.dataTypes %}
+                                    {% if entity.applicationProfileLabel[language] %}
+                                       {% if entity.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
+                                          <tr>
+                                             <td>
+                                                <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag() }}">{{ entity.applicationProfileLabel[language] }}</a>
+                                             </td>
+                                             <td>
+                                                <code>{{ entity.id }}</code>
+                                             </td>
+                                          </tr>
+                                       {% endif %}
+                                       {% for prop in entity.properties %}
+                                          {% if prop.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
+                                             {% if prop.applicationProfileLabel[language] %}
+                                                <tr>
+                                                   <td>
+                                                      <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag(prop.applicationProfileLabel[language]) }}">{{ entity.applicationProfileLabel[language] }}.{{ prop.applicationProfileLabel[language] }}</a>
+                                                   </td>
+                                                   <td>
+                                                      <code>{{ prop.id }}</code>
+                                                   </td>
+                                                </tr>
+                                             {% endif %}
+                                          {% endif %}
+                                       {% endfor %}
+                                    {% endif %}
+                                 {% endfor %}
+                              </tbody>
+                           </table>
                         </div>
-                     </nav>
+                     </div>
+                     <div class="vl-col--3-12 vl-col--12-12--s push--1-12" id="sideNav">
+                        <nav class="vl-side-navigation vl-u-sticky vl-region" id="sideNav">
+                           <div class="vl-side-navigation__content js-scrollspy">
+                              <div class="vl-side-navigation__group">
+                                 <ul>
+                                    <li class="vl-side-navigation__item">
+                                       <a href="#introduction">Introduction</a>
+                                    </li>
+                                    <li class="vl-side-navigation__item">
+                                       <a href="#summary">Résumé</a>
+                                    </li>
+                                    <li class="vl-side-navigation__item">
+                                       <a href="#status">État d'avancement du présent document</a>
+                                    </li>
+                                    <li class="vl-side-navigation__item">
+                                       <a href="#license">Licence</a>
+                                    </li>
+                                    <li class="vl-side-navigation__item">
+                                       <a href="#conformance">Conformité</a>
+                                    </li>
+                                    <li class="vl-side-navigation__item">
+                                       <a href="#overview">Aperçu</a>
+                                    </li>
+                                    <li class="vl-side-navigation__item">
+                                       <a href="#jsonld">Contexte JSON-LD</a>
+                                    </li>
+                                    <li class="vl-side-navigation__item">
+                                       <a href="#shacl">Modèle SHACL</a>
+                                    </li>
+                                    <li class="vl-side-navigation__item">
+                                       <a href="#mappingext">Terminologie externe</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </nav>
+                     </div>
+                     <!-- End page content -->
                   </div>
-                  <!-- End page content -->
                </div>
             </div>
          </div>
-      </div>
-      <div
-         id="vlaanderen-footer">
-         <!-- insert your Vlaanderen-footer-code here -->
-         <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/f1d7f80f-ad17-4f25-92b4-027a99785068/embed"></script>
-         <!-- End global footer-->
-      </div>
-      <style>
-         @media screen {
-            /* hide from IE3 */
-            a[href]:hover {
-               background: #ffa
+         <div
+            id="vlaanderen-footer">
+            <!-- insert your Vlaanderen-footer-code here -->
+            <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/f1d7f80f-ad17-4f25-92b4-027a99785068/embed"></script>
+            <!-- End global footer-->
+         </div>
+         <style>
+            .external {
+               line-break: anywhere;
             }
-         }
-         p {
-            text-align: justify;
-         }
-         tr:nth-child(even) td {
-            background-color: #eee;
-         }
-         dt,
-         dd {
-            margin-top: 0;
-            margin-bottom: 0
-         } /* opera 3.50 */
-         dt {
-            font-weight: bold
-         }
-         pre,
-         code {
-            font-family: monospace
-         } /* navigator 4 requires this */
-         em {
-            font-style: italic;
-         }
-         img {
-            width: 100%;
-         }
-         .vl-tooltip {
-            max-width: 128rem;
-         }
-      </style>
-      <script src="https://data.vlaanderen.be/assets/dist/core.js"></script>
-      <script src="https://data.vlaanderen.be/assets/dist/tooltip.js"></script>
-   </body>
-</html></html>
+            @media screen {
+               /* hide from IE3 */
+               a[href]:hover {
+                  background: #ffa
+               }
+            }
+            p {
+               text-align: justify;
+            }
+            tr:nth-child(even) td {
+               background-color: #eee;
+            }
+            dt,
+            dd {
+               margin-top: 0;
+               margin-bottom: 0
+            } /* opera 3.50 */
+            dt {
+               font-weight: bold
+            }
+            pre,
+            code {
+               font-family: monospace
+            } /* navigator 4 requires this */
+            em {
+               font-style: italic;
+            }
+            img {
+               width: 100%;
+            }
+            .vl-tooltip {
+               max-width: 128rem;
+            }
+         </style>
+         <script src="https://data.vlaanderen.be/assets/dist/core.js"></script>
+         <script src="https://data.vlaanderen.be/assets/dist/tooltip.js"></script>
+      </body>
+   </html>
+</html>
