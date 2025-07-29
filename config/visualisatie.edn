@@ -378,4 +378,10 @@
                       :clj-pipelines.file-import/filename "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/citerra-main/muuid.nt"
                       :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/citerra/muuuid"
                       :clj-pipelines/dumpname             "citerra-muuid.ttl.gz"} 
+ :codelistmuuuid71   {:clj-pipelines/type                  :clj-pipelines/addmuuuid
+                      :clj-pipelines.addmuuuid/from            "https://data.vlaanderen.be/id/dataset/codelists/domein"
+                      :clj-pipelines.addmuuuid/batch       "200000"
+                      :clj-pipelines.addmuuuid/domain      "data.vlaanderen.be"
+                      :clj-pipelines/graphname             "https://data.vlaanderen.be/id/dataset/codelists/muuuid"
+                      :clj-pipelines/dumpname              "muuid.ttl.gz"}
 }
