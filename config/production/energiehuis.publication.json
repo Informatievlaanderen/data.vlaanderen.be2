@@ -198,7 +198,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/energiehuis/kandidaatstandaard/2025-05-12"
     },
-    "dummy": "4"
+    "dummy": "005"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiehuis",
@@ -210,6 +210,6 @@
     "urlref": "/ns/energiehuis",
     "seealso": "/doc/vocabularium/energiehuis/erkendestandaard/2025-06-19",
     "type": "voc",
-    "dummy": "4"
+    "dummy": "005"
   }
 ]
