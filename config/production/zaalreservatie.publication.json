@@ -1,5 +1,27 @@
 [
   {
+    "urlref": "/doc/applicatieprofiel/zaalreservatie/kandidaatstandaard/2025-07-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
+    "branchtag": "kandidaat_2025-07-01_v0.0.1",
+    "name": "zaalreservatie",
+    "filename": "config/zaalreservatie-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+      },
+    "dummy": "001"
+  },
+   {
+    "urlref": "/doc/vocabularium/zaalreservatie/kandidaatstandaard/2025-07-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
+    "branchtag": "kandidaat_2025-07-01_v0.0.1",
+    "name": "zaalreservatie",
+    "filename": "config/zaalreservatie-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18"
+      },
+    "dummy": "001"
+  },
+  {
     "urlref": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
     "name": "zaalreservatie",
@@ -14,7 +36,6 @@
     "type": "ap",
     "dummy": "019"
   },
-
   {
     "urlref": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
