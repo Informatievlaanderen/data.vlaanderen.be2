@@ -112,5 +112,27 @@
       "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
     },
     "dummy": "2025-05-13 10:40:20"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-citerra",
+    "branchtag": "main",
+    "name": "mobiliteit-intelligente-toegang-ap",
+    "filename": "config/mobiliteit-intelligente-toegang-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
+    },
+    "dummy": "2025-08-01 10:49:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-citerra",
+    "branchtag": "main",
+    "name": "mobiliteit-intelligente-toegang",
+    "filename": "config/mobiliteit-intelligente-toegang-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
+    },
+    "dummy": "2025-08-01 10:49:00"
   }
 ]
