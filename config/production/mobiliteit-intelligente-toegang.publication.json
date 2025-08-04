@@ -25,7 +25,7 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang",
-    "seealso": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19",
+    "seealso": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-04",
     "type": "ap",
     "dummy": "001"
   },
@@ -55,13 +55,13 @@
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang",
-    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19",
+    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-04",
     "type": "voc",
     "dummy": "001"
   },
   {
     "urlref": "/ns/mobiliteit-intelligente-toegang",
-    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19",
+    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-04",
     "type": "voc",
     "dummy": "001"
   },
@@ -86,5 +86,27 @@
       "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
     },
     "dummy": "2025-07-01"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-04",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-citerra",
+    "branchtag": "v1.0.2",
+    "name": "mobiliteit-intelligente-toegang-ap",
+    "filename": "config/mobiliteit-intelligente-toegang-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
+    },
+    "dummy": "2025-08-04 15:55:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-04",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-citerra",
+    "branchtag": "v1.0.2",
+    "name": "mobiliteit-intelligente-toegang",
+    "filename": "config/mobiliteit-intelligente-toegang-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
+    },
+    "dummy": "2025-08-04 15:55:00"
   }
 ]
