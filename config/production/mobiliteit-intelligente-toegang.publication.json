@@ -27,7 +27,7 @@
     "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang",
     "seealso": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-04",
     "type": "ap",
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19",
@@ -57,13 +57,13 @@
     "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang",
     "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-04",
     "type": "voc",
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/ns/mobiliteit-intelligente-toegang",
     "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-04",
     "type": "voc",
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/toolchain4",
