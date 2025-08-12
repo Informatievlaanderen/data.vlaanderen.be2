@@ -51,7 +51,7 @@
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "01"
+    "dummy": "02"
   },
   {
     "urlref": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
@@ -63,18 +63,18 @@
     "navigation": {
       "prev": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21"
     },
-    "dummy": "01"
+    "dummy": "02"
   },
   {
     "urlref": "/doc/applicatieprofiel/leermiddelen",
     "seealso": "/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "ap",
-    "dummy": "01"
+    "dummy": "02"
   },
   {
     "urlref": "/ns/energiehuis",
     "seealso": "/doc/vocabularium/energiehuis/kandidaatstandaard/2025-08-01",
     "type": "voc",
-    "dummy": "01"
+    "dummy": "02"
   },
 ]
