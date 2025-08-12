@@ -19,19 +19,19 @@
   },
   {
     "urlref": "/doc/vocabularium/leermiddelen",
-    "seealso": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
+    "seealso": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "voc",
     "dummy": "014"
   },
   {
     "urlref": "/ns/leermiddelen",
-    "seealso": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
+    "seealso": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "voc",
     "dummy": "014"
   },
   {
     "urlref": "/doc/applicatieprofiel/leermiddelen",
-    "seealso": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-03-21",
+    "seealso": "/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "ap",
     "dummy": "014"
   },
@@ -52,23 +52,11 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
     "branchtag": "kandidaat_2025-08-01_v0.1.1",
     "name": "leermiddelen",
-    "filename": "config/energiehuis-voc.json",
+    "filename": "config/leermiddelen-voc.json",
     "directory": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
     "navigation": {
       "prev": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21"
     },
-    "dummy": "04"
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/leermiddelen",
-    "seealso": "/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
-    "type": "ap",
-    "dummy": "04"
-  },
-  {
-    "urlref": "/ns/energiehuis",
-    "seealso": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
-    "type": "voc",
     "dummy": "04"
   }
 ]
