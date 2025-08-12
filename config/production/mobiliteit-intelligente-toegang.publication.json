@@ -1,5 +1,23 @@
 [
   {
+    "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang",
+    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-12",
+    "type": "voc",
+    "dummy": "003"
+  },
+  {
+    "urlref": "/ns/mobiliteit-intelligente-toegang",
+    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-12",
+    "type": "voc",
+    "dummy": "003"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang",
+    "seealso": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-12",
+    "type": "ap",
+    "dummy": "003"
+  },
+  {
     "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -24,12 +42,6 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang",
-    "seealso": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-04",
-    "type": "ap",
-    "dummy": "003"
-  },
-  {
     "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -52,18 +64,6 @@
       },
       "dummy": "001"
     }
-  },
-  {
-    "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang",
-    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-04",
-    "type": "voc",
-    "dummy": "003"
-  },
-  {
-    "urlref": "/ns/mobiliteit-intelligente-toegang",
-    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-04",
-    "type": "voc",
-    "dummy": "003"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/toolchain4",
@@ -108,5 +108,27 @@
       "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
     },
     "dummy": "2025-08-05 07:47:00"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-12",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-citerra",
+    "branchtag": "v1.0.4",
+    "name": "mobiliteit-intelligente-toegang-ap",
+    "filename": "config/mobiliteit-intelligente-toegang-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2025-08-04"
+    },
+    "dummy": "2025-08-12 17:36:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-12",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-citerra",
+    "branchtag": "v1.0.4",
+    "name": "mobiliteit-intelligente-toegang",
+    "filename": "config/mobiliteit-intelligente-toegang-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2025-08-04"
+    },
+    "dummy": "2025-08-12 17:36:00"
   }
 ]
