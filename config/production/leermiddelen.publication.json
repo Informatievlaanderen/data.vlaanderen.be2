@@ -21,19 +21,19 @@
     "urlref": "/doc/vocabularium/leermiddelen",
     "seealso": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "voc",
-    "dummy": "014"
+    "dummy": "015"
   },
   {
     "urlref": "/ns/leermiddelen",
     "seealso": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "voc",
-    "dummy": "014"
+    "dummy": "015"
   },
   {
     "urlref": "/doc/applicatieprofiel/leermiddelen",
     "seealso": "/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "ap",
-    "dummy": "014"
+    "dummy": "015"
   },
   {
     "urlref": "/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
@@ -45,7 +45,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-03-21"
     },
-    "dummy": "04"
+    "dummy": "05"
   },
   {
     "urlref": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
@@ -57,6 +57,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21"
     },
-    "dummy": "04"
+    "dummy": "05"
   }
 ]
