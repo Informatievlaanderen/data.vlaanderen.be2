@@ -2,7 +2,7 @@
   {
     "urlref": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-03-21",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
-    "branchtag": "main",
+    "branchtag": "52697b53821309a869d6ee6f8e271795cee0b6c5",
     "name": "leermiddelen-ap",
     "filename": "config/leermiddelen-ap.json",
     "directory": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-03-21",
@@ -11,7 +11,7 @@
   {
     "urlref": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
-    "branchtag": "main",
+    "branchtag": "52697b53821309a869d6ee6f8e271795cee0b6c5",
     "name": "leermiddelen",
     "filename": "config/leermiddelen-voc.json",
     "directory": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
