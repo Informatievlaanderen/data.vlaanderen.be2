@@ -7,7 +7,7 @@ Allow: /shacl/
 Crawl-delay: 1 
 User-agent: ChatGPT-User
 Allow: / 
-User-agent: GPTBoti
+User-agent: GPTBot
 Allow: /ns/
 Allow: /doc/vocabularium/
 Allow: /doc/applicatieprofiel/
