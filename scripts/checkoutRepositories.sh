@@ -175,7 +175,7 @@ toolchainhash=$(git log | grep commit | head -1 | cut -d " " -f 2)
 if cat ${PUBCONFIG} | jq -e . >/dev/null 2>&1
 then
   # First pass: construct missing urlrefs
-  # 2025/0818 - Added a preprocessing step to ensure all publication points have a valid urlref and try to construct it if missing.
+  # 2025/08/18 - Added a preprocessing step to ensure all publication points have a valid urlref and try to construct it if missing.
   echo "Preprocessing publication points to construct missing urlrefs..."
   
   # Create a temporary file to store the updated config
