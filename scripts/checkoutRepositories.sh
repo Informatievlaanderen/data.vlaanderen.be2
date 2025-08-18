@@ -137,12 +137,24 @@ then
   # Create a temporary file to store the updated config
   TEMP_PUBCONFIG="/tmp/processed_$(basename ${PUBCONFIG})"
   
+  # Initialize empty array for processed publication points
+  echo "[]" > "$TEMP_PUBCONFIG"
+  
   # Process each publication point to construct missing urlrefs
+  local index=0
   jq -c '.[]' ${PUBCONFIG} | while IFS= read -r pub_point; do
-    echo "$pub_point" > /tmp/single_pub_point.json
-    construct_urlref_if_missing /tmp/single_pub_point.json
-    cat /tmp/single_pub_point.json
-  done | jq -s '.' > "$TEMP_PUBCONFIG"
+    echo "$pub_point" > "/tmp/single_pub_point_${index}.json"
+    construct_urlref_if_missing "/tmp/single_pub_point_${index}.json"
+    
+    # Add the processed publication point to the temp config
+    jq --argjson newpoint "$(cat "/tmp/single_pub_point_${index}.json")" '. += [$newpoint]' "$TEMP_PUBCONFIG" > "${TEMP_PUBCONFIG}.tmp"
+    mv "${TEMP_PUBCONFIG}.tmp" "$TEMP_PUBCONFIG"
+    
+    # Clean up temporary file
+    rm -f "/tmp/single_pub_point_${index}.json"
+    
+    index=$((index + 1))
+  done
   
   # Use the processed config for the rest of the workflow
   PUBCONFIG="$TEMP_PUBCONFIG"
@@ -152,6 +164,13 @@ then
     _jq() {
       echo ${row} | base64 --decode | jq -r ${1}
     }
+
+    # Check if urlref is still missing after construction attempt
+    DIR=$(_jq '.urlref')
+    if [[ "$DIR" == "null" || -z "$DIR" ]]; then
+      echo "Warning: Could not construct urlref for publication point, skipping..."
+      continue
+    fi
 
       FORM=$(_jq '.type')
       if [ "$FORM" == "raw" ]
