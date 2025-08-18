@@ -1,6 +1,6 @@
 [
   {
-    "urlref": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-03-21",
+    "urlref": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/test",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
     "branchtag": "main",
     "name": "leermiddelen-ap",
@@ -9,7 +9,6 @@
     "dummy": "014"
   },
   {
-    "urlref": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
     "branchtag": "main",
     "name": "leermiddelen",
