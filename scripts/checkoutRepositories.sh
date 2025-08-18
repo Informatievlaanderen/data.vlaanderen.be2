@@ -77,12 +77,76 @@ git_download() {
      popd
 }
 
+construct_urlref_if_missing() {
+    local pub_point_file=$1
+    
+    # Check if urlref is missing or empty
+    if ! jq -e '.urlref and (.urlref | length > 0)' "$pub_point_file" >/dev/null 2>&1; then
+        echo "urlref missing, constructing from metadata..."
+        
+        # Get required fields from publication point
+        local name=$(jq -r '.name // empty' "$pub_point_file")
+        local type=$(jq -r '.type // empty' "$pub_point_file")
+        local repository=$(jq -r '.repository // empty' "$pub_point_file")
+        local branchtag=$(jq -r '.branchtag // empty' "$pub_point_file")
+        local filename=$(jq -r '.filename // "config/eap-mapping.json"' "$pub_point_file")
+        
+        if [[ -n "$repository" && -n "$branchtag" && -n "$filename" && -n "$name" ]]; then
+            # Download the metadata file from the thema repository
+            local temp_metadata="/tmp/metadata_${name}.json"
+            ./scripts/downloadFileGithub.sh "{\"repository\":\"$repository\",\"branchtag\":\"$branchtag\",\"filepath\":\"$filename\"}" "$temp_metadata" "${TOOLCHAIN_TOKEN}"
+            
+            if [[ -f "$temp_metadata" ]]; then
+                # Extract metadata from the thema repository
+                local pub_date=$(jq -r ".[] | select(.name == \"$name\") | .publication_date // empty" "$temp_metadata")
+                local pub_state=$(jq -r ".[] | select(.name == \"$name\") | .publication_state // empty" "$temp_metadata")
+                
+                # Construct urlref based on type
+                local constructed_urlref=""
+                if [[ "$type" == "ap" || "$type" == "applicatieprofiel" ]]; then
+                    constructed_urlref="/doc/applicatieprofiel/${name}/${pub_state}/${pub_date}"
+                elif [[ "$type" == "voc" || "$type" == "vocabularium" ]]; then
+                    constructed_urlref="/doc/vocabularium/${name}/${pub_state}/${pub_date}"
+                elif [[ "$type" == "im" || "$type" == "implementatiemodel" ]]; then
+                    constructed_urlref="/doc/implementatiemodel/${name}/${pub_state}/${pub_date}"
+                fi
+                
+                if [[ -n "$constructed_urlref" ]]; then
+                    # Update the publication point file with the constructed urlref
+                    jq --arg urlref "$constructed_urlref" '. + {urlref: $urlref}' "$pub_point_file" > "${pub_point_file}.tmp"
+                    mv "${pub_point_file}.tmp" "$pub_point_file"
+                    echo "Constructed urlref: $constructed_urlref"
+                fi
+                
+                rm -f "$temp_metadata"
+            fi
+        fi
+    fi
+}
+
 
 toolchainhash=$(git log | grep commit | head -1 | cut -d " " -f 2)
 
 # Process the publications.config file
 if cat ${PUBCONFIG} | jq -e . >/dev/null 2>&1
 then
+  # First pass: construct missing urlrefs
+  # 2025/0818 - Added a preprocessing step to ensure all publication points have a valid urlref and try to construct it if missing.
+  echo "Preprocessing publication points to construct missing urlrefs..."
+  
+  # Create a temporary file to store the updated config
+  TEMP_PUBCONFIG="/tmp/processed_$(basename ${PUBCONFIG})"
+  
+  # Process each publication point to construct missing urlrefs
+  jq -c '.[]' ${PUBCONFIG} | while IFS= read -r pub_point; do
+    echo "$pub_point" > /tmp/single_pub_point.json
+    construct_urlref_if_missing /tmp/single_pub_point.json
+    cat /tmp/single_pub_point.json
+  done | jq -s '.' > "$TEMP_PUBCONFIG"
+  
+  # Use the processed config for the rest of the workflow
+  PUBCONFIG="$TEMP_PUBCONFIG"
+
   # only iterate over those that have a repository
   for row in $(jq -r '.[] | select(.repository)  | @base64 ' ${PUBCONFIG}); do
     _jq() {
