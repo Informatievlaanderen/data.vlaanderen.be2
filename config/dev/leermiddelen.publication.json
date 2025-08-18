@@ -12,7 +12,7 @@
     "urlref": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-02",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
     "branchtag": "9c6416e9f2574eee540a98f3dd9f48b59884484f",
-    "name": "leermiddelen",
+    "name": "leermiddelen-voc",
     "filename": "config/leermiddelen-voc.json",
     "directory": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
     "dummy": "017"
