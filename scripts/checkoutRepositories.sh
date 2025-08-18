@@ -120,6 +120,7 @@ construct_urlref_if_missing() {
                 local pub_date=$(jq -r ".[] | select(.name == \"$name\") | .publication_date // empty" "$temp_metadata")
                 local pub_state=$(jq -r ".[] | select(.name == \"$name\") | .publication_state // empty" "$temp_metadata")
                 local type=$(jq -r ".[] | select(.name == \"$name\") | .type // empty" "$temp_metadata")
+
                 
                 echo "Retrieved from metadata: pub_date=$pub_date, pub_state=$pub_state, type=$type"
                 
