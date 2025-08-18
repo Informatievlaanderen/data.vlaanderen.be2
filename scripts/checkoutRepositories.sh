@@ -123,8 +123,8 @@ construct_urlref_if_missing() {
                     echo "Warning: No metadata found for name $name in $temp_metadata"
                     return
                 fi
-                local pub_date=$(echo "$meta_obj" | jq -r '.publication-date // empty')
-                local pub_state=$(echo "$meta_obj" | jq -r '.publication-state // empty')
+                local pub_date=$(echo "$meta_obj" | jq -r '.["publication-date"] // empty')
+                local pub_state=$(echo "$meta_obj" | jq -r '.["publication-state"] // empty')
                 local type=$(echo "$meta_obj" | jq -r '.type // empty')
 
                 
@@ -150,7 +150,7 @@ construct_urlref_if_missing() {
                         echo "Warning: Could not determine URL pattern for type: $type"
                     fi
                 else
-                    echo "Warning: Could not find required metadata (publication_date: $pub_date, publication_state: $pub_state, type: $type)"
+                    echo "Warning: Could not find required metadata (publication-date: $pub_date, publication-state: $pub_state, type: $type)"
                 fi
                 
                 rm -f "$temp_metadata"
