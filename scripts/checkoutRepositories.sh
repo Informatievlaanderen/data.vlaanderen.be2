@@ -116,9 +116,6 @@ construct_urlref_if_missing() {
             fi
             
             if [[ -f "$temp_metadata" ]]; then
-                echo "$name"
-                echo "$name"
-                echo "$name"
                 # Extract metadata from the thema repository - INCLUDING TYPE
                 cat "$temp_metadata"
                 local meta_obj=$(jq -c ".[] | select(.name == \"$name\")" "$temp_metadata")
@@ -126,8 +123,8 @@ construct_urlref_if_missing() {
                     echo "Warning: No metadata found for name $name in $temp_metadata"
                     return
                 fi
-                local pub_date=$(echo "$meta_obj" | jq -r '.publication_date // empty')
-                local pub_state=$(echo "$meta_obj" | jq -r '.publication_state // empty')
+                local pub_date=$(echo "$meta_obj" | jq -r '.publication-date // empty')
+                local pub_state=$(echo "$meta_obj" | jq -r '.publication-state // empty')
                 local type=$(echo "$meta_obj" | jq -r '.type // empty')
 
                 
