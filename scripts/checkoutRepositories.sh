@@ -90,6 +90,9 @@ construct_urlref_if_missing() {
         local repository=$(jq -r '.repository // empty' "$pub_point_file")
         local branchtag=$(jq -r '.branchtag // empty' "$pub_point_file")
         local filename=$(jq -r '.filename // "config/eap-mapping.json"' "$pub_point_file")
+
+        echo "Processing publication point: $name, type: $type, repository: $repository, branchtag: $branchtag, filename: $filename"
+        echo "Processing publication point: $name, type: $type, repository: $repository, branchtag: $branchtag, filename: $filename"
         
         if [[ -n "$repository" && -n "$branchtag" && -n "$filename" && -n "$name" ]]; then
             # Download the metadata file from the thema repository
