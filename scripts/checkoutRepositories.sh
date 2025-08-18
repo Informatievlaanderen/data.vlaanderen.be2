@@ -86,43 +86,72 @@ construct_urlref_if_missing() {
         
         # Get required fields from publication point
         local name=$(jq -r '.name // empty' "$pub_point_file")
-        local type=$(jq -r '.type // empty' "$pub_point_file")
         local repository=$(jq -r '.repository // empty' "$pub_point_file")
         local branchtag=$(jq -r '.branchtag // empty' "$pub_point_file")
         local filename=$(jq -r '.filename // "config/eap-mapping.json"' "$pub_point_file")
 
-        echo "Processing publication point: $name, type: $type, repository: $repository, branchtag: $branchtag, filename: $filename"
-        echo "Processing publication point: $name, type: $type, repository: $repository, branchtag: $branchtag, filename: $filename"
+        echo "Processing publication point: $name, repository: $repository, branchtag: $branchtag, filename: $filename"
         
         if [[ -n "$repository" && -n "$branchtag" && -n "$filename" && -n "$name" ]]; then
             # Download the metadata file from the thema repository
             local temp_metadata="/tmp/metadata_${name}.json"
-            ./scripts/downloadFileGithub.sh "{\"repository\":\"$repository\",\"branchtag\":\"$branchtag\",\"filepath\":\"$filename\"}" "$temp_metadata" "${TOOLCHAIN_TOKEN}"
+            
+            # Check if downloadFileGithub.sh script exists
+            if [[ -f "./scripts/downloadFileGithub.sh" ]]; then
+                ./scripts/downloadFileGithub.sh "{\"repository\":\"$repository\",\"branchtag\":\"$branchtag\",\"filepath\":\"$filename\"}" "$temp_metadata" "${TOOLCHAIN_TOKEN}"
+            else
+                echo "Warning: downloadFileGithub.sh not found, attempting direct git clone..."
+                # Fallback: clone the repo temporarily to get the metadata
+                local temp_repo="/tmp/repo_$(basename $repository)_$$"
+                git clone "$repository" "$temp_repo" 2>/dev/null
+                if [[ -d "$temp_repo" ]]; then
+                    pushd "$temp_repo" >/dev/null
+                    git checkout "$branchtag" 2>/dev/null
+                    if [[ -f "$filename" ]]; then
+                        cp "$filename" "$temp_metadata"
+                    fi
+                    popd >/dev/null
+                    rm -rf "$temp_repo"
+                fi
+            fi
             
             if [[ -f "$temp_metadata" ]]; then
-                # Extract metadata from the thema repository
+                # Extract metadata from the thema repository - INCLUDING TYPE
                 local pub_date=$(jq -r ".[] | select(.name == \"$name\") | .publication_date // empty" "$temp_metadata")
                 local pub_state=$(jq -r ".[] | select(.name == \"$name\") | .publication_state // empty" "$temp_metadata")
+                local type=$(jq -r ".[] | select(.name == \"$name\") | .type // empty" "$temp_metadata")
                 
-                # Construct urlref based on type
-                local constructed_urlref=""
-                if [[ "$type" == "ap" || "$type" == "applicatieprofiel" ]]; then
-                    constructed_urlref="/doc/applicatieprofiel/${name}/${pub_state}/${pub_date}"
-                elif [[ "$type" == "voc" || "$type" == "vocabularium" ]]; then
-                    constructed_urlref="/doc/vocabularium/${name}/${pub_state}/${pub_date}"
-                elif [[ "$type" == "im" || "$type" == "implementatiemodel" ]]; then
-                    constructed_urlref="/doc/implementatiemodel/${name}/${pub_state}/${pub_date}"
-                fi
+                echo "Retrieved from metadata: pub_date=$pub_date, pub_state=$pub_state, type=$type"
                 
-                if [[ -n "$constructed_urlref" ]]; then
-                    # Update the publication point file with the constructed urlref
-                    jq --arg urlref "$constructed_urlref" '. + {urlref: $urlref}' "$pub_point_file" > "${pub_point_file}.tmp"
-                    mv "${pub_point_file}.tmp" "$pub_point_file"
-                    echo "Constructed urlref: $constructed_urlref"
+                if [[ -n "$pub_date" && -n "$pub_state" && -n "$type" ]]; then
+                    # Construct urlref based on type from metadata
+                    local constructed_urlref=""
+                    if [[ "$type" == "ap" || "$type" == "applicatieprofiel" ]]; then
+                        constructed_urlref="/doc/applicatieprofiel/${name}/${pub_state}/${pub_date}"
+                    elif [[ "$type" == "voc" || "$type" == "vocabularium" ]]; then
+                        constructed_urlref="/doc/vocabularium/${name}/${pub_state}/${pub_date}"
+                    elif [[ "$type" == "im" || "$type" == "implementatiemodel" ]]; then
+                        constructed_urlref="/doc/implementatiemodel/${name}/${pub_state}/${pub_date}"
+                    fi
+                    
+                    if [[ -n "$constructed_urlref" ]]; then
+                        # Update the publication point file with the constructed urlref AND the type
+                        jq --arg urlref "$constructed_urlref" --arg type "$type" '. + {urlref: $urlref, type: $type}' "$pub_point_file" > "${pub_point_file}.tmp"
+                        mv "${pub_point_file}.tmp" "$pub_point_file"
+                        echo "Constructed urlref: $constructed_urlref with type: $type"
+                    else
+                        echo "Warning: Could not determine URL pattern for type: $type"
+                    fi
+                else
+                    echo "Warning: Could not find required metadata (publication_date: $pub_date, publication_state: $pub_state, type: $type)"
                 fi
                 
                 rm -f "$temp_metadata"
+            else
+                echo "Warning: Could not download metadata file from repository"
             fi
+        else
+            echo "Warning: Missing required fields for urlref construction (repository, branchtag, filename, name)"
         fi
     fi
 }
