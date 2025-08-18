@@ -141,7 +141,7 @@ then
   echo "[]" > "$TEMP_PUBCONFIG"
   
   # Process each publication point to construct missing urlrefs
-  local index=0
+  index=0
   jq -c '.[]' ${PUBCONFIG} | while IFS= read -r pub_point; do
     echo "$pub_point" > "/tmp/single_pub_point_${index}.json"
     construct_urlref_if_missing "/tmp/single_pub_point_${index}.json"
