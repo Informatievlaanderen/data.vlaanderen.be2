@@ -132,9 +132,6 @@ construct_urlref_if_missing() {
                 if [[ "$pub_state" =~ StandaardStatus/([^/]+)$ ]]; then
                     pub_state="${BASH_REMATCH[1],,}"
                 fi
-
-                echo "${pub_date} ${pub_state}"
-
                 
                 echo "Retrieved from metadata: pub_date=$pub_date, pub_state=$pub_state, type=$type"
                 
