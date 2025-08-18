@@ -12,7 +12,7 @@
     "urlref": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
     "branchtag": "52697b53821309a869d6ee6f8e271795cee0b6c5",
-    "name": "leermiddelen-voc",
+    "name": "leermiddelen",
     "filename": "config/leermiddelen-voc.json",
     "directory": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
     "dummy": "015"
@@ -21,42 +21,42 @@
     "urlref": "/doc/vocabularium/leermiddelen",
     "seealso": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "voc",
-    "dummy": "019"
+    "dummy": "020"
   },
   {
     "urlref": "/ns/leermiddelen",
     "seealso": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "voc",
-    "dummy": "019"
+    "dummy": "020"
   },
   {
     "urlref": "/doc/applicatieprofiel/leermiddelen",
     "seealso": "/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "ap",
-    "dummy": "019"
+    "dummy": "020"
   },
   {
     "urlref": "/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
-    "branchtag": "kandidaat_2025-08-01_v0.1.2",
+    "branchtag": "kandidaat_2025-08-01_v0.1.3",
     "name": "leermiddelen-ap",
     "filename": "config/leermiddelen-ap.json",
     "directory": "/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
     "navigation": {
       "prev": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-03-21"
     },
-    "dummy": "09"
+    "dummy": "10"
   },
   {
     "urlref": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
-    "branchtag": "kandidaat_2025-08-01_v0.1.2",
+    "branchtag": "kandidaat_2025-08-01_v0.1.3",
     "name": "leermiddelen",
     "filename": "config/leermiddelen-voc.json",
     "directory": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
     "navigation": {
       "prev": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21"
     },
-    "dummy": "09"
+    "dummy": "10"
   }
 ]
