@@ -113,12 +113,11 @@ construct_urlref_if_missing() {
             # Check if downloadFileGithub.sh script exists
             if [[ -f "./scripts/downloadFileGithub.sh" ]]; then
                 ./scripts/downloadFileGithub.sh "{\"repository\":\"$repository\",\"organisation\":\"$organisation\",\"branchtag\":\"$branchtag\",\"filepath\":\"$filename\"}" "$temp_metadata" "${TOOLCHAIN_TOKEN}"
+            fi
             
             if [[ -f "$temp_metadata" ]]; then
-                echo "Downloaded metadata file: $temp_metadata"
-                cat "$temp_metadata"
-
                 # Extract metadata from the thema repository - INCLUDING TYPE
+                cat "$temp_metadata"
                 local pub_date=$(jq -r ".[] | select(.name == \"$name\") | .publication_date // empty" "$temp_metadata")
                 local pub_state=$(jq -r ".[] | select(.name == \"$name\") | .publication_state // empty" "$temp_metadata")
                 local type=$(jq -r ".[] | select(.name == \"$name\") | .type // empty" "$temp_metadata")
