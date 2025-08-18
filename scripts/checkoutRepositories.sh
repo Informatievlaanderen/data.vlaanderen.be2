@@ -84,11 +84,25 @@ construct_urlref_if_missing() {
     if ! jq -e '.urlref and (.urlref | length > 0)' "$pub_point_file" >/dev/null 2>&1; then
         echo "urlref missing, constructing from metadata..."
         
-        # Get required fields from publication point
+# Get required fields from publication point
         local name=$(jq -r '.name // empty' "$pub_point_file")
-        local repository=$(jq -r '.repository // empty' "$pub_point_file")
+        local repository_url=$(jq -r '.repository // empty' "$pub_point_file")
         local branchtag=$(jq -r '.branchtag // empty' "$pub_point_file")
         local filename=$(jq -r '.filename // "config/eap-mapping.json"' "$pub_point_file")
+        
+        # Extract organisation and repository from URL
+        local organisation=""
+        local repository=""
+        if [[ "$repository_url" =~ ^https://github\.com/([^/]+)/(.+)$ ]]; then
+            organisation="${BASH_REMATCH[1]}"
+            repository="${BASH_REMATCH[2]}"
+        elif [[ "$repository_url" =~ ^git@github\.com:([^/]+)/(.+)\.git$ ]]; then
+            organisation="${BASH_REMATCH[1]}"
+            repository="${BASH_REMATCH[2]}"
+        else
+            echo "Warning: Could not parse repository URL: $repository_url"
+            return
+        fi
 
         echo "Processing publication point: $name, repository: $repository, branchtag: $branchtag, filename: $filename"
         
@@ -98,7 +112,7 @@ construct_urlref_if_missing() {
             
             # Check if downloadFileGithub.sh script exists
             if [[ -f "./scripts/downloadFileGithub.sh" ]]; then
-                ./scripts/downloadFileGithub.sh "{\"repository\":\"$repository\",\"branchtag\":\"$branchtag\",\"filepath\":\"$filename\"}" "$temp_metadata" "${TOOLCHAIN_TOKEN}"
+                ./scripts/downloadFileGithub.sh "{\"repository\":\"$repository\",\"organisation\":\"$organisation\",\"branchtag\":\"$branchtag\",\"filepath\":\"$filename\"}" "$temp_metadata" "${TOOLCHAIN_TOKEN}"
             else
                 echo "Warning: downloadFileGithub.sh not found, attempting direct git clone..."
                 # Fallback: clone the repo temporarily to get the metadata
