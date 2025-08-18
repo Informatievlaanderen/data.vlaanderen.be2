@@ -6,7 +6,7 @@
     "name": "leermiddelen-ap",
     "filename": "config/leermiddelen-ap.json",
     "directory": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-03-21",
-    "dummy": "016"
+    "dummy": "017"
   },
   {
     "urlref": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-02",
@@ -15,6 +15,6 @@
     "name": "leermiddelen",
     "filename": "config/leermiddelen-voc.json",
     "directory": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
-    "dummy": "016"
+    "dummy": "017"
   }
 ]
