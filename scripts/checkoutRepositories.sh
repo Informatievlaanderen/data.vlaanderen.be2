@@ -116,25 +116,9 @@ construct_urlref_if_missing() {
             fi
             
             if [[ -f "$temp_metadata" ]]; then
-
-#             [
-#  {
-#    "name": "leermiddelen-ap",
-#    "type": "ap",
-#    "eap": "Leermiddelen.eap",
-#    "diagram": "OSLO-Leermiddelen",
-#    "template": "leermiddelen-ap.j2",
-#    "title": "Applicatieprofiel Leermiddelen",
-#    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-#    "publication-date": "2025-08-01",
-#    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-#    "contributors-file": "stakeholders.csv",
-#    "contributors-column": "Rol",
-#    "site": "site-skeleton/leermiddelen-ap",
-#    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen/issues",
-#    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-leermiddelen"
-#  }
-# ]
+                echo "$name"
+                echo "$name"
+                echo "$name"
                 # Extract metadata from the thema repository - INCLUDING TYPE
                 cat "$temp_metadata"
                 local meta_obj=$(jq -c ".[] | select(.name == \"$name\")" "$temp_metadata")
