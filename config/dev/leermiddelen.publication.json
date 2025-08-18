@@ -1,5 +1,6 @@
 [
   {
+    "urlref": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-02",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
     "branchtag": "main",
     "name": "leermiddelen-ap",
@@ -8,6 +9,7 @@
     "dummy": "016"
   },
   {
+    "urlref": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-02",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
     "branchtag": "main",
     "name": "leermiddelen",
