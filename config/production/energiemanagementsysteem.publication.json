@@ -1,38 +1,38 @@
 [
-    {
-        "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14",
-        "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiemanagementsystem",
-        "name": "energiemanagementsysteem",
-        "branchtag": "main",
-        "filename": "config/energiemanagementsysteem-ap.json",
-        "navigation": {},
-        "contextgenerator": {
-            "parameters": "--addDomainPrefix true"
-        },
-        "shaclgenerator": {
-            "parameters": ""
-        },
-        "dummy": "32"
+  {
+    "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiemanagementsystem",
+    "name": "energiemanagementsysteem",
+    "branchtag": "main",
+    "filename": "config/energiemanagementsysteem-ap.json",
+    "navigation": {},
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
     },
-     {
-        "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-07-22",
-        "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiemanagementsystem",
-        "name": "energiemanagementsysteem",
-        "branchtag": "main",
-        "filename": "config/energiemanagementsysteem-ap.json",
-        "navigation": {},
-        "contextgenerator": {
-            "parameters": "--addDomainPrefix true"
-        },
-        "shaclgenerator": {
-            "parameters": ""
-        },
-        "dummy": "35"
+    "shaclgenerator": {
+      "parameters": ""
     },
-    {
-        "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
-        "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-07-22",
-        "type": "ap",
-        "dummy": "35"
-    }
+    "dummy": "32"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-07-22",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiemanagementsystem",
+    "name": "energiemanagementsysteem",
+    "branchtag": "main",
+    "filename": "config/energiemanagementsysteem-ap.json",
+    "navigation": {},
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "shaclgenerator": {
+      "parameters": ""
+    },
+    "dummy": "35"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
+    "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-07-22",
+    "type": "ap",
+    "dummy": "35"
+  }
 ]
