@@ -149,7 +149,7 @@
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
-    "branchtag": "a88d6e4111270822d75f82f51c022257c646a020",
+    "branchtag": "master-node-toolchain",
     "name": "tijdstabellen-ap",
     "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
     "prefix": "mobiliteit",
