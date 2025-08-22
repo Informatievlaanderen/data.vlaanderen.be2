@@ -57,7 +57,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01"
     },
-    "dummy": "2025-08-22 11:24:51"
+    "dummy": "2025-08-22 11:39:13"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/",
@@ -93,7 +93,7 @@
     "branchtag": "master",
     "name": "organisatie",
     "filename": "config/organisatie.json",
-    "dummy": "2025-08-22 11:24:51",
+    "dummy": "2025-08-22 11:39:13",
     "navigation": {
       "prev": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03"
     }
