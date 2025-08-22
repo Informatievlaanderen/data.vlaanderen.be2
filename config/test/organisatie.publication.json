@@ -64,7 +64,9 @@
     "seealso": "/doc/applicatieprofiel/organisatie-basis/kandidaatstandaard/niet-bepaald",
     "type": "ap"
   },
-  {
+
+  { 
+	  "dummy": "xx",
     "comment": "Dit is een referentie naar het oorspronkelijke extractie uit toolchain 1",
     "urlref": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
@@ -84,32 +86,17 @@
     }
   },
   {
-    "urlref": "/doc/vocabularium/organisatie",
-    "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
-    "type": "voc"
-  },
-  {
-    "comment": "Dit is een referentie naar het oorspronkelijke extractie uit toolchain 1",
-    "urlref": "/doc/vocabularium/organisatie",
-    "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
-    "directory": "/doc/vocabularium/organisatie",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "type": "raw",
-    "original": {
-      "comment": "Dit is een referentie naar het oorspronkelijke extractie uit toolchain 1",
-      "urlref": "/doc/vocabularium/organisatie",
-      "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
-      "type": "voc"
-    }
-  },
-  {
     "urlref": "/doc/vocabularium/organisatie/ontwerpdocument/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/",
     "branchtag": "master",
     "name": "organisatie",
     "filename": "config/organisatie.json",
     "dummy": "2025-05-13 10:40:20"
+  },
+  {
+      "urlref": "/doc/vocabularium/organisatie",
+      "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
+      "type": "voc"
   },
   {
     "urlref": "/ns/organisatie",
