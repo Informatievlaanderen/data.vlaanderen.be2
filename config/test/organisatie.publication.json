@@ -81,7 +81,10 @@
       "branchtag": "organisatie-voc",
       "name": "organisatie-voc",
       "filename": "config/organisatie-basis.json",
-      "type": "raw"
+      "type": "raw",
+    "navigation": {
+      "next": "/doc/vocabularium/organisatie/ontwerpdocument/toolchain4"
+    }
     }
   },
   {
@@ -90,7 +93,10 @@
     "branchtag": "master",
     "name": "organisatie",
     "filename": "config/organisatie.json",
-    "dummy": "2025-08-22 09:23:49"
+    "dummy": "2025-08-22 09:23:49",
+    "navigation": {
+      "prev": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03"
+    }
   },
   {
     "urlref": "/doc/vocabularium/organisatie",
