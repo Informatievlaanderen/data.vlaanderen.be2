@@ -149,7 +149,7 @@
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
-    "branchtag": "a88d6e4111270822d75f82f51c022257c646a020",
+    "branchtag": "master-node-toolchain",
     "name": "tijdstabellen-ap",
     "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
     "prefix": "mobiliteit",
@@ -517,19 +517,13 @@
     "dummy": "trigger",
     "urlref": "/doc/vocabularium/mobiliteit",
     "seealso": "/doc/vocabularium/mobiliteit/kandidaatstandaard/2018-09-30",
-    "type": "raw",
-    "directory": "/doc/vocabularium/mobiliteit",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production"
+    "type": "voc"
   },
   {
     "dummy": "trigger",
     "urlref": "/ns/mobiliteit",
     "seealso": "/doc/vocabularium/mobiliteit/kandidaatstandaard/2018-09-30",
-    "type": "raw",
-    "directory": "/ns/mobiliteit",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production"
+    "type": "voc"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/toolchain4",
