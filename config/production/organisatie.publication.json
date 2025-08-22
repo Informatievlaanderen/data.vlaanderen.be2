@@ -51,13 +51,13 @@
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-organisatie",
-    "branchtag": "master-node-toolchain",
+    "branchtag": "master",
     "name": "organisatie-basis",
     "filename": "config/organisatie-basis.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01"
     },
-    "dummy": "2025-08-20 07:32:40"
+    "dummy": "2025-08-22 14:58:28"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/",
@@ -80,28 +80,27 @@
       "branchtag": "organisatie-voc",
       "name": "organisatie-voc",
       "filename": "config/organisatie-basis.json",
-      "type": "raw"
+      "type": "raw",
+      "navigation": {
+        "next": "/doc/vocabularium/organisatie/ontwerpdocument/toolchain4"
+      }
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/organisatie/ontwerpdocument/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/",
+    "branchtag": "master",
+    "name": "organisatie",
+    "filename": "config/organisatie.json",
+    "dummy": "2025-08-22 14:58:28",
+    "navigation": {
+      "prev": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03"
     }
   },
   {
     "urlref": "/doc/vocabularium/organisatie",
     "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
     "type": "voc"
-  },
-  {
-    "comment": "Dit is een referentie naar het oorspronkelijke extractie uit toolchain 1",
-    "urlref": "/doc/vocabularium/organisatie",
-    "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
-    "type": "voc",
-    "dummy": "010"
-  },
-  {
-    "urlref": "/doc/vocabularium/organisatie/ontwerpdocument/toolchain4",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/",
-    "branchtag": "master-node-toolchain",
-    "name": "organisatie",
-    "filename": "config/organisatie.json",
-    "dummy": "2025-08-20 07:32:40"
   },
   {
     "urlref": "/ns/organisatie",
