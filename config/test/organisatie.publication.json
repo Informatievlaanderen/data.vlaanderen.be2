@@ -57,7 +57,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01"
     },
-    "dummy": "2025-08-22 09:23:49"
+    "dummy": "2025-08-22 11:24:51"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/",
@@ -82,9 +82,9 @@
       "name": "organisatie-voc",
       "filename": "config/organisatie-basis.json",
       "type": "raw",
-    "navigation": {
-      "next": "/doc/vocabularium/organisatie/ontwerpdocument/toolchain4"
-    }
+      "navigation": {
+        "next": "/doc/vocabularium/organisatie/ontwerpdocument/toolchain4"
+      }
     }
   },
   {
@@ -93,7 +93,7 @@
     "branchtag": "master",
     "name": "organisatie",
     "filename": "config/organisatie.json",
-    "dummy": "2025-08-22 09:23:49",
+    "dummy": "2025-08-22 11:24:51",
     "navigation": {
       "prev": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03"
     }
