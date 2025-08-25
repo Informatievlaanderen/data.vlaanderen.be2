@@ -114,12 +114,17 @@ extract_json() {
 
     generator_parameters eaconverter ${MAPPINGFILE}
 
+    echo "${PARAMETERS}"
+    echo "${PARAMETERS}"
+    echo "${PARAMETERS}"
+
     echo "${REPORTLINEPREFIX}oslo-converter-ea for diagram ${DIAGRAM}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------" &>>${REPORTFILE}
-    oslo-converter-ea ${PARAMETERS} --umlFile ${UMLFILE} --diagramName ${DIAGRAM} --outputFile ${OUTPUTFILE} \
+    oslo-converter-ea --umlFile ${UMLFILE} --diagramName ${DIAGRAM} --outputFile ${OUTPUTFILE} \
                  --specificationType ${SPECTYPE} --versionId ${URLREF2} --baseUri https://${DOMAIN} \
 		 --debug true \
                  --publicationEnvironment ${HOSTNAME2}/ \
+                 \ ${PARAMETERS}
                  &>> ${REPORTFILE}
 
         if [ $? -gt 0 ] ; then
