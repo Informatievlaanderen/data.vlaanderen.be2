@@ -23,17 +23,17 @@ generator_parameters() {
     local GENERATOR=$1
     local JSONI=$2
 
-    #
-    # The toolchain can add specific parameters for the oslo-converter-ea tool
-    # Priority rules are as follows:
-    #   1. publication point specific
-    #   2. generic configuration
-    #   3. otherwise empty string
-    #
-    COMMAND=$(echo '.'${GENERATOR}'.parameters')
+    # Check if JSONI contains an array and extract first element if needed
+    local IS_ARRAY=$(jq 'type' ${JSONI})
+    if [ "${IS_ARRAY}" == '"array"' ]; then
+        COMMAND=$(echo '.[0].'${GENERATOR}'.parameters')
+    else
+        COMMAND=$(echo '.'${GENERATOR}'.parameters')
+    fi
+    
     PARAMETERS=$(jq -r ${COMMAND} ${JSONI})
     if [ "${PARAMETERS}" == "null" ]; then
-        PARAMETERS=$(jq -r ${COMMAND} ${CONFIGDIR}/config.json)
+        PARAMETERS=$(jq -r ".${GENERATOR}.parameters" ${CONFIGDIR}/config.json)
     fi
     if [ "${PARAMETERS}" == "null" ] || [ -z "${PARAMETERS}" ]; then
         PARAMETERS=""
