@@ -113,13 +113,16 @@ extract_json() {
     URLREF2=$(echo ${URLREF} | sed -e "s|^/||g" )
 
     generator_parameters eaconverter ${MAPPINGFILE}
+    echo "DEBUG: MAPPINGFILE: ${MAPPINGFILE}" &>>${REPORTFILE}
+    echo "DEBUG: IS_ARRAY check:" &>>${REPORTFILE}
+    echo $(jq 'type' ${MAPPINGFILE}) &>>${REPORTFILE}
+    echo "DEBUG: Full content of MAPPINGFILE:" &>>${REPORTFILE}
+    cat ${MAPPINGFILE} &>>${REPORTFILE}
+    echo "DEBUG: Testing direct access:" &>>${REPORTFILE}
+    echo $(jq -r '.[0].eaconverter.parameters' ${MAPPINGFILE}) &>>${REPORTFILE}
+    echo "DEBUG: PARAMETERS value after generator_parameters: '${PARAMETERS}'" &>>${REPORTFILE}
 
-    echo "${MAPPINGFILE}" &>>${REPORTFILE}
-
-    echo "lol" &>>${REPORTFILE}$
-    echo "$( jq -r .[].eaconverter ${MAPPINGFILE} )" &>>${REPORTFILE}
-    echo "${PARAMETERS}" &>>${REPORTFILE}
-    echo "lol" &>>${REPORTFILE}
+echo "${MAPPINGFILE}" &>>${REPORTFILE}
 
     echo "${REPORTLINEPREFIX}oslo-converter-ea for diagram ${DIAGRAM}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------" &>>${REPORTFILE}
