@@ -23,6 +23,8 @@ generator_parameters() {
     local GENERATOR=$1
     local JSONI=$2
 
+    echo "${JSONI}"
+
     # Check if JSONI contains an array and extract first element if needed
     local IS_ARRAY=$(jq 'type' ${JSONI})
     if [ "${IS_ARRAY}" == '"array"' ]; then
@@ -89,6 +91,7 @@ extract_json() {
     local URLREF=$( jq -r .urlref .publication-point.json )
     local HOSTNAME=$( jq -r .hostname  ${CONFIGDIR}/config.json )
     local DOMAIN=$( jq -r .domain  ${CONFIGDIR}/config.json )
+    local EACONVERTER=$( jq -r .eaconverter  ${CONFIGDIR}/config.json )
 #    local REPORTFILE=${TTDIR}/$(cat .names.txt).report
     local REPORTFILE=${TTDIR}/oslo-converter-ea.report.md
 
@@ -114,9 +117,8 @@ extract_json() {
 
     generator_parameters eaconverter ${MAPPINGFILE}
 
+    echo "lol" &>>${REPORTFILE}
     echo "${PARAMETERS}" &>>${REPORTFILE}
-    echo "lol" &>>${REPORTFILE}
-    echo "lol" &>>${REPORTFILE}
     echo "lol" &>>${REPORTFILE}
 
     echo "${REPORTLINEPREFIX}oslo-converter-ea for diagram ${DIAGRAM}" &>>${REPORTFILE}
