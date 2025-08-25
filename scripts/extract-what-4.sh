@@ -66,10 +66,6 @@ get_mapping_file() {
             local MAPPING_DATA=$(jq ".[0]" ${MAPPINGFILE})
             
             # Merge publication point data with mapping data, giving priority to publication point
-            echo "${PUBPOINT_DATA}" "${MAPPING_DATA}" | jq -s '.[0] + .[1] | [.]' > .names.json
-            echo "${PUBPOINT_DATA}" "${MAPPING_DATA}" | jq -s '.[0] + .[1] | [.]' > .names.json
-            echo "${PUBPOINT_DATA}" "${MAPPING_DATA}" | jq -s '.[0] + .[1] | [.]' > .names.json
-            echo "${PUBPOINT_DATA}" "${MAPPING_DATA}" | jq -s '.[0] + .[1] | [.]' > .names.json
             MAPPINGFILE=".names.json"
         fi
     fi
@@ -217,6 +213,8 @@ do
     then
       pushd ${SLINE}
        MAPPINGFILE=$(get_mapping_file)   
+       cat $MAPPINGFILE
+       cat $MAPPINGFILE
        cat $MAPPINGFILE
 
        # determine the EAP config files to be used
