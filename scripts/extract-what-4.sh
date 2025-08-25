@@ -115,10 +115,11 @@ extract_json() {
     generator_parameters eaconverter ${MAPPINGFILE}
 
     echo "${MAPPINGFILE}" &>>${REPORTFILE}
-    echo "${MAPPINGFILE}" &>>${REPORTFILE}
-    echo "${MAPPINGFILE}" &>>${REPORTFILE}
 
-    echo "lol" &>>${REPORTFILE}
+    echo "lol" &>>${REPORTFILE}$
+    echo "$( jq -r .[].type ${MAPPINGFILE} )" &>>${REPORTFILE}
+    echo "$( jq -r .[].type ${MAPPINGFILE} )" &>>${REPORTFILE}
+    echo "$( jq -r .[].type ${MAPPINGFILE} )" &>>${REPORTFILE}
     echo "${PARAMETERS}" &>>${REPORTFILE}
     echo "lol" &>>${REPORTFILE}
 
