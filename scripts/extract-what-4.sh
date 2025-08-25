@@ -20,33 +20,27 @@ execution_strickness() {
 }
 
 generator_parameters() {
+
     local GENERATOR=$1
     local JSONI=$2
 
     #
-    # The toolchain can add specific parameters for the generator tool
+    # The toolchain can add specific parameters for the SHACL generation tool
     # Priority rules are as follows:
     #   1. publication point specific
     #   2. generic configuration
     #   3. otherwise empty string
     #
-    
-    # Check if JSONI contains an array and extract first element if needed
-    local IS_ARRAY=$(jq 'type' ${JSONI})
-    if [ "${IS_ARRAY}" == '"array"' ]; then
-        COMMAND=$(echo '.[0].'${GENERATOR}'.parameters')
-    else
-        COMMAND=$(echo '.'${GENERATOR}'.parameters')
-    fi
-    
+    COMMAND=$(echo '.'${GENERATOR}'.parameters')
     PARAMETERS=$(jq -r ${COMMAND} ${JSONI})
     if [ "${PARAMETERS}" == "null" ]; then
-        PARAMETERS=$(jq -r ".${GENERATOR}.parameters" ${CONFIGDIR}/config.json)
+        PARAMETERS=$(jq -r ${COMMAND} ${CONFIGDIR}/config.json)
     fi
     if [ "${PARAMETERS}" == "null" ] || [ -z "${PARAMETERS}" ]; then
         PARAMETERS=""
     fi
 }
+
 
 
 #############################################################################################
@@ -124,6 +118,8 @@ extract_json() {
     HOSTNAME2=$(echo ${HOSTNAME} | sed -e "s|/$||g" )
     URLREF2=$(echo ${URLREF} | sed -e "s|^/||g" )
 
+
+    # Add any extra parameters from the publication point into the config 
     generator_parameters eaconverter .publication-point.json
 
     echo "${REPORTLINEPREFIX}oslo-converter-ea for diagram ${DIAGRAM}" &>>${REPORTFILE}
