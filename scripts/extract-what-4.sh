@@ -19,6 +19,27 @@ execution_strickness() {
     fi
 }
 
+generator_parameters() {
+    local GENERATOR=$1
+    local JSONI=$2
+
+    #
+    # The toolchain can add specific parameters for the oslo-converter-ea tool
+    # Priority rules are as follows:
+    #   1. publication point specific
+    #   2. generic configuration
+    #   3. otherwise empty string
+    #
+    COMMAND=$(echo '.'${GENERATOR}'.parameters')
+    PARAMETERS=$(jq -r ${COMMAND} ${JSONI})
+    if [ "${PARAMETERS}" == "null" ]; then
+        PARAMETERS=$(jq -r ${COMMAND} ${CONFIGDIR}/config.json)
+    fi
+    if [ "${PARAMETERS}" == "null" ] || [ -z "${PARAMETERS}" ]; then
+        PARAMETERS=""
+    fi
+}
+
 #############################################################################################
 # extraction command functions
 
@@ -91,10 +112,11 @@ extract_json() {
     HOSTNAME2=$(echo ${HOSTNAME} | sed -e "s|/$||g" )
     URLREF2=$(echo ${URLREF} | sed -e "s|^/||g" )
 
+    generator_parameters eaconverter ${MAPPINGFILE}
 
     echo "${REPORTLINEPREFIX}oslo-converter-ea for diagram ${DIAGRAM}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------" &>>${REPORTFILE}
-    oslo-converter-ea --umlFile ${UMLFILE} --diagramName ${DIAGRAM} --outputFile ${OUTPUTFILE} \
+    oslo-converter-ea ${PARAMETERS} --umlFile ${UMLFILE} --diagramName ${DIAGRAM} --outputFile ${OUTPUTFILE} \
                  --specificationType ${SPECTYPE} --versionId ${URLREF2} --baseUri https://${DOMAIN} \
 		 --debug true \
                  --publicationEnvironment ${HOSTNAME2}/ \

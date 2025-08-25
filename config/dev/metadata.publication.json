@@ -1,0 +1,13 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/metadata/ontwerpstandaard/demo",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadata",
+    "name": "metadata",
+    "branchtag": "main",
+    "filename": "config/metadata-ap.json",
+    "eaconverter": {
+      "parameters": "--allTags true"
+    },
+    "dummy": "001"
+  }
+]
