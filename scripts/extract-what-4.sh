@@ -117,9 +117,7 @@ extract_json() {
     echo "${MAPPINGFILE}" &>>${REPORTFILE}
 
     echo "lol" &>>${REPORTFILE}$
-    echo "$( jq -r .[].type ${MAPPINGFILE} )" &>>${REPORTFILE}
-    echo "$( jq -r .[].type ${MAPPINGFILE} )" &>>${REPORTFILE}
-    echo "$( jq -r .[].type ${MAPPINGFILE} )" &>>${REPORTFILE}
+    echo "$( jq -r .[].eaconverter ${MAPPINGFILE} )" &>>${REPORTFILE}
     echo "${PARAMETERS}" &>>${REPORTFILE}
     echo "lol" &>>${REPORTFILE}
 
