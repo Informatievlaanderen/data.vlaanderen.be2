@@ -1,5 +1,8 @@
 #!/bin/bash
 
+source "$(dirname "$0")/generator-parameters.sh"
+
+
 TARGETDIR=$1
 DETAILS=$2
 CONFIGDIR=$3
@@ -26,28 +29,6 @@ REPORTLINENEWLINE='  '
 execution_strickness() {
     if [ "${STRICT}" != "lazy" ]; then
         exit -1
-    fi
-}
-
-generator_parameters() {
-
-    local GENERATOR=$1
-    local JSONI=$2
-
-    #
-    # The toolchain can add specific parameters for the SHACL generation tool
-    # Priority rules are as follows:
-    #   1. publication point specific
-    #   2. generic configuration
-    #   3. otherwise empty string
-    #
-    COMMAND=$(echo '.'${GENERATOR}'.parameters')
-    PARAMETERS=$(jq -r ${COMMAND} ${JSONI})
-    if [ "${PARAMETERS}" == "null" ]; then
-        PARAMETERS=$(jq -r ${COMMAND} ${CONFIGDIR}/config.json)
-    fi
-    if [ "${PARAMETERS}" == "null" ] || [ -z "${PARAMETERS}" ]; then
-        PARAMETERS=""
     fi
 }
 
