@@ -114,7 +114,7 @@ extract_json() {
     HOSTNAME2=$(echo ${HOSTNAME} | sed -e "s|/$||g" )
     URLREF2=$(echo ${URLREF} | sed -e "s|^/||g" )
 
-    generator_parameters convertor ${JSONI}
+    generator_parameters convertor .publication-point.json
 
     echo "${REPORTLINEPREFIX}oslo-converter-ea for diagram ${DIAGRAM}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------" &>>${REPORTFILE}

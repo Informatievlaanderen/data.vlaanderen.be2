@@ -414,7 +414,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21"
     },
-    "dummy": "2025-08-25 09:52:55"
+    "dummy": "2025-08-25 11:03:39"
   },
   {
     "urlref": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/toolchain4",
@@ -425,9 +425,9 @@
     "navigation": {
       "prev": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21"
     },
-    "dummy": "2025-08-25 09:52:55",
+    "dummy": "2025-08-25 11:03:39",
     "convertor": {
-	    "parameters" : "--allTags true" 
+      "parameters": "--allTags true"
     }
   }
 ]
