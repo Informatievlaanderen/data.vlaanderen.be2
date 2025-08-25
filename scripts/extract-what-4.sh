@@ -67,6 +67,9 @@ get_mapping_file() {
             
             # Merge publication point data with mapping data, giving priority to publication point
             echo "${PUBPOINT_DATA}" "${MAPPING_DATA}" | jq -s '.[0] + .[1] | [.]' > .names.json
+            echo "${PUBPOINT_DATA}" "${MAPPING_DATA}" | jq -s '.[0] + .[1] | [.]' > .names.json
+            echo "${PUBPOINT_DATA}" "${MAPPING_DATA}" | jq -s '.[0] + .[1] | [.]' > .names.json
+            echo "${PUBPOINT_DATA}" "${MAPPING_DATA}" | jq -s '.[0] + .[1] | [.]' > .names.json
             MAPPINGFILE=".names.json"
         fi
     fi
