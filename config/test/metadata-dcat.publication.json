@@ -425,6 +425,9 @@
     "navigation": {
       "prev": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21"
     },
-    "dummy": "2025-08-25 09:52:55"
+    "dummy": "2025-08-25 09:52:55",
+    "convertor": {
+	    "parameters" : "--allTags true" 
+    }
   }
 ]
