@@ -20,42 +20,48 @@ execution_strickness() {
 }
 
 generator_parameters() {
+
     local GENERATOR=$1
     local JSONI=$2
 
-    # Check if JSONI contains an array and extract first element if needed
-    local IS_ARRAY=$(jq 'type' ${JSONI})
-    if [ "${IS_ARRAY}" == '"array"' ]; then
-        COMMAND=$(echo '.[0].'${GENERATOR}'.parameters')
-    else
-        COMMAND=$(echo '.'${GENERATOR}'.parameters')
-    fi
-    
+    #
+    # The toolchain can add specific parameters for the SHACL generation tool
+    # Priority rules are as follows:
+    #   1. publication point specific
+    #   2. generic configuration
+    #   3. otherwise empty string
+    #
+    COMMAND=$(echo '.'${GENERATOR}'.parameters')
     PARAMETERS=$(jq -r ${COMMAND} ${JSONI})
     if [ "${PARAMETERS}" == "null" ]; then
-        PARAMETERS=$(jq -r ".${GENERATOR}.parameters" ${CONFIGDIR}/config.json)
+        PARAMETERS=$(jq -r ${COMMAND} ${CONFIGDIR}/config.json)
     fi
     if [ "${PARAMETERS}" == "null" ] || [ -z "${PARAMETERS}" ]; then
         PARAMETERS=""
     fi
 }
 
+
 #############################################################################################
 # extraction command functions
 
 get_mapping_file() {
     if [ -f ".names.json" ] ; then
-	    # mapping file is already extracted
-	MAPPINGFILE=".names.json"
+        # mapping file is already extracted
+        MAPPINGFILE=".names.json"
     else 
-    local MAPPINGFILE=`jq -r 'if (.filename | length) > 0 then .filename else @sh "config/eap-mapping.json"  end' .publication-point.json`
-    #local MAPPINGFILE="config/eap-mapping.json"
-    if [ -f ".names.txt" ]
-    then
-	STR=".[] | select(.name == \"$(cat .names.txt)\") | [.]"
-	jq "${STR}" ${MAPPINGFILE} > .names.json
-	MAPPINGFILE=".names.json"
-    fi
+        local MAPPINGFILE=`jq -r 'if (.filename | length) > 0 then .filename else @sh "config/eap-mapping.json"  end' .publication-point.json`
+        #local MAPPINGFILE="config/eap-mapping.json"
+        if [ -f ".names.txt" ]
+        then
+            # Extract the publication point data and merge it with the mapping file data
+            local PUBPOINT_DATA=$(jq ".[] | select(.name == \"$(cat .names.txt)\")" .publication-point.json)
+            local MAPPING_DATA=$(jq ".[0]" ${MAPPINGFILE})
+            
+            # Merge publication point data with mapping data, giving priority to publication point
+            echo "${PUBPOINT_DATA}" "${MAPPING_DATA}" | jq -s '.[0] + .[1] | [.]' > .names.json
+            MAPPINGFILE=".names.json"
+        fi
     fi
     echo ${MAPPINGFILE}
 }
@@ -113,9 +119,6 @@ extract_json() {
     URLREF2=$(echo ${URLREF} | sed -e "s|^/||g" )
 
     generator_parameters eaconverter ${MAPPINGFILE}
-    echo "DEBUG: MAPPINGFILE: ${MAPPINGFILE}" &>>${REPORTFILE}
-    echo "DEBUG: IS_ARRAY check:" &>>${REPORTFILE}
-    echo $(jq 'type' ${MAPPINGFILE}) &>>${REPORTFILE}
     echo "DEBUG: Full content of MAPPINGFILE:" &>>${REPORTFILE}
     cat ${MAPPINGFILE} &>>${REPORTFILE}
     echo "DEBUG: Testing direct access:" &>>${REPORTFILE}
