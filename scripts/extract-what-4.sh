@@ -114,10 +114,6 @@ extract_json() {
 
     generator_parameters eaconverter ${MAPPINGFILE}
 
-    echo "${PARAMETERS}"
-    echo "${PARAMETERS}"
-    echo "${PARAMETERS}"
-
     echo "${REPORTLINEPREFIX}oslo-converter-ea for diagram ${DIAGRAM}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------" &>>${REPORTFILE}
     oslo-converter-ea ${PARAMETERS} --umlFile ${UMLFILE} --diagramName ${DIAGRAM} --outputFile ${OUTPUTFILE} \
