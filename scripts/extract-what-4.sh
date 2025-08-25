@@ -124,14 +124,21 @@ extract_json() {
     HOSTNAME2=$(echo ${HOSTNAME} | sed -e "s|/$||g" )
     URLREF2=$(echo ${URLREF} | sed -e "s|^/||g" )
 
-    generator_parameters eaconverter ${MAPPINGFILE}
+    echo "DEBUG: Full content of publication point:" &>>${REPORTFILE}
+    cat .publication-point.json &>>${REPORTFILE}
+    cat .publication-point.json &>>${REPORTFILE}
+    cat .publication-point.json &>>${REPORTFILE}
+    cat .publication-point.json &>>${REPORTFILE}
+    cat .publication-point.json &>>${REPORTFILE}
+    cat .publication-point.json &>>${REPORTFILE}
+    generator_parameters eaconverter .publication-point.json
     echo "DEBUG: Full content of MAPPINGFILE:" &>>${REPORTFILE}
     cat ${MAPPINGFILE} &>>${REPORTFILE}
     echo "DEBUG: Testing direct access:" &>>${REPORTFILE}
     echo $(jq -r '.[0].eaconverter.parameters' ${MAPPINGFILE}) &>>${REPORTFILE}
     echo "DEBUG: PARAMETERS value after generator_parameters: '${PARAMETERS}'" &>>${REPORTFILE}
 
-echo "${MAPPINGFILE}" &>>${REPORTFILE}
+    echo "${MAPPINGFILE}" &>>${REPORTFILE}
 
     echo "${REPORTLINEPREFIX}oslo-converter-ea for diagram ${DIAGRAM}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------" &>>${REPORTFILE}
@@ -213,8 +220,6 @@ do
     then
       pushd ${SLINE}
        MAPPINGFILE=$(get_mapping_file)   
-       cat $MAPPINGFILE
-       cat $MAPPINGFILE
        cat $MAPPINGFILE
 
        # determine the EAP config files to be used
