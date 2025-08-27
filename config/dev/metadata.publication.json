@@ -8,6 +8,9 @@
     "eaconverter": {
       "parameters": "--allTags true"
     },
-    "dummy": "005"
+    "webuniversumgenerator": {
+      "parameters": "--allTags true"
+    },
+    "dummy": "006"
   }
 ]
