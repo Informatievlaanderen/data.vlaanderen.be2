@@ -417,6 +417,12 @@
     "dummy": "2025-08-27 14:51:20",
     "convertor": {
       "parameters": "--allTags true"
+    },
+    "eaconverter": {
+      "parameters": "--allTags true"
+    },
+    "webuniversumgenerator": {
+      "parameters": "--allTags true"
     }
   },
   {
