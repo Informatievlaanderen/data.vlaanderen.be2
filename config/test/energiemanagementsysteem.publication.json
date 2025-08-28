@@ -9,13 +9,13 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "020"
+    "dummy": "021"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
     "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14",
     "type": "ap",
     "disabled": true,
-    "dummy": "020"
+    "dummy": "021"
   }
 ]
