@@ -411,11 +411,13 @@
     "branchtag": "master",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
-    "directory": "/doc/applicatieprofiel/metadata-dcat/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21"
     },
-    "dummy": "002"
+    "dummy": "2025-08-27 14:51:20",
+    "convertor": {
+      "parameters": "--allTags true"
+    }
   },
   {
     "urlref": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/toolchain4",
@@ -423,10 +425,18 @@
     "branchtag": "master",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
-    "directory": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21"
     },
-    "dummy": "002"
+    "dummy": "2025-08-27 14:51:20",
+    "convertor": {
+      "parameters": "--allTags true"
+    },
+    "eaconverter": {
+      "parameters": "--allTags true"
+    },
+    "webuniversumgenerator": {
+      "parameters": "--allTags true"
+    }
   }
 ]
