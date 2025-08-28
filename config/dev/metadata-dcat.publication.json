@@ -408,7 +408,7 @@
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadataVoorServices",
-    "branchtag": "master",
+    "branchtag": "b5e3ac7",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
     "navigation": {
