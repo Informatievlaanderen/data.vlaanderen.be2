@@ -90,7 +90,7 @@
       },
       "type": "raw",
       "directory": "/doc/vocabularium/persoon/standaard/2019-07-03",
-      "dummy": "trigger"
+      "dummy": "001"
     }
   },
   {
@@ -135,7 +135,7 @@
     "urlref": "/ns/persoon",
     "seealso": "/doc/vocabularium/persoon/standaard/2019-07-03",
     "type": "voc",
-    "dummy": "trigger"
+    "dummy": "001"
   },
   {
     "urlref": "/doc/applicatieprofiel/persoon-basis/ontwerpstandaard/toolchain4",
