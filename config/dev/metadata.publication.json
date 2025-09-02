@@ -11,20 +11,6 @@
     "webuniversumgenerator": {
       "parameters": "--allTags true"
     },
-    "dummy": "010"
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/metadata/ontwerpstandaard/kristof",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadata",
-    "name": "metadata",
-    "branchtag": "main",
-    "filename": "config/metadata-ap.json",
-    "eaconverter": {
-      "parameters": "--allTags true"
-    },
-    "webuniversumgenerator": {
-      "parameters": "--allTags true"
-    },
-    "dummy": "010"
+    "dummy": "011"
   }
 ]
