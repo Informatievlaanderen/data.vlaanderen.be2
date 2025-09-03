@@ -1,5 +1,25 @@
+# OpenAI Crawlers - Explicit Allow voor OSLO namespaces
+User-agent: OAI-SearchBot
+Allow: /ns/
+Allow: /doc/
+Allow: /standaarden/
+Allow: /shacl/
+Allow: /report/
+Allow: /report4/
+Crawl-delay: 1 
+User-agent: ChatGPT-User
+Allow: / 
+User-agent: GPTBot
+Allow: /ns/
+Allow: /doc/vocabularium/
+Allow: /doc/applicatieprofiel/
+Allow: /report/
+Allow: /report4/
+User-agent: SemrushBot
+Disallow: / 
 User-agent: SemrushBot
 Disallow: / 
 User-agent: *
-Allow:/standaarden
-Disallow: / 
+Allow:/
+User-agent: www.deadlinkchecker.com
+Allow: /
