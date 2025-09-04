@@ -417,6 +417,9 @@
     "dummy": "2025-08-29 08:17:18",
     "convertor": {
       "parameters": "--allTags true"
+    },
+    "webuniversumgenerator": {
+      "parameters": "--allTags true"
     }
   },
   {
