@@ -57,7 +57,10 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01"
     },
-    "dummy": "8-9-2025 10:10:29"
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "8-9-2025 11:39:42"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/",
