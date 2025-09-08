@@ -1,9 +1,0 @@
-{
-	"servers": {
-		"my-mcp-server-81628d13": {
-			"url": "https://data.dev-vlaanderen.be/AI/mcp",
-			"type": "http"
-		}
-	},
-	"inputs": []
-}
