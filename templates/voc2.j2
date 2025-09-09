@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTDXHTML1.0Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xml:lang="{{ language }}" lang="{{ language }}" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="{{ language }}" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p:
-                     http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
+                       http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>{{ data.metadata.title }}</title>
     <meta charset='utf-8'/>
@@ -37,139 +37,141 @@
       <!-- end global header-->
     </div>
     <div class="vl-page">
-      <div class="vl-layout vl-layout--wide">
-        <div class="vl-grid u-hr">
-          <div class="vl-col--9-12 vl-col--1-1--s">
-            <div class="head" role="contentinfo" id="respecHeader">
-              <h1 class="vl-title--h1 title p-name" property="dcterms:title" id="title">{{ data.metadata.title }}</h1>
-              {% if data.metadata.autotranslate %}
-                <div class="disclaimer">
-                  <p>Dit document is een vertaling van het {{ data.metadata.primaryLanguage }} naar het Nederlands.</p>
-                  <br></div>
-                {% endif %}
-                <div class="head">
+      <div class="vl-region">
+        <div class="vl-layout vl-layout--wide">
+          <div class="vl-grid u-hr">
+            <div class="vl-col--9-12 vl-col--1-1--s">
+              <div class="head" role="contentinfo" id="respecHeader">
+                <h1 class="vl-title--h1 title p-name" property="dcterms:title" id="title">{{ data.metadata.title }}</h1>
+                {% if data.metadata.autotranslate %}
+                  <div class="disclaimer">
+                    <p>Dit document is een vertaling van het {{ data.metadata.primaryLanguage }} naar het Nederlands.</p>
+                    <br></div>
+                  {% endif %}
+                  <div class="head">
+                    <dl>
+                      <dt>Status</dt>
+                      <dd>
+                        <a href="{{ data.metadata.status }}">{{ data.metadata.statuslabel }}</a>
+                      </dd>
+                      <dt>Uitgegeven op</dt>
+                      <dd>{{ data.metadata.issued }}</dd>
+                      <dt>Deze versie</dt>
+                      <dd>
+                        <a href="{{ data.metadata.navigation.self }}">{{ data.metadata.navigation.self }}</a>
+                      </dd>
+                      {% if data.metadata.navigation.next %}
+                        <dt>Volgende versie</dt>
+                        <dd>
+                          <a href="{{ data.metadata.navigation.next }}">{{ data.metadata.navigation.next }}</a>
+                        </dd>
+                      {% endif %}
+                      {% if data.metadata.navigation.prev %}
+                        <dt>Vorige versie</dt>
+                        <dd>
+                          <a href="{{ data.metadata.navigation.prev }}">{{ data.metadata.navigation.prev }}</a>
+                        </dd>
+                      {% endif %}
+                    </dl>
+                  </div>
                   <dl>
-                    <dt>Status</dt>
-                    <dd>
-                      <a href="{{ data.metadata.status }}">{{ data.metadata.statuslabel }}</a>
-                    </dd>
-                    <dt>Uitgegeven op</dt>
-                    <dd>{{ data.metadata.issued }}</dd>
-                    <dt>Deze versie</dt>
-                    <dd>
-                      <a href="{{ data.metadata.navigation.self }}">{{ data.metadata.navigation.self }}</a>
-                    </dd>
-                    {% if data.metadata.navigation.next %}
-                      <dt>Volgende versie</dt>
-                      <dd>
-                        <a href="{{ data.metadata.navigation.next }}">{{ data.metadata.navigation.next }}</a>
+                    <dt>Auteurs</dt>
+                    {% set sortedAuthors = (data.stakeholders.authors | sort(attribute='lastName')) %}
+                    {% for author in sortedAuthors %}
+                      <dd inlist="" rel="foaf:maker" class="p-author h-card vcard">
+                        <span typeof="foaf:Person">
+                          <span class="p-name fn" property="foaf:lastName">
+                            {{ author.lastName }}</span>,
+                          <span class="p-name fn" property="foaf:firstName">
+                            {{ author.firstName }}</span>
+                          {% if author.affiliation.homepage and author.affiliation.affiliationName %}
+                            -
+                            <a href="{{ author.affiliation.homepage }}" class="p-org org h-org h-card" rel="foaf:workplaceHomepage">
+                              {{ author.affiliation.affiliationName }}</a>
+                          {% elif author.affiliation.affiliationName %}
+                            -
+                            <span class="p-org org h-org h-card">
+                              {{ author.affiliation.affiliationName }}</span>
+                          {% endif %}
+                        </span>
                       </dd>
-                    {% endif %}
-                    {% if data.metadata.navigation.prev %}
-                      <dt>Vorige versie</dt>
-                      <dd>
-                        <a href="{{ data.metadata.navigation.prev }}">{{ data.metadata.navigation.prev }}</a>
+                    {% endfor %}
+                    <dt>Editors</dt>
+                    {% set sortedEditors = (data.stakeholders.editors | sort(attribute='lastName')) %}
+                    {% for editor in sortedEditors %}
+                      <dd inlist="" rel="foaf:maker" class="p-author h-card vcard">
+                        <span typeof="foaf:Person">
+                          <span class="p-name fn" property="foaf:lastName">
+                            {{ editor.lastName }}</span>,
+                          <span class="p-name fn" property="foaf:firstName">
+                            {{ editor.firstName }}</span>
+                          {% if editor.affiliation.homepage and editor.affiliation.affiliationName %}
+                            -
+                            <a href="{{ editor.affiliation.homepage }}" class="p-org org h-org h-card" rel="foaf:workplaceHomepage">
+                              {{ editor.affiliation.affiliationName }}</a>
+                          {% elif editor.affiliation.affiliationName %}
+                            -
+                            <span class="p-org org h-org h-card">
+                              {{ editor.affiliation.affiliationName }}</span>
+                          {% endif %}
+                        </span>
                       </dd>
-                    {% endif %}
+                    {% endfor %}
+                    <dt>Medewerkers</dt>
+                    {% set sortedContributors = (data.stakeholders.contributors | sort(attribute='lastName')) %}
+                    {% for contributor in sortedContributors %}
+                      <dd inlist="" rel="foaf:maker" class="p-author h-card vcard">
+                        <span typeof="foaf:Person">
+                          <span class="p-name fn" property="foaf:lastName">
+                            {{ contributor.lastName }}</span>,
+                          <span class="p-name fn" property="foaf:firstName">
+                            {{ contributor.firstName }}</span>
+                          {% if contributor.affiliation.homepage and contributor.affiliation.affiliationName %}
+                            -
+                            <a href="{{ contributor.affiliation.homepage }}" class="p-org org h-org h-card" rel="foaf:workplaceHomepage">
+                              {{ contributor.affiliation.affiliationName }}</a>
+                          {% elif contributor.affiliation.affiliationName %}
+                            -
+                            <span class="p-org org h-org h-card">
+                              {{ contributor.affiliation.affiliationName }}</span>
+                          {% endif %}
+                        </span>
+                      </dd>
+                    {% endfor %}
                   </dl>
                 </div>
+              </div>
+              <div class="head" role="metainfo" id="metainfo">
                 <dl>
-                  <dt>Auteurs</dt>
-                  {% set sortedAuthors = (data.stakeholders.authors | sort(attribute='lastName')) %}
-                  {% for author in sortedAuthors %}
-                    <dd inlist="" rel="foaf:maker" class="p-author h-card vcard">
-                      <span typeof="foaf:Person">
-                        <span class="p-name fn" property="foaf:lastName">
-                          {{ author.lastName }}</span>,
-                        <span class="p-name fn" property="foaf:firstName">
-                          {{ author.firstName }}</span>
-                        {% if author.affiliation.homepage and author.affiliation.affiliationName %}
-                          -
-                          <a href="{{ author.affiliation.homepage }}" class="p-org org h-org h-card" rel="foaf:workplaceHomepage">
-                            {{ author.affiliation.affiliationName }}</a>
-                        {% elif author.affiliation.affiliationName %}
-                          -
-                          <span class="p-org org h-org h-card">
-                            {{ author.affiliation.affiliationName }}</span>
-                        {% endif %}
-                      </span>
+                  <dt>Brondata</dt>
+                  <dd>
+                    <a href="{{ data.metadata.repositoryurl }}">{{ data.metadata.repositoryurl }}</a>
+                  </dd>
+                  <dt>Changelog</dt>
+                  <dd>
+                    <a href="{{ data.metadata.changelogurl }}">{{ data.metadata.changelogurl }}</a>
+                  </dd>
+                  <dt id="feedbackurl">Opmerkingen en feedback</dt>
+                  <dd>
+                    <a href="{{ data.metadata.feedbackurl }}">{{ data.metadata.feedbackurl }}</a>
+                  </dd>
+                  <dt>Standaardenregister</dt>
+                  <dd>
+                    <a href="{{ data.metadata.standaardregisterurl }}">{{ data.metadata.standaardregisterurl }}</a>
+                  </dd>
+                  {% if data.metadata.dependencies %}
+                    <dt>Afhankelijkheden</dt>
+                    <dd>
+                      {% for dep in data.metadata.dependencies %}
+                        <a href="{{ dep.packageurl }}">{{ dep.packagelabel }}</a>
+                      {% endfor %}
                     </dd>
-                  {% endfor %}
-                  <dt>Editors</dt>
-                  {% set sortedEditors = (data.stakeholders.editors | sort(attribute='lastName')) %}
-                  {% for editor in sortedEditors %}
-                    <dd inlist="" rel="foaf:maker" class="p-author h-card vcard">
-                      <span typeof="foaf:Person">
-                        <span class="p-name fn" property="foaf:lastName">
-                          {{ editor.lastName }}</span>,
-                        <span class="p-name fn" property="foaf:firstName">
-                          {{ editor.firstName }}</span>
-                        {% if editor.affiliation.homepage and editor.affiliation.affiliationName %}
-                          -
-                          <a href="{{ editor.affiliation.homepage }}" class="p-org org h-org h-card" rel="foaf:workplaceHomepage">
-                            {{ editor.affiliation.affiliationName }}</a>
-                        {% elif editor.affiliation.affiliationName %}
-                          -
-                          <span class="p-org org h-org h-card">
-                            {{ editor.affiliation.affiliationName }}</span>
-                        {% endif %}
-                      </span>
-                    </dd>
-                  {% endfor %}
-                  <dt>Medewerkers</dt>
-                  {% set sortedContributors = (data.stakeholders.contributors | sort(attribute='lastName')) %}
-                  {% for contributor in sortedContributors %}
-                    <dd inlist="" rel="foaf:maker" class="p-author h-card vcard">
-                      <span typeof="foaf:Person">
-                        <span class="p-name fn" property="foaf:lastName">
-                          {{ contributor.lastName }}</span>,
-                        <span class="p-name fn" property="foaf:firstName">
-                          {{ contributor.firstName }}</span>
-                        {% if contributor.affiliation.homepage and contributor.affiliation.affiliationName %}
-                          -
-                          <a href="{{ contributor.affiliation.homepage }}" class="p-org org h-org h-card" rel="foaf:workplaceHomepage">
-                            {{ contributor.affiliation.affiliationName }}</a>
-                        {% elif contributor.affiliation.affiliationName %}
-                          -
-                          <span class="p-org org h-org h-card">
-                            {{ contributor.affiliation.affiliationName }}</span>
-                        {% endif %}
-                      </span>
-                    </dd>
-                  {% endfor %}
+                  {% endif %}
                 </dl>
               </div>
             </div>
-            <div class="head" role="metainfo" id="metainfo">
-              <dl>
-                <dt>Brondata</dt>
-                <dd>
-                  <a href="{{ data.metadata.repositoryurl }}">{{ data.metadata.repositoryurl }}</a>
-                </dd>
-                <dt>Changelog</dt>
-                <dd>
-                  <a href="{{ data.metadata.changelogurl }}">{{ data.metadata.changelogurl }}</a>
-                </dd>
-                <dt id="feedbackurl">Opmerkingen en feedback</dt>
-                <dd>
-                  <a href="{{ data.metadata.feedbackurl }}">{{ data.metadata.feedbackurl }}</a>
-                </dd>
-                <dt>Standaardenregister</dt>
-                <dd>
-                  <a href="{{ data.metadata.standaardregisterurl }}">{{ data.metadata.standaardregisterurl }}</a>
-                </dd>
-                {% if data.metadata.dependencies %}
-                  <dt>Afhankelijkheden</dt>
-                  <dd>
-                    {% for dep in data.metadata.dependencies %}
-                      <a href="{{ dep.packageurl }}">{{ dep.packagelabel }}</a>
-                    {% endfor %}
-                  </dd>
-                {% endif %}
-              </dl>
-            </div>
+            <!-- <p class="copyright">{{ metadata.rights }}</p> -->
           </div>
-          <!-- <p class="copyright">{{ metadata.rights }}</p> -->
         </div>
       </div>
       <div id="main" itemprop="mainContentOfPage" role="main" tabindex="-1" class="vl-main-content">
