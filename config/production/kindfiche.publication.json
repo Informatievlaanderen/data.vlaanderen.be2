@@ -13,12 +13,12 @@
     "original": {
       "urlref": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
-      "branchtag": "ontwerpstandaard_2025-09-09_002",
+      "branchtag": "ontwerpstandaard_2025-09-09_003",
       "name": "kindfiche-ap",
       "disabled": false,
       "filename": "config/kindfiche-ap.json",
       "navigation": {},
-      "dummy": "017"
+      "dummy": "018"
     }
   },
   {
@@ -26,24 +26,24 @@
     "seealso": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
     "disabled": false,
     "type": "ap",
-    "dummy": "017"
+    "dummy": "018"
   },
   {
     "urlref": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
     "disabled": false,
     "type": "raw",
-    "dummy": "017",
+    "dummy": "018",
     "directory": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "original": {
       "urlref": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
-      "branchtag": "ontwerpstandaard_2025-09-09_002",
+      "branchtag": "ontwerpstandaard_2025-09-09_003",
       "name": "kindfiche",
       "filename": "config/kindfiche-voc.json",
       "navigation": {},
-      "dummy": "017"
+      "dummy": "018"
     }
   },
   {
@@ -55,13 +55,13 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03"
     },
-    "dummy": "017"
+    "dummy": "018"
   },
   {
     "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen",
     "seealso": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2025-07-10",
     "disabled": false,
     "type": "ap",
-    "dummy": "017"
+    "dummy": "018"
   }
 ]
