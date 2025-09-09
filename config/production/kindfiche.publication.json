@@ -18,7 +18,7 @@
       "disabled": false,
       "filename": "config/kindfiche-ap.json",
       "navigation": {},
-      "dummy": "011"
+      "dummy": "012"
     }
   },
   {
@@ -26,13 +26,13 @@
     "seealso": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
     "disabled": false,
     "type": "ap",
-    "dummy": "011"
+    "dummy": "012"
   },
   {
     "urlref": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
     "disabled": false,
     "type": "raw",
-    "dummy": "011",
+    "dummy": "012",
     "directory": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -43,7 +43,7 @@
       "name": "kindfiche",
       "filename": "config/kindfiche-voc.json",
       "navigation": {},
-      "dummy": "016"
+      "dummy": "017"
     }
   },
   {
@@ -55,13 +55,13 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03"
     },
-    "dummy": "014"
+    "dummy": "015"
   },
   {
     "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen",
     "seealso": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2025-07-10",
     "disabled": false,
     "type": "ap",
-    "dummy": "014"
+    "dummy": "015"
   }
 ]
