@@ -390,6 +390,10 @@ validate_jsonld() {
         ;;
     esac
 
+    echo "validate jsonld for type ${SPECTYPE}"
+    echo "validate jsonld for type ${SPECTYPE}"
+    echo "validate jsonld for type ${SPECTYPE}"
+
     mkdir -p ${RLINE}
 
     REPORTFILE=${RLINE}/jsonld-validation.report.md
