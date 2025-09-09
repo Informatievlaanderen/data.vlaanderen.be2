@@ -375,6 +375,12 @@ validate_jsonld() {
     local RLINE=$4
 
     MERGEDFILE=${JSONI}
+    COMMAND=$(echo '.type')
+    TYPE=$(jq -r "${COMMAND}" ${JSONI})
+
+    echo "validate jsonld for type ${TYPE}"
+    echo "validate jsonld for type ${TYPE}"
+    echo "validate jsonld for type ${TYPE}"
 
     mkdir -p ${RLINE}
 
@@ -384,6 +390,7 @@ validate_jsonld() {
 
     oslo-jsonld-validator --input ${MERGEDFILE} \
         --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json \
+        --specificationType ${TYPE} \
         2>&1 | tee -a ${REPORTFILE}
 
     echo ${REPORTFILE}
