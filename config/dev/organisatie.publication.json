@@ -110,7 +110,7 @@
     "branchtag": "master-node-toolchain",
     "name": "organisatie",
     "filename": "config/organisatie.json",
-    "dummy": 2
+    "dummy": 3
   },
   {
     "urlref": "/ns/organisatie",
