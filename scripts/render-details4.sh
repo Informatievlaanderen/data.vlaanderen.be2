@@ -378,9 +378,17 @@ validate_jsonld() {
     COMMAND=$(echo '.type')
     TYPE=$(jq -r "${COMMAND}" ${JSONI})
 
-    echo "validate jsonld for type ${TYPE}"
-    echo "validate jsonld for type ${TYPE}"
-    echo "validate jsonld for type ${TYPE}"
+    case $TYPE in
+    ap)
+        SPECTYPE="ApplicationProfile"
+        ;;
+    voc)
+        SPECTYPE="Vocabulary"
+        ;;
+    oj)
+        SPECTYPE="ApplicationProfile"
+        ;;
+    esac
 
     mkdir -p ${RLINE}
 
@@ -390,12 +398,11 @@ validate_jsonld() {
 
     oslo-jsonld-validator --input ${MERGEDFILE} \
         --whitelist https://raw.githubusercontent.com/Informatievlaanderen/OSLO-UML-Transformer/refs/heads/configuration/whitelist.json \
-        --specificationType ${TYPE} \
+        --specificationType ${SPECTYPE} \
         2>&1 | tee -a ${REPORTFILE}
 
     echo ${REPORTFILE}
     echo "RENDER-DETAILS(JSONLD-VALIDATION): File was rendered in ${REPORTFILE}"
-
 }
 
 render_translationfiles() {
