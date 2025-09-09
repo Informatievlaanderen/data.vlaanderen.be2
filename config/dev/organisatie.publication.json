@@ -107,10 +107,10 @@
   {
     "urlref": "/doc/vocabularium/organisatie/ontwerpdocument/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/",
-    "branchtag": "master-node-toolchain",
+    "branchtag": "master",
     "name": "organisatie",
     "filename": "config/organisatie.json",
-    "dummy": 3
+    "dummy": 2
   },
   {
     "urlref": "/ns/organisatie",
