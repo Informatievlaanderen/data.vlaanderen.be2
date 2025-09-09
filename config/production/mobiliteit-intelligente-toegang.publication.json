@@ -1,19 +1,19 @@
 [
   {
     "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang",
-    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-01",
+    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-09",
     "type": "voc",
     "dummy": "003"
   },
   {
     "urlref": "/ns/mobiliteit-intelligente-toegang",
-    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-01",
+    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-09",
     "type": "voc",
     "dummy": "003"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang",
-    "seealso": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-01",
+    "seealso": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-09",
     "type": "ap",
     "dummy": "003"
   },
@@ -152,5 +152,27 @@
       "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2025-08-12"
     },
     "dummy": "2025-09-01 16:56:00"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-09",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-citerra",
+    "branchtag": "v1.0.6",
+    "name": "mobiliteit-intelligente-toegang-ap",
+    "filename": "config/mobiliteit-intelligente-toegang-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2025-09-01"
+    },
+    "dummy": "2025-09-09 14:05:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-09",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-citerra",
+    "branchtag": "v1.0.6",
+    "name": "mobiliteit-intelligente-toegang",
+    "filename": "config/mobiliteit-intelligente-toegang-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2025-09-01"
+    },
+    "dummy": "2025-09-09 14:05:00"
   }
 ]
