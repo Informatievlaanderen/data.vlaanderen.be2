@@ -55,7 +55,7 @@
     "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-imkl",
     "branchtag": "main",
-    "name": "kabels-en-leidingen-ap",
+    "name": "cable-pipe",
     "filename": "config/kabels-en-leidingen-ap.json",
     "directory": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/toolchain4",
     "navigation": {
@@ -74,17 +74,5 @@
       "prev": "/doc/vocabularium/nutsvoorzieningen/kandidaatstandaard/2023-12-19"
     },
     "dummy": "2025-05-13 10:52:57"
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/kristof",
-    "repository": "https://github.com/belgif/ICEGthema-imkl",
-    "branchtag": "main",
-    "name": "cable-pipe",
-    "filename": "config/cable-pipe.json",
-    "directory": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/kristof",
-    "navigation": {
-      "prev": "/doc/applicatieprofiel/kabels-en-leidingen/kandidaatstandaard/2023-12-19"
-    },
-    "dummy": "002"
   }
 ]
