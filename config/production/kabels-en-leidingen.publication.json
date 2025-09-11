@@ -55,6 +55,7 @@
     "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/erkendestandaard/2024-02-06",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-imkl",
     "branchtag": "main",
+    "disabled": true,
     "name": "kabels-en-leidingen-ap",
     "filename": "config/kabels-en-leidingen-ap.json",
     "directory": "/doc/applicatieprofiel/kabels-en-leidingen/erkendestandaard/2024-02-06",
