@@ -148,7 +148,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/adres/standaard/2018-07-03"
     },
-    "dummy": "2025-09-11 10:33:54"
+    "dummy": "2025-09-12 07:42:20"
   },
   {
     "urlref": "/doc/applicatieprofiel/adresregister/ontwerpstandaard/toolchain4",
@@ -159,7 +159,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald"
     },
-    "dummy": "2025-09-11 10:33:54",
+    "dummy": "2025-09-12 07:42:20",
     "contextgenerator": {
       "parameters": "-c -l label --scopedContext true"
     }
