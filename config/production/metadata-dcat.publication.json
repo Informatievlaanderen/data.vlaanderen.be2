@@ -388,7 +388,7 @@
     "dummy": 1
   },
   {
-    "urlref": "/doc/applicatieprofiel/metadata-dcat/ontwerpstandaard/toolchain4",
+    "urlref": "/doc/applicatieprofiel/metadata-dcat/ontwerpstandaard/2025-09-16",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadataVoorServices",
     "branchtag": "master",
     "name": "metadata-voor-services-ap",
@@ -396,10 +396,16 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21"
     },
-    "dummy": "2025-08-20 07:32:40"
+    "dummy": "2025-09-14 22:11:36",
+    "convertor": {
+      "parameters": "--allTags true"
+    },
+    "webuniversumgenerator": {
+      "parameters": "--allTags true"
+    }
   },
   {
-    "urlref": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/toolchain4",
+    "urlref": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/2025-09-16",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadataVoorServices",
     "branchtag": "master",
     "name": "metadata-dcat",
@@ -407,6 +413,9 @@
     "navigation": {
       "prev": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21"
     },
-    "dummy": "2025-08-20 07:32:40"
+    "dummy": "2025-09-14 22:11:36",
+    "convertor": {
+      "parameters": "--allTags true"
+    }
   }
 ]
