@@ -56,6 +56,7 @@ if [ "${TOKEN}" != "" ] ; then
    checkHTTPcode ${STATUS}
 else
 	echo "accessing pubic repository"
+   echo "${ORG} ${REPO} ${FILEPATH} ${BRANCHTAG}" 
    STATUS=`curl -s -w "%{http_code}" -L -o ${TMPDIR}/file.out https://github.com/${ORG}/${REPO}/raw/${BRANCHTAG}/${FILEPATH}`
    checkHTTPcode ${STATUS}
 fi

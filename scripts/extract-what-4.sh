@@ -19,29 +19,6 @@ execution_strickness() {
     fi
 }
 
-#############################################################################################
-# extraction command functions
-
-get_mapping_file() {
-    if [ -f ".names.json" ] ; then
-	    # mapping file is already extracted
-	MAPPINGFILE=".names.json"
-    else 
-    local MAPPINGFILE=`jq -r 'if (.filename | length) > 0 then .filename else @sh "config/eap-mapping.json"  end' .publication-point.json`
-    #local MAPPINGFILE="config/eap-mapping.json"
-    if [ -f ".names.txt" ]
-    then
-	STR=".[] | select(.name == \"$(cat .names.txt)\") | [.]"
-	jq "${STR}" ${MAPPINGFILE} > .names.json
-	MAPPINGFILE=".names.json"
-    fi
-    fi
-    echo ${MAPPINGFILE}
-}
-
-
-#############################################################################################
-#
 generator_parameters() {
 
     local GENERATOR=$1
@@ -63,6 +40,33 @@ generator_parameters() {
         PARAMETERS=""
     fi
 }
+
+
+
+#############################################################################################
+# extraction command functions
+
+get_mapping_file() {
+    if [ -f ".names.json" ] ; then
+        # mapping file is already extracted
+        MAPPINGFILE=".names.json"
+    else 
+        local MAPPINGFILE=`jq -r 'if (.filename | length) > 0 then .filename else @sh "config/eap-mapping.json"  end' .publication-point.json`
+        #local MAPPINGFILE="config/eap-mapping.json"
+        if [ -f ".names.txt" ]
+        then
+            # Extract the publication point data and merge it with the mapping file data
+            local PUBPOINT_DATA=$(jq ".[] | select(.name == \"$(cat .names.txt)\")" .publication-point.json)
+            local MAPPING_DATA=$(jq ".[0]" ${MAPPINGFILE})
+            
+            # Merge publication point data with mapping data, giving priority to publication point
+            MAPPINGFILE=".names.json"
+        fi
+    fi
+    echo ${MAPPINGFILE}
+}
+
+
 
 #############################################################################################
 extract_stakeholder() {
@@ -114,12 +118,13 @@ extract_json() {
     HOSTNAME2=$(echo ${HOSTNAME} | sed -e "s|/$||g" )
     URLREF2=$(echo ${URLREF} | sed -e "s|^/||g" )
 
-    generator_parameters convertor .publication-point.json
+
+    # Add any extra parameters from the publication point into the config 
+    generator_parameters eaconverter .publication-point.json
 
     echo "${REPORTLINEPREFIX}oslo-converter-ea for diagram ${DIAGRAM}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------" &>>${REPORTFILE}
-    oslo-converter-ea ${PARAMETERS} \
-                 --umlFile ${UMLFILE} --diagramName ${DIAGRAM} --outputFile ${OUTPUTFILE} \
+    oslo-converter-ea ${PARAMETERS} --umlFile ${UMLFILE} --diagramName ${DIAGRAM} --outputFile ${OUTPUTFILE} \
                  --specificationType ${SPECTYPE} --versionId ${URLREF2} --baseUri https://${DOMAIN} \
 		 --debug true \
                  --publicationEnvironment ${HOSTNAME2}/ \
