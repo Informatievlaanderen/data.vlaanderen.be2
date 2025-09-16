@@ -1,11 +1,5 @@
 #!/bin/bash
 
-#
-# This script expects gihub cli gh being installen
-# To have it working, set the GH_TOKEN environment variable.
-#
-# use: ./latestIssues.sh <<FILE>>
-
 gh repo list informatievlaanderen --limit 200 --topic oslothema --json issues --json url > /tmp/repoissues
 gh repo list informatievlaanderen --limit 200 --topic oslothema --json url --jq '.[].url' > /tmp/repos
 

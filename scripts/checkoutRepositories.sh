@@ -77,17 +77,144 @@ git_download() {
      popd
 }
 
+construct_urlref_if_missing() {
+    local pub_point_file=$1
+    
+    # Check if urlref is missing or empty
+    if ! jq -e '.urlref and (.urlref | length > 0)' "$pub_point_file" >/dev/null 2>&1; then
+        echo "urlref missing, constructing from metadata..."
+        
+# Get required fields from publication point
+        local name=$(jq -r '.name // empty' "$pub_point_file")
+        local repository_url=$(jq -r '.repository // empty' "$pub_point_file")
+        local branchtag=$(jq -r '.branchtag // empty' "$pub_point_file")
+        local filename=$(jq -r '.filename // "config/eap-mapping.json"' "$pub_point_file")
+        
+        # Extract organisation and repository from URL
+        local organisation=""
+        local repository=""
+        if [[ "$repository_url" =~ ^https://github\.com/([^/]+)/(.+)$ ]]; then
+            organisation="${BASH_REMATCH[1]}"
+            repository="${BASH_REMATCH[2]}"
+        elif [[ "$repository_url" =~ ^git@github\.com:([^/]+)/(.+)\.git$ ]]; then
+            organisation="${BASH_REMATCH[1]}"
+            repository="${BASH_REMATCH[2]}"
+        else
+            echo "Warning: Could not parse repository URL: $repository_url"
+            return
+        fi
+
+        echo "Processing publication point: $name, repository: $repository, branchtag: $branchtag, filename: $filename"
+        
+        if [[ -n "$repository" && -n "$branchtag" && -n "$filename" && -n "$name" ]]; then
+            # Download the metadata file from the thema repository
+            local temp_metadata="/tmp/metadata_${name}.json"
+            
+            # Check if downloadFileGithub.sh script exists
+            if [[ -f "./scripts/downloadFileGithub.sh" ]]; then
+                ./scripts/downloadFileGithub.sh "{\"repository\":\"$repository\",\"organisation\":\"$organisation\",\"branchtag\":\"$branchtag\",\"filepath\":\"$filename\"}" "$temp_metadata" "${TOOLCHAIN_TOKEN}"
+            fi
+            
+            if [[ -f "$temp_metadata" ]]; then
+                # Extract metadata from the thema repository - INCLUDING TYPE
+                cat "$temp_metadata"
+                local meta_obj=$(jq -c ".[] | select(.name == \"$name\")" "$temp_metadata")
+                if [[ -z "$meta_obj" ]]; then
+                    echo "Warning: No metadata found for name $name in $temp_metadata"
+                    return
+                fi
+                local pub_date=$(echo "$meta_obj" | jq -r '.["publication-date"] // empty')
+                local pub_state=$(echo "$meta_obj" | jq -r '.["publication-state"] // empty')
+                local type=$(echo "$meta_obj" | jq -r '.type // empty')
+
+
+                # Extract the last part after 'StandaardStatus/' and lowercase it
+                if [[ "$pub_state" =~ StandaardStatus/([^/]+)$ ]]; then
+                    pub_state="${BASH_REMATCH[1],,}"
+                fi
+                
+                echo "Retrieved from metadata: pub_date=$pub_date, pub_state=$pub_state, type=$type"
+                
+                if [[ -n "$pub_date" && -n "$pub_state" && -n "$type" ]]; then
+                    # Construct urlref based on type from metadata
+                    local constructed_urlref=""
+                    if [[ "$type" == "ap" || "$type" == "applicatieprofiel" ]]; then
+                        constructed_urlref="/doc/applicatieprofiel/${name}/${pub_state}/${pub_date}"
+                    elif [[ "$type" == "voc" || "$type" == "vocabularium" ]]; then
+                        constructed_urlref="/doc/vocabularium/${name}/${pub_state}/${pub_date}"
+                    elif [[ "$type" == "im" || "$type" == "implementatiemodel" ]]; then
+                        constructed_urlref="/doc/implementatiemodel/${name}/${pub_state}/${pub_date}"
+                    fi
+                    
+                    if [[ -n "$constructed_urlref" ]]; then
+                        # Update the publication point file with the constructed urlref AND the type
+                        jq --arg urlref "$constructed_urlref" --arg type "$type" '. + {urlref: $urlref, type: $type}' "$pub_point_file" > "${pub_point_file}.tmp"
+                        mv "${pub_point_file}.tmp" "$pub_point_file"
+                        echo "Constructed urlref: $constructed_urlref with type: $type"
+                    else
+                        echo "Warning: Could not determine URL pattern for type: $type"
+                    fi
+                else
+                    echo "Warning: Could not find required metadata (publication-date: $pub_date, publication-state: $pub_state, type: $type)"
+                fi
+                
+                rm -f "$temp_metadata"
+            else
+                echo "Warning: Could not download metadata file from repository"
+            fi
+        else
+            echo "Warning: Missing required fields for urlref construction (repository, branchtag, filename, name)"
+        fi
+    fi
+}
+
 
 toolchainhash=$(git log | grep commit | head -1 | cut -d " " -f 2)
 
 # Process the publications.config file
 if cat ${PUBCONFIG} | jq -e . >/dev/null 2>&1
 then
+  # First pass: construct missing urlrefs
+  # 2025/08/18 - Added a preprocessing step to ensure all publication points have a valid urlref and try to construct it if missing.
+  echo "Preprocessing publication points to construct missing urlrefs..."
+  
+  # Create a temporary file to store the updated config
+  TEMP_PUBCONFIG="/tmp/processed_$(basename ${PUBCONFIG})"
+  
+  # Initialize empty array for processed publication points
+  echo "[]" > "$TEMP_PUBCONFIG"
+  
+  # Process each publication point to construct missing urlrefs
+  index=0
+  jq -c '.[]' ${PUBCONFIG} | while IFS= read -r pub_point; do
+    echo "$pub_point" > "/tmp/single_pub_point_${index}.json"
+    construct_urlref_if_missing "/tmp/single_pub_point_${index}.json"
+    
+    # Add the processed publication point to the temp config
+    jq --argjson newpoint "$(cat "/tmp/single_pub_point_${index}.json")" '. += [$newpoint]' "$TEMP_PUBCONFIG" > "${TEMP_PUBCONFIG}.tmp"
+    mv "${TEMP_PUBCONFIG}.tmp" "$TEMP_PUBCONFIG"
+    
+    # Clean up temporary file
+    rm -f "/tmp/single_pub_point_${index}.json"
+    
+    index=$((index + 1))
+  done
+  
+  # Use the processed config for the rest of the workflow
+  PUBCONFIG="$TEMP_PUBCONFIG"
+
   # only iterate over those that have a repository
   for row in $(jq -r '.[] | select(.repository)  | @base64 ' ${PUBCONFIG}); do
     _jq() {
       echo ${row} | base64 --decode | jq -r ${1}
     }
+
+    # Check if urlref is still missing after construction attempt
+    DIR=$(_jq '.urlref')
+    if [[ "$DIR" == "null" || -z "$DIR" ]]; then
+      echo "Warning: Could not construct urlref for publication point, skipping..."
+      continue
+    fi
 
       FORM=$(_jq '.type')
       if [ "$FORM" == "raw" ]
