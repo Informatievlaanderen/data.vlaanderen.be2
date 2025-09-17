@@ -47,7 +47,7 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/toolchain4",
-    "repository": "https://github.com/belgif/OSLOthema-imkl",
+    "repository": "https://github.com/informatievlaanderen/OSLOthema-imkl",
     "branchtag": "main",
     "name": "kabels-en-leidingen-ap",
     "filename": "config/kabels-en-leidingen-ap.json",
