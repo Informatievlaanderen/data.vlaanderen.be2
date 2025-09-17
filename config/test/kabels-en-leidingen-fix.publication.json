@@ -45,17 +45,17 @@
       "dummy": "042"
     }
   },
-    {
-    "urlref": "/doc/vocabularium/nutsvoorzieningen/ontwerpstandaard/toolchain4",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-imkl",
+  {
+    "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/belgif/ICEGthema-imkl",
     "branchtag": "main",
-    "name": "nutsvoorzieningen",
-    "filename": "config/nutsvoorzieningen-voc.json",
-    "directory": "/doc/vocabularium/nutsvoorzieningen/ontwerpstandaard/toolchain4",
+    "name": "cable-pipe",
+    "filename": "config/cable-pipe.json",
+    "directory": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/toolchain4",
     "navigation": {
-      "prev": "/doc/vocabularium/nutsvoorzieningen/kandidaatstandaard/2023-12-19"
+      "prev": "/doc/applicatieprofiel/kabels-en-leidingen/kandidaatstandaard/2023-12-19"
     },
-    "dummy": "2025-05-13 10:52:57"
+    "dummy": "2025-09-17"
   },
   {
     "urlref": "/ns/nutsvoorzieningen",
