@@ -48,7 +48,7 @@
   {
     "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/belgif/ICEGthema-imkl",
-    "branchtag": "main",
+    "branchtag": "fixes-toolchain4-main",
     "name": "cable-pipe",
     "filename": "config/cable-pipe.json",
     "directory": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/toolchain4",
