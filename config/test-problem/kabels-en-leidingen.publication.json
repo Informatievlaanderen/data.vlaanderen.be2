@@ -52,18 +52,6 @@
     "dummy": "042"
   },
   {
-    "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/toolchain4",
-    "repository": "https://github.com/belgif/ICEGthema-imkl",
-    "branchtag": "main",
-    "name": "cable-pipe",
-    "filename": "config/cable-pipe.json",
-    "directory": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/toolchain4",
-    "navigation": {
-      "prev": "/doc/applicatieprofiel/kabels-en-leidingen/kandidaatstandaard/2023-12-19"
-    },
-    "dummy": "2025-09-17"
-  },
-  {
     "urlref": "/doc/vocabularium/nutsvoorzieningen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-imkl",
     "branchtag": "main",
