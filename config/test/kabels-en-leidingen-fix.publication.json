@@ -45,6 +45,18 @@
       "dummy": "042"
     }
   },
+    {
+    "urlref": "/doc/vocabularium/nutsvoorzieningen/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-imkl",
+    "branchtag": "main",
+    "name": "nutsvoorzieningen",
+    "filename": "config/nutsvoorzieningen-voc.json",
+    "directory": "/doc/vocabularium/nutsvoorzieningen/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/nutsvoorzieningen/kandidaatstandaard/2023-12-19"
+    },
+    "dummy": "2025-05-13 10:52:57"
+  },
   {
     "urlref": "/ns/nutsvoorzieningen",
     "seealso": "/doc/vocabularium/nutsvoorzieningen/kandidaatstandaard/2023-12-19",
