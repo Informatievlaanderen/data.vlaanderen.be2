@@ -47,10 +47,10 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/testing",
-    "repository": "https://github.com/belgif/ICEGthema-imkl",
-    "branchtag": "fixes-toolchain4-main",
-    "name": "cable-pipe",
-    "filename": "config/cable-pipe.json",
+    "repository": "https://github.com/informatievlaanderen/oslothema-IMKL",
+    "branchtag": "main",
+    "name": "kabels-en-leidingen-ap",
+    "filename": "config/kabels-en-leidingen-ap.json",
     "directory": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/testing",
     "navigation": {
       "prev": "/doc/applicatieprofiel/kabels-en-leidingen/kandidaatstandaard/2023-12-19"
