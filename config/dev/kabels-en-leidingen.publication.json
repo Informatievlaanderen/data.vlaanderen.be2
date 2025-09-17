@@ -46,16 +46,16 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/toolchain4",
+    "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/kristof",
     "repository": "https://github.com/belgif/ICEGthema-imkl",
     "branchtag": "fixes-toolchain4-main",
     "name": "cable-pipe",
     "filename": "config/cable-pipe.json",
-    "directory": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/toolchain4",
+    "directory": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/kristof",
     "navigation": {
       "prev": "/doc/applicatieprofiel/kabels-en-leidingen/kandidaatstandaard/2023-12-19"
     },
-    "dummy": "2025-09-17"
+    "dummy": "003"
   },
   {
     "urlref": "/ns/nutsvoorzieningen",
