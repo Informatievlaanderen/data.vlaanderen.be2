@@ -48,7 +48,7 @@
   {
     "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/testing",
     "repository": "https://github.com/informatievlaanderen/oslothema-IMKL",
-    "branchtag": "main",
+    "branchtag": "iceg-thema",
     "name": "kabels-en-leidingen-ap",
     "filename": "config/kabels-en-leidingen-ap.json",
     "directory": "/doc/applicatieprofiel/kabels-en-leidingen/ontwerpstandaard/testing",
