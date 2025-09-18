@@ -439,6 +439,8 @@ render_translationfiles() {
 
     if [ -f "${INPUTTRANSLATIONFILE}" ]; then
         echo "A translation file ${TRANSLATIONFILE} exists."
+        ls -l /tmp/workspace/report4/doc/applicatieprofiel/verkeersmetingen/ontwerpstandaard/toolchain4/all-Verkeersmetingen.jsonld
+        ls -l /tmp/workspace/src/doc/applicatieprofiel/verkeersmetingen/ontwerpstandaard/toolchain4/translation/Verkeersmetingen_nl.json
         echo "UPDATE the translation file: node /app/translation-json-generator.js -i ${JSONI} -f ${INPUTTRANSLATIONFILE} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTTRANSLATIONFILE} -p ${REPORTLINEPREFIX}"
         if ! node /app/translation-json-generator.js -i ${JSONI} -t ${INPUTTRANSLATIONFILE} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTTRANSLATIONFILE} -p "${REPORTLINEPREFIX}" &>>${REPORTFILE}; then
             echo "RENDER-DETAILS: failed"
