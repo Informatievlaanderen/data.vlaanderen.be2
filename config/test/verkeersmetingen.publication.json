@@ -134,10 +134,10 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-verkeersmetingen",
     "branchtag": "main",
     "directory": "/doc/applicatieprofiel/verkeersmetingen/ontwerpstandaard/toolchain4",
-    "name": "Verkeersmetingen-ap",
+    "name": "Verkeersmetingen",
     "filename": "config/verkeersmetingen.json",
     "navigation": {
-      "prev": "/doc/vocabularium/verkeersmetingen/erkendestandaard/2024-04-17"
+      "prev": "/doc/applicatieprofiel/verkeersmetingen/erkendestandaard/2024-04-17"
     },
     "dummy": "010"
   },
