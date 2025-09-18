@@ -441,7 +441,7 @@ render_translationfiles() {
         echo "A translation file ${TRANSLATIONFILE} exists."
         echo "${REPORTLINEPREFIX}"
         echo "UPDATE the translation file: node /app/translation-json-generator.js -i ${JSONI} -t ${INPUTTRANSLATIONFILE} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTTRANSLATIONFILE} -p ${REPORTLINEPREFIX}"
-        if ! node /app/translation-json-generator.js -i ${JSONI} -t ${INPUTTRANSLATIONFILE} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTTRANSLATIONFILE} -p "${REPORTLINEPREFIX}" &>>${REPORTFILE}; then
+        if ! node /app/translation-json-generator.js -i ${JSONI} -t ${INPUTTRANSLATIONFILE} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTTRANSLATIONFILE} &>>${REPORTFILE}; then
             echo "RENDER-DETAILS: failed"
             execution_strickness
         else
@@ -451,7 +451,7 @@ render_translationfiles() {
     else
         echo "NO translation file ${TRANSLATIONFILE} exists"
         echo "CREATE a translation file: node /app/translation-json-generator.js -i ${JSONI} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTTRANSLATIONFILE} -p ${REPORTLINEPREFIX}"
-        if ! node /app/translation-json-generator.js -i ${JSONI} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTTRANSLATIONFILE} -p "${REPORTLINEPREFIX}" &>>${REPORTFILE}; then
+        if ! node /app/translation-json-generator.js -i ${JSONI} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTTRANSLATIONFILE}  &>>${REPORTFILE}; then
             echo "RENDER-DETAILS: failed"
             execution_strickness
         else
