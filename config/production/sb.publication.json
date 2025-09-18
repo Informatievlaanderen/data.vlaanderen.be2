@@ -221,7 +221,8 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01"
     },
-    "dummy": "2025-09-18 12:26:00"
+    "dummy": "2025-09-18 12:26:00",
+    "disabled": true
   },
   {
     "urlref": "/doc/vocabularium/sensoren-en-bemonstering/ontwerpstandaard/toolchain4",
