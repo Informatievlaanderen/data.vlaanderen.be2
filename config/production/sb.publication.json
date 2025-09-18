@@ -91,9 +91,9 @@
       "urlref": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
       "branchtag": "master",
-      "name": "ap-sensoren-en-bemonstering",
+      "name": "sensoren-en-bemonstering",
       "filename": "config/OSLO-BodemEnOndergrond-AP-SensorenEnBemonstering.json",
-      "dummy": "047",
+      "dummy": "049",
       "navigation": {
         "prev": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2024-04-15"
       }
@@ -199,7 +199,7 @@
       "branchtag": "master",
       "name": "sensoren-en-bemonstering",
       "filename": "config/OSLO-BodemEnOndergrond-VOC-SensorenEnBemonstering.json",
-      "dummy": "048",
+      "dummy": "049",
       "navigation": {
         "prev": "/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2024-04-15"
       }
@@ -215,13 +215,13 @@
     "urlref": "/doc/applicatieprofiel/sensoren-en-bemonstering/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
     "branchtag": "master",
-    "name": "ap-sensoren-en-bemonstering",
+    "name": "sensoren-en-bemonstering",
     "filename": "config/OSLO-BodemEnOndergrond-AP-SensorenEnBemonstering.json",
     "directory": "/doc/applicatieprofiel/sensoren-en-bemonstering/ontwerpstandaard/toolchain4",
     "navigation": {
       "prev": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01"
     },
-    "dummy": "2025-08-20 08:10:51"
+    "dummy": "2025-09-18 12:26:00"
   },
   {
     "urlref": "/doc/vocabularium/sensoren-en-bemonstering/ontwerpstandaard/toolchain4",
@@ -233,6 +233,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01"
     },
-    "dummy": "2025-08-20 08:10:51"
+    "dummy": "2025-09-18 12:26:00"
   }
 ]

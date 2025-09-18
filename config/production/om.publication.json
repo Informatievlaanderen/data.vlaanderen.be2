@@ -91,9 +91,9 @@
       "urlref": "/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
       "branchtag": "master",
-      "name": "ap-observaties-en-metingen",
+      "name": "observaties-en-metingen",
       "filename": "config/OSLO-BodemEnOndergrond-AP-ObservatiesEnMetingen.json",
-      "dummy": "053",
+      "dummy": "054",
       "navigation": {
         "prev": "/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-04-15"
       }
