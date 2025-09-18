@@ -132,7 +132,7 @@
   {
     "urlref": "/doc/applicatieprofiel/verkeersmetingen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-verkeersmetingen",
-    "branchtag": "main",
+    "branchtag": "main-kristof",
     "directory": "/doc/applicatieprofiel/verkeersmetingen/ontwerpstandaard/toolchain4",
     "name": "Verkeersmetingen",
     "filename": "config/verkeersmetingen.json",
