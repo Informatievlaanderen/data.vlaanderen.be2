@@ -492,12 +492,12 @@
     "urlref": "/doc/applicatieprofiel/begroeid-voorkomen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
-    "name": "begroeid-voorkomen-ap",
+    "name": "begroeidvoorkomen",
     "filename": "config/voorkomen.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/begroeid-voorkomen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-08-20 07:32:40"
+    "dummy": "2025-09-19 11:23:00"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/begroeidvoorkomen/ontwerpstandaard/toolchain4",
@@ -508,18 +508,18 @@
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/begroeidvoorkomen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-08-20 07:32:40"
+    "dummy": "2025-09-19 11:23:00"
   },
   {
     "urlref": "/doc/applicatieprofiel/onbegroeid-voorkomen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
-    "name": "onbegroeid-voorkomen-ap",
+    "name": "onbegroeidvoorkomen",
     "filename": "config/voorkomen.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/onbegroeid-voorkomen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-08-20 07:32:40"
+    "dummy": "2025-09-19 11:23:00"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/ontwerpstandaard/toolchain4",
@@ -530,18 +530,18 @@
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-08-20 07:32:40"
+    "dummy": "2025-09-19 11:23:00"
   },
   {
     "urlref": "/doc/applicatieprofiel/watervoorkomen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "master",
-    "name": "watervoorkomen-ap",
+    "name": "watervoorkomen",
     "filename": "config/voorkomen.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/watervoorkomen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-08-20 07:32:40"
+    "dummy": "2025-09-19 11:23:00"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/watervoorkomen/ontwerpstandaard/toolchain4",
@@ -552,6 +552,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/watervoorkomen/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-08-20 07:32:40"
+    "dummy": "2025-09-19 11:23:00"
   }
 ]
