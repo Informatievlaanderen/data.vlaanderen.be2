@@ -9,7 +9,7 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "056"
+    "dummy": "057"
   },
   {
     "urlref": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01",
@@ -18,18 +18,18 @@
     "name": "rooilijnplannen",
     "filename": "config/rooilijnplannen-voc.json",
     "navigation": {},
-    "dummy": "056"
+    "dummy": "057"
   },
   {
     "urlref": "/doc/applicatieprofiel/rooilijnplannen",
     "seealso": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "type": "ap",
-    "dummy": "056"
+    "dummy": "057"
   },
   {
-    "urlref": "/ns/rooilijn",
+    "urlref": "/ns/rooilijnplannen",
     "seealso": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "type": "voc",
-    "dummy": "056"
+    "dummy": "057"
   }
 ]
