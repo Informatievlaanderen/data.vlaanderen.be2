@@ -124,7 +124,7 @@
     "urlref": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/erkendestandaard/2025-07-22",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-hulpEnDienstverleningAanGedetineerden",
     "branchtag": "v1.1.5",
-    "name": "hulp-dienstverlening-gedetineerden-ap",
+    "name": "hulp-dienstverlening-gedetineerden",
     "filename": "config/hdg-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/hulp-dienstverlening-gedetineerden/ontwerpstandaard/2025-05-05"
