@@ -1,21 +1,21 @@
 [
   {
     "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang",
-    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-10",
+    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19",
     "type": "voc",
-    "dummy": "004"
+    "dummy": "005"
   },
   {
     "urlref": "/ns/mobiliteit-intelligente-toegang",
-    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-10",
+    "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19",
     "type": "voc",
-    "dummy": "004"
+    "dummy": "005"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang",
-    "seealso": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-10",
+    "seealso": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19",
     "type": "ap",
-    "dummy": "004"
+    "dummy": "005"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19",
