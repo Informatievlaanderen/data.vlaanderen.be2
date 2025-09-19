@@ -3,7 +3,7 @@
     "urlref": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-02-24",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
     "branchtag": "main",
-    "name": "leermiddelen-ap",
+    "name": "leermiddelen",
     "filename": "config/leermiddelen-ap.json",
     "directory": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-02-24",
     "dummy": "034"
