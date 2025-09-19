@@ -69,12 +69,12 @@
     "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-citerra",
     "branchtag": "main",
-    "name": "mobiliteit-intelligente-toegang-ap",
+    "name": "mobiliteit-intelligente-toegang",
     "filename": "config/mobiliteit-intelligente-toegang-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
     },
-    "dummy": "2025-09-19 13:24:00"
+    "dummy": "2025-09-19 13:28:00"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/toolchain4",
@@ -85,7 +85,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
     },
-    "dummy": "2025-08-19 13:24:00"
+    "dummy": "2025-08-19 13:28:00"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-04",
