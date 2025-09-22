@@ -327,23 +327,23 @@
   {
     "urlref": "/doc/applicatieprofiel/slimmeraadpleegomgeving/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving",
-    "branchtag": "toolchain4-2025-05-28",
+    "branchtag": "main",
     "name": "slimme-raadpleegomgeving-ap",
     "filename": "config/slimme-raadpleegomgeving-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2024-12-05"
     },
-    "dummy": "2025-05-28 5"
+    "dummy": "2025-09-22 1"
   },
   {
     "urlref": "/doc/vocabularium/slimmeraadpleegomgeving/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving",
-    "branchtag": "toolchain4-2025-05-28",
+    "branchtag": "main",
     "name": "slimmeraadpleegomgeving",
     "filename": "config/slimme-raadpleegomgeving-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05"
     },
-    "dummy": "2025-05-28 5"
+    "dummy": "2025-09-22 1"
   }
 ]
