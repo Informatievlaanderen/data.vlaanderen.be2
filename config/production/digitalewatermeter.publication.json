@@ -110,6 +110,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter",
     "name": "DigitaleWatermeter",
     "branchtag": "DW-1.0.1",
+    "disable": true,
     "filename": "config/mijn-applicatieprofiel-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20"
@@ -121,6 +122,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter",
     "branchtag": "DW-1.0.1",
     "name": "meters",
+    "disable": true,
     "filename": "config/mijn-vocabularium-voc.json",
     "navigation": {},
     "dummy": "2"
