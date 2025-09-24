@@ -40,6 +40,18 @@
     }
   },
   {
+    "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/erkendestandaard/2025-02-06",
+    "repository": "https://github.com/belgif/ICEGthema-imkl",
+    "branchtag": "main",
+    "name": "cable-pipe",
+    "filename": "config/cable-pipe.json",
+    "directory": "/doc/applicatieprofiel/kabels-en-leidingen/erkendestandaard/2025-02-06",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/kabels-en-leidingen/kandidaatstandaard/2023-12-19"
+    },
+    "dummy": "012"
+  },
+  {
     "urlref": "/ns/nutsvoorzieningen",
     "seealso": "/doc/vocabularium/nutsvoorzieningen/kandidaatstandaard/2023-12-19",
     "type": "voc",
