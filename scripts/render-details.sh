@@ -107,7 +107,7 @@ render_translationfiles() {
         echo "UPDATE-TRANSLATIONFILE: node /app/translation-json-update.js -i ${FILE} -f ${JSONI} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTFILE}"
         if ! node /app/translation-json-update.js -i ${FILE} -f ${JSONI} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTFILE}; then
             echo "RENDER-DETAILS: failed"
-            # execution_strickness
+            execution_strickness
         else
             echo "RENDER-DETAILS: File succesfully updated"
             pretty_print_json ${OUTPUTFILE}
@@ -117,7 +117,7 @@ render_translationfiles() {
         echo "CREATE-TRANSLATIONFILE: node /app/translation-json-generator.js -i ${JSONI} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTFILE}"
         if ! node /app/translation-json-generator.js -i ${JSONI} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTFILE}; then
             echo "RENDER-DETAILS: failed"
-            # execution_strickness
+            execution_strickness
         else
             echo "RENDER-DETAILS: File succesfully created"
             pretty_print_json ${OUTPUTFILE}
