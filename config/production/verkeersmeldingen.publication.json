@@ -3,17 +3,17 @@
     "urlref": "/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory",
     "name": "verkeersmeldingen",
-    "branchtag": "ontwerp_2025-07-24_v0.0.3",
+    "branchtag": "kandidaat_2025_09_24_v0.0.1",
     "filename": "config/SIF-impl.json",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "049"
+    "dummy": "050"
   },
   {
     "urlref": "/doc/implementatiemodel/verkeersmeldingen",
     "seealso": "/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04",
     "type": "ap",
-    "dummy": "040"
+    "dummy": "041"
   }
 ]
