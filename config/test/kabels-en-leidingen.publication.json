@@ -20,12 +20,6 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/kabels-en-leidingen",
-    "seealso": "/doc/applicatieprofiel/kabels-en-leidingen/kandidaatstandaard/2023-12-19",
-    "type": "ap",
-    "dummy": "042"
-  },
-  {
     "urlref": "/doc/vocabularium/nutsvoorzieningen/kandidaatstandaard/2023-12-19",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -55,7 +49,13 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/kabels-en-leidingen/kandidaatstandaard/2023-12-19"
     },
-    "dummy": "011"
+    "dummy": "012"
+  },
+    {
+    "urlref": "/doc/applicatieprofiel/kabels-en-leidingen",
+    "seealso": "/doc/applicatieprofiel/kabels-en-leidingen/erkendestandaard/2025-02-06",
+    "type": "ap",
+    "dummy": "042"
   },
   {
     "urlref": "/ns/nutsvoorzieningen",
