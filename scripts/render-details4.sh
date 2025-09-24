@@ -431,16 +431,21 @@ render_translationfiles() {
     INPUTTRANSLATIONFILE=${SLINE}/translation/${TRANSLATIONFILE}
     OUTPUTTRANSLATIONFILE=${TLINE}/translation/${TRANSLATIONFILE}
 
+
     REPORTFILE=${TLINE}/translate.report.md
+    echo "INPUTTRANSLATIONFILE: ${INPUTTRANSLATIONFILE}" &>>${REPORTFILE}
+    echo "OUTPUTTRANSLATIONFILE: ${OUTPUTTRANSLATIONFILE}" &>>${REPORTFILE}
+    echo "TRANSLATIONFILE: ${TRANSLATIONFILE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}translate for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
 
     if [ -f "${INPUTTRANSLATIONFILE}" ]; then
         echo "A translation file ${TRANSLATIONFILE} exists."
-        echo "UPDATE the translation file: node /app/translation-json-generator.js -i ${FILE} -f ${JSONI} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTFILE} -p ${REPORTLINEPREFIX}"
+        echo "UPDATE the translation file: node /app/translation-json-generator.js -i ${JSONI} -t ${INPUTTRANSLATIONFILE} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTFILE} -p ${REPORTLINEPREFIX}"
         if ! node /app/translation-json-generator.js -i ${JSONI} -t ${INPUTTRANSLATIONFILE} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTTRANSLATIONFILE} -p "${REPORTLINEPREFIX}" &>>${REPORTFILE}; then
             echo "RENDER-DETAILS: failed"
-            execution_strickness
+            # disabled 24092025 since it caused failing translations, even when not needed
+            # execution_strickness
         else
             echo "RENDER-DETAILS: translation file succesfully updated"
             pretty_print_json ${OUTPUTTRANSLATIONFILE}
@@ -450,7 +455,8 @@ render_translationfiles() {
         echo "CREATE a translation file: node /app/translation-json-generator.js -i ${JSONI} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTTRANSLATIONFILE} -p ${REPORTLINEPREFIX}"
         if ! node /app/translation-json-generator.js -i ${JSONI} -m ${PRIMELANGUAGE} -g ${GOALLANGUAGE} -o ${OUTPUTTRANSLATIONFILE} -p "${REPORTLINEPREFIX}" &>>${REPORTFILE}; then
             echo "RENDER-DETAILS: failed"
-            execution_strickness
+            # disabled 24092025 since it caused failing translations, even when not needed
+            # execution_strickness
         else
             echo "RENDER-DETAILS: translation file succesfully created"
             pretty_print_json ${OUTPUTTRANSLATIONFILE}
