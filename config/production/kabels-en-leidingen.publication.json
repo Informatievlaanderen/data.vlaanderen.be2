@@ -40,7 +40,7 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/erkendestandaard/2025-02-06",
+    "urlref": "/doc/applicatieprofiel/kabels-en-leidingen/erkendestandaard/temp",
     "repository": "https://github.com/belgif/ICEGthema-imkl",
     "name": "cable-pipe",
     "branchtag": "main",
@@ -48,7 +48,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/kabels-en-leidingen/kandidaatstandaard/2023-12-19"
     },
-    "dummy": "015"
+    "dummy": "016"
   },
   {
     "urlref": "/ns/nutsvoorzieningen",
