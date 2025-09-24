@@ -1,6 +1,6 @@
 {
   "primeLanguage": "nl",
-  "otherLanguages": ["en", "fr"],
+  "otherLanguages": [],
   "hostname": "https://data.vlaanderen.be",
   "domain": "data.vlaanderen.be",
   "publicationpoints": ["production"],
@@ -16,7 +16,7 @@
     "strickness": "not-lazy",
     "version": 4,
     "triggerall": false,
-    "autotranslate": true
+    "autotranslate": false
   },
   "shaclgenerator": {
     "parameters-old": "-m individual -c 'uniqueLanguages' -c 'nodeKind'"
