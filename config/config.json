@@ -1,6 +1,6 @@
 {
   "primeLanguage": "nl",
-  "otherLanguages": [],
+  "otherLanguages": ["en"],
   "hostname": "https://data.vlaanderen.be",
   "domain": "data.vlaanderen.be",
   "publicationpoints": ["production"],
