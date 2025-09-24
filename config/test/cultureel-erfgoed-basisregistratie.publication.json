@@ -7,14 +7,12 @@
     "filename": "config/cultureel-erfgoed-impl.json",
     "type": "ap",
     "navigation": {},
-    "disabled": true,
     "dummy": "023"
   },
   {
     "urlref": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie",
     "seealso": "/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20",
     "type": "ap",
-    "disabled": true,
     "dummy": "023"
   }
 ]
