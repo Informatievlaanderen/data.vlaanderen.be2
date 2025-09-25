@@ -42,7 +42,7 @@
     "branchtag": "kandidaat_2025-07-25_v0.1",
     "filename": "config/energiemanagementsysteem-ap.json",
     "navigation": {
-      "prev": "/doc/vocabularium/energiemanagementsysteem/kandidaadstandaard/2025-09-11"
+      "prev": "/doc/applicatieprofiel/energiemanagementsysteem/kandidaadstandaard/2025-09-11"
     },
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
@@ -50,12 +50,12 @@
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "1"
+    "dummy": "2"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
     "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/kandidaadstandaard/2025-09-11",
     "type": "ap",
-    "dummy": "1"
+    "dummy": "2"
   }
 ]
