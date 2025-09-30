@@ -752,7 +752,7 @@ workflows:
   weekly_maintenance:
     triggers:
       - schedule:
-          cron: "20 15 * * 2"  # Run at 4 PM (16:00) every Tuesday
+          cron: "35 14 * * 2"  # Run at 4 PM (16:00) every Tuesday
           filters:
             branches:
               only:
