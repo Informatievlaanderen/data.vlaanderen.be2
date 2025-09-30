@@ -2,8 +2,8 @@ name: Publication Validator
 
 on:
   schedule:
-    # Run at 1:00 PM UTC every Tuesday
-    - cron: "0 13 * * 2"
+    # Run at 12:00 PM UTC every Tuesday
+    - cron: "0 12 * * 2"
   # Allow manual triggering with parameters
   workflow_dispatch:
     inputs:
