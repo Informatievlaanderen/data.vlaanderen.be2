@@ -36,13 +36,13 @@
     "dummy": "36"
   },
   {
-    "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/kandidaatstandaard/2025-09-11",
+    "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/kandidaatstandaard/2025-09-30",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiemanagementsystem",
     "name": "energiemanagementsysteem",
-    "branchtag": "kandidaat_2025-07-25_v0.1",
+    "branchtag": "kandidaat_2025-09-30_v0.2",
     "filename": "config/energiemanagementsysteem-ap.json",
     "navigation": {
-      "prev": "/doc/applicatieprofiel/energiemanagementsysteem/kandidaadstandaard/2025-09-11"
+      "prev": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-07-22"
     },
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
@@ -50,11 +50,11 @@
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "3"
+    "dummy": "4"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
-    "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/kandidaadstandaard/2025-09-11",
+    "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/kandidaatstandaard/2025-09-30",
     "type": "ap",
     "dummy": "3"
   }
