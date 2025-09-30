@@ -99,7 +99,7 @@ check_tool_output_for_non_emptiness() {
     THUNDERSTORM="&#9736;"
 
     if [ -s /tmp/out ]; then
-        E=$(grep -c rror /tmp/out)
+        E=$(grep -ci '\berror\b' /tmp/out)
         if [ $E -eq 0 ]; then
             REPORTSTATE=${CLOUD}
         else
