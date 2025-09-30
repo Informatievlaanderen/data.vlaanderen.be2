@@ -641,6 +641,28 @@ jobs:
             git tag "${TAG}"
             git push --force origin "${CIRCLE_BRANCH}"
             git push --tags
+  weekly-trigger-all:
+    docker:
+      - image: cimg/node:20.15.0
+    steps:
+      - checkout
+      - run:
+          name: Trigger rebuild of all publication points
+          command: |
+            # Update all publication points to trigger rebuilds
+            for pub_file in config/${CIRCLE_BRANCH}/*.publication.json; do
+                if [ -f "$pub_file" ]; then
+                    ./config/${CIRCLE_BRANCH}/triggerall.sh "$pub_file"
+                fi
+            done
+      - run:
+          name: Commit and trigger main workflow
+          command: |
+            git config user.email "$(jq -r .generatedrepository.gitEmail config/config.json)"
+            git config user.name "$(jq -r .generatedrepository.gitUser config/config.json)"
+            git add .
+            git commit -m "Weekly maintenance: trigger all publication points - $(date)"
+            git push origin ${CIRCLE_BRANCH}
 workflows:
   version: 2
   generate_documentation:
