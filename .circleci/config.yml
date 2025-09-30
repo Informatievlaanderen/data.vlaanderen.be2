@@ -649,12 +649,8 @@ jobs:
       - run:
           name: Trigger rebuild of all publication points
           command: |
-            # Update all publication points to trigger rebuilds
-            for pub_file in config/${CIRCLE_BRANCH}/*.publication.json; do
-                if [ -f "$pub_file" ]; then
-                    ./config/${CIRCLE_BRANCH}/triggerall.sh "$pub_file"
-                fi
-            done
+            # Run the triggerall.test.sh script from the scripts directory
+            ./scripts/triggerall.test.sh
       - run:
           name: Commit and trigger main workflow
           command: |
@@ -752,3 +748,14 @@ workflows:
           generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
           requires:
             - expand-links
+  # New weekly scheduled workflow
+  weekly_maintenance:
+    triggers:
+      - schedule:
+          cron: "20 15 * * 2"  # Run at 4 PM (16:00) every Tuesday
+          filters:
+            branches:
+              only:
+                - dev
+    jobs:
+      - weekly-trigger-all
