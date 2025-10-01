@@ -15,7 +15,7 @@
     "name": "leermiddelen",
     "filename": "config/leermiddelen-voc.json",
     "directory": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
-    "dummy": "016"
+    "dummy": "015"
   },
   {
     "urlref": "/doc/vocabularium/leermiddelen",
@@ -45,7 +45,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-03-21"
     },
-    "dummy": "22"
+    "dummy": "24"
   },
   {
     "urlref": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
