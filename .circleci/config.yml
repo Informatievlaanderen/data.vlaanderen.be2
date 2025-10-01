@@ -642,13 +642,16 @@ jobs:
             git push --force origin "${CIRCLE_BRANCH}"
             git push --tags
   weekly-trigger-all:
+    parameters:
+      repoFingerprint:
+        type: string
     docker:
       - image: cimg/node:20.15.0
     steps:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - << parameters.generatedRepoFingerprint >>
+            - << parameters.repoFingerprint >>
       - run:
           name: Trigger rebuild of all publication points
           command: |
@@ -748,14 +751,15 @@ workflows:
                 - canceled
       # Make create-artifact depend only on expand-links (the final consolidation step)
       - create-artifact:
-          generatedRepoFingerprint: "SHA256:pOYapwEA5OgOMrEPxcwOxnIMQjserWnAmJGaYIYXOEw"
+          generatedRepoFingerprint: "SHA256:4z5hJXh2r+2cQVWc13onR3y+Z35PMBHKwJ52yRd/8JA"
           requires:
             - expand-links
   # New weekly scheduled workflow
   weekly_maintenance:
+    repoFingerprint: "SHA256:pOYapwEA5OgOMrEPxcwOxnIMQjserWnAmJGaYIYXOEw"
     triggers:
       - schedule:
-          cron: "26 09 * * 3" # Run at 4 PM (16:00) every Tuesday
+          cron: "16 12 * * 3" # Run at 4 PM (16:00) every Tuesday
           filters:
             branches:
               only:
