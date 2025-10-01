@@ -756,10 +756,9 @@ workflows:
             - expand-links
   # New weekly scheduled workflow
   weekly_maintenance:
-    repoFingerprint: "SHA256:pOYapwEA5OgOMrEPxcwOxnIMQjserWnAmJGaYIYXOEw"
     triggers:
       - schedule:
-          cron: "42 10 * * 3" # Run at 4 PM (16:00) every Tuesday
+          cron: "59 11 * * 3" # Run at 4 PM (16:00) every Tuesday
           filters:
             branches:
               only:
