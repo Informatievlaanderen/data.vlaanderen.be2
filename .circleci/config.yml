@@ -758,12 +758,11 @@ workflows:
   weekly_maintenance:
     triggers:
       - schedule:
-          cron: "59 11 * * 3" # Run at 4 PM (16:00) every Tuesday
+          cron: "29 12 * * 3" # Run at 4 PM (16:00) every Tuesday
           filters:
             branches:
               only:
                 - dev
     jobs:
       - weekly-trigger-all:
-          repoFingerprint: "SHA256:4z5hJXh2r+2cQVWc13onR3y+Z35PMBHKwJ52yRd/8JA"
-
+          repoFingerprint: "SHA256:pOYapwEA5OgOMrEPxcwOxnIMQjserWnAmJGaYIYXOEw"
