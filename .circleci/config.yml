@@ -745,14 +745,14 @@ workflows:
                 - canceled
       # Make create-artifact depend only on expand-links (the final consolidation step)
       - create-artifact:
-          generatedRepoFingerprint: "SHA256:Sed50e4hsYwBwrvfMKXOJqXi/APsOoci2fOf3S8LTNI"
+          generatedRepoFingerprint: "SHA256:pOYapwEA5OgOMrEPxcwOxnIMQjserWnAmJGaYIYXOEw"
           requires:
             - expand-links
   # New weekly scheduled workflow
   weekly_maintenance:
     triggers:
       - schedule:
-          cron: "35 16 * * 2"  # Run at 4 PM (16:00) every Tuesday
+          cron: "40 08 * * 2" # Run at 4 PM (16:00) every Tuesday
           filters:
             branches:
               only:
