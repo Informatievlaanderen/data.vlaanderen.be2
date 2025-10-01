@@ -5,7 +5,7 @@
     "branchtag": "production",
     "name": "OSLO-airAndWater-Core-ap",
     "filename": "config/OSLO-AirAndWater-Core-AP.datavlaanderen.json",
-    "dummy": "2025-10-01 12:29:23",
+    "dummy": "2025-10-01 18:59:25",
     "navigation": {},
     "type": "raw",
     "directory": "/doc/applicatieprofiel/AirAndWater/Core/ontwerpstandaard/2021-10-01",
@@ -31,7 +31,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/AirAndWater/Core/ontwerpstandaard/2021-10-01"
     },
-    "dummy": "2025-10-01 12:29:23"
+    "dummy": "2025-10-01 18:59:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/AirAndWater/Air/ontwerpstandaard/toolchain4",
@@ -43,7 +43,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/AirAndWater/Air/ontwerpstandaard/2021-04-16"
     },
-    "dummy": "2025-10-01 12:29:23"
+    "dummy": "2025-10-01 18:59:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/AirAndWater/Water/ontwerpstandaard/toolchain4",
@@ -55,6 +55,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/AirAndWater/Water/ontwerpstandaard/2021-04-16"
     },
-    "dummy": "2025-10-01 12:29:23"
+    "dummy": "2025-10-01 18:59:25"
   }
 ]

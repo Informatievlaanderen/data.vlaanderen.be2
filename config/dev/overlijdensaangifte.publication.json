@@ -7,14 +7,14 @@
     "filename": "config/overlijdensaangifte-ap.json",
     "navigation": {},
     "disabled": false,
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/applicatieprofiel/overlijdensaangifte",
     "seealso": "/doc/applicatieprofiel/overlijdensaangifte/kandidaatstandaard/2024-10-23",
     "type": "ap",
     "disabled": false,
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/vocabularium/overlijdensaangifte/kandidaatstandaard/2024-10-23",
@@ -26,7 +26,7 @@
       "next": "/doc/applicatieprofiel/overlijdensaangifte/erkendestandaard/2024-12-05"
     },
     "disabled": false,
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/applicatieprofiel/overlijdensaangifte/erkendestandaard/2024-12-05",
@@ -38,14 +38,14 @@
       "prev": "/doc/applicatieprofiel/overlijdensaangifte/kandidaatstandaard/2024-10-23"
     },
     "disabled": false,
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/applicatieprofiel/overlijdensaangifte",
     "seealso": "/doc/applicatieprofiel/overlijdensaangifte/erkendestandaard/2024-12-05",
     "type": "ap",
     "disabled": false,
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/vocabularium/gezondheidstoestand/kandidaatstandaard/2024-10-23",
@@ -57,7 +57,7 @@
       "next": "/doc/vocabularium/overlijdensaangifte/erkendestandaard/2024-12-05"
     },
     "disabled": false,
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/vocabularium/gezondheidstoestand/erkendestandaard/2024-12-05",
@@ -69,7 +69,7 @@
       "prev": "/doc/vocabularium/gezondheidstoestand/kandidaatstandaard/2024-10-23"
     },
     "disabled": false,
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/vocabularium/overlijdensaangifte/erkendestandaard/2024-12-05",
@@ -81,34 +81,34 @@
       "prev": "/doc/vocabularium/overlijdensaangifte/kandidaatstandaard/2024-10-23"
     },
     "disabled": false,
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/vocabularium/overlijdensaangifte",
     "seealso": "/doc/vocabularium/overlijdensaangifte/erkendestandaard/2024-12-05",
     "type": "voc",
     "disabled": false,
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/ns/overlijdensaangifte",
     "seealso": "/doc/vocabularium/overlijdensaangifte/erkendestandaard/2024-12-05",
     "type": "voc",
     "disabled": false,
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/vocabularium/gezondheidstoestand",
     "seealso": "/doc/vocabularium/gezondheidstoestand/erkendestandaard/2024-12-05",
     "type": "voc",
     "disabled": false,
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/ns/gezondheidstoestand",
     "seealso": "/doc/vocabularium/gezondheidstoestand/erkendestandaard/2024-12-05",
     "type": "voc",
     "disabled": false,
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   }
 ]

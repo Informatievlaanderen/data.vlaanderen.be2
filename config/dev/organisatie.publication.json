@@ -23,7 +23,7 @@
       },
       "type": "raw"
     },
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01",
@@ -48,7 +48,7 @@
         "next": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/toolchain4"
       }
     },
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/toolchain4",
@@ -59,13 +59,13 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01"
     },
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/",
     "seealso": "/doc/applicatieprofiel/organisatie-basis/kandidaatstandaard/niet-bepaald",
     "type": "ap",
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "comment": "Dit is een referentie naar het oorspronkelijke extractie uit toolchain 1",
@@ -85,13 +85,13 @@
       "filename": "config/organisatie-basis.json",
       "type": "raw"
     },
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/vocabularium/organisatie",
     "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
     "type": "voc",
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "comment": "Dit is een referentie naar het oorspronkelijke extractie uit toolchain 1",
@@ -107,7 +107,7 @@
       "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
       "type": "voc"
     },
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/vocabularium/organisatie/ontwerpdocument/toolchain4",
@@ -115,12 +115,12 @@
     "branchtag": "master",
     "name": "organisatie",
     "filename": "config/organisatie.json",
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/ns/organisatie",
     "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
     "type": "voc",
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   }
 ]

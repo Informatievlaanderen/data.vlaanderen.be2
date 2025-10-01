@@ -8,7 +8,7 @@
     "navigation": {
       "prev": ""
     },
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:27",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19",
     "original": {
@@ -26,7 +26,7 @@
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang",
     "seealso": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19",
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:27",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
@@ -46,7 +46,7 @@
     "navigation": {
       "prev": ""
     },
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:27",
     "type": "raw",
     "directory": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19",
     "original": {
@@ -65,7 +65,7 @@
     "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang",
     "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19",
     "type": "raw",
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:27",
     "directory": "/doc/vocabularium/mobiliteit-intelligente-toegang",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -80,7 +80,7 @@
     "urlref": "/ns/mobiliteit-intelligente-toegang",
     "seealso": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19",
     "type": "raw",
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:27",
     "directory": "/ns/mobiliteit-intelligente-toegang",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -101,7 +101,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
     },
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/toolchain4",
@@ -113,6 +113,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/2024-12-19"
     },
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:27"
   }
 ]

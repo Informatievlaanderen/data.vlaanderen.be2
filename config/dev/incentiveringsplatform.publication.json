@@ -9,7 +9,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/incentiveringsplatform/kandidaatstandaard/2023-11-09"
     },
-    "dummy": "2025-10-01 12:29:25",
+    "dummy": "2025-10-01 18:59:27",
     "disabled": false
   },
   {
@@ -21,7 +21,7 @@
     "navigation": {
       "next": "/doc/applicatieprofiel/incentiveringsplatform/erkendestandaard/2024-10-03"
     },
-    "dummy": "2025-10-01 12:29:25",
+    "dummy": "2025-10-01 18:59:27",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/incentiveringsplatform/kandidaatstandaard/2023-11-09",
     "original": {
@@ -40,7 +40,7 @@
     "urlref": "/doc/applicatieprofiel/incentiveringsplatform",
     "seealso": "/doc/applicatieprofiel/incentiveringsplatform/erkendestandaard/2024-10-03",
     "type": "ap",
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/vocabularium/incentiveringsplatform/erkendestandaard/2024-10-03",
@@ -52,7 +52,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/incentiveringsplatform/kandidaatstandaard/2023-11-09"
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/vocabularium/incentiveringsplatform/kandidaatstandaard/2023-11-09",
@@ -63,7 +63,7 @@
     "navigation": {
       "next": "/doc/vocabularium/incentiveringsplatform/erkendestandaard/2024-10-03"
     },
-    "dummy": "2025-10-01 12:29:25",
+    "dummy": "2025-10-01 18:59:27",
     "type": "raw",
     "directory": "/doc/vocabularium/incentiveringsplatform/kandidaatstandaard/2023-11-09",
     "original": {
@@ -82,6 +82,6 @@
     "urlref": "/ns/incentiveringsplatform",
     "seealso": "/doc/vocabularium/incentiveringsplatform/erkendestandaard/2024-10-03",
     "type": "voc",
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   }
 ]

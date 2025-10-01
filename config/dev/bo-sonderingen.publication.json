@@ -5,7 +5,7 @@
     "branchtag": "production",
     "name": "ap-sonderingen",
     "filename": "config/OSLO-BodemEnOndergrond-AP-Sonderingen.json",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "navigation": {},
     "type": "raw",
     "directory": "/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01",
@@ -25,7 +25,7 @@
     "branchtag": "production",
     "name": "sonderingen",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-Sonderingen.json",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01",
@@ -49,7 +49,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
     },
-    "dummy": "2025-10-01 12:29:24"
+    "dummy": "2025-10-01 18:59:26"
   },
   {
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/toolchain4",
@@ -61,6 +61,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/2021-08-01"
     },
-    "dummy": "2025-10-01 12:29:24"
+    "dummy": "2025-10-01 18:59:26"
   }
 ]

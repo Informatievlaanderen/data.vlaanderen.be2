@@ -22,7 +22,7 @@
       "type": "raw",
       "directory": "/doc/applicatieprofiel/metadata-voor-services/ontwerpstandaard/2020-10-07"
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2020-12-14",
@@ -49,7 +49,7 @@
       "type": "raw",
       "directory": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2020-12-14"
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2021-03-23",
@@ -76,7 +76,7 @@
       "type": "raw",
       "directory": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2021-03-23"
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2021-04-22",
@@ -103,7 +103,7 @@
       "type": "raw",
       "directory": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2021-04-22"
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2022-02-03",
@@ -128,7 +128,7 @@
       "type": "raw",
       "directory": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2022-02-03"
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2022-02-03",
@@ -153,7 +153,7 @@
         "next": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21"
       }
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21",
@@ -178,13 +178,13 @@
       },
       "examples": true
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/",
     "seealso": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21",
     "type": "raw",
-    "dummy": "2025-10-01 12:29:25",
+    "dummy": "2025-10-01 18:59:27",
     "directory": "/doc/applicatieprofiel/metadata-dcat/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -204,7 +204,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2022-02-03"
     },
-    "dummy": "2025-10-01 12:29:25",
+    "dummy": "2025-10-01 18:59:27",
     "type": "raw",
     "directory": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21",
     "original": {
@@ -242,7 +242,7 @@
         "next": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21"
       }
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/vocabularium/metadata-dcat/erkendestandaard/2021-12-02",
@@ -269,7 +269,7 @@
       "type": "raw",
       "directory": "/doc/vocabularium/metadata-dcat/erkendestandaard/2021-12-02"
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2021-10-16",
@@ -296,7 +296,7 @@
       "type": "raw",
       "directory": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2021-10-16"
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/2021-06-30",
@@ -323,7 +323,7 @@
       "type": "raw",
       "directory": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/2021-06-30"
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/vocabularium/metadata-dcat/erkendestandaard/2021-04-22",
@@ -350,7 +350,7 @@
       "type": "raw",
       "directory": "/doc/vocabularium/metadata-dcat/erkendestandaard/2021-04-22"
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2021-03-23",
@@ -377,7 +377,7 @@
       "type": "raw",
       "directory": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2021-03-23"
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2020-12-14",
@@ -402,13 +402,13 @@
       "type": "raw",
       "directory": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2020-12-14"
     },
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/ns/metadata-dcat/",
     "seealso": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21",
     "type": "raw",
-    "dummy": "2025-10-01 12:29:25",
+    "dummy": "2025-10-01 18:59:27",
     "directory": "/ns/metadata-dcat/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -428,7 +428,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21"
     },
-    "dummy": "2025-10-01 12:29:25",
+    "dummy": "2025-10-01 18:59:27",
     "convertor": {
       "parameters": "--allTags true"
     },
@@ -448,7 +448,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21"
     },
-    "dummy": "2025-10-01 12:29:25",
+    "dummy": "2025-10-01 18:59:27",
     "convertor": {
       "parameters": "--allTags true"
     },

@@ -5,7 +5,7 @@
     "branchtag": "production",
     "name": "DigitaleWatermeter-ap",
     "filename": "config/mijn-applicatieprofiel-ap.json",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "examples": true,
     "navigation": {
       "prev": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2024-12-17"
@@ -38,7 +38,7 @@
     "branchtag": "production",
     "name": "meters",
     "filename": "config/mijn-vocabularium-voc.json",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "navigation": {
       "prev": "/doc/vocabularium/DigitaleWatermeter/kandidaatstandaard/2024-08-30"
     },
@@ -64,7 +64,7 @@
     "branchtag": "production",
     "name": "meters",
     "filename": "config/mijn-vocabularium-voc.json",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "navigation": {
       "prev": "/doc/vocabularium/nutsvoorzieningen/meters/kandidaatstandaard/2024-12-17"
     },
@@ -87,7 +87,7 @@
     "urlref": "/doc/applicatieprofiel/DigitaleWatermeter",
     "seealso": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20",
     "type": "raw",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "directory": "/doc/applicatieprofiel/DigitaleWatermeter",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -103,7 +103,7 @@
     "prefix": "nutsvoorzieningen",
     "seealso": "/doc/vocabularium/nutsvoorzieningen/meters/kandidaatstandaard/2025-01-20",
     "type": "raw",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "directory": "/ns/nutsvoorzieningen/meters",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -125,7 +125,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20"
     },
-    "dummy": "2025-10-01 12:29:24"
+    "dummy": "2025-10-01 18:59:26"
   },
   {
     "urlref": "/doc/vocabularium/DigitaleWatermeter/ontwerpstandaard/toolchain4",
@@ -137,6 +137,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/DigitaleWatermeter/kandidaatstandaard/2024-08-30"
     },
-    "dummy": "2025-10-01 12:29:24"
+    "dummy": "2025-10-01 18:59:26"
   }
 ]

@@ -5,7 +5,7 @@
     "branchtag": "production",
     "name": "generiek-basis",
     "filename": "config/generiek-basis.json",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "navigation": {
       "next": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01"
     },
@@ -30,7 +30,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
     "branchtag": "production",
     "name": "generiek",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "filename": "config/generiek.json",
     "navigation": {
       "next": "/doc/vocabularium/generiek/zonderstatus/2019-07-01"
@@ -44,7 +44,7 @@
     "branchtag": "production",
     "name": "generiek",
     "filename": "config/generiek.json",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "navigation": {
       "next": "/doc/vocabularium/generiek/zonderstatus/2019-07-01"
     },
@@ -70,7 +70,7 @@
     "branchtag": "production",
     "name": "generiek",
     "filename": "config/generiek.json",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "navigation": {
       "prev": "/doc/vocabularium/generiek/zonderstatus/2018-10-04",
       "next": "/ns/generiek"
@@ -98,7 +98,7 @@
     "branchtag": "production",
     "name": "generiek-basis",
     "filename": "config/generiek-basis.json",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "navigation": {
       "prev": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2018-10-04"
     },
@@ -121,7 +121,7 @@
   {
     "urlref": "/ns/generiek",
     "seealso": "/doc/vocabularium/generiek/zonderstatus/2019-07-01",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "type": "raw",
     "directory": "/ns/generiek",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
@@ -139,7 +139,7 @@
   {
     "urlref": "/doc/applicatieprofiel/generiek-basis",
     "seealso": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/generiek-basis",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
@@ -164,7 +164,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01"
     },
-    "dummy": "2025-10-01 12:29:24"
+    "dummy": "2025-10-01 18:59:26"
   },
   {
     "urlref": "/doc/vocabularium/generiek/ontwerpstandaard/toolchain4",
@@ -176,6 +176,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/generiek/zonderstatus/2019-07-01"
     },
-    "dummy": "2025-10-01 12:29:24"
+    "dummy": "2025-10-01 18:59:26"
   }
 ]

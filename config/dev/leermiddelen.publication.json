@@ -6,7 +6,7 @@
     "name": "leermiddelen-ap",
     "filename": "config/leermiddelen-ap.json",
     "directory": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-03-21",
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
@@ -14,12 +14,12 @@
     "name": "leermiddelen",
     "filename": "config/leermiddelen-voc.json",
     "directory": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   },
   {
     "urlref": "/ns/leermiddelen",
     "seealso": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "voc",
-    "dummy": "2025-10-01 12:29:25"
+    "dummy": "2025-10-01 18:59:27"
   }
 ]

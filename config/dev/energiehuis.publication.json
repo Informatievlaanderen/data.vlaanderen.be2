@@ -7,7 +7,7 @@
     "disabled": false,
     "filename": "config/energiehuis-ap.json",
     "navigation": {},
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/2025-01-09",
     "original": {
@@ -26,7 +26,7 @@
     "seealso": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/2025-01-09",
     "disabled": false,
     "type": "raw",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "directory": "/doc/applicatieprofiel/energiehuis/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -45,7 +45,7 @@
     "name": "energiehuis",
     "filename": "config/energiehuis-voc.json",
     "navigation": {},
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "type": "raw",
     "directory": "/doc/vocabularium/energiehuis/ontwerpstandaard/2024-12-03",
     "original": {
@@ -62,7 +62,7 @@
     "urlref": "/ns/energiehuis",
     "seealso": "/doc/vocabularium/energiehuis/ontwerpstandaard/2024-12-03",
     "type": "raw",
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "directory": "/ns/energiehuis",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -83,7 +83,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/2025-01-09"
     },
-    "dummy": "2025-10-01 12:29:24"
+    "dummy": "2025-10-01 18:59:26"
   },
   {
     "urlref": "/doc/vocabularium/energiehuis/ontwerpstandaard/toolchain4",
@@ -95,7 +95,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/energiehuis/ontwerpstandaard/2024-12-03"
     },
-    "dummy": "2025-10-01 12:29:24"
+    "dummy": "2025-10-01 18:59:26"
   },
   {
     "urlref": "/doc/vocabularium/energiehuis/ontwerpstandaard/test",
@@ -106,7 +106,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-01-09"
     },
-    "dummy": "2025-10-01 12:29:24"
+    "dummy": "2025-10-01 18:59:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/test",
@@ -117,7 +117,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/2025-01-09"
     },
-    "dummy": "2025-10-01 12:29:24",
+    "dummy": "2025-10-01 18:59:26",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     }

@@ -5,7 +5,7 @@
     "branchtag": "production",
     "name": "ap-sensoren-en-bemonstering",
     "filename": "config/OSLO-BodemEnOndergrond-AP-SensorenEnBemonstering.json",
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:28",
     "navigation": {
       "next": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
     },
@@ -29,7 +29,7 @@
     "branchtag": "production",
     "name": "ap-sensoren-en-bemonstering",
     "filename": "config/OSLO-BodemEnOndergrond-AP-SensorenEnBemonstering.json",
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:28",
     "navigation": {
       "prev": "/doc/applicatieprofiel/sensoren-en-bemonstering/ontwerpstandaard/2021-08-01",
       "next": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2024-04-15"
@@ -55,7 +55,7 @@
     "branchtag": "production",
     "name": "ap-sensoren-en-bemonstering",
     "filename": "config/OSLO-BodemEnOndergrond-AP-SensorenEnBemonstering.json",
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:28",
     "navigation": {
       "prev": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28",
       "next": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01"
@@ -81,7 +81,7 @@
     "branchtag": "production",
     "name": "ap-sensoren-en-bemonstering",
     "filename": "config/OSLO-BodemEnOndergrond-AP-SensorenEnBemonstering.json",
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:28",
     "navigation": {
       "prev": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2024-04-15"
     },
@@ -103,7 +103,7 @@
     "urlref": "/doc/applicatieprofiel/sensoren-en-bemonstering/",
     "seealso": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01",
     "type": "ap",
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/vocabularium/sensoren-en-bemonstering/ontwerpstandaard/2021-08-01",
@@ -111,7 +111,7 @@
     "branchtag": "production",
     "name": "voc-sensoren-en-bemonstering",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-SensorenEnBemonstering.json",
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:28",
     "navigation": {
       "next": "/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28"
     },
@@ -135,7 +135,7 @@
     "branchtag": "production",
     "name": "sensoren-en-bemonstering",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-SensorenEnBemonstering.json",
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:28",
     "navigation": {
       "prev": "/doc/vocabularium/sensoren-en-bemonstering/ontwerpstandaard/2021-08-01",
       "next": "/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2024-04-15"
@@ -161,7 +161,7 @@
     "branchtag": "production",
     "name": "sensoren-en-bemonstering",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-SensorenEnBemonstering.json",
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:28",
     "navigation": {
       "prev": "/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2022-04-28",
       "next": "/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01"
@@ -187,7 +187,7 @@
     "branchtag": "production",
     "name": "sensoren-en-bemonstering",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-SensorenEnBemonstering.json",
-    "dummy": "2025-10-01 12:29:26",
+    "dummy": "2025-10-01 18:59:28",
     "navigation": {
       "prev": "/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2024-04-15"
     },
@@ -209,7 +209,7 @@
     "urlref": "/ns/sensoren-en-bemonstering/",
     "seealso": "/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01",
     "type": "voc",
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/applicatieprofiel/sensoren-en-bemonstering/ontwerpstandaard/toolchain4",
@@ -221,7 +221,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01"
     },
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   },
   {
     "urlref": "/doc/vocabularium/sensoren-en-bemonstering/ontwerpstandaard/toolchain4",
@@ -233,6 +233,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01"
     },
-    "dummy": "2025-10-01 12:29:26"
+    "dummy": "2025-10-01 18:59:28"
   }
 ]

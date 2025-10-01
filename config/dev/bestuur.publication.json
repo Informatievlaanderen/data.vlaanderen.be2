@@ -4,7 +4,7 @@
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "bestuur",
-    "dummy": "2025-10-01 12:29:23",
+    "dummy": "2025-10-01 18:59:26",
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald",
@@ -30,7 +30,7 @@
     },
     "type": "raw",
     "directory": "/doc/vocabularium/bestuur/ontwerpdocument/2020-01-06",
-    "dummy": "2025-10-01 12:29:23",
+    "dummy": "2025-10-01 18:59:26",
     "original": {
       "urlref": "/doc/vocabularium/bestuur/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -52,7 +52,7 @@
     "directory": "/doc/vocabularium/bestuur",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-01 12:29:23",
+    "dummy": "2025-10-01 18:59:26",
     "original": {
       "urlref": "/doc/vocabularium/bestuur",
       "seealso": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald",
@@ -67,7 +67,7 @@
     "urlref": "/ns/bestuur",
     "seealso": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald",
     "type": "voc",
-    "dummy": "2025-10-01 12:29:23"
+    "dummy": "2025-10-01 18:59:26"
   },
   {
     "urlref": "/ns/bestuur",
@@ -81,14 +81,14 @@
       "seealso": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald",
       "type": "voc"
     },
-    "dummy": "2025-10-01 12:29:23"
+    "dummy": "2025-10-01 18:59:26"
   },
   {
     "urlref": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "bestuur",
-    "dummy": "2025-10-01 12:29:23",
+    "dummy": "2025-10-01 18:59:26",
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald",
@@ -123,7 +123,7 @@
         "prev": "/doc/vocabularium/bestuur/ontwerpdocument"
       }
     },
-    "dummy": "2025-10-01 12:29:23"
+    "dummy": "2025-10-01 18:59:26"
   },
   {
     "urlref": "/doc/vocabularium/bestuur",
@@ -137,7 +137,7 @@
       "seealso": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald",
       "type": "voc"
     },
-    "dummy": "2025-10-01 12:29:23"
+    "dummy": "2025-10-01 18:59:26"
   },
   {
     "urlref": "/doc/vocabularium/bestuur/ontwerpstandaard/toolchain4",
@@ -149,6 +149,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald"
     },
-    "dummy": "2025-10-01 12:29:23"
+    "dummy": "2025-10-01 18:59:26"
   }
 ]
