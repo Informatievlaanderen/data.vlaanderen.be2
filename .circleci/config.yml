@@ -759,10 +759,12 @@ workflows:
     repoFingerprint: "SHA256:pOYapwEA5OgOMrEPxcwOxnIMQjserWnAmJGaYIYXOEw"
     triggers:
       - schedule:
-          cron: "16 12 * * 3" # Run at 4 PM (16:00) every Tuesday
+          cron: "42 10 * * 3" # Run at 4 PM (16:00) every Tuesday
           filters:
             branches:
               only:
                 - dev
     jobs:
-      - weekly-trigger-all
+      - weekly-trigger-all:
+          repoFingerprint: "SHA256:4z5hJXh2r+2cQVWc13onR3y+Z35PMBHKwJ52yRd/8JA"
+
