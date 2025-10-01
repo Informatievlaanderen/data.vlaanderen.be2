@@ -646,6 +646,9 @@ jobs:
       - image: cimg/node:20.15.0
     steps:
       - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - << parameters.generatedRepoFingerprint >>
       - run:
           name: Trigger rebuild of all publication points
           command: |
@@ -752,7 +755,7 @@ workflows:
   weekly_maintenance:
     triggers:
       - schedule:
-          cron: "47 08 * * 3" # Run at 4 PM (16:00) every Tuesday
+          cron: "26 09 * * 3" # Run at 4 PM (16:00) every Tuesday
           filters:
             branches:
               only:
