@@ -5,12 +5,12 @@
     "name": "energiemanagementsysteem",
     "branchtag": "main",
     "filename": "config/energiemanagementsysteem-ap.json",
-    "dummy": "020"
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
     "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14",
     "type": "ap",
-    "dummy": "020"
+    "dummy": "2025-10-01 12:29:24"
   }
 ]

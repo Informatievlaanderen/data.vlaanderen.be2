@@ -22,7 +22,8 @@
         "next": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01"
       },
       "type": "raw"
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01",
@@ -46,7 +47,8 @@
         "prev": "/doc/applicatieprofiel/organisatie-basis/kandidaatstandaard/niet-bepaald",
         "next": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/toolchain4"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/toolchain4",
@@ -57,14 +59,14 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01"
     },
-    "dummy": 2
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/",
     "seealso": "/doc/applicatieprofiel/organisatie-basis/kandidaatstandaard/niet-bepaald",
-    "type": "ap"
+    "type": "ap",
+    "dummy": "2025-10-01 12:29:26"
   },
-
   {
     "comment": "Dit is een referentie naar het oorspronkelijke extractie uit toolchain 1",
     "urlref": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
@@ -82,12 +84,14 @@
       "name": "organisatie-voc",
       "filename": "config/organisatie-basis.json",
       "type": "raw"
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/organisatie",
     "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
-    "type": "voc"
+    "type": "voc",
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "comment": "Dit is een referentie naar het oorspronkelijke extractie uit toolchain 1",
@@ -102,7 +106,8 @@
       "urlref": "/doc/vocabularium/organisatie",
       "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
       "type": "voc"
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/organisatie/ontwerpdocument/toolchain4",
@@ -110,11 +115,12 @@
     "branchtag": "master",
     "name": "organisatie",
     "filename": "config/organisatie.json",
-    "dummy": 2
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/ns/organisatie",
     "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
-    "type": "voc"
+    "type": "voc",
+    "dummy": "2025-10-01 12:29:26"
   }
 ]

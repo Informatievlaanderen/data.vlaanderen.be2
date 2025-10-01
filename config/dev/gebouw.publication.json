@@ -20,7 +20,8 @@
         "next": "/doc/applicatieprofiel/gebouwenregister/ontwerpdocument/2020-01-06"
       },
       "type": "raw"
-    }
+    },
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "comment": "Dit is een versie op master die ongecontroleerde verbeteringen bevat van toolchain 2",
@@ -46,12 +47,14 @@
         "prev": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald",
         "next": "/doc/applicatieprofiel/gebouwenregister/ontwerpstandaard/toolchain4"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/applicatieprofiel/gebouwenregister",
     "seealso": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald",
-    "type": "ap"
+    "type": "ap",
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
@@ -72,7 +75,8 @@
         "next": "/doc/vocabularium/gebouw/ontwerpdocument/2020-01-06"
       },
       "type": "raw"
-    }
+    },
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "comment": "Dit is een versie op master die ongecontroleerde verbeteringen bevat van toolchain 2",
@@ -98,17 +102,20 @@
         "prev": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
         "next": "/doc/vocabularium/gebouw/ontwerpstandaard/toolchain4"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/vocabularium/gebouw",
     "seealso": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
-    "type": "voc"
+    "type": "voc",
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/ns/gebouw",
     "seealso": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
-    "type": "voc"
+    "type": "voc",
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/vocabularium/gebouw/ontwerpstandaard/toolchain4",
@@ -118,7 +125,8 @@
     "filename": "config/gebouw.json",
     "navigation": {
       "prev": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald"
-    }
+    },
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/applicatieprofiel/gebouwenregister/ontwerpstandaard/toolchain4",
@@ -128,6 +136,7 @@
     "filename": "config/gebouwenregister.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald"
-    }
+    },
+    "dummy": "2025-10-01 12:29:24"
   }
 ]

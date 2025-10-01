@@ -19,7 +19,8 @@
       "navigation": {
         "next": "/doc/applicatieprofiel/ldes/kandidaatstandaard/2022-06-13"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/ldes/kandidaatstandaard/2022-06-13",
@@ -43,7 +44,8 @@
         "prev": "/doc/applicatieprofiel/ldes/ontwerpstandaard/2022-05-17",
         "next": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01",
@@ -67,7 +69,8 @@
         "prev": "/doc/applicatieprofiel/ldes/kandidaatstandaard/2022-06-13",
         "next": "/doc/applicatieprofiel/ldes/ontwerpstandaard/toolchain4"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/vocabularium/ldes/ontwerpstandaard/2022-05-17",
@@ -89,7 +92,8 @@
       "navigation": {
         "next": "/doc/vocabularium/ldes/kandidaatstandaard/2022-06-13"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/vocabularium/ldes/kandidaatstandaard/2022-06-13",
@@ -113,14 +117,15 @@
         "prev": "/doc/vocabularium/ldes/ontwerpstandaard/2022-05-17",
         "next": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "ldes",
-    "dummy": "001",
+    "dummy": "2025-10-01 12:29:25",
     "filename": "config/OSLO-LDES-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/ldes/kandidaatstandaard/2022-06-13",
@@ -144,7 +149,7 @@
     "urlref": "/doc/applicatieprofiel/ldes",
     "seealso": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01",
     "type": "raw",
-    "dummy": "001",
+    "dummy": "2025-10-01 12:29:25",
     "directory": "/doc/applicatieprofiel/ldes",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -160,7 +165,7 @@
     "urlref": "/ns/ldes",
     "seealso": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01",
     "type": "raw",
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:25",
     "directory": "/ns/ldes",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -180,7 +185,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01"
     },
-    "dummy": "011"
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/vocabularium/ldes/ontwerpstandaard/toolchain4",
@@ -191,6 +196,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01"
     },
-    "dummy": "030"
+    "dummy": "2025-10-01 12:29:25"
   }
 ]

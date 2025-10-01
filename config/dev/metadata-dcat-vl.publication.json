@@ -21,7 +21,8 @@
       },
       "type": "raw",
       "directory": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpdocument/2018-12-21"
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2019-01-20",
@@ -47,10 +48,11 @@
       },
       "type": "raw",
       "directory": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2019-01-20"
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
-    "dummy": 1,
+    "dummy": "2025-10-01 12:29:25",
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-06-13",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -101,7 +103,8 @@
       },
       "type": "raw",
       "directory": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03"
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpstandaard/2021-06-27",
@@ -125,7 +128,8 @@
       },
       "type": "raw",
       "directory": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpstandaard/2021-06-27"
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2021-09-16",
@@ -151,7 +155,8 @@
       },
       "type": "raw",
       "directory": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2021-09-16"
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02",
@@ -177,7 +182,8 @@
       },
       "type": "raw",
       "directory": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02"
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2022-02-03",
@@ -201,7 +207,8 @@
         "prev": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02",
         "next": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21",
@@ -223,7 +230,8 @@
       "navigation": {
         "prev": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2022-02-03"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/standaard/2019-06-13",
@@ -236,13 +244,14 @@
       "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/standaard/2019-06-13",
       "seealso": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-06-13",
       "type": "ap"
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/",
     "seealso": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21",
     "type": "raw",
-    "dummy": 1,
+    "dummy": "2025-10-01 12:29:25",
     "directory": "/doc/applicatieprofiel/DCAT-AP-VL/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -263,6 +272,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:25"
   }
 ]

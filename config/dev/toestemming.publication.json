@@ -9,7 +9,7 @@
     },
     "type": "raw",
     "directory": "/doc/vocabularium/toestemming/standaard/2019-02-07",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:27",
     "original": {
       "urlref": "/doc/vocabularium/toestemming/standaard/2019-02-07",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -34,7 +34,7 @@
     },
     "type": "raw",
     "directory": "/doc/vocabularium/toestemming/ontwerpdocument/2020-01-06",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:27",
     "original": {
       "urlref": "/doc/vocabularium/toestemming/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -63,7 +63,8 @@
       "directory": "/doc/vocabularium/toestemming",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
-    }
+    },
+    "dummy": "2025-10-01 12:29:27"
   },
   {
     "urlref": "/ns/toestemming",
@@ -72,7 +73,7 @@
     "directory": "/ns/toestemming",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:27",
     "original": {
       "urlref": "/ns/toestemming",
       "seealso": "/doc/vocabularium/toestemming/standaard/2019-02-07",
@@ -82,7 +83,6 @@
       "branchtag": "production",
       "dummy": "trigger"
     }
-    
   },
   {
     "urlref": "/doc/vocabularium/toestemming/ontwerpstandaard/toolchain4",
@@ -94,6 +94,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/toestemming/standaard/2019-02-07"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:27"
   }
 ]

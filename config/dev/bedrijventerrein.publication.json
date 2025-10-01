@@ -19,7 +19,8 @@
       "navigation": {
         "next": "/doc/applicatieprofiel/bedrijventerrein/kandidaatstandaard/2020-04-21"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:23"
   },
   {
     "urlref": "/doc/applicatieprofiel/bedrijventerrein/kandidaatstandaard/2020-04-21",
@@ -43,7 +44,8 @@
         "prev": "/doc/applicatieprofiel/bedrijventerrein/kandidaatstandaard/2019-08-22",
         "next": "/doc/applicatieprofiel/bedrijventerrein/kandidaatstandaard/2020-04-23"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:23"
   },
   {
     "urlref": "/doc/applicatieprofiel/bedrijventerrein/kandidaatstandaard/2020-04-23",
@@ -67,7 +69,8 @@
         "prev": "/doc/applicatieprofiel/bedrijventerrein/kandidaatstandaard/2020-04-21",
         "next": "/doc/applicatieprofiel/bedrijventerrein/erkendestandaard/2020-06-18"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:23"
   },
   {
     "urlref": "/doc/applicatieprofiel/bedrijventerrein/erkendestandaard/2020-06-18",
@@ -91,7 +94,8 @@
         "prev": "/doc/applicatieprofiel/bedrijventerrein/kandidaatstandaard/2020-04-23",
         "next": "/doc/applicatieprofiel/bedrijventerrein/ontwerpstandaard/toolchain4"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:23"
   },
   {
     "urlref": "/doc/applicatieprofiel/bedrijventerrein/ontwerpstandaard/toolchain4",
@@ -101,12 +105,14 @@
     "filename": "config/bedrijventerrein-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/bedrijventerrein/erkendestandaard/2020-06-18"
-    }
+    },
+    "dummy": "2025-10-01 12:29:23"
   },
   {
     "urlref": "/doc/applicatieprofiel/bedrijventerrein",
     "seealso": "/doc/applicatieprofiel/bedrijventerrein/erkendestandaard/2020-06-18",
-    "type": "ap"
+    "type": "ap",
+    "dummy": "2025-10-01 12:29:23"
   },
   {
     "urlref": "/doc/vocabularium/bedrijventerrein/kandidaatstandaard/2019-08-22",
@@ -128,10 +134,11 @@
       "navigation": {
         "next": "/doc/vocabularium/bedrijventerrein/kandidaatstandaard/2020-04-23"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:23"
   },
   {
-    "dummy": "3",
+    "dummy": "2025-10-01 12:29:23",
     "urlref": "/doc/vocabularium/bedrijventerrein/kandidaatstandaard/2020-04-23",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -161,7 +168,7 @@
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "bedrijventerrein",
-    "dummy": "001",
+    "dummy": "2025-10-01 12:29:23",
     "filename": "config/bedrijventerrein-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/bedrijventerrein/kandidaatstandaard/2020-04-23",
@@ -189,12 +196,13 @@
     "filename": "config/bedrijventerrein-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/bedrijventerrein/erkendestandaard/2020-06-18"
-    }
+    },
+    "dummy": "2025-10-01 12:29:23"
   },
   {
     "urlref": "/ns/bedrijventerrein",
     "seealso": "/doc/vocabularium/bedrijventerrein/erkendestandaard/2020-06-18",
-    "dummy": "001",
+    "dummy": "2025-10-01 12:29:23",
     "type": "voc"
   },
   {
@@ -202,7 +210,7 @@
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "bedrijventerrein",
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:23",
     "filename": "config/bedrijventerrein.json",
     "navigation": {
       "prev": "/doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2020-03-17"
@@ -224,6 +232,6 @@
     "urlref": "/doc/implementatiemodel/bedrijventerrein",
     "seealso": "/doc/implementatiemodel/bedrijventerrein/kandidaatstandaard/2020-05-04",
     "type": "ap",
-    "dummy": "002"
+    "dummy": "2025-10-01 12:29:23"
   }
 ]

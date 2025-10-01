@@ -11,7 +11,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/mandatendatabank/ontwerpdocument/2018-07-20",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/applicatieprofiel/mandatendatabank/ontwerpdocument/2018-07-20",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -34,7 +34,7 @@
     "name": "mandatendatabank",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -59,14 +59,15 @@
       "directory": "/doc/applicatieprofiel/mandatendatabank",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/vocabularium/mandaat/standaard/2018-07-20",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "mandaat",
-    "dummy": "001",
+    "dummy": "2025-10-01 12:29:25",
     "navigation": {
       "next": "/doc/vocabularium/mandaat/ontwerpdocument/2020-01-06"
     },
@@ -96,7 +97,7 @@
     },
     "type": "raw",
     "directory": "/doc/vocabularium/mandaat/ontwerpdocument/2020-01-06",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/vocabularium/mandaat/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -118,7 +119,7 @@
     "directory": "/doc/vocabularium/mandaat",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/vocabularium/mandaat",
       "seealso": "/doc/vocabularium/mandaat/standaard/2018-07-20",
@@ -136,7 +137,7 @@
     "directory": "/ns/mandaat",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "001",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/ns/mandaat",
       "seealso": "/doc/vocabularium/mandaat/standaard/2018-07-20",
@@ -157,7 +158,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20"
     },
-    "dummy": "002"
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/vocabularium/mandaat/ontwerpstandaard/toolchain4",
@@ -169,6 +170,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/mandaat/standaard/2018-07-20"
     },
-    "dummy": "002"
+    "dummy": "2025-10-01 12:29:25"
   }
 ]

@@ -6,7 +6,7 @@
     "name": "subsidieregister",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/subsidieregister/ontwerpdocument/niet-bepaald",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:27",
     "original": {
       "urlref": "/doc/applicatieprofiel/subsidieregister/ontwerpdocument/niet-bepaald",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -24,7 +24,7 @@
     "name": "subsidie",
     "type": "raw",
     "directory": "/doc/vocabularium/subsidie/ontwerpdocument/niet-bepaald",
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:27",
     "original": {
       "urlref": "/doc/vocabularium/subsidie/ontwerpdocument/niet-bepaald",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -42,7 +42,7 @@
     "directory": "/doc/vocabularium/subsidie",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:27",
     "original": {
       "urlref": "/doc/vocabularium/subsidie",
       "seealso": "/doc/vocabularium/subsidie/ontwerpdocument/niet-bepaald",
@@ -60,7 +60,7 @@
     "directory": "/ns/subsidie",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "001",
+    "dummy": "2025-10-01 12:29:27",
     "original": {
       "urlref": "/ns/subsidie",
       "seealso": "/doc/vocabularium/subsidie/ontwerpdocument/niet-bepaald",
@@ -86,6 +86,7 @@
       "directory": "/doc/applicatieprofiel/subsidieregister/",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
-    }
+    },
+    "dummy": "2025-10-01 12:29:27"
   }
 ]

@@ -8,7 +8,7 @@
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/logies/erkendestandaard/2019-03-14",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/vocabularium/logies/erkendestandaard/2019-03-14",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -32,7 +32,7 @@
     },
     "type": "raw",
     "directory": "/doc/vocabularium/logies/ontwerpstandaard/2019-03-14",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/vocabularium/logies/ontwerpstandaard/2019-03-14",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -58,7 +58,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/logies-basis/ontwerpstandaard/2019-03-14",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/applicatieprofiel/logies-basis/ontwerpstandaard/2019-03-14",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -83,7 +83,7 @@
     "type": "raw",
     "dummpy": "1",
     "directory": "/doc/applicatieprofiel/logies-basis/erkendestandaard/2019-03-14",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/applicatieprofiel/logies-basis/erkendestandaard/2019-03-14",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -104,7 +104,7 @@
     "directory": "/doc/vocabularium/logies",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/vocabularium/logies",
       "seealso": "/doc/vocabularium/logies/erkendestandaard/2019-03-14",
@@ -122,7 +122,7 @@
     "directory": "/ns/logies",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/ns/logies",
       "seealso": "/doc/vocabularium/logies/erkendestandaard/2019-03-14",
@@ -149,7 +149,8 @@
       "directory": "/doc/applicatieprofiel/logies-basis",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/vocabularium/logies/ontwerpstandaard/toolchain4",
@@ -161,7 +162,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/logies/erkendestandaard/2019-03-14"
     },
-    "dummy": "004"
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/logies-basis/ontwerpstandaard/toolchain4",
@@ -173,6 +174,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/logies-basis/erkendestandaard/2019-03-14"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:25"
   }
 ]

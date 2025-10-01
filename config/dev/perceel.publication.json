@@ -19,7 +19,8 @@
       "navigation": {
         "next": "/doc/applicatieprofiel/perceel/kandidaatstandaard/2020-04-23"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/perceel/kandidaatstandaard/2020-04-23",
@@ -43,7 +44,8 @@
         "prev": "/doc/applicatieprofiel/perceel/kandidaatstandaard/2019-08-23",
         "next": "/doc/applicatieprofiel/perceel/erkendestandaard/2020-06-18"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/perceel/erkendestandaard/2020-06-18",
@@ -67,7 +69,8 @@
         "prev": "/doc/applicatieprofiel/perceel/kandidaatstandaard/2019-04-23",
         "next": "/doc/applicatieprofiel/perceel/ontwerpstandaard/toolchain4"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/perceel/ontwerpstandaard/toolchain4",
@@ -77,12 +80,14 @@
     "filename": "config/perceel-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/perceel/erkendestandaard/2020-06-18"
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/perceel",
     "seealso": "/doc/applicatieprofiel/perceel/erkendestandaard/2020-06-18",
-    "type": "ap"
+    "type": "ap",
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/perceel/kandidaatstandaard/2019-08-23",
@@ -104,7 +109,8 @@
       "navigation": {
         "next": "/doc/vocabularium/perceel/kandidaatstandaard/2020-04-23"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/perceel/kandidaatstandaard/2020-04-23",
@@ -128,7 +134,8 @@
         "prev": "/doc/vocabularium/perceel/kandidaatstandaard/2019-08-23",
         "next": "/doc/vocabularium/perceel/erkendestandaard/2020-06-18"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/perceel/erkendestandaard/2020-06-18",
@@ -152,7 +159,8 @@
         "prev": "/doc/vocabularium/perceel/kandidaatstandaard/2020-04-23",
         "next": "/doc/vocabularium/perceel/ontwerpstandaard/toolchain4"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/perceel/ontwerpstandaard/toolchain4",
@@ -162,11 +170,13 @@
     "filename": "config/perceel-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/perceel/erkendestandaard/2020-06-18"
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/ns/perceel",
     "seealso": "/doc/vocabularium/perceel/erkendestandaard/2020-06-18",
-    "type": "voc"
+    "type": "voc",
+    "dummy": "2025-10-01 12:29:26"
   }
 ]

@@ -8,7 +8,7 @@
     "navigation": {
       "next": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07"
     },
-    "dummy": "010",
+    "dummy": "2025-10-01 12:29:26",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/omgevingsvergunning/kandidaatstandaard/2024-10-17",
     "original": {
@@ -32,7 +32,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/omgevingsvergunning/kandidaatstandaard/2024-10-17"
     },
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:26",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07",
     "original": {
@@ -51,7 +51,7 @@
     "urlref": "/doc/applicatieprofiel/omgevingsvergunning",
     "seealso": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07",
     "type": "raw",
-    "dummy": "010",
+    "dummy": "2025-10-01 12:29:26",
     "directory": "/doc/applicatieprofiel/omgevingsvergunning",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -71,7 +71,7 @@
     "navigation": {
       "next": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
     },
-    "dummy": "010",
+    "dummy": "2025-10-01 12:29:26",
     "type": "raw",
     "directory": "/doc/vocabularium/omgevingsvergunning/kandidaatstandaard/2024-10-17",
     "original": {
@@ -95,7 +95,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/omgevingsvergunning/kandidaatstandaard/2024-10-17"
     },
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:26",
     "type": "raw",
     "directory": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07",
     "original": {
@@ -114,7 +114,7 @@
     "urlref": "/ns/omgevingsvergunning",
     "seealso": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07",
     "type": "raw",
-    "dummy": "010",
+    "dummy": "2025-10-01 12:29:26",
     "directory": "/ns/omgevingsvergunning",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -135,7 +135,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/omgevingsvergunning/erkendestandaard/2024-11-07"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/omgevingsvergunning/ontwerpstandaard/toolchain4",
@@ -147,6 +147,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:26"
   }
 ]

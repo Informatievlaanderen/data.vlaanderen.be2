@@ -5,7 +5,7 @@
     "branchtag": "production",
     "name": "ap-bo-interpretaties",
     "filename": "config/OSLO-BodemEnOndergrond-AP-BOInterpretaties.json",
-    "dummy": "001",
+    "dummy": "2025-10-01 12:29:23",
     "navigation": {
       "next": "/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/ontwerpstandaard/2023-04-01"
     },
@@ -29,7 +29,7 @@
     "branchtag": "production",
     "name": "ap-bo-interpretaties",
     "filename": "config/OSLO-BodemEnOndergrond-AP-BOInterpretaties.json",
-    "dummy": "051",
+    "dummy": "2025-10-01 12:29:23",
     "navigation": {
       "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
     },
@@ -51,7 +51,7 @@
     "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/",
     "seealso": "/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/ontwerpstandaard/2023-04-01",
     "type": "raw",
-    "dummy": "051",
+    "dummy": "2025-10-01 12:29:23",
     "directory": "/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -68,7 +68,7 @@
     "branchtag": "production",
     "name": "bo-interpretaties",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-BOInterpretaties.json",
-    "dummy": "001",
+    "dummy": "2025-10-01 12:29:23",
     "navigation": {
       "next": "/doc/vocabularium/bodem-en-ondergrond/interpretaties/ontwerpstandaard/2023-04-01"
     },
@@ -92,7 +92,7 @@
     "branchtag": "production",
     "name": "bo-interpretaties",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-BOInterpretaties.json",
-    "dummy": "053",
+    "dummy": "2025-10-01 12:29:23",
     "navigation": {
       "prev": "/doc/vocabularium/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
     },
@@ -114,7 +114,7 @@
     "urlref": "/ns/bodem-en-ondergrond/interpretaties/",
     "seealso": "/doc/vocabularium/bodem-en-ondergrond/interpretaties/ontwerpstandaard/2023-04-01",
     "type": "voc",
-    "dummy": "052"
+    "dummy": "2025-10-01 12:29:23"
   },
   {
     "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/toolchain4",
@@ -126,7 +126,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:23"
   },
   {
     "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/ontwerpstandaard/toolchain4",
@@ -138,7 +138,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/ontwerpstandaard/2023-04-01"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:23"
   },
   {
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/toolchain4",
@@ -150,7 +150,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/bodem-en-ondergrond/bo-interpretaties/ontwerpstandaard/2021-08-01"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:23"
   },
   {
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/interpretaties/ontwerpstandaard/toolchain4",
@@ -162,6 +162,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/bodem-en-ondergrond/interpretaties/ontwerpstandaard/2023-04-01"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:23"
   }
 ]

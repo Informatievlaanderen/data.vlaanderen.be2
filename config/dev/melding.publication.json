@@ -9,7 +9,7 @@
     },
     "type": "raw",
     "directory": "/doc/vocabularium/melding/standaard/2019-02-07",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/vocabularium/melding/standaard/2019-02-07",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -34,7 +34,7 @@
     },
     "type": "raw",
     "directory": "/doc/vocabularium/melding/ontwerpdocument/2020-01-06",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/vocabularium/melding/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -56,7 +56,7 @@
     "directory": "/doc/vocabularium/melding",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/vocabularium/melding",
       "seealso": "/doc/vocabularium/melding/standaard/2019-02-07",
@@ -74,7 +74,7 @@
     "directory": "/ns/melding",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/ns/melding",
       "seealso": "/doc/vocabularium/melding/standaard/2019-02-07",
@@ -95,7 +95,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/standaard/2019-02-07",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/standaard/2019-02-07",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -120,7 +120,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpdocument/2020-01-06",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -149,7 +149,8 @@
       "directory": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07",
@@ -161,7 +162,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -186,7 +187,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpdocument/2020-01-06",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:25",
     "original": {
       "urlref": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -215,7 +216,8 @@
       "directory": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
-    }
+    },
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/vocabularium/melding/ontwerpstandaard/toolchain4",
@@ -227,7 +229,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/melding/standaard/2019-02-07"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpstandaard/toolchain4",
@@ -239,7 +241,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/standaard/2019-02-07"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:25"
   },
   {
     "urlref": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpstandaard/toolchain4",
@@ -251,6 +253,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/standaard/2019-02-07"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:25"
   }
 ]

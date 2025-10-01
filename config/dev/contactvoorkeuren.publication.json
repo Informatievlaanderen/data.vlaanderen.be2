@@ -18,7 +18,8 @@
         "next": "/doc/vocabularium/toestemming/ontwerpdocument/2020-01-06"
       },
       "type": "raw"
-    }
+    },
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/vocabularium/toestemming/ontwerpdocument/2020-01-06",
@@ -40,7 +41,8 @@
       "navigation": {
         "prev": "/doc/vocabularium/toestemming/standaard/2019-02-07"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/applicatieprofiel/contactvoorkeuren/standaard/2019-02-07",
@@ -61,7 +63,8 @@
         "next": "/doc/applicatieprofiel/contactvoorkeuren/ontwerpdocument/2020-01-06"
       },
       "type": "raw"
-    }
+    },
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/applicatieprofiel/contactvoorkeuren/ontwerpdocument/2020-01-06",
@@ -83,7 +86,8 @@
       "navigation": {
         "prev": "/doc/applicatieprofiel/contactvoorkeuren/standaard/2019-02-07"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/applicatieprofiel/contactvoorkeuren/",
@@ -96,7 +100,8 @@
       "urlref": "/doc/applicatieprofiel/contactvoorkeuren/",
       "seealso": "/doc/applicatieprofiel/contactvoorkeuren/standaard/2019-02-07",
       "type": "ap"
-    }
+    },
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/applicatieprofiel/contactvoorkeuren/",
@@ -112,7 +117,8 @@
       "directory": "/doc/applicatieprofiel/contactvoorkeuren/",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
-    }
+    },
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/applicatieprofiel/contactvoorkeuren/standaard/2019-02-07",
@@ -124,7 +130,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/contactvoorkeuren/standaard/2019-02-07",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:24",
     "original": {
       "urlref": "/doc/applicatieprofiel/contactvoorkeuren/standaard/2019-02-07",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -149,7 +155,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/contactvoorkeuren/ontwerpdocument/2020-01-06",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:24",
     "original": {
       "urlref": "/doc/applicatieprofiel/contactvoorkeuren/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -174,7 +180,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/toestemming/standaard/2019-02-07"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/applicatieprofiel/contactvoorkeuren/ontwerpstandaard/toolchain4",
@@ -186,6 +192,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/contactvoorkeuren/standaard/2019-02-07"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:24"
   }
 ]

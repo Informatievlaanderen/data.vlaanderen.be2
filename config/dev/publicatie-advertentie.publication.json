@@ -9,7 +9,7 @@
       "prev": "/doc/applicatieprofiel/publicatie-advertentie/kandidaatstandaard/2023-04-24",
       "next": "/doc/applicatieprofiel/publicatie-advertentie/ontwerpstandaard/toolchain4"
     },
-    "dummy": "018",
+    "dummy": "2025-10-01 12:29:26",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/publicatie-advertentie/erkendestandaard/2023-11-09",
     "original": {
@@ -28,7 +28,7 @@
     "urlref": "/doc/applicatieprofiel/publicatie-advertentie",
     "seealso": "/doc/applicatieprofiel/publicatie-advertentie/erkendestandaard/2023-11-09",
     "type": "raw",
-    "dummy": "018",
+    "dummy": "2025-10-01 12:29:26",
     "directory": "/doc/applicatieprofiel/publicatie-advertentie",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -49,7 +49,7 @@
       "prev": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2023-04-01",
       "next": "/doc/vocabularium/publicatie-advertentie/ontwerpstandaard/toolchain4"
     },
-    "dummy": "018",
+    "dummy": "2025-10-01 12:29:26",
     "type": "raw",
     "directory": "/doc/vocabularium/publicatie-advertentie/erkendestandaard/2023-11-09",
     "original": {
@@ -68,7 +68,7 @@
     "urlref": "/ns/campagne/publicatie",
     "seealso": "/doc/vocabularium/publicatie-advertentie/erkendestandaard/2023-11-09",
     "type": "raw",
-    "dummy": "018",
+    "dummy": "2025-10-01 12:29:26",
     "directory": "/ns/campagne/publicatie",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -89,7 +89,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/publicatie-advertentie/erkendestandaard/2023-11-09"
     },
-    "dummy": "019"
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/publicatie-advertentie/ontwerpstandaard/toolchain4",
@@ -101,6 +101,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/publicatie-advertentie/erkendestandaard/2023-11-09"
     },
-    "dummy": "019"
+    "dummy": "2025-10-01 12:29:26"
   }
 ]

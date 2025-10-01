@@ -7,7 +7,7 @@
     "filename": "config/verkeersborden.json",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/verkeersborden/ontwerpdocument/niet-bepaald",
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:27",
     "original": {
       "urlref": "/doc/applicatieprofiel/verkeersborden/ontwerpdocument/niet-bepaald",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -33,7 +33,8 @@
       "directory": "/doc/applicatieprofiel/verkeersborden/",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
-    }
+    },
+    "dummy": "2025-10-01 12:29:27"
   },
   {
     "urlref": "/doc/applicatieprofiel/verkeersborden/ontwerpstandaard/toolchain4",
@@ -45,6 +46,6 @@
     "navigation": {
       "prev": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersborden/ontwerpdocument/niet-bepaald"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:27"
   }
 ]

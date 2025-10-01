@@ -6,7 +6,7 @@
     "name": "financieledata-ap",
     "filename": "config/financieledata-ap.json",
     "disabled": false,
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:24",
     "type": "raw",
     "navigation": {
       "next": "/doc/applicatieprofiel/financiele-rapportering/kandidaatstandaard/2022-06-23"
@@ -38,7 +38,7 @@
       "prev": "/doc/applicatieprofiel/financiele-rapportering/ontwerpstandaard/2020-01-31",
       "next": "/doc/applicatieprofiel/financiele-rapportering/erkendestandaard/2024-04-17"
     },
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:24",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/financiele-rapportering/kandidaatstandaard/2022-06-23",
     "original": {
@@ -67,7 +67,7 @@
       "prev": "/doc/applicatieprofiel/financiele-data/kandidaatstandaard/2022-06-23"
     },
     "disabled": false,
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:24",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/financiele-rapportering/erkendestandaard/2024-04-17",
     "original": {
@@ -87,7 +87,7 @@
     "urlref": "/doc/applicatieprofiel/financiele-rapportering",
     "seealso": "/doc/applicatieprofiel/financiele-rapportering/erkendestandaard/2024-04-17",
     "type": "raw",
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:24",
     "directory": "/doc/applicatieprofiel/financiele-rapportering",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -105,7 +105,7 @@
     "name": "financiele-rapportering",
     "filename": "config/financieledata-voc.json",
     "disabled": false,
-    "dummy": "004",
+    "dummy": "2025-10-01 12:29:24",
     "navigation": {
       "next": "/doc/vocabularium/financiele-rapportering/kandidaatstandaard/2022-06-23"
     },
@@ -136,7 +136,7 @@
       "prev": "/doc/vocabularium/financiele-rapportering/ontwerpstandaard/2020-01-31"
     },
     "disabled": false,
-    "dummy": "004",
+    "dummy": "2025-10-01 12:29:24",
     "type": "raw",
     "directory": "/doc/vocabularium/financiele-rapportering/kandidaatstandaard/2022-06-23",
     "original": {
@@ -164,7 +164,7 @@
       "prev": "/doc/vocabularium/financiele-data/kandidaatstandaard/2022-06-23"
     },
     "disabled": false,
-    "dummy": "004",
+    "dummy": "2025-10-01 12:29:24",
     "type": "raw",
     "directory": "/doc/vocabularium/financiele-rapportering/erkendestandaard/2024-04-17",
     "original": {
@@ -184,7 +184,7 @@
     "urlref": "/ns/financiele-rapportering",
     "seealso": "/doc/vocabularium/financiele-rapportering/erkendestandaard/2024-04-17",
     "type": "raw",
-    "dummy": "003",
+    "dummy": "2025-10-01 12:29:24",
     "directory": "/ns/financiele-rapportering",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -206,7 +206,7 @@
       "next": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/kandidaatstandaard/2022-06-23"
     },
     "disabled": false,
-    "dummy": "008",
+    "dummy": "2025-10-01 12:29:24",
     "type": "raw",
     "directory": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/ontwerpstandaard/2022-05-01",
     "original": {
@@ -235,7 +235,7 @@
       "prev": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/ontwerpstandaard/2022-05-01"
     },
     "disabled": false,
-    "dummy": "008",
+    "dummy": "2025-10-01 12:29:24",
     "type": "raw",
     "directory": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/kandidaatstandaard/2022-06-23",
     "original": {
@@ -262,7 +262,7 @@
     "filename": "config/financieledata-dcjm-voc.json",
     "navigation": {},
     "disabled": false,
-    "dummy": "008",
+    "dummy": "2025-10-01 12:29:24",
     "type": "raw",
     "directory": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/erkendestandaard/2024-04-17",
     "original": {
@@ -282,7 +282,7 @@
     "prefix": "financiele-rapportering",
     "seealso": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/erkendestandaard/2024-04-17",
     "type": "raw",
-    "dummy": "008",
+    "dummy": "2025-10-01 12:29:24",
     "directory": "/ns/financiele-rapportering/taxonomie-dcjm",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -304,7 +304,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/financiele-rapportering/erkendestandaard/2024-04-17"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/vocabularium/financiele-rapportering/ontwerpstandaard/toolchain4",
@@ -316,7 +316,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/financiele-rapportering/erkendestandaard/2024-04-17"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:24"
   },
   {
     "urlref": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/ontwerpstandaard/toolchain4",
@@ -328,6 +328,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/financiele-rapportering/taxonomie-dcjm/erkendestandaard/2024-04-17"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:24"
   }
 ]

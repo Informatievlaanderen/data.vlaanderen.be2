@@ -10,7 +10,7 @@
     "navigation": {
       "next": "/doc/applicatieprofiel/verkeersmetingen/kandidaatstandaard/2023-12-01"
     },
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:27",
     "original": {
       "urlref": "/doc/applicatieprofiel/verkeersmetingen/ontwerpstandaard/2023-03-14",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-verkeersmetingen",
@@ -35,7 +35,7 @@
       "prev": "/doc/applicatieprofiel/verkeersmetingen/ontwerpstandaard/2023-03-14",
       "next": "/doc/applicatieprofiel/verkeersmetingen/erkendestandaard/2024-04-17"
     },
-    "dummy": "034",
+    "dummy": "2025-10-01 12:29:27",
     "original": {
       "urlref": "/doc/applicatieprofiel/verkeersmetingen/kandidaatstandaard/2023-12-01",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-verkeersmetingen",
@@ -60,13 +60,13 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/verkeersmetingen/kandidaatstandaard/2023-12-01"
     },
-    "dummy": "009"
+    "dummy": "2025-10-01 12:29:27"
   },
   {
     "urlref": "/doc/applicatieprofiel/verkeersmetingen",
     "seealso": "/doc/applicatieprofiel/verkeersmetingen/erkendestandaard/2024-04-17",
     "type": "ap",
-    "dummy": "008"
+    "dummy": "2025-10-01 12:29:27"
   },
   {
     "urlref": "/doc/vocabularium/verkeersmetingen/ontwerpstandaard/2023-03-14",
@@ -79,7 +79,7 @@
     "navigation": {
       "next": "/doc/vocabularium/verkeersmetingen/kandidaatstandaard/2023-12-01"
     },
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:27",
     "original": {
       "urlref": "/doc/vocabularium/verkeersmetingen/ontwerpstandaard/2023-03-14",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-verkeersmetingen",
@@ -104,7 +104,7 @@
       "next": "/doc/vocabularium/verkeersmetingen/erkendestandaard/2024-04-17",
       "prev": "/doc/vocabularium/verkeersmetingen/ontwerpstandaard/2023-03-14"
     },
-    "dummy": "041",
+    "dummy": "2025-10-01 12:29:27",
     "original": {
       "urlref": "/doc/vocabularium/verkeersmetingen/kandidaatstandaard/2023-12-01",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-verkeersmetingen",
@@ -127,12 +127,12 @@
     "navigation": {
       "prev": "/doc/vocabularium/verkeersmetingen/kandidaatstandaard/2023-12-01"
     },
-    "dummy": "009"
+    "dummy": "2025-10-01 12:29:27"
   },
   {
     "urlref": "/ns/verkeersmetingen",
     "seealso": "/doc/vocabularium/verkeersmetingen/erkendestandaard/2024-04-17",
     "type": "voc",
-    "dummy": "005"
+    "dummy": "2025-10-01 12:29:27"
   }
 ]

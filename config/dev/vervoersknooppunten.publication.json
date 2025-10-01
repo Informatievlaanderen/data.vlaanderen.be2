@@ -5,7 +5,7 @@
     "branchtag": "production",
     "name": "OSLO-Vervoersknooppunten-ap",
     "filename": "config/vervoersknooppunten-ap.json",
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:27",
     "navigation": {
       "next": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten/erkendestandaard/2022-12-01"
     },
@@ -29,7 +29,7 @@
     "branchtag": "production",
     "name": "OSLO-Vervoersknooppunten-ap",
     "filename": "config/vervoersknooppunten-ap.json",
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:27",
     "navigation": {
       "prev": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten/kandidaatstandaard/2022-04-01"
     },
@@ -51,7 +51,7 @@
     "urlref": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten",
     "seealso": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten/erkendestandaard/2022-12-01",
     "type": "raw",
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:27",
     "directory": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -68,7 +68,7 @@
     "branchtag": "production",
     "name": "vervoersknooppunten",
     "filename": "config/vervoersknooppunten-voc.json",
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:27",
     "navigation": {
       "next": "/doc/vocabularium/mobiliteit/vervoersknooppunten/erkendestandaard/2022-12-01"
     },
@@ -93,7 +93,7 @@
     "branchtag": "production",
     "name": "vervoersknooppunten",
     "filename": "config/vervoersknooppunten-voc.json",
-    "dummy": "003",
+    "dummy": "2025-10-01 12:29:27",
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteit/vervoersknooppunten/kandidaatstandaard/2022-04-01"
     },
@@ -117,7 +117,7 @@
     "prefix": "mobiliteit",
     "seealso": "/doc/vocabularium/mobiliteit/vervoersknooppunten/erkendestandaard/2022-12-01",
     "type": "raw",
-    "dummy": "003",
+    "dummy": "2025-10-01 12:29:27",
     "directory": "/ns/mobiliteit/vervoersknooppunten",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -139,7 +139,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/mobiliteit/vervoersknooppunten/erkendestandaard/2022-12-01"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:27"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit/vervoersknooppunten/ontwerpstandaard/toolchain4",
@@ -151,6 +151,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteit/vervoersknooppunten/erkendestandaard/2022-12-01"
     },
-    "dummy": "001"
+    "dummy": "2025-10-01 12:29:27"
   }
 ]

@@ -4,7 +4,7 @@
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "stopplaatsen-ap",
-    "dummy": "001",
+    "dummy": "2025-10-01 12:29:26",
     "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
     "navigation": {
       "next": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/ontwerpstandaard/toolchain4"
@@ -23,7 +23,7 @@
     }
   },
   {
-    "dummy": 4,
+    "dummy": "2025-10-01 12:29:26",
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
     "branchtag": "master-node-toolchain",
@@ -37,7 +37,7 @@
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen",
     "seealso": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/erkendestandaard/2022-04-21",
     "directory": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen",
-    "dummy": "002"
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/erkendestandaard/2022-04-21",
@@ -45,7 +45,7 @@
     "branchtag": "production",
     "name": "voertuigplanning-ap",
     "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
-    "dummy": "002",
+    "dummy": "2025-10-01 12:29:26",
     "navigation": {
       "next": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/ontwerpstandaard/toolchain4"
     },
@@ -63,7 +63,7 @@
     }
   },
   {
-    "dummy": 4,
+    "dummy": "2025-10-01 12:29:26",
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
     "branchtag": "master-node-toolchain",
@@ -77,10 +77,10 @@
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning",
     "seealso": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/erkendestandaard/2022-04-21",
     "type": "ap",
-    "dummy": "002"
+    "dummy": "2025-10-01 12:29:26"
   },
   {
-    "dummy": 4,
+    "dummy": "2025-10-01 12:29:26",
     "urlref": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/erkendestandaard/2022-04-21",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -105,7 +105,7 @@
     }
   },
   {
-    "dummy": 5,
+    "dummy": "2025-10-01 12:29:26",
     "urlref": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
     "branchtag": "master-node-toolchain",
@@ -120,7 +120,8 @@
     "urlref": "/ns/mobiliteit/dienstregeling-en-planning",
     "prefix": "mobiliteit",
     "seealso": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/erkendestandaard/2022-04-21",
-    "type": "voc"
+    "type": "voc",
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21",
@@ -144,7 +145,8 @@
       "navigation": {
         "next": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/toolchain4"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/toolchain4",
@@ -155,15 +157,16 @@
     "prefix": "mobiliteit",
     "navigation": {
       "prev": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21"
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen",
     "seealso": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21",
     "prefix": "mobiliteit",
-    "type": "ap"
+    "type": "ap",
+    "dummy": "2025-10-01 12:29:26"
   },
-
   {
     "urlref": "/doc/vocabularium/netwerk/kandidaatstandaard/2020-04-09",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
@@ -182,7 +185,8 @@
       "navigation": {
         "next": "/doc/vocabularium/netwerk/erkendestandaard/2020-04-23"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/netwerk/erkendestandaard/2020-04-23",
@@ -204,10 +208,11 @@
         "prev": "/doc/vocabularium/netwerk/kandidaatstandaard/2020-04-09",
         "next": "/doc/vocabularium/netwerk/ontwerpstandaard/toolchain4"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
-    "dummy": 1,
+    "dummy": "2025-10-01 12:29:26",
     "urlref": "/doc/vocabularium/netwerk/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteit-trips-en-aanbod",
     "branchtag": "master-node-toolchain",
@@ -219,9 +224,9 @@
   {
     "urlref": "/ns/netwerk",
     "seealso": "/doc/vocabularium/netwerk/erkendestandaard/2020-04-23",
-    "type": "voc"
+    "type": "voc",
+    "dummy": "2025-10-01 12:29:26"
   },
-
   {
     "urlref": "/doc/vocabularium/transportnetwerk/kandidaatstandaard/2020-04-09",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
@@ -241,7 +246,8 @@
         "next": "/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23"
       },
       "type": "voc"
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23",
@@ -264,7 +270,8 @@
         "next": "/doc/vocabularium/transportnetwerk/ontwerpstandaard/toolchain4"
       },
       "type": "voc"
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/transportnetwerk/ontwerpstandaard/toolchain4",
@@ -274,12 +281,14 @@
     "navigation": {
       "prev": "/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23"
     },
-    "type": "voc"
+    "type": "voc",
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/ns/transportnetwerk",
     "seealso": "/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23",
-    "type": "voc"
+    "type": "voc",
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
@@ -301,7 +310,8 @@
       "navigation": {
         "next": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
@@ -325,7 +335,8 @@
         "prev": "/doc/vocabularium/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
         "next": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
@@ -349,7 +360,8 @@
         "prev": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
         "next": "/doc/vocabularium/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
@@ -373,7 +385,8 @@
         "prev": "/doc/vocabularium/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
         "next": "/doc/vocabularium/mobiliteit-trips-en-aanbod/ontwerpstandaard/toolchain4"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/ontwerpstandaard/toolchain4",
@@ -383,13 +396,15 @@
     "prefix": "mobiliteit",
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23"
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/ns/mobiliteit/trips-en-aanbod",
     "prefix": "mobiliteit",
     "seealso": "/doc/vocabularium/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
-    "type": "voc"
+    "type": "voc",
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-11-20",
@@ -411,7 +426,8 @@
       "navigation": {
         "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
@@ -433,7 +449,8 @@
         "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-11-20",
         "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
@@ -455,7 +472,8 @@
         "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/2019-12-16",
         "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
@@ -477,7 +495,8 @@
         "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
         "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
@@ -499,10 +518,11 @@
         "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-04-09",
         "next": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/toolchain4"
       }
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:26",
     "urlref": "/doc/vocabularium/mobiliteit/kandidaatstandaard/2018-09-30",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -513,7 +533,7 @@
     "directory": "/doc/vocabularium/mobiliteit/kandidaatstandaard/2018-09-30"
   },
   {
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:26",
     "urlref": "/doc/vocabularium/mobiliteit",
     "seealso": "/doc/vocabularium/mobiliteit/kandidaatstandaard/2018-09-30",
     "type": "raw",
@@ -522,7 +542,7 @@
     "branchtag": "production"
   },
   {
-    "dummy": "trigger",
+    "dummy": "2025-10-01 12:29:26",
     "urlref": "/ns/mobiliteit",
     "seealso": "/doc/vocabularium/mobiliteit/kandidaatstandaard/2018-09-30",
     "type": "raw",
@@ -537,11 +557,13 @@
     "name": "mobiliteit-trips-en-aanbod-ap",
     "navigation": {
       "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23"
-    }
+    },
+    "dummy": "2025-10-01 12:29:26"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod",
     "seealso": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
-    "type": "ap"
+    "type": "ap",
+    "dummy": "2025-10-01 12:29:26"
   }
 ]
