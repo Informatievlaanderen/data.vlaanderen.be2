@@ -87,6 +87,7 @@ generate_for_language() {
 
 }
 
+
 check_tool_output_for_non_emptiness() {
     local REPORT=$1
 
