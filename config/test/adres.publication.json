@@ -1,0 +1,166 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "adresregister",
+    "dummy": "2025-10-01 18:59:25",
+    "navigation": {
+      "next": "/doc/applicatieprofiel/adressenregister/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "adresregister",
+      "dummy": "trigger",
+      "navigation": {
+        "next": "/doc/applicatieprofiel/adressenregister/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/adressenregister/ontwerpdocument/niet-bepaald",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "adressenregister",
+    "filename": "config/adressenregister.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald"
+    },
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/adressenregister/ontwerpdocument/niet-bepaald",
+    "dummy": "2025-10-01 18:59:25",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/adressenregister/ontwerpdocument/niet-bepaald",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "adressenregister",
+      "filename": "config/adressenregister.json",
+      "navigation": {
+        "prev": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald"
+      },
+      "type": "raw",
+      "directory": "/doc/applicatieprofiel/adressenregister/ontwerpdocument/niet-bepaald",
+      "dummy": "trigger"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/adres/standaard/2018-07-03",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "adres",
+    "navigation": {
+      "next": "/doc/vocabularium/adres/ontwerpdocument/2020-01-06"
+    },
+    "type": "raw",
+    "dummy": "2025-10-01 18:59:25",
+    "directory": "/doc/vocabularium/adres/standaard/2018-07-03",
+    "original": {
+      "urlref": "/doc/vocabularium/adres/standaard/2018-07-03",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "adres",
+      "navigation": {
+        "next": "/doc/vocabularium/adres/ontwerpdocument/2020-01-06"
+      },
+      "type": "raw",
+      "dummy": "trigger",
+      "directory": "/doc/vocabularium/adres/standaard/2018-07-03"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/adres/ontwerpdocument/2020-01-06",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "adres",
+    "filename": "config/adres.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/adres/standaard/2018-07-03"
+    },
+    "type": "raw",
+    "dummy": "2025-10-01 18:59:25",
+    "directory": "/doc/vocabularium/adres/ontwerpdocument/2020-01-06",
+    "original": {
+      "urlref": "/doc/vocabularium/adres/ontwerpdocument/2020-01-06",
+      "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
+      "branchtag": "production",
+      "name": "adres",
+      "filename": "config/adres.json",
+      "navigation": {
+        "prev": "/doc/vocabularium/adres/standaard/2018-07-03"
+      },
+      "type": "raw",
+      "dummy": "trigger",
+      "directory": "/doc/vocabularium/adres/ontwerpdocument/2020-01-06"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/adresregister",
+    "seealso": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald",
+    "disabled": false,
+    "type": "raw",
+    "dummy": "2025-10-01 18:59:25",
+    "directory": "/doc/applicatieprofiel/adresregister",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/adresregister",
+      "seealso": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald",
+      "disabled": false,
+      "type": "ap",
+      "dummy": "011"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/adres",
+    "seealso": "/doc/vocabularium/adres/standaard/2018-07-03",
+    "disabled": false,
+    "type": "raw",
+    "dummy": "2025-10-01 18:59:25",
+    "directory": "/doc/vocabularium/adres",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "original": {
+      "urlref": "/doc/vocabularium/adres",
+      "seealso": "/doc/vocabularium/adres/standaard/2018-07-03",
+      "disabled": false,
+      "type": "voc",
+      "dummy": "012"
+    }
+  },
+  {
+    "urlref": "/ns/adres",
+    "seealso": "/doc/vocabularium/adres/standaard/2018-07-03",
+    "dummy": "2025-10-01 18:59:25",
+    "type": "voc"
+  },
+  {
+    "urlref": "/doc/vocabularium/adres/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/informatievlaanderen/oslothema-gebouwEnAdres",
+    "branchtag": "master",
+    "name": "adres",
+    "filename": "config/adres.json",
+    "directory": "/doc/vocabularium/adres/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/vocabularium/adres/standaard/2018-07-03"
+    },
+    "dummy": "2025-10-01 18:59:25"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/adresregister/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/informatievlaanderen/oslothema-gebouwEnAdres",
+    "branchtag": "master",
+    "name": "adressenregister",
+    "filename": "config/adressenregister.json",
+    "directory": "/doc/applicatieprofiel/adresregister/ontwerpstandaard/toolchain4",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald"
+    },
+    "dummy": "2025-10-01 18:59:25"
+  }
+]
