@@ -9,7 +9,7 @@
       "prev": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-06-20"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-09-11",
     "original": {
@@ -35,7 +35,7 @@
       "prev": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-10-01"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-06-20",
     "original": {
@@ -61,7 +61,7 @@
       "prev": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-09-01"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-10-01",
     "original": {
@@ -87,7 +87,7 @@
       "prev": "/doc/applicatieprofiel/cultuurparticipatie/ontwerpstandaard/2023-05-10"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2023-09-01",
     "original": {
@@ -111,7 +111,7 @@
     "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
     "navigation": {},
     "disabled": false,
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/cultuurparticipatie/ontwerpstandaard/2023-05-10",
     "original": {
@@ -133,7 +133,7 @@
     "filename": "config/DoelgerichtDigitaalTransformeren-ap.json",
     "navigation": {},
     "disabled": false,
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01",
     "original": {
@@ -153,7 +153,7 @@
     "urlref": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren",
     "seealso": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -177,7 +177,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/doelgericht-digitaal-transformeren/ontwerpstandaard/2021-10-01"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11",
@@ -189,7 +189,7 @@
       "prev": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-06-20"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11",
     "original": {
@@ -215,7 +215,7 @@
       "prev": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-10-01"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-06-20",
     "original": {
@@ -241,7 +241,7 @@
       "prev": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-09-01"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-10-01",
     "original": {
@@ -267,7 +267,7 @@
       "prev": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/2023-05-10"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2023-09-01",
     "original": {
@@ -291,7 +291,7 @@
     "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
     "navigation": {},
     "disabled": false,
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/2023-05-10",
     "original": {
@@ -313,7 +313,7 @@
     "filename": "config/DoelgerichtDigitaalTransformeren-voc.json",
     "navigation": {},
     "disabled": false,
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/2021-10-01",
     "original": {
@@ -333,7 +333,7 @@
     "urlref": "/doc/applicatieprofiel/cultuurparticipatie",
     "seealso": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-09-11",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/doc/applicatieprofiel/cultuurparticipatie",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -348,7 +348,7 @@
     "urlref": "/ns/cultuurparticipatie",
     "seealso": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/ns/cultuurparticipatie",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -369,7 +369,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/cultuurparticipatie/erkendestandaard/2024-09-11"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/cultuurparticipatie/ontwerpstandaard/toolchain4",
@@ -381,6 +381,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/cultuurparticipatie/erkendestandaard/2024-09-11"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   }
 ]

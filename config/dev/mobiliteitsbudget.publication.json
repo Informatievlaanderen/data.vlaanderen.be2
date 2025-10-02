@@ -6,7 +6,7 @@
     "name": "mobiliteitsbudget-ap",
     "filename": "config/mobiliteitsbudget-ap.json",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:27",
+    "dummy": "2025-10-02 20:26:58",
     "navigation": {},
     "type": "raw",
     "directory": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
@@ -26,7 +26,7 @@
     "seealso": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:27",
+    "dummy": "2025-10-02 20:26:58",
     "directory": "/doc/applicatieprofiel/mobiliteitsbudget",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -45,7 +45,7 @@
     "name": "mobiliteitsbudget",
     "filename": "config/mobiliteitsbudget-voc.json",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:27",
+    "dummy": "2025-10-02 20:26:58",
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
@@ -65,7 +65,7 @@
     "seealso": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:27",
+    "dummy": "2025-10-02 20:26:58",
     "directory": "/ns/mobiliteitsbudget",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -87,7 +87,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
     },
-    "dummy": "2025-10-01 18:59:27"
+    "dummy": "2025-10-02 20:26:58"
   },
   {
     "urlref": "/doc/vocabularium/mobiliteitsbudget/ontwerpstandaard/toolchain4",
@@ -99,6 +99,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteitsbudget/kandidaatstandaard/2024-06-18"
     },
-    "dummy": "2025-10-01 18:59:27"
+    "dummy": "2025-10-02 20:26:58"
   }
 ]

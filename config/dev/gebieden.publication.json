@@ -7,7 +7,7 @@
     "navigation": {},
     "directory": "/doc/applicatieprofiel/gebieden/standaard/2018-11-27",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "original": {
       "urlref": "/doc/applicatieprofiel/gebieden/standaard/2018-11-27",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -27,7 +27,7 @@
     "navigation": {},
     "directory": "/doc/applicatieprofiel/gebieden/kandidaatstandaard/2020-06-18",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "original": {
       "urlref": "/doc/applicatieprofiel/gebieden/kandidaatstandaard/2020-06-18",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -51,7 +51,7 @@
     "navigation": {},
     "directory": "/doc/applicatieprofiel/gebieden/erkendestandaard/2021-09-30",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "original": {
       "urlref": "/doc/applicatieprofiel/gebieden/erkendestandaard/2021-09-30",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -67,7 +67,7 @@
     "urlref": "/doc/applicatieprofiel/gebieden/",
     "seealso": "/doc/applicatieprofiel/gebieden/erkendestandaard/2021-09-30",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/doc/applicatieprofiel/gebieden/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -89,7 +89,7 @@
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/openbaardomein/gebied/standaard/2018-11-27",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "original": {
       "urlref": "/doc/vocabularium/openbaardomein/gebied/standaard/2018-11-27",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -109,7 +109,7 @@
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/openbaardomein/gebied/kandidaatstandaard/2020-06-18",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "original": {
       "urlref": "/doc/vocabularium/openbaardomein/gebied/kandidaatstandaard/2020-06-18",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -133,7 +133,7 @@
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/openbaardomein/gebied/erkendestandaard/2021-09-30",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "original": {
       "urlref": "/doc/vocabularium/openbaardomein/gebied/erkendestandaard/2021-09-30",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -150,7 +150,7 @@
     "seealso": "/doc/vocabularium/openbaardomein/gebied/erkendestandaard/2021-09-30",
     "type": "raw",
     "prefix": "openbaardomein",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/doc/vocabularium/openbaardomein/gebied",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -173,7 +173,7 @@
     "directory": "/ns/openbaardomein/gebied",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "original": {
       "urlref": "/ns/openbaardomein/gebied",
       "seealso": "/doc/vocabularium/openbaardomein/gebied/erkendestandaard/2021-09-30",
@@ -195,7 +195,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/gebieden/standaard/2018-11-27"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/gebied/ontwerpstandaard/toolchain4",
@@ -207,6 +207,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/gebied/standaard/2018-11-27"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   }
 ]

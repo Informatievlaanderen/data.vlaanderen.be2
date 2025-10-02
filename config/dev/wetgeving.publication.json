@@ -7,7 +7,7 @@
     "filename": "config/wetgeving.json",
     "type": "raw",
     "directory": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald",
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "original": {
       "urlref": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -26,7 +26,7 @@
     "directory": "/doc/vocabularium/wetgeving",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "original": {
       "urlref": "/doc/vocabularium/wetgeving",
       "seealso": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald",
@@ -44,7 +44,7 @@
     "directory": "/ns/wetgeving",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "original": {
       "urlref": "/ns/wetgeving",
       "seealso": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald",
@@ -65,6 +65,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/wetgeving/ontwerpdocument/niet-bepaald"
     },
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   }
 ]

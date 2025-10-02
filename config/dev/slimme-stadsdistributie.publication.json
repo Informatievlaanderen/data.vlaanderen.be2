@@ -8,7 +8,7 @@
     "type": "ap",
     "filename": "config/OSLO-slimmestadsdistributie-ap.json",
     "navigation": {},
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/doc/vocabularium/slimme-stadsdistributie",
@@ -17,12 +17,12 @@
     "name": "slimme-stadsdistributie",
     "filename": "config/slimmestadsdistributie-voc.json",
     "navigation": {},
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/ns/slimme-stadsdistributie",
     "seealso": "/doc/vocabularium/slimme-stadsdistributie",
     "type": "voc",
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   }
 ]

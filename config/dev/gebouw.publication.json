@@ -21,7 +21,7 @@
       },
       "type": "raw"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "comment": "Dit is een versie op master die ongecontroleerde verbeteringen bevat van toolchain 2",
@@ -48,13 +48,13 @@
         "next": "/doc/applicatieprofiel/gebouwenregister/ontwerpstandaard/toolchain4"
       }
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/applicatieprofiel/gebouwenregister",
     "seealso": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald",
     "type": "ap",
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
@@ -76,7 +76,7 @@
       },
       "type": "raw"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "comment": "Dit is een versie op master die ongecontroleerde verbeteringen bevat van toolchain 2",
@@ -103,19 +103,19 @@
         "next": "/doc/vocabularium/gebouw/ontwerpstandaard/toolchain4"
       }
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/gebouw",
     "seealso": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
     "type": "voc",
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/ns/gebouw",
     "seealso": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald",
     "type": "voc",
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/gebouw/ontwerpstandaard/toolchain4",
@@ -126,7 +126,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/gebouw/kandidaatstandaard/niet-bepaald"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/applicatieprofiel/gebouwenregister/ontwerpstandaard/toolchain4",
@@ -137,6 +137,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/gebouwenregister/kandidaatstandaard/niet-bepaald"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   }
 ]

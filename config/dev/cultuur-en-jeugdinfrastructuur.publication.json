@@ -6,7 +6,7 @@
     "name": "cultuurenjeugdinfrastructuur-ap",
     "filename": "config/cultuurenjeugdinfrastructuur-ap.json",
     "navigation": {},
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
     "original": {
@@ -28,7 +28,7 @@
     "name": "cultuurenjeugdinfrastructuur-voc",
     "filename": "config/cultuurenjeugdinfrastructuur-voc.json",
     "navigation": {},
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
     "original": {
@@ -47,7 +47,7 @@
     "urlref": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur",
     "seealso": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -65,7 +65,7 @@
     "urlref": "/ns/cultuur-en-jeugdinfrastructuur",
     "seealso": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/ns/cultuur-en-jeugdinfrastructuur",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -89,7 +89,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/toolchain4",
@@ -102,6 +102,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   }
 ]

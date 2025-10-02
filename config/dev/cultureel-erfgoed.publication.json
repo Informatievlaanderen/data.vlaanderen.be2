@@ -3,7 +3,7 @@
     "urlref": "/ns/cultureel-erfgoed",
     "seealso": "/doc/vocabularium/cultureel-erfgoed/erkendestandaard/2021-04-22",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/ns/cultureel-erfgoed",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -18,7 +18,7 @@
     "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-object",
     "seealso": "/doc/applicatieprofiel/cultureel-erfgoed-object/erkendestandaard/2021-04-22",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/cultureel-erfgoed-object",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -33,7 +33,7 @@
     "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-event",
     "seealso": "/doc/applicatieprofiel/cultureel-erfgoed-event/erkendestandaard/2021-04-22",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/cultureel-erfgoed-event",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -54,7 +54,7 @@
       "prev": "/doc/vocabularium/cultureel-erfgoed/kandidaatstandaard/2020-07-17"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/vocabularium/cultureel-erfgoed/erkendestandaard/2021-04-22",
     "original": {
       "urlref": "/doc/vocabularium/cultureel-erfgoed/erkendestandaard/2021-04-22",
@@ -79,7 +79,7 @@
       "prev": "/doc/applicatieprofiel/cultureel-erfgoed-object/kandidaatstandaard/2020-07-17"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/cultureel-erfgoed-object/erkendestandaard/2021-04-22",
     "original": {
       "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-object/erkendestandaard/2021-04-22",
@@ -104,7 +104,7 @@
       "prev": "/doc/applicatieprofiel/cultureel-erfgoed-event/kandidaatstandaard/2020-09-30"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/cultureel-erfgoed-event/erkendestandaard/2021-04-22",
     "original": {
       "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-event/erkendestandaard/2021-04-22",
@@ -130,7 +130,7 @@
       "next": "/doc/applicatieprofiel/cultureel-erfgoed-event/erkendestandaard/2021-04-22"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/cultureel-erfgoed-event/kandidaatstandaard/2020-09-30",
     "original": {
       "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-event/kandidaatstandaard/2020-09-30",
@@ -157,7 +157,7 @@
       "next": "/doc/vocabularium/cultureel-erfgoed/erkendestandaard/2021-04-22"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/vocabularium/cultureel-erfgoed/kandidaatstandaard/2020-07-17",
     "original": {
       "urlref": "/doc/vocabularium/cultureel-erfgoed/kandidaatstandaard/2020-07-17",
@@ -184,7 +184,7 @@
       "next": "/doc/applicatieprofiel/cultureel-erfgoed-object/erkendestandaard/2021-04-22"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/cultureel-erfgoed-object/kandidaatstandaard/2020-07-17",
     "original": {
       "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-object/kandidaatstandaard/2020-07-17",
@@ -211,7 +211,7 @@
       "next": "/doc/applicatieprofiel/cultureel-erfgoed-event/kandidaatstandaard/2020-09-30"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/cultureel-erfgoed-event/kandidaatstandaard/2020-07-17",
     "original": {
       "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-event/kandidaatstandaard/2020-07-17",
@@ -237,7 +237,7 @@
       "next": "/doc/vocabularium/cultureel-erfgoed/kandidaatstandaard/2020-07-17"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/vocabularium/cultureel-erfgoed/ontwerpstandaard/2020-07-02",
     "original": {
       "urlref": "/doc/vocabularium/cultureel-erfgoed/ontwerpstandaard/2020-07-02",
@@ -263,7 +263,7 @@
       "next": "/doc/applicatieprofiel/cultureel-erfgoed-object/kandidaatstandaard/2020-07-17"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/cultureel-erfgoed-object/ontwerpstandaard/2020-07-02",
     "original": {
       "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-object/ontwerpstandaard/2020-07-02",
@@ -290,7 +290,7 @@
       "next": "/doc/applicatieprofiel/cultureel-erfgoed-event/kandidaatstandaard/2020-07-17"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/cultureel-erfgoed-event/ontwerpstandaard/2020-07-02",
     "original": {
       "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-event/ontwerpstandaard/2020-07-02",
@@ -317,7 +317,7 @@
       "next": "/doc/applicatieprofiel/cultureel-erfgoed-object/ontwerpstandaard/2020-07-02"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/cultureel-erfgoed-object/ontwerpstandaard/2020-05-28",
     "original": {
       "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-object/ontwerpstandaard/2020-05-28",
@@ -343,7 +343,7 @@
       "next": "/doc/applicatieprofiel/cultureel-erfgoed-event/ontwerpstandaard/2020-07-02"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/cultureel-erfgoed-event/ontwerpstandaard/2020-05-28",
     "original": {
       "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-event/ontwerpstandaard/2020-05-28",
@@ -368,7 +368,7 @@
       "next": "/doc/applicatieprofiel/cultureel-erfgoed-object/ontwerpstandaard/2020-05-28"
     },
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/cultureel-erfgoed-object/ontwerpstandaard/2020-05-05",
     "original": {
       "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-object/ontwerpstandaard/2020-05-05",
@@ -393,7 +393,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/cultureel-erfgoed/erkendestandaard/2021-04-22"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:56"
   },
   {
     "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-object/ontwerpstandaard/toolchain4",
@@ -405,7 +405,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/cultureel-erfgoed-object/erkendestandaard/2021-04-22"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:56"
   },
   {
     "urlref": "/doc/applicatieprofiel/cultureel-erfgoed-event/ontwerpstandaard/toolchain4",
@@ -417,6 +417,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/cultureel-erfgoed-event/erkendestandaard/2021-04-22"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:56"
   }
 ]

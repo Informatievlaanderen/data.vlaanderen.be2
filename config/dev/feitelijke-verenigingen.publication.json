@@ -5,7 +5,7 @@
     "branchtag": "production",
     "name": "Feitelijke-Verenigingen-ap",
     "filename": "config/Feitelijke-Verenigingen-ap.json",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "navigation": {
       "next": "/doc/applicatieprofiel/FeitelijkeVerenigingen/kandidaatstandaard/2021-06-22"
     },
@@ -29,7 +29,7 @@
     "branchtag": "production",
     "name": "Feitelijke-Verenigingen-ap",
     "filename": "config/Feitelijke-Verenigingen-ap.json",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "navigation": {
       "prev": "/doc/applicatieprofiel/FeitelijkeVerenigingen/ontwerpstandaard/2021-06-22"
     },
@@ -51,7 +51,7 @@
     "urlref": "/doc/applicatieprofiel/FeitelijkeVerenigingen/",
     "seealso": "/doc/applicatieprofiel/FeitelijkeVerenigingen/kandidaatstandaard/2021-06-22",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/doc/applicatieprofiel/FeitelijkeVerenigingen/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -68,7 +68,7 @@
     "branchtag": "production",
     "name": "Feitelijke-Verenigingen-voc",
     "filename": "config/Feitelijke-Verenigingen-voc.json",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "navigation": {
       "next": "/doc/vocabularium/FeitelijkeVerenigingen/kandidaatstandaard/2021-06-22"
     },
@@ -92,7 +92,7 @@
     "branchtag": "production",
     "name": "FeitelijkeVerenigingen",
     "filename": "config/Feitelijke-Verenigingen-voc.json",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "navigation": {
       "prev": "/doc/vocabularium/FeitelijkeVerenigingen/ontwerpstandaard/2021-06-22"
     },
@@ -114,7 +114,7 @@
     "urlref": "/ns/FeitelijkeVerenigingen/",
     "seealso": "/doc/vocabularium/FeitelijkeVerenigingen/kandidaatstandaard/2021-06-22",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/ns/FeitelijkeVerenigingen/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -135,7 +135,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/FeitelijkeVerenigingen/kandidaatstandaard/2021-06-22"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/FeitelijkeVerenigingen/ontwerpstandaard/toolchain4",
@@ -147,6 +147,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/FeitelijkeVerenigingen/kandidaatstandaard/2021-06-22"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   }
 ]

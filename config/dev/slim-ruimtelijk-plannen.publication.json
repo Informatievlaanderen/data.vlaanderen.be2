@@ -9,7 +9,7 @@
       "next": "/doc/applicatieprofiel/ruimtelijke-indicatoren/kandidaatstandaard/2024-03-21"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/ruimtelijke-indicatoren/ontwerpstandaard/2024-01-22",
     "original": {
@@ -36,7 +36,7 @@
       "next": "/doc/applicatieprofiel/ruimtelijke-indicatoren/erkendestandaard/2024-12-05"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/ruimtelijke-indicatoren/kandidaatstandaard/2024-03-21",
     "original": {
@@ -63,7 +63,7 @@
       "prev": "/doc/applicatieprofiel/ruimtelijke-indicatoren/kandidaatstandaard/2024-03-21"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/ruimtelijke-indicatoren/erkendestandaard/2024-12-05",
     "original": {
@@ -84,7 +84,7 @@
     "seealso": "/doc/applicatieprofiel/ruimtelijke-indicatoren/erkendestandaard/2024-12-05",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "directory": "/doc/applicatieprofiel/ruimtelijke-indicatoren",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -106,7 +106,7 @@
       "next": "/doc/vocabularium/ruimtelijke-indicatoren/kandidaatstandaard/2024-03-21"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/vocabularium/ruimtelijke-indicatoren/ontwerpstandaard/2024-01-22",
     "original": {
@@ -132,7 +132,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/ruimtelijke-indicatoren/ontwerpstandaard/2024-01-22"
     },
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/vocabularium/ruimtelijke-indicatoren/kandidaatstandaard/2024-03-21",
     "original": {
@@ -158,7 +158,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/ruimtelijke-indicatoren/kandidaatstandaard/2024-03-21"
     },
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/vocabularium/ruimtelijke-indicatoren/erkendestandaard/2024-12-05",
     "original": {
@@ -179,7 +179,7 @@
     "seealso": "/doc/vocabularium/ruimtelijke-indicatoren/erkendestandaard/2024-12-05",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "directory": "/ns/ruimtelijke-indicatoren",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -201,7 +201,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/ruimtelijke-indicatoren/erkendestandaard/2024-12-05"
     },
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/doc/vocabularium/ruimtelijke-indicatoren/ontwerpstandaard/toolchain4",
@@ -213,6 +213,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/ruimtelijke-indicatoren/erkendestandaard/2024-12-05"
     },
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   }
 ]

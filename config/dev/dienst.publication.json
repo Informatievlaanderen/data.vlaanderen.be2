@@ -19,7 +19,7 @@
       },
       "type": "raw"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/applicatieprofiel/dienst-transactiemodel/ontwerpdocument/2019-02-07",
@@ -42,7 +42,7 @@
         "prev": "/doc/applicatieprofiel/dienst-transactiemodel/standaard/2019-02-07"
       }
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/applicatieprofiel/dienst-transactiemodel/",
@@ -56,7 +56,7 @@
       "seealso": "/doc/applicatieprofiel/dienst-transactiemodel/standaard/2019-02-07",
       "type": "ap"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/applicatieprofiel/dienstencataloog/kandidaatstandaard/niet-bepaald",
@@ -78,7 +78,7 @@
       },
       "type": "raw"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/applicatieprofiel/dienstencataloog/ontwerpdocument/niet-bepaald",
@@ -101,7 +101,7 @@
         "prev": "/doc/applicatieprofiel/dienstencataloog/kandidaatstandaard"
       }
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/applicatieprofiel/dienstencataloog/",
@@ -115,7 +115,7 @@
       "seealso": "/doc/applicatieprofiel/dienstencataloog/kandidaatstandaard/niet-bepaald",
       "type": "ap"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/dienst/standaard/2018-07-03",
@@ -137,7 +137,7 @@
       },
       "type": "raw"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/dienst/ontwerpdocument/2020-01-06",
@@ -160,7 +160,7 @@
         "prev": "/doc/vocabularium/dienst/standaard"
       }
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/dienst",
@@ -174,7 +174,7 @@
       "seealso": "/doc/vocabularium/dienst/standaard/2018-07-03",
       "type": "voc"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/ns/dienst",
@@ -188,7 +188,7 @@
       "seealso": "/doc/vocabularium/dienst/standaard/2018-07-03",
       "type": "voc"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/transactie/standaard/2019-02-07",
@@ -210,7 +210,7 @@
       },
       "type": "raw"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/transactie/ontwerpdocument/2020-01-06",
@@ -233,7 +233,7 @@
         "prev": "/doc/vocabularium/transactie/standaard/2019-02-07"
       }
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/transactie",
@@ -247,7 +247,7 @@
       "seealso": "/doc/vocabularium/transactie/standaard/2019-02-07",
       "type": "voc"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/ns/transactie",
@@ -261,7 +261,7 @@
       "seealso": "/doc/vocabularium/transactie/standaard/2019-02-07",
       "type": "voc"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/applicatieprofiel/dienst-transactiemodel/ontwerpstandaard/toolchain4",
@@ -273,7 +273,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/dienst-transactiemodel/standaard/2019-02-07"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/applicatieprofiel/dienstencataloog/ontwerpstandaard/toolchain4",
@@ -285,7 +285,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/dienstencataloog/kandidaatstandaard/niet-bepaald"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/dienst/ontwerpstandaard/toolchain4",
@@ -297,7 +297,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/dienst/standaard/2018-07-03"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/transactie/ontwerpstandaard/toolchain4",
@@ -309,6 +309,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/transactie/standaard/2019-02-07"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   }
 ]

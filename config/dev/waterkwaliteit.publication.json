@@ -9,7 +9,7 @@
       "next": "/doc/applicatieprofiel/waterkwaliteit/kandidaatstandaard/2022-10-17"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/waterkwaliteit/ontwerpstandaard/2022-05-24",
     "original": {
@@ -35,7 +35,7 @@
       "prev": "/doc/applicatieprofiel/waterkwaliteit/ontwerpstandaard/2022-05-24"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/waterkwaliteit/kandidaatstandaard/2022-10-17",
     "original": {
@@ -56,7 +56,7 @@
     "seealso": "/doc/applicatieprofiel/waterkwaliteit/kandidaatstandaard/2023-06-01",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "directory": "/doc/applicatieprofiel/waterkwaliteit",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -77,7 +77,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/waterkwaliteit/kandidaatstandaard/2022-10-17"
     },
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/waterkwaliteit/kandidaatstandaard/2023-06-01",
     "original": {
@@ -102,7 +102,7 @@
       "next": "/doc/vocabularium/waterkwaliteit/kandidaatstandaard/2022-10-17"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/vocabularium/waterkwaliteit/ontwerpstandaard/2022-05-24",
     "original": {
@@ -128,7 +128,7 @@
       "prev": "/doc/vocabularium/waterkwaliteit/ontwerpstandaard/2022-05-24"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/vocabularium/waterkwaliteit/kandidaatstandaard/2022-10-17",
     "original": {
@@ -149,7 +149,7 @@
     "seealso": "/doc/vocabularium/waterkwaliteit/kandidaatstandaard/2023-06-01",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "directory": "/ns/waterkwaliteit",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -170,7 +170,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/waterkwaliteit/kandidaatstandaard/2022-10-17"
     },
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/vocabularium/waterkwaliteit/kandidaatstandaard/2023-06-01",
     "original": {
@@ -195,7 +195,7 @@
       "next": "/doc/applicatieprofiel/statistiek/kandidaatstandaard/2022-10-17"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/statistiek/ontwerpstandaard/2022-03-15",
     "original": {
@@ -221,7 +221,7 @@
       "prev": "/doc/applicatieprofiel/statistiek/ontwerpstandaard/2022-03-15"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/statistiek/kandidaatstandaard/2022-10-17",
     "original": {
@@ -242,7 +242,7 @@
     "seealso": "/doc/applicatieprofiel/statistiek/kandidaatstandaard/2023-06-01",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "directory": "/doc/applicatieprofiel/statistiek",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -264,7 +264,7 @@
       "prev": "/doc/applicatieprofiel/statistiek/ontwerpstandaard/2022-10-17"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/statistiek/kandidaatstandaard/2023-06-01",
     "original": {
@@ -290,7 +290,7 @@
       "next": "/doc/vocabularium/statistiek/kandidaatstandaard/2022-10-17"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/vocabularium/statistiek/ontwerpstandaard/2022-03-15",
     "original": {
@@ -316,7 +316,7 @@
       "prev": "/doc/vocabularium/statistiek/ontwerpstandaard/2022-03-15"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/vocabularium/statistiek/kandidaatstandaard/2022-10-17",
     "original": {
@@ -337,7 +337,7 @@
     "seealso": "/doc/vocabularium/statistiek/kandidaatstandaard/2023-06-01",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "directory": "/ns/statistiek",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -359,7 +359,7 @@
       "prev": "/doc/vocabularium/statistiek/ontwerpstandaard/2022-10-17"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/vocabularium/statistiek/kandidaatstandaard/2023-06-01",
     "original": {
@@ -385,7 +385,7 @@
       "next": "/doc/applicatieprofiel/datakwaliteit/kandidaatstandaard/2022-10-17"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/datakwaliteit/ontwerpstandaard/2022-03-15",
     "original": {
@@ -411,7 +411,7 @@
       "prev": "/doc/applicatieprofiel/datakwaliteit/ontwerpstandaard/2022-03-15"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/datakwaliteit/kandidaatstandaard/2022-10-17",
     "original": {
@@ -432,7 +432,7 @@
     "seealso": "/doc/applicatieprofiel/datakwaliteit/kandidaatstandaard/2023-06-01",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "directory": "/doc/applicatieprofiel/datakwaliteit",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -454,7 +454,7 @@
       "prev": "/doc/applicatieprofiel/datakwaliteit/ontwerpstandaard/2022-10-17"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/datakwaliteit/kandidaatstandaard/2023-06-01",
     "original": {
@@ -480,7 +480,7 @@
       "next": "/doc/vocabularium/datakwaliteit/kandidaatstandaard/2022-10-17"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/vocabularium/datakwaliteit/ontwerpstandaard/2022-03-15",
     "original": {
@@ -506,7 +506,7 @@
       "prev": "/doc/vocabularium/datakwaliteit/ontwerpstandaard/2022-03-15"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/vocabularium/datakwaliteit/kandidaatstandaard/2022-10-17",
     "original": {
@@ -532,7 +532,7 @@
       "prev": "/doc/vocabularium/datakwaliteit/ontwerpstandaard/2022-10-17"
     },
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "type": "raw",
     "directory": "/doc/vocabularium/datakwaliteit/kandidaatstandaard/2023-06-01",
     "original": {
@@ -553,7 +553,7 @@
     "seealso": "/doc/vocabularium/datakwaliteit/kandidaatstandaard/2023-06-01",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "directory": "/ns/datakwaliteit",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -575,7 +575,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/waterkwaliteit/kandidaatstandaard/2023-06-01"
     },
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/doc/vocabularium/waterkwaliteit/ontwerpstandaard/toolchain4",
@@ -587,7 +587,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/waterkwaliteit/kandidaatstandaard/2023-06-01"
     },
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/doc/applicatieprofiel/statistiek/ontwerpstandaard/toolchain4",
@@ -599,7 +599,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/statistiek/kandidaatstandaard/2023-06-01"
     },
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/doc/vocabularium/statistiek/ontwerpstandaard/toolchain4",
@@ -611,7 +611,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/statistiek/kandidaatstandaard/2023-06-01"
     },
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/doc/applicatieprofiel/datakwaliteit/ontwerpstandaard/toolchain4",
@@ -623,7 +623,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/datakwaliteit/kandidaatstandaard/2023-06-01"
     },
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/doc/vocabularium/datakwaliteit/ontwerpstandaard/toolchain4",
@@ -635,6 +635,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/datakwaliteit/kandidaatstandaard/2023-06-01"
     },
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   }
 ]

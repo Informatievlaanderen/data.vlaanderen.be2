@@ -8,7 +8,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluitvorming/kandidaatstandaard/2020-10-01"
     },
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04",
     "original": {
@@ -35,7 +35,7 @@
       "prev": "/doc/applicatieprofiel/besluitvorming/kandidaatstandaard/2020-03-31",
       "next": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04"
     },
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/besluitvorming/kandidaatstandaard/2020-10-01",
     "original": {
@@ -63,7 +63,7 @@
       "prev": "/doc/applicatieprofiel/besluitvorming/ontwerpstandaard/2020-03-17",
       "next": "/doc/applicatieprofiel/besluitvorming/kandidaatstandaard/2020-10-01"
     },
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/besluitvorming/kandidaatstandaard/2020-03-31",
     "original": {
@@ -91,7 +91,7 @@
       "prev": "/doc/applicatieprofiel/besluitvorming/ontwerpstandaard/2020-02-26",
       "next": "/doc/applicatieprofiel/besluitvorming/kandidaatstandaard/2020-03-31"
     },
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/besluitvorming/ontwerpstandaard/2020-03-17",
     "original": {
@@ -118,7 +118,7 @@
     "navigation": {
       "next": "/doc/applicatieprofiel/besluitvorming/ontwerpstandaard/2020-03-17"
     },
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/besluitvorming/ontwerpstandaard/2020-02-26",
     "original": {
@@ -141,7 +141,7 @@
     "branchtag": "production",
     "name": "besluit-subsidie-ap",
     "filename": "config/besluit-subsidie-ap.json",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "navigation": {},
     "type": "raw",
     "directory": "/doc/applicatieprofiel/besluit-subsidie/ontwerpstandaard/2019-12-02",
@@ -172,13 +172,13 @@
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:56"
   },
   {
     "urlref": "/doc/applicatieprofiel/besluitvorming/",
     "seealso": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/applicatieprofiel/besluitvorming/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -201,7 +201,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/besluitvorming/kandidaatstandaard/2020-10-01"
     },
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "type": "raw",
     "directory": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04",
     "original": {
@@ -228,7 +228,7 @@
       "prev": "/doc/vocabularium/besluitvorming/kandidaatstandaard/2020-03-31",
       "next": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04"
     },
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "type": "raw",
     "directory": "/doc/vocabularium/besluitvorming/kandidaatstandaard/2020-10-01",
     "original": {
@@ -256,7 +256,7 @@
       "prev": "/doc/vocabularium/besluitvorming/ontwerpstandaard/2020-03-17",
       "next": "/doc/vocabularium/besluitvorming/kandidaatstandaard/2020-10-01"
     },
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "type": "raw",
     "directory": "/doc/vocabularium/besluitvorming/kandidaatstandaard/2020-03-31",
     "original": {
@@ -284,7 +284,7 @@
       "prev": "/doc/vocabularium/besluitvorming/ontwerpstandaard/2020-02-26",
       "next": "/doc/vocabularium/besluitvorming/kandidaatstandaard/2020-03-31"
     },
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "type": "raw",
     "directory": "/doc/vocabularium/besluitvorming/ontwerpstandaard/2020-03-17",
     "original": {
@@ -311,7 +311,7 @@
     "navigation": {
       "next": "/doc/vocabularium/besluitvorming/ontwerpstandaard/2020-03-17"
     },
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "type": "raw",
     "directory": "/doc/vocabularium/besluitvorming/ontwerpstandaard/2020-02-26",
     "original": {
@@ -333,7 +333,7 @@
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "besluit",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "filename": "config/besluit.json",
     "navigation": {
       "next": "/doc/vocabularium/besluit/ontwerpdocument/2020-01-06"
@@ -362,7 +362,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/besluit/standaard/2018-07-20"
     },
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "type": "raw",
     "directory": "/doc/vocabularium/besluit/ontwerpdocument/2020-01-06",
     "original": {
@@ -383,13 +383,13 @@
     "urlref": "/ns/besluitvorming",
     "seealso": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04",
     "type": "voc",
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:56"
   },
   {
     "urlref": "/doc/vocabularium/besluit",
     "seealso": "/doc/vocabularium/besluit/standaard/2018-07-20",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:56",
     "directory": "/doc/vocabularium/besluit",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -407,7 +407,7 @@
     "urlref": "/ns/besluit",
     "seealso": "/doc/vocabularium/besluit/standaard/2018-07-20",
     "type": "voc",
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:56"
   },
   {
     "urlref": "/doc/applicatieprofiel/besluitvorming/ontwerpstandaard/toolchain4",
@@ -419,7 +419,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:56"
   },
   {
     "urlref": "/doc/vocabularium/besluitvorming/ontwerpstandaard/toolchain4",
@@ -431,6 +431,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:56"
   }
 ]

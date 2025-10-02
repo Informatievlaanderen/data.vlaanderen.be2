@@ -9,7 +9,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/besluit-publicatie/standaard/2018-07-20",
-    "dummy": "2025-10-01 18:59:25",
+    "dummy": "2025-10-02 20:26:56",
     "original": {
       "urlref": "/doc/applicatieprofiel/besluit-publicatie/standaard/2018-07-20",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -34,7 +34,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/besluit-publicatie/ontwerpdocument/2020-01-06",
-    "dummy": "2025-10-01 18:59:25",
+    "dummy": "2025-10-02 20:26:56",
     "original": {
       "urlref": "/doc/applicatieprofiel/besluit-publicatie/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -64,7 +64,7 @@
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
     },
-    "dummy": "2025-10-01 18:59:25"
+    "dummy": "2025-10-02 20:26:56"
   },
   {
     "comment": "This is a dummy publication object to trigger the publication of the applicatieprofiel. What is the repository of this object?",
@@ -78,6 +78,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluit-publicatie/standaard/2018-07-20"
     },
-    "dummy": "2025-10-01 18:59:25"
+    "dummy": "2025-10-02 20:26:56"
   }
 ]

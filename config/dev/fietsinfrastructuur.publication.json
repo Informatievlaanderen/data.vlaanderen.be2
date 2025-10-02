@@ -6,7 +6,7 @@
     "name": "fietsinfrastructuur-ap",
     "filename": "config/fietsinfrastructuur-ap.json",
     "navigation": {},
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
     "original": {
@@ -23,7 +23,7 @@
     "urlref": "/doc/applicatieprofiel/fietsinfrastructuur",
     "seealso": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/doc/applicatieprofiel/fietsinfrastructuur",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -41,7 +41,7 @@
     "name": "fiets",
     "filename": "config/fietsinfrastructuur-voc.json",
     "navigation": {},
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
     "original": {
@@ -58,7 +58,7 @@
     "urlref": "/ns/fiets",
     "seealso": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
     "type": "raw",
-    "dummy": "2025-10-01 18:59:26",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/ns/fiets",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -79,7 +79,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2021-12-17"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/fietsinfrastructuur/ontwerpstandaard/toolchain4",
@@ -91,6 +91,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2021-12-17"
     },
-    "dummy": "2025-10-01 18:59:26"
+    "dummy": "2025-10-02 20:26:57"
   }
 ]

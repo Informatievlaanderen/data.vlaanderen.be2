@@ -6,7 +6,7 @@
     "name": "kwaliteitWegenEnWegmarkeringen-impl",
     "filename": "config/kwaliteitWegenEnWegmarkeringen-impl.json",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:27",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/2023-05-05",
     "original": {
@@ -26,7 +26,7 @@
     "name": "kwaliteitWegenEnWegmarkeringen-impl",
     "filename": "config/kwaliteitWegenEnWegmarkeringen-impl.json",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:27",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
     "original": {
@@ -44,7 +44,7 @@
     "seealso": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:27",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -63,7 +63,7 @@
     "name": "kwaliteit-wegen-en-wegmarkeringen",
     "filename": "config/kwaliteitWegenEnWegmarkeringen-voc.json",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:27",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/2023-05-05",
     "original": {
@@ -83,7 +83,7 @@
     "name": "kwaliteit-wegen-en-wegmarkeringen",
     "filename": "config/kwaliteitWegenEnWegmarkeringen-voc.json",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:27",
+    "dummy": "2025-10-02 20:26:57",
     "type": "raw",
     "directory": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
     "original": {
@@ -101,7 +101,7 @@
     "seealso": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-01 18:59:27",
+    "dummy": "2025-10-02 20:26:57",
     "directory": "/ns/kwaliteit-wegen-en-wegmarkeringen",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -123,7 +123,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05"
     },
-    "dummy": "2025-10-01 18:59:27"
+    "dummy": "2025-10-02 20:26:57"
   },
   {
     "urlref": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/toolchain4",
@@ -135,6 +135,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05"
     },
-    "dummy": "2025-10-01 18:59:27"
+    "dummy": "2025-10-02 20:26:57"
   }
 ]

@@ -9,7 +9,7 @@
     },
     "type": "raw",
     "directory": "/doc/vocabularium/weg/standaard/2018-11-27",
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "original": {
       "urlref": "/doc/vocabularium/weg/standaard/2018-11-27",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -34,7 +34,7 @@
     },
     "type": "raw",
     "directory": "/doc/vocabularium/weg/ontwerpdocument/2020-01-06",
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "original": {
       "urlref": "/doc/vocabularium/weg/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -56,7 +56,7 @@
     "directory": "/doc/vocabularium/weg",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "original": {
       "urlref": "/doc/vocabularium/weg",
       "seealso": "/doc/vocabularium/weg/standaard/2018-11-27",
@@ -74,7 +74,7 @@
     "directory": "/ns/weg",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "original": {
       "urlref": "/ns/weg",
       "seealso": "/doc/vocabularium/weg/standaard/2018-11-27",
@@ -95,7 +95,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/weg/standaard/2018-11-27"
     },
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04",
@@ -107,7 +107,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04",
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "original": {
       "urlref": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -132,7 +132,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/wegenregister/ontwerpdocument/2020-01-06",
-    "dummy": "2025-10-01 18:59:28",
+    "dummy": "2025-10-02 20:26:59",
     "original": {
       "urlref": "/doc/applicatieprofiel/wegenregister/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -162,7 +162,7 @@
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
     },
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/doc/applicatieprofiel/wegenregister/ontwerpstandaard/toolchain4",
@@ -174,6 +174,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/wegenregister/kandidaatstandaard/2018-10-04"
     },
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   }
 ]

@@ -6,13 +6,13 @@
     "branchtag": "ontwerp_2025-06-23_v0.0.1",
     "filename": "config/zaalreservatie-ap.json",
     "navigation": {},
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/doc/applicatieprofiel/zaalreservatie",
     "seealso": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
     "type": "ap",
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
@@ -21,12 +21,12 @@
     "name": "zaalreservatie",
     "filename": "config/zaalreservatie-voc.json",
     "navigation": {},
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   },
   {
     "urlref": "/ns/zaalreservatie",
     "seealso": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
     "type": "voc",
-    "dummy": "2025-10-01 18:59:28"
+    "dummy": "2025-10-02 20:26:59"
   }
 ]
