@@ -74,7 +74,7 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "03-10-2025 18:16:00"
+    "dummy": "03-10-2025 18:28:00"
   },
   {
     "urlref": "/doc/applicatieprofiel/organisatie-basis/",
@@ -121,7 +121,7 @@
     "branchtag": "master",
     "name": "organisatie",
     "filename": "config/organisatie-voc.json",
-    "dummy": "03-10-2025 18:16:00",
+    "dummy": "03-10-2025 18:28:00",
     "navigation": {
       "prev": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03"
     }
