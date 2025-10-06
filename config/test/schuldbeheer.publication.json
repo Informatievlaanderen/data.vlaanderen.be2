@@ -97,12 +97,12 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "005"
+    "dummy": "007"
   },
   {
     "urlref": "/doc/applicatieprofiel/schuldbeheer",
     "seealso": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
     "type": "ap",
-    "dummy": "006"
+    "dummy": "007"
   }
 ]
