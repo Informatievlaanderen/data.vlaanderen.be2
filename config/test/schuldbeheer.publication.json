@@ -88,7 +88,7 @@
     "urlref": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
     "branchtag": "main",
-    "name": "schuldbeheer",
+    "name": "schuldbeheer-ap",
     "filename": "config/eap-mapping.json",
     "directory": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
     "navigation": {
@@ -97,7 +97,7 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "011"
+    "dummy": "010"
   },
   {
     "urlref": "/doc/applicatieprofiel/schuldbeheer",
