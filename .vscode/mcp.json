@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"OSLO-KG": {
+			"url": "https://data.dev-vlaanderen.be/AI/mcp",
+			"type": "http"
+		}
+	},
+	"inputs": []
+}
