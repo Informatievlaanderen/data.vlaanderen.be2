@@ -3,7 +3,7 @@
     "urlref": "/doc/applicatieprofiel/schuldbeheer",
     "seealso": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
     "type": "ap",
-    "dummy": "02"
+    "dummy": "004"
   },
   {
     "urlref": "/ns/schuldbeheer",
@@ -93,7 +93,7 @@
   {
     "urlref": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
-    "branchtag": "erkende-standaard-20250515-003",
+    "branchtag": "erkende-standaard-20250515-004",
     "name": "schuldbeheer-ap",
     "filename": "config/eap-mapping.json",
     "directory": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
