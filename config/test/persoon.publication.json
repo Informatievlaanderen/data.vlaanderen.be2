@@ -165,15 +165,15 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "03-10-2025 18:23:00"
+    "dummy": "06-10-2025 09:46:00"
   },
   {
-    "urlref": "/doc/vocabularium/persoon/ontwerpdocument/2025",
+    "urlref": "/ns/persoon/ontwerpdocument/2025",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon/",
     "branchtag": "master",
     "name": "persoon",
     "filename": "config/persoon-voc.json",
-    "dummy": "03-10-2025 18:23:00",
+    "dummy": "06-10-2025 09:46:00",
     "navigation": {
       "prev": "/doc/vocabularium/persoon/erkendestandaard/2018-07-03"
     }
