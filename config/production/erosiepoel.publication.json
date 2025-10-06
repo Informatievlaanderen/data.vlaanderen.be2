@@ -31,7 +31,7 @@
     "urlref": "/doc/applicatieprofiel/erosiepoel/erkendestandaard/2025-07-23",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-modderstromen",
     "branchtag": "v1.0.8",
-    "name": "erosiepoel-ap",
+    "name": "erosiepoel",
     "filename": "config/erosiepoel-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/erosiepoel/kandidaatstandaard/2025-05-07"
