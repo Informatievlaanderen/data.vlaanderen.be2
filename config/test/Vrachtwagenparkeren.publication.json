@@ -5,7 +5,6 @@
     "branchtag": "main",
     "name": "vrachtwagenparkeren",
     "filename": "config/vrachtwagenparkeren-ap.json",
-    "disabled": true,
     "dummy": "032"
   },
   {
@@ -13,21 +12,18 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-vrachtwagenParkeren",
     "branchtag": "main",
     "name": "vrachtwagenparkeren",
-    "disabled": true,
     "filename": "config/vrachtwagenparkeren-voc.json",
     "dummy": "032"
   },
   {
     "urlref": "/doc/applicatieprofiel/vrachtwagenparkeren",
     "seealso": "/doc/applicatieprofiel/vrachtwagenparkeren/2023-11-30",
-    "disabled": true,
     "type": "ap",
     "dummy": "032"
   },
   {
     "urlref": "/ns/vrachtwagenparkeren",
     "seealso": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/2023-11-30",
-    "disabled": true,
     "type": "voc",
     "dummy": "032"
   }
