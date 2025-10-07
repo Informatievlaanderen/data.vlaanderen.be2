@@ -2,29 +2,29 @@
   {
     "urlref": "/doc/applicatieprofiel/vrachtwagenparkeren",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-vrachtwagenParkeren",
-    "branchtag": "2023-11-30_003",
+    "branchtag": "main",
     "name": "vrachtwagenParkeren",
     "filename": "config/vrachtwagenParkeren-ap.json",
-    "dummy": "031"
+    "dummy": "032"
   },
   {
     "urlref": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/2023-11-30",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-vrachtwagenParkeren",
-    "branchtag": "2023-11-30_003",
+    "branchtag": "main",
     "name": "vrachtwagenparkeren",
     "filename": "config/Vrachtwagenparkeren-voc.json",
-    "dummy": "031"
+    "dummy": "032"
   },
   {
     "urlref": "/doc/applicatieprofiel/vrachtwagenparkeren",
     "seealso": "/doc/applicatieprofiel/vrachtwagenparkeren/2023-11-30",
     "type": "ap",
-    "dummy": "031"
+    "dummy": "032"
   },
   {
     "urlref": "/ns/vrachtwagenparkeren",
     "seealso": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/2023-11-30",
     "type": "voc",
-    "dummy": "031"
+    "dummy": "032"
   }
 ]
