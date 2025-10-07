@@ -3,8 +3,8 @@
     "urlref": "/doc/applicatieprofiel/vrachtwagenparkeren",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-vrachtwagenParkeren",
     "branchtag": "main",
-    "name": "vrachtwagenParkeren",
-    "filename": "config/vrachtwagenParkeren-ap.json",
+    "name": "vrachtwagenparkeren",
+    "filename": "config/vrachtwagenparkeren-ap.json",
     "disabled": true,
     "dummy": "032"
   },
@@ -13,7 +13,8 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-vrachtwagenParkeren",
     "branchtag": "main",
     "name": "vrachtwagenparkeren",
-    "filename": "config/Vrachtwagenparkeren-voc.json",
+    "disabled": true,
+    "filename": "config/vrachtwagenparkeren-voc.json",
     "dummy": "032"
   },
   {
