@@ -5,7 +5,7 @@
     "branchtag": "main",
     "name": "vrachtwagenparkeren",
     "filename": "config/vrachtwagenparkeren-ap.json",
-    "dummy": "033"
+    "dummy": "034"
   },
   {
     "urlref": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/2023-11-30",
@@ -13,18 +13,18 @@
     "branchtag": "main",
     "name": "vrachtwagenparkeren",
     "filename": "config/vrachtwagenparkeren-voc.json",
-    "dummy": "033"
+    "dummy": "034"
   },
   {
     "urlref": "/doc/applicatieprofiel/vrachtwagenparkeren",
     "seealso": "/doc/applicatieprofiel/vrachtwagenparkeren/ontwerpstandaard/2023-11-30",
     "type": "ap",
-    "dummy": "033"
+    "dummy": "034"
   },
   {
     "urlref": "/ns/vrachtwagenparkeren",
     "seealso": "/doc/vocabularium/vrachtwagenparkeren/ontwerpstandaard/2023-11-30",
     "type": "voc",
-    "dummy": "033"
+    "dummy": "034"
   }
 ]
