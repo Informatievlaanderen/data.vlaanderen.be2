@@ -50,7 +50,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
     "branchtag": "main",
     "name": "schuldbeheer",
-    "filename": "config/eap-mapping.json",
+    "filename": "config/voc-config.json",
     "directory": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03",
     "navigation": {
       "prev": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2024-09-05"
@@ -62,7 +62,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
     "branchtag": "main",
     "name": "schuldbeheer-ap",
-    "filename": "config/eap-mapping.json",
+    "filename": "config/ap-config.json",
     "directory": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
     "navigation": {
       "prev": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05"
@@ -75,9 +75,9 @@
   {
     "urlref": "/doc/vocabularium/schuldbeheer/erkendestandaard/2025-05-15",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
-    "branchtag": "erkende-standaard-20250515-003",
+    "branchtag": "main",
     "name": "schuldbeheer",
-    "filename": "config/eap-mapping.json",
+    "filename": "config/voc-config.json",
     "directory": "/doc/vocabularium/schuldbeheer/erkendestandaard/2025-05-15",
     "navigation": {
       "prev": "/doc/vocabularium/schuldbeheer/kandidaatstandaard/2025-03-03"
@@ -89,7 +89,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-schuldbeheer",
     "branchtag": "main",
     "name": "schuldbeheer-ap",
-    "filename": "config/eap-mapping.json",
+    "filename": "config/ap-config.json",
     "directory": "/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15",
     "navigation": {
       "prev": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
