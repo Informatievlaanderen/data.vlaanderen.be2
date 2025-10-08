@@ -2,7 +2,7 @@
   {
     "urlref": "/doc/applicatieprofiel/zaalreservatie/kandidaatstandaard/2025-07-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
-    "branchtag": "kandidaat_2025-07-01_v0.0.2",
+    "branchtag": "kandidaat_2025-07-01_v0.0.3",
     "name": "zaalreservatie",
     "filename": "config/zaalreservatie-ap.json",
     "navigation": {
@@ -13,7 +13,7 @@
   {
     "urlref": "/doc/vocabularium/zaalreservatie/kandidaatstandaard/2025-07-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
-    "branchtag": "kandidaat_2025-07-01_v0.0.2",
+    "branchtag": "kandidaat_2025-07-01_v0.0.3",
     "name": "zaalreservatie",
     "filename": "config/zaalreservatie-voc.json",
     "navigation": {
