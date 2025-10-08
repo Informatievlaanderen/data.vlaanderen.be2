@@ -174,23 +174,23 @@
   {
     "urlref": "/doc/applicatieprofiel/ldes/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-ldes",
-    "branchtag": "master-node-toolchain",
-    "name": "OSLO-LDES-ap",
+    "branchtag": "master",
+    "name": "ldes",
     "filename": "config/OSLO-LDES-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01"
     },
-    "dummy": "2025-09-12 10:07:47"
+    "dummy": "2025-10-08"
   },
   {
     "urlref": "/doc/vocabularium/ldes/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-ldes",
-    "branchtag": "master-node-toolchain",
+    "branchtag": "master",
     "name": "ldes",
     "filename": "config/OSLO-LDES-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01"
     },
-    "dummy": "2025-09-12 10:07:47"
+    "dummy": "2025-10-08"
   }
 ]
