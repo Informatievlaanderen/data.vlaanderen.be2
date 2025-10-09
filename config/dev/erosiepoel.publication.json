@@ -9,7 +9,7 @@
       "prev": ""
     },
     "disabled": false,
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/erosiepoel",
     "original": {
@@ -34,7 +34,7 @@
     "navigation": {
       "prev": ""
     },
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/vocabularium/erosiepoel",
     "original": {
@@ -53,7 +53,7 @@
     "urlref": "/ns/erosiepoel",
     "seealso": "/doc/vocabularium/erosiepoel",
     "type": "raw",
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "directory": "/ns/erosiepoel",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -73,7 +73,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-10-07"
     },
-    "dummy": "2025-10-02 20:26:57"
+    "dummy": "2025-10-09 20:26:28"
   },
   {
     "urlref": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/toolchain4",
@@ -84,6 +84,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/erosiepoel/ontwerpstandaard/2024-10-07"
     },
-    "dummy": "2025-10-02 20:26:57"
+    "dummy": "2025-10-09 20:26:28"
   }
 ]

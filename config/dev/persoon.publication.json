@@ -9,7 +9,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/persoon-basis/kandidaatstandaard/niet-bepaald",
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "original": {
       "urlref": "/doc/applicatieprofiel/persoon-basis/kandidaatstandaard/niet-bepaald",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -34,7 +34,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/persoon-basis/ontwerpdocument/2020-01-06",
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "original": {
       "urlref": "/doc/applicatieprofiel/persoon-basis/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -56,7 +56,7 @@
     "name": "persoon",
     "filename": "config/persoon.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/vocabularium/Persoon/ontwerpstandaard/2023-06-01",
     "original": {
@@ -79,7 +79,7 @@
     },
     "type": "raw",
     "directory": "/doc/vocabularium/persoon/standaard/2019-07-03",
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "original": {
       "urlref": "/doc/vocabularium/persoon/standaard/2019-07-03",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -104,7 +104,7 @@
     },
     "type": "raw",
     "directory": "/doc/vocabularium/persoon/ontwerpdocument/2020-01-06",
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "original": {
       "urlref": "/doc/vocabularium/persoon/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -134,7 +134,7 @@
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
     },
-    "dummy": "2025-10-02 20:26:59"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/vocabularium/persoon",
@@ -143,7 +143,7 @@
     "directory": "/doc/vocabularium/persoon",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "original": {
       "urlref": "/doc/vocabularium/persoon",
       "seealso": "/doc/vocabularium/persoon/standaard/2019-07-03",
@@ -161,7 +161,7 @@
     "directory": "/ns/persoon",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "original": {
       "urlref": "/ns/persoon",
       "seealso": "/doc/vocabularium/persoon/standaard/2019-07-03",
@@ -182,7 +182,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/persoon-basis/kandidaatstandaard/niet-bepaald"
     },
-    "dummy": "2025-10-02 20:26:59"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/vocabularium/persoon/ontwerpstandaard/toolchain4",
@@ -194,6 +194,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/persoon/standaard/2019-07-03"
     },
-    "dummy": "2025-10-02 20:26:59"
+    "dummy": "2025-10-09 20:26:30"
   }
 ]

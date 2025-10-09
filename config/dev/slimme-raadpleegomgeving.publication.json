@@ -8,7 +8,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/slimmeraadpleegomgeving/kandidaatstandaard/2024-11-07"
     },
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
     "original": {
@@ -32,7 +32,7 @@
     "navigation": {
       "next": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2024-12-05"
     },
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/slimmeraadpleegomgeving/kandidaatstandaard/2024-11-07",
     "original": {
@@ -54,7 +54,7 @@
     "name": "slimme-raadpleegomgeving-ap",
     "filename": "config/slimme-raadpleegomgeving-ap.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/slimmeraadpleegomgeving/kandidaatstandaard/2024-10-17",
     "original": {
@@ -74,7 +74,7 @@
     "name": "slimme-raadpleegomgeving-ap",
     "filename": "config/slimme-raadpleegomgeving-ap.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/slimmeraadpleegomgeving/kandidaatstandaard/2024-09-13",
     "original": {
@@ -94,7 +94,7 @@
     "name": "slimme-raadpleegomgeving-ap",
     "filename": "config/slimme-raadpleegomgeving-ap.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/slimmeraadpleegomgeving/ontwerpstandaard/2024-09-09",
     "original": {
@@ -114,7 +114,7 @@
     "name": "slimme-raadpleegomgeving-ap",
     "filename": "config/slimme-raadpleegomgeving-ap.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/slimmeraadpleegomgeving/ontwerpstandaard/2023-11-06",
     "original": {
@@ -136,7 +136,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/slimmeraadpleegomgeving/ontwerpstandaard/2023-11-06"
     },
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/slimmeraadpleegomgeving/kandidaatstandaard/2024-07-12",
     "original": {
@@ -155,7 +155,7 @@
     "urlref": "/doc/applicatieprofiel/slimmeraadpleegomgeving",
     "seealso": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
     "type": "raw",
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "directory": "/doc/applicatieprofiel/slimmeraadpleegomgeving",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -175,7 +175,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/slimmeraadpleegomgeving/kandidaatstandaard/2024-11-07"
     },
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
     "original": {
@@ -199,7 +199,7 @@
     "navigation": {
       "next": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05"
     },
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/vocabularium/slimmeraadpleegomgeving/kandidaatstandaard/2024-11-07",
     "original": {
@@ -221,7 +221,7 @@
     "name": "slimmeraadpleegomgeving",
     "filename": "config/slimme-raadpleegomgeving-voc.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/vocabularium/slimmeraadpleegomgeving/kandidaatstandaard/2024-10-17",
     "original": {
@@ -241,7 +241,7 @@
     "name": "slimmeraadpleegomgeving",
     "filename": "config/slimme-raadpleegomgeving-voc.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/vocabularium/slimmeraadpleegomgeving/kandidaatstandaard/2024-09-13",
     "original": {
@@ -261,7 +261,7 @@
     "name": "slimmeraadpleegomgeving",
     "filename": "config/slimme-raadpleegomgeving-voc.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/vocabularium/slimmeraadpleegomgeving/ontwerpstandaard/2024-09-09",
     "original": {
@@ -281,7 +281,7 @@
     "name": "slimmeraadpleegomgeving",
     "filename": "config/slimme-raadpleegomgeving-voc.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/vocabularium/slimmeraadpleegomgeving/ontwerpstandaard/2023-11-06",
     "original": {
@@ -298,7 +298,7 @@
     "urlref": "/doc/vocabularium/slimmeraadpleegomgeving",
     "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
     "type": "raw",
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "directory": "/doc/vocabularium/slimmeraadpleegomgeving",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -313,7 +313,7 @@
     "urlref": "/ns/slimmeraadpleegomgeving",
     "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
     "type": "raw",
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "directory": "/ns/slimmeraadpleegomgeving",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -334,7 +334,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2024-12-05"
     },
-    "dummy": "2025-10-02 20:26:59"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/vocabularium/slimmeraadpleegomgeving/ontwerpstandaard/toolchain4",
@@ -346,6 +346,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05"
     },
-    "dummy": "2025-10-02 20:26:59"
+    "dummy": "2025-10-09 20:26:30"
   }
 ]

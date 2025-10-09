@@ -7,7 +7,7 @@
     "filename": "config/cultuurenjeugdinfrastructuur-ap.json",
     "navigation": {},
     "disabled": false,
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21",
     "original": {
@@ -26,7 +26,7 @@
     "seealso": "/doc/applicatieprofiel/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "directory": "/doc/applicatieprofiel/cultuur-en-jeugd/infrastructuur",
     "repository": " https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -45,7 +45,7 @@
     "name": "infrastructuur",
     "filename": "config/cultuurenjeugdinfrastructuur-voc.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/vocabularium/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21",
     "original": {
@@ -64,7 +64,7 @@
     "prefix": "cultuur-en-jeugd",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "directory": "/ns/cultuur-en-jeugd/infrastructuur",
     "repository": " https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -83,7 +83,7 @@
     "seealso": "/doc/vocabularium/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "directory": "/ns/cultuur-en-jeugd",
     "repository": " https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -106,7 +106,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21"
     },
-    "dummy": "2025-10-02 20:26:57"
+    "dummy": "2025-10-09 20:26:28"
   },
   {
     "urlref": "/doc/vocabularium/cultuur-en-jeugd/infrastructuur/ontwerpstandaard/toolchain4",
@@ -118,6 +118,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/cultuur-en-jeugd/infrastructuur/kandidaatstandaard/2022-03-21"
     },
-    "dummy": "2025-10-02 20:26:57"
+    "dummy": "2025-10-09 20:26:28"
   }
 ]

@@ -6,7 +6,7 @@
     "name": "dossier-ap",
     "filename": "config/dossier-ap.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2023-04-01",
     "original": {
@@ -28,7 +28,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2023-04-01"
     },
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/dossier/erkendestandaard/2023-09-25",
     "original": {
@@ -50,7 +50,7 @@
     "name": "dossier",
     "filename": "config/dossier-voc.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/vocabularium/dossier/kandidaatstandaard/2023-04-01",
     "original": {
@@ -70,7 +70,7 @@
     "name": "dossier",
     "filename": "config/dossier-voc.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/vocabularium/dossier/kandidaatstandaard/2021-04-22",
     "original": {
@@ -90,7 +90,7 @@
     "name": "dossier",
     "filename": "config/dossier-voc.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/vocabularium/dossier/kandidaatstandaard/2020-10-01",
     "original": {
@@ -114,7 +114,7 @@
     "name": "dossier",
     "filename": "config/dossier-voc.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2021-04-22",
     "original": {
@@ -138,7 +138,7 @@
     "name": "dossier",
     "filename": "config/dossier-voc.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/dossier/kandidaatstandaard/2020-10-01",
     "original": {
@@ -164,7 +164,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/dossier/kandidaatstandaard/2023-04-01"
     },
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/vocabularium/dossier/erkendestandaard/2023-09-25",
     "original": {
@@ -189,7 +189,7 @@
       "prev": "/doc/vocabularium/dossier/kandidaatstandaard/2020-10-01",
       "next": "/doc/vocabularium/dossier/kandidaatstandaard/2021-04-22"
     },
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "type": "raw",
     "directory": "/doc/vocabularium/dossier/erkendestandaard/2021-02-04",
     "original": {
@@ -211,7 +211,7 @@
     "urlref": "/doc/applicatieprofiel/dossier",
     "seealso": "/doc/applicatieprofiel/dossier/erkendestandaard/2023-09-25",
     "type": "raw",
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "directory": "/doc/applicatieprofiel/dossier",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -226,7 +226,7 @@
     "urlref": "/ns/dossier",
     "seealso": "/doc/vocabularium/dossier/erkendestandaard/2023-09-25",
     "type": "raw",
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:28",
     "directory": "/ns/dossier",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -247,7 +247,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/dossier/erkendestandaard/2023-09-25"
     },
-    "dummy": "2025-10-02 20:26:57"
+    "dummy": "2025-10-09 20:26:28"
   },
   {
     "urlref": "/doc/vocabularium/dossier/ontwerpstandaard/toolchain4",
@@ -259,6 +259,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/dossier/erkendestandaard/2023-09-25"
     },
-    "dummy": "2025-10-02 20:26:57"
+    "dummy": "2025-10-09 20:26:28"
   }
 ]

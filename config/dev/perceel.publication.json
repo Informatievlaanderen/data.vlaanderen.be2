@@ -20,7 +20,7 @@
         "next": "/doc/applicatieprofiel/perceel/kandidaatstandaard/2020-04-23"
       }
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/applicatieprofiel/perceel/kandidaatstandaard/2020-04-23",
@@ -45,7 +45,7 @@
         "next": "/doc/applicatieprofiel/perceel/erkendestandaard/2020-06-18"
       }
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/applicatieprofiel/perceel/erkendestandaard/2020-06-18",
@@ -70,7 +70,7 @@
         "next": "/doc/applicatieprofiel/perceel/ontwerpstandaard/toolchain4"
       }
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/applicatieprofiel/perceel/ontwerpstandaard/toolchain4",
@@ -81,13 +81,13 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/perceel/erkendestandaard/2020-06-18"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/applicatieprofiel/perceel",
     "seealso": "/doc/applicatieprofiel/perceel/erkendestandaard/2020-06-18",
     "type": "ap",
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/vocabularium/perceel/kandidaatstandaard/2019-08-23",
@@ -110,7 +110,7 @@
         "next": "/doc/vocabularium/perceel/kandidaatstandaard/2020-04-23"
       }
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/vocabularium/perceel/kandidaatstandaard/2020-04-23",
@@ -135,7 +135,7 @@
         "next": "/doc/vocabularium/perceel/erkendestandaard/2020-06-18"
       }
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/vocabularium/perceel/erkendestandaard/2020-06-18",
@@ -160,7 +160,7 @@
         "next": "/doc/vocabularium/perceel/ontwerpstandaard/toolchain4"
       }
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/vocabularium/perceel/ontwerpstandaard/toolchain4",
@@ -171,12 +171,12 @@
     "navigation": {
       "prev": "/doc/vocabularium/perceel/erkendestandaard/2020-06-18"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/ns/perceel",
     "seealso": "/doc/vocabularium/perceel/erkendestandaard/2020-06-18",
     "type": "voc",
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   }
 ]

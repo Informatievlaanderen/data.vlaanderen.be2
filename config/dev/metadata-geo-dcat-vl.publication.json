@@ -3,7 +3,7 @@
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
     "seealso": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",
     "type": "raw",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:29",
     "directory": "/doc/applicatieprofiel/GEODCAT-AP-VL",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -37,7 +37,7 @@
       },
       "examples": true
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:29"
   },
   {
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2022-02-03",
@@ -62,7 +62,7 @@
       },
       "examples": true
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:29"
   },
   {
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/toolchain4",
@@ -74,6 +74,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:29"
   }
 ]

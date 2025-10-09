@@ -14,7 +14,7 @@
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
       "branchtag": "production"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:29"
   },
   {
     "urlref": "/ns/notificatie",
@@ -23,7 +23,7 @@
     "directory": "/ns/notificatie",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:29",
     "original": {
       "urlref": "/ns/notificatie",
       "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
@@ -39,7 +39,7 @@
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "notificatie",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:29",
     "navigation": {
       "next": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06"
     },
@@ -69,7 +69,7 @@
     },
     "type": "raw",
     "directory": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:29",
     "original": {
       "urlref": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -88,7 +88,7 @@
     "urlref": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:29",
     "name": "notificatie-basis",
     "navigation": {
       "next": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06"
@@ -119,7 +119,7 @@
     },
     "type": "raw",
     "directory": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:29",
     "original": {
       "urlref": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -141,7 +141,7 @@
     "directory": "/doc/vocabularium/notificatie",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:29",
     "original": {
       "urlref": "/doc/vocabularium/notificatie",
       "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
@@ -164,7 +164,7 @@
       "seealso": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
       "type": "ap"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:29"
   },
   {
     "urlref": "/ns/notificatie",
@@ -178,14 +178,14 @@
       "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
       "type": "voc"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:29"
   },
   {
     "urlref": "/doc/vocabularium/notificatie/standaard/2019-02-07",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "notificatie",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:29",
     "navigation": {
       "next": "/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06"
     },
@@ -224,13 +224,13 @@
         "prev": "/doc/vocabularium/notificatie/standaard/2019-02-07"
       }
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:29"
   },
   {
     "urlref": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:29",
     "name": "notificatie-basis",
     "navigation": {
       "next": "/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06"
@@ -270,7 +270,7 @@
         "prev": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07"
       }
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:29"
   },
   {
     "urlref": "/doc/vocabularium/notificatie",
@@ -284,7 +284,7 @@
       "seealso": "/doc/vocabularium/notificatie/standaard/2019-02-07",
       "type": "voc"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:29"
   },
   {
     "urlref": "/doc/vocabularium/notificatie/ontwerpstandaard/toolchain4",
@@ -296,7 +296,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/notificatie/standaard/2019-02-07"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:29"
   },
   {
     "urlref": "/doc/applicatieprofiel/notificatie-basis/ontwerpstandaard/toolchain4",
@@ -308,6 +308,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/notificatie-basis/standaard/2019-02-07"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:29"
   }
 ]

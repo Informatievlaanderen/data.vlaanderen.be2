@@ -7,7 +7,7 @@
     "navigation": {},
     "directory": "/doc/applicatieprofiel/openbaar-domein/standaard/2018-11-27",
     "type": "raw",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:30",
     "original": {
       "urlref": "/doc/applicatieprofiel/openbaar-domein/standaard/2018-11-27",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -25,7 +25,7 @@
     "branchtag": "production",
     "name": "openbaar-domein-ap",
     "filename": "config/eap-mapping.json",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:30",
     "navigation": {
       "prev": "/doc/applicatieprofiel/openbaar-domein/standaard/2018-11-27",
       "next": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30"
@@ -70,7 +70,7 @@
       "type": "raw",
       "directory": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/standaard/2018-11-27",
@@ -80,7 +80,7 @@
     "navigation": {},
     "type": "raw",
     "directory": "/doc/vocabularium/openbaardomein/standaard/2018-11-27",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:30",
     "original": {
       "urlref": "/doc/vocabularium/openbaardomein/standaard/2018-11-27",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
@@ -98,7 +98,7 @@
     "branchtag": "production",
     "name": "openbaar-domein-voc",
     "filename": "config/eap-mapping.json",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:30",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/standaard/2018-11-27",
       "next": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30"
@@ -143,13 +143,13 @@
       "type": "raw",
       "directory": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/applicatieprofiel/openbaar-domein",
     "seealso": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30",
     "type": "raw",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:30",
     "directory": "/doc/applicatieprofiel/openbaar-domein",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -167,7 +167,7 @@
     "urlref": "/doc/vocabularium/openbaardomein",
     "seealso": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30",
     "type": "raw",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:30",
     "directory": "/doc/vocabularium/openbaardomein",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -188,7 +188,7 @@
     "directory": "/ns/openbaardomein",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
-    "dummy": "2025-10-02 20:26:58",
+    "dummy": "2025-10-09 20:26:30",
     "original": {
       "urlref": "/ns/openbaardomein",
       "seealso": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30",
@@ -209,7 +209,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   },
   {
     "urlref": "/doc/vocabularium/openbaardomein/ontwerpstandaard/toolchain4",
@@ -221,6 +221,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30"
     },
-    "dummy": "2025-10-02 20:26:58"
+    "dummy": "2025-10-09 20:26:30"
   }
 ]

@@ -7,7 +7,7 @@
     "disabled": false,
     "filename": "config/kindfiche-ap.json",
     "navigation": {},
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:29",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
     "original": {
@@ -26,7 +26,7 @@
     "seealso": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
     "disabled": false,
     "type": "raw",
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:29",
     "directory": "/doc/applicatieprofiel/kindfiche",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -42,7 +42,7 @@
     "urlref": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
     "disabled": false,
     "type": "raw",
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:29",
     "directory": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -61,7 +61,7 @@
     "seealso": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
     "disabled": false,
     "type": "raw",
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:29",
     "directory": "/ns/kindfiche",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -83,7 +83,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03"
     },
-    "dummy": "2025-10-02 20:26:57",
+    "dummy": "2025-10-09 20:26:29",
     "disabled": "true"
   },
   {
@@ -96,6 +96,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03"
     },
-    "dummy": "2025-10-02 20:26:57"
+    "dummy": "2025-10-09 20:26:29"
   }
 ]

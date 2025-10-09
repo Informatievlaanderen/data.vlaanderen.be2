@@ -7,7 +7,7 @@
     "filename": "config/Voorwaarden-Dienstverlening-ap.json",
     "navigation": {},
     "disabled": false,
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "type": "raw",
     "directory": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11",
     "original": {
@@ -26,7 +26,7 @@
     "seealso": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11",
     "type": "raw",
     "disabled": false,
-    "dummy": "2025-10-02 20:26:59",
+    "dummy": "2025-10-09 20:26:30",
     "directory": "/doc/applicatieprofiel/voorwaarden-dienstverlening",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -48,6 +48,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11"
     },
-    "dummy": "2025-10-02 20:26:59"
+    "dummy": "2025-10-09 20:26:30"
   }
 ]
