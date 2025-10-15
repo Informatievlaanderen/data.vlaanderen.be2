@@ -6,12 +6,16 @@
 # Parameters
 TARGET_DIR="${1:-.}"        # Default to current directory if not specified
 FILE_PATTERN="${2:-*.html}" # Default to .html files if not specified
+
+echo "Target directory: $TARGET_DIR"
+echo "File pattern: $FILE_PATTERN"
+
 SCRIPT_TYPE="${3:-all}"     # Default to classes script, can be "classes", "links", "tooltip", or combinations
 
 SCRIPT_DIR=$(dirname "$0")
 CLASSES_SCRIPT="$SCRIPT_DIR/replace_webuniversum2_classes.sh"
 LINKS_SCRIPT="$SCRIPT_DIR/replace_webuniversum2_links.sh"
-TOOLTIP_SCRIPT="$SCRIPT_DIR/replace_webuniversum_tooltip.sh"
+TOOLTIP_SCRIPT="$SCRIPT_DIR/replace_webuniversum2_tooltip.sh"
 
 # Check if the target directory exists
 if [ ! -d "$TARGET_DIR" ]; then
@@ -102,42 +106,34 @@ files=()
 while IFS= read -r -d '' file; do
     # Extract just the filename from the full path
     filename=$(basename "$file")
-    
-    # Include files that match either:
-    # 1. Start with "index" and end with ".html" (excluding _webuniversum3 files)
-    # 2. End with ".j2" (any filename)
-    if [[ "$filename" == index*.html && "$file" != *"_webuniversum3"* ]]; then
-        # HTML files: must start with "index"
+
+    # Only include files that:
+    # 1. Start with "index"
+    # 2. End with ".html"
+    # 3. Don't already have "_webuniversum3" in their name
+    if [[ "$filename" == index*.html ]]; then
+        # Additional filter: exclude files that start with something other than "index"
+        # (e.g., exclude "respec_index.html" but include "index_nl.html")
         if [[ "$filename" =~ ^index.*\.html$ ]]; then
             files+=("$file")
         fi
-    elif [[ "$filename" == *.j2 ]]; then
-        # J2 files: any filename ending with .j2
-        files+=("$file")
     fi
 done < <(find "$TARGET_DIR" -type f -name "$FILE_PATTERN" -print0 2>/dev/null)
 
 file_count=${#files[@]}
 
 if [ "$file_count" -eq 0 ]; then
-    echo "No suitable files matching '$FILE_PATTERN' found in '$TARGET_DIR'"
-    echo "Looking for:"
-    echo "  - HTML files: index*.html (excluding _webuniversum3 files)"
-    echo "  - Template files: *.j2"
-    echo ""
+    echo "No index*.html files matching '$FILE_PATTERN' found in '$TARGET_DIR'"
     echo "Checking what files exist in the directory..."
     echo "All HTML files found:"
     find "$TARGET_DIR" -type f -name "*.html" | head -10
     echo ""
     echo "Files starting with 'index':"
     find "$TARGET_DIR" -type f -name "index*.html" | head -10
-    echo ""
-    echo "All .j2 template files found:"
-    find "$TARGET_DIR" -type f -name "*.j2" | head -10
     exit 0
 fi
 
-echo "Found $file_count suitable files matching '$FILE_PATTERN' in '$TARGET_DIR'"
+echo "Found $file_count index*.html files matching '$FILE_PATTERN' in '$TARGET_DIR'"
 echo "Starting webuniversum conversion using script types: ${SCRIPT_TYPES[*]}"
 
 # List the files that will be processed
