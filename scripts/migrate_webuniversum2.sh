@@ -6,6 +6,10 @@
 # Parameters
 TARGET_DIR="${1:-.}"        # Default to current directory if not specified
 FILE_PATTERN="${2:-*.html}" # Default to .html files if not specified
+
+echo "Target directory: $TARGET_DIR"
+echo "File pattern: $FILE_PATTERN"
+
 SCRIPT_TYPE="${3:-all}"     # Default to classes script, can be "classes", "links", "tooltip", or combinations
 
 SCRIPT_DIR=$(dirname "$0")
