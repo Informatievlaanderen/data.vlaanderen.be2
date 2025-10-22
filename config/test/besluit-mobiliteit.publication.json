@@ -86,6 +86,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluit-mobiliteit/kandidaat-standaard/2025-02-04"
     },
+    "ignoreSkosConcept": false,
     "disabled": false,
     "dummy": "2025-10-21 1"
   }
