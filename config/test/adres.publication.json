@@ -176,6 +176,9 @@
     "dummy": "23-10-2025 17:32:32",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
+    },
+    "eaconverter": {
+      "parameters": "--ignoreSkosConcept false"
     }
   }
 ]
