@@ -163,5 +163,19 @@
     "contextgenerator": {
       "parameters": "-c -l label --scopedContext true"
     }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/adresregister/ontwerpstandaard/2025-11-01",
+    "repository": "https://github.com/informatievlaanderen/oslothema-gebouwEnAdres",
+    "branchtag": "master",
+    "name": "adressenregister",
+    "filename": "config/adressenregister.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald"
+    },
+    "dummy": "23-10-2025 15:34:20",
+    "contextgenerator": {
+      "parameters": "-c -l label --scopedContext true"
+    }
   }
 ]
