@@ -173,9 +173,9 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald"
     },
-    "dummy": "23-10-2025 16:04:30",
+    "dummy": "23-10-2025 16:35:42",
     "contextgenerator": {
-      "parameters": "-c -l label --scopedContext true"
+      "parameters": "--addDomainPrefix true"
     }
   }
 ]
