@@ -173,12 +173,23 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald"
     },
-    "dummy": "24-10-2025 08:45:32",
+    "dummy": "24-10-2025 09:02:00",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
     "eaconverter": {
       "parameters": "--ignoreSkosConcept false"
     }
+  },
+  {
+    "urlref": "/doc/vocabularium/adres/ontwerpstandaard/2025-11-01",
+    "repository": "https://github.com/informatievlaanderen/oslothema-gebouwEnAdres",
+    "branchtag": "master",
+    "name": "adres",
+    "filename": "config/adres.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/adres/standaard/2018-07-03"
+    },
+    "dummy": "24-10-2025 09:02:00"
   }
 ]
