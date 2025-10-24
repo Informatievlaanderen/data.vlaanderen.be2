@@ -183,7 +183,7 @@
     "repository": "https://github.com/informatievlaanderen/oslothema-gebouwEnAdres",
     "branchtag": "master",
     "name": "adres",
-    "filename": "config/adresEnAdresregister",
+    "filename": "config/adresEnAdresregister.json",
     "navigation": {
       "prev": "/doc/vocabularium/adres/standaard/2018-07-03"
     },
