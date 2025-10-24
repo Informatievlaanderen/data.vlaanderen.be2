@@ -169,11 +169,11 @@
     "repository": "https://github.com/informatievlaanderen/oslothema-gebouwEnAdres",
     "branchtag": "master",
     "name": "adressenregister",
-    "filename": "config/adressenregister.json",
+    "filename": "config/adresEnAdresregister.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald"
     },
-    "dummy": "24-10-2025 09:33:00",
+    "dummy": "24-10-2025 11:31:00",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     }
@@ -183,10 +183,10 @@
     "repository": "https://github.com/informatievlaanderen/oslothema-gebouwEnAdres",
     "branchtag": "master",
     "name": "adres",
-    "filename": "config/adres.json",
+    "filename": "config/adresEnAdresregister",
     "navigation": {
       "prev": "/doc/vocabularium/adres/standaard/2018-07-03"
     },
-    "dummy": "24-10-2025 10:54:00"
+    "dummy": "24-10-2025 11:31:00"
   }
 ]
