@@ -8,12 +8,12 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "007"
+    "dummy": "008"
   },
   {
     "urlref": "/doc/implementatiemodel/klantvolgsysteem",
     "seealso": "/doc/implementatiemodel/klantvolgsysteem/ontwerpstandaard/2025-10-27",
     "type": "ap",
-    "dummy": "007"
+    "dummy": "008"
   }
 ]
