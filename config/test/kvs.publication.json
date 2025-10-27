@@ -8,6 +8,9 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
+    "eaconverter": {
+      "parameters": "--ignoreSkosConcept true"
+    },
     "dummy": "014"
   },
   {
