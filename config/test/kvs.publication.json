@@ -4,7 +4,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
     "name": "KVS",
     "branchtag": "main",
-    "filename": "config/KVS-impl.json",
+    "filename": "config/kvs-impl.json",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
