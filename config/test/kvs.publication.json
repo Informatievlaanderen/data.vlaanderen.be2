@@ -1,0 +1,19 @@
+[
+  {
+    "urlref": "/doc/implementatiemodel/klantvolgsysteem/ontwerpstandaard/2025-10-27",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
+    "name": "KVS",
+    "branchtag": "main",
+    "filename": "config/KVS-impl.json",
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/klantvolgsysteem",
+    "seealso": "/doc/implementatiemodel/klantvolgsysteem/ontwerpstandaard/2025-10-27",
+    "type": "ap",
+    "dummy": "001"
+  }
+]
