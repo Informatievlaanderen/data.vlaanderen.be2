@@ -18,7 +18,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
     "branchtag": "main",
     "name": "KVS",
-    "filename": "config/klantvolgsysteem-voc.json",
+    "filename": "config/kvs-voc.json",
     "directory": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2025-10-27",
     "dummy": "024"
   },
