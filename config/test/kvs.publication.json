@@ -11,7 +11,7 @@
     "eaconverter": {
       "parameters": "--ignoreSkosConcept true"
     },
-    "dummy": "024"
+    "dummy": "025"
   },
   {
     "urlref": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2025-10-27",
@@ -20,18 +20,18 @@
     "name": "KVS",
     "filename": "config/KVS-voc.json",
     "directory": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2025-10-27",
-    "dummy": "024"
+    "dummy": "025"
   },
   {
     "urlref": "/doc/implementatiemodel/klantvolgsysteem",
     "seealso": "/doc/implementatiemodel/klantvolgsysteem/ontwerpstandaard/2025-10-27",
     "type": "ap",
-    "dummy": "024"
+    "dummy": "025"
   },
   {
     "urlref": "/ns/klantvolgsysteem",
     "seealso": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2025-10-27",
     "type": "voc",
-    "dummy": "024"
+    "dummy": "025"
   }
 ]
