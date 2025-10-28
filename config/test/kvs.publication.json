@@ -11,12 +11,27 @@
     "eaconverter": {
       "parameters": "--ignoreSkosConcept true"
     },
-    "dummy": "023"
+    "dummy": "024"
+  },
+  {
+    "urlref": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2025-10-27",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
+    "branchtag": "main",
+    "name": "KVS",
+    "filename": "config/klantvolgsysteem-voc.json",
+    "directory": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2025-10-27",
+    "dummy": "024"
   },
   {
     "urlref": "/doc/implementatiemodel/klantvolgsysteem",
     "seealso": "/doc/implementatiemodel/klantvolgsysteem/ontwerpstandaard/2025-10-27",
     "type": "ap",
-    "dummy": "023"
+    "dummy": "024"
+  },
+  {
+    "urlref": "/ns/klantvolgsysteem",
+    "seealso": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2025-10-27",
+    "type": "voc",
+    "dummy": "024"
   }
 ]
