@@ -43,6 +43,7 @@
     "name": "KVS-MAGDA-MAGDAOnline-R1",
     "filename": "config/KVS-voc.json",
     "directory": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2025-10-30",
-    "dummy": "035"
+    "dummy": "034",
+    "disabled": true
   }
 ]
