@@ -1,6 +1,6 @@
 [
   {
-    "urlref": "/doc/implementatiemodel/klantvolgsysteem/ontwerpstandaard/2026-10-27",
+    "urlref": "/doc/implementatiemodel/klantvolgsysteem/ontwerpstandaard/2027-10-27",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
     "name": "KVS",
     "branchtag": "main",
@@ -11,31 +11,31 @@
     "eaconverter": {
       "parameters": "--ignoreSkosConcept true"
     },
-    "dummy": "026"
+    "dummy": "027"
   },
   {
-    "urlref": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2026-10-27",
+    "urlref": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2027-10-27",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
     "branchtag": "main",
     "name": "KVS",
     "filename": "config/KVS-voc.json",
-    "directory": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2026-10-27",
-    "dummy": "026"
+    "directory": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2027-10-27",
+    "dummy": "027"
   },
   {
     "urlref": "/doc/implementatiemodel/klantvolgsysteem",
-    "seealso": "/doc/implementatiemodel/klantvolgsysteem/ontwerpstandaard/2026-10-27",
+    "seealso": "/doc/implementatiemodel/klantvolgsysteem/ontwerpstandaard/2027-10-27",
     "type": "ap",
-    "dummy": "026"
+    "dummy": "027"
   },
   {
     "urlref": "/ns/klantvolgsysteem",
-    "seealso": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2026-10-27",
+    "seealso": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2027-10-27",
     "type": "voc",
-    "dummy": "026"
+    "dummy": "027"
   },
   {
-    "urlref": "/doc/implementatiemodel/klantvolgsysteem-magda-magdaonline-r1/ontwerpstandaard/2026-10-30",
+    "urlref": "/doc/implementatiemodel/klantvolgsysteem-magda-magdaonline-r1/ontwerpstandaard/2027-10-30",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
     "name": "KVS-MAGDA-MAGDAOnline-R1",
     "branchtag": "main",
@@ -46,15 +46,15 @@
     "eaconverter": {
       "parameters": "--ignoreSkosConcept true"
     },
-    "dummy": "026"
+    "dummy": "027"
   },
   {
-    "urlref": "/doc/vocabularium/klantvolgsysteem-magda-magdaonline-r1/ontwerpstandaard/2026-10-30",
+    "urlref": "/doc/vocabularium/klantvolgsysteem-magda-magdaonline-r1/ontwerpstandaard/2027-10-30",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
     "branchtag": "main",
     "name": "KVS-MAGDA-MAGDAOnline-R1",
     "filename": "config/KVS-voc.json",
-    "directory": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2026-10-30",
-    "dummy": "026"
+    "directory": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2027-10-30",
+    "dummy": "027"
   }
 ]
