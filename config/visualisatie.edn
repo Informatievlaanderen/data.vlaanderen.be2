@@ -351,19 +351,19 @@
   :codelistmuuuid63 {:clj-pipelines/type                 :clj-pipelines/file-import
                       :clj-pipelines.file-import/filename "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/slimruimtelijkplannen-main/muuid.nt"
                       :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/slimruimtelijkplannen/muuuid"
-                      :clj-pipelines/dumpname             "slimruimtelijkplannen-muuid.ttl.gz"} 
+                      :clj-pipelines/dumpname             "slimruimtelijkplannen-muuid.ttl.gz"}
   :codelistmuuuid64 {:clj-pipelines/type                 :clj-pipelines/file-import
                       :clj-pipelines.file-import/filename "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/digitalewatermeter-main/muuid.nt"
                       :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/digitalewatermeter/muuuid"
-                      :clj-pipelines/dumpname             "digitalewatermeter-muuid.ttl.gz"} 
+                      :clj-pipelines/dumpname             "digitalewatermeter-muuid.ttl.gz"}
   :codelistmuuuid65 {:clj-pipelines/type                 :clj-pipelines/file-import
                       :clj-pipelines.file-import/filename "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/refs/heads/magda-main/muuid.nt"
                       :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/magda/muuuid"
-                      :clj-pipelines/dumpname             "magda-muuid.ttl.gz"} 
+                      :clj-pipelines/dumpname             "magda-muuid.ttl.gz"}
   :codelistmuuuid66 {:clj-pipelines/type                 :clj-pipelines/file-import
                       :clj-pipelines.file-import/filename "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/energiehuis-main/muuid.nt"
                       :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/energiehuis/muuuid"
-                      :clj-pipelines/dumpname             "energiehuis-muuid.ttl.gz"} 
+                      :clj-pipelines/dumpname             "energiehuis-muuid.ttl.gz"}
   :codelistmuuuid67  {:clj-pipelines/type                  :clj-pipelines/addmuuuid
                       :clj-pipelines.addmuuuid/from            "https://data.vlaanderen.be/id/dataset/codelists/standaardgebruik"
                       :clj-pipelines.addmuuuid/batch       "200000"
@@ -373,5 +373,9 @@
   :codelistmuuuid68 {:clj-pipelines/type                 :clj-pipelines/file-import
                       :clj-pipelines.file-import/filename "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/rooilijnplannen-main/muuid.nt"
                       :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/rooilijnplannen/muuuid"
-                      :clj-pipelines/dumpname             "rooilijnplannen-muuid.ttl.gz"} 
+                      :clj-pipelines/dumpname             "rooilijnplannen-muuid.ttl.gz"}
+  :codelistmuuuid69 {:clj-pipelines/type                 :clj-pipelines/file-import
+                      :clj-pipelines.file-import/filename "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/KVS-main/muuid.nt"
+                      :clj-pipelines/graphname            "https://data.vlaanderen.be/id/dataset/KVS/muuuid"
+                      :clj-pipelines/dumpname             "KVS-muuid.ttl.gz"}
 }
