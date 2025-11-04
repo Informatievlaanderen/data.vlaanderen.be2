@@ -3,7 +3,7 @@
     "urlref": "/doc/implementatiemodel/klantvolgsysteem1/ontwerpstandaard/2025-11-04",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
     "name": "KVS-R1",
-    "branchtag": "main",
+    "branchtag": "ontwerpstandaard_2025-11-04_v1.0.1",
     "filename": "config/kvs-impl.json",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
@@ -11,28 +11,28 @@
     "eaconverter": {
       "parameters": "--ignoreSkosConcept true"
     },
-    "dummy": "000"
+    "dummy": "001"
   },
   {
     "urlref": "/doc/vocabularium/klantvolgsysteem1/ontwerpstandaard/2025-11-04",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
-    "branchtag": "main",
+    "branchtag": "ontwerpstandaard_2025-11-04_v1.0.1",
     "name": "KVS-R1",
     "filename": "config/KVS-voc.json",
     "directory": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2025-11-04",
-    "dummy": "000",
+    "dummy": "001",
     "disabled": false
   },
   {
     "urlref": "/ns/klantvolgsysteem1",
     "seealso": "/doc/vocabularium/klantvolgsysteem1/ontwerpstandaard/2025-11-04",
-    "dummy": "000",
+    "dummy": "001",
     "type": "voc"
   },
   {
     "urlref": "/doc/implementatiemodel/klantvolgsysteem1",
     "seealso": "/doc/implementatiemodel/klantvolgsysteem1/ontwerpstandaard/2025-11-04",
-    "dummy": "000",
+    "dummy": "001",
     "type": "ap"
   }
 ]
