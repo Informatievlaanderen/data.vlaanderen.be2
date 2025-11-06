@@ -37,6 +37,16 @@
     "dummy": "065"
   },
   {
+    "urlref": "/doc/implementatiemodel/klantvolgsysteem1/resources",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
+    "directory": "/resources",
+    "name": "KVS-R1",
+    "branchtag": "main",
+    "filename": "config/kvs-impl.json",
+    "dummy": "001",
+    "type": "raw"
+  },
+  {
     "urlref": "/doc/vocabularium/klantvolgsysteem1/ontwerpstandaard/2025-11-04",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
     "branchtag": "main",
