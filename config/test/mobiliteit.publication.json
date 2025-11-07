@@ -531,7 +531,10 @@
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteit/kandidaatstandaard/2018-09-30"
     },
-    "dummy": "2025-11-07 2",
+    "eaconverter": {
+      "parameters": "--ignoreSkosConcept false"
+    },
+    "dummy": "2025-11-07 3",
     "type": "voc"
   },
   {
