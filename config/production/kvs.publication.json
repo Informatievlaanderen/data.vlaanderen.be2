@@ -37,10 +37,10 @@
     "urlref": "/doc/implementatiemodel/klantvolgsysteem1/codelijsten",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
     "directory": "/codelijsten",
-    "name": "KVS-R1",
+    "name": "KVS",
     "branchtag": "ontwerpstandaard_2025-11-04_v1.0.4",
-    "filename": "config/kvs-impl.json",
-    "dummy": "005",
+    "filename": "config/KVS-voc.json",
+    "dummy": "006",
     "type": "raw"
   },
   {
