@@ -1,0 +1,18 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SHOK",
+    "name": "openbare-nutsvoorzieningkasten",
+    "branchtag": "main",
+    "filename": "config/shok-ap.json",
+    "disabled": false,
+    "dummy": "030"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/openbare-nutsvoorzieningkasten",
+    "seealso": "/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03",
+    "type": "ap",
+    "disabled": false,
+    "dummy": "030"
+  }
+]

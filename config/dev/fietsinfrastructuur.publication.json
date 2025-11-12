@@ -1,0 +1,134 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur",
+    "branchtag": "master",
+    "name": "fietsinfrastructuur-ap",
+    "filename": "config/fietsinfrastructuur-ap.json",
+    "navigation": {},
+    "dummy": "03"
+  },
+  {
+    "urlref": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur",
+    "branchtag": "master",
+    "name": "fiets",
+    "filename": "config/fietsinfrastructuur-voc.json",
+    "navigation": {},
+    "dummy": "03"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "fietsinfrastructuur-ap",
+    "filename": "config/fietsinfrastructuur-ap.json",
+    "navigation": {},
+    "dummy": "32",
+    "type": "raw",
+    "directory": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
+    "original": {
+      "urlref": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur",
+      "branchtag": "master",
+      "name": "fietsinfrastructuur-ap",
+      "filename": "config/fietsinfrastructuur-ap.json",
+      "navigation": {},
+      "dummy": "32"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/fietsinfrastructuur",
+    "seealso": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
+    "type": "ap",
+    "dummy": "04"
+  },
+  {
+    "urlref": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "fiets",
+    "filename": "config/fietsinfrastructuur-voc.json",
+    "navigation": {},
+    "dummy": "33",
+    "type": "raw",
+    "directory": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
+    "original": {
+      "urlref": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur",
+      "branchtag": "fiets_26092024",
+      "name": "fiets",
+      "filename": "config/fietsinfrastructuur-voc.json",
+      "navigation": {},
+      "dummy": "33"
+    }
+  },
+  {
+    "urlref": "/ns/fiets",
+    "seealso": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2021-12-17",
+    "type": "voc",
+    "dummy": "33"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur",
+    "branchtag": "master",
+    "name": "fietsinfrastructuur-ap",
+    "filename": "config/fietsinfrastructuur-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2021-12-17"
+    },
+    "dummy": "2025-08-20 07:06:54"
+  },
+  {
+    "urlref": "/doc/vocabularium/fietsinfrastructuur/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur",
+    "branchtag": "master",
+    "name": "fiets",
+    "filename": "config/fietsinfrastructuur-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2021-12-17"
+    },
+    "dummy": "2025-08-20 07:06:54"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur",
+    "branchtag": "master",
+    "name": "fietsinfrastructuur-ap",
+    "filename": "config/fietsinfrastructuur-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2021-12-17"
+    },
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "shaclgenerator": {
+      "parameters": ""
+    },
+    "dummy": "027"
+  },
+  {
+    "urlref": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur",
+    "branchtag": "master",
+    "name": "fiets",
+    "filename": "config/fietsinfrastructuur-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2021-12-17"
+    },
+    "dummy": "027"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/fietsinfrastructuur",
+    "seealso": "/doc/applicatieprofiel/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
+    "type": "ap",
+    "dummy": "027"
+  },
+  {
+    "urlref": "/ns/fiets",
+    "seealso": "/doc/vocabularium/fietsinfrastructuur/kandidaatstandaard/2025-03-05",
+    "type": "voc",
+    "dummy": "027"
+  }
+]

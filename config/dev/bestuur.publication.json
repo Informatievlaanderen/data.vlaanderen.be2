@@ -1,0 +1,42 @@
+[
+  {
+    "urlref": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald",
+    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
+    "branchtag": "production",
+    "name": "bestuur",
+    "dummy": "003",
+    "navigation": {},
+    "type": "raw",
+    "directory": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald",
+    "original": {
+      "urlref": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald",
+      "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
+      "branchtag": "bestuur",
+      "name": "bestuur",
+      "dummy": 1,
+      "navigation": {},
+      "type": "raw"
+    }
+  },
+  {
+    "urlref": "/doc/vocabularium/bestuur",
+    "seealso": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald",
+    "type": "voc"
+  },
+  {
+    "urlref": "/ns/bestuur",
+    "seealso": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald",
+    "type": "voc"
+  },
+  {
+    "urlref": "/doc/vocabularium/bestuur/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
+    "branchtag": "master",
+    "name": "bestuur",
+    "filename": "config/bestuur.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald"
+    },
+    "dummy": "2025-08-19 15:13:37"
+  }
+]

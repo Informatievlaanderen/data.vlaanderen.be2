@@ -1,16 +1,61 @@
 [
   {
     "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiemanagementsystem",
     "name": "energiemanagementsysteem",
     "branchtag": "main",
     "filename": "config/energiemanagementsysteem-ap.json",
-    "dummy": "005"
+    "navigation": {},
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "shaclgenerator": {
+      "parameters": ""
+    },
+    "dummy": "32"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-07-22",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiemanagementsystem",
+    "name": "energiemanagementsysteem",
+    "branchtag": "kandidaat_2025-07-25_v0.1",
+    "filename": "config/energiemanagementsysteem-ap.json",
+    "navigation": {},
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "shaclgenerator": {
+      "parameters": ""
+    },
+    "dummy": "36"
   },
   {
     "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
-    "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14",
+    "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-07-22",
     "type": "ap",
-    "dummy": "005"
+    "dummy": "36"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/kandidaatstandaard/2025-09-30",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiemanagementsystem",
+    "name": "energiemanagementsysteem",
+    "branchtag": "kandidaat_2025-09-30_v0.2",
+    "filename": "config/energiemanagementsysteem-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-07-22"
+    },
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "shaclgenerator": {
+      "parameters": ""
+    },
+    "dummy": "4"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
+    "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/kandidaatstandaard/2025-09-30",
+    "type": "ap",
+    "dummy": "4"
   }
 ]
