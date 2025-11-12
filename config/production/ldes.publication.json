@@ -155,7 +155,7 @@
   {
     "urlref": "/doc/applicatieprofiel/ldes/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-ldes",
-    "branchtag": "master-node-toolchain",
+    "branchtag": "master",
     "name": "OSLO-LDES-ap",
     "filename": "config/OSLO-LDES-ap.json",
     "navigation": {
@@ -166,7 +166,7 @@
   {
     "urlref": "/doc/vocabularium/ldes/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-ldes",
-    "branchtag": "master-node-toolchain",
+    "branchtag": "master",
     "name": "ldes",
     "filename": "config/OSLO-LDES-voc.json",
     "navigation": {
