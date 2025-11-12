@@ -34,7 +34,7 @@
     "eaconverter": {
       "parameters": "--ignoreSkosConcept true"
     },
-    "dummy": "069"
+    "dummy": "070"
   },
   {
     "urlref": "/doc/implementatiemodel/klantvolgsysteem1/resources",
@@ -43,7 +43,17 @@
     "name": "KVS-R1",
     "branchtag": "main",
     "filename": "config/kvs-impl.json",
-    "dummy": "069",
+    "dummy": "070",
+    "type": "raw"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/klantvolgsysteem1/codelijsten",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-KVS",
+    "directory": "/codelijsten",
+    "name": "KVS-R1",
+    "branchtag": "main",
+    "filename": "config/kvs-impl.json",
+    "dummy": "070",
     "type": "raw"
   },
   {
@@ -53,19 +63,19 @@
     "name": "KVS-R1",
     "filename": "config/KVS-voc.json",
     "directory": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2025-11-04",
-    "dummy": "069",
+    "dummy": "070",
     "disabled": false
   },
   {
     "urlref": "/ns/klantvolgsysteem1",
     "seealso": "/doc/vocabularium/klantvolgsysteem1/ontwerpstandaard/2025-11-04",
-    "dummy": "069",
+    "dummy": "070",
     "type": "voc"
   },
   {
     "urlref": "/doc/implementatiemodel/klantvolgsysteem1",
     "seealso": "/doc/implementatiemodel/klantvolgsysteem1/ontwerpstandaard/2025-11-04",
-    "dummy": "069",
+    "dummy": "070",
     "type": "ap"
   }
 ]
