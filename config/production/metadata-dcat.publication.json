@@ -397,7 +397,7 @@
       "prev": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21"
     },
     "dummy": "2",
-    "convertor": {
+    "eaconvertor": {
       "parameters": "--allTags true"
     },
     "webuniversumgenerator": {
@@ -414,7 +414,7 @@
       "prev": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21"
     },
     "dummy": "1",
-    "convertor": {
+    "eaconvertor": {
       "parameters": "--allTags true"
     }
   }
