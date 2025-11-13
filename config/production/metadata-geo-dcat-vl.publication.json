@@ -12,7 +12,8 @@
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
-      "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2022-02-03"
+      "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2022-02-03",
+      "next": "/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/2025-11-13"
     },
     "examples": true,
     "type": "raw",
@@ -54,7 +55,7 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/toolchain4",
+    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/2025-11-13",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
     "branchtag": "master",
     "name": "geodcatap-vlaanderen",
@@ -62,6 +63,6 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
     },
-    "dummy": "2025-08-20 07:32:40"
+    "dummy": "1"
   }
 ]
