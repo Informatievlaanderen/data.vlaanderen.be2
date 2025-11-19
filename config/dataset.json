@@ -2,413 +2,299 @@
   "conceptSchemes": [
     {
       "key": "gebouw",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/gebouw.ttl"
     },
     {
       "key": "adres",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/adres.ttl"
     },
     {
       "key": "besluit",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/besluit.ttl"
     },
     {
       "key": "dienst",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/dienst.ttl"
     },
     {
       "key": "generiek",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/generiek.ttl"
     },
     {
       "key": "mandaat",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/mandaat.ttl"
     },
     {
       "key": "melding",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/melding.ttl"
     },
     {
       "key": "notificatie",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/notificatie.ttl"
     },
     {
       "key": "organisatie",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/organisatie.ttl"
     },
     {
       "key": "openbaardomein",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/openbaardomein.ttl"
     },
     {
       "key": "persoon",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/persoon.ttl"
     },
     {
       "key": "subsidie",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/subsidie.ttl"
     },
     {
       "key": "mobiliteit",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/mobiliteit.ttl"
     },
     {
       "key": "wetgeving",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/wetgeving.ttl"
     },
     {
       "key": "toestemming",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/ns/toestemming.ttl"
     },
     {
       "key": "transactie",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/transactie.ttl"
     },
     {
       "key": "weg",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/weg.ttl"
     },
     {
       "key": "licentie",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/licentie/licenties.ttl"
     },
     {
       "key": "StandaardStatus",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardstatus/standaardstatus.ttl"
     },
     {
       "key": "adresstatus",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/adresstatus.ttl"
     },
     {
       "key": "straatnaamstatus",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/straatnaamstatus.ttl"
     },
     {
       "key": "catalogus",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/config/catalog.ttl"
     },
     {
       "key": "AardWetgeving",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/AardWetgeving.ttl"
     },
     {
       "key": "BoomconditieWaarde",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/BoomConditiewaarde.ttl"
     },
     {
       "key": "BoomvormconditieKlassen",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/BoomvormconditieKlassen.ttl"
     },
     {
       "key": "Contactkanaal",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/Contactkanaal.ttl"
     },
     {
       "key": "DekselVorm",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/DekselVorm.ttl"
     },
     {
       "key": "DrassigheidWaarde",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/DrassigheidWaarde.ttl"
     },
     {
       "key": "Graftypes",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Graftypes.ttl"
     },
     {
       "key": "Groeifasen",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Groeifasen.ttl"
     },
     {
       "key": "MeldingStatuswaarde",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/MeldingStatuswaarde.ttl"
     },
     {
       "key": "Materialen",
-      "type": "file-import",
       "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/master/codelijsten/Materialen.ttl"
     },
     {
       "key": "Nauwkeurigsheidsklassen",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Nauwkeurigsheidsklassen.ttl"
     },
     {
       "key": "Notificatiecategorie",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/Notificatiecategorie.ttl"
     },
     {
       "key": "Nutsvoorzieningscodex",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Nutsvoorzieningscodes.ttl"
     },
     {
       "key": "OplaadpuntStekkertypes",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/OplaadpuntStekkertypes.ttl"
     },
     {
       "key": "Oplaadwijzes",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Oplaadwijzes.ttl"
     },
     {
       "key": "Rioleringscode",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Rioleringscode.ttl"
     },
     {
       "key": "Sorteerfracties",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Sorteerfracties.ttl"
     },
     {
       "key": "SpeelEnSportvoorzieningType",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/SpeelEnSportvoorzieningType.ttl"
     },
     {
       "key": "Straatkolktypes",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Straatkolktypes.ttl"
     },
     {
       "key": "TaludWaarde",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/TaludWaarde.ttl"
     },
     {
       "key": "ToestemmingStatus",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/ToestemmingStatus.ttl"
     },
     {
       "key": "TypeRechtsbrononderdeel",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/TypeRechtsbrononderdeel.ttl"
     },
     {
       "key": "Verstevigingsmaterialen",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Verstevigingsmaterialen.ttl"
     },
     {
       "key": "Vervoersmiddelen",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Vervoersmiddelen.ttl"
     },
     {
       "key": "Verwerkingsgronden",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/Verwerkingsgronden.ttl"
     },
     {
       "key": "Verwerkingstypes",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/Verwerkingstypes.ttl"
     },
     {
       "key": "binairestatus",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/binairestatus.ttl"
     },
     {
       "key": "gebouweenheidfunction",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/gebouweenheidfunction.ttl"
     },
     {
       "key": "gebouweenheidstatus",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/gebouweenheidstatus.ttl"
     },
     {
       "key": "gebouwstatus",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/gebouwstatus.ttl"
     },
     {
       "key": "gemeentestatus",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/gemeentestatus.ttl"
     },
     {
       "key": "geometriemethode",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/geometriemethode.ttl"
     },
     {
       "key": "geometriespecificatie",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/geometriespecificatie.ttl"
     },
     {
       "key": "horizontalereferentie",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/horizontalereferentie.ttl"
     },
     {
       "key": "locatieaanduiding",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/locatieaanduiding.ttl"
     },
     {
       "key": "verticalereferentie",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/verticalereferentie.ttl"
     },
     {
       "key": "dataleverancier",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/dataleverancier.ttl"
     },
     {
       "key": "registerbewerking",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/registerbewerking.ttl"
     },
     {
       "key": "2Dgeometriemethode",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/2Dgeometriemethode.ttl"
     },
     {
       "key": "lblod",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/lokalebesluiten-master/all.nt"
     },
     {
       "key": "wegenenverkeer",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/wegenenverkeer-master/all.ttl"
     },
     {
       "key": "bedrijventerrein",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/bedrijventerrein-master/all.ttl"
     },
     {
       "key": "gebouwEnAdres",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/gebouwEnAdres-master/all.ttl"
     },
     {
       "key": "dienst",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/dienst-master/all.ttl"
     },
     {
       "key": "grb",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/grb-master/all.ttl"
     },
     {
       "key": "metadataDCAT",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/metadataDCAT-master/all.nt"
     },
     {
       "key": "verkeersmetingen",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/verkeersmetingen-main/all.nt"
     },
     {
       "key": "slimmeraadpleegomg",
-      "type": "file-import",
       "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/slimmeraadpleegomgeving-main/all.nt"
     },
     {
       "key": "slimruimtelijkplannen",
-      "type": "file-import",
       "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/slimruimtelijkplannen-main/all.nt"
     },
     {
       "key": "DWM_Plaatstype",
-      "type": "file-import",
       "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/digitalewatermeter-main/all.nt"
     },
     {
       "key": "DWM_Kenmerktype",
-      "type": "file-import",
       "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/digitalewatermeter-main/all.nt"
     },
     {
       "key": "DWM_Metertype",
-      "type": "file-import",
       "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/digitalewatermeter-main/all.nt"
-    },
-    {
-      "key": "DWM_ToebehorenType",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/digitalewatermeter-main/all.nt"
-    },
-    {
-      "key": "MAGDAStatus",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/refs/heads/magda-main/all.nt"
-    },
-    {
-      "key": "energiehuis",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/energiehuis-main/all.nt"
-    },
-    {
-      "key": "StandaardType",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardtype/standaardtype.ttl"
-    },
-    {
-      "key": "StandaardGebruik",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardgebruik/standaardgebruik.ttl"
-    },
-    {
-      "key": "rooilijnplannen",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/rooilijnplannen-main/all.nt"
-    },
-    {
-      "key": "citerra",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/citerra-main/all.nt"
-    },
-    {
-      "key": "domein",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/domein/domein.ttl"
     }
   ]
 }
