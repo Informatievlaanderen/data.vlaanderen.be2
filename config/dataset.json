@@ -295,6 +295,38 @@
     {
       "key": "DWM_Metertype",
       "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/digitalewatermeter-main/all.nt"
+    },
+    {
+      "key": "DWM_ToebehorenType",
+      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/digitalewatermeter-main/all.nt"
+    },
+    {
+      "key": "MAGDAStatus",
+      "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/refs/heads/magda-main/all.nt"
+    },
+    {
+      "key": "energiehuis",
+      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/energiehuis-main/all.nt"
+    },
+    {
+      "key": "StandaardType",
+      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardtype/standaardtype.ttl"
+    },
+    {
+      "key": "StandaardGebruik",
+      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardgebruik/standaardgebruik.ttl"
+    },
+    {
+      "key": "rooilijnplannen",
+      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/rooilijnplannen-main/all.nt"
+    },
+    {
+      "key": "citerra",
+      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/citerra-main/all.nt"
+    },
+    {
+      "key": "domein",
+      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/domein/domein.ttl"
     }
   ]
 }
