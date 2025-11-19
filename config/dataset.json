@@ -327,6 +327,10 @@
     {
       "key": "domein",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/domein/domein.ttl"
+    },
+    {
+      "key": "test/domein",
+      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/domein/domein.ttl"
     }
   ]
 }
