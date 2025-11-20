@@ -58,7 +58,10 @@
     "name": "nutsvoorzieningen",
     "filename": "config/nutsvoorzieningen-voc.json",
     "navigation": {},
-    "dummy": "042"
+    "dummy": "042",
+    "eaconverter": {
+      "parameters": "--ignoreSkosConcept false"
+    }
   },
 
   {
