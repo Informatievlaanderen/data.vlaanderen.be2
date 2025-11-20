@@ -51,7 +51,17 @@
     },
     "dummy": "012"
   },
-    {
+  {
+    "urlref": "/doc/vocabularium/nutsvoorzieningen/ontwerpstandaard/test",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-imkl",
+    "branchtag": "main",
+    "name": "nutsvoorzieningen",
+    "filename": "config/nutsvoorzieningen-voc.json",
+    "navigation": {},
+    "dummy": "042"
+  },
+
+  {
     "urlref": "/doc/applicatieprofiel/kabels-en-leidingen",
     "seealso": "/doc/applicatieprofiel/kabels-en-leidingen/erkendestandaard/2025-02-06",
     "type": "ap",
