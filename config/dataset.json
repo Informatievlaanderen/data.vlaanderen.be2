@@ -331,6 +331,10 @@
     {
       "key": "test/domein",
       "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/domein/domein.ttl"
+    },
+    {
+      "key": "test",
+      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-test/refs/heads/main/codelijsten/codelijst.ttl"
     }
   ]
 }
