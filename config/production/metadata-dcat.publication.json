@@ -177,7 +177,7 @@
     "urlref": "/doc/applicatieprofiel/metadata-dcat/",
     "seealso": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21",
     "type": "ap",
-    "dummy": 1
+    "dummy": 2
   },
   {
     "urlref": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21",
@@ -188,7 +188,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2022-02-03"
     },
-    "dummy": 1,
+    "dummy": 2,
     "type": "raw",
     "directory": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21",
     "original": {
@@ -200,7 +200,7 @@
       "navigation": {
         "prev": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2022-02-03"
       },
-      "dummy": 1
+      "dummy": 2
     }
   },
   {
@@ -385,7 +385,7 @@
     "urlref": "/ns/metadata-dcat/",
     "seealso": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21",
     "type": "voc",
-    "dummy": 1
+    "dummy": 2
   },
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/ontwerpstandaard/2025-09-16",
@@ -396,7 +396,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21"
     },
-    "dummy": "2",
+    "dummy": "3",
     "eaconverter": {
       "parameters": "--allTags true"
     },
@@ -413,7 +413,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21"
     },
-    "dummy": "1",
+    "dummy": "2",
     "eaconverter": {
       "parameters": "--allTags true"
     }
