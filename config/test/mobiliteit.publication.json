@@ -514,16 +514,16 @@
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit",
-    "seealso": "/doc/vocabularium/besluit/kandidaatstandaard/toolchain4",
+    "seealso": "/doc/vocabularium/mobiliteit/kandidaatstandaard/toolchain4",
     "type": "voc"
   },
   {
     "urlref": "/ns/mobiliteit",
-    "seealso": "/doc/vocabularium/besluit/kandidaatstandaard/toolchain4",
+    "seealso": "/doc/vocabularium/mobiliteit/kandidaatstandaard/toolchain4",
     "type": "voc"
   },
   {
-    "urlref": "/doc/vocabularium/besluit/kandidaatstandaard/toolchain4",
+    "urlref": "/doc/vocabularium/mobiliteit/kandidaatstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
     "branchtag": "master",
     "name": "mobiliteit",
