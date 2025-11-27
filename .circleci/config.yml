@@ -755,14 +755,14 @@ workflows:
           requires:
             - expand-links
   # New weekly scheduled workflow
-  weekly_maintenance:
-    triggers:
-      - schedule:
-          cron: "26 20 * * 4" # Run at 4 PM (16:00) every Tuesday
-          filters:
-            branches:
-              only:
-                - dev
-    jobs:
-      - weekly-trigger-all:
-          repoFingerprint: "SHA256:pOYapwEA5OgOMrEPxcwOxnIMQjserWnAmJGaYIYXOEw"
+  # weekly_maintenance:
+  #   triggers:
+  #     - schedule:
+  #         cron: "26 20 * * 4" # Run at 4 PM (16:00) every Tuesday
+  #         filters:
+  #           branches:
+  #             only:
+  #               - dev
+  #   jobs:
+  #     - weekly-trigger-all:
+  #         repoFingerprint: "SHA256:pOYapwEA5OgOMrEPxcwOxnIMQjserWnAmJGaYIYXOEw"
