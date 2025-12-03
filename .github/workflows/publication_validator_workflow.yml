@@ -11,6 +11,10 @@ on:
         description: "Path to configuration directory"
         required: false
         default: "./config"
+      branch:
+        description: "Branch for URI validation statistics"
+        required: false
+        default: "dev"
 
 jobs:
   validate-publications:
@@ -23,27 +27,53 @@ jobs:
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y curl jq
 
-      - name: Make validator script executable
-        run: chmod +x ./scripts/publication-validator.sh
+      - name: Make validator scripts executable
+        run: |
+          chmod +x ./scripts/publication-validator.sh
+          chmod +x ./scripts/validate_uris.sh
 
-      - name: Run validator and save full output
+      - name: Run publication validator and save full output
         run: |
           mkdir -p $RUNNER_TEMP/validation
-          ./scripts/publication-validator.sh ${{ github.event.inputs.config_path || './config' }} 2>&1 | tee $RUNNER_TEMP/validation/full-log.txt
-          # Copy to workspace for artifact upload
-          cp $RUNNER_TEMP/validation/full-log.txt validation-full-log.txt
+          ./scripts/publication-validator.sh ${{ github.event.inputs.config_path || './config' }} 2>&1 | tee $RUNNER_TEMP/validation/publication-validator-full-log.txt
+          cp $RUNNER_TEMP/validation/publication-validator-full-log.txt publication-validator-full-log.txt
 
-      - name: Extract and display validation summary
+      - name: Run URI validator and save full output
+        run: |
+          mkdir -p $RUNNER_TEMP/validation
+          ./scripts/validate_uris.sh ${{ github.event.inputs.branch || 'dev' }} 2>&1 | tee $RUNNER_TEMP/validation/uri-validator-full-log.txt
+          cp $RUNNER_TEMP/validation/uri-validator-full-log.txt uri-validator-full-log.txt
+
+      - name: Extract and display publication validator summary
         run: |
           echo "## Publication Validator Summary" >> $GITHUB_STEP_SUMMARY
-          # Extract everything from the validation summary section
-          sed -n '/======= Validation Summary =======/{:a;p;n;/^$/!ba;}' validation-full-log.txt >> $GITHUB_STEP_SUMMARY
-          # Also output to console
-          sed -n '/======= Validation Summary =======/{:a;p;n;/^$/!ba;}' validation-full-log.txt
+          echo "" >> $GITHUB_STEP_SUMMARY
+          sed -n '/======= Validation Summary =======/{:a;p;n;/^$/!ba;}' publication-validator-full-log.txt >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          sed -n '/===== DETAILED OVERVIEW OF FAILED ENDPOINTS =====/{:a;p;n;/^$/!ba;}' publication-validator-full-log.txt >> $GITHUB_STEP_SUMMARY
 
-      - name: Upload full log as artifact
+          # Also output to console
+          echo "---"
+          sed -n '/======= Validation Summary =======/{:a;p;n;/^$/!ba;}' publication-validator-full-log.txt
+          sed -n '/===== DETAILED OVERVIEW OF FAILED ENDPOINTS =====/{:a;p;n;/^$/!ba;}' publication-validator-full-log.txt
+
+      - name: Extract and display URI validator summary
+        run: |
+          echo "## URI Validator Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Statistics Repository URIs (Branch: ${{ github.event.inputs.branch || 'dev' }})" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          cat uri-validator-full-log.txt >> $GITHUB_STEP_SUMMARY
+
+          # Also output to console
+          echo "---"
+          cat uri-validator-full-log.txt
+
+      - name: Upload full logs as artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: validation-full-log
-          path: validation-full-log.txt
-          retention-days: 2
+          name: validation-full-logs
+          path: |
+            publication-validator-full-log.txt
+            uri-validator-full-log.txt
+          retention-days: 7
