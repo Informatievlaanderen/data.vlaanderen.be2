@@ -8,9 +8,10 @@ GITHUB_RAW_URL="https://raw.githubusercontent.com/Informatievlaanderen/data.vlaa
 CLASS_FILE="aggr.class"
 PROPS_FILE="aggr.props"
 TEMP_DIR="/tmp/uri-validation"
+CACHE_DIR="${TEMP_DIR}/cache"
 
 # Create temp directory
-mkdir -p "${TEMP_DIR}"
+mkdir -p "${TEMP_DIR}" "${CACHE_DIR}"
 
 echo "URI Validation Script"
 echo "Branch: ${BRANCH}"
@@ -36,6 +37,7 @@ passed_count=0
 failed_count=0
 failed_uris=()
 passed_uris=()
+skipped_count=0
 
 # Function to validate anchor in RDF/TTL content
 validate_anchor_in_content() {
@@ -47,6 +49,29 @@ validate_anchor_in_content() {
     else
         return 1
     fi
+}
+
+# Function to get base URL content with caching
+get_cached_content() {
+    local base_uri=$1
+    local cache_key=$(echo "${base_uri}" | md5sum | awk '{print $1}')
+    local cache_file="${CACHE_DIR}/${cache_key}"
+    
+    # Check if content is already cached
+    if [ -f "${cache_file}" ]; then
+        cat "${cache_file}"
+        return 0
+    fi
+    
+    # Fetch and cache
+    local content=$(curl -L -s "${base_uri}" 2>/dev/null)
+    if [ -n "${content}" ]; then
+        echo "${content}" > "${cache_file}"
+        echo "${content}"
+        return 0
+    fi
+    
+    return 1
 }
 
 # Function to validate URIs from a file
@@ -63,7 +88,7 @@ validate_uris_from_file() {
     
     # Extract unique assignedURIs from JSON array of objects
     local uris=$(jq -r '.[].assignedURI' "${file}" 2>/dev/null | sort | uniq)
-    local total=$(echo "${uris}" | grep -c . || echo 0)
+    local total=$(echo "${uris}" | wc -l)
     
     echo "Found ${total} unique URIs"
     echo ""
@@ -73,31 +98,22 @@ validate_uris_from_file() {
         
         # Skip URIs that don't contain .vlaanderen.be
         if [[ "${uri}" != *".vlaanderen.be"* ]]; then
+            skipped_count=$((skipped_count + 1))
             continue
         fi
         
-        # Check to see if the uri is available. We will check the anchor later. ANchor can be wrong but publication could be done correct
-        local status_code=$(curl -Lo /dev/null -s -w "%{http_code}\n" "${uri}")
-        if [ "${status_code}" -ne 200 ]; then
-            echo "[FAIL] ${uri} (publication not found)"
-            failed_uris+=("${uri}")
-            failed_count=$((failed_count + 1))
-        fi
-
-
         # Check if URI has an anchor fragment
-        if [[ "${uri}" == *"#"* ]] && [ "${status_code}" -eq 200 ]; then
+        if [[ "${uri}" == *"#"* ]]; then
             base_uri="${uri%#*}"
             anchor="${uri##*#}"
             
-            # Fetch base URL content
-            local content=$(curl -L -s "${base_uri}" 2>/dev/null)
-            local base_status=$?
+            # Fetch base URL content with caching
+            local content=$(get_cached_content "${base_uri}")
+            local fetch_status=$?
             
-            if [ ${base_status} -eq 0 ] && [ -n "${content}" ]; then
+            if [ ${fetch_status} -eq 0 ] && [ -n "${content}" ]; then
                 if validate_anchor_in_content "${anchor}" "${content}"; then
                     echo "[PASS] ${uri}"
-                    
                     passed_uris+=("${uri}")
                     passed_count=$((passed_count + 1))
                 else
@@ -110,11 +126,17 @@ validate_uris_from_file() {
                 failed_uris+=("${uri}")
                 failed_count=$((failed_count + 1))
             fi
-        else    
+        else
+            local status_code=$(curl -L -o /dev/null -s -w "%{http_code}" "${uri}" 2>/dev/null)
+            
             if [ "${status_code}" -eq 200 ] || [ "${status_code}" -eq 302 ] || [ "${status_code}" -eq 301 ]; then
                 echo "[PASS] ${uri}"
                 passed_uris+=("${uri}")
                 passed_count=$((passed_count + 1))
+            else
+                echo "[FAIL] ${uri} (HTTP ${status_code})"
+                failed_uris+=("${uri}")
+                failed_count=$((failed_count + 1))
             fi
         fi
     done <<< "${uris}"
@@ -130,6 +152,8 @@ validate_uris_from_file "${TEMP_DIR}/${PROPS_FILE}" "Properties"
 echo "Validation Summary"
 echo "Passed: ${passed_count}"
 echo "Failed: ${failed_count}"
+echo "Skipped (not .vlaanderen.be): ${skipped_count}"
+echo "Cache files: $(find "${CACHE_DIR}" -type f | wc -l)"
 echo ""
 
 # Display failed URIs if any
@@ -149,6 +173,7 @@ REPORT_FILE="${TEMP_DIR}/validation-report.txt"
     echo "Summary:"
     echo "  Passed: ${passed_count}"
     echo "  Failed: ${failed_count}"
+    echo "  Skipped: ${skipped_count}"
     echo ""
     
     if [ ${#failed_uris[@]} -gt 0 ]; then
