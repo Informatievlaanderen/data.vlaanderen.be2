@@ -4,7 +4,6 @@
     "branchtag": "master",
     "name": "weg",
     "filename": "config/weg2.json",
-    "navigation": {
-    },
+    "navigation": {},
     "dummy": "001"
   }
