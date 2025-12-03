@@ -42,31 +42,38 @@ skipped_count=0
 # Function to validate anchor in RDF/TTL content
 validate_anchor_in_content() {
     local anchor=$1
-    local cache_file=$2
+    local content=$2
     
-    grep -qE "(${anchor}|<[^>]*#${anchor}>|:[[:space:]]*${anchor}[[:space:]])" "${cache_file}"
+    if echo "${content}" | grep -qE "(${anchor}|<[^>]*#${anchor}>|:[[:space:]]*${anchor}[[:space:]])" ; then
+        return 0
+    else
+        return 1
+    fi
 }
 
 # Function to get base URL content with caching
 get_cached_content() {
     local base_uri=$1
-    local cache_key=$(echo -n "${base_uri}" | md5sum | awk '{print $1}')
+    local cache_key=$(echo "${base_uri}" | md5sum | awk '{print $1}')
     local cache_file="${CACHE_DIR}/${cache_key}"
     
     # Check if content is already cached
     if [ -f "${cache_file}" ]; then
-        echo "${cache_file}"
+        cat "${cache_file}" 2>/dev/null || true
         return 0
     fi
     
     # Fetch and cache
-    if curl -L -s "${base_uri}" -o "${cache_file}" 2>/dev/null && [ -s "${cache_file}" ]; then
-        echo "${cache_file}"
+    local content
+    content=$(curl -L -s "${base_uri}" 2>/dev/null) || true
+    
+    if [ -n "${content}" ]; then
+        echo "${content}" > "${cache_file}" 2>/dev/null || true
+        echo "${content}"
         return 0
-    else
-        rm -f "${cache_file}"
-        return 1
     fi
+    
+    return 1
 }
 
 # Function to validate URIs from a file
@@ -86,6 +93,7 @@ validate_uris_from_file() {
     local total=$(echo "${uris}" | wc -l)
     
     echo "Found ${total} unique URIs"
+    echo ""
     
     while IFS= read -r uri; do
         [ -z "${uri}" ] && continue
@@ -102,20 +110,19 @@ validate_uris_from_file() {
             anchor="${uri##*#}"
             
             # Fetch base URL content with caching
-            local cache_file
-            cache_file=$(get_cached_content "${base_uri}")
+            local content=$(get_cached_content "${base_uri}" 2>/dev/null)
             local fetch_status=$?
             
-            if [ ${fetch_status} -eq 0 ] && [ -f "${cache_file}" ]; then
-                if validate_anchor_in_content "${anchor}" "${cache_file}"; then
+            if [ ${fetch_status} -eq 0 ] && [ -n "${content}" ]; then
+                if validate_anchor_in_content "${anchor}" "${content}"; then
                     passed_uris+=("${uri}")
                     passed_count=$((passed_count + 1))
                 else
-                    failed_uris+=("${uri} (anchor not found)")
+                    failed_uris+=("${uri}")
                     failed_count=$((failed_count + 1))
                 fi
             else
-                failed_uris+=("${uri} (base URL failed)")
+                failed_uris+=("${uri}")
                 failed_count=$((failed_count + 1))
             fi
         else
@@ -125,7 +132,7 @@ validate_uris_from_file() {
                 passed_uris+=("${uri}")
                 passed_count=$((passed_count + 1))
             else
-                failed_uris+=("${uri} (HTTP ${status_code})")
+                failed_uris+=("${uri}")
                 failed_count=$((failed_count + 1))
             fi
         fi
@@ -139,13 +146,11 @@ validate_uris_from_file "${TEMP_DIR}/${CLASS_FILE}" "Classes"
 validate_uris_from_file "${TEMP_DIR}/${PROPS_FILE}" "Properties"
 
 # Summary
-echo "========================================"
 echo "Validation Summary"
-echo "========================================"
 echo "Passed: ${passed_count}"
 echo "Failed: ${failed_count}"
 echo "Skipped (not .vlaanderen.be): ${skipped_count}"
-echo "Cache files: $(find "${CACHE_DIR}" -type f 2>/dev/null | wc -l)"
+echo "Cache files: $(find "${CACHE_DIR}" -type f | wc -l)"
 echo ""
 
 # Display failed URIs if any
