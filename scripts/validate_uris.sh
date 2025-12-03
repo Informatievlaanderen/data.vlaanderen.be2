@@ -59,14 +59,16 @@ get_cached_content() {
     
     # Check if content is already cached
     if [ -f "${cache_file}" ]; then
-        cat "${cache_file}"
+        cat "${cache_file}" 2>/dev/null || true
         return 0
     fi
     
     # Fetch and cache
-    local content=$(curl -L -s "${base_uri}" 2>/dev/null)
+    local content
+    content=$(curl -L -s "${base_uri}" 2>/dev/null) || true
+    
     if [ -n "${content}" ]; then
-        echo "${content}" > "${cache_file}"
+        echo "${content}" > "${cache_file}" 2>/dev/null || true
         echo "${content}"
         return 0
     fi
@@ -108,7 +110,7 @@ validate_uris_from_file() {
             anchor="${uri##*#}"
             
             # Fetch base URL content with caching
-            local content=$(get_cached_content "${base_uri}")
+            local content=$(get_cached_content "${base_uri}" 2>/dev/null)
             local fetch_status=$?
             
             if [ ${fetch_status} -eq 0 ] && [ -n "${content}" ]; then
