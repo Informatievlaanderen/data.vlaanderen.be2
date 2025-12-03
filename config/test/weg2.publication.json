@@ -1,3 +1,4 @@
+[  
   {
     "urlref": "/doc/vocabularium/weg/ontwerpstandaard/2026-01-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-weg",
@@ -6,4 +7,5 @@
     "filename": "config/weg2.json",
     "navigation": {},
     "dummy": "001"
-  }
+  } 
+]
