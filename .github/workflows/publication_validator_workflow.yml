@@ -32,11 +32,11 @@ jobs:
           chmod +x ./scripts/publication-validator.sh
           chmod +x ./scripts/validate_uris.sh
 
-      # - name: Run publication validator and save full output
-      #   run: |
-      #     mkdir -p $RUNNER_TEMP/validation
-      #     ./scripts/publication-validator.sh ${{ github.event.inputs.config_path || './config' }} 2>&1 | tee $RUNNER_TEMP/validation/publication-validator-full-log.txt
-      #     cp $RUNNER_TEMP/validation/publication-validator-full-log.txt publication-validator-full-log.txt
+      - name: Run publication validator and save full output
+        run: |
+          mkdir -p $RUNNER_TEMP/validation
+          ./scripts/publication-validator.sh ${{ github.event.inputs.config_path || './config' }} 2>&1 | tee $RUNNER_TEMP/validation/publication-validator-full-log.txt
+          cp $RUNNER_TEMP/validation/publication-validator-full-log.txt publication-validator-full-log.txt
 
       - name: Run URI validator and save full output
         run: |
@@ -44,18 +44,18 @@ jobs:
           ./scripts/validate_uris.sh ${{ github.event.inputs.branch || 'dev' }} 2>&1 | tee $RUNNER_TEMP/validation/uri-validator-full-log.txt
           cp $RUNNER_TEMP/validation/uri-validator-full-log.txt uri-validator-full-log.txt
 
-      # - name: Extract and display publication validator summary
-      #   run: |
-      #     echo "## Publication Validator Summary" >> $GITHUB_STEP_SUMMARY
-      #     echo "" >> $GITHUB_STEP_SUMMARY
-      #     sed -n '/======= Validation Summary =======/{:a;p;n;/^$/!ba;}' publication-validator-full-log.txt >> $GITHUB_STEP_SUMMARY
-      #     echo "" >> $GITHUB_STEP_SUMMARY
-      #     sed -n '/===== DETAILED OVERVIEW OF FAILED ENDPOINTS =====/{:a;p;n;/^$/!ba;}' publication-validator-full-log.txt >> $GITHUB_STEP_SUMMARY
+      - name: Extract and display publication validator summary
+        run: |
+          echo "## Publication Validator Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          sed -n '/======= Validation Summary =======/{:a;p;n;/^$/!ba;}' publication-validator-full-log.txt >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          sed -n '/===== DETAILED OVERVIEW OF FAILED ENDPOINTS =====/{:a;p;n;/^$/!ba;}' publication-validator-full-log.txt >> $GITHUB_STEP_SUMMARY
 
-      #     # Also output to console
-      #     echo "---"
-      #     sed -n '/======= Validation Summary =======/{:a;p;n;/^$/!ba;}' publication-validator-full-log.txt
-      #     sed -n '/===== DETAILED OVERVIEW OF FAILED ENDPOINTS =====/{:a;p;n;/^$/!ba;}' publication-validator-full-log.txt
+          # Also output to console
+          echo "---"
+          sed -n '/======= Validation Summary =======/{:a;p;n;/^$/!ba;}' publication-validator-full-log.txt
+          sed -n '/===== DETAILED OVERVIEW OF FAILED ENDPOINTS =====/{:a;p;n;/^$/!ba;}' publication-validator-full-log.txt
 
       - name: Extract and display URI validator summary
         run: |
