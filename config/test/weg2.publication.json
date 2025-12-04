@@ -1,11 +1,20 @@
 [
   {
-    "urlref": "/doc/vocabularium/weg/ontwerpstandaard/2026-01-01",
+    "urlref": "/doc/vocabularium/netwerk/ontwerpstandaard/2026-01-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-weg",
     "branchtag": "master",
-    "name": "weg",
+    "name": "netwerk",
     "filename": "config/weg2.json",
     "navigation": {},
-    "dummy": "013"
+    "dummy": "014"
+  },
+  {
+    "urlref": "/doc/vocabularium/transportnetwerk/ontwerpstandaard/2026-01-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-weg",
+    "branchtag": "master",
+    "name": "transportnetwerk",
+    "filename": "config/weg2.json",
+    "navigation": {},
+    "dummy": "014"
   }
 ]
