@@ -2,8 +2,8 @@ name: Publication Validator
 
 on:
   schedule:
-    # Run at 1:00 PM UTC every Tuesday
-    - cron: "0 13 * * 2"
+    # Run at 10:00 AM UTC every Tuesday
+    - cron: "0 10 * * 2"
   # Allow manual triggering with parameters
   workflow_dispatch:
     inputs:
@@ -14,6 +14,7 @@ on:
 
 jobs:
   validate-publications:
+    if: github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/test' || github.ref == 'refs/heads/production'
     runs-on: ubuntu-latest
 
     steps:
