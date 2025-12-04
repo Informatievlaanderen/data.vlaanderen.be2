@@ -44,11 +44,14 @@ validate_anchor_in_content() {
     local anchor=$1
     local content=$2
     
-    if echo "${content}" | grep -qE "(${anchor}|<[^>]*#${anchor}>|:[[:space:]]*${anchor}[[:space:]])" ; then
-        return 0
-    else
-        return 1
-    fi
+    case "${content}" in
+        *"${anchor}"* | *"#${anchor}"* | *": ${anchor} "* | *":${anchor} "* | *": ${anchor}"* | *":${anchor}"*)
+            return 0
+            ;;
+        *)
+            return 1
+            ;;
+    esac
 }
 
 # Function to get base URL content with caching
