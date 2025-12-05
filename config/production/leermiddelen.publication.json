@@ -33,19 +33,19 @@
     "urlref": "/doc/applicatieprofiel/leermiddelen",
     "seealso": "/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "ap",
-    "dummy": "026"
+    "dummy": "027"
   },
   {
     "urlref": "/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
-    "branchtag": "kandidaat_2025-08-01_v0.1.7",
+    "branchtag": "kandidaat_2025-08-01_v0.2",
     "name": "leermiddelen",
     "filename": "config/leermiddelen-ap.json",
     "directory": "/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
     "navigation": {
       "prev": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-03-21"
     },
-    "dummy": "25"
+    "dummy": "26"
   },
   {
     "urlref": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
