@@ -16,5 +16,14 @@
     "filename": "config/weg2.json",
     "navigation": {},
     "dummy": "015"
+  },
+  {
+    "urlref": "/doc/vocabularium/weg/ontwerpstandaard/2026-01-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-weg",
+    "branchtag": "master",
+    "name": "weg",
+    "filename": "config/weg2.json",
+    "navigation": {},
+    "dummy": "015"
   }
 ]
