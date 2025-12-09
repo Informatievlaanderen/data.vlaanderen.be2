@@ -1,78 +1,6 @@
 {
   "conceptSchemes": [
     {
-      "urlRef": "gebouw",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/gebouw.ttl"
-    },
-    {
-      "urlRef": "adres",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/adres.ttl"
-    },
-    {
-      "urlRef": "besluit",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/besluit.ttl"
-    },
-    {
-      "urlRef": "dienst",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/dienst.ttl"
-    },
-    {
-      "urlRef": "generiek",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/generiek.ttl"
-    },
-    {
-      "urlRef": "mandaat",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/mandaat.ttl"
-    },
-    {
-      "urlRef": "melding",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/melding.ttl"
-    },
-    {
-      "urlRef": "notificatie",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/notificatie.ttl"
-    },
-    {
-      "urlRef": "organisatie",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/organisatie.ttl"
-    },
-    {
-      "urlRef": "openbaardomein",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/openbaardomein.ttl"
-    },
-    {
-      "urlRef": "persoon",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/persoon.ttl"
-    },
-    {
-      "urlRef": "subsidie",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/subsidie.ttl"
-    },
-    {
-      "urlRef": "mobiliteit",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/mobiliteit.ttl"
-    },
-    {
-      "urlRef": "wetgeving",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/wetgeving.ttl"
-    },
-    {
-      "urlRef": "toestemming",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/ns/toestemming.ttl"
-    },
-    {
-      "urlRef": "transactie",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/transactie.ttl"
-    },
-    {
-      "urlRef": "weg",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/weg.ttl"
-    },
-    {
-      "urlRef": "licentie",
-      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/licentie/licenties.ttl"
-    },
-    {
       "urlRef": "StandaardStatus",
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardstatus/standaardstatus.ttl"
     },
@@ -85,10 +13,6 @@
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/straatnaamstatus.ttl"
     },
     {
-      "urlRef": "catalogus",
-      "sourceUrl": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/config/catalog.ttl"
-    },
-    {
       "urlRef": "AardWetgeving",
       "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/AardWetgeving.ttl"
     },
@@ -99,10 +23,6 @@
     {
       "urlRef": "BoomvormconditieKlassen",
       "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/BoomvormconditieKlassen.ttl"
-    },
-    {
-      "urlRef": "Contactkanaal",
-      "sourceUrl": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/Contactkanaal.ttl"
     },
     {
       "urlRef": "DekselVorm",
@@ -121,20 +41,12 @@
       "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Groeifasen.ttl"
     },
     {
-      "urlRef": "MeldingStatuswaarde",
-      "sourceUrl": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/MeldingStatuswaarde.ttl"
-    },
-    {
       "urlRef": "Materialen",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/master/codelijsten/Materialen.ttl"
     },
     {
       "urlRef": "Nauwkeurigsheidsklassen",
       "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Nauwkeurigsheidsklassen.ttl"
-    },
-    {
-      "urlRef": "Notificatiecategorie",
-      "sourceUrl": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/Notificatiecategorie.ttl"
     },
     {
       "urlRef": "Nutsvoorzieningscodex",
@@ -162,19 +74,11 @@
     },
     {
       "urlRef": "Straatkolktypes",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Straatkolktypes.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/master/codelijsten/Straatkolktypes.ttl"
     },
     {
       "urlRef": "TaludWaarde",
       "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/TaludWaarde.ttl"
-    },
-    {
-      "urlRef": "ToestemmingStatus",
-      "sourceUrl": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/ToestemmingStatus.ttl"
-    },
-    {
-      "urlRef": "TypeRechtsbrononderdeel",
-      "sourceUrl": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/TypeRechtsbrononderdeel.ttl"
     },
     {
       "urlRef": "Verstevigingsmaterialen",
@@ -183,14 +87,6 @@
     {
       "urlRef": "Vervoersmiddelen",
       "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Vervoersmiddelen.ttl"
-    },
-    {
-      "urlRef": "Verwerkingsgronden",
-      "sourceUrl": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/Verwerkingsgronden.ttl"
-    },
-    {
-      "urlRef": "Verwerkingstypes",
-      "sourceUrl": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/Verwerkingstypes.ttl"
     },
     {
       "urlRef": "binairestatus",
@@ -247,10 +143,6 @@
     {
       "urlRef": "lblod",
       "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/lokalebesluiten-master/all.nt"
-    },
-    {
-      "urlRef": "wegenenverkeer",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/wegenenverkeer-master/all.ttl"
     },
     {
       "urlRef": "bedrijventerrein",
@@ -327,14 +219,6 @@
     {
       "urlRef": "domein",
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/domein/domein.ttl"
-    },
-    {
-      "urlRef": "test/domein",
-      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/domein/domein.ttl"
-    },
-    {
-      "urlRef": "test",
-      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-test/refs/heads/main/codelijsten/codelijst.ttl"
     }
   ]
 }
