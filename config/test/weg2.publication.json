@@ -6,7 +6,7 @@
     "name": "netwerk",
     "filename": "config/weg2.json",
     "navigation": {},
-    "dummy": "025"
+    "dummy": "026"
   },
   {
     "urlref": "/doc/vocabularium/transportnetwerk/ontwerpstandaard/2026-01-01",
@@ -15,7 +15,7 @@
     "name": "transportnetwerk",
     "filename": "config/weg2.json",
     "navigation": {},
-    "dummy": "025"
+    "dummy": "026"
   },
   {
     "urlref": "/doc/vocabularium/weg/ontwerpstandaard/2026-01-01",
@@ -24,7 +24,7 @@
     "name": "weg",
     "filename": "config/weg2.json",
     "navigation": {},
-    "dummy": "025"
+    "dummy": "026"
   },
   {
     "urlref": "/doc/applicatieprofiel/wegennetwerk/ontwerpstandaard/2026-01-01",
@@ -36,6 +36,6 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "025"
+    "dummy": "026"
   }
 ]
