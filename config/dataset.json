@@ -1,414 +1,496 @@
 {
   "conceptSchemes": [
     {
-      "key": "gebouw",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/gebouw.ttl"
+      "urlRef": "StandaardStatus",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardstatus/standaardstatus.ttl"
     },
     {
-      "key": "adres",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/adres.ttl"
+      "urlRef": "adresstatus",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/adresstatus.ttl"
     },
     {
-      "key": "besluit",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/besluit.ttl"
+      "urlRef": "straatnaamstatus",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/straatnaamstatus.ttl"
     },
     {
-      "key": "dienst",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/dienst.ttl"
+      "urlRef": "AardWetgeving",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/AardWetgeving.ttl"
     },
     {
-      "key": "generiek",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/generiek.ttl"
+      "urlRef": "BoomConditiewaarde",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/BoomConditiewaarde.ttl"
     },
     {
-      "key": "mandaat",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/mandaat.ttl"
+      "urlRef": "BoomvormconditieKlassen",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/BoomvormconditieKlassen.ttl"
     },
     {
-      "key": "melding",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/melding.ttl"
+      "urlRef": "DekselVorm",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/DekselVorm.ttl"
     },
     {
-      "key": "notificatie",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/notificatie.ttl"
+      "urlRef": "DrassigheidWaarde",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/DrassigheidWaarde.ttl"
     },
     {
-      "key": "organisatie",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/organisatie.ttl"
+      "urlRef": "Graftypes",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Graftypes.ttl"
     },
     {
-      "key": "openbaardomein",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/openbaardomein.ttl"
+      "urlRef": "Groeifasen",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Groeifasen.ttl"
     },
     {
-      "key": "persoon",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/persoon.ttl"
+      "urlRef": "Materialen",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/master/codelijsten/Materialen.ttl"
     },
     {
-      "key": "subsidie",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/subsidie.ttl"
+      "urlRef": "Nauwkeurigsheidsklassen",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Nauwkeurigsheidsklassen.ttl"
     },
     {
-      "key": "mobiliteit",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/mobiliteit.ttl"
+      "urlRef": "Nutsvoorzieningscodes",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Nutsvoorzieningscodes.ttl"
     },
     {
-      "key": "wetgeving",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/wetgeving.ttl"
+      "urlRef": "OplaadpuntStekkertypes",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/OplaadpuntStekkertypes.ttl"
     },
     {
-      "key": "toestemming",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/ns/toestemming.ttl"
+      "urlRef": "Oplaadwijzes",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Oplaadwijzes.ttl"
     },
     {
-      "key": "transactie",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/transactie.ttl"
+      "urlRef": "Rioleringscode",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Rioleringscode.ttl"
     },
     {
-      "key": "weg",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/test/ns/weg.ttl"
+      "urlRef": "Sorteerfracties",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Sorteerfracties.ttl"
     },
     {
-      "key": "licentie",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/licentie/licenties.ttl"
+      "urlRef": "SpeelEnSportvoorzieningType",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/SpeelEnSportvoorzieningType.ttl"
     },
     {
-      "key": "StandaardStatus",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardstatus/standaardstatus.ttl"
+      "urlRef": "Straatkolktypes",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/master/codelijsten/Straatkolktypes.ttl"
     },
     {
-      "key": "adresstatus",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/adresstatus.ttl"
+      "urlRef": "TaludWaarde",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/TaludWaarde.ttl"
     },
     {
-      "key": "straatnaamstatus",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/straatnaamstatus.ttl"
+      "urlRef": "Verstevigingsmaterialen",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Verstevigingsmaterialen.ttl"
     },
     {
-      "key": "catalogus",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/config/catalog.ttl"
+      "urlRef": "Vervoersmiddelen",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Vervoersmiddelen.ttl"
     },
     {
-      "key": "AardWetgeving",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/AardWetgeving.ttl"
+      "urlRef": "binairestatus",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/binairestatus.ttl"
     },
     {
-      "key": "BoomconditieWaarde",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/BoomConditiewaarde.ttl"
+      "urlRef": "gebouweenheidfunctie",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/gebouweenheidfunction.ttl"
     },
     {
-      "key": "BoomvormconditieKlassen",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/BoomvormconditieKlassen.ttl"
+      "urlRef": "gebouweenheidstatus",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/gebouweenheidstatus.ttl"
     },
     {
-      "key": "Contactkanaal",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/Contactkanaal.ttl"
+      "urlRef": "gebouwstatus",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/gebouwstatus.ttl"
     },
     {
-      "key": "DekselVorm",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/DekselVorm.ttl"
+      "urlRef": "gemeentestatus",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/gemeentestatus.ttl"
     },
     {
-      "key": "DrassigheidWaarde",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/DrassigheidWaarde.ttl"
+      "urlRef": "geometriemethode",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/geometriemethode.ttl"
     },
     {
-      "key": "Graftypes",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Graftypes.ttl"
+      "urlRef": "geometriespecificatie",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/geometriespecificatie.ttl"
     },
     {
-      "key": "Groeifasen",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Groeifasen.ttl"
+      "urlRef": "horizontalereferentie",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/horizontalereferentie.ttl"
     },
     {
-      "key": "MeldingStatuswaarde",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/MeldingStatuswaarde.ttl"
+      "urlRef": "locatieaanduiding",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/locatieaanduiding.ttl"
     },
     {
-      "key": "Materialen",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-openbaardomein/master/codelijsten/Materialen.ttl"
+      "urlRef": "verticalereferentie",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/verticalereferentie.ttl"
     },
     {
-      "key": "Nauwkeurigsheidsklassen",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Nauwkeurigsheidsklassen.ttl"
+      "urlRef": "dataleverancier",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/dataleverancier.ttl"
     },
     {
-      "key": "Notificatiecategorie",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/Notificatiecategorie.ttl"
+      "urlRef": "registerbewerking",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/registerbewerking.ttl"
     },
     {
-      "key": "Nutsvoorzieningscodex",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Nutsvoorzieningscodes.ttl"
+      "urlRef": "2Dgeometriemethode",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/2Dgeometriemethode.ttl"
     },
     {
-      "key": "OplaadpuntStekkertypes",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/OplaadpuntStekkertypes.ttl"
+      "urlRef": "BesluitType",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/refs/heads/master/codelijsten/besluit-type.ttl"
     },
     {
-      "key": "Oplaadwijzes",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Oplaadwijzes.ttl"
+      "urlRef": "BestuurseenheidClassificatieCode",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/refs/heads/master/codelijsten/bestuurseenheid-classificatie-code.ttl"
     },
     {
-      "key": "Rioleringscode",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Rioleringscode.ttl"
+      "urlRef": "BestuursfunctieCode",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/refs/heads/master/codelijsten/bestuursfunctie-code.ttl"
     },
     {
-      "key": "Sorteerfracties",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Sorteerfracties.ttl"
+      "urlRef": "BestuursorgaanClassificatieCode",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/refs/heads/master/codelijsten/bestuursorgaan-classificatie-code.ttl"
     },
     {
-      "key": "SpeelEnSportvoorzieningType",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/SpeelEnSportvoorzieningType.ttl"
+      "urlRef": "BesluitDocumentType",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/refs/heads/master/codelijsten/document-type.ttl"
     },
     {
-      "key": "Straatkolktypes",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Straatkolktypes.ttl"
+      "urlRef": "Fractietype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/refs/heads/master/codelijsten/fractietype.ttl"
     },
     {
-      "key": "TaludWaarde",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/TaludWaarde.ttl"
+      "urlRef": "functionarisStatusCode",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/refs/heads/master/codelijsten/functionaris-status-code.ttl"
     },
     {
-      "key": "ToestemmingStatus",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/ToestemmingStatus.ttl"
+      "urlRef": "MandatarisStatusCode",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/refs/heads/master/codelijsten/mandataris-status-code.ttl"
     },
     {
-      "key": "TypeRechtsbrononderdeel",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/TypeRechtsbrononderdeel.ttl"
+      "urlRef": "RepresentatiefOrgaanClassificatieCode",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/refs/heads/master/codelijsten/representatief-orgaan.ttl"
     },
     {
-      "key": "Verstevigingsmaterialen",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Verstevigingsmaterialen.ttl"
+      "urlRef": "Verkeersbordcategorie",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/refs/heads/master/codelijsten/roadsign-categories.ttl"
     },
     {
-      "key": "Vervoersmiddelen",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Vervoersmiddelen.ttl"
+      "urlRef": "Verkeerstekenontwerpstatus",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/refs/heads/master/codelijsten/verkeersbordontwerpstatus.ttl"
     },
     {
-      "key": "Verwerkingsgronden",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/Verwerkingsgronden.ttl"
+      "urlRef": "VerkiezingsresultaatGevolgCode",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/refs/heads/master/codelijsten/verkiezingsresultaat-gevolg-code.ttl"
     },
     {
-      "key": "Verwerkingstypes",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/Data.Vlaanderen.be/raw/test/site-skeleton/doc/conceptscheme/Verwerkingstypes.ttl"
+      "urlRef": "BedrijventerreinperceelBebouwing",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/bron-bedrijventerreinen/refs/heads/master/codelijsten/BedrijventerreinBebouwing.ttl"
     },
     {
-      "key": "binairestatus",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/binairestatus.ttl"
+      "urlRef": "BedrijventerreinperceelInGebruik",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/bron-bedrijventerreinen/refs/heads/master/codelijsten/BedrijventerreinInGebruik.ttl"
     },
     {
-      "key": "gebouweenheidfunction",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/gebouweenheidfunction.ttl"
+      "urlRef": "BedrijventerreinperceelRuimtelijkeEenheidtype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/bron-bedrijventerreinen/refs/heads/master/codelijsten/BedrijventerreinRuimtelijkeEenheidtype.ttl"
     },
     {
-      "key": "gebouweenheidstatus",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/gebouweenheidstatus.ttl"
+      "urlRef": "BedrijventerreinperceelBeperking",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/bron-bedrijventerreinen/refs/heads/master/codelijsten/BedrijventerreinperceelBeperking.ttl"
     },
     {
-      "key": "gebouwstatus",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/gebouwstatus.ttl"
+      "urlRef": "BedrijventerreinperceelBeschikbaarheid",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/bron-bedrijventerreinen/refs/heads/master/codelijsten/BedrijventerreinperceelBeschikbaarheid.ttl"
     },
     {
-      "key": "gemeentestatus",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/gemeentestatus.ttl"
+      "urlRef": "BedrijventerreinperceelFunctie",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/bron-bedrijventerreinen/refs/heads/master/codelijsten/BedrijventerreinperceelFunctie.ttl"
     },
     {
-      "key": "geometriemethode",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/geometriemethode.ttl"
+      "urlRef": "OntwikkelbareBedrijvenzoneOntwikkelingsstatus",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/bron-bedrijventerreinen/refs/heads/master/codelijsten/BedrijvenzoneOntwikkelingsstatus.ttl"
     },
     {
-      "key": "geometriespecificatie",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/geometriespecificatie.ttl"
+      "urlRef": "RuimtelijkeEenheidOppervlaktetype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/bron-bedrijventerreinen/refs/heads/master/codelijsten/RuimtelijkeEenheidOppervlaktetype.ttl"
     },
     {
-      "key": "horizontalereferentie",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/horizontalereferentie.ttl"
+      "urlRef": "perceelstatus",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/refs/heads/master/codelijsten/perceelstatus.ttl"
     },
     {
-      "key": "locatieaanduiding",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/locatieaanduiding.ttl"
+      "urlRef": "postinfostatus",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/refs/heads/master/codelijsten/postinfostatus.ttl"
     },
     {
-      "key": "verticalereferentie",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/verticalereferentie.ttl"
+      "urlRef": "StatusEDRL",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/refs/heads/master/codelijsten/StatusEDRL.ttl"
     },
     {
-      "key": "dataleverancier",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/dataleverancier.ttl"
+      "urlRef": "StatusVlaamseCode",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/refs/heads/master/codelijsten/StatusVlaamseCode.ttl"
     },
     {
-      "key": "registerbewerking",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/registerbewerking.ttl"
+      "urlRef": "StatusVlaamseFase",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-dienst/refs/heads/master/codelijsten/StatusVlaamseFase.ttl"
     },
     {
-      "key": "2Dgeometriemethode",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/adressenregister/2Dgeometriemethode.ttl"
+      "urlRef": "AnomalieOorzaak",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/AnomalieOorzaak.ttl"
     },
     {
-      "key": "lblod",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/lokalebesluiten-master/all.nt"
+      "urlRef": "AnomalieStatus",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/AnomalieStatus.ttl"
     },
     {
-      "key": "wegenenverkeer",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/wegenenverkeer-master/all.ttl"
+      "urlRef": "AnomalieThema",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/AnomalieThema.ttl"
     },
     {
-      "key": "bedrijventerrein",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/bedrijventerrein-master/all.ttl"
+      "urlRef": "AsBuiltplan",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/AsBuiltplan.ttl"
     },
     {
-      "key": "gebouwEnAdres",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/gebouwEnAdres-master/all.ttl"
+      "urlRef": "Bodembedekking",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Bodembedekking.ttl"
     },
     {
-      "key": "dienst",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/dienst-master/all.ttl"
+      "urlRef": "Bodemgebruik",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Bodemgebruik.ttl"
     },
     {
-      "key": "grb",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/grb-master/all.ttl"
+      "urlRef": "Gebouwaanhorigheidtype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Gebouwaanhorigheidtype.ttl"
     },
     {
-      "key": "metadataDCAT",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/metadataDCAT-master/all.nt"
+      "urlRef": "Gebouwtype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Gebouwtype.ttl"
     },
     {
-      "key": "verkeersmetingen",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/verkeersmetingen-main/all.nt"
+      "urlRef": "Gevellijntype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Gevellijntype.ttl"
     },
     {
-      "key": "slimmeraadpleegomg",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/slimmeraadpleegomgeving-main/all.nt"
+      "urlRef": "Gevelpunttype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Gevelpunttype.ttl"
     },
     {
-      "key": "slimruimtelijkplannen",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/slimruimtelijkplannen-main/all.nt"
+      "urlRef": "Kunstwerktype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Kunstwerktype.ttl"
     },
     {
-      "key": "DWM_Plaatstype",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/digitalewatermeter-main/all.nt"
+      "urlRef": "LokaleBijhoudingtype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/LokaleBijhoudingtype.ttl"
     },
     {
-      "key": "DWM_Kenmerktype",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/digitalewatermeter-main/all.nt"
+      "urlRef": "LongitudinaleWeginrichtingtype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/LongitudinaleWeginrichtingtype.ttl"
     },
     {
-      "key": "DWM_Metertype",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/digitalewatermeter-main/all.nt"
+      "urlRef": "Meetmethode",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Meetmethode.ttl"
     },
     {
-      "key": "DWM_ToebehorenType",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/digitalewatermeter-main/all.nt"
+      "urlRef": "MorfologischeWegklassetype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/MorfologischeWegklassetype.ttl"
     },
     {
-      "key": "MAGDAStatus",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/OSLO-codelistgenerated/raw/refs/heads/magda-main/all.nt"
+      "urlRef": "PuntvormigeInrichtingtype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/PuntvormigeInrichtingtype.ttl"
     },
     {
-      "key": "energiehuis",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/energiehuis-main/all.nt"
+      "urlRef": "SpoorbaanFunctie",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/SpoorbaanFunctie.ttl"
     },
     {
-      "key": "StandaardType",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardtype/standaardtype.ttl"
+      "urlRef": "ThemaVerduidelijking",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/ThemaVerduidelijking.ttl"
     },
     {
-      "key": "StandaardGebruik",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardgebruik/standaardgebruik.ttl"
+      "urlRef": "TransversaleWeginrichtingtype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/TransversaleWeginrichtingtype.ttl"
     },
     {
-      "key": "rooilijnplannen",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/rooilijnplannen-main/all.nt"
+      "urlRef": "Vormtype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Vormtype.ttl"
     },
     {
-      "key": "citerra",
-      "type": "file-import",
-      "url": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/citerra-main/all.nt"
+      "urlRef": "Wegaanhorigheidtype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Wegaanhorigheidtype.ttl"
     },
     {
-      "key": "domein",
-      "type": "file-import",
-      "url": "https://github.com/Informatievlaanderen/codelijsten/raw/master/domein/domein.ttl"
+      "urlRef": "Wegbaantype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Wegbaantype.ttl"
+    },
+    {
+      "urlRef": "Wegknooptype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Wegknooptype.ttl"
+    },
+    {
+      "urlRef": "Wegopdelingtype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Wegopdelingtype.ttl"
+    },
+    {
+      "urlRef": "Wegverhardingtype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-grb/refs/heads/master/codelijsten/Wegverhardingtype.ttl"
+    },
+    {
+      "urlRef": "levensfase",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/refs/heads/master/codelijsten/levensfase.ttl"
+    },
+    {
+      "urlRef": "MAGDA-categorie",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/refs/heads/master/codelijsten/magda-categorie.ttl"
+    },
+    {
+      "urlRef": "ontwikkelingstoestand",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/refs/heads/master/codelijsten/ontwikkelingstoestand.ttl"
+    },
+    {
+      "urlRef": "dataserviceprotocol",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/refs/heads/master/codelijsten/protocol.ttl"
+    },
+    {
+      "urlRef": "relatievorm",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-metadataVoorServices/refs/heads/master/codelijsten/relatievorm.ttl"
+    },
+    {
+      "urlRef": "VkmMeetInstrumentType",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/refs/heads/main/codelijsten/VkmMeetInstrumentType.ttl"
+    },
+    {
+      "urlRef": "VkmRijstrookType",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/refs/heads/main/codelijsten/VkmRijstrookType.ttl"
+    },
+    {
+      "urlRef": "VkmVerkeersKenmerkType",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/refs/heads/main/codelijsten/VkmVerkeersKenmerkType.ttl"
+    },
+    {
+      "urlRef": "VkmVoertuigType",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/refs/heads/main/codelijsten/VkmVoertuigType.ttl"
+    },
+    {
+      "urlRef": "BesluitThema",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving/refs/heads/main/codelijsten/besluit-thema.ttl"
+    },
+    {
+      "urlRef": "RuimtelijkeIndicatoren",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/refs/heads/main/codelijsten/ruimtelijke_indicatoren.ttl"
+    },
+    {
+      "urlRef": "Schaalniveaus",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-slimRuimtelijkPlannen/refs/heads/main/codelijsten/schaalniveaus.ttl"
+    },
+    {
+      "urlRef": "DWM_Afleverpunttype",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/raw/refs/heads/main/codelijsten/DWM_Afleverpunttype.ttl"
+    },
+    {
+      "urlRef": "DWM_Identificatortype",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/raw/refs/heads/main/codelijsten/DWM_Identificatortype.ttl"
+    },
+    {
+      "urlRef": "DWM_Kenmerktype",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/raw/refs/heads/main/codelijsten/DWM_Kenmerktype.ttl"
+    },
+    {
+      "urlRef": "DWM_Metertype",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/raw/refs/heads/main/codelijsten/DWM_MeterType.ttl"
+    },
+    {
+      "urlRef": "DWM_Nutsvoorzienningnetwerktype",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/raw/refs/heads/main/codelijsten/DWM_Nutsvoorzienningnetwerktype.ttl"
+    },
+    {
+      "urlRef": "DWM_Observatieproceduretype",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/raw/refs/heads/main/codelijsten/DWM_Observatieproceduretype.ttl"
+    },
+    {
+      "urlRef": "DWM_Plaatstype",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/raw/refs/heads/main/codelijsten/DWM_Plaatstype.ttl"
+    },
+    {
+      "urlRef": "DWM_RuimtelijkeRelatietype",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/raw/refs/heads/main/codelijsten/DWM_RuimtelijkeRelatietype.ttl"
+    },
+    {
+      "urlRef": "DWM_Sensortype",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/raw/refs/heads/main/codelijsten/DWM_Sensortype.ttl"
+    },
+    {
+      "urlRef": "DWM_ToebehorenType",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter/raw/refs/heads/main/codelijsten/DWM_ToebehorenType.ttl"
+    },
+    {
+      "urlRef": "MAGDAStatus",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/magda-main/all.ttl"
+    },
+    {
+      "urlRef": "AdviesverleningType",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-energiehuis/refs/heads/main/codelijsten/adviesverlening_type.ttl"
+    },
+    {
+      "urlRef": "BegeleidingType",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-energiehuis/refs/heads/main/codelijsten/begeleiding_type.ttl"
+    },
+    {
+      "urlRef": "InformatievoorzieningThema",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-energiehuis/refs/heads/main/codelijsten/informatievoorziening_thema.ttl"
+    },
+    {
+      "urlRef": "StandaardType",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardtype/standaardtype.ttl"
+    },
+    {
+      "urlRef": "StandaardGebruik",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/standaardgebruik/standaardgebruik.ttl"
+    },
+    {
+      "urlRef": "IntelligenteToegang-BewijsTypeClassificatie",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-citerra/refs/heads/main/codelijsten/intelligente-toegang-bewijs-type-classificatie.ttl"
+    },
+    {
+      "urlRef": "IntelligenteToegang-LogischeOperatie",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-citerra/refs/heads/main/codelijsten/intelligente-toegang-logische-operatie.ttl"
+    },
+    {
+      "urlRef": "IntelligenteToegang-PubliekeDienstverlening-OutputCode",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-citerra/refs/heads/main/codelijsten/intelligente-toegang-publieke-dienstverlening-output-code.ttl"
+    },
+    {
+      "urlRef": "IntelligenteToegang-Reden",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-citerra/refs/heads/main/codelijsten/intelligente-toegang-reden.ttl"
+    },
+    {
+      "urlRef": "IntelligenteToegang-RelatieZone",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-citerra/refs/heads/main/codelijsten/intelligente-toegang-relatie-zone.ttl"
+    },
+    {
+      "urlRef": "IntelligenteToegang-TypeAanvrager",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-citerra/refs/heads/main/codelijsten/intelligente-toegang-type-aanvrager.ttl"
+    },
+    {
+      "urlRef": "IntelligenteToegang-TypeDuurtijd",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-citerra/refs/heads/main/codelijsten/intelligente-toegang-type-duurtijd.ttl"
+    },
+    {
+      "urlRef": "IntelligenteToegang-Tijdsvenster",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-citerra/refs/heads/main/codelijsten/intelligente-toegang-type-tijdsvenster.ttl"
+    },
+    {
+      "urlRef": "IntelligenteToegang-TypeVoorwaarde",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-citerra/refs/heads/main/codelijsten/intelligente-toegang-type-voorwaarde.ttl"
+    },
+    {
+      "urlRef": "Domein",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/domein/domein.ttl"
     }
   ]
 }
