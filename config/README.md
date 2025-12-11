@@ -287,3 +287,19 @@ The process design ensures thus:
 Outstanding challenges are:
 1. the translation memory becomes to larges for GitHub storage
 
+# Dataset.json
+
+The `dataset.json` file is a file that contains references to all the Skos:Concept codelists we publish as part of our data specifications. These can be found [here](https://data.vlaanderen.be/id/conceptscheme/) in one big list. This `dataset.json` file is used on the fly, meaning that any change to this file will be reflected within the next five minutes (Github caching) in the frontend application. Each entry in this file should be a 1 to 1 mapping to a codelist we publish. This means that each `sourceUrl` should only contain one codelist. N-triples files with multiple codelists are not supported. If you have multiple codelists in one file, please split them up in separate files.
+
+## Example entry
+
+```json
+{
+  "urlRef": "Sorteerfracties",
+  "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/raw/master/codelijsten/Sorteerfracties.ttl"
+}
+```
+
+- The `urlRef` relates to the slug found in the URL of the concept scheme, e.g. `https://data.vlaanderen.be/id/conceptscheme/Sorteerfracties`. Sorteerfracties is the `urlRef` in this case.
+
+- The `sourceUrl` is the direct link to the turtle file in the thema repository. This file should be directly retrievable, so make sure to use the `raw` link from GitHub. A downloadable link is not supported.
