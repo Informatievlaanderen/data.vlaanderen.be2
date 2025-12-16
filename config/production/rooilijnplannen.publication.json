@@ -3,13 +3,13 @@
     "urlref": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
     "branchtag": "main",
-    "name": "rooilijnplannen",
+    "name": "rooilijnplannen-ap",
     "filename": "config/rooilijnplannen-ap.json",
     "navigation": {},
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "062"
+    "dummy": "063"
   },
   {
     "urlref": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01",
@@ -18,18 +18,18 @@
     "name": "rooilijnplannen",
     "filename": "config/rooilijnplannen-voc.json",
     "navigation": {},
-    "dummy": "062"
+    "dummy": "063"
   },
   {
-    "urlref": "/doc/applicatieprofiel/rooilijnplannen",
+    "urlref": "/doc/applicatieprofiel/rooilijnplannen-voc",
     "seealso": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "type": "ap",
-    "dummy": "062"
+    "dummy": "063"
   },
   {
     "urlref": "/ns/rooilijnplannen",
     "seealso": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "type": "voc",
-    "dummy": "062"
+    "dummy": "063"
   }
 ]
