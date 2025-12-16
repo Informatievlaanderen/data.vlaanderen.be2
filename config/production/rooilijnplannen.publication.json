@@ -4,7 +4,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
     "branchtag": "main",
     "name": "rooilijnplannen-ap",
-    "filename": "config/rooilijnplannen-ap.json",
+    "filename": "config/rooilijnplannen.json",
     "navigation": {},
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
@@ -16,7 +16,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
     "branchtag": "main",
     "name": "rooilijnplannen-voc",
-    "filename": "config/rooilijnplannen-voc.json",
+    "filename": "config/rooilijnplannen.json",
     "navigation": {},
     "dummy": "063"
   },
