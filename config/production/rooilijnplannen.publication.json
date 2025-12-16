@@ -15,13 +15,13 @@
     "urlref": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
     "branchtag": "main",
-    "name": "rooilijnplannen",
+    "name": "rooilijnplannen-voc",
     "filename": "config/rooilijnplannen-voc.json",
     "navigation": {},
     "dummy": "063"
   },
   {
-    "urlref": "/doc/applicatieprofiel/rooilijnplannen-voc",
+    "urlref": "/doc/applicatieprofiel/rooilijnplannen",
     "seealso": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "type": "ap",
     "dummy": "063"
