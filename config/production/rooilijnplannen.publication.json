@@ -2,7 +2,7 @@
   {
     "urlref": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
-    "branchtag": "master",
+    "branchtag": "main",
     "name": "rooilijnplannen",
     "filename": "config/rooilijnplannen-ap.json",
     "navigation": {},
@@ -14,7 +14,7 @@
   {
     "urlref": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
-    "branchtag": "master",
+    "branchtag": "main",
     "name": "rooilijnplannen",
     "filename": "config/rooilijnplannen-voc.json",
     "navigation": {},
