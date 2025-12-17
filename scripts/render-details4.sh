@@ -735,6 +735,7 @@ render_nunjunks_html() { # SLINE TLINE JSON
 
     echo "${REPORTLINEPREFIX}oslo-webuniversum-json-generator for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${INT_REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${INT_REPORTFILE}
+    echo "${PARAMETERS}"
     oslo-webuniversum-json-generator ${PARAMETERS} \
         --input ${MERGEDFILE} \
         --output ${INT_OUTPUT} \
