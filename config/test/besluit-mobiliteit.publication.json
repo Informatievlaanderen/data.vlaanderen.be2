@@ -87,9 +87,9 @@
       "prev": "/doc/applicatieprofiel/besluit-mobiliteit/kandidaat-standaard/2025-02-04"
     },
     "webuniversumgenerator": {
-      "parameters": "--ignoreSkosConcept true"
+      "parameters": "--ignoreSkosConcept false"
     },
     "disabled": false,
-    "dummy": "2025-12-17 5"
+    "dummy": "2025-12-17 6"
   }
 ]
