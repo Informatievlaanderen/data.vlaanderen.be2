@@ -9,6 +9,15 @@
     "dummy": "038"
   },
   {
+    "urlref": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/kristof",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
+    "branchtag": "main-kristof",
+    "name": "leermiddelen",
+    "filename": "config/leermiddelen-ap.json",
+    "directory": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-02-24",
+    "dummy": "038"
+  },
+  {
     "urlref": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-02-24",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
     "branchtag": "main",
