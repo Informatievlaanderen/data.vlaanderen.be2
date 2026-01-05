@@ -2,7 +2,7 @@
   {
     "urlref": "/doc/applicatieprofiel/metadata-voor-services/ontwerpstandaard/2020-10-07",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
     "navigation": {
@@ -13,7 +13,7 @@
     "original": {
       "urlref": "/doc/applicatieprofiel/metadata-voor-services/ontwerpstandaard/2020-10-07",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
+      "branchtag": "sandbox",
       "name": "metadata-voor-services-ap",
       "filename": "config/metadata-voor-services.json",
       "navigation": {
@@ -26,7 +26,7 @@
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2020-12-14",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
     "navigation": {
@@ -38,7 +38,7 @@
     "original": {
       "urlref": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2020-12-14",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
+      "branchtag": "sandbox",
       "name": "metadata-voor-services-ap",
       "filename": "config/metadata-voor-services.json",
       "navigation": {
@@ -52,7 +52,7 @@
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2021-03-23",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
     "navigation": {
@@ -64,7 +64,7 @@
     "original": {
       "urlref": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2021-03-23",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
+      "branchtag": "sandbox",
       "name": "metadata-voor-services-ap",
       "filename": "config/metadata-voor-services.json",
       "navigation": {
@@ -78,7 +78,7 @@
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2021-04-22",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
     "navigation": {
@@ -90,7 +90,7 @@
     "original": {
       "urlref": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2021-04-22",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
+      "branchtag": "sandbox",
       "name": "metadata-voor-services-ap",
       "filename": "config/metadata-voor-services.json",
       "navigation": {
@@ -104,7 +104,7 @@
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2022-02-03",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
     "navigation": {
@@ -115,7 +115,7 @@
     "original": {
       "urlref": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2022-02-03",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
+      "branchtag": "sandbox",
       "name": "metadata-voor-services-ap",
       "filename": "config/metadata-voor-services.json",
       "navigation": {
@@ -128,7 +128,7 @@
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/kandidaatstandaard/2022-02-03",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
     "navigation": {
@@ -152,7 +152,7 @@
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
     "navigation": {
@@ -182,7 +182,7 @@
   {
     "urlref": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
     "navigation": {
@@ -206,7 +206,7 @@
   {
     "urlref": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2022-02-03",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
     "navigation": {
@@ -230,7 +230,7 @@
   {
     "urlref": "/doc/vocabularium/metadata-dcat/erkendestandaard/2021-12-02",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
     "navigation": {
@@ -242,7 +242,7 @@
     "original": {
       "urlref": "/doc/vocabularium/metadata-dcat/erkendestandaard/2021-12-02",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
+      "branchtag": "sandbox",
       "name": "metadata-dcat",
       "filename": "config/metadata-dcat-voc.json",
       "navigation": {
@@ -256,7 +256,7 @@
   {
     "urlref": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2021-10-16",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
     "navigation": {
@@ -268,7 +268,7 @@
     "original": {
       "urlref": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2021-10-16",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
+      "branchtag": "sandbox",
       "name": "metadata-dcat",
       "filename": "config/metadata-dcat-voc.json",
       "navigation": {
@@ -282,7 +282,7 @@
   {
     "urlref": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/2021-06-30",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
     "navigation": {
@@ -294,7 +294,7 @@
     "original": {
       "urlref": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/2021-06-30",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
+      "branchtag": "sandbox",
       "name": "metadata-dcat",
       "filename": "config/metadata-dcat-voc.json",
       "navigation": {
@@ -308,7 +308,7 @@
   {
     "urlref": "/doc/vocabularium/metadata-dcat/erkendestandaard/2021-04-22",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
     "navigation": {
@@ -320,7 +320,7 @@
     "original": {
       "urlref": "/doc/vocabularium/metadata-dcat/erkendestandaard/2021-04-22",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
+      "branchtag": "sandbox",
       "name": "metadata-dcat",
       "filename": "config/metadata-dcat-voc.json",
       "navigation": {
@@ -334,7 +334,7 @@
   {
     "urlref": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2021-03-23",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
     "navigation": {
@@ -346,7 +346,7 @@
     "original": {
       "urlref": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2021-03-23",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
+      "branchtag": "sandbox",
       "name": "metadata-dcat",
       "filename": "config/metadata-dcat-voc.json",
       "navigation": {
@@ -360,7 +360,7 @@
   {
     "urlref": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2020-12-14",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "sandbox",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
     "navigation": {
@@ -371,7 +371,7 @@
     "original": {
       "urlref": "/doc/vocabularium/metadata-dcat/kandidaatstandaard/2020-12-14",
       "repository": "https://github.com/Informatievlaanderen/OSLO-Generated",
-      "branchtag": "production",
+      "branchtag": "sandbox",
       "name": "metadata-dcat",
       "filename": "config/metadata-dcat-voc.json",
       "navigation": {
@@ -390,7 +390,7 @@
   {
     "urlref": "/doc/applicatieprofiel/metadata-dcat/ontwerpstandaard/2025-09-16",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadataVoorServices",
-    "branchtag": "master",
+    "branchtag": "sandbox",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
     "navigation": {
@@ -407,7 +407,7 @@
   {
     "urlref": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/2025-09-16",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadataVoorServices",
-    "branchtag": "master",
+    "branchtag": "sandbox",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
     "navigation": {
