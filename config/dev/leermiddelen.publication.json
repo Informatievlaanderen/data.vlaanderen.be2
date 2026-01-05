@@ -9,27 +9,6 @@
     "dummy": "014"
   },
   {
-    "urlref": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
-    "branchtag": "52697b53821309a869d6ee6f8e271795cee0b6c5",
-    "name": "leermiddelen",
-    "filename": "config/leermiddelen-voc.json",
-    "directory": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
-    "dummy": "015"
-  },
-  {
-    "urlref": "/doc/vocabularium/leermiddelen",
-    "seealso": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
-    "type": "voc",
-    "dummy": "024"
-  },
-  {
-    "urlref": "/ns/leermiddelen",
-    "seealso": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
-    "type": "voc",
-    "dummy": "026"
-  },
-  {
     "urlref": "/doc/applicatieprofiel/leermiddelen",
     "seealso": "/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
     "type": "ap",
@@ -46,17 +25,5 @@
       "prev": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-03-21"
     },
     "dummy": "25"
-  },
-  {
-    "urlref": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
-    "branchtag": "kandidaat_2025-08-01_v0.1.7",
-    "name": "leermiddelen",
-    "filename": "config/leermiddelen-voc.json",
-    "directory": "/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
-    "navigation": {
-      "prev": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21"
-    },
-    "dummy": "18"
   }
 ]
