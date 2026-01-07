@@ -5,8 +5,8 @@
     "name": "openbare-nutsvoorzieningkasten",
     "branchtag": "erkend_2026-01-06_v1.0.0",
     "filename": "config/shok-ap.json",
-    "disabled": true,
-    "dummy": "001"
+    "disabled": false,
+    "dummy": "002"
   },
   {
     "urlref": "/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03",
