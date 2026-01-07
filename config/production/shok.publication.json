@@ -5,7 +5,7 @@
     "name": "openbare-nutsvoorzieningkasten",
     "branchtag": "erkend_2026-01-06_v1.0.0",
     "filename": "config/shok-ap.json",
-    "disabled": false,
+    "disabled": true,
     "dummy": "001"
   },
   {
