@@ -491,6 +491,34 @@
     {
       "urlRef": "Domein",
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/domein/domein.ttl"
+    },
+    {
+      "urlRef": "Deeltrajecttype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-KVS/refs/heads/main/codelijsten/Deeltrajecttype.ttl"
+    },
+    {
+      "urlRef": "FinaliteitType",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-KVS/refs/heads/main/codelijsten/FinaliteitType.ttl"
+    },
+    {
+      "urlRef": "OrganisatieType",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-KVS/refs/heads/main/codelijsten/OrganisatieType.ttl"
+    },
+    {
+      "urlRef": "Participatietype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-KVS/refs/heads/main/codelijsten/Participatietype.ttl"
+    },
+    {
+      "urlRef": "PubliekeDienstverleningtype",
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-KVS/blob/main/codelijsten/PubliekeDienstverleningtype.ttl"
+    },
+    {
+      "urlRef": "Trajectstatustype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-KVS/refs/heads/main/codelijsten/Trajectstatustype.ttl"
+    },
+    {
+      "urlRef": "Voorkeurtype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-KVS/refs/heads/main/codelijsten/Voorkeurtype.ttl"
     }
   ]
 }
