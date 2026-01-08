@@ -59,9 +59,22 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen",
-    "seealso": "/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2025-07-10",
+    "seealso": "/doc/applicatieprofiel/dienstverlening-aan-personen/erkendestandaard/2025-12-11",
     "disabled": false,
     "type": "ap",
-    "dummy": "019"
+    "dummy": "020"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/dienstverlening-aan-personen/erkendestandaard/2025-12-11",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-kindFiche",
+    "branchtag": "erkendestandaard_2026-01-08_001",
+    "name": "dienstverlening-aan-personen-ap",
+    "filename": "config/dienstverlening-aan-personen-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2025-07-10"
+    },
+    "dummy": "020"
   }
+
+  
 ]
