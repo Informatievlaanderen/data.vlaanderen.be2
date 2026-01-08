@@ -8,18 +8,20 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
     },
-    "dummy": "004"
+    "disabled": false,
+    "dummy": "005"
   },
   {
     "urlref": "/doc/vocabularium/zaalreservatie/kandidaatstandaard/2025-07-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-zaalreservatie",
     "branchtag": "kandidaat_2025-07-01_v0.0.3",
     "name": "zaalreservatie",
+    "disabled": false,
     "filename": "config/zaalreservatie-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18"
     },
-    "dummy": "002"
+    "dummy": "003"
   },
   {
     "urlref": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
@@ -28,13 +30,15 @@
     "branchtag": "main",
     "filename": "config/zaalreservatie-ap.json",
     "navigation": {},
-    "dummy": "020"
+    "disabled": false,
+    "dummy": "021"
   },
   {
     "urlref": "/doc/applicatieprofiel/zaalreservatie",
     "seealso": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
     "type": "ap",
-    "dummy": "020"
+    "disabled": false,
+    "dummy": "021"
   },
   {
     "urlref": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
@@ -43,12 +47,14 @@
     "name": "zaalreservatie",
     "filename": "config/zaalreservatie-voc.json",
     "navigation": {},
-    "dummy": "020"
+    "disabled": false,
+    "dummy": "021"
   },
   {
     "urlref": "/ns/zaalreservatie",
     "seealso": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
     "type": "voc",
-    "dummy": "020"
+    "disabled": false,
+    "dummy": "021"
   }
 ]

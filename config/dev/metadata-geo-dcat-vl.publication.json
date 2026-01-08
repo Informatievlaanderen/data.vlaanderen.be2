@@ -3,7 +3,7 @@
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
     "seealso": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",
     "type": "ap",
-    "dummy": 1
+    "dummy": 4
   },
   {
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",
@@ -12,7 +12,8 @@
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
-      "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2022-02-03"
+      "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2022-02-03",
+      "next": "/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/2025-11-13"
     },
     "examples": true,
     "type": "raw",
@@ -54,7 +55,7 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/toolchain4",
+    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/2025-11-13",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
     "branchtag": "master",
     "name": "geodcatap-vlaanderen",
@@ -62,6 +63,23 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
     },
-    "dummy": "2025-08-20 07:32:40"
+    "dummy": "4"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
+    "branchtag": "master",
+    "name": "geodcatap-vlaanderen",
+    "filename": "config/geodcatap-vlaanderen.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
+    },
+    "dummy": "2",
+    "eaconverter": {
+      "parameters": "--allTags true"
+    },
+    "webuniversumgenerator": {
+      "parameters": "--allTags true"
+    }
   }
 ]

@@ -161,7 +161,8 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/ldes/erkendestandaard/2022-12-01"
     },
-    "dummy": "2025-08-20 07:24:06"
+    "dummy": "2025-08-20 07:24:06",
+    "disabled": true
   },
   {
     "urlref": "/doc/vocabularium/ldes/ontwerpstandaard/toolchain4",
@@ -172,6 +173,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/ldes/erkendestandaard/2022-12-01"
     },
-    "dummy": "2025-08-20 07:24:06"
+    "dummy": "2025-08-20 07:24:06",
+    "disabled": true
   }
 ]
