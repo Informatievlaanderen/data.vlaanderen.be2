@@ -510,7 +510,7 @@
     },
     {
       "urlRef": "PubliekeDienstverleningtype",
-      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-KVS/blob/main/codelijsten/PubliekeDienstverleningtype.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-KVS/refs/heads/main/codelijsten/PubliekeDienstverleningtype.ttl"
     },
     {
       "urlRef": "Trajectstatustype",
