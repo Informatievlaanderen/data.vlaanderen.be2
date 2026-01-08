@@ -3,7 +3,7 @@
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
     "seealso": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
     "type": "ap",
-    "dummy": 5
+    "dummy": 6
   },
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
@@ -63,7 +63,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
     },
-    "dummy": "4"
+    "dummy": "6"
   },
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
@@ -74,7 +74,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
     },
-    "dummy": "2",
+    "dummy": "3",
     "eaconverter": {
       "parameters": "--allTags true"
     },
