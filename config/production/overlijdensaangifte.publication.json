@@ -99,17 +99,17 @@
   },
   {
     "urlref": "/doc/vocabularium/gezondheidstoestand",
-    "seealso": "/doc/vocabularium/gezondheidstoestand/erkendestandaard/2024-12-05",
+    "seealso": "/doc/vocabularium/gezondheidstoestand/erkendestandaard/2025-12-11",
     "type": "voc",
     "disabled": false,
-    "dummy": "029"
+    "dummy": "030"
   },
   {
     "urlref": "/ns/gezondheidstoestand",
-    "seealso": "/doc/vocabularium/gezondheidstoestand/erkendestandaard/2024-12-05",
+    "seealso": "/doc/vocabularium/gezondheidstoestand/erkendestandaard/2025-12-11",
     "type": "voc",
     "disabled": false,
-    "dummy": "029"
+    "dummy": "030"
   },
   {
     "urlref": "/doc/vocabularium/gezondheidstoestand/ontwerpstandaard/2025-03-12",
@@ -119,5 +119,14 @@
     "filename": "config/gezondheidstoestand-voc.json",
     "disabled": false,
     "dummy": "016"
+  },
+  {
+    "urlref": "/doc/vocabularium/gezondheidstoestand/erkendestandaard/2025-12-11",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-overlijdensaangifte",
+    "branchtag": "erkend-2026-01-09_001",
+    "name": "gezondheidstoestand",
+    "filename": "config/gezondheidstoestand-voc.json",
+    "disabled": false,
+    "dummy": "017"
   }
 ]
