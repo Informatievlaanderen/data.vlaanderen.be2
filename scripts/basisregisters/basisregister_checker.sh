@@ -33,9 +33,6 @@ for endpoint in "${ENDPOINTS[@]}"; do
     # Extract resource type and ID. For example perceel and 24011E0053-00T004
     resource_type=$(echo "${endpoint}" | sed 's|https://data.vlaanderen.be/id/||g' | cut -d'/' -f1)
     resource_id=$(echo "${endpoint}" | sed 's|https://data.vlaanderen.be/id/||g' | cut -d'/' -f2)
-
-    echo $resource_type
-    echo $resource_id
     
     # Create file path
     response_file="${TEMP_DIR}/${resource_type}-${resource_id}.json"
@@ -54,6 +51,7 @@ for endpoint in "${ENDPOINTS[@]}"; do
             echo $response_file
             # Compare responses using jq for normalization
             if diff -q <(jq -S '.' "${mock_file}" 2>/dev/null || cat "${mock_file}") <(jq -S '.' "${response_file}" 2>/dev/null || cat "${response_file}") > /dev/null 2>&1; then
+                echo "Response matches mock"
             else
                 echo "CHANGES DETECTED"
                 echo ""
