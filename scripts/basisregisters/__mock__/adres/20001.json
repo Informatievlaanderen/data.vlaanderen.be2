@@ -22,7 +22,7 @@
     "detail": "https://api.basisregisters.vlaanderen.be/v2/postinfo/2230"
   },
   "straatnaam": {
-    "objectId": "14602",
+    "objectId": "14",
     "detail": "https://api.basisregisters.vlaanderen.be/v2/straatnamen/14602",
     "straatnaam": {
       "geografischeNaam": {
