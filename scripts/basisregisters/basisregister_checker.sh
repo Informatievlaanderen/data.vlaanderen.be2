@@ -47,8 +47,6 @@ for endpoint in "${ENDPOINTS[@]}"; do
         
         # Check if mock file exists
         if [ -f "${mock_file}" ]; then
-            echo $mock_file
-            echo $response_file
             # Compare responses using jq for normalization
             if diff -q <(jq -S '.' "${mock_file}" 2>/dev/null || cat "${mock_file}") <(jq -S '.' "${response_file}" 2>/dev/null || cat "${response_file}") > /dev/null 2>&1; then
                 echo "Response matches mock"

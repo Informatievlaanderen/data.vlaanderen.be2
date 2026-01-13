@@ -19,14 +19,18 @@ jobs:
               uses: actions/checkout@v4
             - name: Validate IDs basisregisters
               id: validate
-              shell: bash
               run: |
                   ./scripts/basisregisters/basisregister_checker.sh
             - name: Log validation result to summary
               run: |
-                  echo "# Summary" >> $GITHUB_STEP_SUMMARY
-                  if [ ${{ steps.validate.outputs.success }} == "true" ]; then
+                  echo "# Basisregister Validation Summary" >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
+                  if [ ${{ steps.validate.outcome }} == "success" ]; then
                     echo "All IDs are redirected to basisregisters and are correct!" >> $GITHUB_STEP_SUMMARY
                   else
                     echo "There are some errors or changes with the ID service. Please check the logs to see which ones are failing" >> $GITHUB_STEP_SUMMARY
                   fi
+
+            - name: Fail workflow if validation failed
+              if: steps.validate.outcome == 'failure'
+              run: exit 1
