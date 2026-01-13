@@ -70,11 +70,11 @@ echo "=========================================="
 if [ ${MISMATCHES} ]; then
     echo "Validation Failed - ${MISMATCHES} mismatch(es) detected"
     echo "=========================================="
-    exit 0
+    exit 1
 else
     echo "Validation Complete - No mismatches detected"
     echo "=========================================="
     echo ""
     echo "Check the detailed logs above for specifics"
-    exit 1
+    exit 0
 fi
