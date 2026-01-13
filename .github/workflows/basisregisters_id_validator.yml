@@ -1,8 +1,6 @@
-name: Validate URIs
+name: Validate IDs basisregisters
 
 on:
-    push:
-        branches: [test, dev]
     schedule:
         - cron: "0 7 * * *"
 
