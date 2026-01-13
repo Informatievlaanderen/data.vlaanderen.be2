@@ -1,0 +1,62 @@
+{
+  "@context": "https://docs.basisregisters.vlaanderen.be/context/adres/2023-02-28/adres_detail.jsonld",
+  "@type": "Adres",
+  "identificator": {
+    "id": "https://data.vlaanderen.be/id/adres/3706808",
+    "naamruimte": "https://data.vlaanderen.be/id/adres",
+    "objectId": "3706808",
+    "versieId": "2023-11-01T15:46:20+01:00"
+  },
+  "gemeente": {
+    "objectId": "44021",
+    "detail": "https://api.basisregisters.vlaanderen.be/v2/gemeenten/44021",
+    "gemeentenaam": {
+      "geografischeNaam": {
+        "spelling": "Gent",
+        "taal": "nl"
+      }
+    }
+  },
+  "postinfo": {
+    "objectId": "9000",
+    "detail": "https://api.basisregisters.vlaanderen.be/v2/postinfo/9000"
+  },
+  "straatnaam": {
+    "objectId": "70746",
+    "detail": "https://api.basisregisters.vlaanderen.be/v2/straatnamen/70746",
+    "straatnaam": {
+      "geografischeNaam": {
+        "spelling": "Koningin Maria Hendrikaplein",
+        "taal": "nl"
+      }
+    }
+  },
+  "huisnummer": "70",
+  "volledigAdres": {
+    "geografischeNaam": {
+      "spelling": "Koningin Maria Hendrikaplein 70, 9000 Gent",
+      "taal": "nl"
+    }
+  },
+  "adresPositie": {
+    "geometrie": {
+      "type": "Point",
+      "gml": "<gml:Point srsName=\"https://www.opengis.net/def/crs/EPSG/0/31370\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:pos>103664.60 192046.67</gml:pos></gml:Point>"
+    },
+    "positieGeometrieMethode": "aangeduidDoorBeheerder",
+    "positieSpecificatie": "gebouweenheid"
+  },
+  "adresStatus": "inGebruik",
+  "officieelToegekend": true,
+  "_links": {
+    "self": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/adressen/3706808"
+    },
+    "gebouweenheden": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/gebouweenheden?adresobjectid=3706808"
+    },
+    "percelen": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/percelen?adresobjectid=3706808"
+    }
+  }
+}

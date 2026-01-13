@@ -1,0 +1,32 @@
+name: Validate URIs
+
+on:
+    push:
+        branches: [test, dev]
+    schedule:
+        - cron: "0 7 * * *"
+
+jobs:
+    validate-ids:
+        runs-on: ${{ matrix.os }}
+        strategy:
+            matrix:
+                os: [ubuntu-latest]
+                node-version:
+                    - 22.x
+        steps:
+            - name: Checkout source branch
+              uses: actions/checkout@v4
+            - name: Validate IDs basisregisters
+              id: validate
+              shell: bash
+              run: |
+                  ./scripts/basisregisters/basisregister_checker.sh
+            - name: Log validation result to summary
+              run: |
+                  echo "# Summary" >> $GITHUB_STEP_SUMMARY
+                  if [ ${{ steps.validate.outputs.success }} == "true" ]; then
+                    echo "All IDs are redirected to basisregisters and are correct!" >> $GITHUB_STEP_SUMMARY
+                  else
+                    echo "There are some errors or changes with the ID service. Please check the logs to see which ones are failing" >> $GITHUB_STEP_SUMMARY
+                  fi

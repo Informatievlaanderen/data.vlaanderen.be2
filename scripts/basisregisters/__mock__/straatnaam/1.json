@@ -1,0 +1,36 @@
+{
+  "@context": "https://docs.basisregisters.vlaanderen.be/context/straatnaam/2023-02-28/straatnaam_detail.jsonld",
+  "@type": "Straatnaam",
+  "identificator": {
+    "id": "https://data.vlaanderen.be/id/straatnaam/1",
+    "naamruimte": "https://data.vlaanderen.be/id/straatnaam",
+    "objectId": "1",
+    "versieId": "2023-11-01T08:18:40+01:00"
+  },
+  "gemeente": {
+    "objectId": "11001",
+    "detail": "https://api.basisregisters.vlaanderen.be/v2/gemeenten/11001",
+    "gemeentenaam": {
+      "geografischeNaam": {
+        "spelling": "Aartselaar",
+        "taal": "nl"
+      }
+    }
+  },
+  "straatnamen": [
+    {
+      "spelling": "Acacialaan",
+      "taal": "nl"
+    }
+  ],
+  "homoniemToevoegingen": [],
+  "straatnaamStatus": "inGebruik",
+  "_links": {
+    "self": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/straatnamen/1"
+    },
+    "adressen": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/adressen?straatnaamobjectid=1"
+    }
+  }
+}

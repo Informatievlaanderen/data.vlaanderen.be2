@@ -1,0 +1,21 @@
+{
+  "@context": "https://docs.basisregisters.vlaanderen.be/context/perceel/2023-02-28/perceel_detail.jsonld",
+  "@type": "Perceel",
+  "identificator": {
+    "id": "https://data.vlaanderen.be/id/perceel/11001B0001-00S000",
+    "naamruimte": "https://data.vlaanderen.be/id/perceel",
+    "objectId": "11001B0001-00S000",
+    "versieId": "2023-11-02T07:37:10+01:00"
+  },
+  "caPaKey": "11001B0001/00S000",
+  "perceelStatus": "gerealiseerd",
+  "adressen": [],
+  "_links": {
+    "self": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/percelen/11001B0001-00S000"
+    },
+    "gebouwen": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/gebouwen?capakey=11001B0001-00S000"
+    }
+  }
+}
