@@ -9,7 +9,7 @@
   },
   "gemeente": {
     "objectId": "13013",
-    "detail": "https://basisregisters.vlaanderen.be/v2/gemeenten/13013",
+    "detail": "https://api.basisregisters.vlaanderen.be/v2/gemeenten/13013",
     "gemeentenaam": {
       "geografischeNaam": { "spelling": "Herselt", "taal": "nl" }
     }
