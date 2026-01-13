@@ -9,12 +9,9 @@
   },
   "gemeente": {
     "objectId": "13013",
-    "detail": "https://api.basisregisters.vlaanderen.be/v2/gemeenten/13013",
+    "detail": "https://basisregisters.vlaanderen.be/v2/gemeenten/13013",
     "gemeentenaam": {
-      "geografischeNaam": {
-        "spelling": "Herselt",
-        "taal": "nl"
-      }
+      "geografischeNaam": { "spelling": "Herselt", "taal": "nl" }
     }
   },
   "postinfo": {
@@ -22,13 +19,10 @@
     "detail": "https://api.basisregisters.vlaanderen.be/v2/postinfo/2230"
   },
   "straatnaam": {
-    "objectId": "14",
+    "objectId": "14602",
     "detail": "https://api.basisregisters.vlaanderen.be/v2/straatnamen/14602",
     "straatnaam": {
-      "geografischeNaam": {
-        "spelling": "Goorbaan",
-        "taal": "nl"
-      }
+      "geografischeNaam": { "spelling": "Goorbaan", "taal": "nl" }
     }
   },
   "huisnummer": "59",

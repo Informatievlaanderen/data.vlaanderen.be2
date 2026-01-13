@@ -47,17 +47,34 @@ for endpoint in "${ENDPOINTS[@]}"; do
         
         # Check if mock file exists
         if [ -f "${mock_file}" ]; then
-            # Compare responses using jq for normalization
-            if diff -q <(jq -S '.' "${mock_file}" 2>/dev/null || cat "${mock_file}") <(jq -S '.' "${response_file}" 2>/dev/null || cat "${response_file}") > /dev/null 2>&1; then
+            # Normalize both files for comparison
+            mock_normalized=$(jq -S '.' "${mock_file}" 2>/dev/null) || mock_normalized=$(cat "${mock_file}")
+            response_normalized=$(jq -S '.' "${response_file}" 2>/dev/null) || response_normalized=$(cat "${response_file}")
+            
+            # Compare normalized versions
+            if [ "${mock_normalized}" = "${response_normalized}" ]; then
                 echo "Response matches mock"
             else
-                echo "CHANGES DETECTED"
-                echo ""
-                echo "Differences:"
-                diff -u <(jq -S '.' "${mock_file}" 2>/dev/null || cat "${mock_file}") <(jq -S '.' "${response_file}" 2>/dev/null || cat "${response_file}") | head -20
+                echo "MISMATCH DETECTED"
+                MISMATCHES=$((MISMATCHES + 1))
             fi
         fi
     else
         echo "Failed to fetch: ${endpoint}"
+        MISMATCHES=$((MISMATCHES + 1))
     fi
 done
+
+echo ""
+echo "=========================================="
+if [ ${MISMATCHES} ]; then
+    echo "Validation Failed - ${MISMATCHES} mismatch(es) detected"
+    echo "=========================================="
+    exit 0
+else
+    echo "Validation Complete - No mismatches detected"
+    echo "=========================================="
+    echo ""
+    echo "Check the detailed logs above for specifics"
+    exit 1
+fi
