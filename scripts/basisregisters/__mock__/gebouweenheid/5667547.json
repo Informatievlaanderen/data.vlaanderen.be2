@@ -1,0 +1,38 @@
+{
+  "@context": "https://docs.basisregisters.vlaanderen.be/context/gebouw/2023-02-28/gebouweenheid_detail.jsonld",
+  "@type": "Gebouweenheid",
+  "identificator": {
+    "id": "https://data.vlaanderen.be/id/gebouweenheid/5667547",
+    "naamruimte": "https://data.vlaanderen.be/id/gebouweenheid",
+    "objectId": "5667547",
+    "versieId": "2023-11-02T11:34:14+01:00"
+  },
+  "gebouweenheidPositie": {
+    "geometrie": {
+      "type": "Point",
+      "gml": "<gml:Point srsName=\"https://www.opengis.net/def/crs/EPSG/0/31370\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:pos>140225.18 182780.57</gml:pos></gml:Point>"
+    },
+    "positieGeometrieMethode": "afgeleidVanObject"
+  },
+  "gebouweenheidStatus": "gerealiseerd",
+  "functie": "gemeenschappelijkDeel",
+  "gebouw": {
+    "objectId": "5666968",
+    "detail": "https://api.basisregisters.vlaanderen.be/v2/gebouwen/5666968"
+  },
+  "adressen": [
+    {
+      "objectId": "2338664",
+      "detail": "https://api.basisregisters.vlaanderen.be/v2/adressen/2338664"
+    },
+    {
+      "objectId": "434225",
+      "detail": "https://api.basisregisters.vlaanderen.be/v2/adressen/434225"
+    },
+    {
+      "objectId": "766356",
+      "detail": "https://api.basisregisters.vlaanderen.be/v2/adressen/766356"
+    }
+  ],
+  "afwijkingVastgesteld": false
+}

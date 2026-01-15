@@ -1,0 +1,33 @@
+{
+  "@context": "https://docs.basisregisters.vlaanderen.be/context/gemeente/2023-02-28/gemeente_detail.jsonld",
+  "@type": "Gemeente",
+  "identificator": {
+    "id": "https://data.vlaanderen.be/id/gemeente/23047",
+    "naamruimte": "https://data.vlaanderen.be/id/gemeente",
+    "objectId": "23047",
+    "versieId": "2002-08-13T16:33:18+02:00"
+  },
+  "officieleTalen": ["nl"],
+  "faciliteitenTalen": [],
+  "gemeentenamen": [
+    {
+      "spelling": "Machelen",
+      "taal": "nl"
+    }
+  ],
+  "gemeenteStatus": "inGebruik",
+  "_links": {
+    "self": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/gemeenten/23047"
+    },
+    "straatnamen": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/straatnamen?niscode=23047"
+    },
+    "adressen": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/adressen?niscode=23047"
+    },
+    "postinfo": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/postinfo?gemeentenaam=Machelen"
+    }
+  }
+}

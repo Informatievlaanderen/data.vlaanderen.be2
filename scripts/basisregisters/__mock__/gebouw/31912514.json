@@ -1,0 +1,25 @@
+{
+  "@context": "https://docs.basisregisters.vlaanderen.be/context/gebouw/2023-10-16/gebouw_detail.jsonld",
+  "@type": "Gebouw",
+  "identificator": {
+    "id": "https://data.vlaanderen.be/id/gebouw/31912514",
+    "naamruimte": "https://data.vlaanderen.be/id/gebouw",
+    "objectId": "31912514",
+    "versieId": "2025-11-17T12:30:24+01:00"
+  },
+  "gebouwPolygoon": {
+    "geometrie": {
+      "type": "Polygon",
+      "gml": "<gml:Polygon srsName=\"https://www.opengis.net/def/crs/EPSG/0/31370\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:exterior><gml:LinearRing><gml:posList>76336.16911480803 169985.37893631859 76337.76829408009 169985.05009705175 76336.27953694883 169977.99832380182 76331.71906681615 169978.96112169552 76332.89316427232 169984.52245125046 76334.94298703629 169985.64657057129 76336.16911480803 169985.37893631859</gml:posList></gml:LinearRing></gml:exterior></gml:Polygon>"
+    },
+    "geometrieMethode": "ingeschetst"
+  },
+  "gebouwStatus": "gerealiseerd",
+  "gebouweenheden": [],
+  "percelen": [
+    {
+      "objectId": "34322B0294-00D002",
+      "detail": "https://api.basisregisters.vlaanderen.be/v2/percelen/34322B0294-00D002"
+    }
+  ]
+}

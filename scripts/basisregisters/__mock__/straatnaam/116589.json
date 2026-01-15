@@ -1,0 +1,36 @@
+{
+  "@context": "https://docs.basisregisters.vlaanderen.be/context/straatnaam/2023-02-28/straatnaam_detail.jsonld",
+  "@type": "Straatnaam",
+  "identificator": {
+    "id": "https://data.vlaanderen.be/id/straatnaam/116589",
+    "naamruimte": "https://data.vlaanderen.be/id/straatnaam",
+    "objectId": "116589",
+    "versieId": "2025-01-01T01:05:21+01:00"
+  },
+  "gemeente": {
+    "objectId": "71057",
+    "detail": "https://api.basisregisters.vlaanderen.be/v2/gemeenten/71057",
+    "gemeentenaam": {
+      "geografischeNaam": {
+        "spelling": "Tessenderlo",
+        "taal": "nl"
+      }
+    }
+  },
+  "straatnamen": [
+    {
+      "spelling": "Warande",
+      "taal": "nl"
+    }
+  ],
+  "homoniemToevoegingen": [],
+  "straatnaamStatus": "gehistoreerd",
+  "_links": {
+    "self": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/straatnamen/116589"
+    },
+    "adressen": {
+      "href": "https://api.basisregisters.vlaanderen.be/v2/adressen?straatnaamobjectid=116589"
+    }
+  }
+}

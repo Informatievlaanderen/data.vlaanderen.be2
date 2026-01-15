@@ -1,0 +1,25 @@
+{
+  "@context": "https://docs.basisregisters.vlaanderen.be/context/gebouw/2023-02-28/gebouweenheid_detail.jsonld",
+  "@type": "Gebouweenheid",
+  "identificator": {
+    "id": "https://data.vlaanderen.be/id/gebouweenheid/14963668",
+    "naamruimte": "https://data.vlaanderen.be/id/gebouweenheid",
+    "objectId": "14963668",
+    "versieId": "2024-06-12T21:03:41+02:00"
+  },
+  "gebouweenheidPositie": {
+    "geometrie": {
+      "type": "Point",
+      "gml": "<gml:Point srsName=\"https://www.opengis.net/def/crs/EPSG/0/31370\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:pos>140450.69 182705.21</gml:pos></gml:Point>"
+    },
+    "positieGeometrieMethode": "afgeleidVanObject"
+  },
+  "gebouweenheidStatus": "gehistoreerd",
+  "functie": "gemeenschappelijkDeel",
+  "gebouw": {
+    "objectId": "14962748",
+    "detail": "https://api.basisregisters.vlaanderen.be/v2/gebouwen/14962748"
+  },
+  "adressen": [],
+  "afwijkingVastgesteld": false
+}
