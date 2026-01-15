@@ -151,7 +151,7 @@ jobs:
             - autotranslation
   render-html-details-4:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:22.22.0
     steps:
       - checkout
       - attach_workspace:
@@ -218,7 +218,7 @@ jobs:
             - target
   render-respec-html-details-4:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:22.22.0
     steps:
       - checkout
       - attach_workspace:
@@ -313,7 +313,7 @@ jobs:
             - report4/shacl
   render-context-details-4:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:22.22.0
     steps:
       - checkout
       - attach_workspace:
@@ -501,7 +501,7 @@ jobs:
             - target
   copy-raw:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:22.22.0
     steps:
       - checkout
       - attach_workspace:
@@ -526,7 +526,7 @@ jobs:
       generatedRepoFingerprint:
         type: string
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:22.22.0
     steps:
       - checkout
       - attach_workspace:
