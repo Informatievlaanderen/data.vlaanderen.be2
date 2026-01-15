@@ -80,8 +80,8 @@
   {
     "urlref": "/doc/applicatieprofiel/besluit-mobiliteit/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/",
-    "branchtag": "master",
-    "name": "besluit-mobiliteit-ap",
+    "branchtag": "master-kristof",
+    "name": "besluit-mobiliteit",
     "filename": "config/besluit-mobiliteit-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluit-mobiliteit/kandidaat-standaard/2025-02-04"
@@ -90,6 +90,6 @@
       "parameters": "--ignoreSkosConcept false"
     },
     "disabled": false,
-    "dummy": "2026-01-07 2"
+    "dummy": "2026-01-07 3"
   }
 ]
