@@ -127,6 +127,17 @@
     }
   },
   {
+    "urlref": "/doc/implementatiemodel/organisatie/ontwerpdocument/MAGDA",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/",
+    "branchtag": "master",
+    "name": "organisatie",
+    "filename": "config/organisatie-impl.json",
+    "dummy": "2026-01-22 19:14:00",
+    "navigation": {
+      "prev": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03"
+    }
+  },
+  {
     "urlref": "/doc/vocabularium/organisatie",
     "seealso": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03",
     "type": "voc"
