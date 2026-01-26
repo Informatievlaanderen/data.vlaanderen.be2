@@ -41,7 +41,7 @@
   {
     "urlref": "/doc/applicatieprofiel/besluit-publicatie/erkendestandaard/2025-12-11",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
-    "branchtag": "feature/fix-tags",
+    "branchtag": "feature/new-tags",
     "name": "besluit-publicatie",
     "filename": "config/besluit-publicatie.json",
     "navigation": {
