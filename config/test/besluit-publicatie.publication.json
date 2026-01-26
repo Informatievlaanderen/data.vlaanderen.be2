@@ -41,12 +41,12 @@
   {
     "urlref": "/doc/applicatieprofiel/besluit-publicatie/erkendestandaard/2025-12-11",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
-    "branchtag": "feature/new-tags",
+    "branchtag": "erkend-2025",
     "name": "besluit-publicatie",
     "filename": "config/besluit-publicatie.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/besluit-publicatie/standaard/2018-07-20"
     },
-    "dummy": "2026-01-26 1"
+    "dummy": "2026-01-26 2"
   }
 ]
