@@ -35,7 +35,7 @@
     "type": "raw",
     "directory": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
     "navigation": {
-      "next": "/doc/applicatieprofiel/mandatendatabank/ontwerpstandaard/toolchain4"
+      "next": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2025-12-11"
     },
     "original": {
       "urlref": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20",
@@ -50,8 +50,19 @@
     }
   },
   {
+    "urlref": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2025-12-11",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
+    "branchtag": "erkend-2025",
+    "name": "mandatendatabank",
+    "filename": "config/mandatendatabank.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2018-07-20"
+    },
+    "dummy": "2026-01-26 2"
+  },
+  {
     "urlref": "/doc/applicatieprofiel/mandatendatabank",
-    "seealso": "/doc/vocabularium/mandaat/erkendestandaard/2025-12-11",
+    "seealso": "/doc/applicatieprofiel/mandatendatabank/erkendestandaard/2025-12-11",
     "type": "ap",
     "dummy": "001"
   },
@@ -81,12 +92,12 @@
   },
   {
     "urlref": "/doc/vocabularium/mandaat",
-    "seealso": "/doc/vocabularium/mandaat/standaard/2018-07-20",
+    "seealso": "/doc/vocabularium/mandaat/erkendestandaard/2025-12-11",
     "type": "voc"
   },
   {
     "urlref": "/ns/mandaat",
-    "seealso": "/doc/vocabularium/mandaat/standaard/2018-07-20",
+    "seealso": "/doc/vocabularium/mandaat/erkendestandaard/2025-12-11",
     "type": "voc"
   },
   {
