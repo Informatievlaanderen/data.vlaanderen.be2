@@ -1,5 +1,16 @@
 [
   {
+    "urlref": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2025-12-11",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving",
+    "branchtag": "erkend-2025-12-11",
+    "name": "slimme-raadpleegomgeving-ap",
+    "filename": "config/slimme-raadpleegomgeving-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2025-06-03"
+    },
+    "dummy": "2025-06-03"
+  },
+  {
     "urlref": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2025-06-03",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving",
     "branchtag": "toolchain4-2025-06-03",
@@ -18,6 +29,17 @@
     "filename": "config/slimme-raadpleegomgeving-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05"
+    },
+    "dummy": "2025-06-03"
+  },
+  {
+    "urlref": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2025-12-11",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-slimmeRaadpleegOmgeving",
+    "branchtag": "erkend-2025-12-11",
+    "name": "slimmeraadpleegomgeving",
+    "filename": "config/slimme-raadpleegomgeving-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2025-06-03"
     },
     "dummy": "2025-06-03"
   },
@@ -175,7 +197,7 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/slimmeraadpleegomgeving",
-    "seealso": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2025-06-03",
+    "seealso": "/doc/applicatieprofiel/slimmeraadpleegomgeving/erkendestandaard/2025-12-11",
     "type": "ap",
     "dummy": "22"
   },
@@ -309,13 +331,13 @@
   },
   {
     "urlref": "/doc/vocabularium/slimmeraadpleegomgeving",
-    "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2025-06-03",
+    "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2025-12-11",
     "type": "voc",
     "dummy": "023"
   },
   {
     "urlref": "/ns/slimmeraadpleegomgeving",
-    "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2025-06-03",
+    "seealso": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2025-12-11",
     "type": "voc",
     "dummy": "023"
   },
