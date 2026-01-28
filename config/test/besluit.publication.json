@@ -357,8 +357,20 @@
     "type": "voc"
   },
   {
+    "urlref": "/doc/vocabularium/besluit/erkendestandaard/2025-12-11",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
+    "branchtag": "erkend-2025",
+    "name": "besluit",
+    "filename": "config/besluit.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/besluit/standaard/2018-07-20"
+    },
+    "dummy": "2025-09-23 1",
+    "type": "voc"
+  },
+  {
     "urlref": "/doc/vocabularium/besluit",
-    "seealso": "/doc/vocabularium/besluit/standaard/2018-07-20",
+    "seealso": "/doc/vocabularium/besluit/erkendestandaard/2025-12-11",
     "type": "voc"
   },
   {
