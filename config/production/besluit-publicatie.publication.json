@@ -24,7 +24,7 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/besluit-publicatie",
-    "seealso": "/doc/applicatieprofiel/besluit-publicatie/standaard/2018-07-20",
+    "seealso": "/doc/applicatieprofiel/besluit-publicatie/erkendestandaard/2025-12-11",
     "type": "ap"
   },
   {
@@ -37,5 +37,16 @@
       "prev": "/doc/applicatieprofiel/besluit-publicatie/standaard/2018-07-20"
     },
     "dummy": "2025-09-23 2"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/besluit-publicatie/erkendestandaard/2025-12-11",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
+    "branchtag": "erkend-2025",
+    "name": "besluit-publicatie",
+    "filename": "config/besluit-publicatie.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/besluit-publicatie/standaard/2018-07-20"
+    },
+    "dummy": "2026-01-26 2"
   }
 ]
