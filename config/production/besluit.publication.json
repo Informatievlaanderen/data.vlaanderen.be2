@@ -137,7 +137,7 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/besluitvorming/",
-    "seealso": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04",
+    "seealso": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2025-12-11",
     "type": "ap"
   },
   {
@@ -305,8 +305,13 @@
     }
   },
   {
+    "urlref": "/doc/vocabularium/besluitvorming",
+    "seealso": "/doc/vocabularium/besluitvorming/erkendestandaard/2025-12-11",
+    "type": "voc"
+  },
+  {
     "urlref": "/ns/besluitvorming",
-    "seealso": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04",
+    "seealso": "/doc/vocabularium/besluitvorming/erkendestandaard/2025-12-11",
     "type": "voc"
   },
   {
@@ -380,6 +385,17 @@
     "dummy": "2025-09-23 2"
   },
   {
+    "urlref": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2025-12-11",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-besluitvorming",
+    "branchtag": "erkend-2025-12-11",
+    "name": "besluitvorming-ap",
+    "filename": "config/besluitvorming-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2021-02-04"
+    },
+    "dummy": "2025-09-23 2"
+  },
+  {
     "urlref": "/doc/vocabularium/besluitvorming/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-besluitvorming",
     "branchtag": "master",
@@ -389,5 +405,17 @@
       "prev": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04"
     },
     "dummy": "2025-09-23 2"
+  },
+  {
+    "urlref": "/doc/vocabularium/besluitvorming/erkendestandaard/2025-12-11",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-besluitvorming",
+    "branchtag": "erkend-2025-12-11",
+    "name": "besluitvorming",
+    "filename": "config/besluitvorming-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/besluitvorming/erkendestandaard/2021-02-04"
+    },
+    "dummy": "2025-09-23 1",
+    "type": "voc"
   }
 ]
