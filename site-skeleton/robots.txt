@@ -1,9 +1,6 @@
 User-agent: SemrushBot
-Disallow: / 
-User-agent: SemrushBot
-Disallow: / 
-User-agent: *
-Allow:/standaarden
-Disallow: / 
-User-agent: www.deadlinkchecker.com
 Allow: /
+
+User-agent: *
+Disallow: /
+Allow: /standaarden
