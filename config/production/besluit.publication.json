@@ -387,7 +387,7 @@
   {
     "urlref": "/doc/applicatieprofiel/besluitvorming/erkendestandaard/2025-12-11",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-besluitvorming",
-    "branchtag": "erkend-2025-12-11",
+    "branchtag": "erkend-2025-12-11-v2",
     "name": "besluitvorming-ap",
     "filename": "config/besluitvorming-ap.json",
     "navigation": {
@@ -409,7 +409,7 @@
   {
     "urlref": "/doc/vocabularium/besluitvorming/erkendestandaard/2025-12-11",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-besluitvorming",
-    "branchtag": "erkend-2025-12-11",
+    "branchtag": "erkend-2025-12-11-v2",
     "name": "besluitvorming",
     "filename": "config/besluitvorming-voc.json",
     "navigation": {
