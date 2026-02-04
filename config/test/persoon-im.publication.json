@@ -1,5 +1,16 @@
 [
   {
+    "urlref": "/doc/applicatieprofiel/persoon-basis/ontwerpstandaard/2025",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon",
+    "branchtag": "master",
+    "name": "persoon-IM",
+    "filename": "config/persoon-im.json",
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "005"
+  },
+  {
     "urlref": "/ns/magda/persoon",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon/",
     "branchtag": "master",
