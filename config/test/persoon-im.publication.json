@@ -1,0 +1,10 @@
+[
+  {
+    "urlref": "/ns/magda/persoon",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon/",
+    "branchtag": "master",
+    "name": "persoon-IMVOC",
+    "filename": "config/persoon-im.json",
+    "dummy": "001"
+  }
+]
