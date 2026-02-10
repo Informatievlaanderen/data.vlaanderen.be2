@@ -137,6 +137,7 @@ render_report_header() {
             ["ctx"]="JSON-LD Context file generation"
             ["rdf"]="RDF file generation"
             ["shcl"]="SHACL file generation"
+            ["swag"]="Swagger file generation"
             ["issu"]="Open Issues"
         )
 
@@ -149,7 +150,7 @@ render_report_header() {
         echo "</details>" >>${OVERVIEW}
         echo "" >>${OVERVIEW}
 
-        echo "| Specification | tag | uml | val | stak | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | issu |" >>${OVERVIEW}
+        echo "| Specification | tag | uml | val | stak | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | swag | issu |" >>${OVERVIEW}
         echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >>${OVERVIEW}
 
     fi
@@ -171,7 +172,7 @@ render_report_line() {
     URLREF=$(jq -r .urlref ${JSONI})
     echo -n "| [${FIRSTPARTLINE}/ ${SECONDPARTLINE}](${HOSTNAME}${URLREF}) <br/> [&#9883;](/report4/${LINE}) [&#9884;](${HOSTNAME}${URLREF})" >>${EXECUTIONVIEW}
 
-    REPORTS="branchtag oslo-converter-ea jsonld-validation oslo-stakeholders-converter translate autotranslate merge generator-webuniversum-json metadata generator-html generator-respec generator-jsonld-context generator-rdf generator-shacl"
+    REPORTS="branchtag oslo-converter-ea jsonld-validation oslo-stakeholders-converter translate autotranslate merge generator-webuniversum-json metadata generator-html generator-respec generator-jsonld-context generator-rdf generator-shacl generator-swagger"
 
     for REPORTFILE in ${REPORTS}; do
         if [ -f ${RLINE}/${REPORTFILE}.report.md ]; then
@@ -1028,6 +1029,77 @@ render_context() { # SLINE TLINE JSON
     fi
 }
 
+
+render_swagger() { # SLINE TLINE JSON
+    echo "render_swagger: $1 $2 $3 $4 $5"
+    local SLINE=$1
+    local TLINE=$2
+    local JSONI=$3
+    local RLINE=$4
+    local GOALLANGUAGE=$5
+    local PRIMELANGUAGE=${6-false}
+
+    FILENAME=$(jq -r ".name" ${JSONI})
+    OUTFILE=${FILENAME}.jsonld
+    OUTFILELANGUAGE=${FILENAME}_${GOALLANGUAGE}.jsonld
+
+    MERGEDFILENAME=merged_${FILENAME}_${GOALLANGUAGE}.jsonld
+    MERGEDFILE=${SLINE}/merged/${MERGEDFILENAME}
+
+    if [ -f ${MERGEDFILE} ]; then
+        echo "translations integrated file found"
+    else
+        echo "defaulting to the primelanguage version"
+        MERGEDFILE=${JSONI}
+    fi
+
+    REPORTFILE=${RLINE}/generator-swagger.report.md
+    mkdir -p ${RLINE}
+
+    COMMAND=$(echo '.type')
+    TYPE=$(jq -r "${COMMAND}" ${JSONI})
+    OUTPUT=${TLINE}/swagger/${OUTFILELANGUAGE}
+
+    generator_parameters swaggergenerator ${JSONI}
+
+    if [ ${TYPE} == "ap" ] || [ ${TYPE} == "oj" ]; then
+        mkdir -p ${TLINE}/swagger
+
+        echo "${REPORTLINEPREFIX}oslo-generator-swagger for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
+        echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
+        oslo-generator-swagger ${PARAMETERS} \
+            --input ${MERGEDFILE} \
+            --language ${GOALLANGUAGE} \
+            --output ${OUTPUT} \
+            --versionAPI 1.0.0 \
+            --versionSwagger 3.0.4 \
+            --title "test" \
+            --description "test" \
+            --contextURL "https://data.vlaanderen.be" \
+            --baseURL "https://data.vlaanderen.be" \
+            &>>${REPORTFILE}
+
+        if [ $? -gt 0 ]; then
+            echo "RENDER-DETAILS: failed"
+            cat ${REPORTFILE}
+            execution_strickness
+        fi
+        if [ -f ${OUTPUT} ]; then
+            echo "RENDER-DETAILs: success"
+        else
+            echo "RENDER-DETAILS: failed"
+            cat ${REPORTFILE}
+            execution_strickness
+        fi
+
+        prettyprint_jsonld ${TLINE}/swagger/${OUTFILELANGUAGE}
+        if [ ${PRIMELANGUAGE} == true ]; then
+            cp ${TLINE}/swagger/${OUTFILELANGUAGE} ${TLINE}/swaggr/${OUTFILE}
+        fi
+    fi
+}
+
+
 render_shacl_languageaware() {
     echo "render_shacl: $1 $2 $3 $4 $5"
     local SLINE=$1
@@ -1239,6 +1311,21 @@ cat ${CHECKOUTFILE} | while read line; do
                     generate_for_language ${g} ${i}
                     if [ ${GENERATEDARTEFACT} == true ]; then
                         render_context $SLINE $TLINE $i $RLINE ${g}
+                    fi
+                done
+                ;;
+            swagger)
+                # the source for the swagger generator is solely the intermediate json
+                SLINE=${TARGETDIR}/report4/${line}
+                TLINE=${TARGETDIR}/target/${line}
+                RLINE=${TARGETDIR}/report4/swagger/${line}
+                mkdir -p ${TLINE}
+                mkdir -p ${RLINE}
+                render_context $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
+                for g in ${GOALLANGUAGE}; do
+                    generate_for_language ${g} ${i}
+                    if [ ${GENERATEDARTEFACT} == true ]; then
+                        render_swagger $SLINE $TLINE $i $RLINE ${g}
                     fi
                 done
                 ;;

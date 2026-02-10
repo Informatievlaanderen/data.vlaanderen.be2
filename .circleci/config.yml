@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   checkout:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       #      - add_ssh_keys:
@@ -151,7 +151,7 @@ jobs:
             - autotranslation
   render-html-details-4:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       - attach_workspace:
@@ -218,7 +218,7 @@ jobs:
             - target
   render-respec-html-details-4:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       - attach_workspace:
@@ -313,7 +313,7 @@ jobs:
             - report4/shacl
   render-context-details-4:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       - attach_workspace:
@@ -340,6 +340,36 @@ jobs:
           when: always
           paths:
             - report4/context
+            - target
+  render-swagger-4:
+    docker:
+      - image: cimg/node:24.11.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - run:
+          name: touch a file
+          command: |
+            mkdir -p /tmp/workspace/report4/swagger
+            touch /tmp/workspace/report4/swagger/.ignore
+      - run:
+          name: install software
+          command: sudo npm install -g @oslo-flanders/swagger-generator
+      - run:
+          name: Render swagger file of  merged json file (a)
+          command: |
+            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace swagger ${CIRCLEWKD}/config
+      - run:
+          name: List the files which have been created
+          command: |
+            if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
+      - persist_to_workspace:
+          root: /tmp/workspace
+          when: always
+          paths:
+            - report4/swagger
             - target
   render-example-templates:
     docker:
@@ -501,7 +531,7 @@ jobs:
             - target
   copy-raw:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       - attach_workspace:
@@ -526,7 +556,7 @@ jobs:
       generatedRepoFingerprint:
         type: string
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       - attach_workspace:
@@ -646,7 +676,7 @@ jobs:
       repoFingerprint:
         type: string
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       - add_ssh_keys:
