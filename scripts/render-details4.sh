@@ -1321,7 +1321,7 @@ cat ${CHECKOUTFILE} | while read line; do
                 RLINE=${TARGETDIR}/report4/swagger/${line}
                 mkdir -p ${TLINE}
                 mkdir -p ${RLINE}
-                render_context $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
+                render_swagger $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
                 for g in ${GOALLANGUAGE}; do
                     generate_for_language ${g} ${i}
                     if [ ${GENERATEDARTEFACT} == true ]; then

@@ -8,7 +8,7 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "024"
+    "dummy": "025"
   },
   {
     "urlref": "/ns/magda/persoon",
