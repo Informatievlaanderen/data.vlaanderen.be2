@@ -735,6 +735,9 @@ workflows:
       - render-shacl-details-4:
           requires:
             - render-translation-4
+      - render-swagger-4:
+          requires:
+            - render-translation-4
       - convert-json-to-ttl:
           requires:
             - render-shacl-details-4:
@@ -768,6 +771,10 @@ workflows:
                 - success
                 - canceled
             - render-shacl-details-4:
+                - failed
+                - success
+                - canceled
+            - render-swagger-4:
                 - failed
                 - success
                 - canceled
