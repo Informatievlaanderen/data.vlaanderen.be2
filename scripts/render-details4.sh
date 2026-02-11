@@ -1047,6 +1047,8 @@ render_swagger() {
     echo "JSONI: ${JSONI}"
     echo "RLINE: ${RLINE}"
     echo "DROOT: ${DROOT}"
+    echo "GOALLANGUAGE: ${GOALLANGUAGE}"
+    echo "PRIMELANGUAGE: ${PRIMELANGUAGE}"
 
 
     FILENAME=$(jq -r ".name" ${JSONI})
