@@ -1039,6 +1039,12 @@ render_swagger() {
     local GOALLANGUAGE=$5
     local PRIMELANGUAGE=${6-false}
 
+    echo "SLINE: ${SLINE}"
+    echo "TLINE: ${TLINE}"
+    echo "JSONI: ${JSONI}"
+    echo "RLINE: ${RLINE}"
+
+
     FILENAME=$(jq -r ".name" ${JSONI})
     OUTFILE=${FILENAME}.yaml
     OUTFILELANGUAGE=${FILENAME}_${GOALLANGUAGE}.yaml
