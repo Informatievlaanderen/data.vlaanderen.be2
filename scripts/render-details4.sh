@@ -1087,6 +1087,7 @@ render_swagger() {
         echo "output: ${OUTPUT}"
         echo "REPORTFILE: ${REPORTFILE}"
         echo "GOALLANGUAGE: ${GOALLANGUAGE}"
+        echo "context: ${TLINE}/context/${OUTFILELANGUAGE}"
         ls /tmp/workspace/report4/doc/implementatiemodel/magda/persoon
         oslo-generator-swagger ${PARAMETERS} \
             --input ${MERGEDFILE} \
@@ -1094,10 +1095,10 @@ render_swagger() {
             --output ${OUTPUT} \
             --versionAPI 1.0.0 \
             --versionSwagger 3.0.4 \
-            --title "test" \
-            --description "test" \
-            --contextURL "https://data.vlaanderen.be" \
-            --baseURL "https://data.vlaanderen.be" \
+            --title "OpenAPI Swagger publication" \
+            --description "This is a inspirational OpenAPI Swagger publication" \
+            --contextURL ${TLINE}/context/${OUTFILELANGUAGE}.jsonld \
+            --baseURL https://${URIDOMAIN}\
             &>>${REPORTFILE}
 
         if [ $? -gt 0 ]; then
@@ -1115,7 +1116,7 @@ render_swagger() {
 
         prettyprint_jsonld ${TLINE}/swagger/${OUTFILELANGUAGE}
         if [ ${PRIMELANGUAGE} == true ]; then
-            cp ${TLINE}/swagger/${OUTFILELANGUAGE} ${TLINE}/swaggr/${OUTFILE}
+            cp ${TLINE}/swagger/${OUTFILELANGUAGE} ${TLINE}/swaggegir/${OUTFILE}
         fi
     fi
 }
