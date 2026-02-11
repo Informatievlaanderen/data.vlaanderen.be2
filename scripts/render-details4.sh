@@ -1057,7 +1057,22 @@ render_swagger() { # SLINE TLINE JSON
     mkdir -p ${RLINE}
 
     COMMAND=$(echo '.type')
+    echo $COMMAND
     TYPE=$(jq -r "${COMMAND}" ${JSONI})
+    echo $TYPE
+
+    case $TYPE in
+    ap)
+        SPECTYPE="ApplicationProfile"
+        ;;
+    voc)
+        SPECTYPE="Vocabulary"
+        ;;
+    oj)
+        SPECTYPE="ApplicationProfile"
+        ;;
+    esac
+
     OUTPUT=${TLINE}/swagger/${OUTFILELANGUAGE}
 
     generator_parameters swaggergenerator ${JSONI}
@@ -1321,11 +1336,11 @@ cat ${CHECKOUTFILE} | while read line; do
                 RLINE=${TARGETDIR}/report4/swagger/${line}
                 mkdir -p ${TLINE}
                 mkdir -p ${RLINE}
-                render_swagger $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
+                render_swagger $SLINE $TLINE $i $RLINE ${line} ${PRIMELANGUAGE} true
                 for g in ${GOALLANGUAGE}; do
                     generate_for_language ${g} ${i}
                     if [ ${GENERATEDARTEFACT} == true ]; then
-                        render_swagger $SLINE $TLINE $i $RLINE ${g}
+                        render_swagger $SLINE $TLINE $i $RLINE ${line} ${g}
                     fi
                 done
                 ;;
