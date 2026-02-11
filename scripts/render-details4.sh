@@ -1040,8 +1040,8 @@ render_swagger() {
     local PRIMELANGUAGE=${6-false}
 
     FILENAME=$(jq -r ".name" ${JSONI})
-    OUTFILE=${FILENAME}.jsonld
-    OUTFILELANGUAGE=${FILENAME}_${GOALLANGUAGE}.jsonld
+    OUTFILE=${FILENAME}.yaml
+    OUTFILELANGUAGE=${FILENAME}_${GOALLANGUAGE}.yaml
 
     MERGEDFILENAME=merged_${FILENAME}_${GOALLANGUAGE}.jsonld
     MERGEDFILE=${SLINE}/merged/${MERGEDFILENAME}
