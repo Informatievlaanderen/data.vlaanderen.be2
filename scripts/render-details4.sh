@@ -1038,13 +1038,15 @@ render_swagger() {
     local TLINE=$2
     local JSONI=$3
     local RLINE=$4
-    local GOALLANGUAGE=$5
-    local PRIMELANGUAGE=${6-false}
+    local DROOT=$5
+    local GOALLANGUAGE=$6
+    local PRIMELANGUAGE=${7-false}
 
     echo "SLINE: ${SLINE}"
     echo "TLINE: ${TLINE}"
     echo "JSONI: ${JSONI}"
     echo "RLINE: ${RLINE}"
+    echo "DROOT: ${DROOT}"
 
 
     FILENAME=$(jq -r ".name" ${JSONI})
@@ -1348,11 +1350,11 @@ cat ${CHECKOUTFILE} | while read line; do
                 RLINE=${TARGETDIR}/report4/swagger/${line}
                 mkdir -p ${TLINE}
                 mkdir -p ${RLINE}
-                render_swagger $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
+                render_swagger $SLINE $TLINE $i $RLINE ${line} ${PRIMELANGUAGE} true
                 for g in ${GOALLANGUAGE}; do
                     generate_for_language ${g} ${i}
                     if [ ${GENERATEDARTEFACT} == true ]; then
-                        render_swagger $SLINE $TLINE $i $RLINE ${g}
+                        render_swagger $SLINE $TLINE $i $RLINE ${line} ${g}
                     fi
                 done
                 ;;
