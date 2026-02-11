@@ -1059,6 +1059,8 @@ render_swagger() {
     COMMAND=$(echo '.type')
     TYPE=$(jq -r "${COMMAND}" ${JSONI})
     echo $TYPE
+    echo "render_swagger: $1 $2 $3 $4 $5"
+
 
     case $TYPE in
     ap)
@@ -1084,6 +1086,7 @@ render_swagger() {
         echo "mergedfile: ${MERGEDFILE}"
         echo "output: ${OUTPUT}"
         echo "REPORTFILE: ${REPORTFILE}"
+        echo "GOALLANGUAGE: ${GOALLANGUAGE}"
         ls /tmp/workspace/report4/doc/implementatiemodel/magda/persoon
         oslo-generator-swagger ${PARAMETERS} \
             --input ${MERGEDFILE} \
@@ -1339,11 +1342,11 @@ cat ${CHECKOUTFILE} | while read line; do
                 RLINE=${TARGETDIR}/report4/swagger/${line}
                 mkdir -p ${TLINE}
                 mkdir -p ${RLINE}
-                render_swagger $SLINE $TLINE $i $RLINE ${line} ${PRIMELANGUAGE} true
+                render_swagger $SLINE $TLINE $i $RLINE ${PRIMELANGUAGE} true
                 for g in ${GOALLANGUAGE}; do
                     generate_for_language ${g} ${i}
                     if [ ${GENERATEDARTEFACT} == true ]; then
-                        render_swagger $SLINE $TLINE $i $RLINE ${line} ${g}
+                        render_swagger $SLINE $TLINE $i $RLINE ${g}
                     fi
                 done
                 ;;
