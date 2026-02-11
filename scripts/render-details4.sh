@@ -1081,7 +1081,10 @@ render_swagger() {
 
         echo "${REPORTLINEPREFIX} oslo-generator-swagger for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
         echo "${REPORTLINEPREFIX} -------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-        echo "${PARAMETERS} ${MERGEDFILE} ${OUTPUT} ${REPORTFILE}"
+        echo "mergedfile: ${MERGEDFILE}"
+        echo "output: ${OUTPUT}"
+        echo "REPORTFILE: ${REPORTFILE}"
+        ls /tmp/workspace/report4/doc/implementatiemodel/magda/persoon
         oslo-generator-swagger ${PARAMETERS} \
             --input ${MERGEDFILE} \
             --language ${GOALLANGUAGE} \
