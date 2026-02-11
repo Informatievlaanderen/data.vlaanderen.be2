@@ -1081,14 +1081,11 @@ render_swagger() {
     if [ ${TYPE} == "ap" ] || [ ${TYPE} == "impl" ] || [ ${TYPE} == "oj" ]; then
         mkdir -p ${TLINE}/swagger
 
+        # Construct the context URL dynamically
+        CONTEXT_URL="https://${URIDOMAIN}/${DROOT}/context/${FILENAME}.jsonld"
+
         echo "${REPORTLINEPREFIX} oslo-generator-swagger for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
         echo "${REPORTLINEPREFIX} -------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-        echo "mergedfile: ${MERGEDFILE}"
-        echo "output: ${OUTPUT}"
-        echo "REPORTFILE: ${REPORTFILE}"
-        echo "GOALLANGUAGE: ${GOALLANGUAGE}"
-        echo "context: ${TLINE}/context/${OUTFILELANGUAGE}"
-        ls /tmp/workspace/report4/doc/implementatiemodel/magda/persoon
         oslo-generator-swagger ${PARAMETERS} \
             --input ${MERGEDFILE} \
             --language ${GOALLANGUAGE} \
@@ -1097,7 +1094,8 @@ render_swagger() {
             --versionSwagger 3.0.4 \
             --title "OpenAPI Swagger publication" \
             --description "This is a inspirational OpenAPI Swagger publication" \
-            --contextURL ${TLINE}/context/${OUTFILELANGUAGE}.jsonld \
+            "/tmp/workspace/target/doc/implementatiemodel/magda/persoon/context/persoon-IM_nl.jsonld"
+            --contextURL ${CONTEXT_URL} \
             --baseURL https://${URIDOMAIN}\
             &>>${REPORTFILE}
 
