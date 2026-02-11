@@ -1125,7 +1125,7 @@ render_swagger() {
 
         prettyprint_jsonld ${TLINE}/swagger/${OUTFILELANGUAGE}
         if [ ${PRIMELANGUAGE} == true ]; then
-            cp ${TLINE}/swagger/${OUTFILELANGUAGE} ${TLINE}/swaggegir/${OUTFILE}
+            cp ${TLINE}/swagger/${OUTFILELANGUAGE} ${TLINE}/swagger/${OUTFILE}
         fi
     fi
 }
