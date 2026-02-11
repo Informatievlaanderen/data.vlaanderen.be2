@@ -1057,7 +1057,6 @@ render_swagger() { # SLINE TLINE JSON
     mkdir -p ${RLINE}
 
     COMMAND=$(echo '.type')
-    echo $COMMAND
     TYPE=$(jq -r "${COMMAND}" ${JSONI})
     echo $TYPE
 
@@ -1077,7 +1076,7 @@ render_swagger() { # SLINE TLINE JSON
 
     generator_parameters swaggergenerator ${JSONI}
 
-    if [ ${TYPE} == "ap" ] || [ ${TYPE} == "oj" ]; then
+    if [ ${TYPE} == "ap" ] || [ ${TYPE} == "impl" ] || [ ${TYPE} == "oj" ]; then
         mkdir -p ${TLINE}/swagger
 
         echo "${REPORTLINEPREFIX}oslo-generator-swagger for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
