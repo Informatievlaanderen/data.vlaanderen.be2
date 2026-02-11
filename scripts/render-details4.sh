@@ -1094,7 +1094,6 @@ render_swagger() {
             --versionSwagger 3.0.4 \
             --title "OpenAPI Swagger publication" \
             --description "This is a inspirational OpenAPI Swagger publication" \
-            "/tmp/workspace/target/doc/implementatiemodel/magda/persoon/context/persoon-IM_nl.jsonld"
             --contextURL ${CONTEXT_URL} \
             --baseURL https://${URIDOMAIN}\
             &>>${REPORTFILE}
