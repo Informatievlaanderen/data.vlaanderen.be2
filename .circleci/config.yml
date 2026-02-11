@@ -504,17 +504,17 @@ jobs:
             else
               echo "No shacl directory found"
             fi
+            if [ -d "${RLINE}/swagger" ]; then
+              cp -r ${RLINE}/swagger/* ${RLINE} || true
+              rm -rf ${RLINE}/swagger
+            else
+              echo "No swagger directory found"
+            fi
             if [ -d "${RLINE}/jsonld-validation" ]; then
               cp -r ${RLINE}/jsonld-validation/* ${RLINE} || true
               rm -rf ${RLINE}/jsonld-validation
             else
               echo "No jsonld-validation directory found"
-            fi
-            if [ -d "${RLINE}/swagger" ]; then
-              cp -r ${RLINE}/swagger/* ${RLINE} || true
-              rm -rf ${RLINE}/swagger
-            else
-              echo "No sagger directory found"
             fi
       - run:
           name: download global overview memory
@@ -609,6 +609,7 @@ jobs:
             rm -rf rdf
             rm -rf respec
             rm -rf shacl
+            rm -rf swagger
             rm -rf jsonld-validation
       - run:
           name: Copy generated assets
