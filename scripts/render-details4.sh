@@ -1030,7 +1030,7 @@ render_context() { # SLINE TLINE JSON
 }
 
 
-render_swagger() { # SLINE TLINE JSON
+render_swagger() { 
     echo "render_swagger: $1 $2 $3 $4 $5"
     local SLINE=$1
     local TLINE=$2
@@ -1079,8 +1079,9 @@ render_swagger() { # SLINE TLINE JSON
     if [ ${TYPE} == "ap" ] || [ ${TYPE} == "impl" ] || [ ${TYPE} == "oj" ]; then
         mkdir -p ${TLINE}/swagger
 
-        echo "${REPORTLINEPREFIX}oslo-generator-swagger for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
-        echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
+        echo "${REPORTLINEPREFIX} oslo-generator-swagger for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
+        echo "${REPORTLINEPREFIX} -------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
+        echo "${PARAMETERS} ${MERGEDFILE} ${OUTPUT} ${REPORTFILE}"
         oslo-generator-swagger ${PARAMETERS} \
             --input ${MERGEDFILE} \
             --language ${GOALLANGUAGE} \
