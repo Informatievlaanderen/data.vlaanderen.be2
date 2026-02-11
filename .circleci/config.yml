@@ -510,6 +510,12 @@ jobs:
             else
               echo "No jsonld-validation directory found"
             fi
+            if [ -d "${RLINE}/swagger" ]; then
+              cp -r ${RLINE}/swagger/* ${RLINE} || true
+              rm -rf ${RLINE}/swagger
+            else
+              echo "No sagger directory found"
+            fi
       - run:
           name: download global overview memory
           working_directory: /tmp/workspace
