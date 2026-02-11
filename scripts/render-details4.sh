@@ -605,6 +605,8 @@ render_rdf() { # SLINE TLINE JSON
     local LANGUAGE=$7
     local PRIMELANGUAGE=${8-false}
 
+    echo "DROOT: ${DROOT}"
+
     OUTPUTDIR=${TLINE}/voc
     mkdir -p ${OUTPUTDIR}
 
