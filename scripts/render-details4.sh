@@ -749,7 +749,7 @@ render_nunjunks_html() { # SLINE TLINE JSON
     --output ${INT_OUTPUT} \
     --specificationType ${SPECTYPE} \
     --language ${LANGUAGE} \
-    --publicationEnvironment https://${URIDOMAIN} \
+    --publicationEnvironment $HOSTNAME \
     &>>${INT_REPORTFILE}
     
     if [ $? -gt 0 ]; then
