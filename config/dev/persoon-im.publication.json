@@ -9,7 +9,7 @@
       "parameters": "--addDomainPrefix true"
     },
     "swaggergenerator": {
-      "parameters": "--title 'Hello world' --description 'dummy description'"
+      "parameters": "--title Hello world --description dummy description --contactEmail kristof.vandenbroucke@vlaanderen.be"
     },
     "dummy": "048"
   },
