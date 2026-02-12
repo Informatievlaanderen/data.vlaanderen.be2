@@ -996,6 +996,13 @@ render_context() { # SLINE TLINE JSON
         MERGEDFILE=${JSONI}
     fi
     
+    REPORTFILE=${RLINE}/generator-jsonld-context.report.md
+    mkdir -p ${RLINE}
+    
+    COMMAND=$(echo '.type')
+    TYPE=$(jq -r "${COMMAND}" ${JSONI})
+    OUTPUT=${TLINE}/context/${OUTFILELANGUAGE}
+    
     case $TYPE in
         ap)
             SPECTYPE="ApplicationProfile"
@@ -1012,16 +1019,9 @@ render_context() { # SLINE TLINE JSON
         ;;
     esac
     
-    REPORTFILE=${RLINE}/generator-jsonld-context.report.md
-    mkdir -p ${RLINE}
-    
-    COMMAND=$(echo '.type')
-    TYPE=$(jq -r "${COMMAND}" ${JSONI})
-    OUTPUT=${TLINE}/context/${OUTFILELANGUAGE}
-    
     generator_parameters contextgenerator ${JSONI}
     
-    if [ ${SPECTYPE} == "ap" ] || [ ${SPECTYPE} == "oj" ]; then
+    if [ ${SPECTYPE} == "ApplicationProfile" ]; then
         mkdir -p ${TLINE}/context
         
         echo "${REPORTLINEPREFIX}oslo-jsonld-context-generator for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
@@ -1106,7 +1106,7 @@ render_swagger() {
     
     generator_parameters swaggergenerator ${JSONI}
     
-    if [ ${SPECTYPE} == "ap" ]  || [ ${SPECTYPE} == "oj" ]; then
+    if [ ${SPECTYPE} == "ApplicationProfile" ]; then
         mkdir -p ${TLINE}/swagger
         
         # Construct the context URL dynamically
@@ -1176,6 +1176,8 @@ render_shacl_languageaware() {
     
     COMMAND=$(echo '.type')
     TYPE=$(jq -r "${COMMAND}" ${JSONI})
+
+    echo "$TYPE"
     
     case $TYPE in
         ap)
@@ -1192,10 +1194,11 @@ render_shacl_languageaware() {
             SPECTYPE="ApplicationProfile"
         ;;
     esac
+    echo "$SPECTYPE"
     
     generator_parameters shaclgenerator ${JSONI}
     
-    if [ ${SPECTYPE} == "ap" ] || [ ${SPECTYPE} == "oj" ]; then
+    if [ ${SPECTYPE} == "ApplicationProfile" ]; then
         
         HH=$(echo ${HOSTNAME} | sed -e "s|/$||g")
         LL=$(echo ${LINE} | sed -e "s|^/||g")
