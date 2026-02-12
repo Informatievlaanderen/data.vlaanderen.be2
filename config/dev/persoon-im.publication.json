@@ -11,7 +11,7 @@
     "swaggergenerator": {
       "parameters": "--title Hello world --description dummy description --contactEmail kristof.vandenbroucke@vlaanderen.be"
     },
-    "dummy": "049"
+    "dummy": "050"
   },
   {
     "urlref": "/ns/magda/persoon",

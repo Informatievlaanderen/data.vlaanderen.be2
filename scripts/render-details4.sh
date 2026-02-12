@@ -661,7 +661,7 @@ render_rdf() { # SLINE TLINE JSON
         
         echo "${REPORTLINEPREFIX}oslo-generator-rdf for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
         echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-        oslo-generator-rdf
+        oslo-generator-rdf \
         --input ${MERGEDFILE} \
         --output ${OUTPUT} \
         --contentType ${OUTPUTFORMAT} \
@@ -745,7 +745,7 @@ render_nunjunks_html() { # SLINE TLINE JSON
     
     echo "${REPORTLINEPREFIX}oslo-webuniversum-json-generator for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${INT_REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${INT_REPORTFILE}
-    oslo-webuniversum-json-generator
+    oslo-webuniversum-json-generator \
     --input ${MERGEDFILE} \
     --output ${INT_OUTPUT} \
     --specificationType ${SPECTYPE} \
@@ -788,7 +788,7 @@ render_nunjunks_html() { # SLINE TLINE JSON
     
     echo "${REPORTLINEPREFIX}oslo-generator-html for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-    oslo-generator-html
+    oslo-generator-html \
     --input ${INT_OUTPUT} \
     --output ${OUTPUT} \
     --stakeholders ${STAKEHOLDERS} \
@@ -884,7 +884,7 @@ render_respec_html() { # SLINE TLINE JSON
     
     echo "${REPORTLINEPREFIX}oslo-generator-respec for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-    oslo-generator-respec
+    oslo-generator-respec \
     --input ${MERGEDFILE} \
     --output ${OUTPUT} \
     --specificationType ${SPECTYPE} \
@@ -1030,7 +1030,7 @@ render_context() { # SLINE TLINE JSON
         
         echo "${REPORTLINEPREFIX}oslo-jsonld-context-generator for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
         echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-        oslo-jsonld-context-generator
+        oslo-jsonld-context-generator \
         --input ${MERGEDFILE} \
         --language ${GOALLANGUAGE} \
         --output ${OUTPUT} \
