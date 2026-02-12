@@ -9,9 +9,9 @@
       "parameters": "--addDomainPrefix true"
     },
     "swaggergenerator": {
-      "parameters": "--title Hello world"
+      "parameters": "--title 'Hello world' --description 'dummy description'"
     },
-    "dummy": "045"
+    "dummy": "046"
   },
   {
     "urlref": "/ns/magda/persoon",
