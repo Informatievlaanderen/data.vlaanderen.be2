@@ -661,12 +661,13 @@ render_rdf() { # SLINE TLINE JSON
         
         echo "${REPORTLINEPREFIX}oslo-generator-rdf for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
         echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-        oslo-generator-rdf ${PARAMETERS} \
+        oslo-generator-rdf
         --input ${MERGEDFILE} \
         --output ${OUTPUT} \
         --contentType ${OUTPUTFORMAT} \
         --silent false \
         --language ${LANGUAGE} \
+        ${PARAMETERS} \
         &>>${REPORTFILE}
         
         if [ $? -gt 0 ]; then
@@ -744,12 +745,13 @@ render_nunjunks_html() { # SLINE TLINE JSON
     
     echo "${REPORTLINEPREFIX}oslo-webuniversum-json-generator for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${INT_REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${INT_REPORTFILE}
-    oslo-webuniversum-json-generator ${PARAMETERS} \
+    oslo-webuniversum-json-generator
     --input ${MERGEDFILE} \
     --output ${INT_OUTPUT} \
     --specificationType ${SPECTYPE} \
     --language ${LANGUAGE} \
     --publicationEnvironment $HOSTNAME \
+    ${PARAMETERS} \
     &>>${INT_REPORTFILE}
     
     if [ $? -gt 0 ]; then
@@ -786,7 +788,7 @@ render_nunjunks_html() { # SLINE TLINE JSON
     
     echo "${REPORTLINEPREFIX}oslo-generator-html for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-    oslo-generator-html ${PARAMETERS} \
+    oslo-generator-html
     --input ${INT_OUTPUT} \
     --output ${OUTPUT} \
     --stakeholders ${STAKEHOLDERS} \
@@ -797,6 +799,7 @@ render_nunjunks_html() { # SLINE TLINE JSON
     --rootTemplate ${TEMPLATELANG} \
     --silent false \
     --language ${LANGUAGE} \
+    ${PARAMETERS} \
     &>>${REPORTFILE}
     
     if [ $? -gt 0 ]; then
@@ -881,13 +884,14 @@ render_respec_html() { # SLINE TLINE JSON
     
     echo "${REPORTLINEPREFIX}oslo-generator-respec for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-    oslo-generator-respec ${PARAMETERS} \
+    oslo-generator-respec
     --input ${MERGEDFILE} \
     --output ${OUTPUT} \
     --specificationType ${SPECTYPE} \
     --specificationName ${TITLELANG} \
     --silent false \
     --language ${LANGUAGE} \
+    ${PARAMETERS} \
     &>>${REPORTFILE}
     
     if [ $? -gt 0 ]; then
@@ -1026,10 +1030,11 @@ render_context() { # SLINE TLINE JSON
         
         echo "${REPORTLINEPREFIX}oslo-jsonld-context-generator for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
         echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-        oslo-jsonld-context-generator ${PARAMETERS} \
+        oslo-jsonld-context-generator
         --input ${MERGEDFILE} \
         --language ${GOALLANGUAGE} \
         --output ${OUTPUT} \
+        ${PARAMETERS} \
         &>>${REPORTFILE}
         
         if [ $? -gt 0 ]; then
@@ -1211,12 +1216,13 @@ render_shacl_languageaware() {
         
         echo "${REPORTLINEPREFIX}oslo-shacl-template-generator for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
         echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-        oslo-shacl-template-generator ${PARAMETERS} \
+        oslo-shacl-template-generator \
         --input ${MERGEDFILE} \
         --language ${GOALLANGUAGE} \
         --output ${OUTFILE} \
         --shapeBaseURI ${SHAPEBASEURI} \
         --applicationProfileURL ${DOCUMENTURL} \
+        ${PARAMETERS} \
         &>>${REPORTFILE}
         
         if [ $? -gt 0 ]; then
