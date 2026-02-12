@@ -861,7 +861,7 @@ render_respec_html() { # SLINE TLINE JSON
     TITLELANG=$(jq -r "${COMMANDTITLELANG}" ${JSONI})
     
     REPORTFILE=${RLINE}/generator-respec.report.md
-    generator_parameters htmlgenerator ${JSONI}
+    generator_parameters respecgenerator ${JSONI}
     
     case $TYPE in
         ap)
@@ -1114,7 +1114,7 @@ render_swagger() {
         
         echo "${REPORTLINEPREFIX} oslo-generator-swagger for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
         echo "${REPORTLINEPREFIX} -------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-        oslo-generator-swagger ${PARAMETERS} \
+        oslo-generator-swagger \
         --input ${MERGEDFILE} \
         --language ${GOALLANGUAGE} \
         --output ${OUTPUT} \
@@ -1123,7 +1123,8 @@ render_swagger() {
         --title "OpenAPI Swagger publication" \
         --description "This is a inspirational OpenAPI Swagger publication" \
         --contextURL ${CONTEXT_URL} \
-        --baseURL https://${URIDOMAIN}\
+        --baseURL https://${URIDOMAIN} \
+        ${PARAMETERS} \
         &>>${REPORTFILE}
         
         if [ $? -gt 0 ]; then
@@ -1176,7 +1177,7 @@ render_shacl_languageaware() {
     
     COMMAND=$(echo '.type')
     TYPE=$(jq -r "${COMMAND}" ${JSONI})
-
+    
     echo "$TYPE"
     
     case $TYPE in
