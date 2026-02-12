@@ -8,7 +8,10 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "044"
+    "swaggergenerator": {
+      "parameters": "--title Hello world"
+    },
+    "dummy": "045"
   },
   {
     "urlref": "/ns/magda/persoon",
