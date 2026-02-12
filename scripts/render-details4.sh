@@ -1115,7 +1115,7 @@ render_swagger() {
         mkdir -p ${TLINE}/swagger
         
         # Construct the context URL dynamically
-        CONTEXT_URL="https://${URIDOMAIN}/${DROOT}/context/${FILENAME}.jsonld"
+        CONTEXT_URL="${HOSTNAME}/${DROOT}/context/${FILENAME}.jsonld"
         
         echo "${REPORTLINEPREFIX} oslo-generator-swagger for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
         echo "${REPORTLINEPREFIX} -------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
@@ -1128,7 +1128,7 @@ render_swagger() {
         --title "OpenAPI Swagger publication" \
         --description "This is a inspirational OpenAPI Swagger publication" \
         --contextURL ${CONTEXT_URL} \
-        --baseURL https://${URIDOMAIN} \
+        --baseURL ${HOSTNAME} \
         ${PARAMETERS} \
         &>>${REPORTFILE}
         
