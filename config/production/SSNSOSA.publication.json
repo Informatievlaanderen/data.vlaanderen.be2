@@ -1,0 +1,24 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/SSNSSOSAVL/ontwerpstandaard/2026-02-13",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SSNSOSA-VL",
+    "branchtag": "TBD",
+    "name": "SSNSOSAVL-ap",
+    "filename": "config/SSNSOSAVL.json",
+    "navigation": {},
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "075"
+  },
+  {
+    "urlref": "/doc/vocabularium/SSNSOSAVL/ontwerpstandaard/2025-06-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SSNSOSA-VL",
+    "branchtag": "TBD",
+    "name": "SSNSOSAV-voc",
+    "filename": "config/SSNSOSAV.json",
+    "navigation": {},
+    "dummy": "075"
+  }
+
+]
