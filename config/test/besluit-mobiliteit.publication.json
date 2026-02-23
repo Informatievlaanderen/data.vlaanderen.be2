@@ -106,7 +106,7 @@
   {
     "urlref": "/doc/applicatieprofiel/besluit-mobiliteit/erkendestandaard/2025-12-11",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/",
-    "branchtag": "master",
+    "branchtag": "feature/split-voc",
     "name": "besluit-mobiliteit",
     "filename": "config/besluit-mobiliteit-ap.json",
     "navigation": {
@@ -115,6 +115,6 @@
     "webuniversumgenerator": {
       "parameters": "--ignoreSkosConcept false"
     },
-    "dummy": "2026-02-23 3"
+    "dummy": "2026-02-23 4"
   }
 ]
