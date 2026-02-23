@@ -291,6 +291,10 @@
     {
       "urlRef": "Domein",
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/domein/domein.ttl"
+    },
+    {
+      "urlRef": "test",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/KVS-dummy-jsonld/Voorkeurstype.jsonld"
     }
   ]
 }
