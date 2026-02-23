@@ -102,5 +102,20 @@
       "prev": "/doc/applicatieprofiel/besluit-mobiliteit/kandidaat-standaard/2025-02-04"
     },
     "dummy": "001"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/besluit-mobiliteit/erkendestandaard/2025-12-11",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/",
+    "branchtag": "master",
+    "name": "besluit-mobiliteit",
+    "filename": "config/besluit-mobiliteit-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/besluit-mobiliteit/kandidaat-standaard/2025-02-04"
+    },
+    "webuniversumgenerator": {
+      "parameters": "--ignoreSkosConcept false"
+    },
+    "disabled": true,
+    "dummy": "2026-02-23 1"
   }
 ]
