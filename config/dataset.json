@@ -295,6 +295,10 @@
     {
       "urlRef": "test",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/KVS-dummy-jsonld/Voorkeurstype.jsonld"
+    },
+    {
+      "urlRef": "KlVormTerugslagklep",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/KVS-dummy-jsonld/KlVormTerugslagklep.ttl"
     }
   ]
 }
