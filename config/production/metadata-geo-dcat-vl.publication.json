@@ -3,12 +3,12 @@
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
     "seealso": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
     "type": "ap",
-    "dummy": 6
+    "dummy": 7
   },
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "erkend_2026_02_24v0.0.1",
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
@@ -33,7 +33,7 @@
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "erkend_2026_02_24v0.0.1",
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
@@ -57,24 +57,24 @@
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
-    "branchtag": "master",
+    "branchtag": "erkend_2026_02_24v0.0.1",
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
     },
-    "dummy": "6"
+    "dummy": "7"
   },
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
-    "branchtag": "master",
+    "branchtag": "erkend_2026_02_24v0.0.1",
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
     },
-    "dummy": "3",
+    "dummy": "4",
     "eaconverter": {
       "parameters": "--allTags true"
     },
