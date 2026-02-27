@@ -543,6 +543,26 @@
     {
       "urlRef": "IT141",
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/Gezinsrelatietype.ttl"
+    },
+    {
+      "urlRef": "TypeOfEnterprise",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/OndernemingREST/TypeOfEnterprise.ttl"
+    },
+    {
+      "urlRef": "TypeOfAddress",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/OndernemingREST/TypeOfAddress.ttl"
+    },
+    {
+      "urlRef": "EntityContact",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/OndernemingREST/EntityContact.ttl"
+    },
+    {
+      "urlRef": "JuridicalForm",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/OndernemingREST/JuridicalForm.ttl"
+    },
+    {
+      "urlRef": "JuridicalSituation",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/OndernemingREST/JuridicalSituation.ttl"
     }
   ]
 }
