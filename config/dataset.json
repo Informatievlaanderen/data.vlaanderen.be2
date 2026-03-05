@@ -525,20 +525,32 @@
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/organisatiestatus/organisatiestatus.ttl"
     },
     {
+      "urlRef": "IT001",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT001-Dossierstatus.ttl"
+    },
+    {
       "urlRef": "IT001/Dossierstatus",
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT001-Dossierstatus.ttl"
     },
     {
-      "urlRef": "IT002/Rechtvaardigheid",
-      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT002-Rechtvaardigheid.ttl"
+      "urlRef": "IT110",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT110-Afstammingstype.ttl"
     },
     {
       "urlRef": "IT110/Afstammingstype",
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT110-Afstammingstype.ttl"
     },
     {
+      "urlRef": "IT120",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT120-BurgerlijkeStaattype.ttl"
+    },
+    {
       "urlRef": "IT120/BurgerlijkeStaattype",
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT120-BurgerlijkeStaattype.ttl"
+    },
+    {
+      "urlRef": "IT141",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT141-Gezinsrelatietype.ttl"
     },
     {
       "urlRef": "IT141/Gezinsrelatie",
@@ -547,6 +559,10 @@
     {
       "urlRef": "IT141/Woonvorm",
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT141-Woonvorm.ttl"
+    },
+    {
+      "urlRef": "MAGDA",
+      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/MAGDA-Uitzonderingen.ttl"
     },
     {
       "urlRef": "MAGDA/Uitzondering",
