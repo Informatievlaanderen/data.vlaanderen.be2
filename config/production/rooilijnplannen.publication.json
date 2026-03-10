@@ -21,36 +21,42 @@
     "dummy": "076"
   },
   {
-    "urlref": "/doc/applicatieprofiel/rooilijnplannen/erkendestandaard/2026-02-24",
+    "urlref": "/doc/applicatieprofiel/rooilijnplannen/erkendestandaard/2026-02-12",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
-    "branchtag": "erkend_2026_02_24v0.0.3",
+    "branchtag": "erkend_2026_02_12v0.0.1",
     "name": "rooilijnplannen",
     "filename": "config/rooilijnplannen-ap.json",
     "navigation": {},
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "003"
+    "dummy": "004"
   },
   {
-    "urlref": "/doc/vocabularium/rooilijnplannen/erkendestandaard/2026-02-24",
+    "urlref": "/doc/vocabularium/rooilijnplannen/erkendestandaard/2026-02-12",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
-    "branchtag": "erkend_2026_02_24v0.0.3",
+    "branchtag": "erkend_2026_02_12v0.0.1",
     "name": "rooilijnplannen",
     "filename": "config/rooilijnplannen-voc.json",
     "navigation": {},
-    "dummy": "003"
+    "dummy": "004"
   },
   {
     "urlref": "/doc/applicatieprofiel/rooilijnplannen",
-    "seealso": "/doc/applicatieprofiel/rooilijnplannen/erkendestandaard/2026-02-24",
+    "seealso": "/doc/applicatieprofiel/rooilijnplannen/erkendestandaard/2026-02-12",
     "type": "ap",
-    "dummy": "079"
+    "dummy": "080"
   },
   {
     "urlref": "/ns/rooilijn",
-    "seealso": "/doc/vocabularium/rooilijnplannen/erkendestandaard/2026-02-24",
+    "seealso": "/doc/vocabularium/rooilijnplannen/erkendestandaard/2026-02-12",
     "type": "voc",
-    "dummy": "079"
+    "dummy": "080"
+  },
+  {
+    "urlref": "/ns/rooilijnplannen",
+    "seealso": "/doc/vocabularium/rooilijnplannen/erkendestandaard/2026-02-12",
+    "type": "voc",
+    "dummy": "080"
   }
 ]
