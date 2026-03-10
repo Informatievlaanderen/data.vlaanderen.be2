@@ -19,5 +19,26 @@
     "filename": "config/rooilijnplannen.json",
     "navigation": {},
     "dummy": "076"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/rooilijnplannen/erkendestandaard/2026-02-24",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
+    "branchtag": "main",
+    "name": "rooilijnplannen",
+    "filename": "config/rooilijnplannen.json",
+    "navigation": {},
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/rooilijnplannen/erkendestandaard/2026-02-24",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
+    "branchtag": "main",
+    "name": "rooilijnplannen",
+    "filename": "config/rooilijnplannen.json",
+    "navigation": {},
+    "dummy": "001"
   }
 ]
