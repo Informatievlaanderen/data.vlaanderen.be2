@@ -8,7 +8,7 @@
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "erkend_2026_02_24v0.0.1",
+    "branchtag": "production",
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
@@ -33,7 +33,7 @@
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "erkend_2026_02_24v0.0.1",
+    "branchtag": "production",
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
