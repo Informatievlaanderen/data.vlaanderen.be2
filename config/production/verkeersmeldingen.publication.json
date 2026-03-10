@@ -11,20 +11,20 @@
     "dummy": "054"
   },
   {
-    "urlref": "/doc/implementatiemodel/verkeersmeldingen/erkendestandaard/2026-02-24",
+    "urlref": "/doc/implementatiemodel/verkeersmeldingen/erkendestandaard/2026-02-12",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory",
     "name": "verkeersmeldingen",
-    "branchtag": "erkend_2026_02_24v0.0.2",
+    "branchtag": "erkend_2026_02_12v0.0.1",
     "filename": "config/SIF-impl.json",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "057"
+    "dummy": "058"
   },
   {
     "urlref": "/doc/implementatiemodel/verkeersmeldingen",
-    "seealso": "/doc/implementatiemodel/verkeersmeldingen/erkendestandaard/2026-02-24",
+    "seealso": "/doc/implementatiemodel/verkeersmeldingen/erkendestandaard/2026-02-12",
     "type": "ap",
-    "dummy": "057"
+    "dummy": "058"
   }
 ]

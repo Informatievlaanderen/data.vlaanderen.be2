@@ -419,7 +419,7 @@
   {
     "urlref": "/doc/vocabularium/metadata-dcat/erkendestandaard/2026-02-24",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadataVoorServices",
-    "branchtag": "erkend_2026_02_24v0.0.3",
+    "branchtag": "erkend_2026_02_12v0.0.1",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
     "navigation": {
@@ -434,12 +434,12 @@
     "urlref": "/ns/metadata-dcat/",
     "seealso": "/doc/vocabularium/metadata-dcat/erkendestandaard/2026-02-24",
     "type": "voc",
-    "dummy": "002"
+    "dummy": "003"
   },
   {
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL",
     "seealso": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2026-02-24",
     "type": "ap",
-    "dummy": "001"
+    "dummy": "003"
   }
 ]
