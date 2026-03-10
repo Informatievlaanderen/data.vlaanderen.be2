@@ -1,0 +1,62 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
+    "branchtag": "kandidaat_2025-07-01_v0.0.5",
+    "name": "rooilijnplannen-ap",
+    "filename": "config/rooilijnplannen.json",
+    "navigation": {},
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "076"
+  },
+  {
+    "urlref": "/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
+    "branchtag": "kandidaat_2025-07-01_v0.0.5",
+    "name": "rooilijnplannen-voc",
+    "filename": "config/rooilijnplannen.json",
+    "navigation": {},
+    "dummy": "076"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/rooilijnplannen/erkendestandaard/2026-02-24",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
+    "branchtag": "erkend_2026_02_24v0.0.3",
+    "name": "rooilijnplannen",
+    "filename": "config/rooilijnplannen-ap.json",
+    "navigation": {},
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "003"
+  },
+  {
+    "urlref": "/doc/vocabularium/rooilijnplannen/erkendestandaard/2026-02-24",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-rooilijnplannen",
+    "branchtag": "erkend_2026_02_24v0.0.3",
+    "name": "rooilijnplannen",
+    "filename": "config/rooilijnplannen-voc.json",
+    "navigation": {},
+    "dummy": "003"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/rooilijnplannen",
+    "seealso": "/doc/applicatieprofiel/rooilijnplannen/erkendestandaard/2026-02-24",
+    "type": "ap",
+    "dummy": "079"
+  },
+  {
+    "urlref": "/ns/rooilijn",
+    "seealso": "/doc/vocabularium/rooilijnplannen/erkendestandaard/2026-02-24",
+    "type": "voc",
+    "dummy": "079"
+  },
+  {
+    "urlref": "/ns/rooilijnplannen",
+    "seealso": "/doc/vocabularium/rooilijnplannen/erkendestandaard/2026-02-24",
+    "type": "voc",
+    "dummy": "079"
+  }
+]
