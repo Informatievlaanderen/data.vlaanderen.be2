@@ -30,7 +30,7 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "003"
+    "dummy": "004"
   },
   {
     "urlref": "/doc/vocabularium/rooilijnplannen/erkendestandaard/2026-02-12",
@@ -39,24 +39,24 @@
     "name": "rooilijnplannen",
     "filename": "config/rooilijnplannen-voc.json",
     "navigation": {},
-    "dummy": "003"
+    "dummy": "004"
   },
   {
     "urlref": "/doc/applicatieprofiel/rooilijnplannen",
     "seealso": "/doc/applicatieprofiel/rooilijnplannen/erkendestandaard/2026-02-12",
     "type": "ap",
-    "dummy": "080"
+    "dummy": "081"
   },
   {
     "urlref": "/ns/rooilijn",
     "seealso": "/doc/vocabularium/rooilijnplannen/erkendestandaard/2026-02-12",
     "type": "voc",
-    "dummy": "080"
+    "dummy": "081"
   },
   {
     "urlref": "/ns/rooilijnplannen",
     "seealso": "/doc/vocabularium/rooilijnplannen/erkendestandaard/2026-02-12",
     "type": "voc",
-    "dummy": "080"
+    "dummy": "081"
   }
 ]
