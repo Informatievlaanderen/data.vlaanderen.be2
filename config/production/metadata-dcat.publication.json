@@ -414,7 +414,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2025-12-09"
     },
-    "dummy": "4",
+    "dummy": "005",
     "eaconverter": {
       "parameters": "--allTags true"
     },
@@ -431,7 +431,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/2025-09-16"
     },
-    "dummy": "4",
+    "dummy": "005",
     "eaconverter": {
       "parameters": "--allTags true"
     }
