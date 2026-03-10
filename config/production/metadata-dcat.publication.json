@@ -408,7 +408,7 @@
   {
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadataVoorServices",
-    "branchtag": "erkend_2026_01_08v0.0.3",
+    "branchtag": "erkend_2026_02_24v0.0.3",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
     "navigation": {
@@ -425,7 +425,7 @@
   {
     "urlref": "/doc/vocabularium/metadata-dcat/",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadataVoorServices",
-    "branchtag": "erkend_2026_01_08v0.0.3",
+    "branchtag": "erkend_2026_02_24v0.0.3",
     "name": "metadata-dcat",
     "filename": "config/metadata-dcat-voc.json",
     "navigation": {
