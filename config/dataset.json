@@ -579,6 +579,10 @@
     {
       "urlRef": "JuridicalSituation",
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/OndernemingREST/JuridicalSituation.ttl"
+    },
+    {
+      "urlRef": "Rooilijntype",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/rooilijnplannen-main/all.ttl"
     }
   ]
 }
