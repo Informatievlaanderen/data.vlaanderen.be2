@@ -400,15 +400,15 @@
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2026-02-24",
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2026-02-12",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadataVoorServices",
-    "branchtag": "erkend_2026_02_24v0.0.3",
+    "branchtag": "erkend_2026_02_12v0.0.1",
     "name": "metadata-voor-services-ap",
     "filename": "config/metadata-voor-services.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2025-12-09"
     },
-    "dummy": "005",
+    "dummy": "006",
     "eaconverter": {
       "parameters": "--allTags true"
     },
@@ -417,7 +417,7 @@
     }
   },
   {
-    "urlref": "/doc/vocabularium/metadata-dcat/erkendestandaard/2026-02-24",
+    "urlref": "/doc/vocabularium/metadata-dcat/erkendestandaard/2026-02-12",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadataVoorServices",
     "branchtag": "erkend_2026_02_12v0.0.1",
     "name": "metadata-dcat",
@@ -425,21 +425,21 @@
     "navigation": {
       "prev": "/doc/vocabularium/metadata-dcat/ontwerpstandaard/2025-09-16"
     },
-    "dummy": "005",
+    "dummy": "006",
     "eaconverter": {
       "parameters": "--allTags true"
     }
   },
   {
     "urlref": "/ns/metadata-dcat/",
-    "seealso": "/doc/vocabularium/metadata-dcat/erkendestandaard/2026-02-24",
+    "seealso": "/doc/vocabularium/metadata-dcat/erkendestandaard/2026-02-12",
     "type": "voc",
-    "dummy": "003"
+    "dummy": "004"
   },
   {
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL",
-    "seealso": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2026-02-24",
+    "seealso": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2026-02-12",
     "type": "ap",
-    "dummy": "003"
+    "dummy": "004"
   }
 ]
