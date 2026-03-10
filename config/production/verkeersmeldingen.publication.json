@@ -3,7 +3,7 @@
     "urlref": "/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory",
     "name": "verkeersmeldingen",
-    "branchtag": "erkend_2026_02_24v0.0.1",
+    "branchtag": "Kandidaat_2025-09-24_v0.0.4",
     "filename": "config/SIF-impl.json",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
@@ -11,9 +11,20 @@
     "dummy": "054"
   },
   {
+    "urlref": "/doc/implementatiemodel/verkeersmeldingen/erkendestandaard/2026-02-24",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory",
+    "name": "verkeersmeldingen",
+    "branchtag": "erkend_2026_02_24v0.0.1",
+    "filename": "config/SIF-impl.json",
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "055"
+  },
+  {
     "urlref": "/doc/implementatiemodel/verkeersmeldingen",
-    "seealso": "/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04",
+    "seealso": "/doc/implementatiemodel/verkeersmeldingen/erkendestandaard/2026-02-24",
     "type": "ap",
-    "dummy": "054"
+    "dummy": "055"
   }
 ]
