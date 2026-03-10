@@ -14,17 +14,17 @@
     "urlref": "/doc/implementatiemodel/verkeersmeldingen/erkendestandaard/2026-02-24",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory",
     "name": "verkeersmeldingen",
-    "branchtag": "erkend_2026_02_24v0.0.1",
+    "branchtag": "erkend_2026_02_24v0.0.2",
     "filename": "config/SIF-impl.json",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "055"
+    "dummy": "056"
   },
   {
     "urlref": "/doc/implementatiemodel/verkeersmeldingen",
     "seealso": "/doc/implementatiemodel/verkeersmeldingen/erkendestandaard/2026-02-24",
     "type": "ap",
-    "dummy": "055"
+    "dummy": "056"
   }
 ]
