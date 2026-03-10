@@ -852,7 +852,7 @@ render_respec_html() { # SLINE TLINE JSON
     TITLELANG=$(jq -r "${COMMANDTITLELANG}" ${JSONI})
 
     REPORTFILE=${RLINE}/generator-respec.report.md
-    generator_parameters htmlgenerator ${JSONI}
+    generator_parameters respecgenerator ${JSONI}
 
     case $TYPE in
     ap)
