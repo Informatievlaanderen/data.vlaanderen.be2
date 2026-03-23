@@ -173,7 +173,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/adresregister/kandidaatstandaard/niet-bepaald"
     },
-    "dummy": "23-03-2026 14:33:00",
+    "dummy": "23-03-2026 16:33:00",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     }
@@ -187,6 +187,6 @@
     "navigation": {
       "prev": "/doc/vocabularium/adres/standaard/2018-07-03"
     },
-    "dummy": "23-03-2026 14:33:00"
+    "dummy": "23-03-2026 16:33:00"
   }
 ]
