@@ -1,0 +1,13 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/epbd",
+    "repository": "https://github.com/Informatievlaanderen/oslothema-EPBD",
+    "branchtag": "main",
+    "name": "EPBD",
+    "filename": "config/epbd.json",
+    "contextgenerator": {
+      "parameters": "--scopedContext true"
+    },
+    "dummy": "001"
+  }
+]
