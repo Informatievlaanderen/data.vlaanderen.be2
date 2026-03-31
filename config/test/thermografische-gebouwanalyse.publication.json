@@ -32,5 +32,20 @@
     "seealso": "/doc/applicatieprofiel/thermografische-gebouwanalyse/kandidaatstandaard/2025-05-22",
     "type": "ap",
     "dummy": "36"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse/erkendestandaard/2026-04-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-thermAI",
+    "name": "thermografische-gebouwanalyse",
+    "branchtag": "main",
+    "filename": "config/ThermAI-ap.json",
+    "navigation": {},
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "shaclgenerator": {
+      "parameters": ""
+    },
+    "dummy": "01"
   }
 ]
