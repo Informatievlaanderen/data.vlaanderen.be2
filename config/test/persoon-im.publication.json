@@ -8,7 +8,7 @@
     "contextgenerator": {
       "parameters": "--scopedContext true"
     },
-    "dummy": "055"
+    "dummy": "056"
   },
   {
     "urlref": "/ns/magda/persoon",
@@ -16,6 +16,6 @@
     "branchtag": "master",
     "name": "persoon-IMVOC",
     "filename": "config/persoon-im.json",
-    "dummy": "055"
+    "dummy": "056"
   }
 ]
