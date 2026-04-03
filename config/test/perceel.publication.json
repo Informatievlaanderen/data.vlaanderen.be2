@@ -72,13 +72,13 @@
   {
     "urlref": "/doc/applicatieprofiel/perceel/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-perceel",
-    "branchtag": "master-node-toolchain",
+    "branchtag": "master",
     "name": "perceel",
     "filename": "config/perceel-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/perceel/erkendestandaard/2020-06-18"
     },
-    "dummy": "2026-04-03 11:45:02"
+    "dummy": "2026-04-03 11:53:02"
   },
   {
     "urlref": "/doc/applicatieprofiel/perceel",
@@ -158,13 +158,13 @@
   {
     "urlref": "/doc/vocabularium/perceel/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-perceel",
-    "branchtag": "master-node-toolchain",
+    "branchtag": "master",
     "name": "perceel",
     "filename": "config/perceel-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/perceel/erkendestandaard/2020-06-18"
     },
-    "dummy": "2026-04-03 11:45:02"
+    "dummy": "2026-04-03 11:53:02"
   },
   {
     "urlref": "/ns/perceel",
