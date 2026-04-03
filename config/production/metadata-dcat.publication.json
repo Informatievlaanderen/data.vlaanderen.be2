@@ -408,7 +408,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2025-12-09"
     },
-    "dummy": "006",
+    "dummy": "007",
     "eaconverter": {
       "parameters": "--allTags true"
     },
@@ -440,6 +440,6 @@
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL",
     "seealso": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2026-02-12",
     "type": "ap",
-    "dummy": "005"
+    "dummy": "006"
   }
 ]
