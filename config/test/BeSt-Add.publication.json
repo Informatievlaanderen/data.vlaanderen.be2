@@ -2,7 +2,7 @@
   {
     "urlref": "/doc/applicatieprofiel/bestadd/ontwerpstandaard/2023-04-03",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-test/",
-    "name": "Belgian Streets and Addresses",
+    "name": "bestadd",
     "branchtag": "main",
     "filename": "config/bestadd-ap.json",
     "navigation": {
