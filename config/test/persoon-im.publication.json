@@ -6,7 +6,7 @@
     "name": "persoon-IM",
     "filename": "config/persoon-im.json",
     "contextgenerator": {
-      "parameters": "--scopedContext true"
+      "parameters": "--scopedContext true --enablePolymorphism false"
     },
     "dummy": "058"
   },
