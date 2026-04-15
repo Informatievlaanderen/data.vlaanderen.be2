@@ -1,0 +1,22 @@
+[
+  {
+    "urlref": "/doc/implementatiemodel/nudgingdownnightnoise/ontwerpstandaard/2026-04-14",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-NDNN",
+    "branchtag": "main",
+    "name": "NDNN-ap",
+    "filename": "config/NDNN-ap.json",
+    "navigation": {},
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+"dummy": "076"
+
+{
+
+ "urlref": "/doc//implementatiemodel/NDNN",
+    "seealso": "/doc/implementatiemodel/nudgingdownnightnoise/ontwerpstandaard/2026-04-14",
+    "type": "ap",
+    "dummy": "079"
+  },
+
+]
