@@ -8,7 +8,10 @@
     "contextgenerator": {
       "parameters": "--scopedContext true --enablePolymorphism false"
     },
-    "dummy": "058"
+    "navigation": {
+      "prev": "/doc/implementatiemodel/magda/persoon/v0.0.1"
+    },
+    "dummy": "059"
   },
   {
     "urlref": "/ns/magda/persoon",
@@ -16,6 +19,34 @@
     "branchtag": "master",
     "name": "persoon-IMVOC",
     "filename": "config/persoon-im.json",
-    "dummy": "058"
+    "navigation": {
+      "prev": "/ns/magda/persoon/v0.0.1"
+    },
+    "dummy": "059"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/magda/persoon/v0.0.1",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon",
+    "branchtag": "v0.0.1",
+    "name": "persoon-IM",
+    "filename": "config/persoon-im.json",
+    "contextgenerator": {
+      "parameters": "--scopedContext true --enablePolymorphism false"
+    },
+    "navigation": {
+      "next": "/doc/implementatiemodel/magda/persoon"
+    },
+    "dummy": "059"
+  },
+  {
+    "urlref": "/ns/magda/persoon/v0.0.1",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon/",
+    "branchtag": "v0.0.1",
+    "name": "persoon-IMVOC",
+    "filename": "config/persoon-im.json",
+    "navigation": {
+      "next": "/ns/magda/persoon"
+    },
+    "dummy": "059"
   }
 ]
