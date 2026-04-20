@@ -134,7 +134,18 @@
     "filename": "config/organisatie-impl.json",
     "dummy": "2026-04-20 14:09:00",
     "navigation": {
-      "prev": "/doc/vocabularium/organisatie/erkendestandaard/2018-07-03"
+      "prev": "/doc/vocabularium/organisatie/ontwerpdocument/VKBO/v0.0.1"
+    }
+  },
+  {
+    "urlref": "/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.1",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/",
+    "branchtag": "v0.0.1",
+    "name": "organisatie",
+    "filename": "config/organisatie-impl.json",
+    "dummy": "2026-04-20 14:09:00",
+    "navigation": {
+      "next": "/doc/vocabularium/organisatie/ontwerpdocument/VKBO"
     }
   },
   {
