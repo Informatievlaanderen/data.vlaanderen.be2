@@ -132,7 +132,7 @@
     "branchtag": "master",
     "name": "organisatie",
     "filename": "config/organisatie-impl.json",
-    "dummy": "2026-04-20 14:44:00",
+    "dummy": "2026-04-20 16:49:00",
     "navigation": {
       "prev": "/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.3"
     }
@@ -143,7 +143,7 @@
     "branchtag": "v0.0.1",
     "name": "organisatie",
     "filename": "config/organisatie-impl.json",
-    "dummy": "2026-04-20 14:44:00",
+    "dummy": "2026-04-20 16:49:00",
     "navigation": {
       "next": "/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.2"
     }
@@ -154,7 +154,7 @@
     "branchtag": "v0.0.2",
     "name": "organisatie",
     "filename": "config/organisatie-impl.json",
-    "dummy": "2026-04-20 14:44:00",
+    "dummy": "2026-04-20 16:49:00",
     "navigation": {
       "prev": "/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.1",
       "next": "/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.3"
@@ -166,7 +166,7 @@
     "branchtag": "v0.0.3",
     "name": "organisatie",
     "filename": "config/organisatie-impl.json",
-    "dummy": "2026-04-20 14:44:00",
+    "dummy": "2026-04-20 16:49:00",
     "navigation": {
       "prev": "/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.2",
       "next": "/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO"
