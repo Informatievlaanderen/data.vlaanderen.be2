@@ -132,7 +132,7 @@
     "branchtag": "v0.0.1",
     "name": "organisatie",
     "filename": "config/organisatie-impl.json",
-    "dummy": "2026-04-20 14:09:00",
+    "dummy": "2026-04-20 14:35:00",
     "navigation": {
       "prev": "/doc/vocabularium/organisatie/ontwerpdocument/VKBO/v0.0.1"
     }
@@ -143,8 +143,20 @@
     "branchtag": "v0.0.1",
     "name": "organisatie",
     "filename": "config/organisatie-impl.json",
-    "dummy": "2026-04-20 14:09:00",
+    "dummy": "2026-04-20 14:35:00",
     "navigation": {
+      "next": "/doc/vocabularium/organisatie/ontwerpdocument/VKBO/v0.0.2"
+    }
+  },
+  {
+    "urlref": "/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.2",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/",
+    "branchtag": "v0.0.2",
+    "name": "organisatie",
+    "filename": "config/organisatie-impl.json",
+    "dummy": "2026-04-20 14:35:00",
+    "navigation": {
+      "prev": "/doc/vocabularium/organisatie/ontwerpdocument/VKBO/v0.0.1",
       "next": "/doc/vocabularium/organisatie/ontwerpdocument/VKBO"
     }
   },
