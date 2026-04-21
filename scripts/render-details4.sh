@@ -89,21 +89,27 @@ generate_for_language() {
 
 check_tool_output_for_non_emptiness() {
     local REPORT=$1
-
+    
     sed "/${REPORTLINEPREFIX}/d" $REPORT >/tmp/out
     # if the report is empty then sun (no issues)
     # if the report contains indications of errors (word Error, error) then thunderstorm
-    # otherwise cloud
+    # if the report contains indications of warnings (word Warning, warning) then cloud
+    # otherwise sun
     SUN="&#9728;"
     CLOUD="&#9729;"
     THUNDERSTORM="&#9736;"
-
+    
     if [ -s /tmp/out ]; then
         E=$(grep -ci '\berror\b' /tmp/out)
-        if [ $E -eq 0 ]; then
-            REPORTSTATE=${CLOUD}
-        else
+        if [ $E -gt 0 ]; then
             REPORTSTATE=${THUNDERSTORM}
+        else
+            W=$(grep -ci '\bwarn\b' /tmp/out)
+            if [ $W -gt 0 ]; then
+                REPORTSTATE=${CLOUD}
+            else
+                REPORTSTATE=${SUN}
+            fi
         fi
     else
         REPORTSTATE=${SUN}
