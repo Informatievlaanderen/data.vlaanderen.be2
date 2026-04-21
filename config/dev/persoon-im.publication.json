@@ -11,7 +11,7 @@
     "swaggergenerator": {
       "parameters": "--title Hello world --description dummy description --contactEmail kristof.vandenbroucke@vlaanderen.be"
     },
-    "dummy": "051"
+    "dummy": "052"
   },
   {
     "urlref": "/ns/magda/persoon",
@@ -19,6 +19,6 @@
     "branchtag": "master",
     "name": "persoon-IMVOC",
     "filename": "config/persoon-im.json",
-    "dummy": "021"
+    "dummy": "022"
   }
 ]
