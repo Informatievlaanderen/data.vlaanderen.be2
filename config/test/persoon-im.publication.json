@@ -67,7 +67,7 @@
       "next": "/doc/implementatiemodel/magda/persoon"
     },
     "dummy": "064",
-    "disabled": false
+    "disabled": true
   },
   {
     "urlref": "/ns/magda/persoon/v0.0.2",
@@ -80,6 +80,6 @@
       "next": "/ns/magda/persoon"
     },
     "dummy": "064",
-    "disabled": false
+    "disabled": true
   }
 ]
