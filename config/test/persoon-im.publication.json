@@ -12,7 +12,7 @@
       "prev": "/doc/implementatiemodel/magda/persoon/v0.0.1"
     },
     "dummy": "063",
-    "disabled": true
+    "disabled": false
   },
   {
     "urlref": "/ns/magda/persoon",
@@ -24,7 +24,7 @@
       "prev": "/ns/magda/persoon/v0.0.1"
     },
     "dummy": "063",
-    "disabled": true
+    "disabled": false
   },
   {
     "urlref": "/doc/implementatiemodel/magda/persoon/v0.0.1",
@@ -67,7 +67,7 @@
       "next": "/doc/implementatiemodel/magda/persoon"
     },
     "dummy": "063",
-    "disabled": true
+    "disabled": false
   },
   {
     "urlref": "/ns/magda/persoon/v0.0.2",
@@ -80,6 +80,6 @@
       "next": "/ns/magda/persoon"
     },
     "dummy": "063",
-    "disabled": true
+    "disabled": false
   }
 ]
