@@ -12,7 +12,7 @@
       "prev": "/doc/implementatiemodel/magda/persoon/v0.0.1"
     },
     "dummy": "064",
-    "disabled": false
+    "disabled": true
   },
   {
     "urlref": "/doc/implementatiemodel/magda/persoon/v0.0.1",
@@ -43,9 +43,9 @@
       "next": "/doc/implementatiemodel/magda/persoon"
     },
     "dummy": "064",
-    "disabled": false
+    "disabled": true
   },
-    {
+  {
     "urlref": "/ns/magda/persoon",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon/",
     "branchtag": "v0.0.2",
@@ -57,7 +57,7 @@
     "dummy": "064",
     "disabled": false
   },
-    {
+  {
     "urlref": "/ns/magda/persoon/v0.0.1",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon/",
     "branchtag": "v0.0.1",
@@ -80,6 +80,6 @@
       "next": "/ns/magda/persoon"
     },
     "dummy": "064",
-    "disabled": false
+    "disabled": true
   }
 ]
