@@ -3,7 +3,7 @@
     "urlref": "/doc/implementatiemodel/magda/persoon",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon",
     "branchtag": "master",
-    "name": "persoon-IM",
+    "name": "persoon",
     "filename": "config/persoon-im.json",
     "contextgenerator": {
       "parameters": "--scopedContext true --enablePolymorphism false"
@@ -17,7 +17,7 @@
     "urlref": "/ns/magda/persoon",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon/",
     "branchtag": "master",
-    "name": "persoon-IMVOC",
+    "name": "persoon",
     "filename": "config/persoon-im.json",
     "navigation": {
       "prev": "/ns/magda/persoon/v0.0.1"
@@ -28,7 +28,7 @@
     "urlref": "/doc/implementatiemodel/magda/persoon/v0.0.1",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon",
     "branchtag": "v0.0.1",
-    "name": "persoon-IM",
+    "name": "persoon",
     "filename": "config/persoon-im.json",
     "contextgenerator": {
       "parameters": "--scopedContext true --enablePolymorphism false"
@@ -42,7 +42,7 @@
     "urlref": "/ns/magda/persoon/v0.0.1",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon/",
     "branchtag": "v0.0.1",
-    "name": "persoon-IMVOC",
+    "name": "persoon",
     "filename": "config/persoon-im.json",
     "navigation": {
       "next": "/ns/magda/persoon"
