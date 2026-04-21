@@ -165,7 +165,7 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "2026-04-14 10:29:02"
+    "dummy": "2026-04-21 14:48:00"
   },
   {
     "urlref": "/ns/persoon/ontwerpdocument/2025",
@@ -173,7 +173,7 @@
     "branchtag": "master",
     "name": "persoon",
     "filename": "config/persoon-voc.json",
-    "dummy": "2026-04-14 10:29:02",
+    "dummy": "2026-04-21 14:48:00",
     "navigation": {
       "prev": "/doc/vocabularium/persoon/erkendestandaard/2018-07-03"
     }
