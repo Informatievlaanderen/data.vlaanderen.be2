@@ -43,7 +43,7 @@
       "next": "/doc/implementatiemodel/magda/persoon"
     },
     "dummy": "064",
-    "disabled": false
+    "disabled": true
   },
     {
     "urlref": "/ns/magda/persoon",
