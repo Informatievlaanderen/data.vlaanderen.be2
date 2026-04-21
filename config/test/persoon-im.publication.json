@@ -69,8 +69,9 @@
     "urlref": "/ns/magda/persoon/v0.0.2",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon/",
     "branchtag": "v0.0.2",
+    "prefix": "magda",
     "name": "persoon",
-    "filename": "config/persoon-im.json",
+    "filename": "config/persoon-magda-voc.json",
     "navigation": {
       "prev": "/ns/magda/persoon/v0.0.1",
       "next": "/ns/magda/persoon"
