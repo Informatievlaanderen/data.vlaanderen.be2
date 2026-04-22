@@ -507,7 +507,7 @@ schema:height a rdf:Property;
     foaf:lastName "Van Herck"
   ];
   dc:issued "2018-06-08";
-  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/modellicentie_gratis_hergebruik_v1_0.html>,
+  dc:license <https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>,
     "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0";
   dc:mediator [
     foaf:homepage <https://data.vlaanderen.be>;
