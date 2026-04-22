@@ -583,6 +583,10 @@
     {
       "urlRef": "Rooilijntype",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/rooilijnplannen-main/all.ttl"
+    },
+    {
+      "urlRef": "Rooilijntype/0.0.1",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/rooilijnplannen-main/all.ttl"
     }
   ]
 }
