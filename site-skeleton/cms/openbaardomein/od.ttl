@@ -23,7 +23,7 @@ org:Organization a rdfs:Class;
 
 <https://data.vlaanderen.be/ns/openbaardomein#Gebied> a owl:Class;
   rdfs:label "Gebied"@nl;
-  <http://purl.org/vocab/vann/usageNote> "De openbare ruimte wordt geïnterpreteerd zoals aangegeven in het GRB lexicon (Informatie Vlaanderen): \"Ruimte die ten dienste staat van iedereen (algemeen belang), zonder beperking naar specifieke gemeenschappen. De openbare ruimte is principieel voor iedereen toegankelijk\". Voorbeeld: een stadspark is parkzone, om hiermee aan te duiden dat de zone is ontworpen is om recreatie en natuur samen te laten plaatsvinden."@nl;
+  <http://purl.org/vocab/vann/usageNote> "De openbare ruimte wordt geï¿½nterpreteerd zoals aangegeven in het GRB lexicon (Informatie Vlaanderen): \"Ruimte die ten dienste staat van iedereen (algemeen belang), zonder beperking naar specifieke gemeenschappen. De openbare ruimte is principieel voor iedereen toegankelijk\". Voorbeeld: een stadspark is parkzone, om hiermee aan te duiden dat de zone is ontworpen is om recreatie en natuur samen te laten plaatsvinden."@nl;
   rdfs:comment "Een ruimte met daarin objecten in de openbare ruimte die samen een hoofdfunctie hebben."@nl;
   rdfs:isDefinedBy <https://data.vlaanderen.be/ns/openbaardomein> .
 
@@ -143,7 +143,7 @@ skos:prefLabel a rdf:Property;
 
 <https://data.vlaanderen.be/ns/openbaardomein#FysiekObject> a owl:Class;
   rdfs:label "Fysiek Object"@nl;
-  rdfs:comment "De hoofdklasse waar alle objecten die geïnventariseerd kunnen worden van afgeleid worden."@nl;
+  rdfs:comment "De hoofdklasse waar alle objecten die geï¿½nventariseerd kunnen worden van afgeleid worden."@nl;
   rdfs:isDefinedBy <https://data.vlaanderen.be/ns/openbaardomein>;
   rdfs:subClassOf schema:Thing,
     prov:Entity .
@@ -393,7 +393,7 @@ skos:prefLabel a rdf:Property;
     foaf:lastName "Podevyn"
   ];
   dc:issued "2018-03-20";
-  dc:license <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/modellicentie_gratis_hergebruik_v1_0.html>,
+  dc:license <https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>,
     "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0";
   dc:mediator [
     foaf:homepage <https://data.vlaanderen.be>;
