@@ -388,5 +388,16 @@
       "prev": "/doc/applicatieprofiel/cultureel-erfgoed-event/erkendestandaard/2021-04-22"
     },
     "dummy": "2025-08-19 15:13:38"
+  },
+  {
+    "urlref": "/doc/vocabularium/cultureel-erfgoed/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-cultureelErfgoed",
+    "branchtag": "feature/toolchain-compability",
+    "name": "cultureel-erfgoed",
+    "filename": "config/cultureel-erfgoed-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/cultureel-erfgoed/erkendestandaard/2021-04-22"
+    },
+    "dummy": "2026-04-28 11:28:00"
   }
 ]
