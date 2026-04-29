@@ -27,8 +27,15 @@
       "prev": "/doc/implementatiemodel/magda/persoon/v0.0.1",
       "next": "/doc/implementatiemodel/magda/persoon"
     },
-    "dummy": "071",
+    "dummy": "072",
     "bundle": true,
+    "bundleDirectory":"/resources", 
     "disabled": false
+  },
+    {
+    "urlref": "/doc/implementatiemodel/magda",
+    "seealso": "/doc/implementatiemodel/magda/persoon/v0.0.2",
+    "dummy": "010",
+    "type": "ap"
   }
 ]

@@ -45,6 +45,35 @@ copy_dir_if_exists() {
     return 1
 }
 
+copy_bundle_directory_files() {
+    local source_dir=$1
+    local bundle_dir=$2
+    local resources_dir=$3
+    local bundle_source
+    
+    if [ -z "$bundle_dir" ] || [ "$bundle_dir" = "null" ]; then
+        return 1
+    fi
+    
+    bundle_dir=${bundle_dir#/}
+    bundle_source="$source_dir/$bundle_dir"
+    
+    if [ ! -d "$bundle_source" ]; then
+        echo "bundleDirectory not found in thema-repo checkout: $bundle_source"
+        return 1
+    fi
+    
+    if [ "$(find "$bundle_source" -mindepth 1 | wc -l)" -eq 0 ]; then
+        echo "bundleDirectory is empty, skipping: $bundle_source"
+        return 1
+    fi
+    
+    mkdir -p "$resources_dir"
+    cp -R "$bundle_source"/. "$resources_dir/"
+    echo "Copied bundleDirectory files from $bundle_source"
+    return 0
+}
+
 fetch_external_jsonld() {
     local source_url=$1
     local target_dir=$2
@@ -96,7 +125,6 @@ fetch_external_vocabularies() {
             jq -r '
                 ..
                 | objects
-                | select(.scope? == "https://data.vlaanderen.be/id/concept/scope/External")
                 | .assignedURI?
                 | if type == "array" then .[] else . end
                 | strings
@@ -123,6 +151,7 @@ process_publication_file() {
     jq -c '.[] | select(.urlref)' "$pubfile" | while IFS= read -r pubpoint; do
         URLREF=$(echo "$pubpoint" | jq -r '.urlref')
         COPY_RESOURCES=$(echo "$pubpoint" | jq -r '(.bundle // false)')
+        BUNDLE_DIRECTORY=$(echo "$pubpoint" | jq -r '(.bundleDirectory // "")')
         
         if [ -z "$URLREF" ] || [ "$URLREF" = "null" ]; then
             continue
@@ -130,15 +159,18 @@ process_publication_file() {
         
         URLREF_NO_LEADING=${URLREF#/}
         SOURCE_DIR="$GENERATEDDIR/$URLREF_NO_LEADING"
+        THEMA_SOURCE_DIR="$WORKSPACEDIR/src/$URLREF_NO_LEADING"
         RESOURCES_DIR="$SOURCE_DIR/resources"
         
-        if [ "$COPY_RESOURCES" != "true" ]; then
-            if [ -d "$RESOURCES_DIR" ]; then
-                echo "Removing resources (bundle=false): $RESOURCES_DIR"
-                rm -rf "$RESOURCES_DIR"
-            fi
-            continue
-        fi
+        # no need to delete previous resources. Might be needed later? 29/06/2026
+        
+        # if [ "$COPY_RESOURCES" != "true" ]; then
+        #     if [ -d "$RESOURCES_DIR" ]; then
+        #         echo "Removing resources (bundle=false): $RESOURCES_DIR"
+        #         rm -rf "$RESOURCES_DIR"
+        #     fi
+        #     continue
+        # fi
         
         if [ ! -d "$SOURCE_DIR" ]; then
             echo "Skipping bundle=true for missing urlref directory: $SOURCE_DIR"
@@ -163,6 +195,10 @@ process_publication_file() {
         fi
         
         if copy_dir_if_exists "$SOURCE_DIR/swagger" "$RESOURCES_DIR"; then
+            copied_any=true
+        fi
+        
+        if copy_bundle_directory_files "$THEMA_SOURCE_DIR" "$BUNDLE_DIRECTORY" "$RESOURCES_DIR"; then
             copied_any=true
         fi
         
