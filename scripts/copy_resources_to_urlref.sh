@@ -65,7 +65,7 @@ fetch_external_jsonld() {
     mkdir -p "$target_dir"
 
     if curl -L --fail --silent --show-error \
-        -H 'Accept: application/ld+json, application/json;q=0.9, */*;q=0.1' \
+        -H 'Accept: application/ld+json' \
         "$normalized_url" > "$target_file"; then
         echo "Fetched external JSON-LD: $normalized_url"
         return 0
