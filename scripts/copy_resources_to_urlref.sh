@@ -35,13 +35,13 @@ fi
 copy_dir_if_exists() {
     local src_dir=$1
     local dst_dir=$2
-
+    
     if [ -d "$src_dir" ] && [ "$(find "$src_dir" -mindepth 1 -maxdepth 1 | wc -l)" -ne 0 ]; then
         mkdir -p "$dst_dir"
         cp -R "$src_dir" "$dst_dir/"
         return 0
     fi
-
+    
     return 1
 }
 
@@ -50,28 +50,28 @@ fetch_external_jsonld() {
     local target_dir=$2
     local normalized_url=${source_url%%#*}
     local target_file
-
+    
     if [ -z "$normalized_url" ]; then
         return 1
     fi
-
+    
     target_file=$(echo "$normalized_url" | sed -e 's|^https\?://||' -e 's|[^A-Za-z0-9._-]|_|g')
-    target_file="$target_dir/${target_file}.jsonld"
-
+    target_file="$target_dir/${target_file}"
+    
     if [ -f "$target_file" ]; then
         return 0
     fi
-
+    
     mkdir -p "$target_dir"
-
-    if curl -L --fail --silent --show-error \
-        -H 'Accept: application/ld+json' \
-        "$normalized_url" > "$target_file"; then
-        echo "Fetched external JSON-LD: $normalized_url"
+    
+    if curl -L \
+    -H 'Accept: text/turtle' \
+    "$normalized_url" > "$target_file"; then
+        echo "Fetched external source: $normalized_url"
         return 0
     fi
-
-    echo "Failed to fetch external JSON-LD: $normalized_url"
+    
+    echo "Failed to fetch external source: $normalized_url"
     rm -f "$target_file"
     return 1
 }
@@ -81,18 +81,18 @@ fetch_external_vocabularies() {
     local resources_dir=$2
     local report_dir="$WORKSPACEDIR/report4/${urlref#/}"
     local fetched_any=false
-
+    
     if [ ! -d "$report_dir" ]; then
         echo "No intermediary report directory found for $urlref: $report_dir"
         return 1
     fi
-
+    
     while IFS= read -r intermediary_file; do
         while IFS= read -r external_url; do
             if fetch_external_jsonld "$external_url" "$resources_dir/external"; then
                 fetched_any=true
             fi
-        done < <(
+            done < <(
             jq -r '
                 ..
                 | objects
@@ -101,37 +101,37 @@ fetch_external_vocabularies() {
                 | if type == "array" then .[] else . end
                 | strings
             ' "$intermediary_file" \
-                | sed -e 's/#.*$//' \
-                | sort -u
+            | sed -e 's/#.*$//' \
+            | sort -u
         )
     done < <(find "$report_dir" -maxdepth 1 -name 'all-*.jsonld' -type f)
-
+    
     if [ "$fetched_any" = "true" ]; then
         return 0
     fi
-
+    
     if [ -d "$resources_dir/external" ] && [ ! "$(ls -A "$resources_dir/external")" ]; then
         rmdir "$resources_dir/external"
     fi
-
+    
     return 1
 }
 
 process_publication_file() {
     local pubfile=$1
-
+    
     jq -c '.[] | select(.urlref)' "$pubfile" | while IFS= read -r pubpoint; do
         URLREF=$(echo "$pubpoint" | jq -r '.urlref')
         COPY_RESOURCES=$(echo "$pubpoint" | jq -r '(.bundle // false)')
-
+        
         if [ -z "$URLREF" ] || [ "$URLREF" = "null" ]; then
             continue
         fi
-
+        
         URLREF_NO_LEADING=${URLREF#/}
         SOURCE_DIR="$GENERATEDDIR/$URLREF_NO_LEADING"
         RESOURCES_DIR="$SOURCE_DIR/resources"
-
+        
         if [ "$COPY_RESOURCES" != "true" ]; then
             if [ -d "$RESOURCES_DIR" ]; then
                 echo "Removing resources (bundle=false): $RESOURCES_DIR"
@@ -139,37 +139,37 @@ process_publication_file() {
             fi
             continue
         fi
-
+        
         if [ ! -d "$SOURCE_DIR" ]; then
             echo "Skipping bundle=true for missing urlref directory: $SOURCE_DIR"
             continue
         fi
-
+        
         rm -rf "$RESOURCES_DIR"
         mkdir -p "$RESOURCES_DIR"
-
+        
         copied_any=false
-
+        
         if copy_dir_if_exists "$SOURCE_DIR/context" "$RESOURCES_DIR"; then
             copied_any=true
         fi
-
+        
         if copy_dir_if_exists "$SOURCE_DIR/shacl" "$RESOURCES_DIR"; then
             copied_any=true
         fi
-
+        
         if copy_dir_if_exists "$SOURCE_DIR/rdf" "$RESOURCES_DIR"; then
             copied_any=true
         fi
-
+        
         if copy_dir_if_exists "$SOURCE_DIR/swagger" "$RESOURCES_DIR"; then
             copied_any=true
         fi
-
+        
         if fetch_external_vocabularies "$URLREF" "$RESOURCES_DIR"; then
             copied_any=true
         fi
-
+        
         if [ "$copied_any" = "true" ]; then
             echo "Copied resources for $URLREF -> $RESOURCES_DIR"
         else
