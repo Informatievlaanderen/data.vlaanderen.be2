@@ -81,15 +81,33 @@ fetch_external_jsonld() {
     local target_file
     local tmp_file
     local headers_file
-    
-    # Normalize URL to namespace: extract just the namespace portion without properties
-    if [[ "$source_url" == *"#"* ]]; then
-        # Fragment-based namespace: remove everything after #
-        normalized_url=${source_url%%#*}
-    else
-        # Path-based namespace: remove the last path segment
-        normalized_url=${source_url%/*}
-    fi
+    local failed_cache
+
+    normalize_namespace_url() {
+        local raw_url=$1
+        local base_url=${raw_url%%#*}
+
+        if [ -z "$base_url" ]; then
+            echo ""
+            return
+        fi
+
+        if [[ "$raw_url" == *"#"* ]]; then
+            echo "$base_url"
+            return
+        fi
+
+        # Preserve common namespace roots like .../ns unchanged.
+        if [[ "$base_url" == */ns ]]; then
+            echo "$base_url"
+            return
+        fi
+
+        # Path-based namespace: remove the last path segment.
+        echo "${base_url%/*}"
+    }
+
+    normalized_url=$(normalize_namespace_url "$source_url")
     
     if [ -z "$normalized_url" ]; then
         return 1
@@ -97,6 +115,11 @@ fetch_external_jsonld() {
     
     target_file=$(echo "$normalized_url" | sed -e 's|^https\?://||' -e 's|[^A-Za-z0-9._-]|_|g')
     target_file="$target_dir/${target_file}"
+    failed_cache="$target_dir/.failed_external_sources"
+
+    if [ -f "$failed_cache" ] && grep -Fqx "$normalized_url" "$failed_cache"; then
+        return 1
+    fi
     
     if [ -f "$target_file" ]; then
         return 0
@@ -115,7 +138,7 @@ fetch_external_jsonld() {
         : > "$tmp_file"
         : > "$headers_file"
 
-        if ! curl -f -L -sS -D "$headers_file" -H "Accept: $accept_header" "$normalized_url" > "$tmp_file"; then
+        if ! curl -f -L -sS --connect-timeout 5 --max-time 5 -D "$headers_file" -H "Accept: $accept_header" "$normalized_url" > "$tmp_file"; then
             return 1
         fi
 
@@ -157,6 +180,11 @@ fetch_external_jsonld() {
 
     rm -f "$tmp_file" "$headers_file"
     echo "Failed to fetch external source: $normalized_url"
+    mkdir -p "$target_dir"
+    touch "$failed_cache"
+    if ! grep -Fqx "$normalized_url" "$failed_cache"; then
+        echo "$normalized_url" >> "$failed_cache"
+    fi
     rm -f "$target_file"
     return 1
 }
@@ -166,14 +194,21 @@ fetch_external_vocabularies() {
     local resources_dir=$2
     local report_dir="$WORKSPACEDIR/report4/${urlref#/}"
     local fetched_any=false
+    local seen_urls_file
     
     if [ ! -d "$report_dir" ]; then
         echo "No intermediary report directory found for $urlref: $report_dir"
         return 1
     fi
+
+    seen_urls_file=$(mktemp)
     
     while IFS= read -r intermediary_file; do
         while IFS= read -r external_url; do
+            if grep -Fqx "$external_url" "$seen_urls_file"; then
+                continue
+            fi
+            echo "$external_url" >> "$seen_urls_file"
             if fetch_external_jsonld "$external_url" "$resources_dir/ontologies"; then
                 fetched_any=true
             fi
@@ -189,13 +224,15 @@ fetch_external_vocabularies() {
             | sort -u
         )
     done < <(find "$report_dir" -maxdepth 1 -name 'all-*.jsonld' -type f)
+
+    rm -f "$seen_urls_file"
     
     if [ "$fetched_any" = "true" ]; then
         return 0
     fi
     
-    if [ -d "$resources_dir/external" ] && [ ! "$(ls -A "$resources_dir/external")" ]; then
-        rmdir "$resources_dir/external"
+    if [ -d "$resources_dir/ontologies" ] && [ ! "$(ls -A "$resources_dir/ontologies")" ]; then
+        rmdir "$resources_dir/ontologies"
     fi
     
     return 1
