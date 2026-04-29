@@ -133,6 +133,7 @@ render_report_header() {
             ["uml"]="Extraction of the data out of the UML"
             ["val"]="Validate the jsonld"
             ["stak"]="Validate and convert the stakeholders"
+            ["bndl"]="Bundle external source fetches"
             ["trns"]="Translation files generation, based on existing translation files"
             ["aut"]="Autotranslate the translation files, if active"
             ["mrg"]="Merge translations to create for each language a single source of truth"
@@ -156,8 +157,8 @@ render_report_header() {
         echo "</details>" >>${OVERVIEW}
         echo "" >>${OVERVIEW}
         
-        echo "| Specification | tag | uml | val | stak | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | swag | issu |" >>${OVERVIEW}
-        echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >>${OVERVIEW}
+        echo "| Specification | tag | uml | val | stak | bndl | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | swag | issu |" >>${OVERVIEW}
+        echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >>${OVERVIEW}
         
     fi
 }
@@ -178,7 +179,7 @@ render_report_line() {
     URLREF=$(jq -r .urlref ${JSONI})
     echo -n "| [${FIRSTPARTLINE}/ ${SECONDPARTLINE}](${HOSTNAME}${URLREF}) <br/> [&#9883;](/report4/${LINE}) [&#9884;](${HOSTNAME}${URLREF})" >>${EXECUTIONVIEW}
     
-    REPORTS="branchtag oslo-converter-ea jsonld-validation oslo-stakeholders-converter translate autotranslate merge generator-webuniversum-json metadata generator-html generator-respec generator-jsonld-context generator-rdf generator-shacl generator-swagger"
+    REPORTS="branchtag oslo-converter-ea jsonld-validation oslo-stakeholders-converter bndl translate autotranslate merge generator-webuniversum-json metadata generator-html generator-respec generator-jsonld-context generator-rdf generator-shacl generator-swagger"
     
     for REPORTFILE in ${REPORTS}; do
         if [ -f ${RLINE}/${REPORTFILE}.report.md ]; then
