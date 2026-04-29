@@ -465,6 +465,7 @@ jobs:
       - run:
           name: expand default links
           command: |
+            bash $PWD/scripts/copy_resources_to_urlref.sh $PWD/config /tmp/workspace/target /tmp/workspace
             $PWD/scripts/expand-links.sh /tmp/workspace $PWD/config
       - run:
           name: Consolidate reporting
@@ -623,10 +624,6 @@ jobs:
             if [ -d json ] ; then if [ ! "$(ls -A json)" ] ; then echo "directory json is empty" ; else cp -rT json /tmp/generated/report/ ; fi fi
             if [ -d translation ] ; then if [ ! "$(ls -A translation)" ] ; then echo "directory translation is empty" ; else cp -rT translation /tmp/generated/report/ ; fi fi
             if [ -d examples ] ; then if [ ! "$(ls -A examples)" ] ; then echo "directory examples is empty" ; else cp -rT examples /tmp/generated/examples/ ; fi fi
-      - run:
-          name: Copy optional resources to urlref/resources
-          command: |
-            bash $PWD/scripts/copy_resources_to_urlref.sh $PWD/config /tmp/generated /tmp/workspace
       - run:
           name: Create new autotranslate memory
           working_directory: /tmp/workspace

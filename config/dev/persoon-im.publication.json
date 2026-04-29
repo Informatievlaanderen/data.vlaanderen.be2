@@ -27,7 +27,7 @@
       "prev": "/doc/implementatiemodel/magda/persoon/v0.0.1",
       "next": "/doc/implementatiemodel/magda/persoon"
     },
-    "dummy": "086",
+    "dummy": "087",
     "bundle": true,
     "bundleDirectory":"/resources/OSLO-Persoon-IM/datavoorbeelden", 
     "disabled": false
@@ -35,7 +35,7 @@
     {
     "urlref": "/doc/implementatiemodel/magda",
     "seealso": "/doc/implementatiemodel/magda/persoon/v0.0.2",
-    "dummy": "011",
+    "dummy": "012",
     "type": "ap"
   }
 ]
