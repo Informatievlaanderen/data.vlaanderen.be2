@@ -195,9 +195,9 @@ fetch_external_vocabularies() {
 process_publication_file() {
     local pubfile=$1
     
-    jq -c '.[] | select(.urlref)' "$pubfile" | while IFS= read -r pubpoint; do
+    jq -c 'if type == "array" then .[] else . end | select(.urlref)' "$pubfile" | while IFS= read -r pubpoint; do
         URLREF=$(echo "$pubpoint" | jq -r '.urlref')
-        COPY_RESOURCES=$(echo "$pubpoint" | jq '[.[] | select( .bundle | not )]')
+        COPY_RESOURCES=$(echo "$pubpoint" | jq -r '(.bundle // false)')
         BUNDLE_DIRECTORY=$(echo "$pubpoint" | jq -r '(.bundleDirectory // "")')
         
         if [ -z "$URLREF" ] || [ "$URLREF" = "null" ]; then
