@@ -23,6 +23,9 @@ if [ ! -f "$PUBCONFIG" ]; then
     exit 1
 fi
 
+echo "PUBCONFIG content:"
+cat "$PUBCONFIG"
+
 if [ ! -d "$GENERATEDDIR" ]; then
     echo "Generated directory not found: $GENERATEDDIR"
     exit 1
@@ -43,6 +46,8 @@ copy_dir_if_exists() {
     
     return 1
 }
+local URLREF=$( jq -r .urlref .publication-point.json )
+echo "URL: $URLREF"
 
 jq -c '.[] | select(.urlref)' "$PUBCONFIG" | while IFS= read -r pubpoint; do
     URLREF=$(echo "$pubpoint" | jq -r '.urlref')
