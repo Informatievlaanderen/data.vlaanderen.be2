@@ -129,6 +129,7 @@ Publication points are expressed as follows:
         "type" : "<PUBLICATIONPOINT_TYPE>",
         "disabled" : boolean,
         "bundle" : boolean,
+        "bundleDirectory" : "urlref",
         "examples" : boolean
     },
 ```
