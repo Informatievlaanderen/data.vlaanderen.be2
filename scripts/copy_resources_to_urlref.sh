@@ -100,10 +100,8 @@ fetch_external_vocabularies() {
                 | .assignedURI?
                 | if type == "array" then .[] else . end
                 | strings
-                | select(test("^https?://"))
             ' "$intermediary_file" \
                 | sed -e 's/#.*$//' \
-                | grep -v 'data\.vlaanderen\.be' \
                 | sort -u
         )
     done < <(find "$report_dir" -maxdepth 1 -name 'all-*.jsonld' -type f)
