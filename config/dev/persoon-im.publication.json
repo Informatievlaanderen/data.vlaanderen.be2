@@ -28,6 +28,7 @@
       "next": "/doc/implementatiemodel/magda/persoon"
     },
     "dummy": "064",
+    "bundle": true,
     "disabled": false
   }
 ]
