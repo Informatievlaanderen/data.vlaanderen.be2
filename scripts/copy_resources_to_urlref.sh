@@ -79,6 +79,8 @@ fetch_external_jsonld() {
     local target_dir=$2
     local normalized_url=${source_url%%#*}
     local target_file
+    local tmp_file
+    local headers_file
     
     if [ -z "$normalized_url" ]; then
         return 1
@@ -92,14 +94,59 @@ fetch_external_jsonld() {
     fi
     
     mkdir -p "$target_dir"
-    
-    if curl -L \
-    -H 'Accept: text/turtle' \
-    "$normalized_url" > "$target_file"; then
-        echo "Fetched external source: $normalized_url"
+
+    tmp_file=$(mktemp)
+    headers_file=$(mktemp)
+
+    fetch_external_with_accept() {
+        local accept_header=$1
+        local expected_kind=$2
+        local content_type
+
+        : > "$tmp_file"
+        : > "$headers_file"
+
+        if ! curl -f -L -sS -D "$headers_file" -H "Accept: $accept_header" "$normalized_url" > "$tmp_file"; then
+            return 1
+        fi
+
+        if [ ! -s "$tmp_file" ]; then
+            return 1
+        fi
+
+        content_type=$(tr -d '\r' < "$headers_file" | awk 'BEGIN{IGNORECASE=1} /^content-type:/ {print tolower($0)}' | tail -1)
+
+        case "$expected_kind" in
+            turtle)
+                if ! echo "$content_type" | grep -Eq 'text/turtle|application/(x-)?turtle|application/rdf\+xml|text/n3'; then
+                    return 1
+                fi
+                ;;
+            jsonld)
+                if ! echo "$content_type" | grep -Eq 'application/ld\+json|application/json'; then
+                    return 1
+                fi
+                ;;
+            html)
+                if ! echo "$content_type" | grep -Eq 'text/html|application/xhtml\+xml'; then
+                    return 1
+                fi
+                ;;
+        esac
+
+        cp "$tmp_file" "$target_file"
+        echo "Fetched external source: $normalized_url ($accept_header)"
+        return 0
+    }
+
+    if fetch_external_with_accept 'text/turtle' turtle \
+        || fetch_external_with_accept 'application/ld+json' jsonld \
+        || fetch_external_with_accept 'text/html' html; then
+        rm -f "$tmp_file" "$headers_file"
         return 0
     fi
-    
+
+    rm -f "$tmp_file" "$headers_file"
     echo "Failed to fetch external source: $normalized_url"
     rm -f "$target_file"
     return 1
