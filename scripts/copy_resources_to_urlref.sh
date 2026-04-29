@@ -77,10 +77,19 @@ copy_bundle_directory_files() {
 fetch_external_jsonld() {
     local source_url=$1
     local target_dir=$2
-    local normalized_url=${source_url%%#*}
+    local normalized_url
     local target_file
     local tmp_file
     local headers_file
+    
+    # Normalize URL to namespace: extract just the namespace portion without properties
+    if [[ "$source_url" == *"#"* ]]; then
+        # Fragment-based namespace: remove everything after #
+        normalized_url=${source_url%%#*}
+    else
+        # Path-based namespace: remove the last path segment
+        normalized_url=${source_url%/*}
+    fi
     
     if [ -z "$normalized_url" ]; then
         return 1
@@ -165,7 +174,7 @@ fetch_external_vocabularies() {
     
     while IFS= read -r intermediary_file; do
         while IFS= read -r external_url; do
-            if fetch_external_jsonld "$external_url" "$resources_dir/external"; then
+            if fetch_external_jsonld "$external_url" "$resources_dir/ontologies"; then
                 fetched_any=true
             fi
             done < <(
