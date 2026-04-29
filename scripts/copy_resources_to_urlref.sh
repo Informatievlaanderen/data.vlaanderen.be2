@@ -10,6 +10,9 @@
 PUBCONFIG=$1
 GENERATEDDIR=$2
 
+echo $PUBCONFIG
+echo $GENERATEDDIR
+
 if [ -z "$PUBCONFIG" ] || [ -z "$GENERATEDDIR" ]; then
     echo "Usage: $0 <publication-config.json> <generated-dir>"
     exit 1
@@ -28,6 +31,9 @@ fi
 copy_dir_if_exists() {
     local src_dir=$1
     local dst_dir=$2
+    
+    echo $src_dir
+    echo $dst_dir
     
     if [ -d "$src_dir" ] && [ "$(find "$src_dir" -mindepth 1 -maxdepth 1 | wc -l)" -ne 0 ]; then
         mkdir -p "$dst_dir"
@@ -49,6 +55,7 @@ jq -c '.[] | select(.urlref)' "$PUBCONFIG" | while IFS= read -r pubpoint; do
     URLREF_NO_LEADING=${URLREF#/}
     SOURCE_DIR="$GENERATEDDIR/$URLREF_NO_LEADING"
     RESOURCES_DIR="$SOURCE_DIR/resources"
+    echo "resourcesDIR: $RESOURCES_DIR"
     
     if [ "$COPY_RESOURCES" != "true" ]; then
         if [ -d "$RESOURCES_DIR" ]; then
