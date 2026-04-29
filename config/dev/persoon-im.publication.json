@@ -28,7 +28,7 @@
       "next": "/doc/implementatiemodel/magda/persoon"
     },
     "dummy": "080",
-    "bundle": false,
+    "bundle": true,
     "bundleDirectory":"/resources/OSLO-Persoon-IM/datavoorbeelden", 
     "disabled": false
   },
