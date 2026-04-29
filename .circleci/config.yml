@@ -626,7 +626,7 @@ jobs:
       - run:
           name: Copy optional resources to urlref/resources
           command: |
-            bash $PWD/scripts/copy_resources_to_urlref.sh $PWD/config /tmp/generated
+            bash $PWD/scripts/copy_resources_to_urlref.sh $PWD/config /tmp/generated /tmp/workspace
       - run:
           name: Create new autotranslate memory
           working_directory: /tmp/workspace
