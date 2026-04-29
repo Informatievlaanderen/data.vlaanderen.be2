@@ -197,7 +197,7 @@ process_publication_file() {
     
     jq -c '.[] | select(.urlref)' "$pubfile" | while IFS= read -r pubpoint; do
         URLREF=$(echo "$pubpoint" | jq -r '.urlref')
-        COPY_RESOURCES=$(echo "$pubpoint" | jq -r '(.bundle // false)')
+        COPY_RESOURCES=$(echo "$pubpoint" | jq '[.[] | select( .bundle | not )]')
         BUNDLE_DIRECTORY=$(echo "$pubpoint" | jq -r '(.bundleDirectory // "")')
         
         if [ -z "$URLREF" ] || [ "$URLREF" = "null" ]; then
