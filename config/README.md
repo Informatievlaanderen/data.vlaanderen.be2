@@ -127,7 +127,8 @@ Publication points are expressed as follows:
             "next":"/doc/applicatieprofiel/<SPECIFICATION>/<VERSION>"
         },
         "type" : "<PUBLICATIONPOINT_TYPE>",
-        "disabled" : boolean
+        "disabled" : boolean,
+        "bundle" : boolean,
         "examples" : boolean
     },
 ```
@@ -142,6 +143,7 @@ Publication points are expressed as follows:
 - _navigation_: a structure with a next or prev attribute containing a relative URL of a next or previous version of the specification
 - _type_: the publication point type. Can be omitted for publication points that describe a document, it is used to create special variants of publication points.
 - _disabled_: a boolean indicating if the the publication point should be processed. This is an aid when resolving conflicts between concurrent usage of the toolchain by multiple editors. Suppose one editor creates a publication point that leads to a processing error by the toolchain. It is this editor's responsability to resolve the issue. As long this issue is not resolved the whole toolchain is blocked for all other editors. To provide the editor sufficient time to resolve the issue and to deblock the other editors, the publication point can be disabled. This is a clean git source controlled operation and it can be executed by other editors, to deblock themselves. When the issue is resolved by the editor, the publication point can be reactivated again.
+- _bundle_: optional boolean flag to copy generated artefacts for this publication point into `<urlref>/resources` in the generated repository. Defaults to `false` when omitted.
 - _examples_: generate json-ld structures that can be used to create examples for the application profile
 
 #### nameing conventions

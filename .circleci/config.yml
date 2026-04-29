@@ -624,6 +624,10 @@ jobs:
             if [ -d translation ] ; then if [ ! "$(ls -A translation)" ] ; then echo "directory translation is empty" ; else cp -rT translation /tmp/generated/report/ ; fi fi
             if [ -d examples ] ; then if [ ! "$(ls -A examples)" ] ; then echo "directory examples is empty" ; else cp -rT examples /tmp/generated/examples/ ; fi fi
       - run:
+          name: Copy optional resources to urlref/resources
+          command: |
+            bash $PWD/scripts/copy_resources_to_urlref.sh $PWD/config/publication.json /tmp/generated
+      - run:
           name: Create new autotranslate memory
           working_directory: /tmp/workspace
           command: |
