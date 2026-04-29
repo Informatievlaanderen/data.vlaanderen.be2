@@ -445,6 +445,22 @@ jobs:
           root: /tmp/workspace
           paths:
             - target/
+  bundler:
+    docker:
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - run:
+          name: bundler
+          command: |
+            bash $PWD/scripts/copy_resources_to_urlref.sh $PWD/config /tmp/workspace/target /tmp/workspace
+      - persist_to_workspace:
+          root: /tmp/workspace
+          when: always
+          paths:
+            - target
   expand-links:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
@@ -465,7 +481,6 @@ jobs:
       - run:
           name: expand default links
           command: |
-            bash $PWD/scripts/copy_resources_to_urlref.sh $PWD/config /tmp/workspace/target /tmp/workspace
             $PWD/scripts/expand-links.sh /tmp/workspace $PWD/config
       - run:
           name: Consolidate reporting
@@ -755,8 +770,7 @@ workflows:
       - copy-raw:
           requires:
             - checkout
-      # Make expand-links depend on ALL the jobs that produce data
-      - expand-links:
+      - bundler:
           requires:
             - render-context-details-4:
                 - failed
@@ -794,6 +808,9 @@ workflows:
                 - failed
                 - success
                 - canceled
+      - expand-links:
+          requires:
+            - bundler
       # Make create-artifact depend only on expand-links (the final consolidation step)
       - create-artifact:
           generatedRepoFingerprint: "SHA256:4z5hJXh2r+2cQVWc13onR3y+Z35PMBHKwJ52yRd/8JA"
