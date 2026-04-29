@@ -211,13 +211,13 @@ process_publication_file() {
         
         # no need to delete previous resources. Might be needed later? 29/06/2026
         
-        # if [ "$COPY_RESOURCES" != "true" ]; then
-        #     if [ -d "$RESOURCES_DIR" ]; then
-        #         echo "Removing resources (bundle=false): $RESOURCES_DIR"
-        #         rm -rf "$RESOURCES_DIR"
-        #     fi
-        #     continue
-        # fi
+        if [ "$COPY_RESOURCES" != "true" ]; then
+            if [ -d "$RESOURCES_DIR" ]; then
+                echo "Removing resources (bundle=false): $RESOURCES_DIR"
+                rm -rf "$RESOURCES_DIR"
+            fi
+            continue
+        fi
         
         if [ ! -d "$SOURCE_DIR" ]; then
             echo "Skipping bundle=true for missing urlref directory: $SOURCE_DIR"
@@ -262,14 +262,38 @@ process_publication_file() {
     done
 }
 
-PUBLICATIONPOINTSDIRS=$(jq -r '.publicationpoints | @sh' "$CONFIGDIR/config.json")
-PUBLICATIONPOINTSDIRS=$(echo "$PUBLICATIONPOINTSDIRS" | sed -e "s/'//g")
+process_checkout_dir() {
+    local checkout_rel_dir=$1
+    local checkout_dir="$WORKSPACEDIR/src/$checkout_rel_dir"
+    local pubpoint_file="$checkout_dir/.publication-point.json"
 
-for dir in $PUBLICATIONPOINTSDIRS; do
-    echo "checking publication points in directory $CONFIGDIR/$dir"
-    PUBLICATIONPOINTSFILES=$(find "$CONFIGDIR/$dir" -name '*.publication.json')
-    for f in $PUBLICATIONPOINTSFILES; do
-        echo "processing publication file: $f"
-        process_publication_file "$f"
+    if [ ! -f "$pubpoint_file" ]; then
+        echo "Skipping checkout without .publication-point.json: $checkout_dir"
+        return
+    fi
+
+    process_publication_file "$pubpoint_file"
+}
+
+CHECKOUTFILE="$WORKSPACEDIR/checkouts.txt"
+
+if [ -f "$CHECKOUTFILE" ] && [ -s "$CHECKOUTFILE" ]; then
+    while IFS= read -r checkout_rel_dir; do
+        if [ -n "$checkout_rel_dir" ]; then
+            echo "processing checked out publication point: $checkout_rel_dir"
+            process_checkout_dir "$checkout_rel_dir"
+        fi
+    done < "$CHECKOUTFILE"
+else
+    PUBLICATIONPOINTSDIRS=$(jq -r '.publicationpoints | @sh' "$CONFIGDIR/config.json")
+    PUBLICATIONPOINTSDIRS=$(echo "$PUBLICATIONPOINTSDIRS" | sed -e "s/'//g")
+
+    for dir in $PUBLICATIONPOINTSDIRS; do
+        echo "checking publication points in directory $CONFIGDIR/$dir"
+        PUBLICATIONPOINTSFILES=$(find "$CONFIGDIR/$dir" -name '*.publication.json')
+        for f in $PUBLICATIONPOINTSFILES; do
+            echo "processing publication file: $f"
+            process_publication_file "$f"
+        done
     done
-done
+fi
