@@ -2,24 +2,32 @@
   {
     "urlref": "/doc/implementatiemodel/magda/persoon",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon",
-    "branchtag": "master",
-    "name": "persoon-IM",
+    "branchtag": "v0.0.2",
+    "name": "persoon",
     "filename": "config/persoon-im.json",
     "contextgenerator": {
-      "parameters": "--addDomainPrefix true"
+      "parameters": "--scopedContext true --enablePolymorphism false"
     },
-    "swaggergenerator": {
-      "parameters": "--title Hello world --description dummy description --contactEmail kristof.vandenbroucke@vlaanderen.be"
+    "navigation": {
+      "prev": "/doc/implementatiemodel/magda/persoon/v0.0.1"
     },
-    "dummy": "053",
-    "bundle": "true"
+    "dummy": "064",
+    "disabled": true
   },
   {
-    "urlref": "/ns/magda/persoon",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon/",
-    "branchtag": "master",
-    "name": "persoon-IMVOC",
+    "urlref": "/doc/implementatiemodel/magda/persoon/v0.0.2",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon",
+    "branchtag": "v0.0.2",
+    "name": "persoon",
     "filename": "config/persoon-im.json",
-    "dummy": "023"
+    "contextgenerator": {
+      "parameters": "--scopedContext true --enablePolymorphism false"
+    },
+    "navigation": {
+      "prev": "/doc/implementatiemodel/magda/persoon/v0.0.1",
+      "next": "/doc/implementatiemodel/magda/persoon"
+    },
+    "dummy": "064",
+    "disabled": false
   }
 ]
