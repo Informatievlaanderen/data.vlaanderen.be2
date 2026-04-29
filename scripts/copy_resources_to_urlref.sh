@@ -238,39 +238,6 @@ fetch_external_vocabularies() {
     return 1
 }
 
-write_bundle_failures_report() {
-    local resources_dir=$1
-    local report_dir=$2
-    local cache_file="$resources_dir/ontologies/.failed_external_sources"
-    local report_file="$report_dir/bndl.report.md"
-
-    if [ ! -f "$cache_file" ] || [ ! -s "$cache_file" ]; then
-        rm -f "$cache_file"
-        return 1
-    fi
-
-    mkdir -p "$report_dir"
-    {
-        echo "# Bundle External Source Failures"
-        echo
-        echo "The following namespace sources could not be fetched:"
-        echo
-        sort -u "$cache_file" | while IFS= read -r failed_url; do
-            if [ -n "$failed_url" ]; then
-                echo "- ERROR: $failed_url"
-            fi
-        done
-    } > "$report_file"
-
-    rm -f "$cache_file"
-    if [ -d "$resources_dir/ontologies" ] && [ ! "$(ls -A "$resources_dir/ontologies")" ]; then
-        rmdir "$resources_dir/ontologies"
-    fi
-
-    echo "Saved bundle failures report: $report_file"
-    return 0
-}
-
 process_publication_file() {
     local pubfile=$1
     
@@ -287,7 +254,6 @@ process_publication_file() {
         SOURCE_DIR="$GENERATEDDIR/$URLREF_NO_LEADING"
         THEMA_SOURCE_DIR="$WORKSPACEDIR/src/$URLREF_NO_LEADING"
         RESOURCES_DIR="$SOURCE_DIR/resources"
-        REPORT_DIR="$GENERATEDDIR/report4/$URLREF_NO_LEADING"
         
         # no need to delete previous resources. Might be needed later? 29/06/2026
         
@@ -330,10 +296,6 @@ process_publication_file() {
         fi
         
         if fetch_external_vocabularies "$URLREF" "$RESOURCES_DIR"; then
-            copied_any=true
-        fi
-
-        if write_bundle_failures_report "$RESOURCES_DIR" "$REPORT_DIR"; then
             copied_any=true
         fi
         
