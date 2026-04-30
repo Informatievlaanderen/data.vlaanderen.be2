@@ -453,10 +453,10 @@ jobs:
       - attach_workspace:
           at: /tmp/workspace
       - run:
-          name: bundler
+          name: Bundle ontologies and artefacts
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace bndl ${CIRCLEWKD}/config
+            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace bundle ${CIRCLEWKD}/config
       - persist_to_workspace:
           root: /tmp/workspace
           when: always
