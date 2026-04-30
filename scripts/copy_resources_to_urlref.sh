@@ -255,12 +255,12 @@ write_bundle_report() {
         if [ "$copied_any" = "true" ]; then
             echo "INFO: resources copied to ${resources_dir}"
         else
-            echo "WARNING: bundle=true but no resources were copied"
+            echo "warning: bundle=true but no resources were copied"
         fi
         
         if [ -f "$failed_cache" ] && [ -s "$failed_cache" ]; then
             while IFS= read -r failed_url; do
-                echo "WARNING: failed to fetch external source ${failed_url}"
+                echo "error: failed to fetch external source ${failed_url}"
             done < "$failed_cache"
         fi
     } > "$report_file"
