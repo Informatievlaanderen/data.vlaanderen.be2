@@ -33,6 +33,14 @@ if [ ! -d "$WORKSPACEDIR" ]; then
     exit 1
 fi
 
+# Install rdf-dereference into a stable temp location and expose it via NODE_PATH.
+RDF_MODULES_DIR="/tmp/rdf-dereference-modules"
+if [ ! -d "$RDF_MODULES_DIR/node_modules/rdf-dereference" ]; then
+    mkdir -p "$RDF_MODULES_DIR"
+    ( cd "$RDF_MODULES_DIR" && npm install --save-exact --no-save rdf-dereference 2>&1 )
+fi
+export NODE_PATH="$RDF_MODULES_DIR/node_modules"
+
 copy_dir_if_exists() {
     local src_dir=$1
     local dst_dir=$2
@@ -130,7 +138,7 @@ fetch_external_jsonld() {
     
     mkdir -p "$target_dir"
     
-    if npx -y -p rdf-dereference node "$SCRIPTDIR/fetch_external_rdf.js" "$normalized_url" "$target_file"; then
+    if node "$SCRIPTDIR/fetch_external_rdf.js" "$normalized_url" "$target_file"; then
         return 0
     fi
 
