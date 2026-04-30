@@ -7,7 +7,7 @@
     "filename": "config/NDNN-ap.json",
     "navigation": {},
     "dummy": "076",
-    "disabled":true,
+    "disabled":false,
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     }
@@ -18,7 +18,7 @@
  "urlref": "/doc//implementatiemodel/NDNN",
     "seealso": "/doc/implementatiemodel/nudgingdownnightnoise/ontwerpstandaard/2026-04-14",
     "type": "ap",
-    "disabled":true,
+    "disabled":false,
     "dummy": "079"
 }
 ]
