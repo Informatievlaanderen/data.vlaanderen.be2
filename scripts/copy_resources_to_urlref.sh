@@ -140,7 +140,12 @@ fetch_external_jsonld() {
         : > "$tmp_file"
         : > "$headers_file"
         
-        if ! curl -f -L -sS --connect-timeout 5 --max-time 5 -D "$headers_file" -H "Accept: $accept_header" "$normalized_url" > "$tmp_file"; then
+        local curl_accept_flag=()
+        if [ -n "$accept_header" ]; then
+            curl_accept_flag=(-H "Accept: $accept_header")
+        fi
+        
+        if ! curl -f -L -sS --connect-timeout 5 --max-time 5 -D "$headers_file" "${curl_accept_flag[@]}" "$normalized_url" > "$tmp_file"; then
             return 1
         fi
         
@@ -175,7 +180,7 @@ fetch_external_jsonld() {
     
     if fetch_external_with_accept 'text/turtle' turtle \
     || fetch_external_with_accept 'application/ld+json' jsonld \
-    || fetch_external_with_accept 'text/html' html; then
+    || fetch_external_with_accept '' html; then
         rm -f "$tmp_file" "$headers_file"
         return 0
     fi
