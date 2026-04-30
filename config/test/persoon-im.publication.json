@@ -77,14 +77,6 @@
     "disabled": false
   },
   {
-    "urlref": "/ns/magda/persoon",
-    "prefix": "magda",
-    "seealso": "/ns/magda/persoon/v0.0.4",
-    "type": "voc",
-    "dummy": "068",
-    "disabled": false
-  },
-  {
     "urlref": "/ns/magda/persoon/v0.0.1",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon/",
     "branchtag": "v0.0.1",
@@ -134,6 +126,14 @@
     "navigation": {
       "prev": "/ns/magda/persoon/v0.0.3"
     },
+    "dummy": "069",
+    "disabled": false
+  },
+  {
+    "urlref": "/ns/magda/persoon",
+    "prefix": "magda",
+    "seealso": "/ns/magda/persoon/v0.0.4",
+    "type": "voc",
     "dummy": "068",
     "disabled": false
   }
