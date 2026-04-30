@@ -462,6 +462,7 @@ jobs:
           when: always
           paths:
             - target
+            - report4
   expand-links:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
