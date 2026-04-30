@@ -11,7 +11,7 @@
     "navigation": {
       "prev": "/doc/implementatiemodel/magda/persoon/v0.0.3"
     },
-    "dummy": "067",
+    "dummy": "068",
     "disabled": false
   },
   {
@@ -26,7 +26,7 @@
     "navigation": {
       "next": "/doc/implementatiemodel/magda/persoon/v0.0.2"
     },
-    "dummy": "067",
+    "dummy": "068",
     "disabled": false
   },
   {
@@ -42,7 +42,7 @@
       "prev": "/doc/implementatiemodel/magda/persoon/v0.0.1",
       "next": "/doc/implementatiemodel/magda/persoon/v0.0.3"
     },
-    "dummy": "067",
+    "dummy": "068",
     "disabled": false
   },
   {
@@ -58,7 +58,7 @@
       "prev": "/doc/implementatiemodel/magda/persoon/v0.0.2",
       "next": "/doc/implementatiemodel/magda/persoon/v0.0.4"
     },
-    "dummy": "067",
+    "dummy": "068",
     "disabled": false
   },
   {
@@ -73,7 +73,7 @@
     "navigation": {
       "prev": "/doc/implementatiemodel/magda/persoon/v0.0.3"
     },
-    "dummy": "067",
+    "dummy": "068",
     "disabled": false
   },
   {
@@ -81,7 +81,7 @@
     "prefix": "magda",
     "seealso": "/ns/magda/persoon/v0.0.4",
     "type": "voc",
-    "dummy": "067",
+    "dummy": "068",
     "disabled": false
   },
   {
@@ -93,7 +93,7 @@
     "navigation": {
       "next": "/ns/magda/persoon/v0.0.2"
     },
-    "dummy": "067",
+    "dummy": "068",
     "disabled": false
   },
   {
@@ -107,7 +107,7 @@
       "prev": "/ns/magda/persoon/v0.0.1",
       "next": "/ns/magda/persoon/v0.0.3"
     },
-    "dummy": "067",
+    "dummy": "068",
     "disabled": false
   },
   {
@@ -121,7 +121,7 @@
       "prev": "/ns/magda/persoon/v0.0.2",
       "next": "/ns/magda/persoon/v0.0.4"
     },
-    "dummy": "067",
+    "dummy": "068",
     "disabled": false
   },
   {
@@ -134,7 +134,7 @@
     "navigation": {
       "prev": "/ns/magda/persoon/v0.0.3"
     },
-    "dummy": "067",
+    "dummy": "068",
     "disabled": false
   }
 ]
