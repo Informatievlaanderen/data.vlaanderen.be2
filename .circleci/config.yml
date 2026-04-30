@@ -453,6 +453,9 @@ jobs:
       - attach_workspace:
           at: /tmp/workspace
       - run:
+          name: install software
+          command: sudo npm install --global n3 
+      - run:
           name: Bundle ontologies and artefacts
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
