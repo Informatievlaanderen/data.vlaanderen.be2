@@ -11,6 +11,7 @@
 CONFIGDIR=$1
 GENERATEDDIR=$2
 WORKSPACEDIR=${3:-/tmp/workspace}
+SCRIPTDIR=$(cd "$(dirname "$0")" && pwd)
 
 if [ -z "$CONFIGDIR" ] || [ -z "$GENERATEDDIR" ]; then
     echo "Usage: $0 <config-dir> <generated-dir> [workspace-dir]"
@@ -129,63 +130,10 @@ fetch_external_jsonld() {
     
     mkdir -p "$target_dir"
     
-    tmp_file=$(mktemp)
-    headers_file=$(mktemp)
-    
-    fetch_external_with_accept() {
-        local accept_header=$1
-        local expected_kind=$2
-        local content_type
-        
-        : > "$tmp_file"
-        : > "$headers_file"
-        
-        local curl_accept_flag=()
-        if [ -n "$accept_header" ]; then
-            curl_accept_flag=(-H "Accept: $accept_header")
-        fi
-        
-        if ! curl -f -L -sS --connect-timeout 5 --max-time 5 -D "$headers_file" "${curl_accept_flag[@]}" "$normalized_url" > "$tmp_file"; then
-            return 1
-        fi
-        
-        if [ ! -s "$tmp_file" ]; then
-            return 1
-        fi
-        
-        content_type=$(tr -d '\r' < "$headers_file" | awk 'BEGIN{IGNORECASE=1} /^content-type:/ {print tolower($0)}' | tail -1)
-        
-        case "$expected_kind" in
-            turtle)
-                if ! echo "$content_type" | grep -Eq 'text/turtle|application/(x-)?turtle|application/rdf\+xml|text/n3'; then
-                    return 1
-                fi
-            ;;
-            jsonld)
-                if ! echo "$content_type" | grep -Eq 'application/ld\+json|application/json'; then
-                    return 1
-                fi
-            ;;
-            html)
-                if ! echo "$content_type" | grep -Eq 'text/html|application/xhtml\+xml'; then
-                    return 1
-                fi
-            ;;
-        esac
-        
-        cp "$tmp_file" "$target_file"
-        echo "Fetched external source: $normalized_url ($accept_header)"
-        return 0
-    }
-    
-    if fetch_external_with_accept 'text/turtle' turtle \
-    || fetch_external_with_accept 'application/ld+json' jsonld \
-    || fetch_external_with_accept '' html; then
-        rm -f "$tmp_file" "$headers_file"
+    if npx -y -p rdf-dereference -p n3 node "$SCRIPTDIR/fetch_external_rdf.js" "$normalized_url" "$target_file"; then
         return 0
     fi
-    
-    rm -f "$tmp_file" "$headers_file"
+
     echo "Failed to fetch external source: $normalized_url"
     mkdir -p "$target_dir"
     touch "$failed_cache"
