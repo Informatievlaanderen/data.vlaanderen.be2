@@ -179,7 +179,7 @@ render_report_line() {
     URLREF=$(jq -r .urlref ${JSONI})
     echo -n "| [${FIRSTPARTLINE}/ ${SECONDPARTLINE}](${HOSTNAME}${URLREF}) <br/> [&#9883;](/report4/${LINE}) [&#9884;](${HOSTNAME}${URLREF})" >>${EXECUTIONVIEW}
     
-    REPORTS="branchtag oslo-converter-ea jsonld-validation oslo-stakeholders-converter translate autotranslate merge generator-webuniversum-json metadata generator-html generator-respec generator-jsonld-context generator-rdf generator-shacl generator-swagger bndl"
+    REPORTS="branchtag oslo-converter-ea jsonld-validation oslo-stakeholders-converter translate autotranslate merge generator-webuniversum-json metadata generator-html generator-respec generator-jsonld-context generator-rdf generator-shacl generator-swagger bundle"
     
     for REPORTFILE in ${REPORTS}; do
         if [ -f ${RLINE}/${REPORTFILE}.report.md ]; then
@@ -1305,6 +1305,8 @@ render_xsd() { # SLINE TLINE JSON
 
 echo "render-details: starting with $1 $2 $3"
 
+BUNDLING_EXECUTED=false
+
 cat ${CHECKOUTFILE} | while read line; do
     SLINE=${TARGETDIR}/src/${line}
     TLINE=${TARGETDIR}/report4/${line}
@@ -1460,6 +1462,16 @@ cat ${CHECKOUTFILE} | while read line; do
                     for g in ${GOALLANGUAGE}; do
                         render_merged_files ${PRIMELANGUAGE} ${g} $i ${SLINE} ${TLINE} ${RLINE}
                     done
+                ;;
+                bundle)
+                    if [ "${BUNDLING_EXECUTED}" != "true" ]; then
+                        echo "RENDER-DETAILS: bundling resources"
+                        if ! ${PWD}/scripts/copy_resources_to_urlref.sh ${CONFIGDIR} ${TARGETDIR}/target ${TARGETDIR}; then
+                            echo "RENDER-DETAILS: bundling failed"
+                            execution_strickness
+                        fi
+                        BUNDLING_EXECUTED=true
+                    fi
                 ;;
                 report)
                     EXECUTIONVIEW=${TARGETDIR}/report4/overviewreport.md

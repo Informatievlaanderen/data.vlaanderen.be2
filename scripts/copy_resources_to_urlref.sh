@@ -82,33 +82,33 @@ fetch_external_jsonld() {
     local tmp_file
     local headers_file
     local failed_cache
-
+    
     normalize_namespace_url() {
         local raw_url=$1
         local base_url=${raw_url%%#*}
-
+        
         if [ -z "$base_url" ]; then
             echo ""
             return
         fi
-
-        # Issue met w3C specs 
-
+        
+        # Issue met w3C specs
+        
         if [[ "$raw_url" == *"#"* ]]; then
             echo "$base_url"
             return
         fi
-
+        
         # Preserve common namespace roots like .../ns unchanged.
         if [[ "$base_url" == */ns ]]; then
             echo "$base_url"
             return
         fi
-
+        
         # Path-based namespace: remove the last path segment.
         echo "${base_url%/*}"
     }
-
+    
     normalized_url=$(normalize_namespace_url "$source_url")
     
     if [ -z "$normalized_url" ]; then
@@ -118,7 +118,7 @@ fetch_external_jsonld() {
     target_file=$(echo "$normalized_url" | sed -e 's|^https\?://||' -e 's|[^A-Za-z0-9._-]|_|g')
     target_file="$target_dir/${target_file}"
     failed_cache="$target_dir/.failed_external_sources"
-
+    
     if [ -f "$failed_cache" ] && grep -Fqx "$normalized_url" "$failed_cache"; then
         return 1
     fi
@@ -128,58 +128,58 @@ fetch_external_jsonld() {
     fi
     
     mkdir -p "$target_dir"
-
+    
     tmp_file=$(mktemp)
     headers_file=$(mktemp)
-
+    
     fetch_external_with_accept() {
         local accept_header=$1
         local expected_kind=$2
         local content_type
-
+        
         : > "$tmp_file"
         : > "$headers_file"
-
+        
         if ! curl -f -L -sS --connect-timeout 5 --max-time 5 -D "$headers_file" -H "Accept: $accept_header" "$normalized_url" > "$tmp_file"; then
             return 1
         fi
-
+        
         if [ ! -s "$tmp_file" ]; then
             return 1
         fi
-
+        
         content_type=$(tr -d '\r' < "$headers_file" | awk 'BEGIN{IGNORECASE=1} /^content-type:/ {print tolower($0)}' | tail -1)
-
+        
         case "$expected_kind" in
             turtle)
                 if ! echo "$content_type" | grep -Eq 'text/turtle|application/(x-)?turtle|application/rdf\+xml|text/n3'; then
                     return 1
                 fi
-                ;;
+            ;;
             jsonld)
                 if ! echo "$content_type" | grep -Eq 'application/ld\+json|application/json'; then
                     return 1
                 fi
-                ;;
+            ;;
             html)
                 if ! echo "$content_type" | grep -Eq 'text/html|application/xhtml\+xml'; then
                     return 1
                 fi
-                ;;
+            ;;
         esac
-
+        
         cp "$tmp_file" "$target_file"
         echo "Fetched external source: $normalized_url ($accept_header)"
         return 0
     }
-
+    
     if fetch_external_with_accept 'text/turtle' turtle \
-        || fetch_external_with_accept 'application/ld+json' jsonld \
-        || fetch_external_with_accept 'text/html' html; then
+    || fetch_external_with_accept 'application/ld+json' jsonld \
+    || fetch_external_with_accept 'text/html' html; then
         rm -f "$tmp_file" "$headers_file"
         return 0
     fi
-
+    
     rm -f "$tmp_file" "$headers_file"
     echo "Failed to fetch external source: $normalized_url"
     mkdir -p "$target_dir"
@@ -202,7 +202,7 @@ fetch_external_vocabularies() {
         echo "No intermediary report directory found for $urlref: $report_dir"
         return 1
     fi
-
+    
     seen_urls_file=$(mktemp)
     
     while IFS= read -r intermediary_file; do
@@ -225,7 +225,7 @@ fetch_external_vocabularies() {
             | sort -u
         )
     done < <(find "$report_dir" -maxdepth 1 -name 'all-*.jsonld' -type f)
-
+    
     rm -f "$seen_urls_file"
     
     if [ "$fetched_any" = "true" ]; then
@@ -244,11 +244,11 @@ write_bundle_report() {
     local copied_any=$2
     local resources_dir=$3
     local report_dir="$WORKSPACEDIR/report4/${urlref#/}"
-    local report_file="$report_dir/bndl.report.md"
+    local report_file="$report_dir/bundle.report.md"
     local failed_cache="$resources_dir/ontologies/.failed_external_sources"
-
+    
     mkdir -p "$report_dir"
-
+    
     {
         echo "#||# bundling for $urlref"
         echo "#||# ----------------------"
@@ -257,7 +257,7 @@ write_bundle_report() {
         else
             echo "WARNING: bundle=true but no resources were copied"
         fi
-
+        
         if [ -f "$failed_cache" ] && [ -s "$failed_cache" ]; then
             while IFS= read -r failed_url; do
                 echo "WARNING: failed to fetch external source ${failed_url}"
@@ -333,7 +333,7 @@ process_publication_file() {
             echo "bundle=true but no artefact directories found for $URLREF"
             rm -rf "$RESOURCES_DIR"
         fi
-
+        
         write_bundle_report "$URLREF" "$copied_any" "$RESOURCES_DIR"
     done
 }
@@ -342,12 +342,12 @@ process_checkout_dir() {
     local checkout_rel_dir=$1
     local checkout_dir="$WORKSPACEDIR/src/$checkout_rel_dir"
     local pubpoint_file="$checkout_dir/.publication-point.json"
-
+    
     if [ ! -f "$pubpoint_file" ]; then
         echo "Skipping checkout without .publication-point.json: $checkout_dir"
         return
     fi
-
+    
     process_publication_file "$pubpoint_file"
 }
 
@@ -363,7 +363,7 @@ if [ -f "$CHECKOUTFILE" ] && [ -s "$CHECKOUTFILE" ]; then
 else
     PUBLICATIONPOINTSDIRS=$(jq -r '.publicationpoints | @sh' "$CONFIGDIR/config.json")
     PUBLICATIONPOINTSDIRS=$(echo "$PUBLICATIONPOINTSDIRS" | sed -e "s/'//g")
-
+    
     for dir in $PUBLICATIONPOINTSDIRS; do
         echo "checking publication points in directory $CONFIGDIR/$dir"
         PUBLICATIONPOINTSFILES=$(find "$CONFIGDIR/$dir" -name '*.publication.json')
