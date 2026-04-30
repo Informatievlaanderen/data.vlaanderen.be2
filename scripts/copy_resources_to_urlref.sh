@@ -130,7 +130,7 @@ fetch_external_jsonld() {
     
     mkdir -p "$target_dir"
     
-    if npx -y -p rdf-dereference -p n3 node "$SCRIPTDIR/fetch_external_rdf.js" "$normalized_url" "$target_file"; then
+    if npx -y -p rdf-dereference node "$SCRIPTDIR/fetch_external_rdf.js" "$normalized_url" "$target_file"; then
         return 0
     fi
 

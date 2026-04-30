@@ -1,8 +1,38 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
-const { Writer } = require('n3');
 const { rdfDereferencer } = require('rdf-dereference');
+
+// Serialize a single RDFJS term to its N-Quads representation.
+function serializeTerm(term) {
+  if (term.termType === 'NamedNode') {
+    return `<${term.value}>`;
+  }
+  if (term.termType === 'BlankNode') {
+    return `_:${term.value}`;
+  }
+  if (term.termType === 'Literal') {
+    const escaped = term.value.replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n').replace(/\r/g, '\\r').replace(/\t/g, '\\t');
+    if (term.language) {
+      return `"${escaped}"@${term.language}`;
+    }
+    if (term.datatype && term.datatype.value !== 'http://www.w3.org/2001/XMLSchema#string') {
+      return `"${escaped}"^^<${term.datatype.value}>`;
+    }
+    return `"${escaped}"`;
+  }
+  if (term.termType === 'DefaultGraph') {
+    return '';
+  }
+  return `<${term.value}>`;
+}
+
+// Serialize a single RDFJS quad to an N-Quads line.
+function serializeQuad(quad) {
+  const { subject, predicate, object, graph } = quad;
+  const graphPart = graph && graph.termType !== 'DefaultGraph' ? ` ${serializeTerm(graph)}` : '';
+  return `${serializeTerm(subject)} ${serializeTerm(predicate)} ${serializeTerm(object)}${graphPart} .\n`;
+}
 
 async function main() {
   const [, , sourceUrl, targetFile] = process.argv;
@@ -16,33 +46,19 @@ async function main() {
     parseUnsupportedVersions: true,
   });
 
-  const writer = new Writer({ format: 'N-Quads' });
-  let quadCount = 0;
+  const lines = [];
 
   await new Promise((resolve, reject) => {
-    data.on('data', (quad) => {
-      quadCount += 1;
-      writer.addQuad(quad);
-    });
+    data.on('data', (quad) => lines.push(serializeQuad(quad)));
     data.on('error', reject);
     data.on('end', resolve);
   });
 
-  if (quadCount === 0) {
+  if (lines.length === 0) {
     throw new Error(`No RDF quads were dereferenced from ${sourceUrl}`);
   }
 
-  const serialized = await new Promise((resolve, reject) => {
-    writer.end((error, result) => {
-      if (error) {
-        reject(error);
-      } else {
-        resolve(result);
-      }
-    });
-  });
-
-  fs.writeFileSync(targetFile, serialized, 'utf8');
+  fs.writeFileSync(targetFile, lines.join(''), 'utf8');
 
   const contentType = headers && typeof headers.get === 'function'
     ? headers.get('content-type')
