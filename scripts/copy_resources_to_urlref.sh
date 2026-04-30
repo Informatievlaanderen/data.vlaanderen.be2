@@ -92,6 +92,8 @@ fetch_external_jsonld() {
             return
         fi
 
+        # Issue met w3C specs 
+
         if [[ "$raw_url" == *"#"* ]]; then
             echo "$base_url"
             return
@@ -220,7 +222,6 @@ fetch_external_vocabularies() {
                 | if type == "array" then .[] else . end
                 | strings
             ' "$intermediary_file" \
-            | sed -e 's/#.*$//' \
             | sort -u
         )
     done < <(find "$report_dir" -maxdepth 1 -name 'all-*.jsonld' -type f)
@@ -236,6 +237,33 @@ fetch_external_vocabularies() {
     fi
     
     return 1
+}
+
+write_bundle_report() {
+    local urlref=$1
+    local copied_any=$2
+    local resources_dir=$3
+    local report_dir="$WORKSPACEDIR/report4/${urlref#/}"
+    local report_file="$report_dir/bndl.report.md"
+    local failed_cache="$resources_dir/ontologies/.failed_external_sources"
+
+    mkdir -p "$report_dir"
+
+    {
+        echo "#||# bundling for $urlref"
+        echo "#||# ----------------------"
+        if [ "$copied_any" = "true" ]; then
+            echo "INFO: resources copied to ${resources_dir}"
+        else
+            echo "WARNING: bundle=true but no resources were copied"
+        fi
+
+        if [ -f "$failed_cache" ] && [ -s "$failed_cache" ]; then
+            while IFS= read -r failed_url; do
+                echo "WARNING: failed to fetch external source ${failed_url}"
+            done < "$failed_cache"
+        fi
+    } > "$report_file"
 }
 
 process_publication_file() {
@@ -305,6 +333,8 @@ process_publication_file() {
             echo "bundle=true but no artefact directories found for $URLREF"
             rm -rf "$RESOURCES_DIR"
         fi
+
+        write_bundle_report "$URLREF" "$copied_any" "$RESOURCES_DIR"
     done
 }
 
