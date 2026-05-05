@@ -95,6 +95,12 @@ fetch_external_jsonld() {
     normalize_namespace_url() {
         local raw_url=$1
         local base_url=${raw_url%%#*}
+
+        # schema.org resources are fetched as-is without namespace normalization.
+        if [[ "$raw_url" =~ ^https?://([A-Za-z0-9-]+\.)*schema\.org(/|$) ]]; then
+            echo "$raw_url"
+            return
+        fi
         
         if [ -z "$base_url" ]; then
             echo ""
