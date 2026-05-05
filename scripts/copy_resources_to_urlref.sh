@@ -114,12 +114,11 @@ fetch_external_jsonld() {
             return
         fi
         
-        # Path-based namespace: remove the last path segment.
-        echo "${base_url%/*}"
+        # Path-based namespace: remove the last path segment and keep a trailing slash.
+        echo "${base_url%/*}/"
     }
     
     normalized_url=$(normalize_namespace_url "$source_url")
-    echo "Trying to fetch ontology: $normalized_url"
     
     if [ -z "$normalized_url" ]; then
         return 1
@@ -142,7 +141,7 @@ fetch_external_jsonld() {
     if node "$SCRIPTDIR/fetch_external_rdf.js" "$normalized_url" "$target_file"; then
         return 0
     fi
-    
+
     echo "Failed to fetch external source: $normalized_url"
     mkdir -p "$target_dir"
     touch "$failed_cache"
