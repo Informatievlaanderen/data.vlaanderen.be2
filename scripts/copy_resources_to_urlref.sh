@@ -142,6 +142,15 @@ fetch_external_jsonld() {
         return 0
     fi
 
+    # Fallback for namespace documents that only provide HTML (or other non-RDF content).
+    if curl -fsSL "$normalized_url" -o "$target_file"; then
+        if [ -s "$target_file" ]; then
+            echo "Fetched external source as raw document: $normalized_url"
+            return 0
+        fi
+        rm -f "$target_file"
+    fi
+
     echo "Failed to fetch external source: $normalized_url"
     mkdir -p "$target_dir"
     touch "$failed_cache"
