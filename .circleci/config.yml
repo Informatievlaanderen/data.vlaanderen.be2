@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   checkout:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       #      - add_ssh_keys:
@@ -151,7 +151,7 @@ jobs:
             - autotranslation
   render-html-details-4:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       - attach_workspace:
@@ -218,7 +218,7 @@ jobs:
             - target
   render-respec-html-details-4:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       - attach_workspace:
@@ -313,7 +313,7 @@ jobs:
             - report4/shacl
   render-context-details-4:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       - attach_workspace:
@@ -340,6 +340,36 @@ jobs:
           when: always
           paths:
             - report4/context
+            - target
+  render-swagger-4:
+    docker:
+      - image: cimg/node:24.11.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - run:
+          name: touch a file
+          command: |
+            mkdir -p /tmp/workspace/report4/swagger
+            touch /tmp/workspace/report4/swagger/.ignore
+      - run:
+          name: install software
+          command: sudo npm install -g @oslo-flanders/swagger-generator
+      - run:
+          name: Render swagger file of  merged json file (a)
+          command: |
+            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace swagger ${CIRCLEWKD}/config
+      - run:
+          name: List the files which have been created
+          command: |
+            if [ -d /tmp/workspace/report4 ] ; then ls -al /tmp/workspace/report4/* ; fi || true
+      - persist_to_workspace:
+          root: /tmp/workspace
+          when: always
+          paths:
+            - report4/swagger
             - target
   render-example-templates:
     docker:
@@ -415,6 +445,24 @@ jobs:
           root: /tmp/workspace
           paths:
             - target/
+  bundle-release:
+    docker:
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - run:
+          name: Bundle ontologies and artefacts
+          command: |
+            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace bundle ${CIRCLEWKD}/config
+      - persist_to_workspace:
+          root: /tmp/workspace
+          when: always
+          paths:
+            - target
+            - report4
   expand-links:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
@@ -474,6 +522,12 @@ jobs:
             else
               echo "No shacl directory found"
             fi
+            if [ -d "${RLINE}/swagger" ]; then
+              cp -r ${RLINE}/swagger/* ${RLINE} || true
+              rm -rf ${RLINE}/swagger
+            else
+              echo "No swagger directory found"
+            fi
             if [ -d "${RLINE}/jsonld-validation" ]; then
               cp -r ${RLINE}/jsonld-validation/* ${RLINE} || true
               rm -rf ${RLINE}/jsonld-validation
@@ -501,7 +555,7 @@ jobs:
             - target
   copy-raw:
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       - attach_workspace:
@@ -526,7 +580,7 @@ jobs:
       generatedRepoFingerprint:
         type: string
     docker:
-      - image: cimg/node:20.15.0
+      - image: cimg/node:24.11.0
     steps:
       - checkout
       - attach_workspace:
@@ -573,6 +627,7 @@ jobs:
             rm -rf rdf
             rm -rf respec
             rm -rf shacl
+            rm -rf swagger
             rm -rf jsonld-validation
       - run:
           name: Copy generated assets
@@ -641,6 +696,30 @@ jobs:
             git tag "${TAG}"
             git push --force origin "${CIRCLE_BRANCH}"
             git push --tags
+  weekly-trigger-all:
+    parameters:
+      repoFingerprint:
+        type: string
+    docker:
+      - image: cimg/node:24.11.0
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - << parameters.repoFingerprint >>
+      - run:
+          name: Trigger rebuild of all publication points
+          command: |
+            # Run the triggerall.test.sh script from the scripts directory
+            ./scripts/triggerall.test.sh
+      - run:
+          name: Commit and trigger main workflow
+          command: |
+            git config user.email "$(jq -r .generatedrepository.gitEmail config/config.json)"
+            git config user.name "$(jq -r .generatedrepository.gitUser config/config.json)"
+            git add .
+            git commit -m "Weekly maintenance: trigger all publication points - $(date)"
+            git push origin ${CIRCLE_BRANCH}
 workflows:
   version: 2
   generate_documentation:
@@ -681,6 +760,9 @@ workflows:
       - render-shacl-details-4:
           requires:
             - render-translation-4
+      - render-swagger-4:
+          requires:
+            - render-translation-4
       - convert-json-to-ttl:
           requires:
             - render-shacl-details-4:
@@ -690,8 +772,7 @@ workflows:
       - copy-raw:
           requires:
             - checkout
-      # Make expand-links depend on ALL the jobs that produce data
-      - expand-links:
+      - bundle-release:
           requires:
             - render-context-details-4:
                 - failed
@@ -717,6 +798,10 @@ workflows:
                 - failed
                 - success
                 - canceled
+            - render-swagger-4:
+                - failed
+                - success
+                - canceled
             - convert-json-to-ttl:
                 - failed
                 - success
@@ -725,8 +810,23 @@ workflows:
                 - failed
                 - success
                 - canceled
+      - expand-links:
+          requires:
+            - bundle-release
       # Make create-artifact depend only on expand-links (the final consolidation step)
       - create-artifact:
           generatedRepoFingerprint: "SHA256:4z5hJXh2r+2cQVWc13onR3y+Z35PMBHKwJ52yRd/8JA"
           requires:
             - expand-links
+  # New weekly scheduled workflow
+  weekly_maintenance:
+    triggers:
+      - schedule:
+          cron: "0 12 * * 4" # Run at 12 PM (12:00) every Thursday
+          filters:
+            branches:
+              only:
+                - dev
+    jobs:
+      - weekly-trigger-all:
+          repoFingerprint: "SHA256:pOYapwEA5OgOMrEPxcwOxnIMQjserWnAmJGaYIYXOEw"
