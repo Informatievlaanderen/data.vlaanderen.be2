@@ -146,34 +146,36 @@
                                  </dd>
                               {% endfor %}
                            </dl>
+                           {% block metainfo %}
                            <div class="head" role="metainfo" id="metainfo">
-                              <dl>
-                                 <dt>Brondata</dt>
-                                 <dd>
-                                    <a href="{{ data.metadata.repositoryurl }}">{{ data.metadata.repositoryurl }}</a>
-                                 </dd>
-                                 <dt>Changelog</dt>
-                                 <dd>
-                                    <a href="{{ data.metadata.changelogurl }}">{{ data.metadata.changelogurl }}</a>
-                                 </dd>
-                                 <dt>Opmerkingen en feedback</dt>
-                                 <dd>
-                                    <a href="{{ data.metadata.feedbackurl }}">{{ data.metadata.feedbackurl }}</a>
-                                 </dd>
-                                 <dt>Standaardenregister</dt>
-                                 <dd>
-                                    <a href="{{ data.metadata.standaardregisterurl }}">{{ data.metadata.standaardregisterurl }}</a>
-                                 </dd>
-                                 {% if data.metadata.dependencies %}
-                                    <dt>Afhankelijkheden</dt>
-                                    <dd>
-                                       {% for dep in metadata.dependencies %}
-                                          <a href="{{ dep.packageurl }}">{{ dep.packagelabel }}</a>
-                                       {% endfor %}
-                                    </dd>
-                                 {% endif %}
-                              </dl>
+                                <dl>
+                                   <dt>Brondata</dt>
+                                   <dd>
+                                      <a href="{{ data.metadata.repositoryurl }}">{{ data.metadata.repositoryurl }}</a>
+                                   </dd>
+                                   <dt>Changelog</dt>
+                                   <dd>
+                                      <a href="{{ data.metadata.changelogurl }}">{{ data.metadata.changelogurl }}</a>
+                                   </dd>
+                                   <dt>Opmerkingen en feedback</dt>
+                                   <dd>
+                                      <a href="{{ data.metadata.feedbackurl }}">{{ data.metadata.feedbackurl }}</a>
+                                   </dd>
+                                   <dt>Standaardenregister</dt>
+                                   <dd>
+                                      <a href="{{ data.metadata.standaardregisterurl }}">{{ data.metadata.standaardregisterurl }}</a>
+                                   </dd>
+                                   {% if data.metadata.dependencies %}
+                                      <dt>Afhankelijkheden</dt>
+                                      <dd>
+                                         {% for dep in metadata.dependencies %}
+                                            <a href="{{ dep.packageurl }}">{{ dep.packagelabel }}</a>
+                                         {% endfor %}
+                                      </dd>
+                                   {% endif %}
+                                </dl>
                            </div>
+                           {% endblock %}
                         </div>
                      </div>
                   </div>
@@ -187,12 +189,14 @@
                      <div class="vl-region" id="introduction">
                         <div class="vl-introduction vl-typography">
                            {% block introduction %}
-                           <p>
-                              Dit document beschrijft een
-                              <strong>implementatiemodel</strong>, in dit geval
-                              <strong>
-                              {{ data.metadata.title }}</strong>. <!-- Een implementatiemodel is een specificatie die bestaande applicatieprofielen toepast in een specifieke implementatie. -->
-                              <!-- Daarbij wordt het gebruik van de termen toegelicht voor de interbestuurlijke uitwisseling van overheidsinformatie. -->
+                              <p>
+                                 Dit document beschrijft een
+                                 <strong>implementatiemodel</strong>, in dit geval
+                                 <strong>
+                                    {{ data.metadata.title }}</strong>. <!-- Een implementatiemodel is een specificatie die bestaande termen hergebruikt van verschillende basis-standaarden en
+                                       daar meer specificiteit aan toevoegt. -->
+                                 <!-- Daarbij wordt het gebruik van de termen toegelicht voor de interbestuurlijke uitwisseling van overheidsinformatie.
+                                 -->
                               Dit implementatiemodel beantwoordt de vraag over hoe het corresponderende domeinmodel in de praktijk kan toegepast
                               worden. Daarbij worden de beperkingen (kardinaliteit, codelijsten) toegelicht en de overeenkomstige (RDF) termen
                               opgelijst.
