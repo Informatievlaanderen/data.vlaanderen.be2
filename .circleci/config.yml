@@ -445,6 +445,24 @@ jobs:
           root: /tmp/workspace
           paths:
             - target/
+  bundle-release:
+    docker:
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - run:
+          name: Bundle ontologies and artefacts
+          command: |
+            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
+            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace bundle ${CIRCLEWKD}/config
+      - persist_to_workspace:
+          root: /tmp/workspace
+          when: always
+          paths:
+            - target
+            - report4
   expand-links:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
@@ -754,8 +772,7 @@ workflows:
       - copy-raw:
           requires:
             - checkout
-      # Make expand-links depend on ALL the jobs that produce data
-      - expand-links:
+      - bundle-release:
           requires:
             - render-context-details-4:
                 - failed
@@ -793,6 +810,9 @@ workflows:
                 - failed
                 - success
                 - canceled
+      - expand-links:
+          requires:
+            - bundle-release
       # Make create-artifact depend only on expand-links (the final consolidation step)
       - create-artifact:
           generatedRepoFingerprint: "SHA256:4z5hJXh2r+2cQVWc13onR3y+Z35PMBHKwJ52yRd/8JA"

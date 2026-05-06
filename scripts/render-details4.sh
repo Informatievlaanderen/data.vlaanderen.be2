@@ -144,6 +144,7 @@ render_report_header() {
             ["rdf"]="RDF file generation"
             ["shcl"]="SHACL file generation"
             ["swag"]="Swagger file generation"
+            ["bundle"]="Resource bundling"
             ["issu"]="Open Issues"
         )
         
@@ -156,8 +157,8 @@ render_report_header() {
         echo "</details>" >>${OVERVIEW}
         echo "" >>${OVERVIEW}
         
-        echo "| Specification | tag | uml | val | stak | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | swag | issu |" >>${OVERVIEW}
-        echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >>${OVERVIEW}
+        echo "| Specification | tag | uml | val | stak | trns | aut  | mrg | web | met | html | rspc| ctx | rdf | shcl | swag | bundle | issu |" >>${OVERVIEW}
+        echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >>${OVERVIEW}
         
     fi
 }
@@ -178,12 +179,18 @@ render_report_line() {
     URLREF=$(jq -r .urlref ${JSONI})
     echo -n "| [${FIRSTPARTLINE}/ ${SECONDPARTLINE}](${HOSTNAME}${URLREF}) <br/> [&#9883;](/report4/${LINE}) [&#9884;](${HOSTNAME}${URLREF})" >>${EXECUTIONVIEW}
     
-    REPORTS="branchtag oslo-converter-ea jsonld-validation oslo-stakeholders-converter translate autotranslate merge generator-webuniversum-json metadata generator-html generator-respec generator-jsonld-context generator-rdf generator-shacl generator-swagger"
+    REPORTS="branchtag oslo-converter-ea jsonld-validation oslo-stakeholders-converter translate autotranslate merge generator-webuniversum-json metadata generator-html generator-respec generator-jsonld-context generator-rdf generator-shacl generator-swagger bundle"
     
     for REPORTFILE in ${REPORTS}; do
-        if [ -f ${RLINE}/${REPORTFILE}.report.md ]; then
-            check_tool_output_for_non_emptiness ${RLINE}/${REPORTFILE}.report.md
-            echo -n "| [${REPORTSTATE}](/report4/${LINE}/${REPORTFILE}.report.md)" >>${EXECUTIONVIEW}
+        REPORTPATH=${RLINE}/${REPORTFILE}.report.md
+        REPORTLINK=/report4/${LINE}/${REPORTFILE}.report.md
+        if [ "${REPORTFILE}" == "bundle" ] && [ ! -f "${REPORTPATH}" ] && [ -f "${RLINE}/bundle.report.md" ]; then
+            REPORTPATH=${RLINE}/bundle.report.md
+            REPORTLINK=/report4/${LINE}/bundle.report.md
+        fi
+        if [ -f ${REPORTPATH} ]; then
+            check_tool_output_for_non_emptiness ${REPORTPATH}
+            echo -n "| [${REPORTSTATE}](${REPORTLINK})" >>${EXECUTIONVIEW}
         else
             echo -n "| " >>${EXECUTIONVIEW}
         fi
@@ -219,16 +226,20 @@ render_report_line() {
     fi
     
     for REPORTFILE in ${REPORTS}; do
-        if [ -f ${RLINE}/${REPORTFILE}.report.md ]; then
+        REPORTPATH=${RLINE}/${REPORTFILE}.report.md
+        if [ "${REPORTFILE}" == "bundle" ] && [ ! -f "${REPORTPATH}" ] && [ -f "${RLINE}/bundle.report.md" ]; then
+            REPORTPATH=${RLINE}/bundle.report.md
+        fi
+        if [ -f ${REPORTPATH} ]; then
             LINK=$(basename $JSONI)
             node /app/report_lines_links.js -i ${JSONI} -o /tmp/reportlines
             REF=$(basename ${JSONI})
             sed -E "s|(urn:.*) = (.*)|s \1 [\1](${REF}#L\2) g|g " /tmp/reportlines >/tmp/markdown_report_lines
             cat /tmp/markdown_report_lines | while read line; do
-                sed -i -E "$line" ${RLINE}/${REPORTFILE}.report.md
+                sed -i -E "$line" ${REPORTPATH}
             done
             #markdown friendly
-            sed -i "s/$/\n/" ${RLINE}/${REPORTFILE}.report.md
+            sed -i "s/$/\n/" ${REPORTPATH}
         fi
     done
 }
@@ -1304,6 +1315,8 @@ render_xsd() { # SLINE TLINE JSON
 
 echo "render-details: starting with $1 $2 $3"
 
+BUNDLING_EXECUTED=false
+
 cat ${CHECKOUTFILE} | while read line; do
     SLINE=${TARGETDIR}/src/${line}
     TLINE=${TARGETDIR}/report4/${line}
@@ -1459,6 +1472,16 @@ cat ${CHECKOUTFILE} | while read line; do
                     for g in ${GOALLANGUAGE}; do
                         render_merged_files ${PRIMELANGUAGE} ${g} $i ${SLINE} ${TLINE} ${RLINE}
                     done
+                ;;
+                bundle)
+                    if [ "${BUNDLING_EXECUTED}" != "true" ]; then
+                        echo "RENDER-DETAILS: bundling resources"
+                        if ! ${PWD}/scripts/copy_resources_to_urlref.sh ${CONFIGDIR} ${TARGETDIR}/target ${TARGETDIR}; then
+                            echo "RENDER-DETAILS: bundling failed"
+                            execution_strickness
+                        fi
+                        BUNDLING_EXECUTED=true
+                    fi
                 ;;
                 report)
                     EXECUTIONVIEW=${TARGETDIR}/report4/overviewreport.md
