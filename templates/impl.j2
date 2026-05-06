@@ -146,34 +146,36 @@
                                  </dd>
                               {% endfor %}
                            </dl>
+                           {% block metainfo %}
                            <div class="head" role="metainfo" id="metainfo">
-                              <dl>
-                                 <dt>Brondata</dt>
-                                 <dd>
-                                    <a href="{{ data.metadata.repositoryurl }}">{{ data.metadata.repositoryurl }}</a>
-                                 </dd>
-                                 <dt>Changelog</dt>
-                                 <dd>
-                                    <a href="{{ data.metadata.changelogurl }}">{{ data.metadata.changelogurl }}</a>
-                                 </dd>
-                                 <dt>Opmerkingen en feedback</dt>
-                                 <dd>
-                                    <a href="{{ data.metadata.feedbackurl }}">{{ data.metadata.feedbackurl }}</a>
-                                 </dd>
-                                 <dt>Standaardenregister</dt>
-                                 <dd>
-                                    <a href="{{ data.metadata.standaardregisterurl }}">{{ data.metadata.standaardregisterurl }}</a>
-                                 </dd>
-                                 {% if data.metadata.dependencies %}
-                                    <dt>Afhankelijkheden</dt>
-                                    <dd>
-                                       {% for dep in metadata.dependencies %}
-                                          <a href="{{ dep.packageurl }}">{{ dep.packagelabel }}</a>
-                                       {% endfor %}
-                                    </dd>
-                                 {% endif %}
-                              </dl>
+                                <dl>
+                                   <dt>Brondata</dt>
+                                   <dd>
+                                      <a href="{{ data.metadata.repositoryurl }}">{{ data.metadata.repositoryurl }}</a>
+                                   </dd>
+                                   <dt>Changelog</dt>
+                                   <dd>
+                                      <a href="{{ data.metadata.changelogurl }}">{{ data.metadata.changelogurl }}</a>
+                                   </dd>
+                                   <dt>Opmerkingen en feedback</dt>
+                                   <dd>
+                                      <a href="{{ data.metadata.feedbackurl }}">{{ data.metadata.feedbackurl }}</a>
+                                   </dd>
+                                   <dt>Standaardenregister</dt>
+                                   <dd>
+                                      <a href="{{ data.metadata.standaardregisterurl }}">{{ data.metadata.standaardregisterurl }}</a>
+                                   </dd>
+                                   {% if data.metadata.dependencies %}
+                                      <dt>Afhankelijkheden</dt>
+                                      <dd>
+                                         {% for dep in metadata.dependencies %}
+                                            <a href="{{ dep.packageurl }}">{{ dep.packagelabel }}</a>
+                                         {% endfor %}
+                                      </dd>
+                                   {% endif %}
+                                </dl>
                            </div>
+                           {% endblock %}
                         </div>
                      </div>
                   </div>
