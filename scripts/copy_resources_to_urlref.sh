@@ -269,6 +269,14 @@ process_publication_file() {
             continue
         fi
         
+        # bundle=true marks a publication point as bundle-capable, but the actual
+        # bundling only runs when FORCE_BUNDLE=true is set explicitly per pipeline run.
+        # This prevents accidental re-bundling on every commit.
+        if [ "${FORCE_BUNDLE:-false}" != "true" ]; then
+            echo "Skipping bundle for $URLREF (bundle=true but FORCE_BUNDLE not set)"
+            continue
+        fi
+        
         if [ ! -d "$SOURCE_DIR" ]; then
             echo "Skipping bundle=true for missing urlref directory: $SOURCE_DIR"
             continue

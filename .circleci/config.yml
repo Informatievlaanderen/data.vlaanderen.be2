@@ -1,5 +1,11 @@
 version: 2.1
 
+parameters:
+  force_bundle:
+    type: boolean
+    default: false
+    description: "Set to true to (re)run resource bundling for all publication points with bundle=true. Must be set explicitly per pipeline run."
+
 jobs:
   checkout:
     docker:
@@ -448,6 +454,8 @@ jobs:
   bundle-release:
     docker:
       - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+    environment:
+      FORCE_BUNDLE: << pipeline.parameters.force_bundle >>
     steps:
       - checkout
       - attach_workspace:
