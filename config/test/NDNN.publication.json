@@ -6,7 +6,7 @@
     "name": "NDNN",
     "filename": "config/NDNN-ap.json",
     "navigation": {},
-    "dummy": "076",
+    "dummy": "079",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     }
