@@ -81,7 +81,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon",
     "branchtag": "release-v0.0.5",
     "name": "persoon",
-    "filename": "config/persoon-im.json",
+    "filename": "config/persoon-magda-im.json",
     "contextgenerator": {
       "parameters": "--scopedContext true --enablePolymorphism false"
     },
