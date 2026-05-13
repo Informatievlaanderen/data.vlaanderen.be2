@@ -368,6 +368,7 @@ render_metadata() {
     local TLINE=$5
     
     FILENAME=$(jq -r ".name" ${JSONI})
+    BRANCHTAG=$(jq -r '.branchtag // empty' ${JSONI})
     METAOUTPUTFILENAME=meta_${FILENAME}_${GOALLANGUAGE}.json
     mkdir -p ${TLINE}/html
     METAOUTPUT=${TLINE}/html/${METAOUTPUTFILENAME}
@@ -381,6 +382,9 @@ render_metadata() {
         execution_strickness
     else
         echo "RENDER-DETAILS: metadata file succesfully updated"
+        if [ -n "${BRANCHTAG}" ] && [ -f "${METAOUTPUT}" ]; then
+            jq --arg bt "${BRANCHTAG}" '. + {"branchtag": $bt}' "${METAOUTPUT}" > /tmp/meta_bt.json && mv /tmp/meta_bt.json "${METAOUTPUT}"
+        fi
         pretty_print_json ${METAOUTPUT}
     fi
     
