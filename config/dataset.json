@@ -533,6 +533,10 @@
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT000-Geslacht.ttl"
     },
     {
+      "urlRef": "IT000/Geslacht/v1",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT000-Geslacht.ttl"
+    },
+    {
       "urlRef": "IT001",
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT001.ttl"
     },
@@ -541,7 +545,15 @@
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT001-Dossierstatus.ttl"
     },
     {
+      "urlRef": "IT001/Dossierstatus/v1",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT001-Dossierstatus.ttl"
+    },
+    {
       "urlRef": "IT001/AdministratiefBeheerdertype",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT001-AdministratiefBeheerdertype.ttl"
+    },
+    {
+      "urlRef": "IT001/AdministratiefBeheerdertype/v1",
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT001-AdministratiefBeheerdertype.ttl"
     },
     {
@@ -553,11 +565,19 @@
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT026-RedenAfwezigheid.ttl"
     },
     {
+      "urlRef": "IT026/RedenAfwezigheid/v1",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT026-RedenAfwezigheid.ttl"
+    },
+    {
       "urlRef": "IT028",
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT028.ttl"
     },
     {
       "urlRef": "IT028/ProcedureType",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT028-ProcedureType.ttl"
+    },
+    {
+      "urlRef": "IT028/ProcedureType/v1",
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT028-ProcedureType.ttl"
     },
     {
@@ -577,11 +597,19 @@
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT110-Afstammingstype.ttl"
     },
     {
+      "urlRef": "IT110/Afstammingstype/v1",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT110-Afstammingstype.ttl"
+    },
+    {
       "urlRef": "IT114",
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT114.ttl"
     },
     {
       "urlRef": "IT114/Afstammingstype",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT114-Afstammingstype.ttl"
+    },
+    {
+      "urlRef": "IT114/Afstammingstype/v1",
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT114-Afstammingstype.ttl"
     },
     {
@@ -593,6 +621,10 @@
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT120-BurgerlijkeStaattype.ttl"
     },
     {
+      "urlRef": "IT120/BurgerlijkeStaattype/v1",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT120-BurgerlijkeStaattype.ttl"
+    },
+    {
       "urlRef": "IT141",
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT141.ttl"
     },
@@ -601,7 +633,15 @@
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT141-Gezinsrelatietype.ttl"
     },
     {
+      "urlRef": "IT141/Gezinsrelatietype/v1",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT141-Gezinsrelatietype.ttl"
+    },
+    {
       "urlRef": "IT141/Woonvorm",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT141-Woonvorm.ttl"
+    },
+    {
+      "urlRef": "IT141/Woonvorm/v1",
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT141-Woonvorm.ttl"
     },
     {
@@ -613,7 +653,15 @@
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/MAGDA-Uitzonderingen.ttl"
     },
     {
+      "urlRef": "MAGDA/Uitzondering/v1",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/MAGDA-Uitzonderingen.ttl"
+    },
+    {
       "urlRef": "MAGDA/Omstandigheid",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/MAGDA-Omstandigheden.ttl"
+    },
+    {
+      "urlRef": "MAGDA/Omstandigheid/v1",
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/MAGDA-Omstandigheden.ttl"
     },
     {
