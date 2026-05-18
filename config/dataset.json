@@ -662,7 +662,7 @@
     },
     {
       "urlRef": "MAGDA/Persoon",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/MAGDA-Persoon.ttl"
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/MAGDA.ttl"
     },
     {
       "urlRef": "TypeOfEnterprise",
