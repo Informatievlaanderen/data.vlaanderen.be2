@@ -538,7 +538,7 @@
     },
     {
       "urlRef": "IT001",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT001.ttl"
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/IT001-Dossierstatus.ttl"
     },
     {
       "urlRef": "IT001/Dossierstatus",
