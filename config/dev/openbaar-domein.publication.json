@@ -181,5 +181,16 @@
       "prev": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30"
     },
     "dummy": "2025-08-20 07:32:40"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/openbaar-domein/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "openbaar-domein-ap",
+    "filename": "config/openbaardomein.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30"
+    },
+    "dummy": "2026-05-18 11:39:00"
   }
 ]
