@@ -661,6 +661,10 @@
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/MAGDA-Omstandigheden.ttl"
     },
     {
+      "urlRef": "MAGDA/Persoon",
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.5/resources/codelijsten/MAGDA-Persoon.ttl"
+    },
+    {
       "urlRef": "TypeOfEnterprise",
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/OndernemingREST/TypeOfEnterprise.ttl"
     },
