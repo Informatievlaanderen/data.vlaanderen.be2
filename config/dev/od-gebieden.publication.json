@@ -165,5 +165,27 @@
       "prev": "/doc/vocabularium/openbaardomein/gebied/standaard/2018-11-27"
     },
     "dummy": "2025-08-20 07:32:40"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/gebieden/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "gebieden-ap",
+    "filename": "config/gebied.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/gebieden/standaard/2018-11-27"
+    },
+    "dummy": "2026-05-19 08:15:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/gebied/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "gebied",
+    "filename": "config/gebied.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/gebied/standaard/2018-11-27"
+    },
+    "dummy": "2026-05-19 08:15:00"
   }
 ]
