@@ -185,5 +185,27 @@
       "prev": "/doc/vocabularium/openbaardomein/waterdeel/erkendestandaard/2021-09-30"
     },
     "dummy": "2025-08-20 07:32:40"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/waterdelen/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "waterdelen-ap",
+    "filename": "config/waterdeel.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/waterdelen/erkendestandaard/2021-09-30"
+    },
+    "dummy": "2026-05-19 10:33:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/waterdeel/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "waterdeel",
+    "filename": "config/waterdeel.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/waterdeel/erkendestandaard/2021-09-30"
+    },
+    "dummy": "2026-05-19 10:33:00"
   }
 ]
