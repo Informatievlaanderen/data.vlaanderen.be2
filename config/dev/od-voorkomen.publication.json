@@ -559,5 +559,27 @@
     },
     "dummy": "2025-09-19 11:23:00",
     "disabled": true
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/watervoorkomen/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "watervoorkomen",
+    "filename": "config/voorkomen.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/watervoorkomen/erkendestandaard/2021-09-30"
+    },
+    "dummy": "026-05-19 10:44:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/watervoorkomen/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "watervoorkomen",
+    "filename": "config/voorkomen.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/watervoorkomen/erkendestandaard/2021-09-30"
+    },
+    "dummy": "026-05-19 10:44:00"
   }
 ]
