@@ -22,14 +22,14 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/leermiddelen",
-    "seealso": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-02-24",
+    "seealso": "/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-08-20",
     "type": "ap",
-    "dummy": "037"
+    "dummy": "040"
   },
   {
     "urlref": "/doc/applicatieprofiel/leermiddelen/erkendestandaard/2025-08-20",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen",
-    "branchtag": "erkend_2025-08-20_v0.2.5",
+    "branchtag": "erkend_2025-08-20_v0.2.6",
     "name": "leermiddelen",
     "filename": "config/leermiddelen-ap.json",
     "directory": "/doc/applicatieprofiel/leermiddelen/erkendestandaard/2025-08-20",
