@@ -12,10 +12,20 @@
     "dummy": "023"
   },
   {
+    "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/erkendestandaard/2025-05-14",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-EnergieManagementSystem",
+    "name": "energiemanagementsysteem",
+    "branchtag": "erkend_2025-09-30_v0.2",
+    "filename": "config/energiemanagementsysteem-ap.json",
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "024"
+  },
+  {
     "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
-    "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14",
+    "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/erkendestandaard/2025-05-14",
     "type": "ap",
-    "disabled": true,
-    "dummy": "023"
+    "dummy": "024"
   }
 ]
