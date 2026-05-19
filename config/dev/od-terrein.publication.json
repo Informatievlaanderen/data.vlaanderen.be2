@@ -352,5 +352,27 @@
       "prev": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30"
     },
     "dummy": "2025-08-20 07:32:40"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/terreindelen/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "terreindelen-ap",
+    "filename": "config/terrein.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30"
+    },
+    "dummy": "2026-05-19 09:30:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/terreindeel/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "terreindeel",
+    "filename": "config/terrein.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30"
+    },
+    "dummy": "2026-05-19 09:30:00"
   }
 ]
