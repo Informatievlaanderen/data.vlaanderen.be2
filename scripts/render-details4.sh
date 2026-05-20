@@ -1321,6 +1321,17 @@ echo "render-details: starting with $1 $2 $3"
 
 BUNDLING_EXECUTED=false
 
+# The bundle step runs outside the cat|while subshell so that a non-zero exit
+# code from copy_resources_to_urlref.sh propagates correctly and stops the CI pipeline.
+if [ "${DETAILS}" == "bundle" ]; then
+    echo "RENDER-DETAILS: bundling resources"
+    if ! ${PWD}/scripts/copy_resources_to_urlref.sh ${CONFIGDIR} ${TARGETDIR}/target ${TARGETDIR}; then
+        echo "RENDER-DETAILS: bundling failed"
+        exit 1
+    fi
+    exit 0
+fi
+
 cat ${CHECKOUTFILE} | while read line; do
     SLINE=${TARGETDIR}/src/${line}
     TLINE=${TARGETDIR}/report4/${line}

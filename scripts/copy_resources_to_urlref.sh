@@ -114,8 +114,8 @@ fetch_external_jsonld() {
             return
         fi
         
-        # Preserve common namespace roots like .../ns unchanged.
-        if [[ "$base_url" == */ns ]]; then
+        # Preserve common namespace roots like .../ns and paths directly under them unchanged.
+        if [[ "$base_url" == */ns || "$base_url" == */ns/* ]]; then
             echo "$base_url"
             return
         fi
@@ -242,10 +242,12 @@ write_bundle_report() {
     } > "$report_file"
 }
 
+BUNDLE_FAILED=false
+
 process_publication_file() {
     local pubfile=$1
     
-    jq -c 'if type == "array" then .[] else . end | select(.urlref)' "$pubfile" | while IFS= read -r pubpoint; do
+    while IFS= read -r pubpoint; do
         URLREF=$(echo "$pubpoint" | jq -r '.urlref')
         COPY_RESOURCES=$(echo "$pubpoint" | jq -r '(.bundle // false)')
         BUNDLE_DIRECTORY=$(echo "$pubpoint" | jq -r '(.bundleDirectory // "")')
@@ -303,15 +305,24 @@ process_publication_file() {
             copied_any=true
         fi
         
+        # Fail the bundle if any external resource could not be fetched (neither RDF nor HTML).
+        FAILED_FETCH_CACHE="$RESOURCES_DIR/ontologies/.failed_external_sources"
+        if [ -f "$FAILED_FETCH_CACHE" ] && [ -s "$FAILED_FETCH_CACHE" ]; then
+            echo "ERROR: failed to fetch the following external sources for $URLREF:"
+            cat "$FAILED_FETCH_CACHE"
+            BUNDLE_FAILED=true
+        fi
+        
         if [ "$copied_any" = "true" ]; then
             echo "Copied resources for $URLREF -> $RESOURCES_DIR"
         else
-            echo "bundle=true but no artefact directories found for $URLREF"
+            echo "ERROR: bundle=true but no artefact directories found for $URLREF"
             rm -rf "$RESOURCES_DIR"
+            BUNDLE_FAILED=true
         fi
         
         write_bundle_report "$URLREF" "$copied_any" "$RESOURCES_DIR"
-    done
+    done < <(jq -c 'if type == "array" then .[] else . end | select(.urlref)' "$pubfile")
 }
 
 process_checkout_dir() {
@@ -348,4 +359,9 @@ else
             process_publication_file "$f"
         done
     done
+fi
+
+if [ "$BUNDLE_FAILED" = "true" ]; then
+    echo "ERROR: bundling failed — one or more resources could not be fetched or copied"
+    exit 1
 fi
