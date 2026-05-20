@@ -540,7 +540,7 @@
   {
     "urlref": "/doc/vocabularium/mobiliteit/erkendestandaard/2025-12-11",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten",
-    "branchtag": "master",
+    "branchtag": "erkend-2025-v1",
     "name": "mobiliteit",
     "filename": "config/mobiliteit.json",
     "navigation": {
