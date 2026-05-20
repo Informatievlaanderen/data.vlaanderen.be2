@@ -1,10 +1,10 @@
 [
   {
-    "urlref": "/doc/implementatiemodel/nudgingdownnightnoise/ontwerpstandaard/2026-04-14",
+    "urlref": "/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-NDNN",
     "branchtag": "main",
-    "name": "NDNN",
-    "filename": "config/NDNN-ap.json",
+    "name": "geluidsmeldingen-en-geluidsmetingen",
+    "filename": "config/NDNN-impl.json",
     "navigation": {},
     "dummy": "079",
     "contextgenerator": {
