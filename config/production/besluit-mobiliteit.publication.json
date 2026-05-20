@@ -73,7 +73,7 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/besluit-mobiliteit",
-    "seealso": "/doc/applicatieprofiel/besluit-mobiliteit/kandidaat-standaard/2020-07-25",
+    "seealso": "/doc/applicatieprofiel/besluit-mobiliteit/erkendestandaard/2025-12-11",
     "type": "ap"
   },
   {
@@ -90,7 +90,7 @@
   {
     "urlref": "/doc/applicatieprofiel/besluit-mobiliteit/erkendestandaard/2025-12-11",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/",
-    "branchtag": "erkend-2025",
+    "branchtag": "erkend-2025-v1",
     "name": "besluit-mobiliteit",
     "filename": "config/besluit-mobiliteit-ap.json",
     "navigation": {
