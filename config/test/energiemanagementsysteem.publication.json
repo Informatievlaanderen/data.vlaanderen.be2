@@ -17,6 +17,7 @@
     "name": "energiemanagementsysteem",
     "branchtag": "erkend_2025-09-30_v0.2",
     "filename": "config/energiemanagementsysteem-ap.json",
+    "disabled": true,
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
@@ -24,8 +25,8 @@
   },
   {
     "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
-    "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/erkendestandaard/2025-05-14",
+    "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14",
     "type": "ap",
-    "dummy": "024"
+    "dummy": "025"
   }
 ]
