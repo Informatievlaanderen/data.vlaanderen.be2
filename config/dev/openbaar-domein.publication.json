@@ -186,8 +186,8 @@
     "urlref": "/doc/applicatieprofiel/openbaar-domein/ontwerpstandaard/pieter",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "feature/toolchain-compatibility",
-    "name": "openbaar-domein-ap",
-    "filename": "config/openbaardomein.json",
+    "name": "openbaardomein",
+    "filename": "config/openbaardomein-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30"
     },
@@ -198,7 +198,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "feature/toolchain-compatibility",
     "name": "openbaardomein",
-    "filename": "config/openbaardomein.json",
+    "filename": "config/openbaardomein-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/erkendestandaard/2021-09-30"
     },

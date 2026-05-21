@@ -170,8 +170,8 @@
     "urlref": "/doc/applicatieprofiel/gebieden/ontwerpstandaard/pieter",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "feature/toolchain-compatibility",
-    "name": "gebieden-ap",
-    "filename": "config/gebied.json",
+    "name": "gebied",
+    "filename": "config/gebied-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/gebieden/standaard/2018-11-27"
     },
@@ -182,7 +182,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "feature/toolchain-compatibility",
     "name": "gebied",
-    "filename": "config/gebied.json",
+    "filename": "config/gebied-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/gebied/standaard/2018-11-27"
     },

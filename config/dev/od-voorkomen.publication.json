@@ -565,7 +565,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "feature/toolchain-compatibility",
     "name": "watervoorkomen",
-    "filename": "config/voorkomen.json",
+    "filename": "config/voorkomen-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/watervoorkomen/erkendestandaard/2021-09-30"
     },

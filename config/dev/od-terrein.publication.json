@@ -357,8 +357,8 @@
     "urlref": "/doc/applicatieprofiel/terreindelen/ontwerpstandaard/pieter",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "feature/toolchain-compatibility",
-    "name": "terreindelen-ap",
-    "filename": "config/terrein.json",
+    "name": "terrein",
+    "filename": "config/terrein-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30"
     },
@@ -368,8 +368,8 @@
     "urlref": "/doc/vocabularium/openbaardomein/terreindeel/ontwerpstandaard/pieter",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "feature/toolchain-compatibility",
-    "name": "terreindeel",
-    "filename": "config/terrein.json",
+    "name": "terrein",
+    "filename": "config/terrein-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/terreindeel/erkendestandaard/2021-09-30"
     },

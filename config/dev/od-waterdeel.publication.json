@@ -190,8 +190,8 @@
     "urlref": "/doc/applicatieprofiel/waterdelen/ontwerpstandaard/pieter",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "feature/toolchain-compatibility",
-    "name": "waterdelen-ap",
-    "filename": "config/waterdeel.json",
+    "name": "waterdeel",
+    "filename": "config/waterdeel-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/waterdelen/erkendestandaard/2021-09-30"
     },
@@ -202,7 +202,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "feature/toolchain-compatibility",
     "name": "waterdeel",
-    "filename": "config/waterdeel.json",
+    "filename": "config/waterdeel-voc.json",
     "navigation": {
       "prev": "/doc/vocabularium/openbaardomein/waterdeel/erkendestandaard/2021-09-30"
     },
