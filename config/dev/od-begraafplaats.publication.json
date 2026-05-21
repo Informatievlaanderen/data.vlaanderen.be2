@@ -249,5 +249,38 @@
       "prev": "/doc/vocabularium/openbaardomein/begraafplaats/standaard/2018-11-27"
     },
     "dummy": "2025-08-20 07:32:40"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/begraafplaats/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "begraafplaatsen",
+    "filename": "config/begraafplaats-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/begraafplaats/standaard/2018-11-27"
+    },
+    "dummy": "2026-05-21 13:06:00"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/begraafplaatsenbeheer/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "begraafplaatsenbeheer",
+    "filename": "config/begraafplaats-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/begraafplaatsenbeheer/standaard/2018-11-27"
+    },
+    "dummy": "2026-05-21 13:06:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/begraafplaats/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "begraafplaats",
+    "filename": "config/begraafplaats-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/begraafplaats/standaard/2018-11-27"
+    },
+    "dummy": "2026-05-21 13:06:00"
   }
 ]
