@@ -254,7 +254,7 @@
     "urlref": "/doc/applicatieprofiel/begraafplaats/ontwerpstandaard/pieter",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
     "branchtag": "feature/toolchain-compatibility",
-    "name": "begraafplaatsen",
+    "name": "begraafplaats",
     "filename": "config/begraafplaats-ap.json",
     "navigation": {
       "prev": "/doc/applicatieprofiel/begraafplaats/standaard/2018-11-27"
