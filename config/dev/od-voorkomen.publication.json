@@ -581,5 +581,49 @@
       "prev": "/doc/vocabularium/openbaardomein/watervoorkomen/erkendestandaard/2021-09-30"
     },
     "dummy": "2026-05-21 10:30:00"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/begroeid-voorkomen/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "begroeidvoorkomen",
+    "filename": "config/voorkomen-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/begroeid-voorkomen/erkendestandaard/2021-09-30"
+    },
+    "dummy": "2026-05-21 11:02:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/begroeidvoorkomen/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "begroeidvoorkomen",
+    "filename": "config/voorkomen-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/begroeidvoorkomen/erkendestandaard/2021-09-30"
+    },
+    "dummy": "2026-05-21 11:02:00"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/onbegroeid-voorkomen/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "onbegroeidvoorkomen",
+    "filename": "config/voorkomen-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/onbegroeid-voorkomen/erkendestandaard/2021-09-30"
+    },
+    "dummy": "2026-05-21 11:02:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "onbegroeidvoorkomen",
+    "filename": "config/voorkomen-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/erkendestandaard/2021-09-30"
+    },
+    "dummy": "2026-05-21 11:02:00"
   }
 ]
