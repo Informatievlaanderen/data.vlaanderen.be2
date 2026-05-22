@@ -717,6 +717,14 @@
       "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Rechtstoestandtype.ttl"
     },
     {
+      "urlRef": "Rechtsvormtype",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Rechtsvormtype.ttl"
+    },
+    {
+      "urlRef": "Rechtsvormtype/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Rechtsvormtype.ttl"
+    },
+    {
       "urlRef": "OrganisatieStatus",
       "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/OrganisatieStatus.ttl"
     },
