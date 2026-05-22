@@ -1,0 +1,22 @@
+[
+  {
+    "urlref": "/doc/applicatieprofiel/hydrants/ontwerpstandaard/2026-05-22",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-test/",
+    "name": "Hydrants",
+    "branchtag": "main",
+    "filename": "config/hydranten-ap.json",
+    "navigation": {
+      "next": "/"
+    },
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    }, 
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/hydrants",
+    "seealso": "/doc/applicatieprofiel/hydrants/ontwerpstandaard/2026-05-22",
+    "type": "ap",
+    "dummy": "001"
+  }
+]
