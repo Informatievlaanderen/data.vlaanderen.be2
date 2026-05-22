@@ -4,7 +4,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-test/",
     "name": "Hydrants",
     "branchtag": "main",
-    "filename": "config/hydranten-ap.json",
+    "filename": "config/Hydranten-ap.json",
     "navigation": {
       "next": "/"
     },
