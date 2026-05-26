@@ -39,12 +39,12 @@
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "50"
+    "dummy": "51"
   },
   {
     "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse",
     "seealso": "/doc/applicatieprofiel/thermografische-gebouwanalyse/erkendestandaard/2026-04-01",
     "type": "ap",
-    "dummy": "50"
+    "dummy": "51"
   }
 ]
