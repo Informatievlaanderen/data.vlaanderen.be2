@@ -30,7 +30,7 @@
     "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse/erkendestandaard/2026-04-01",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-thermAI",
     "name": "thermografische-gebouwanalyse",
-    "branchtag": "main",
+    "branchtag": "erkend_2025-12-11_v1.0.2",
     "filename": "config/ThermAI-ap.json",
     "navigation": {},
     "contextgenerator": {
