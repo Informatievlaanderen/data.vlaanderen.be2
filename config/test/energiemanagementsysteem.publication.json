@@ -8,7 +8,8 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "026"
+    "dummy": "026",
+    "disabled": true
   },
   {
     "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/erkendestandaard/2025-05-14",
@@ -19,12 +20,14 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "026"
+    "dummy": "026",
+    "disabled": true
   },
   {
     "urlref": "/doc/applicatieprofiel/energiemanagementsysteem",
     "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14",
     "type": "ap",
-    "dummy": "026"
+    "dummy": "026",
+    "disabled": true
   }
 ]
