@@ -5,19 +5,38 @@
     "name": "thermografische-gebouwanalyse",
     "branchtag": "kandidaat_2025-07-16_v0.1.8",
     "filename": "config/ThermAI-ap.json",
-    "navigation": {},
+    "navigation": {
+      "next": "/doc/applicatieprofiel/thermografische-gebouwanalyse/erkendestandaard/2026-04-01"
+    },
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "31"
+    "dummy": "54"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse/erkendestandaard/2026-04-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-thermAI",
+    "name": "thermografische-gebouwanalyse",
+    "branchtag": "erkend_2025-12-11_v1.0.2",
+    "filename": "config/ThermAI-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/thermografische-gebouwanalyse/kandidaatstandaard/2025-05-22"
+    },
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "shaclgenerator": {
+      "parameters": ""
+    },
+    "dummy": "54"
   },
   {
     "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse",
-    "seealso": "/doc/applicatieprofiel/thermografische-gebouwanalyse/kandidaatstandaard/2025-05-22",
+    "seealso": "/doc/applicatieprofiel/thermografische-gebouwanalyse/erkendestandaard/2026-04-01",
     "type": "ap",
-    "dummy": "31"
+    "dummy": "54"
   }
 ]
