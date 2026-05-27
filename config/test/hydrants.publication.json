@@ -10,13 +10,19 @@
     },
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
-    }, 
-    "dummy": "013"
+    },
+    "htmlgenerator": {
+      "parameters": "--language en"
+    },
+    "webuniversumgenerator": {
+      "parameters": "--language en"
+    },
+    "dummy": "014"
   },
   {
     "urlref": "/doc/applicatieprofiel/hydrants",
     "seealso": "/doc/applicatieprofiel/hydrants/ontwerpstandaard/2026-05-22",
     "type": "ap",
-    "dummy": "013"
+    "dummy": "014"
   }
 ]
