@@ -5,16 +5,16 @@
     "name": "thermografische-gebouwanalyse",
     "branchtag": "kandidaat_2025-07-16_v0.1.8",
     "filename": "config/ThermAI-ap.json",
-    "navigation": {
-      "next": "/doc/applicatieprofiel/thermografische-gebouwanalyse/erkendestandaard/2026-04-01"
-    },
+    "navigation": {    },
+
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "54"
+    "dummy": "54",
+    "disabled": true
   },
   {
     "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse/erkendestandaard/2026-04-01",
