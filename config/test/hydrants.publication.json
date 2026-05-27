@@ -11,12 +11,12 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     }, 
-    "dummy": "005"
+    "dummy": "006"
   },
   {
     "urlref": "/doc/applicatieprofiel/hydrants",
     "seealso": "/doc/applicatieprofiel/hydrants/ontwerpstandaard/2026-05-22",
     "type": "ap",
-    "dummy": "005"
+    "dummy": "006"
   }
 ]
