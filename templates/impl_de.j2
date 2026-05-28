@@ -578,6 +578,17 @@
                               </p>
                            {% endblock %}
                         </div>
+                        <div class="vl-region vl-region--no-space-top" id="swagger">
+                           <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">OpenAPI-Komponenten</h2>
+                           (nicht normativ)
+                           {% block swagger %}
+                              <p>Diese Datei enthält die wiederverwendbaren OpenAPI-Komponenten basierend auf den Klassen und Eigenschaften dieses Implementierungsmodells:</p>
+                              <p>
+                                 <a href="{{ data.metadata.documentroot }}/swagger/components.json" target="_blank">
+                                    {{ data.metadata.documentroot }}/swagger/components.json</a>
+                              </p>
+                           {% endblock %}
+                        </div>
                         <div class="vl-region vl-region.vl-region--no-space-top" id="mappingext">
                            <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">verwendete (externe) Terminologie</h2>
                            <p>Dieser Abschnitt bietet einen Überblick darüber, wie die Vokabularterminologie in diesem Anwendungsprofil verwendet
@@ -707,6 +718,9 @@
                                     </li>
                                     <li class="vl-side-navigation__item">
                                        <a href="#shacl">SHACL-Vorlage</a>
+                                    </li>
+                                    <li class="vl-side-navigation__item">
+                                       <a href="#swagger">OpenAPI-Komponenten</a>
                                     </li>
                                     <li class="vl-side-navigation__item">
                                        <a href="#mappingext">Externe Terminologie</a>

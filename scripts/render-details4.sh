@@ -1090,8 +1090,6 @@ render_swagger() {
     local PRIMELANGUAGE=${7-false}
     
     FILENAME=$(jq -r ".name" ${JSONI})
-    OUTFILE=${FILENAME}.yaml
-    OUTFILELANGUAGE=${FILENAME}_${GOALLANGUAGE}.yaml
     
     MERGEDFILENAME=merged_${FILENAME}_${GOALLANGUAGE}.jsonld
     MERGEDFILE=${SLINE}/merged/${MERGEDFILENAME}
@@ -1128,12 +1126,9 @@ render_swagger() {
         ;;
     esac
     
-    OUTPUT=${TLINE}/swagger/${OUTFILELANGUAGE}
-    
     generator_parameters swaggergenerator ${JSONI}
     
     if [ ${SPECTYPE} == "ApplicationProfile" ]; then
-        mkdir -p ${TLINE}/swagger
         
         # Construct the context URL dynamically
         CONTEXT_URL="${HOSTNAME}/${DROOT}/context/${FILENAME}.jsonld"
@@ -1143,7 +1138,7 @@ render_swagger() {
         oslo-generator-swagger \
         --input ${MERGEDFILE} \
         --language ${GOALLANGUAGE} \
-        --output ${OUTPUT} \
+        --output ${TLINE} \
         --versionAPI 1.0.0 \
         --versionSwagger 3.0.4 \
         --title "OpenAPI Swagger publication" \
@@ -1158,17 +1153,12 @@ render_swagger() {
             cat ${REPORTFILE}
             execution_strickness
         fi
-        if [ -f ${OUTPUT} ]; then
+        if [ -f ${TLINE} ]; then
             echo "RENDER-DETAILs: success"
         else
             echo "RENDER-DETAILS: failed"
             cat ${REPORTFILE}
             execution_strickness
-        fi
-        
-        prettyprint_jsonld ${TLINE}/swagger/${OUTFILELANGUAGE}
-        if [ ${PRIMELANGUAGE} == true ]; then
-            cp ${TLINE}/swagger/${OUTFILELANGUAGE} ${TLINE}/swagger/${OUTFILE}
         fi
     fi
 }
