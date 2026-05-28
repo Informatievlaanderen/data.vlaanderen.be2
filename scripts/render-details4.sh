@@ -809,7 +809,7 @@ render_nunjunks_html() { # SLINE TLINE JSON
     
     echo "${REPORTLINEPREFIX}oslo-generator-html for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-    oslo-generator-html \
+    eval oslo-generator-html \
     --input ${INT_OUTPUT} \
     --output ${OUTPUT} \
     --stakeholders ${STAKEHOLDERS} \
@@ -905,7 +905,7 @@ render_respec_html() { # SLINE TLINE JSON
     
     echo "${REPORTLINEPREFIX}oslo-generator-respec for language ${LANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-    oslo-generator-respec \
+    eval oslo-generator-respec \
     --input ${MERGEDFILE} \
     --output ${OUTPUT} \
     --specificationType ${SPECTYPE} \
@@ -1135,7 +1135,7 @@ render_swagger() {
         
         echo "${REPORTLINEPREFIX} oslo-generator-swagger for language ${GOALLANGUAGE}${REPORTLINENEWLINE}" &>>${REPORTFILE}
         echo "${REPORTLINEPREFIX} -------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
-        oslo-generator-swagger \
+        eval oslo-generator-swagger \
         --input ${MERGEDFILE} \
         --language ${GOALLANGUAGE} \
         --output ${TLINE} \
