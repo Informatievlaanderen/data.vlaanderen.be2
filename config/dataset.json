@@ -565,6 +565,10 @@
       "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.0/resources/codelijsten/IT020-DomicilieStatus.ttl"
     },
     {
+      "urlRef": "IT020/DomicilieStatus/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.0/resources/codelijsten/IT020-DomicilieStatus.ttl"
+    },
+    {
       "urlRef": "IT026",
       "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.0/resources/codelijsten/IT026.ttl"
     },
