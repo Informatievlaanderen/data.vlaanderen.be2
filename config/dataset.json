@@ -525,40 +525,160 @@
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/organisatiestatus/organisatiestatus.ttl"
     },
     {
-      "urlRef": "IT001/Dossierstatus",
-      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT001-Dossierstatus.ttl"
+      "urlRef": "IT000",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT000.ttl"
     },
     {
-      "urlRef": "IT002/Rechtvaardigheid",
-      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT002-Rechtvaardigheid.ttl"
+      "urlRef": "IT000/Geslacht",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT000-Geslacht.ttl"
+    },
+    {
+      "urlRef": "IT000/Geslacht/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT000-Geslacht.ttl"
+    },
+    {
+      "urlRef": "IT001",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT001.ttl"
+    },
+    {
+      "urlRef": "IT001/Dossierstatus",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT001-Dossierstatus.ttl"
+    },
+    {
+      "urlRef": "IT001/Dossierstatus/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT001-Dossierstatus.ttl"
+    },
+    {
+      "urlRef": "IT001/AdministratiefBeheerdertype",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT001-AdministratiefBeheerdertype.ttl"
+    },
+    {
+      "urlRef": "IT001/AdministratiefBeheerdertype/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT001-AdministratiefBeheerdertype.ttl"
+    },
+    {
+      "urlRef": "IT020",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT020.ttl"
+    },
+    {
+      "urlRef": "IT020/DomicilieStatus",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT020-DomicilieStatus.ttl"
+    },
+    {
+      "urlRef": "IT020/DomicilieStatus/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT020-DomicilieStatus.ttl"
+    },
+    {
+      "urlRef": "IT026",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT026.ttl"
+    },
+    {
+      "urlRef": "IT026/RedenAfwezigheid",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT026-RedenAfwezigheid.ttl"
+    },
+    {
+      "urlRef": "IT026/RedenAfwezigheid/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT026-RedenAfwezigheid.ttl"
+    },
+    {
+      "urlRef": "IT028",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT028.ttl"
+    },
+    {
+      "urlRef": "IT028/ProcedureType",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT028-ProcedureType.ttl"
+    },
+    {
+      "urlRef": "IT028/ProcedureType/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT028-ProcedureType.ttl"
+    },
+    {
+      "urlRef": "IT110-IT114",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT110-IT114.ttl"
+    },
+    {
+      "urlRef": "IT110",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT110.ttl"
     },
     {
       "urlRef": "IT110/Afstammingstype",
-      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT110-Afstammingstype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT110-Afstammingstype.ttl"
+    },
+    {
+      "urlRef": "IT110/Afstammingstype/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT110-Afstammingstype.ttl"
+    },
+    {
+      "urlRef": "IT114",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT114.ttl"
+    },
+    {
+      "urlRef": "IT114/Afstammingstype",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT114-Afstammingstype.ttl"
+    },
+    {
+      "urlRef": "IT114/Afstammingstype/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT114-Afstammingstype.ttl"
+    },
+    {
+      "urlRef": "IT120",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT120.ttl"
     },
     {
       "urlRef": "IT120/BurgerlijkeStaattype",
-      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT120-BurgerlijkeStaattype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT120-BurgerlijkeStaattype.ttl"
+    },
+    {
+      "urlRef": "IT120/BurgerlijkeStaattype/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT120-BurgerlijkeStaattype.ttl"
+    },
+    {
+      "urlRef": "IT141",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT141.ttl"
     },
     {
       "urlRef": "IT141/Gezinsrelatietype",
-      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT141-Gezinsrelatietype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT141-Gezinsrelatietype.ttl"
+    },
+    {
+      "urlRef": "IT141/Gezinsrelatietype/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT141-Gezinsrelatietype.ttl"
     },
     {
       "urlRef": "IT141/Woonvorm",
-      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/IT141-Woonvorm.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT141-Woonvorm.ttl"
+    },
+    {
+      "urlRef": "IT141/Woonvorm/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT141-Woonvorm.ttl"
     },
     {
       "urlRef": "MAGDA",
-      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/MAGDA.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/MAGDA.ttl"
     },
     {
       "urlRef": "MAGDA/Uitzondering",
-      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/MAGDA-Uitzonderingen.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/MAGDA-Uitzonderingen.ttl"
+    },
+    {
+      "urlRef": "MAGDA/Uitzondering/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/MAGDA-Uitzonderingen.ttl"
     },
     {
       "urlRef": "MAGDA/Omstandigheid",
-      "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/PersoonREST/MAGDA-Omstandigheden.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/MAGDA-Omstandigheden.ttl"
+    },
+    {
+      "urlRef": "MAGDA/Omstandigheid/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/MAGDA-Omstandigheden.ttl"
+    },
+    {
+      "urlRef": "MAGDA/Persoon",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/MAGDA-Persoon.ttl"
+    },
+    {
+      "urlRef": "MAGDA/Persoon/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/MAGDA-Persoon.ttl"
     },
     {
       "urlRef": "TypeOfEnterprise",
@@ -581,11 +701,75 @@
       "sourceUrl": "https://github.com/Informatievlaanderen/codelijsten/raw/master/MAGDA/OndernemingREST/JuridicalSituation.ttl"
     },
     {
-      "urlRef": "Rooilijntype",
-      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/rooilijnplannen-main/all.ttl"
+      "urlRef": "Activiteitstype",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Activiteitstype.ttl"
     },
     {
-      "urlRef": "Rooilijntype/0.0.1",
+      "urlRef": "Activiteitstype/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Activiteitstype.ttl"
+    },
+    {
+      "urlRef": "Rechtspersoonlijkheidtype",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Rechtspersoonlijkheidtype.ttl"
+    },
+    {
+      "urlRef": "Rechtspersoonlijkheidtype/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Rechtspersoonlijkheidtype.ttl"
+    },
+    {
+      "urlRef": "Rechtstoestandtype/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Rechtstoestandtype.ttl"
+    },
+    {
+      "urlRef": "Rechtstoestandtype",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Rechtstoestandtype.ttl"
+    },
+    {
+      "urlRef": "Rechtstoestandtype/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Rechtstoestandtype.ttl"
+    },
+    {
+      "urlRef": "Rechtsvormtype",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Rechtsvormtype.ttl"
+    },
+    {
+      "urlRef": "Rechtsvormtype/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Rechtsvormtype.ttl"
+    },
+    {
+      "urlRef": "OrganisatieStatus",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/OrganisatieStatus.ttl"
+    },
+    {
+      "urlRef": "OrganisatieStatus/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/OrganisatieStatus.ttl"
+    },
+    {
+      "urlRef": "StopzettingType",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/StopzettingType.ttl"
+    },
+    {
+      "urlRef": "StopzettingType/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/StopzettingType.ttl"
+    },
+    {
+      "urlRef": "RedenDoorhaling",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/RedenDoorhaling.ttl"
+    },
+    {
+      "urlRef": "RedenDoorhaling/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/RedenDoorhaling.ttl"
+    },
+    {
+      "urlRef": "Doorhalingstype",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Doorhalingstype.ttl"
+    },
+    {
+      "urlRef": "Doorhalingstype/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v0.0.7/resources/codelijsten/Doorhalingstype.ttl"
+    },
+    {
+      "urlRef": "Rooilijntype",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/rooilijnplannen-main/all.ttl"
     }
   ]
