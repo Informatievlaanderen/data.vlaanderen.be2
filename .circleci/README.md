@@ -94,7 +94,7 @@ The objective of each job is shortly described in this section.
 The jobs rely on public docker images which are either published by CircleCI or build on top of these with specific software installed.
 The two main are 
 
-  - cimg/node:20.15.0
+  - cimg/node:24.11.0
   - informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
 
 As the tools are also published on NPM, the creation of a specific dedicated version has been replaced with a installation in each step.
