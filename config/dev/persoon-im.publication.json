@@ -1,43 +1,28 @@
 [
   {
-    "urlref": "/doc/implementatiemodel/magda/persoon/v0.0.2",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon",
-    "branchtag": "master",
-    "name": "persoon",
-    "filename": "config/persoon-im.json",
-    "contextgenerator": {
-      "parameters": "--scopedContext true --enablePolymorphism false"
-    },
-    "navigation": {
-      "prev": "/doc/implementatiemodel/magda/persoon/v0.0.1",
-      "next": "/doc/implementatiemodel/magda/persoon"
-    },
-    "dummy": "116",
-    "bundle": true,
-    "bundleDirectory": "/resources/OSLO-Persoon-IM",
+    "urlref": "/doc/implementatiemodel/magda/persoon",
+    "seealso": "/doc/implementatiemodel/magda/persoon/v0.1.1",
+    "dummy": "108",
     "disabled": false
   },
   {
-    "urlref": "/doc/implementatiemodel/magda/persoon/v0.0.3",
+    "urlref": "/doc/implementatiemodel/magda/persoon/v0.1.1",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon",
-    "branchtag": "master",
+    "branchtag": "v0.1.1",
     "name": "persoon",
-    "filename": "config/persoon-im.json",
+    "filename": "config/persoon-magda-im.json",
     "contextgenerator": {
       "parameters": "--scopedContext true --enablePolymorphism false"
     },
-    "navigation": {
-      "prev": "/doc/implementatiemodel/magda/persoon/v0.0.2"
+    "swaggergenerator": {
+      "parameters": "--title 'MAGDA geefPersoon REST' --description 'MAGDA OSLO-conforme REST API voor geefPersoon (MVP)' --versionAPI 0.1.1 --language nl"
     },
-    "dummy": "114",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/magda/persoon/v0.1.0"
+    },
     "bundle": true,
-    "bundleDirectory": "/resources/OSLO-Persoon-IM",
+    "bundleDirectory": "/resources/OSLO-Persoon-MAGDA-IM/artefacts",
+    "dummy": "108",
     "disabled": false
-  },
-  {
-    "urlref": "/doc/implementatiemodel/magda",
-    "seealso": "/doc/implementatiemodel/magda/persoon/v0.0.2",
-    "dummy": "017",
-    "type": "ap"
   }
 ]
