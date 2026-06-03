@@ -41,7 +41,7 @@ jobs:
             - raw-input/
   extract-jsonld-details-4:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0.3
     steps:
       - checkout
       - attach_workspace:
@@ -98,7 +98,7 @@ jobs:
             - report4
   render-translation-4:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0.3
     parameters:
       generatedRepoFingerprint:
         type: string
@@ -187,7 +187,7 @@ jobs:
             - target
   validate-jsonld-4:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0.3
     steps:
       - checkout
       - attach_workspace:
@@ -252,7 +252,7 @@ jobs:
             - target
   render-rdf-details-4:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0.3
     steps:
       - checkout
       - attach_workspace:
@@ -282,7 +282,7 @@ jobs:
             - target
   render-shacl-details-4:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0.3
     steps:
       - checkout
       - attach_workspace:
@@ -447,7 +447,7 @@ jobs:
             - target/
   bundle-release:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0.3
     steps:
       - checkout
       - attach_workspace:
@@ -465,7 +465,7 @@ jobs:
             - report4
   expand-links:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0.3
     steps:
       - checkout
       - attach_workspace:

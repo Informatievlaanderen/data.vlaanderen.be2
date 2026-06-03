@@ -95,7 +95,7 @@ The jobs rely on public docker images which are either published by CircleCI or 
 The two main are 
 
   - cimg/node:20.15.0
-  - informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+  - informatievlaanderen/oslo-specification-generator:multilingual-dev4.0.3
 
 As the tools are also published on NPM, the creation of a specific dedicated version has been replaced with a installation in each step.
 In the future both images might be integrated together into one as they share the same base image.

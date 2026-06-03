@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build-stats:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0
+      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.0.3
     steps:
       - checkout
       - attach_workspace:
