@@ -5,7 +5,7 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "bodem-en-ondergrond",
     "filename": "config/OSLO-BodemEnOndergrond-AP-BodemEnOndergrond.json",
-    "dummy": "2026-06-01 13:29:00"
+    "dummy": "2026-06-03 13:29:00"
   },
   {
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/bodem-en-ondergrond/ontwerpstandaard/pieter",
@@ -13,6 +13,6 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "bodem-en-ondergrond",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-BodemEnOndergrond.json",
-    "dummy": "2026-06-01 13:29:00"
+    "dummy": "2026-06-03 13:29:00"
   }
 ]
