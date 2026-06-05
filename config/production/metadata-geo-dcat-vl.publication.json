@@ -8,7 +8,7 @@
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "branchtag": "erkend_2026_02_24v0.0.4",
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
@@ -20,7 +20,7 @@
     "original": {
       "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12/",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
-      "branchtag": "erkend_2026_02_24v0.0.3",
+      "branchtag": "erkend_2026_02_24v0.0.4",
       "name": "geodcatap-vlaanderen",
       "filename": "config/geodcatap-vlaanderen.json",
       "navigation": {
@@ -55,7 +55,7 @@
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
-    "branchtag": "erkend_2026_02_24v0.0.3",
+    "branchtag": "erkend_2026_02_24v0.0.4",
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
