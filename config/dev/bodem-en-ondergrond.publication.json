@@ -21,7 +21,7 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "sensoren-en-bemonstering",
     "filename": "config/OSLO-BodemEnOndergrond-AP-SensorenEnBemonstering.json",
-    "dummy": "2026-06-05 13:02:00"
+    "dummy": "2026-06-05 13:29:00"
   },
   {
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/sensoren-en-bemonstering/ontwerpstandaard/pieter",
@@ -29,6 +29,6 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "sensoren-en-bemonstering",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-SensorenEnBemonstering.json",
-    "dummy": "2026-06-05 13:02:00"
+    "dummy": "2026-06-05 13:29:00"
   }
 ]
