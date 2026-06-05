@@ -12,7 +12,7 @@
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
-      "prev": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
+      "prev": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/"
     },
     "examples": true,
     "type": "raw",
