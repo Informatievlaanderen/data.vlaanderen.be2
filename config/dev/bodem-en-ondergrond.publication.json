@@ -14,5 +14,21 @@
     "name": "bodem-en-ondergrond",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-BodemEnOndergrond.json",
     "dummy": "2026-06-05 10:40:00"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/sensoren-en-bemonstering/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "sensoren-en-bemonstering",
+    "filename": "config/OSLO-BodemEnOndergrond-AP-SensorenEnBemonstering.json",
+    "dummy": "2026-06-05 11:12:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/bodem-en-ondergrond/sensoren-en-bemonstering/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "sensoren-en-bemonstering",
+    "filename": "config/OSLO-BodemEnOndergrond-VOC-SensorenEnBemonstering.json",
+    "dummy": "2026-06-05 11:12:00"
   }
 ]
