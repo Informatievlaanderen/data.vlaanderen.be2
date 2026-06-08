@@ -40,7 +40,7 @@ for endpoint in "${ENDPOINTS[@]}"; do
     
     echo "Fetching: ${endpoint}"
 
-    echo "curl -L -s ${endpoint}"
+    echo "curl -L ${endpoint}"
     
     # Fetch with Accept header for JSON-LD
     if curl -L -s "${endpoint}" -o "${response_file}" 2>/dev/null; then
