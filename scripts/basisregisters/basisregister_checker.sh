@@ -43,7 +43,7 @@ for endpoint in "${ENDPOINTS[@]}"; do
     echo "curl -L ${endpoint}"
     
     # Fetch with Accept header for JSON-LD
-    if curl -L -s "${endpoint}" -o "${response_file}" 2>/dev/null; then
+    if curl -L "${endpoint}" -o "${response_file}" 2>/dev/null; then
         
         # Check if mock file exists
         if [ -f "${mock_file}" ]; then
