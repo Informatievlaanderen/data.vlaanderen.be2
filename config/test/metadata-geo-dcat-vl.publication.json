@@ -1,45 +1,31 @@
 [
   {
-    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
-    "seealso": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",
-    "type": "raw",
-    "dummy": 1,
-    "directory": "/doc/applicatieprofiel/GEODCAT-AP-VL",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
-    "original": {
-      "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
-      "seealso": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",
-      "type": "ap",
-      "dummy": 1
-    }
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",
+    "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
-      "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2022-02-03"
+      "prev": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/"
     },
     "examples": true,
     "type": "raw",
-    "directory": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",
+    "directory": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12/",
     "original": {
-      "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",
+      "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12/",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
-      "branchtag": "8e730bbeaff9231658094222c46cd417e49c0c4c",
+      "branchtag": "production",
       "name": "geodcatap-vlaanderen",
       "filename": "config/geodcatap-vlaanderen.json",
       "navigation": {
-        "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2022-02-03"
+        "prev": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/"
       },
       "examples": true
-    }
+    },
+    "disabled": true
   },
   {
-    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2022-02-03",
+    "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
     "name": "geodcatap-vlaanderen",
@@ -49,34 +35,41 @@
     },
     "examples": true,
     "type": "raw",
-    "directory": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2022-02-03",
+    "directory": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
     "original": {
-      "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2022-02-03",
+      "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
       "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
       "branchtag": "c4f62556143bf74410c6cee9de3df60273d7df18",
       "name": "geodcatap-vlaanderen",
       "filename": "config/geodcatap-vlaanderen.json",
-      "navigation": {
-        "next": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
-      },
-      "examples": true
+      "navigation": {},
+      "examples": true,
+      "disabled": true
     }
   },
   {
-    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/toolchain4",
+    "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
-    "branchtag": "master",
+    "branchtag": "production",
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
-      "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
+      "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/"
     },
-    "dummy": "9",
+    "dummy": "4",
     "eaconverter": {
       "parameters": "--allTags true"
     },
     "webuniversumgenerator": {
       "parameters": "--allTags true"
-    }
+    },
+    "disabled": true
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
+    "seealso": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
+    "type": "ap",
+    "dummy": "001",
+    "disabled": true
   }
 ]
