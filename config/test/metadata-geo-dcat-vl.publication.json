@@ -18,8 +18,7 @@
       "name": "geodcatap-vlaanderen",
       "filename": "config/geodcatap-vlaanderen.json",
       "navigation": {},
-      "examples": true,
-      "disabled": true
+      "examples": true
     }
   },
   {
@@ -37,14 +36,11 @@
     },
     "webuniversumgenerator": {
       "parameters": "--allTags true"
-    },
-    "disabled": true
   },
   {
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
     "seealso": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
     "type": "ap",
-    "dummy": "001",
-    "disabled": true
+    "dummy": "001"
   }
 ]
