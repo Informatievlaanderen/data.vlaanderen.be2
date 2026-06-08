@@ -1,11 +1,5 @@
 [
   {
-    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
-    "seealso": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12/",
-    "type": "ap",
-    "dummy": 8
-  },
-  {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12/",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -27,7 +21,8 @@
         "prev": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/"
       },
       "examples": true
-    }
+    },
+    "disabled": true
   },
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
@@ -47,9 +42,9 @@
       "branchtag": "c4f62556143bf74410c6cee9de3df60273d7df18",
       "name": "geodcatap-vlaanderen",
       "filename": "config/geodcatap-vlaanderen.json",
-      "navigation": {
-      },
-      "examples": true
+      "navigation": {},
+      "examples": true,
+      "disabled": true
     }
   },
   {
@@ -67,12 +62,14 @@
     },
     "webuniversumgenerator": {
       "parameters": "--allTags true"
-    }
+    },
+    "disabled": true
   },
   {
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
     "seealso": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
     "type": "ap",
-    "dummy": "001"
+    "dummy": "001",
+    "disabled": true
   }
 ]
