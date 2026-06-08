@@ -34,11 +34,12 @@
     "eaconverter": {
       "parameters": "--allTags true"
     },
-    "webuniversumgenerator": {
-      "parameters": "--allTags true"
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
+"webuniversumgenerator": {
+  "parameters": "--allTags true"
+}
+},
+{
+  "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
     "seealso": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
     "type": "ap",
     "dummy": "001"
