@@ -53,7 +53,7 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "interpretaties",
     "filename": "config/OSLO-BodemEnOndergrond-AP-BOInterpretaties.json",
-    "dummy": "2026-06-09 12:59:00"
+    "dummy": "2026-06-09 15:26:00"
   },
   {
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/interpretaties/ontwerpstandaard/pieter",
@@ -61,6 +61,6 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "interpretaties",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-BOInterpretaties.json",
-    "dummy": "2026-06-09 12:59:00"
+    "dummy": "2026-06-09 15:26:00"
   }
 ]
