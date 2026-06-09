@@ -37,7 +37,7 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "observaties-en-metingen",
     "filename": "config/OSLO-BodemEnOndergrond-AP-ObservatiesEnMetingen.json",
-    "dummy": "2026-06-08 16:57:00"
+    "dummy": "2026-06-09 08:09:00"
   },
   {
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/observaties-en-metingen/ontwerpstandaard/pieter",
@@ -45,6 +45,6 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "observaties-en-metingen",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-ObservatiesEnMetingen.json",
-    "dummy": "2026-06-08 16:57:00"
+    "dummy": "2026-06-09 08:09:00"
   }
 ]
