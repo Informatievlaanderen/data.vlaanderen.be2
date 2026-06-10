@@ -1153,7 +1153,7 @@ render_swagger() {
             cat ${REPORTFILE}
             execution_strickness
         fi
-        if [ -f ${TLINE} ]; then
+        if [ -d ${TLINE} ]; then
             echo "RENDER-DETAILs: success"
         else
             echo "RENDER-DETAILS: failed"
