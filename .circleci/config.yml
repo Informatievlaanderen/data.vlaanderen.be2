@@ -722,7 +722,10 @@ jobs:
             git push origin ${CIRCLE_BRANCH}
 workflows:
   version: 2
-  generate_documentation:
+  generate_documentation_non_prod:
+    when:
+      not:
+        equal: [ production, << pipeline.git.branch >> ]
     jobs:
       - checkout
       - extract-jsonld-details-4:
@@ -810,6 +813,65 @@ workflows:
                 - failed
                 - success
                 - canceled
+      - expand-links:
+          requires:
+            - bundle-release
+      # Make create-artifact depend only on expand-links (the final consolidation step)
+      - create-artifact:
+          generatedRepoFingerprint: "SHA256:4z5hJXh2r+2cQVWc13onR3y+Z35PMBHKwJ52yRd/8JA"
+          requires:
+            - expand-links
+  generate_documentation_prod:
+    when:
+      equal: [ production, << pipeline.git.branch >> ]
+    jobs:
+      - checkout
+      - extract-jsonld-details-4:
+          requires:
+            - checkout
+      - render-translation-4:
+          generatedRepoFingerprint: "$$SSHKEYFINGERPRINT"
+          requires:
+            - extract-jsonld-details-4
+      - validate-jsonld-4:
+          requires:
+            - render-translation-4
+            - extract-jsonld-details-4
+      - render-rdf-details-4:
+          requires:
+            - render-translation-4
+      - render-respec-html-details-4:
+          requires:
+            - render-translation-4
+      - render-html-details-4:
+          requires:
+            - render-translation-4
+      - render-context-details-4:
+          requires:
+            - render-translation-4
+      - render-shacl-details-4:
+          requires:
+            - render-translation-4
+      - render-swagger-4:
+          requires:
+            - render-translation-4
+      - convert-json-to-ttl:
+          requires:
+            - render-shacl-details-4
+      - copy-raw:
+          requires:
+            - checkout
+      - bundle-release:
+          requires:
+            - render-context-details-4
+            - render-rdf-details-4
+            - render-html-details-4
+            - render-respec-html-details-4
+            - validate-jsonld-4
+            - render-shacl-details-4
+            - render-swagger-4
+            - convert-json-to-ttl
+            - copy-raw
       - expand-links:
           requires:
             - bundle-release
