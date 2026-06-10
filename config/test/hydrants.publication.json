@@ -9,7 +9,7 @@
       "next": "/"
     },
     "contextgenerator": {
-      "parameters": "--addDomainPrefix true"
+      "parameters": "--addDomainPrefix true --language en"
     },
     "htmlgenerator": {
       "parameters": "--language en"
@@ -17,7 +17,13 @@
     "webuniversumgenerator": {
       "parameters": "--language en"
     },
-    "dummy": "017"
+    "shaclgenerator": {
+      "parameters": "--language en"
+    },
+    "swaggergenerator": {
+      "parameters": "--language en"
+    },
+    "dummy": "016"
   },
   {
     "urlref": "/doc/applicatieprofiel/hydrants",
