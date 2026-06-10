@@ -876,14 +876,15 @@ workflows:
           requires:
             - bundle-release
       # Make create-artifact depend only on expand-links (the final consolidation step)
-      - create-artifact:
-          generatedRepoFingerprint: "SHA256:4z5hJXh2r+2cQVWc13onR3y+Z35PMBHKwJ52yRd/8JA"
-          requires:
-            - expand-links
       - hold-for-prod:
           type: approval
           requires:
-            - create-artifact
+            - expand-links
+      - create-artifact:
+          generatedRepoFingerprint: "SHA256:4z5hJXh2r+2cQVWc13onR3y+Z35PMBHKwJ52yRd/8JA"
+          requires:
+            - hold-for-prod
+            - expand-links
   # New weekly scheduled workflow
   weekly_maintenance:
     triggers:
