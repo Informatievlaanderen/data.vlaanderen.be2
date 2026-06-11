@@ -9,7 +9,7 @@
       "next": "/"
     },
     "contextgenerator": {
-      "parameters": "--addDomainPrefix true --language en"
+      "parameters": "--addDomainPrefix true"
     },
     "htmlgenerator": {
       "parameters": "--language en"
@@ -17,18 +17,12 @@
     "webuniversumgenerator": {
       "parameters": "--language en"
     },
-    "shaclgenerator": {
-      "parameters": "--language en"
-    },
-    "swaggergenerator": {
-      "parameters": "--language en"
-    },
-    "dummy": "021"
+    "dummy": "018"
   },
   {
     "urlref": "/doc/applicatieprofiel/hydrants",
     "seealso": "/doc/applicatieprofiel/hydrants/ontwerpstandaard/2026-05-22",
     "type": "ap",
-    "dummy": "021"
+    "dummy": "016"
   }
 ]
