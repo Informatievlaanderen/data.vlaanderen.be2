@@ -1,25 +1,16 @@
 [
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
-    "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
-    "branchtag": "production",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
+    "branchtag": "015c4ba54c6cb6475ac940b48034e546a3415d33",
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
-      "next": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
+      "next": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
+      "prev": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
     },
-    "examples": true,
-    "type": "raw",
-    "directory": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
-    "original": {
-      "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
-      "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
-      "branchtag": "c4f62556143bf74410c6cee9de3df60273d7df18",
-      "name": "geodcatap-vlaanderen",
-      "filename": "config/geodcatap-vlaanderen.json",
-      "navigation": {},
-      "examples": true
-    }
+    "dummy": "004",
+    "examples": true
   },
   {
     "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
@@ -30,18 +21,18 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/"
     },
-    "dummy": "003",
+    "dummy": "004",
     "eaconverter": {
       "parameters": "--allTags true"
     },
-"webuniversumgenerator": {
-  "parameters": "--allTags true"
-}
-},
-{
-  "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
+    "webuniversumgenerator": {
+      "parameters": "--allTags true"
+    }
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
     "seealso": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
     "type": "ap",
-    "dummy": "003"
+    "dummy": "004"
   }
 ]
