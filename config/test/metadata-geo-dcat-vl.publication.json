@@ -1,6 +1,6 @@
 [
   {
-    "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
+    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
     "branchtag": "015c4ba54c6cb6475ac940b48034e546a3415d33",
     "name": "geodcatap-vlaanderen",
@@ -13,7 +13,7 @@
     "examples": true
   },
   {
-    "urlref": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
+    "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
     "branchtag": "master",
     "name": "GEODCAT-AP-VL",
