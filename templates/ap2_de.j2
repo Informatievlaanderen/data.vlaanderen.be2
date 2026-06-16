@@ -577,12 +577,11 @@
                            {% endblock %}
                         </div>
                         <div class="vl-region vl-region.vl-region--no-space-top" id="mappingext">
-                           <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">verwendete (externe) Terminologie</h2>
-                           <p>Dieser Abschnitt bietet einen Überblick darüber, wie die Vokabularterminologie in diesem Anwendungsprofil verwendet
-                              wurde.
+                           <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">Verwendete (externe) Terminologie</h2>
+                           <p>Dieser Abschnitt gibt einen Überblick darüber, wie Terminologie aus Vokabularien in diesem Modell verwendet wurde.
                            </p>
                            <p>
-                              Dieses Anwendungsprofil basiert auf Begriffen aus diesen selbstverwalteten Vokabularien:
+                              Dieses Implementierungsmodell stützt sich auf Begriffe aus diesen selbst verwalteten Vokabularen:
                               <ul>
                                  {% for ns in data.metadata.inDomainNamespaces %}
                                     <li>
@@ -591,21 +590,13 @@
                                  {% endfor %}
                               </ul>
                            </p>
-                           <p>Für Vokabularbegriffe außerhalb des Namensraums nimmt {{ data.metadata.uridomain }} die Form einer Zuordnung an: for
-                              Die in diesem Abschnitt aufgeführten Begriffe wurden so ausgewählt, dass sie eine Begriffskennung (die URI) aus
-                              Vokabularien verwenden, die dies nicht sind fallen unter die Leitung von Data.vlaanderen.be.
+                           <p>Externe Terminologie, die außerhalb des eigenen Namensraums {{ data.metadata.uridomain }} liegt, wird in der folgenden Tabelle mit der Bezeichnung, 
+                           wie sie im Modell zu finden ist, und der zugehörigen URI aufgeführt.
                            </p>
-                           <p>Diese Form der Wiederverwendung bedeutet die Zustimmung zu den zugrunde liegenden Definitionen, Bezeichnungen und
-                              Einschränkungen mit dem URI im Kontext dieses Anwendungsprofils verknüpft. Das bedeutet, dass man die oben genannten
-                              Definitionen und Bezeichnungen verwenden muss und Nutzungshinweise sollten denen der URI nicht widersprechen.
-                           </p>
-                           <p>Diese Zuordnung ist jedoch eine für dieses Anwendungsprofil gültige Auswahl. Aber es ist ein starker Hinweis darauf
-                              Mapping kann auch in anderen, verwandten Bereichen angewendet werden. Eine Änderung der Zuordnung ist keine semantische
-                              Änderung des Anwendungsprofils, kann jedoch erhebliche Auswirkungen auf die Implementierung haben. Mit der Zuordnung
-                              unten Die Auswirkungen können klar und eindeutig beschrieben werden.
-                           </p>
-                           <p>Beachten Sie, dass die Notwendigkeit einer Mapping-Änderung oft auch semantische Anpassungen mit sich bringt bringt.
-                              Daher ist es sinnvoll, Änderungen in das normale Änderungsmanagement der Norm einzubeziehen.
+                           <p>
+                           Bei der Wiederverwendung externer Terminologie werden die Grundsätze des <a href="https://semiceu.github.io/style-guide/1.0.0/index.html" target="_blank">SEMIC Style Guide</a> angewendet. 
+                           Das bedeutet: Man erklärt sich mit der zugrunde liegenden Definition, den Bezeichnungen und den Einschränkungen einverstanden, die mit der 
+                           URI im Kontext des Implementierungsmodells verbunden sind. Die Definitionen, Bezeichnungen und Verwendungshinweise dürfen also nicht im Widerspruch zu denen der URI stehen. 
                            </p>
                            <table class="definition external">
                               <thead>
