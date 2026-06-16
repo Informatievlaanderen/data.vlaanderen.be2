@@ -9,7 +9,7 @@
       "next": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
       "prev": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
     },
-    "dummy": "005",
+    "dummy": "006",
     "examples": true
   },
   {
@@ -21,7 +21,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/"
     },
-    "dummy": "007",
+    "dummy": "008",
     "eaconverter": {
       "parameters": "--allTags true"
     },
@@ -33,6 +33,6 @@
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
     "seealso": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
     "type": "ap",
-    "dummy": "007"
+    "dummy": "008"
   }
 ]
