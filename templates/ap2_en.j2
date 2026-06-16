@@ -574,10 +574,11 @@
                            {% endblock %}
                         </div>
                         <div class="vl-region vl-region.vl-region--no-space-top" id="mappingext">
-                           <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">Used (external) terminology</h2>
-                           <p>This section provides an overview of how terminology from vocabularies is used in this application profile.</p>
+                           <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">Terminology used (external)</h2>
+                           <p>This section provides an overview of how terminology from vocabularies has been used in this model.
+                           </p>
                            <p>
-                              This application profile relies on terms from these proprietary vocabularies:
+                              This implementation model relies on terms from these self-managed vocabularies:
                               <ul>
                                  {% for ns in data.metadata.inDomainNamespaces %}
                                     <li>
@@ -586,20 +587,13 @@
                                  {% endfor %}
                               </ul>
                            </p>
-                           <p>For terms from vocabularies outside the namespace {{ data.metadata.uridomain }} takes the form of a mapping: for the
-                              terms listed in this section, it was decided to use a term identifier (the URI) from vocabularies that do not fall under
-                              the management of Data.vlaanderen.be.
+                           <p>External terminology, which falls outside the in-house namespace {{ data.metadata.uridomain }}, is listed in the table below with the label, 
+                           as found in the model, and the underlying URI.
                            </p>
-                           <p>This form of reuse is agreeing to the underlying definition, labels and restrictions associated with the URI in the
-                              context of this application profile. This means that the above definitions, labels and usage notes should not contradict
-                              those of the URI.
-                           </p>
-                           <p>However, this mapping is a choice valid for this application profile. But it is a strong suggestion to also apply
-                              this mapping in other, related domains. A change to the mapping is not a semantic change of the application profile, but
-                              it may have a major implementation impact. The impact can be described clearly and unambiguously with the mapping below.
-                           </p>
-                           <p>Note that the need to implement a mapping change often also entails semantic adjustments. Therefore, it is advisable
-                              to include changes in the normal change management of the standard.
+                           <p>
+                           When reusing external terminology, the principles of the <a href="https://semiceu.github.io/style-guide/1.0.0/index.html" target="_blank">SEMIC Style Guide</a> are applied. 
+                           This means that one agrees to the underlying definition, labels and restrictions associated with the 
+                           URI in the context of the implementation model. The definitions, labels and usage notes must therefore not contradict those of the URI. 
                            </p>
                            <table class="definition external">
                               <thead>

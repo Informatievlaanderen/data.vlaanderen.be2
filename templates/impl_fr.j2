@@ -81,8 +81,10 @@
                                  {% endif %}
                               </dl>
                            </div>
-                           <dl>
+                            <dl>
+                              {% if ( ( data.stakeholders.authors | length > 0)   ) %}
                               <dt>Auteurs</dt>
+                              {% endif %}
                               {% set sortedAuthors = (data.stakeholders.authors | sort(attribute='lastName')) %}
                               {% for author in sortedAuthors %}
                                  <dd inlist="" rel="foaf:maker" class="p-author h-card vcard">
@@ -103,7 +105,9 @@
                                     </span>
                                  </dd>
                               {% endfor %}
+                              {% if ( ( data.stakeholders.editors | length > 0)   ) %}
                               <dt>Éditeurs</dt>
+                              {% endif %}
                               {% set sortedEditors = (data.stakeholders.editors | sort(attribute='lastName')) %}
                               {% for editor in sortedEditors %}
                                  <dd inlist="" rel="foaf:maker" class="p-author h-card vcard">
@@ -124,7 +128,9 @@
                                     </span>
                                  </dd>
                               {% endfor %}
-                              <dt>Contributeurs</dt>
+                              {% if ( ( data.stakeholders.contributors | length > 0)   ) %}
+                                 <dt>Contributeurs</dt>
+                              {% endif %}
                               {% set sortedContributors = (data.stakeholders.contributors | sort(attribute='lastName')) %}
                               {% for contributor in sortedContributors %}
                                  <dd inlist="" rel="foaf:maker" class="p-author h-card vcard">
@@ -219,11 +225,6 @@
                                  <a href="{{ data.metadata.status }}">
                                     {{ data.metadata.statuslabel }}</a>
                                  et a été publié le {{ data.metadata.issued }}.
-                              </p>
-                              <p>
-                                 Des informations sur le processus suivi et les décisions prises pour en arriver à cette spécification sont disponibles
-                                 dans le
-                                 <a href="{{ data.metadata.standaardregisterurl }}">registre des normes</a>.
                               </p>
                            {% endblock %}
                         </section>
@@ -588,11 +589,10 @@
                         </div>
                         <div class="vl-region vl-region.vl-region--no-space-top" id="mappingext">
                            <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">Terminologie (externe) utilisée</h2>
-                           <p>Cette section donne un aperçu de la façon dont la terminologie du vocabulaire a été utilisée dans ce profil de
-                              candidature.
+                           <p>Cette section présente un aperçu de la manière dont la terminologie issue des vocabulaires a été utilisée dans ce modèle.
                            </p>
                            <p>
-                              Ce profil d'application est basé sur les termes de ces vocabulaires autogérés:
+                              Ce modèle d'implémentation s'appuie sur des termes issus des vocabulaires gérés en interne suivants :
                               <ul>
                                  {% for ns in data.metadata.inDomainNamespaces %}
                                     <li>
@@ -601,22 +601,13 @@
                                  {% endfor %}
                               </ul>
                            </p>
-                           <p>Pour les termes de vocabulaire en dehors de l'espace de noms, {{ data.metadata.uridomain }} prend la forme d'un
-                              mappage: pour les termes répertoriés dans cette section ont été choisis pour utiliser un identifiant de terme (l'URI) à
-                              partir de vocabulaires qui ne sont pas relèvent de la gestion de Data.vlaanderen.be.
+                           <p>La terminologie externe, qui ne relève pas de l'espace de noms propre {{ data.metadata.uridomain }}, est répertoriée dans le tableau ci-dessous avec son étiquette, 
+                           telle qu'elle apparaît dans le modèle, et l'URI sous-jacente.
                            </p>
-                           <p>Cette forme de réutilisation signifie accepter la définition sous-jacente, les étiquettes et les limitations. associé
-                              à l'URI dans le contexte de ce profil d'application. Cela signifie qu'il faut utiliser les définitions ci-dessus, les
-                              étiquettes et les notes d'utilisation ne doivent pas contredire celles de l'URI.
-                           </p>
-                           <p>Cependant, ce mappage est un choix valable pour ce profil d'application. Mais cela fait une forte suggestion à
-                              celui-ci la cartographie peut également être appliquée dans d'autres domaines connexes. Un changement dans le mappage
-                              n'est pas un changement sémantique du profil d'application, mais cela peut avoir un impact majeur sur la mise en œuvre.
-                              Avec la cartographie sous le l'impact peut être décrit clairement et sans ambiguïté.
-                           </p>
-                           <p>Notez que la nécessité d'effectuer une modification de mappage implique souvent également des ajustements
-                              sémantiques. apporte. Il est donc approprié d'inclure les changements dans la gestion normale des changements de la
-                              norme.
+                           <p>
+                           Lors de la réutilisation de terminologie externe, les principes du <a href="https://semiceu.github.io/style-guide/1.0.0/index.html" target="_blank">SEMIC Style Guide</a> sont appliqués. 
+                           Cela signifie que l'on accepte la définition sous-jacente, les étiquettes et les restrictions associées à l'
+                           URI dans le contexte du modèle d'implémentation. Les définitions, les étiquettes et les notes d'utilisation ne doivent donc pas contredire celles de l'URI. 
                            </p>
                            <table class="definition external">
                               <thead>
