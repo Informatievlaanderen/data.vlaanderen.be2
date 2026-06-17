@@ -10,19 +10,20 @@ FILE_PATTERN="${2:-*.html}" # Default to .html files if not specified
 echo "Target directory: $TARGET_DIR"
 echo "File pattern: $FILE_PATTERN"
 
-SCRIPT_TYPE="${3:-all}"     # Default to classes script, can be "classes", "links", "tooltip", or combinations
+SCRIPT_TYPE="${3:-all}"     # Default to all scripts, can be "classes", "links", "tooltip", "doormat", or combinations
 
 SCRIPT_DIR=$(dirname "$0")
 CLASSES_SCRIPT="$SCRIPT_DIR/replace_webuniversum2_classes.sh"
 LINKS_SCRIPT="$SCRIPT_DIR/replace_webuniversum2_links.sh"
 TOOLTIP_SCRIPT="$SCRIPT_DIR/replace_webuniversum2_tooltip.sh"
+DOORMAT_SCRIPT="$SCRIPT_DIR/replace_webuniversum2_doormat.sh"
 
 # Check if the target directory exists
 if [ ! -d "$TARGET_DIR" ]; then
     echo "Error: Directory '$TARGET_DIR' not found!"
     echo "Usage: $0 [directory] [file_pattern] [script_type]"
-    echo "  script_type can be 'classes', 'links', 'tooltip', 'all', or combinations like 'classes,links'"
-    echo "  Available combinations: classes, links, tooltip, classes+links, classes+tooltip, links+tooltip, all"
+    echo "  script_type can be 'classes', 'links', 'tooltip', 'doormat', 'all', or combinations like 'classes,links'"
+    echo "  Available combinations: classes, links, tooltip, doormat, and any plus/comma combination, or all"
     exit 1
 fi
 
@@ -34,14 +35,14 @@ NORMALIZE_SCRIPTS=()
 for script in "${SCRIPT_TYPES[@]}"; do
     script=$(echo "$script" | tr -d ' ') # Remove spaces
     case "$script" in
-    "classes" | "links" | "tooltip")
+    "classes" | "links" | "tooltip" | "doormat")
         NORMALIZE_SCRIPTS+=("$script")
         ;;
     "both")
         NORMALIZE_SCRIPTS+=("classes" "links")
         ;;
     "all")
-        NORMALIZE_SCRIPTS+=("links" "tooltip" "classes")
+        NORMALIZE_SCRIPTS+=("links" "tooltip" "doormat" "classes")
         ;;
     *)
         echo "Warning: Unknown script type '$script' ignored"
@@ -69,7 +70,7 @@ done
 
 if [ ${#SCRIPT_TYPES[@]} -eq 0 ]; then
     echo "Error: No valid script types specified!"
-    echo "Valid options: classes, links, tooltip, both, all"
+    echo "Valid options: classes, links, tooltip, doormat, both, all"
     exit 1
 fi
 
@@ -93,6 +94,12 @@ for script_type in "${SCRIPT_TYPES[@]}"; do
     "tooltip")
         if [ ! -f "$TOOLTIP_SCRIPT" ]; then
             echo "Error: Webuniversum tooltip script '$TOOLTIP_SCRIPT' not found!"
+            exit 1
+        fi
+        ;;
+    "doormat")
+        if [ ! -f "$DOORMAT_SCRIPT" ]; then
+            echo "Error: Webuniversum doormat script '$DOORMAT_SCRIPT' not found!"
             exit 1
         fi
         ;;
@@ -151,13 +158,15 @@ links_success=0
 links_failure=0
 tooltip_success=0
 tooltip_failure=0
+doormat_success=0
+doormat_failure=0
 
 for file in "${files[@]}"; do
     echo "Processing: $file"
     current_file="$file"
     file_success=true
 
-    # Run scripts in order: classes, tooltip, links
+    # Run scripts in order selected by script_type input
     for script_type in "${SCRIPT_TYPES[@]}"; do
         case "$script_type" in
         "classes")
@@ -193,6 +202,19 @@ for file in "${files[@]}"; do
             else
                 echo "  ❌ Failed to process tooltips for: $current_file"
                 ((tooltip_failure++))
+                file_success=false
+            fi
+            ;;
+
+        "doormat")
+            echo "  Applying webuniversum doormat conversion..."
+            # Doormat script modifies file in place, so we use current_file
+            if "$DOORMAT_SCRIPT" "$current_file"; then
+                echo "  ✅ Successfully processed doormats for: $current_file"
+                ((doormat_success++))
+            else
+                echo "  ❌ Failed to process doormats for: $current_file"
+                ((doormat_failure++))
                 file_success=false
             fi
             ;;
@@ -252,6 +274,13 @@ for script_type in "${SCRIPT_TYPES[@]}"; do
         echo "  ✗ Failed to process: $links_failure files"
         total_success=$((total_success + links_success))
         total_failure=$((total_failure + links_failure))
+        ;;
+    "doormat")
+        echo "Doormat Conversion:"
+        echo "  ✓ Successfully processed: $doormat_success files"
+        echo "  ✗ Failed to process: $doormat_failure files"
+        total_success=$((total_success + doormat_success))
+        total_failure=$((total_failure + doormat_failure))
         ;;
     esac
 done
