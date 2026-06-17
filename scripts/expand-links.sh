@@ -67,6 +67,11 @@ then
 	   cp_content_dir "$i" context context
 	   cp_content_dir "$i" shacl shacl
 	fi
+	TARGETSPEC=$(echo ${i} | jq -r '.urlref | startswith("/doc/implementatiemodel") '  )
+	if [ ${TARGETSPEC} == "true" ] ; then
+	   cp_content_dir "$i" context context
+	   cp_content_dir "$i" shacl shacl
+	fi
 	TARGETSPEC=$(echo ${i} | jq -r '.urlref | startswith("/ns") '  )
 	if [ ${TARGETSPEC} == "true" ] ; then
    	   jq  --arg src ${TARGET} --arg tgt ${TARGET}/ns -r '.[] | if ( .urlref | startswith("/ns") ) then if (.prefix ) then @sh "mkdir -p \($tgt)/\(.prefix)" else empty end else empty end'  $LINKS | bash -e 
