@@ -6,10 +6,10 @@
     "name": "geodcatap-vlaanderen",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
-      "next": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
-      "prev": "doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
+      "next": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
+      "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21"
     },
-    "dummy": "007",
+    "dummy": "008",
     "examples": true
   },
   {
