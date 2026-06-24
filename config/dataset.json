@@ -777,11 +777,11 @@
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Omvangklasse.ttl"
     },
     {
-      "urlRef": "Personeelsklasse",
+      "urlRef": "RSZ-Personeelsklasse",
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Personeelsklasse.ttl"
     },
     {
-      "urlRef": "Personeelsklasse/v1",
+      "urlRef": "RSZ-Personeelsklasse/v1",
       "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Personeelsklasse.ttl"
     },
     {
