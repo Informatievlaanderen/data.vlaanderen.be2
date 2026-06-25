@@ -2,7 +2,7 @@
   {
     "urlref": "/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-NDNN",
-    "branchtag": "main",
+    "branchtag": "NDNN-25.06.26.-V.1.0.0",
     "name": "geluidsmeldingen-en-geluidsmetingen",
     "filename": "config/NDNN-impl.json",
     "navigation": {},
