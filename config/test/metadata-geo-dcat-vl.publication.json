@@ -21,7 +21,7 @@
     "navigation": {
       "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09/"
     },
-    "dummy": "023",
+    "dummy": "024",
     "eaconverter": {
       "parameters": "--allTags true"
     },
@@ -33,6 +33,6 @@
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL",
     "seealso": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
     "type": "ap",
-    "dummy": "023"
+    "dummy": "024"
   }
 ]
