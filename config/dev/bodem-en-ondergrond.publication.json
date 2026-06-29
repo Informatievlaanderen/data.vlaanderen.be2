@@ -78,5 +78,21 @@
     "name": "observaties",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-BOObservaties.json",
     "dummy": "2026-06-09 16:56:00"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/bodem/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "bodem",
+    "filename": "config/OSLO-BodemEnOndergrond-AP-Bodem.json",
+    "dummy": "2026-06-29 11:57:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/bodem-en-ondergrond/bodem/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "bodem",
+    "filename": "config/OSLO-BodemEnOndergrond-VOC-Bodem.json",
+    "dummy": "2026-06-29 11:57:00"
   }
 ]
