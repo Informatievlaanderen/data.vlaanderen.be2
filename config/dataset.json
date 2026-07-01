@@ -793,6 +793,22 @@
       "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/RapportType.ttl"
     },
     {
+      "urlRef": "VKBO",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/VKBO.ttl"
+    },
+    {
+      "urlRef": "VKBO/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/VKBO.ttl"
+    },
+    {
+      "urlRef": "VKBO/Onderneming",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/VKBO-Onderneming.ttl"
+    },
+    {
+      "urlRef": "VKBO/Onderneming/v1",
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/VKBO-Onderneming.ttl"
+    },
+    {
       "urlRef": "Rooilijntype",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/rooilijnplannen-main/all.ttl"
     }
