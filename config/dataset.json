@@ -702,95 +702,95 @@
     },
     {
       "urlRef": "Activiteitstype",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Activiteitstype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Activiteitstype.ttl"
     },
     {
       "urlRef": "Activiteitstype/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Activiteitstype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Activiteitstype.ttl"
     },
     {
       "urlRef": "Rechtspersoonlijkheidtype",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtspersoonlijkheidtype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtspersoonlijkheidtype.ttl"
     },
     {
       "urlRef": "Rechtspersoonlijkheidtype/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtspersoonlijkheidtype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtspersoonlijkheidtype.ttl"
     },
     {
       "urlRef": "Rechtstoestandtype/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtstoestandtype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtstoestandtype.ttl"
     },
     {
       "urlRef": "Rechtstoestandtype",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtstoestandtype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtstoestandtype.ttl"
     },
     {
       "urlRef": "Rechtstoestandtype/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtstoestandtype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtstoestandtype.ttl"
     },
     {
       "urlRef": "Rechtsvormtype",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtsvormtype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtsvormtype.ttl"
     },
     {
       "urlRef": "Rechtsvormtype/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtsvormtype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtsvormtype.ttl"
     },
     {
       "urlRef": "OrganisatieStatus",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/OrganisatieStatus.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/OrganisatieStatus.ttl"
     },
     {
       "urlRef": "OrganisatieStatus/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/OrganisatieStatus.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/OrganisatieStatus.ttl"
     },
     {
       "urlRef": "StopzettingType",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/StopzettingType.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/StopzettingType.ttl"
     },
     {
       "urlRef": "StopzettingType/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/StopzettingType.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/StopzettingType.ttl"
     },
     {
       "urlRef": "RedenDoorhaling",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/RedenDoorhaling.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/RedenDoorhaling.ttl"
     },
     {
       "urlRef": "RedenDoorhaling/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/RedenDoorhaling.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/RedenDoorhaling.ttl"
     },
     {
       "urlRef": "Doorhalingstype",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Doorhalingstype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Doorhalingstype.ttl"
     },
     {
       "urlRef": "Doorhalingstype/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Doorhalingstype.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Doorhalingstype.ttl"
     },
     {
       "urlRef": "Omvangklasse",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Omvangklasse.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Omvangklasse.ttl"
     },
     {
       "urlRef": "Omvangklasse/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Omvangklasse.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Omvangklasse.ttl"
     },
     {
       "urlRef": "RSZ-Personeelsklasse",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Personeelsklasse.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Personeelsklasse.ttl"
     },
     {
       "urlRef": "RSZ-Personeelsklasse/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Personeelsklasse.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Personeelsklasse.ttl"
     },
     {
       "urlRef": "RapportType",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/RapportType.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/RapportType.ttl"
     },
     {
       "urlRef": "RapportType/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/RapportType.ttl"
+      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/RapportType.ttl"
     },
     {
       "urlRef": "Rooilijntype",
