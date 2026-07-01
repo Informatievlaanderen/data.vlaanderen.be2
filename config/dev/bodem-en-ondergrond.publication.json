@@ -99,7 +99,7 @@
     "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/grondboringen/ontwerpstandaard/pieter",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
     "branchtag": "feature/toolchain-compatibility",
-    "name": "bodem",
+    "name": "grondboringen",
     "filename": "config/OSLO-BodemEnOndergrond-AP-Grondboringen.json",
     "dummy": "2026-07-01 10:35:00"
   },
@@ -107,7 +107,7 @@
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/grondboringen/ontwerpstandaard/pieter",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
     "branchtag": "feature/toolchain-compatibility",
-    "name": "bodem",
+    "name": "grondboringen",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-Grondboringen.json",
     "dummy": "2026-07-01 10:35:00"
   }
