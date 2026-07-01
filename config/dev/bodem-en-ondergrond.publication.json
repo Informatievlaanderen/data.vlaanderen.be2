@@ -117,7 +117,7 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "grondwatermeetnet",
     "filename": "config/OSLO-BodemEnOndergrond-AP-Grondwatermeetnet.json",
-    "dummy": "2026-07-01 13:58:00"
+    "dummy": "2026-07-01 16:29:00"
   },
   {
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/grondwatermeetnet/ontwerpstandaard/pieter",
@@ -125,6 +125,6 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "grondwatermeetnet",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-Grondwatermeetnet.json",
-    "dummy": "2026-07-01 13:58:00"
+    "dummy": "2026-07-01 16:29:00"
   }
 ]
