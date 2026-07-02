@@ -126,5 +126,21 @@
     "name": "grondwatermeetnet",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-Grondwatermeetnet.json",
     "dummy": "2026-07-01 17:30:00"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "ruimtelijke-bereiken",
+    "filename": "config/OSLO-BodemEnOndergrond-AP-RuimtelijkeBereiken.json",
+    "dummy": "2026-07-01 17:30:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "ruimtelijke-bereiken",
+    "filename": "config/OSLO-BodemEnOndergrond-VOC-RuimtelijkeBereiken.json",
+    "dummy": "2026-07-01 17:30:00"
   }
 ]
