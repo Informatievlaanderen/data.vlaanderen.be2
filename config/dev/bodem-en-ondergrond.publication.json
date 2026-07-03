@@ -149,7 +149,7 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "sonderingen",
     "filename": "config/OSLO-BodemEnOndergrond-AP-Sonderingen.json",
-    "dummy": "2026-07-03 10:56:00"
+    "dummy": "2026-07-03 11:24:00"
   },
   {
     "urlref": "/doc/vocabularium/bodem-en-ondergrond/sonderingen/ontwerpstandaard/pieter",
@@ -157,6 +157,6 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "sonderingen",
     "filename": "config/OSLO-BodemEnOndergrond-VOC-Sonderingen.json",
-    "dummy": "2026-07-03 10:56:00"
+    "dummy": "2026-07-03 11:24:00"
   }
 ]
