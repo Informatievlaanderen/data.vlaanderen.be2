@@ -23,14 +23,14 @@
     "swaggergenerator": {
       "parameters": "--language en"
     },
-    "dummy": "025",
+    "dummy": "026",
     "disabled": true
   },
   {
     "urlref": "/doc/applicatieprofiel/hydrants",
     "seealso": "/doc/applicatieprofiel/hydrants/ontwerpstandaard/2026-05-22",
     "type": "ap",
-    "dummy": "025",
+    "dummy": "026",
     "disabled": true
   }
 ]
