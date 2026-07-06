@@ -21,7 +21,7 @@
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory",
     "name": "verkeersmeldingen",
     "branchtag": "feature/toolchain-compatibility",
-    "filename": "config/SIF-impl.json",
+    "filename": "config/verkeersmeldingen-impl.json",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
