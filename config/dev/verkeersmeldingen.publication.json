@@ -15,5 +15,16 @@
     "seealso": "/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04",
     "type": "ap",
     "dummy": "053"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory",
+    "name": "verkeersmeldingen",
+    "branchtag": "feature/toolchain-compatibility",
+    "filename": "config/SIF-impl.json",
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "dummy": "2026-07-06 08:17"
   }
 ]
