@@ -57,5 +57,22 @@
     "seealso": "/doc/applicatieprofiel/energiemanagementsysteem/kandidaatstandaard/2025-09-30",
     "type": "ap",
     "dummy": "4"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/energiemanagementsysteem/kandidaatstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-energiemanagementsystem",
+    "name": "energiemanagementsysteem",
+    "branchtag": "feature/toolchain-compatibility",
+    "filename": "config/energiemanagementsysteem-ap.json",
+    "navigation": {
+      "prev": "/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-07-22"
+    },
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    },
+    "shaclgenerator": {
+      "parameters": ""
+    },
+    "dummy": "2026-07-06 11:55"
   }
 ]
