@@ -15,7 +15,7 @@
   {
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
-    "branchtag": "master",
+    "branchtag": "erkend_2026-07-07_v0.0.1",
     "name": "GEODCAT-AP-VL",
     "filename": "config/geodcatap-vlaanderen.json",
     "navigation": {
