@@ -6,8 +6,7 @@
     "name": "geluidsmeldingen-en-geluidsmetingen",
     "filename": "config/NDNN-impl.json",
     "navigation": {},
-    "dummy": "042",
-    "disabled": true,
+    "dummy": "043",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     }
