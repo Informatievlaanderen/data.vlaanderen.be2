@@ -1,12 +1,12 @@
 [
   {
-    "urlref": "/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-07-09",
+    "urlref": "/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-NDNN",
     "branchtag": "bde140808328a23cb448154b264190fc179653f3",
     "name": "geluidsmeldingen-en-geluidsmetingen",
     "filename": "config/NDNN-impl.json",
     "navigation": {},
-    "dummy": "044",
+    "dummy": "043",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     }
