@@ -7,6 +7,7 @@
     "filename": "config/NDNN-impl.json",
     "navigation": {},
     "dummy": "042",
+    "disabled": true,
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     }
