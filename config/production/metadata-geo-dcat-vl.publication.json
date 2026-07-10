@@ -19,7 +19,8 @@
       "filename": "config/geodcatap-vlaanderen.json",
       "navigation": {},
       "examples": true
-    },
+    }
+      },
  {
     "urlref": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2026-02-12",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen",
