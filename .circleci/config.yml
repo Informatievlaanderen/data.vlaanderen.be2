@@ -53,10 +53,10 @@ jobs:
             touch /tmp/workspace/report4/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/ea-converter@1.1.9
+          command: sudo npm install --global @oslo-flanders/ea-converter
       - run:
           name: install software stakeholders
-          command: sudo npm install --global @oslo-flanders/stakeholders-converter@1.0.4
+          command: sudo npm install --global @oslo-flanders/stakeholders-converter
       - run:
           name: upgrade configs to this toolchain
           command: |
@@ -164,8 +164,8 @@ jobs:
       - run:
           name: install software
           command: |
-            sudo npm install --global @oslo-flanders/json-webuniversum-generator@1.0.13
-            sudo npm install --global @oslo-flanders/html-generator@2.1.2
+            sudo npm install --global @oslo-flanders/json-webuniversum-generator
+            sudo npm install --global @oslo-flanders/html-generator
       - run:
           name: Render HTML version of merged json file (a)
           command: |
@@ -200,7 +200,7 @@ jobs:
       - run:
           name: install software
           command: |
-            sudo npm install --global @oslo-flanders/jsonld-validator@1.0.6
+            sudo npm install --global @oslo-flanders/jsonld-validator
       - run:
           name: Validate OSLO jsonld
           command: |
@@ -230,7 +230,7 @@ jobs:
             touch /tmp/workspace/report4/respec/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/html-respec-generator@1.0.2
+          command: sudo npm install --global @oslo-flanders/html-respec-generator
       - run:
           name: Render HTML version of merged json file (a)
           command: |
@@ -264,7 +264,7 @@ jobs:
             touch /tmp/workspace/report4/rdf/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/rdf-vocabulary-generator@1.0.2
+          command: sudo npm install --global @oslo-flanders/rdf-vocabulary-generator
       - run:
           name: Render RDF version
           command: |
@@ -294,7 +294,7 @@ jobs:
             touch /tmp/workspace/report4/shacl/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/shacl-template-generator@1.2.7
+          command: sudo npm install --global @oslo-flanders/shacl-template-generator
       - run:
           name: Render SHACL version of merged json file (a)
           command: |
@@ -325,7 +325,7 @@ jobs:
             touch /tmp/workspace/report4/context/.ignore
       - run:
           name: install software
-          command: sudo npm install --global @oslo-flanders/jsonld-context-generator@1.0.7
+          command: sudo npm install --global @oslo-flanders/jsonld-context-generator
       - run:
           name: Render JSONLD context of merged json file (a)
           command: |
@@ -355,7 +355,7 @@ jobs:
             touch /tmp/workspace/report4/swagger/.ignore
       - run:
           name: install software
-          command: sudo npm install -g @oslo-flanders/swagger-generator@1.0.4
+          command: sudo npm install -g @oslo-flanders/swagger-generator
       - run:
           name: Render swagger file of  merged json file (a)
           command: |
