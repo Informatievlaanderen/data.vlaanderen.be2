@@ -417,6 +417,8 @@ validate_jsonld() {
             SPECTYPE="ApplicationProfile"
         ;;
     esac
+
+    generator_parameters jsonldvalidation ${JSONI}
     
     
     mkdir -p ${RLINE}
@@ -430,6 +432,7 @@ validate_jsonld() {
     --specificationType ${SPECTYPE} \
     --publicationEnvironment $URIDOMAIN \
     --language ${LANGUAGE} \
+    ${PARAMETERS} \
     2>&1 | tee -a ${REPORTFILE}
     
     echo ${REPORTFILE}
