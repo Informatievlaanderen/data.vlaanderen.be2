@@ -3,10 +3,10 @@
     "urlref": "/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/kandidaatstandaard/2026-06-12",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-NDNN",
     "branchtag": "main",
-    "name": "geluidsmeldingen-en-geluidsmetingen",
+    "name": "Geluidsmeldingen-en-geluidsmetingen",
     "filename": "config/NDNN-impl.json",
     "navigation": {},
-    "dummy": "056",
+    "dummy": "057",
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     }
@@ -15,6 +15,6 @@
     "urlref": "/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen",
     "seealso": "/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/kandidaatstandaard/2026-06-12",
     "type": "impl",
-    "dummy": "056"
+    "dummy": "057"
   }
 ]
