@@ -26,12 +26,12 @@
     "jsonldvalidation": {
       "parameters": "--language en"
     },
-    "dummy": "037"
+    "dummy": "038"
   },
   {
     "urlref": "/doc/applicatieprofiel/hydrants",
     "seealso": "/doc/applicatieprofiel/hydrants/ontwerpstandaard/2026-05-22",
     "type": "ap",
-    "dummy": "037"
+    "dummy": "038"
   }
 ]
