@@ -15,7 +15,7 @@ jobs:
           - 24.x
     steps:
       - name: Checkout source branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Validate IDs basisregisters
         id: validate
         run: |

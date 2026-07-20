@@ -23,6 +23,8 @@ ENDPOINTS=(
     "https://data.vlaanderen.be/id/perceel/24011E0053-00T004"
 )
 
+MISMATCHES=0
+
 # Create temp directory for current responses
 TEMP_DIR="${MOCK_DIR}/.temp"
 mkdir -p "${TEMP_DIR}"
@@ -56,6 +58,7 @@ for endpoint in "${ENDPOINTS[@]}"; do
                 echo "Response matches mock"
             else
                 echo "MISMATCH DETECTED"
+                cat "${response_file}"
                 MISMATCHES=$((MISMATCHES + 1))
             fi
         fi
