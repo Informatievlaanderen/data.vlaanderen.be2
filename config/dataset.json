@@ -658,11 +658,11 @@
     },
     {
       "urlRef": "MAGDA/Uitzondering",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/MAGDA-Uitzonderingen.ttl"
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.2.0/resources/codelijsten/MAGDA-Uitzonderingen.ttl"
     },
     {
       "urlRef": "MAGDA/Uitzondering/v1",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/MAGDA-Uitzonderingen.ttl"
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.2.0/resources/codelijsten/MAGDA-Uitzonderingen.ttl"
     },
     {
       "urlRef": "MAGDA/Omstandigheid",
