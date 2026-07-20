@@ -41,7 +41,7 @@ for endpoint in "${ENDPOINTS[@]}"; do
     mock_file="${MOCK_DIR}/${resource_type}/${resource_id}.json"
     
     echo "Fetching: ${endpoint}"
-
+    
     echo "curl -L ${endpoint}"
     
     # Fetch with Accept header for JSON-LD
