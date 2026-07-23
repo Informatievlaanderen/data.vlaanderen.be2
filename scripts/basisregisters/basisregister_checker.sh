@@ -70,7 +70,7 @@ done
 
 echo ""
 echo "=========================================="
-if [ ${MISMATCHES} ]; then
+if [ ${MISMATCHES} -gt 0 ]; then
     echo "Validation Failed - ${MISMATCHES} mismatch(es) detected"
     echo "=========================================="
     exit 1
