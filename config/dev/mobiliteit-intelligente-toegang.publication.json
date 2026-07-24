@@ -218,5 +218,21 @@
       "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19"
     },
     "dummy": "2026-01-07 14:30:00"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/erkendestandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-citerra",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "mobiliteit-intelligente-toegang",
+    "filename": "config/mobiliteit-intelligente-toegang-ap.json",
+    "dummy": "2026-07-24 10:18:00"
+  },
+  {
+    "urlref": "/doc/vocabularium/mobiliteit-intelligente-toegang/erkendestandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-citerra",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "mobiliteit-intelligente-toegang",
+    "filename": "config/mobiliteit-intelligente-toegang-voc.json",
+    "dummy": "2026-07-24 10:18:00"
   }
 ]
