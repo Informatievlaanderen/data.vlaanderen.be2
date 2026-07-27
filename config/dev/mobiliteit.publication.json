@@ -40,6 +40,14 @@
     "dummy": "002"
   },
   {
+    "dummy": "2026-07-27 16:29:00",
+    "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "stopplaatsen-ap",
+    "filename": "config/OSLO-DienstregelingEnPlanning-NL.json"
+  },
+  {
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/erkendestandaard/2022-04-21",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
@@ -115,6 +123,15 @@
     "navigation": {
       "prev": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/erkendestandaard/2022-04-21"
     }
+  },
+  {
+    "dummy": "2026-07-27 16:30:00",
+    "urlref": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/ontwerpstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
+    "branchtag": "feature/toolchain-compatibility",
+    "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
+    "name": "dienstregeling-en-planning",
+    "prefix": "mobiliteit"
   },
   {
     "urlref": "/ns/mobiliteit/dienstregeling-en-planning",
