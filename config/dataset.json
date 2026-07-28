@@ -594,7 +594,7 @@
     },
     {
       "urlRef": "IT110-IT114",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/IT110-IT114.ttl"
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.2.0/resources/codelijsten/IT110-IT114.ttl"
     },
     {
       "urlRef": "IT110",
@@ -666,11 +666,11 @@
     },
     {
       "urlRef": "MAGDA/Omstandigheid",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/MAGDA-Omstandigheden.ttl"
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.2.0/resources/codelijsten/MAGDA-Omstandigheden.ttl"
     },
     {
       "urlRef": "MAGDA/Omstandigheid/v1",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.1.1/resources/codelijsten/MAGDA-Omstandigheden.ttl"
+      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.2.0/resources/codelijsten/MAGDA-Omstandigheden.ttl"
     },
     {
       "urlRef": "MAGDA/Persoon",
