@@ -3,7 +3,7 @@
     "urlref": "/doc/implementatiemodel/landbouwgebruiksperceel/kandidaatstandaard/2026-07-24",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-landbouwgebruiksperceel",
     "branchtag": "main",
-    "name": "Landbouwgebruiksperceel",
+    "name": "landbouwgebruiksperceel",
     "filename": "config/landbouwgebruiksperceel-im.json",
     "navigation": {},
     "dummy": "001",
