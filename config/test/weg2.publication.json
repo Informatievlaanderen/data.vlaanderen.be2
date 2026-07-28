@@ -48,6 +48,6 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     },
-    "dummy": "004"
+    "dummy": "005"
   }
 ]
