@@ -3,19 +3,19 @@
     "urlref": "/ns/voertuigregistratie",
     "seealso": "/doc/vocabularium/voertuigregistratie/v0.1.0",
     "type": "voc",
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/doc/vocabularium/voertuigregistratie",
     "seealso": "/doc/vocabularium/voertuigregistratie/v0.1.0",
     "type": "voc",
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/ns/voertuigregistratie/v0.1.0",
     "seealso": "/doc/vocabularium/voertuigregistratie/v0.1.0",
     "type": "voc",
-    "dummy": "001"
+    "dummy": "002"
   },
   {
     "urlref": "/doc/vocabularium/voertuigregistratie/v0.1.0",
@@ -23,7 +23,7 @@
     "branchtag": "main",
     "name": "voertuigregistratie",
     "filename": "config/voertuigregistratie-voc.json",
-    "dummy": "001",
+    "dummy": "002",
     "navigation": {
       "prev": "/doc/vocabularium/voertuigregistratie/v0.1.0"
     }
