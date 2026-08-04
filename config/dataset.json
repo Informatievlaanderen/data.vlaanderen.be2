@@ -823,6 +823,10 @@
     {
       "urlRef": "Rooilijntype",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-codelistgenerated/refs/heads/rooilijnplannen-main/all.ttl"
+    },
+    {
+      "urlRef": "LandbouwActiviteit",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-landbouwgebruiksperceel/refs/heads/main/resources/OSLO-Landbouwgebruiksperceel-IM/artefacts/codelijsten/LandbouwActiviteit.ttl"
     }
   ]
 }
