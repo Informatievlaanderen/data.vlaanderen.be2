@@ -1,0 +1,30 @@
+[
+  {
+    "urlref": "/ns/gebruiksperceel",
+    "seealso": "/doc/vocabularium/gebruiksperceel/2026-08-04",
+    "type": "voc",
+    "dummy": "005"
+  },
+  {
+    "urlref": "/doc/vocabularium/gebruiksperceel",
+    "seealso": "/doc/vocabularium/gebruiksperceel/2026-08-04",
+    "type": "voc",
+    "dummy": "005"
+  },
+  {
+    "urlref": "/ns/gebruiksperceel/2026-08-04",
+    "seealso": "/doc/vocabularium/gebruiksperceel/2026-08-04",
+    "type": "voc",
+    "dummy": "005"
+  },
+  {
+    "urlref": "/doc/vocabularium/gebruiksperceel/2026-08-04",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-landbouwgebruiksperceel/",
+    "branchtag": "main",
+    "name": "gebruiksperceel",
+    "filename": "config/gebruiksperceel-voc.json",
+    "dummy": "005",
+    "navigation": {
+    }
+  }
+]
