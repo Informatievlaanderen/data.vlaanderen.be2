@@ -827,6 +827,10 @@
     {
       "urlRef": "LandbouwActiviteit",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-landbouwgebruiksperceel/refs/heads/main/resources/OSLO-Landbouwgebruiksperceel-IM/artefacts/codelijsten/LandbouwActiviteit.ttl"
+    },
+    {
+      "urlRef": "LandbouwActiviteit/v1",
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-landbouwgebruiksperceel/refs/heads/main/resources/OSLO-Landbouwgebruiksperceel-IM/artefacts/codelijsten/LandbouwActiviteit.ttl"
     }
   ]
 }
