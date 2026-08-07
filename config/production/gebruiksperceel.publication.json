@@ -3,27 +3,27 @@
     "urlref": "/ns/gebruiksperceel",
     "seealso": "/doc/vocabularium/gebruiksperceel/2026-08-04",
     "type": "voc",
-    "dummy": "007"
+    "dummy": "008"
   },
   {
     "urlref": "/doc/vocabularium/gebruiksperceel",
     "seealso": "/doc/vocabularium/gebruiksperceel/2026-08-04",
     "type": "voc",
-    "dummy": "007"
+    "dummy": "008"
   },
   {
     "urlref": "/ns/gebruiksperceel/2026-08-04",
     "seealso": "/doc/vocabularium/gebruiksperceel/2026-08-04",
     "type": "voc",
-    "dummy": "007"
+    "dummy": "008"
   },
   {
     "urlref": "/doc/vocabularium/gebruiksperceel/2026-08-04",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-landbouwgebruiksperceel/",
-    "branchtag": "main",
+    "branchtag": "v0.1.0",
     "name": "gebruiksperceel",
     "filename": "config/gebruiksperceel-voc.json",
-    "dummy": "007",
+    "dummy": "008",
     "navigation": {
     }
   }
