@@ -670,11 +670,11 @@
     },
     {
       "urlRef": "MAGDA/Uitzondering",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.2.0/resources/codelijsten/MAGDA-Uitzonderingen.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA-Uitzonderingen.ttl"
     },
     {
       "urlRef": "MAGDA/Uitzondering/v1",
-      "sourceUrl": "https://implementatie.data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.2.0/resources/codelijsten/MAGDA-Uitzonderingen.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA-Uitzonderingen.ttl"
     },
     {
       "urlRef": "MAGDA/Omstandigheid",
