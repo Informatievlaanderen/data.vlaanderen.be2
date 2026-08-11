@@ -49,7 +49,7 @@
                   <div class="vl-grid u-hr">
                      <div class="vl-col--9-12 vl-col--1-1--s">
                         {% if data.metadata.autotranslate %}
-                           <div class="disclaimer">
+                           <div class="vl-alert vl-alert--info" role="status">
                               <p>This document is a translation from {{ data.metadata.primaryLanguage }} to English.</p>
                            </div>
                         {% endif %}
@@ -259,10 +259,10 @@
                      <div class="vl-region vl-region--no-space-top" id="overview">
                         <h2 class="vl-title--h2">Overview</h2>
                         {% if data.metadata.autotranslate %}
-                           <div class="disclaimer">
+                           <div class="vl-alert vl-alert--info" role="status">
                               <p>This document is a translation from {{ data.metadata.primaryLanguage }} to English.</p>
-                              <br></div>
-                           {% endif %}
+                           </div>
+                        {% endif %}
                            <div class="vl-grid">
                               <div class="vl-col--9-12 vl-col--1-1--s vl-typography">
                                  {% if ( ( data.classes | length > 0)   ) %}
@@ -561,8 +561,8 @@
                            (non-normative)
                            {% block jsonld %}
                               <p>A reusable JSON-LD context definition for this implementation model is available at:
-                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld" target="_blank">
-                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld</a>
+                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld" target="_blank">
+                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld</a>
                               </p>
                            {% endblock %}
                         </div>
@@ -571,8 +571,8 @@
                            (non-normative)
                            {% block shacl %}
                               <p>A reusable SHACL template definition for this implementation model is available at:
-                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl" target="_blank">
-                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl</a>
+                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl" target="_blank">
+                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl</a>
                               </p>
                            {% endblock %}
                         </div>
