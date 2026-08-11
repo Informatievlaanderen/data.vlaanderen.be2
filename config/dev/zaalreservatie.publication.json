@@ -9,7 +9,7 @@
       "prev": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
     },
     "disabled": false,
-    "dummy": "005"
+    "dummy": "030"
   },
   {
     "urlref": "/doc/vocabularium/zaalreservatie/kandidaatstandaard/2025-07-01",
@@ -21,7 +21,7 @@
     "navigation": {
       "prev": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18"
     },
-    "dummy": "003"
+    "dummy": "030"
   },
   {
     "urlref": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
@@ -30,13 +30,6 @@
     "branchtag": "main",
     "filename": "config/zaalreservatie-ap.json",
     "navigation": {},
-    "disabled": false,
-    "dummy": "021"
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/zaalreservatie",
-    "seealso": "/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18",
-    "type": "ap",
     "disabled": false,
     "dummy": "021"
   },
@@ -51,10 +44,17 @@
     "dummy": "021"
   },
   {
+    "urlref": "/doc/applicatieprofiel/zaalreservatie",
+    "seealso": "/doc/applicatieprofiel/zaalreservatie/kandidaatstandaard/2025-07-01",
+    "type": "ap",
+    "disabled": false,
+    "dummy": "030"
+  },
+  {
     "urlref": "/ns/zaalreservatie",
-    "seealso": "/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
+    "seealso": "/doc/vocabularium/zaalreservatie/kandidaatstandaard/2025-07-01",
     "type": "voc",
     "disabled": false,
-    "dummy": "021"
+    "dummy": "030"
   }
 ]
