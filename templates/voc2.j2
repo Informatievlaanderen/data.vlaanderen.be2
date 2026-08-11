@@ -40,14 +40,16 @@
       <div class="vl-region">
         <div class="vl-layout vl-layout--wide">
           <div class="vl-grid u-hr">
+                {% if data.metadata.autotranslate %}
+                  <div class="vl-col--12-12">
+                    <div class="vl-alert vl-alert--info" role="status">
+                      <p>Dit document is een automatische vertaling van het {{ data.metadata.primaryLanguage }} naar het Nederlands.</p>
+                    </div>
+                  </div>
             <div class="vl-col--9-12 vl-col--1-1--s">
               <div class="head" role="contentinfo" id="respecHeader">
                 <h1 class="vl-title--h1 title p-name" property="dcterms:title" id="title">{{ data.metadata.title }}</h1>
-                {% if data.metadata.autotranslate %}
-                  <div class="disclaimer">
-                    <p>Dit document is een vertaling van het {{ data.metadata.primaryLanguage }} naar het Nederlands.</p>
-                    <br></div>
-                  {% endif %}
+                {% endif %}
                   <div class="head">
                     <dl>
                       <dt>Status</dt>
@@ -289,11 +291,6 @@
                       <span class="secno">3.
                       </span>Overzicht
                     </h2>
-                    {% if data.metadata.autotranslate %}
-                      <div class="disclaimer">
-                        <p>Dit document is een vertaling van het {{ data.metadata.primaryLanguage }} naar het Nederlands.</p>
-                        <br></div>
-                      {% endif %}
                       <div class="vl-region vl-region--no-space-top">
                         <p>Deze sectie somt alle klassen en eigenschappen van het vocabularium op.</p>
                         <p>

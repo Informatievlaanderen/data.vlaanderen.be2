@@ -40,14 +40,16 @@
       <div class="vl-region">
         <div class="vl-layout vl-layout--wide">
           <div class="vl-grid u-hr">
+                {% if data.metadata.autotranslate %}
+                  <div class="vl-col--12-12">
+                    <div class="vl-alert vl-alert--info" role="status">
+                      <p>This document is an automatic translation from {{ data.metadata.primaryLanguage }} to English.</p>
+                    </div>
+                  </div>
+                {% endif %}
             <div class="vl-col--9-12 vl-col--1-1--s">
               <div class="head" role="contentinfo" id="respecHeader">
                 <h1 class="vl-title--h1 title p-name" property="dcterms:title" id="title">{{ data.metadata.title }}</h1>
-                {% if data.metadata.autotranslate %}
-                  <div class="disclaimer">
-                    <p>This document is a translation from {{ data.metadata.primaryLanguage }} to English.</p>
-                    <br></div>
-                  {% endif %}
                   {% if data.metadata.prefix %}
                     <h2 class="vl-title--h2" id="subtitle" property="bibo:subtitle">Specification of
                       <em>{{ data.metadata.prefix }}</em>
@@ -291,11 +293,6 @@
                       <span class="secno">3.
                       </span>Overview
                     </h2>
-                    {% if data.metadata.autotranslate %}
-                      <div class="disclaimer">
-                        <p>This document is a translation from {{ data.metadata.primaryLanguage }} to English.</p>
-                        <br></div>
-                      {% endif %}
                       <div class="vl-region vl-region--no-space-top">
                         <p>This section lists all the classes and properties of the vocabulary.</p>
                         <p>

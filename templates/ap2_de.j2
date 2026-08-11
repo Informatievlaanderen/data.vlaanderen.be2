@@ -47,12 +47,14 @@
             <div class="vl-region">
                <div class="vl-layout">
                   <div class="vl-grid u-hr">
-                     <div class="vl-col--9-12 vl-col--1-1--s">
                         {% if data.metadata.autotranslate %}
-                           <div class="disclaimer">
-                              <p>Dieses Dokument ist eine Übersetzung von {{ data.metadata.primaryLanguage }} ins Deutsche.</p>
+                           <div class="vl-col--12-12">
+                              <div class="vl-alert vl-alert--info" role="status">
+                                 <p>Dieses Dokument ist eine automatische Übersetzung von {{ data.metadata.primaryLanguage }} ins Deutsche.</p>
+                              </div>
                            </div>
                         {% endif %}
+                     <div class="vl-col--9-12 vl-col--1-1--s">
                         <div class="head" role="contentinfo" id="respecHeader">
                            <h1 class="vl-title--h1 p-name" property="dcterms:title" id="title">{{ data.metadata.title }}</h1>
                            <div class="head">
@@ -264,11 +266,6 @@
                      </div>
                      <div class="vl-region vl-region.vl-region--no-space-top" id="overview">
                         <h2 class="vl-title--h2">Überblick</h2>
-                        {% if data.metadata.autotranslate %}
-                           <div class="disclaimer">
-                              <p>Dieses Dokument ist eine Übersetzung von {{ data.metadata.primaryLanguage }} ins Deutsche.</p>
-                              <br></div>
-                           {% endif %}
                            <div class="vl-grid">
                               <div class="vl-col--9-12 vl-col--1-1--s vl-typography">
                                  {% if ( ( data.classes | length > 0)   ) %}
@@ -566,8 +563,8 @@
                            (nicht normativ)
                            {% block jsonld %}
                               <p>Eine wiederverwendbare JSON-LD-Kontextdefinition für dieses Anwendungsprofil finden Sie unter:
-                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld" target="_blank">
-                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld</a>
+                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld" target="_blank">
+                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld</a>
                               </p>
                            {% endblock %}
                         </div>
@@ -576,8 +573,8 @@
                            (nicht normativ)
                            {% block shacl %}
                               <p>Eine wiederverwendbare SHACL-Vorlagendefinition für dieses Anwendungsprofil finden Sie unter:
-                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl" target="_blank">
-                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl</a>
+                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl" target="_blank">
+                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl</a>
                               </p>
                            {% endblock %}
                         </div>

@@ -47,12 +47,14 @@
             <div class="vl-region">
                <div class="vl-layout vl-layout--wide">
                   <div class="vl-grid u-hr">
-                     <div class="vl-col--9-12 vl-col--1-1--s">
-                        {% if data.metadata.autotranslate %}
+                     {% if data.metadata.autotranslate %}
+                        <div class="vl-col--12-12">
                            <div class="vl-alert vl-alert--info" role="status">
-                              <p>This document is a translation from {{ data.metadata.primaryLanguage }} to English.</p>
+                              <p>This document is an automatic translation from {{ data.metadata.primaryLanguage }} to English.</p>
                            </div>
-                        {% endif %}
+                        </div>
+                     {% endif %}
+                     <div class="vl-col--9-12 vl-col--1-1--s">
                         <div class="head" role="contentinfo" id="respecHeader">
                            <h1 class="vl-title--h1 title p-name" property="dcterms:title" id="title">{{ data.metadata.title }}</h1>
                            <div class="head">
@@ -258,11 +260,6 @@
                      </div>
                      <div class="vl-region vl-region--no-space-top" id="overview">
                         <h2 class="vl-title--h2">Overview</h2>
-                        {% if data.metadata.autotranslate %}
-                           <div class="vl-alert vl-alert--info" role="status">
-                              <p>This document is a translation from {{ data.metadata.primaryLanguage }} to English.</p>
-                           </div>
-                        {% endif %}
                            <div class="vl-grid">
                               <div class="vl-col--9-12 vl-col--1-1--s vl-typography">
                                  {% if ( ( data.classes | length > 0)   ) %}
