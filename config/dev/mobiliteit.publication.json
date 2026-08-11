@@ -182,7 +182,7 @@
     "name": "tijdstabellen-ap",
     "filename": "config/OSLO-DienstregelingEnPlanning-NL.json",
     "prefix": "mobiliteit",
-    "dummy": "2025-08-11 17:17:00"
+    "dummy": "2025-08-11 17:20:00"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen",
