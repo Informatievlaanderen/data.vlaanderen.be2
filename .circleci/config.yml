@@ -433,14 +433,14 @@ jobs:
             gem install linkeddata
             mkdir -p /tmp/workspace/target
       - run:
-          name: Convert -SHACL.jsonld file to -SHACL.ttl files
+          name: Convert SHACL JSON-LD files to TTL files
           command: |
-            find /tmp/workspace/target -name \*-SHACL.jsonld -type f | $PWD/scripts/convert_to_any.sh turtle
+            find /tmp/workspace/target -type f \( -name '*-SHACL.jsonld' -o -name '*-SHACL_*.jsonld' \) | $PWD/scripts/convert_to_any.sh turtle
       - run:
-          name: List the -SHACL.ttl and context files found
+          name: List the SHACL TTL and context files found
           command: |
-            if [ -d /tmp/workspace/target ] ; then find /tmp/workspace/target -name \*-SHACL.ttl -type f ; fi
-            if [ -d /tmp/workspace/target ] ; then find /tmp/workspace/target -name \*.ttl -type f ; fi
+            if [ -d /tmp/workspace/target ] ; then find /tmp/workspace/target -type f \( -name '*-SHACL.ttl' -o -name '*-SHACL_*.ttl' \) ; fi
+            if [ -d /tmp/workspace/target ] ; then find /tmp/workspace/target -type f -name '*.ttl' ; fi
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
