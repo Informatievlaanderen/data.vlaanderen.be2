@@ -562,8 +562,8 @@
                            (niet normatief)
                            {% block jsonld %}
                               <p>Een herbruikbare JSON-LD context definitie voor dit applicatieprofiel is terug te vinden op:
-                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld" target="_blank">
-                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld</a>
+                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld" target="_blank">
+                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld</a>
                               </p>
                            {% endblock %}
                         </div>
@@ -572,8 +572,8 @@
                            (niet normatief)
                            {% block shacl %}
                               <p>Een herbruikbare SHACL template definitie voor dit applicatieprofiel is terug te vinden op:
-                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl" target="_blank">
-                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl</a>
+                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl" target="_blank">
+                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl</a>
                               </p>
                            {% endblock %}
                         </div>

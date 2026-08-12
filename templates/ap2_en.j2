@@ -560,8 +560,8 @@
                                  (non-normative)
                                  {% block jsonld %}
                                     <p>A reusable JSON-LD context definition for this application profile is retrievable at:
-                                       <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld" target="_blank">
-                                          {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld</a>
+                                       <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld" target="_blank">
+                                          {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld</a>
                                     </p>
                                  {% endblock %}
                               </div>
@@ -570,8 +570,8 @@
                                  (non-normative)
                                  {% block shacl %}
                                     <p>A reusable SHACL template for this application profile is retrievable at:
-                                       <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl" target="_blank">
-                                          {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl</a>
+                                       <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl" target="_blank">
+                                          {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl</a>
                                     </p>
                                  {% endblock %}
                               </div>

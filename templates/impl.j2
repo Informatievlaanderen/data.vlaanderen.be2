@@ -560,8 +560,8 @@
                            (niet normatief)
                            {% block jsonld %}
                               <p>Een herbruikbare JSON-LD context definitie voor dit implementatiemodel is terug te vinden op:
-                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld" target="_blank">
-                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld</a>
+                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld" target="_blank">
+                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld</a>
                               </p>
                            {% endblock %}
                         </div>
@@ -570,8 +570,8 @@
                            (niet normatief)
                            {% block shacl %}
                               <p>Een herbruikbare SHACL template definitie voor dit implementatiemodel is terug te vinden op:
-                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl" target="_blank">
-                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl</a>
+                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl" target="_blank">
+                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl</a>
                               </p>
                            {% endblock %}
                         </div>
@@ -581,8 +581,8 @@
                            {% block swagger %}
                               <p>Dit bestand bevat de herbruikbare OpenAPI componenten gebaseerd op de klassen en eigenschappen van dit implementatiemodel:</p>
                               <p>
-                                 <a href="{{ data.metadata.documentroot }}/swagger/components{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.json" target="_blank">
-                                    {{ data.metadata.documentroot }}/swagger/components{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.json</a>
+                                 <a href="{{ data.metadata.documentroot }}/swagger/components.json" target="_blank">
+                                    {{ data.metadata.documentroot }}/swagger/components.json</a>
                               </p>
                            {% endblock %}
                         </div>

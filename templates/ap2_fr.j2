@@ -562,8 +562,8 @@
                            (non normatif)
                            {% block jsonld %}
                               <p>Une définition de contexte JSON-LD réutilisable pour ce profil d'application est disponible à l'adresse suivante:
-                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld" target="_blank">
-                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld</a>
+                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld" target="_blank">
+                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld</a>
                               </p>
                            {% endblock %}
                         </div>
@@ -572,8 +572,8 @@
                            (non normatif)
                            {% block shacl %}
                               <p>Une définition de modèle SHACL réutilisable pour ce profil d'application est disponible à l'adresse suivante :
-                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl" target="_blank">
-                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl</a>
+                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl" target="_blank">
+                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl</a>
                               </p>
                            {% endblock %}
                         </div>

@@ -560,8 +560,8 @@
                            (nicht normativ)
                            {% block jsonld %}
                               <p>Eine wiederverwendbare JSON-LD-Kontextdefinition für dieses Implementierungsmodell ist verfügbar unter:
-                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld" target="_blank">
-                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.jsonld</a>
+                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld" target="_blank">
+                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld</a>
                               </p>
                            {% endblock %}
                         </div>
@@ -570,8 +570,8 @@
                            (nicht normativ)
                            {% block shacl %}
                               <p>Eine wiederverwendbare SHACL-Vorlagendefinition für dieses Implementierungsmodell ist verfügbar unter:
-                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl" target="_blank">
-                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.ttl</a>
+                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl" target="_blank">
+                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl</a>
                               </p>
                            {% endblock %}
                         </div>
@@ -581,8 +581,8 @@
                            {% block swagger %}
                               <p>Diese Datei enthält die wiederverwendbaren OpenAPI-Komponenten basierend auf den Klassen und Eigenschaften dieses Implementierungsmodells:</p>
                               <p>
-                                 <a href="{{ data.metadata.documentroot }}/swagger/components{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.json" target="_blank">
-                                    {{ data.metadata.documentroot }}/swagger/components{% if data.metadata.autotranslate %}_{{ language }}{% endif %}.json</a>
+                                 <a href="{{ data.metadata.documentroot }}/swagger/components.json" target="_blank">
+                                    {{ data.metadata.documentroot }}/swagger/components.json</a>
                               </p>
                            {% endblock %}
                         </div>
