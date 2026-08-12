@@ -85,10 +85,15 @@
                       <p>Dit document is een automatische vertaling van het {{ data.metadata.primaryLanguage }} naar het Nederlands.</p>
                     </div>
                   </div>
+                {% endif %}
             <div class="vl-col--9-12 vl-col--1-1--s">
               <div class="head" role="contentinfo" id="respecHeader">
                 <h1 class="vl-title--h1 title p-name" property="dcterms:title" id="title">{{ data.metadata.title }}</h1>
-                {% endif %}
+                  {% if data.metadata.prefix %}
+                    <h2 class="vl-title--h2" id="subtitle" property="bibo:subtitle">Specificatie van
+                      <em>{{ data.metadata.prefix }}</em>
+                    </h2>
+                  {% endif %}
                   <div class="head">
                     <dl>
                       <dt>Status</dt>
