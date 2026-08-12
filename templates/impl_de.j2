@@ -42,6 +42,41 @@
             <div class="vl-skiplink">
                <a rel="nofollow noreferrer" href="#main">Direkt zum Inhalt</a>
             </div>
+            <div class="vl-region vl-region--no-space-top vl-typography" id="languageSwitcher">
+               <nav aria-label="Sprachauswahl">
+                  <p>
+                     {% set languageLabels = {'nl': 'Nederlands', 'en': 'English', 'de': 'Deutsch', 'fr': 'Français'} %}
+                     {% if data.metadata.availableLanguages and (data.metadata.availableLanguages | length > 0) %}
+                        {% set availableTranslations = data.metadata.availableLanguages %}
+                     {% elif config.translation and (config.translation | length > 0) %}
+                        {% set availableTranslations = config.translation %}
+                     {% else %}
+                        {% set availableTranslations = [
+                           {'language': 'nl'},
+                           {'language': 'en'},
+                           {'language': 'de'},
+                           {'language': 'fr'}
+                        ] %}
+                     {% endif %}
+                     <strong>Sprache wählen:</strong>
+                     {% for translation in availableTranslations %}
+                        {% if translation is string %}
+                           {% set code = translation %}
+                        {% else %}
+                           {% set code = translation.language %}
+                        {% endif %}
+                        {% set label = languageLabels[code] %}
+                        {% if not label %}{% set label = code %}{% endif %}
+                        {% if code == language %}
+                           <strong>{{ label }}</strong>
+                        {% else %}
+                           <a class="vl-link" href="index_{{ code }}.html">{{ label }}</a>
+                        {% endif %}
+                        {% if not loop.last %} | {% endif %}
+                     {% endfor %}
+                  </p>
+               </nav>
+            </div>
          </div>
          <div class="vl-page">
             <div class="vl-region">
