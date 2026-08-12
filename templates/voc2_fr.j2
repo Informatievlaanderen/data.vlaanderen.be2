@@ -41,40 +41,8 @@
         <div class="vl-skiplink">
           <a rel="nofollow noreferrer" href="#main">Aller au contenu principal</a>
         </div>
-        <div class="vl-region vl-region--no-space-top vl-typography" id="languageSwitcher">
-          <nav aria-label="Sélecteur de langue">
-            <p>
-              {% set languageLabels = {'nl': 'Nederlands', 'en': 'English', 'de': 'Deutsch', 'fr': 'Français'} %}
-              {% if data.metadata.availableLanguages and (data.metadata.availableLanguages | length > 0) %}
-                {% set availableTranslations = data.metadata.availableLanguages %}
-              {% elif config.translation and (config.translation | length > 0) %}
-                {% set availableTranslations = config.translation %}
-              {% endif %}
-              {% set primeCode = availableTranslations[0] %}
-              {% if primeCode is not string %}{% set primeCode = primeCode.language %}{% endif %}
-
-              {% set firstTranslation = true %}
-              {% for translation in availableTranslations %}
-                {% if translation is string %}
-                  {% set code = translation %}
-                {% else %}
-                  {% set code = translation.language %}
-                {% endif %}
-                {% if code != language %}
-                  {% set label = languageLabels[code] %}
-                  {% if not label %}{% set label = code %}{% endif %}
-                  {% if not firstTranslation %} | {% endif %}
-                  {% if code == primeCode %}
-                  <a class="vl-link" href="./">{{ label }}</a>
-                  {% else %}
-                  <a class="vl-link" href="index_{{ code }}.html">{{ label }}</a>
-                  {% endif %}
-                  {% set firstTranslation = false %}
-                {% endif %}
-              {% endfor %}
-            </p>
-          </nav>
-        </div>
+        {% set langSwitcherLabel = "Sélecteur de langue" %}
+        {% include "_language-switcher.j2" %}
       </div>
       <div class="vl-region">
         <div class="vl-layout vl-layout--wide">
