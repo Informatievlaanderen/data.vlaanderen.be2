@@ -11,7 +11,7 @@
     "webuniversumgenerator": {
       "parameters": "--ignoreSkosConcept true"
     },
-    "dummy": "018"
+    "dummy": "019"
   },
   {
     "urlref": "/doc/vocabularium/klantvolgsysteem1/ontwerpstandaard/2025-11-04",
@@ -20,19 +20,19 @@
     "name": "KVS-R1",
     "filename": "config/KVS-voc.json",
     "directory": "/doc/vocabularium/klantvolgsysteem/ontwerpstandaard/2025-11-04",
-    "dummy": "018",
+    "dummy": "019",
     "disabled": false
   },
   {
     "urlref": "/ns/klantvolgsysteem1",
     "seealso": "/doc/vocabularium/klantvolgsysteem1/ontwerpstandaard/2025-11-04",
-    "dummy": "018",
+    "dummy": "019",
     "type": "voc"
   },
   {
     "urlref": "/doc/implementatiemodel/klantvolgsysteem1",
     "seealso": "/doc/implementatiemodel/klantvolgsysteem1/ontwerpstandaard/2025-11-04",
-    "dummy": "018",
+    "dummy": "019",
     "type": "ap"
   }
 ]

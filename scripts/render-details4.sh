@@ -392,7 +392,7 @@ render_metadata() {
         fi
         
         AVAILABLE_LANGUAGES=("${PRIMELANGUAGE}")
-        for lang in ${GOALLANGUAGE}; do
+        for lang in $(jq -r '.otherLanguages[]' ${CONFIGDIR}/config.json); do
             generate_for_language ${lang} ${JSONI}
             if [ "${GENERATEDARTEFACT}" == "true" ] || [ "${GENERATEDARTEFACT}" == true ]; then
                 AVAILABLE_LANGUAGES+=("${lang}")
