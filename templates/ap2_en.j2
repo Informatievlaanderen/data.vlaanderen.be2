@@ -40,7 +40,35 @@
       <div class="vl-page">
          <div class="vl-layout">
             <div class="vl-skiplink">
-               <a rel="nofollow noreferrer" href="#main">Skip this section and go to general content</a>
+               <a rel="nofollow noreferrer" href="#main">Skip and go to main content</a>
+            </div>
+            <div class="vl-region vl-region--no-space-top vl-typography" id="languageSwitcher">
+               <nav aria-label="Language switcher">
+                  <p>
+                     {% set languageLabels = {'nl': 'Nederlands', 'en': 'English', 'de': 'Deutsch', 'fr': 'Français'} %}
+                     {% if data.metadata.availableLanguages and (data.metadata.availableLanguages | length > 0) %}
+                        {% set availableTranslations = data.metadata.availableLanguages %}
+                     {% elif config.translation and (config.translation | length > 0) %}
+                        {% set availableTranslations = config.translation %}
+                     {% endif %}
+                     
+                     {% set firstTranslation = true %}
+                     {% for translation in availableTranslations %}
+                        {% if translation is string %}
+                           {% set code = translation %}
+                        {% else %}
+                           {% set code = translation.language %}
+                        {% endif %}
+                        {% if code != language %}
+                           {% set label = languageLabels[code] %}
+                           {% if not label %}{% set label = code %}{% endif %}
+                           {% if not firstTranslation %} | {% endif %}
+                           <a class="vl-link" href="index_{{ code }}.html">{{ label }}</a>
+                           {% set firstTranslation = false %}
+                        {% endif %}
+                     {% endfor %}
+                  </p>
+               </nav>
             </div>
          </div>
          <div class="vl-page">
