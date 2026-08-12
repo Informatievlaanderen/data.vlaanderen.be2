@@ -50,29 +50,22 @@
                         {% set availableTranslations = data.metadata.availableLanguages %}
                      {% elif config.translation and (config.translation | length > 0) %}
                         {% set availableTranslations = config.translation %}
-                     {% else %}
-                        {% set availableTranslations = [
-                           {'language': 'nl'},
-                           {'language': 'en'},
-                           {'language': 'de'},
-                           {'language': 'fr'}
-                        ] %}
                      {% endif %}
                      
+                     {% set firstTranslation = true %}
                      {% for translation in availableTranslations %}
                         {% if translation is string %}
                            {% set code = translation %}
                         {% else %}
                            {% set code = translation.language %}
                         {% endif %}
-                        {% set label = languageLabels[code] %}
-                        {% if not label %}{% set label = code %}{% endif %}
-                        {% if code == language %}
-                           <strong>{{ label }}</strong>
-                        {% else %}
+                        {% if code != language %}
+                           {% set label = languageLabels[code] %}
+                           {% if not label %}{% set label = code %}{% endif %}
+                           {% if not firstTranslation %} | {% endif %}
                            <a class="vl-link" href="index_{{ code }}.html">{{ label }}</a>
+                           {% set firstTranslation = false %}
                         {% endif %}
-                        {% if not loop.last %} | {% endif %}
                      {% endfor %}
                   </p>
                </nav>

@@ -377,10 +377,10 @@ render_metadata() {
     echo "${REPORTLINEPREFIX}metadata for language ${GOALLANGUAGE} ${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
     
-    OTHER_LANGS=$(jq -r '.otherLanguages | join(",")' ${CONFIGDIR}/config.json 2>/dev/null || echo "")
+    LANGS=$(jq -r '.otherLanguages | join(",")' ${CONFIGDIR}/config.json 2>/dev/null || echo "")
     ARGS=( -i "${JSONI}" -g "${PRIMELANGUAGE}" -m "${GOALLANGUAGE}" -h "${HOSTNAME}" -r "/${DROOT}" -u "${URIDOMAIN}" -o "${METAOUTPUT}" -p "${REPORTLINEPREFIX}" )
-    if [ -n "${OTHER_LANGS}" ]; then
-        ARGS+=( -l "${OTHER_LANGS}" )
+    if [ -n "${LANGS}" ]; then
+        ARGS+=( -l "${LANGS}" )
     fi
     if ! node /app/html-metadata-generator.js "${ARGS[@]}" &>>"${REPORTFILE}"; then
         echo "RENDER-DETAILS: failed"
