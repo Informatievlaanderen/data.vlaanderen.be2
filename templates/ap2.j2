@@ -36,35 +36,6 @@
          <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/b0dae312-e7a6-4612-978a-f0e3b2d975bf/embed"></script>
          <!-- end global header-->
       </div>
-      <!-- Language switcher -->
-      {% if data.metadata.availableLanguages and (data.metadata.availableLanguages | length > 0) %}
-      <div class="lang-bar" role="region" aria-label="Taalkeuze">
-         {% set flagMap = {'nl': '🇳🇱', 'en': '🇬🇧', 'de': '🇩🇪', 'fr': '🇫🇷'} %}
-         {% set labelMap = {'nl': 'Nederlands', 'en': 'English', 'de': 'Deutsch', 'fr': 'Français'} %}
-         {% set availableTranslations = data.metadata.availableLanguages %}
-         {% set primeCode = availableTranslations[0] %}
-         {% if primeCode is not string %}{% set primeCode = primeCode.language %}{% endif %}
-         {% for translation in availableTranslations %}
-            {% if translation is string %}
-               {% set code = translation %}
-            {% else %}
-               {% set code = translation.language %}
-            {% endif %}
-            {% set flag = flagMap[code] | default('🌐') %}
-            {% set label = labelMap[code] | default(code) %}
-            {% if code == language %}
-               <span class="lang-bar__pill lang-bar__pill--active" aria-current="true">
-                  <span aria-hidden="true">{{ flag }}</span> {{ label }}
-               </span>
-            {% else %}
-               {% if code == primeCode %}{% set href = './' %}{% else %}{% set href = 'index_' ~ code ~ '.html' %}{% endif %}
-               <a class="lang-bar__pill" href="{{ href }}">
-                  <span aria-hidden="true">{{ flag }}</span> {{ label }}
-               </a>
-            {% endif %}
-         {% endfor %}
-      </div>
-      {% endif %}
       <!-- Start page content -->
       <div class="vl-page">
          <div class="vl-layout">

@@ -1,34 +1,45 @@
-<div class="vl-region vl-region--no-space-top vl-region--no-space-bottom" id="languageSwitcher">
-  <nav aria-label="{{ langSwitcherLabel }}">
-    <div style="margin:0; padding:0.25rem 0; font-size:0.95em;">
-      {% set languageLabels = {'nl': 'Nederlands', 'en': 'English', 'de': 'Deutsch', 'fr': 'Français'} %}
       {% if data.metadata.availableLanguages and (data.metadata.availableLanguages | length > 0) %}
-        {% set availableTranslations = data.metadata.availableLanguages %}
-      {% elif config.translation and (config.translation | length > 0) %}
-        {% set availableTranslations = config.translation %}
-      {% endif %}
-      {% set primeCode = availableTranslations[0] %}
-      {% if primeCode is not string %}{% set primeCode = primeCode.language %}{% endif %}
+      <div class="lang-bar" role="region" aria-label="Language switcher">
+         {% set flagMap = {'nl': '🇳🇱', 'en': '🇬🇧', 'de': '🇩🇪', 'fr': '🇫🇷'} %}
+         {% set availableTranslations = data.metadata.availableLanguages %}
+         {% set primeCode = availableTranslations[0] %}
+         {% if primeCode is not string %}{% set primeCode = primeCode.language %}{% endif %}
+         {% for translation in availableTranslations %}
+            {% if translation is string %}
+               {% set code = translation %}
+            {% else %}
+               {% set code = translation.language %}
+            {% endif %}
+            {% set flag = flagMap[code] | default('🌐') %}
+            {% if code == language %}
+               <span class="lang-bar__pill lang-bar__pill--active" aria-current="true">
+                  <span aria-hidden="true">{{ flag }}</span> {{ code }}
+               </span>
+            {% else %}
+               {% if code == primeCode %}{% set href = './' %}{% else %}{% set href = 'index_' ~ code ~ '.html' %}{% endif %}
+               <a class="lang-bar__pill" href="{{ href }}">
+                  <span aria-hidden="true">{{ flag }}</span> {{ code }}
+               </a>
+            {% endif %}
+         {% endfor %}
+      </div>
 
-      {% set firstTranslation = true %}
-      {% for translation in availableTranslations %}
-        {% if translation is string %}
-          {% set code = translation %}
-        {% else %}
-          {% set code = translation.language %}
-        {% endif %}
-        {% if code != language %}
-          {% set label = languageLabels[code] %}
-          {% if not label %}{% set label = code %}{% endif %}
-          {% if not firstTranslation %} | {% endif %}
-          {% if code == primeCode %}
-          <a class="vl-link" href="./">{{ label }}</a>
-          {% else %}
-          <a class="vl-link" href="index_{{ code }}.html">{{ label }}</a>
-          {% endif %}
-          {% set firstTranslation = false %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  </nav>
-</div>
+      <style>
+                     .lang-bar {
+                        position: fixed;
+                        top: 5.5rem;
+                        right: 1rem;
+                        z-index: 9999;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        gap: 0.5rem;
+                        background: #ffffff;
+                        border: 1px solid #cbd2da;
+                        padding: 0.5rem 0.75rem;
+                     }
+                     .lang-bar__pill {
+                        text-decoration:none;
+                     }
+      </style>
+      {% endif %}

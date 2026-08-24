@@ -36,44 +36,14 @@
          <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/b0dae312-e7a6-4612-978a-f0e3b2d975bf/embed"></script>
          <!-- end global header-->
       </div>
-      <!-- Language switcher -->
-      {% if data.metadata.availableLanguages and (data.metadata.availableLanguages | length > 0) %}
-      <div class="lang-bar" role="region" aria-label="Language switcher">
-         <span class="lang-bar__title">Language:</span>
-         {% set flagMap = {'nl': '🇳🇱', 'en': '🇬🇧', 'de': '🇩🇪', 'fr': '🇫🇷'} %}
-         {% set labelMap = {'nl': 'Nederlands', 'en': 'English', 'de': 'Deutsch', 'fr': 'Français'} %}
-         {% set availableTranslations = data.metadata.availableLanguages %}
-         {% set primeCode = availableTranslations[0] %}
-         {% if primeCode is not string %}{% set primeCode = primeCode.language %}{% endif %}
-         {% for translation in availableTranslations %}
-            {% if translation is string %}
-               {% set code = translation %}
-            {% else %}
-               {% set code = translation.language %}
-            {% endif %}
-            {% set flag = flagMap[code] | default('🌐') %}
-            {% set label = labelMap[code] | default(code) %}
-            {% if code == language %}
-               <span class="lang-bar__pill lang-bar__pill--active" aria-current="true">
-                  <span aria-hidden="true">{{ flag }}</span> {{ label }}
-               </span>
-            {% else %}
-               {% if code == primeCode %}{% set href = './' %}{% else %}{% set href = 'index_' ~ code ~ '.html' %}{% endif %}
-               <a class="lang-bar__pill" href="{{ href }}">
-                  <span aria-hidden="true">{{ flag }}</span> {{ label }}
-               </a>
-            {% endif %}
-         {% endfor %}
-      </div>
-      {% endif %}
       <!-- Start page content -->
+      {% set langSwitcherLabel = "Language switcher" %}
+      {% include "_language-switcher.j2" %}
       <div class="vl-page">
          <div class="vl-layout">
             <div class="vl-skiplink">
                <a rel="nofollow noreferrer" href="#main">Skip and go to main content</a>
             </div>
-            {% set langSwitcherLabel = "Language switcher" %}
-            {% include "_language-switcher.j2" %}
          </div>
          <div class="vl-page">
             <div class="vl-region">
@@ -88,9 +58,7 @@
                                  The official version is available in {{ data.metadata.primaryLanguage }}.
                               </p>
                            </div>
-                        </div>
-                     {% endif %}
-                     <div class="vl-col--9-12 vl-col--1-1--s">
+                        {% endif %}
                         <div class="head" role="contentinfo" id="respecHeader">
                            <h1 class="vl-title--h1 p-name" property="dcterms:title" id="title">{{ data.metadata.title }}</h1>
                            <div class="head">
@@ -302,9 +270,6 @@
                      </div>
                      <div class="vl-region vl-region.vl-region--no-space-top" id="overview">
                         <h2 class="vl-title--h2">Overview</h2>
-<<<<<<< Updated upstream
-
-=======
                         {% if data.metadata.autotranslate %}
                            <div class="vl-alert vl-alert--warning" role="alert">
                               <p>
@@ -314,7 +279,6 @@
                               </p>
                            </div>
                         {% endif %}
->>>>>>> Stashed changes
                            <div class="vl-grid">
                               <div class="vl-col--9-12 vl-col--1-1--s vl-typography">
                                  {% if ( ( data.classes | length > 0)   ) %}
@@ -811,21 +775,21 @@
                         max-width: 128rem;
                      }
                      .lang-bar {
-                        position: fixed;
-                        top: 4rem;
-                        right: 1rem;
-                        z-index: 9999;
-                        display: flex;
-                        flex-wrap: wrap;
-                        align-items: center;
-                        gap: 0.5rem;
-                        background: #ffffff;
-                        border: 1px solid #cbd2da;
-                        padding: 0.5rem 0.75rem;
-                     }
-                     .lang-bar__pill {
-                        text-decoration:none;
-                     }
+                           position: fixed;
+                           top: 5.5rem;
+                           right: 1rem;
+                           z-index: 9999;
+                           display: flex;
+                           flex-wrap: wrap;
+                           align-items: center;
+                           gap: 0.5rem;
+                           background: #ffffff;
+                           border: 1px solid #cbd2da;
+                           padding: 0.5rem 0.75rem;
+                        }
+                        .lang-bar__pill {
+                           text-decoration:none;
+                        }
                   </style>
                   <script src="https://data.vlaanderen.be/assets/dist/core.js"></script>
                   <script src="https://data.vlaanderen.be/assets/dist/tooltip.js"></script>
