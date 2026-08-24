@@ -1170,6 +1170,7 @@ render_swagger() {
         --description "This is a inspirational OpenAPI Swagger publication" \
         --contextURL ${CONTEXT_URL} \
         --baseURL ${HOSTNAME} \
+        --primaryLanguage ${PRIMELANGUAGE} \
         ${PARAMETERS} \
         &>>${REPORTFILE}
         
