@@ -48,10 +48,12 @@
         <div class="vl-layout vl-layout--wide">
           <div class="vl-grid u-hr">
                 {% if data.metadata.autotranslate %}
-                  <div class="vl-col--12-12">
-                    <div class="vl-alert vl-alert--info" role="status">
-                      <p>Dit document is een automatische vertaling van het {{ data.metadata.primaryLanguage }} naar het Nederlands.</p>
-                    </div>
+                  <div class="vl-alert vl-alert--warning" role="alert">
+                     <p>
+                        <strong>Onofficiële automatische vertaling.</strong>
+                        Dit document is automatisch vertaald van het {{ data.metadata.primaryLanguage }} naar het Nederlands.
+                        De officiële versie is beschikbaar in het {{ data.metadata.primaryLanguage }}.
+                     </p>
                   </div>
                 {% endif %}
             <div class="vl-col--9-12 vl-col--1-1--s">
@@ -74,6 +76,10 @@
                       <dd>
                         <a href="{{ data.metadata.navigation.self }}">{{ data.metadata.navigation.self }}</a>
                       </dd>
+                      {% if data.metadata.recognizedLanguages %}
+                        <dt>Erkend in taal</dt>
+                        <dd>{{ data.metadata.recognizedLanguages | join(', ') | upper }}</dd>
+                      {% endif %}
                       {% if data.metadata.navigation.next %}
                         <dt>Volgende versie</dt>
                         <dd>
@@ -650,6 +656,22 @@
             }
             img.cc {
               width: 88px;
+            }
+            .lang-bar {
+               position: fixed;
+               top: 5.5rem;
+               right: 1rem;
+               z-index: 9999;
+               display: flex;
+               flex-wrap: wrap;
+               align-items: center;
+               gap: 0.5rem;
+               background: #ffffff;
+               border: 1px solid #cbd2da;
+               padding: 0.5rem 0.75rem;
+            }
+            .lang-bar__pill {
+               text-decoration:none;
             }
           </style>
         </body>
