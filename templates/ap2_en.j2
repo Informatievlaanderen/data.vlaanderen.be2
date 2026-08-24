@@ -36,6 +36,36 @@
          <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/b0dae312-e7a6-4612-978a-f0e3b2d975bf/embed"></script>
          <!-- end global header-->
       </div>
+      <!-- Language switcher -->
+      {% if data.metadata.availableLanguages and (data.metadata.availableLanguages | length > 0) %}
+      <div class="lang-bar" role="region" aria-label="Language switcher">
+         <span class="lang-bar__title">Language:</span>
+         {% set flagMap = {'nl': '🇳🇱', 'en': '🇬🇧', 'de': '🇩🇪', 'fr': '🇫🇷'} %}
+         {% set labelMap = {'nl': 'Nederlands', 'en': 'English', 'de': 'Deutsch', 'fr': 'Français'} %}
+         {% set availableTranslations = data.metadata.availableLanguages %}
+         {% set primeCode = availableTranslations[0] %}
+         {% if primeCode is not string %}{% set primeCode = primeCode.language %}{% endif %}
+         {% for translation in availableTranslations %}
+            {% if translation is string %}
+               {% set code = translation %}
+            {% else %}
+               {% set code = translation.language %}
+            {% endif %}
+            {% set flag = flagMap[code] | default('🌐') %}
+            {% set label = labelMap[code] | default(code) %}
+            {% if code == language %}
+               <span class="lang-bar__pill lang-bar__pill--active" aria-current="true">
+                  <span aria-hidden="true">{{ flag }}</span> {{ label }}
+               </span>
+            {% else %}
+               {% if code == primeCode %}{% set href = './' %}{% else %}{% set href = 'index_' ~ code ~ '.html' %}{% endif %}
+               <a class="lang-bar__pill" href="{{ href }}">
+                  <span aria-hidden="true">{{ flag }}</span> {{ label }}
+               </a>
+            {% endif %}
+         {% endfor %}
+      </div>
+      {% endif %}
       <!-- Start page content -->
       <div class="vl-page">
          <div class="vl-layout">
@@ -49,10 +79,14 @@
             <div class="vl-region">
                <div class="vl-layout">
                   <div class="vl-grid u-hr">
-                     {% if data.metadata.autotranslate %}
-                        <div class="vl-col--12-12">
-                           <div class="vl-alert vl-alert--info" role="status">
-                              <p>This document is an automatic translation from {{ data.metadata.primaryLanguage }} to English.</p>
+                     <div class="vl-col--9-12 vl-col--1-1--s">
+                        {% if data.metadata.autotranslate %}
+                           <div class="vl-alert vl-alert--warning" role="alert">
+                              <p>
+                                 <strong>Unofficial automatic translation.</strong>
+                                 This document has been automatically translated from {{ data.metadata.primaryLanguage }} to English.
+                                 The official version is available in {{ data.metadata.primaryLanguage }}.
+                              </p>
                            </div>
                         </div>
                      {% endif %}
@@ -71,6 +105,10 @@
                                  <dd>
                                     <a href="{{ data.metadata.navigation.self }}">{{ data.metadata.navigation.self }}</a>
                                  </dd>
+                                 {% if data.metadata.recognizedLanguages %}
+                                    <dt>Recognized in language</dt>
+                                    <dd>{{ data.metadata.recognizedLanguages | join(', ') | upper }}</dd>
+                                 {% endif %}
                                  {% if data.metadata.navigation.next %}
                                     <dt>Next version</dt>
                                     <dd>
@@ -264,7 +302,19 @@
                      </div>
                      <div class="vl-region vl-region.vl-region--no-space-top" id="overview">
                         <h2 class="vl-title--h2">Overview</h2>
+<<<<<<< Updated upstream
 
+=======
+                        {% if data.metadata.autotranslate %}
+                           <div class="vl-alert vl-alert--warning" role="alert">
+                              <p>
+                                 <strong>Unofficial automatic translation.</strong>
+                                 This document has been automatically translated from {{ data.metadata.primaryLanguage }} to English.
+                                 The official version is available in {{ data.metadata.primaryLanguage }}.
+                              </p>
+                           </div>
+                        {% endif %}
+>>>>>>> Stashed changes
                            <div class="vl-grid">
                               <div class="vl-col--9-12 vl-col--1-1--s vl-typography">
                                  {% if ( ( data.classes | length > 0)   ) %}
@@ -727,38 +777,60 @@
                      a[href]:hover {
                         background: #ffa
                      }
-                  }
-                  p {
-                     text-align: justify;
-                  }
-                  tr:nth-child(even) td {
-                     background-color: #eee;
-                  }
-                  dt,
-                  dd {
-                     margin-top: 0;
-                     margin-bottom: 0
-                  } /* opera 3.50 */
-                  dt {
-                     font-weight: bold
-                  }
-                  pre,
-                  code {
-                     font-family: monospace
-                  } /* navigator 4 requires this */
-                  em {
-                     font-style: italic;
-                  }
-                  img {
-                     width: 100%;
-                  }
-                  .vl-tooltip {
-                     max-width: 128rem;
-                  }
-               </style>
-               <script src="https://data.vlaanderen.be/assets/dist/core.js"></script>
-               <script src="https://data.vlaanderen.be/assets/dist/tooltip.js"></script>
-            </body>
+                     @media screen {
+                        /* hide from IE3 */
+                        a[href]:hover {
+                           background: #ffa
+                        }
+                     }
+                     p {
+                        text-align: justify;
+                     }
+                     tr:nth-child(even) td {
+                        background-color: #eee;
+                     }
+                     dt,
+                     dd {
+                        margin-top: 0;
+                        margin-bottom: 0
+                     } /* opera 3.50 */
+                     dt {
+                        font-weight: bold
+                     }
+                     pre,
+                     code {
+                        font-family: monospace
+                     } /* navigator 4 requires this */
+                     em {
+                        font-style: italic;
+                     }
+                     img {
+                        width: 100%;
+                     }
+                     .vl-tooltip {
+                        max-width: 128rem;
+                     }
+                     .lang-bar {
+                        position: fixed;
+                        top: 4rem;
+                        right: 1rem;
+                        z-index: 9999;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        gap: 0.5rem;
+                        background: #ffffff;
+                        border: 1px solid #cbd2da;
+                        padding: 0.5rem 0.75rem;
+                     }
+                     .lang-bar__pill {
+                        text-decoration:none;
+                     }
+                  </style>
+                  <script src="https://data.vlaanderen.be/assets/dist/core.js"></script>
+                  <script src="https://data.vlaanderen.be/assets/dist/tooltip.js"></script>
+               </body>
+            </html>
          </html>
       </html>
    </body>
