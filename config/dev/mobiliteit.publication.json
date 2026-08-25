@@ -88,7 +88,7 @@
     "dummy": "002"
   },
   {
-    "dummy": "2026-08-25 11:43:00",
+    "dummy": "2026-08-25 12:00:00",
     "urlref": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/ontwerpstandaard/pieter",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning",
     "branchtag": "feature/toolchain-compatibility",
