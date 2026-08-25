@@ -1,29 +1,29 @@
 [
   {
     "urlref": "/ns/voertuigregistratie",
-    "seealso": "/doc/vocabularium/voertuigregistratie/2026-07-31",
+    "seealso": "/doc/vocabularium/voertuigregistratie/ontwerpstandaard/2026-08-25",
     "type": "voc",
-    "dummy": "006"
+    "dummy": "007"
   },
   {
     "urlref": "/doc/vocabularium/voertuigregistratie",
-    "seealso": "/doc/vocabularium/voertuigregistratie/2026-07-31",
+    "seealso": "/doc/vocabularium/voertuigregistratie/ontwerpstandaard/2026-08-25",
     "type": "voc",
-    "dummy": "006"
+    "dummy": "007"
   },
   {
-    "urlref": "/ns/voertuigregistratie/2026-07-31",
-    "seealso": "/doc/vocabularium/voertuigregistratie/2026-07-31",
+    "urlref": "/ns/voertuigregistratie/2026-08-25",
+    "seealso": "/doc/vocabularium/voertuigregistratie/ontwerpstandaard/2026-08-25",
     "type": "voc",
-    "dummy": "006"
+    "dummy": "007"
   },
   {
-    "urlref": "/doc/vocabularium/voertuigregistratie/2026-07-31",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-trajectcontrole/",
-    "branchtag": "v0.1.1",
+    "urlref": "/doc/vocabularium/voertuigregistratie/ontwerpstandaard/2026-08-25",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-trajectcontrole",
+    "branchtag": "main",
     "name": "voertuigregistratie",
     "filename": "config/voertuigregistratie-voc.json",
-    "dummy": "006",
+    "dummy": "007",
     "navigation": {
     }
   }
