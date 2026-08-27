@@ -246,7 +246,11 @@ write_bundle_report() {
         
         if [ -f "$failed_cache" ] && [ -s "$failed_cache" ]; then
             while IFS= read -r failed_url; do
-                echo "error: failed to fetch external source ${failed_url}"
+                if [ "$IS_PRODUCTION" = "true" ]; then
+                    echo "error: failed to fetch external source ${failed_url}"
+                else
+                    echo "warning: failed to fetch external source ${failed_url}"
+                fi
             done < "$failed_cache"
         fi
     } > "$report_file"
