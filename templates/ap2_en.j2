@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTDXHTML1.0Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xml:lang="{{ language }}" lang="{{ language }}" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="{{ language }}" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p:
-                                                         http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
+                                                      http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
    <head>
       {% set name = data.metadata.title|lower|replace(' ', '-') %}
       <title>{{ data.metadata.title }}</title>
@@ -37,10 +37,12 @@
          <!-- end global header-->
       </div>
       <!-- Start page content -->
+      {% set langSwitcherLabel = "Language switcher" %}
+      {% include "_language-switcher.j2" %}
       <div class="vl-page">
          <div class="vl-layout">
             <div class="vl-skiplink">
-               <a rel="nofollow noreferrer" href="#main">Skip this section and go to general content</a>
+               <a rel="nofollow noreferrer" href="#main">Skip and go to main content</a>
             </div>
          </div>
          <div class="vl-page">
@@ -49,8 +51,12 @@
                   <div class="vl-grid u-hr">
                      <div class="vl-col--9-12 vl-col--1-1--s">
                         {% if data.metadata.autotranslate %}
-                           <div class="disclaimer">
-                              <p>This document is a translation from {{ data.metadata.primaryLanguage }} to English.</p>
+                           <div class="vl-alert vl-alert--warning" role="alert">
+                              <p>
+                                 <strong>Unofficial automatic translation.</strong>
+                                 This document has been automatically translated from {{ data.metadata.primaryLanguage }} to English.
+                                 The official version is available in {{ data.metadata.primaryLanguage }}.
+                              </p>
                            </div>
                         {% endif %}
                         <div class="head" role="contentinfo" id="respecHeader">
@@ -67,6 +73,10 @@
                                  <dd>
                                     <a href="{{ data.metadata.navigation.self }}">{{ data.metadata.navigation.self }}</a>
                                  </dd>
+                                 {% if data.metadata.recognizedLanguages %}
+                                    <dt>Recognized in language</dt>
+                                    <dd>{{ data.metadata.recognizedLanguages | join(', ') | upper }}</dd>
+                                 {% endif %}
                                  {% if data.metadata.navigation.next %}
                                     <dt>Next version</dt>
                                     <dd>
@@ -261,10 +271,14 @@
                      <div class="vl-region vl-region.vl-region--no-space-top" id="overview">
                         <h2 class="vl-title--h2">Overview</h2>
                         {% if data.metadata.autotranslate %}
-                           <div class="disclaimer">
-                              <p>This document is a translation from {{ data.metadata.primaryLanguage }} to English.</p>
-                              <br></div>
-                           {% endif %}
+                           <div class="vl-alert vl-alert--warning" role="alert">
+                              <p>
+                                 <strong>Unofficial automatic translation.</strong>
+                                 This document has been automatically translated from {{ data.metadata.primaryLanguage }} to English.
+                                 The official version is available in {{ data.metadata.primaryLanguage }}.
+                              </p>
+                           </div>
+                        {% endif %}
                            <div class="vl-grid">
                               <div class="vl-col--9-12 vl-col--1-1--s vl-typography">
                                  {% if ( ( data.classes | length > 0)   ) %}
@@ -673,54 +687,59 @@
                            </div>
                            <!-- End page content -->
                         </div>
-                     </div>
-                     <div class="vl-col--3-12 vl-col--12-12--s push--1-12" id="sideNav">
-                        <nav class="vl-side-navigation vl-u-sticky vl-region" id="sideNav">
-                           <div class="vl-side-navigation__content js-scrollspy">
-                              <div class="vl-side-navigation__group">
-                                 <ul>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#introduction">Introduction</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#summary">Summary</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#status">Status of this document</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#license">License</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#conformance">Conformance</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#overview">Overview</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#jsonld">JSON-LD Context</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#shacl">SHACL template</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#mappingext">External terminology</a>
-                                    </li>
-                                 </ul>
-                              </div>
+                  </div>
+                  <div class="vl-col--3-12 vl-col--12-12--s push--1-12" id="sideNav">
+                     <nav class="vl-side-navigation vl-u-sticky vl-region" id="sideNav">
+                        <div class="vl-side-navigation__content js-scrollspy">
+                           <div class="vl-side-navigation__group">
+                              <ul>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#introduction">Introduction</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#summary">Summary</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#status">Status of this document</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#license">License</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#conformance">Conformance</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#overview">Overview</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#jsonld">JSON-LD Context</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#shacl">SHACL template</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#mappingext">External terminology</a>
+                                 </li>
+                              </ul>
                            </div>
-                        </nav>
-                     </div>
+                        </div>
+                     </nav>
                   </div>
-                  <div
-                     id="vlaanderen-footer">
-                     <!-- insert your Vlaanderen-footer-code here -->
-                     <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/f1d7f80f-ad17-4f25-92b4-027a99785068/embed"></script>
-                     <!-- End global footer-->
-                  </div>
-                  <style>
-                     .external {
-                        line-break: anywhere;
+               </div>
+               <div
+                  id="vlaanderen-footer">
+                  <!-- insert your Vlaanderen-footer-code here -->
+                  <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/f1d7f80f-ad17-4f25-92b4-027a99785068/embed"></script>
+                  <!-- End global footer-->
+               </div>
+               <style>
+                  .external {
+                     line-break: anywhere;
+                  }
+                  @media screen {
+                     /* hide from IE3 */
+                     a[href]:hover {
+                        background: #ffa
                      }
                      @media screen {
                         /* hide from IE3 */
@@ -761,6 +780,6 @@
                </body>
             </html>
          </html>
-      </body>
-   </html>
+      </html>
+   </body>
 </html>

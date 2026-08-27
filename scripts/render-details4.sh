@@ -377,7 +377,12 @@ render_metadata() {
     echo "${REPORTLINEPREFIX}metadata for language ${GOALLANGUAGE} ${REPORTLINENEWLINE}" &>>${REPORTFILE}
     echo "${REPORTLINEPREFIX}-------------------------------------${REPORTLINENEWLINE}" &>>${REPORTFILE}
     
-    if ! node /app/html-metadata-generator.js -i ${JSONI} -g ${PRIMELANGUAGE} -m ${GOALLANGUAGE} -h ${HOSTNAME} -r /${DROOT} -u ${URIDOMAIN} -o ${METAOUTPUT} -p "${REPORTLINEPREFIX}" &>>${REPORTFILE}; then
+    LANGS=$(jq -r '.otherLanguages | join(",")' ${CONFIGDIR}/config.json 2>/dev/null || echo "")
+    ARGS=( -i "${JSONI}" -g "${PRIMELANGUAGE}" -m "${GOALLANGUAGE}" -h "${HOSTNAME}" -r "/${DROOT}" -u "${URIDOMAIN}" -o "${METAOUTPUT}" -p "${REPORTLINEPREFIX}" )
+    if [ -n "${LANGS}" ]; then
+        ARGS+=( -l "${LANGS}" )
+    fi
+    if ! node /app/html-metadata-generator.js "${ARGS[@]}" &>>"${REPORTFILE}"; then
         echo "RENDER-DETAILS: failed"
         execution_strickness
     else
@@ -385,6 +390,20 @@ render_metadata() {
         if [ -n "${BRANCHTAG}" ] && [ -f "${METAOUTPUT}" ]; then
             jq --arg bt "${BRANCHTAG}" '. + {"branchtag": $bt}' "${METAOUTPUT}" > /tmp/meta_bt.json && mv /tmp/meta_bt.json "${METAOUTPUT}"
         fi
+        
+        AVAILABLE_LANGUAGES=("${PRIMELANGUAGE}")
+        for lang in $(jq -r '.otherLanguages[]' ${CONFIGDIR}/config.json); do
+            generate_for_language ${lang} ${JSONI}
+            if [ "${GENERATEDARTEFACT}" == "true" ] || [ "${GENERATEDARTEFACT}" == true ]; then
+                AVAILABLE_LANGUAGES+=("${lang}")
+            fi
+        done
+        
+        if [ -f "${METAOUTPUT}" ]; then
+            AVAILABLE_JSON=$(printf '%s\n' "${AVAILABLE_LANGUAGES[@]}" | jq -R . | jq -s .)
+            jq --argjson availableLanguages "${AVAILABLE_JSON}" '. + {availableLanguages: $availableLanguages}' "${METAOUTPUT}" > /tmp/meta_avail.json && mv /tmp/meta_avail.json "${METAOUTPUT}"
+        fi
+        
         pretty_print_json ${METAOUTPUT}
     fi
     
@@ -417,7 +436,7 @@ validate_jsonld() {
             SPECTYPE="ApplicationProfile"
         ;;
     esac
-
+    
     generator_parameters jsonldvalidation ${JSONI}
     
     
@@ -1151,6 +1170,7 @@ render_swagger() {
         --description "This is a inspirational OpenAPI Swagger publication" \
         --contextURL ${CONTEXT_URL} \
         --baseURL ${HOSTNAME} \
+        # --primaryLanguage ${PRIMELANGUAGE} \
         ${PARAMETERS} \
         &>>${REPORTFILE}
         

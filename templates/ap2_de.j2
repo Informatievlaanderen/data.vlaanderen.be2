@@ -42,17 +42,23 @@
             <div class="vl-skiplink">
                <a rel="nofollow noreferrer" href="#main">Direkt zum Inhalt</a>
             </div>
+            {% set langSwitcherLabel = "Sprachauswahl" %}
+            {% include "_language-switcher.j2" %}
          </div>
          <div class="vl-page">
             <div class="vl-region">
                <div class="vl-layout">
                   <div class="vl-grid u-hr">
-                     <div class="vl-col--9-12 vl-col--1-1--s">
                         {% if data.metadata.autotranslate %}
-                           <div class="disclaimer">
-                              <p>Dieses Dokument ist eine Übersetzung von {{ data.metadata.primaryLanguage }} ins Deutsche.</p>
+                           <div class="vl-alert vl-alert--warning" role="alert">
+                              <p>
+                                 <strong>Inoffizielle automatische Übersetzung.</strong>
+                                 Dieses Dokument wurde automatisch von {{ data.metadata.primaryLanguage }} ins Deutsche übersetzt.
+                                 Die offizielle Version ist in {{ data.metadata.primaryLanguage }} verfügbar.
+                              </p>
                            </div>
                         {% endif %}
+                     <div class="vl-col--9-12 vl-col--1-1--s">
                         <div class="head" role="contentinfo" id="respecHeader">
                            <h1 class="vl-title--h1 p-name" property="dcterms:title" id="title">{{ data.metadata.title }}</h1>
                            <div class="head">
@@ -67,6 +73,10 @@
                                  <dd>
                                     <a href="{{ data.metadata.navigation.self }}">{{ data.metadata.navigation.self }}</a>
                                  </dd>
+                                 {% if data.metadata.recognizedLanguages %}
+                                    <dt>Anerkannt in Sprache</dt>
+                                    <dd>{{ data.metadata.recognizedLanguages | join(', ') | upper }}</dd>
+                                 {% endif %}
                                  {% if data.metadata.navigation.next %}
                                     <dt>Nächste Version</dt>
                                     <dd>
@@ -264,11 +274,6 @@
                      </div>
                      <div class="vl-region vl-region.vl-region--no-space-top" id="overview">
                         <h2 class="vl-title--h2">Überblick</h2>
-                        {% if data.metadata.autotranslate %}
-                           <div class="disclaimer">
-                              <p>Dieses Dokument ist eine Übersetzung von {{ data.metadata.primaryLanguage }} ins Deutsche.</p>
-                              <br></div>
-                           {% endif %}
                            <div class="vl-grid">
                               <div class="vl-col--9-12 vl-col--1-1--s vl-typography">
                                  {% if ( ( data.classes | length > 0)   ) %}
