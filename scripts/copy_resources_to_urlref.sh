@@ -249,7 +249,7 @@ write_bundle_report() {
                 if [ "$IS_PRODUCTION" = "true" ]; then
                     echo "error: failed to fetch external source ${failed_url}"
                 else
-                    echo "warning: failed to fetch external source ${failed_url}"
+                    echo "WARN: failed to fetch external source ${failed_url}"
                 fi
             done < "$failed_cache"
         fi
@@ -330,7 +330,7 @@ process_publication_file() {
                 cat "$FAILED_FETCH_CACHE"
                 BUNDLE_FAILED=true
             else
-                echo "warning: failed to fetch the following external sources for $URLREF (ignored outside production):"
+                echo "WARN: failed to fetch the following external sources for $URLREF (ignored outside production):"
                 cat "$FAILED_FETCH_CACHE"
             fi
         fi
