@@ -1,0 +1,14 @@
+[
+  {
+    "urlref": "/doc/implementatiemodel/grb/kristof",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-grb",
+    "branchtag": "main",
+    "name": "grb",
+    "filename": "config/OSLO-GRB-ap.json",
+    "navigation": {},
+    "dummy": "001",
+    "contextgenerator": {
+      "parameters": "--addDomainPrefix true"
+    }
+  }
+]
