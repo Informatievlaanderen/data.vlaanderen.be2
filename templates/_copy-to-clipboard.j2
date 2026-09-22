@@ -1,0 +1,87 @@
+{% macro copy_button(content, tooltip="Kopieer naar klembord") %}
+<button type="button" class="vl-link vl-copy-btn js-vl-copy-btn" data-vl-copy="{{ content | e }}" title="{{ tooltip }}" aria-label="{{ tooltip }}">
+  <span class="vl-icon vl-vi vl-vi-file-copy" aria-hidden="true"></span>
+</button>
+{% endmacro %}
+
+{% macro copy_styles() %}
+<style>
+  .vl-copy-btn .vl-icon {
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+  }
+  .vl-copy-btn:hover .vl-icon {
+    opacity: 0.7;
+  }
+  h3 .vl-copy-btn {
+    font-size: 0.7em;
+  }
+  #vl-copy-toast {
+    position: fixed;
+    z-index: 1000000;
+    display: none;
+    background: #333;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    pointer-events: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  #vl-copy-toast.is-visible {
+    display: block;
+  }
+</style>
+{% endmacro %}
+
+{% macro copy_script() %}
+<div id="vl-copy-toast" aria-live="polite">Gekopieerd</div>
+<script>
+  (function() {
+    var toast = document.getElementById('vl-copy-toast');
+    var timer = null;
+    document.addEventListener('click', function(e) {
+      var btn = e.target.closest('.js-vl-copy-btn');
+      if (!btn) return;
+      var text = btn.getAttribute('data-vl-copy');
+      if (!text) return;
+      doCopy(text, btn);
+    });
+    function doCopy(text, btn) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function() {
+          showToast(btn);
+        }).catch(function() {
+          fallbackCopy(text, btn);
+        });
+      } else {
+        fallbackCopy(text, btn);
+      }
+    }
+    function showToast(btn) {
+      var rect = btn.getBoundingClientRect();
+      toast.style.left = (rect.right + 10) + 'px';
+      toast.style.top = (rect.top + rect.height / 2) + 'px';
+      toast.style.transform = 'translateY(-50%)';
+      toast.classList.add('is-visible');
+      clearTimeout(timer);
+      timer = setTimeout(function() { toast.classList.remove('is-visible'); }, 1000);
+    }
+    function fallbackCopy(text, btn) {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand('copy');
+        showToast(btn);
+      } catch(e) {}
+      document.body.removeChild(ta);
+    }
+  })();
+</script>
+{% endmacro %}
