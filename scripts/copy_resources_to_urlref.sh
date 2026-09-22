@@ -13,6 +13,16 @@ GENERATEDDIR=$2
 WORKSPACEDIR=${3:-/tmp/workspace}
 SCRIPTDIR=$(cd "$(dirname "$0")" && pwd)
 
+# Only hard-fail the bundling step on production. On test/dev environments a
+# model can be bundled while its vocabulary has not been published yet, which
+# makes fetching the external source fail. That is expected on those
+# environments and should not block the pipeline, because it will only resolve
+# once the vocabulary is published (and would otherwise never pass on test).
+IS_PRODUCTION=false
+if [ "${CIRCLE_BRANCH}" == "production" ]; then
+    IS_PRODUCTION=true
+fi
+
 if [ -z "$CONFIGDIR" ] || [ -z "$GENERATEDDIR" ]; then
     echo "Usage: $0 <config-dir> <generated-dir> [workspace-dir]"
     exit 1
@@ -236,7 +246,11 @@ write_bundle_report() {
         
         if [ -f "$failed_cache" ] && [ -s "$failed_cache" ]; then
             while IFS= read -r failed_url; do
-                echo "error: failed to fetch external source ${failed_url}"
+                if [ "$IS_PRODUCTION" = "true" ]; then
+                    echo "error: failed to fetch external source ${failed_url}"
+                else
+                    echo "WARN: failed to fetch external source ${failed_url}"
+                fi
             done < "$failed_cache"
         fi
     } > "$report_file"
@@ -246,11 +260,12 @@ BUNDLE_FAILED=false
 
 process_publication_file() {
     local pubfile=$1
-    
+
     while IFS= read -r pubpoint; do
         URLREF=$(echo "$pubpoint" | jq -r '.urlref')
-        COPY_RESOURCES=$(echo "$pubpoint" | jq -r '(.bundle // false)')
+        COPY_RESOURCES=$(echo "$pubpoint" | jq -r 'if has("bundle") then .bundle else false end')
         BUNDLE_DIRECTORY=$(echo "$pubpoint" | jq -r '(.bundleDirectory // "")')
+        FETCH_EXTERNAL_ONTOLOGIES=$(echo "$pubpoint" | jq -r 'if has("bundleExternalOntologies") then .bundleExternalOntologies else true end')
         
         if [ -z "$URLREF" ] || [ "$URLREF" = "null" ]; then
             continue
@@ -301,16 +316,28 @@ process_publication_file() {
             copied_any=true
         fi
         
-        if fetch_external_vocabularies "$URLREF" "$RESOURCES_DIR"; then
-            copied_any=true
+        if [ "$FETCH_EXTERNAL_ONTOLOGIES" = "true" ]; then
+            if fetch_external_vocabularies "$URLREF" "$RESOURCES_DIR"; then
+                copied_any=true
+            fi
+        else
+            echo "Skipping external ontology fetch (bundleExternalOntologies=false)"
         fi
         
         # Fail the bundle if any external resource could not be fetched (neither RDF nor HTML).
+        # Only hard-fail on production: on test/dev the vocabulary of the model may
+        # not be published yet, so it can never be fetched and the bundle would
+        # always fail there.
         FAILED_FETCH_CACHE="$RESOURCES_DIR/ontologies/.failed_external_sources"
         if [ -f "$FAILED_FETCH_CACHE" ] && [ -s "$FAILED_FETCH_CACHE" ]; then
-            echo "ERROR: failed to fetch the following external sources for $URLREF:"
-            cat "$FAILED_FETCH_CACHE"
-            BUNDLE_FAILED=true
+            if [ "$IS_PRODUCTION" = "true" ]; then
+                echo "ERROR: failed to fetch the following external sources for $URLREF:"
+                cat "$FAILED_FETCH_CACHE"
+                BUNDLE_FAILED=true
+            else
+                echo "WARN: failed to fetch the following external sources for $URLREF (ignored outside production):"
+                cat "$FAILED_FETCH_CACHE"
+            fi
         fi
         
         if [ "$copied_any" = "true" ]; then
