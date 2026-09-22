@@ -260,11 +260,12 @@ BUNDLE_FAILED=false
 
 process_publication_file() {
     local pubfile=$1
-    
+
     while IFS= read -r pubpoint; do
         URLREF=$(echo "$pubpoint" | jq -r '.urlref')
-        COPY_RESOURCES=$(echo "$pubpoint" | jq -r '(.bundle // false)')
+        COPY_RESOURCES=$(echo "$pubpoint" | jq -r 'if has("bundle") then .bundle else false end')
         BUNDLE_DIRECTORY=$(echo "$pubpoint" | jq -r '(.bundleDirectory // "")')
+        FETCH_EXTERNAL_ONTOLOGIES=$(echo "$pubpoint" | jq -r 'if has("bundleExternalOntologies") then .bundleExternalOntologies else true end')
         
         if [ -z "$URLREF" ] || [ "$URLREF" = "null" ]; then
             continue
@@ -315,8 +316,12 @@ process_publication_file() {
             copied_any=true
         fi
         
-        if fetch_external_vocabularies "$URLREF" "$RESOURCES_DIR"; then
-            copied_any=true
+        if [ "$FETCH_EXTERNAL_ONTOLOGIES" = "true" ]; then
+            if fetch_external_vocabularies "$URLREF" "$RESOURCES_DIR"; then
+                copied_any=true
+            fi
+        else
+            echo "Skipping external ontology fetch (bundleExternalOntologies=false)"
         fi
         
         # Fail the bundle if any external resource could not be fetched (neither RDF nor HTML).
