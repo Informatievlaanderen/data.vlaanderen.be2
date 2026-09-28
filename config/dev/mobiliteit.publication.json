@@ -475,7 +475,8 @@
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "feature/toolchain-compatibility",
     "name": "mobiliteit-trips-en-aanbod",
-    "filename": "config/mobiliteit-trips-en-aanbod.json"
+    "filename": "config/mobiliteit-trips-en-aanbod.json",
+    "dummy": "2026-09-28 17:35"
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
