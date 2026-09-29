@@ -476,7 +476,8 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "mobiliteit-trips-en-aanbod",
     "filename": "config/mobiliteit-trips-en-aanbod-ap.json",
-    "dummy": "2026-09-29 10:00"
+    "dummy": "2026-09-29 10:00",
+    "ignore": true
   },
   {
     "urlref": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/kandidaatstandaard/2020-01-12",
