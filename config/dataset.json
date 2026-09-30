@@ -666,31 +666,31 @@
     },
     {
       "urlRef": "MAGDA",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.3.0/resources/codelijsten/MAGDA.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA.ttl"
     },
     {
       "urlRef": "MAGDA/Uitzondering",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.3.0/resources/codelijsten/MAGDA-Uitzonderingen.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA-Uitzonderingen.ttl"
     },
     {
       "urlRef": "MAGDA/Uitzondering/v1",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.3.0/resources/codelijsten/MAGDA-Uitzonderingen.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA-Uitzonderingen.ttl"
     },
     {
       "urlRef": "MAGDA/Omstandigheid",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.3.0/resources/codelijsten/MAGDA-Omstandigheden.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA-Omstandigheden.ttl"
     },
     {
       "urlRef": "MAGDA/Omstandigheid/v1",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.3.0/resources/codelijsten/MAGDA-Omstandigheden.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA-Omstandigheden.ttl"
     },
     {
       "urlRef": "MAGDA/Persoon",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.3.0/resources/codelijsten/MAGDA-Persoon.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA-Persoon.ttl"
     },
     {
       "urlRef": "MAGDA/Persoon/v1",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.3.0/resources/codelijsten/MAGDA-Persoon.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA-Persoon.ttl"
     },
     {
       "urlRef": "TypeOfEnterprise",
