@@ -669,19 +669,19 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA.ttl"
     },
     {
-      "urlRef": "MAGDA/Uitzondering",
+      "urlRef": "MAGDA/Persoon/Uitzondering",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA-Uitzonderingen.ttl"
     },
     {
-      "urlRef": "MAGDA/Uitzondering/v1",
+      "urlRef": "MAGDA/Persoon/Uitzondering/v1",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA-Uitzonderingen.ttl"
     },
     {
-      "urlRef": "MAGDA/Omstandigheid",
+      "urlRef": "MAGDA/Persoon/Omstandigheid",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA-Omstandigheden.ttl"
     },
     {
-      "urlRef": "MAGDA/Omstandigheid/v1",
+      "urlRef": "MAGDA/Persoon/Omstandigheid/v1",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-persoon/refs/heads/master/resources/OSLO-Persoon-MAGDA-IM/artefacts/codelijsten/MAGDA-Omstandigheden.ttl"
     },
     {
