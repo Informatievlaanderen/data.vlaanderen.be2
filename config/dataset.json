@@ -722,11 +722,11 @@
     },
     {
       "urlRef": "Rechtspersoonlijkheidtype",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtspersoonlijkheidtype.ttl"
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/raw/refs/heads/master/resources/OSLO-Organisatie-VKBO-IMPL/artefacts/codelijsten/Rechtspersoonlijkheidtype.ttl"
     },
     {
       "urlRef": "Rechtspersoonlijkheidtype/v1",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtspersoonlijkheidtype.ttl"
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/raw/refs/heads/master/resources/OSLO-Organisatie-VKBO-IMPL/artefacts/codelijsten/Rechtspersoonlijkheidtype.ttl"
     },
     {
       "urlRef": "Rechtstoestandtype/v1",
@@ -742,19 +742,19 @@
     },
     {
       "urlRef": "Rechtsvormtype",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtsvormtype.ttl"
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/raw/refs/heads/master/resources/OSLO-Organisatie-VKBO-IMPL/artefacts/codelijsten/Rechtsvormtype.ttl"
     },
     {
       "urlRef": "Rechtsvormtype/v1",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/Rechtsvormtype.ttl"
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/raw/refs/heads/master/resources/OSLO-Organisatie-VKBO-IMPL/artefacts/codelijsten/Rechtsvormtype.ttl"
     },
     {
       "urlRef": "OrganisatieStatus",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/OrganisatieStatus.ttl"
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/raw/refs/heads/master/resources/OSLO-Organisatie-VKBO-IMPL/artefacts/codelijsten/OrganisatieStatus.ttl"
     },
     {
       "urlRef": "OrganisatieStatus/v1",
-      "sourceUrl": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/vkbo/onderneming/v1.0.0/resources/codelijsten/OrganisatieStatus.ttl"
+      "sourceUrl": "https://github.com/Informatievlaanderen/OSLOthema-organisatie/raw/refs/heads/master/resources/OSLO-Organisatie-VKBO-IMPL/artefacts/codelijsten/OrganisatieStatus.ttl"
     },
     {
       "urlRef": "StopzettingType",
