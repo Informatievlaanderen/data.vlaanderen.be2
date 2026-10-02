@@ -163,7 +163,7 @@ jobs:
             render-details4.sh /tmp/workspace html $PWD/config
       - run:
           name: copy the site-skeleton for the html
-          command: $PWD/scripts/copy_skeleton.sh
+          command: copy_skeleton.sh
       - run:
           name: List the files which have been created
           command: |
@@ -453,7 +453,7 @@ jobs:
       - run:
           name: expand default links
           command: |
-            $PWD/scripts/expand-links.sh /tmp/workspace $PWD/config
+            expand-links.sh /tmp/workspace $PWD/config
       - run:
           name: Consolidate reporting
           no_output_timeout: 45m
