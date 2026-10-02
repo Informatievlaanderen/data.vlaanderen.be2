@@ -113,7 +113,7 @@ jobs:
           working_directory: /tmp/workspace
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            GENERATEDREPO=$(jq --arg bt "${CIRCLE_BRANCH}" -r '.generatedrepository + {"filepath":"autotranslation.tgz", "branchtag":"\($bt)"}' $PWD/config/config.json)
+            GENERATEDREPO=$(jq --arg bt "${CIRCLE_BRANCH}" -r '.generatedrepository + {"filepath":"autotranslation.tgz", "branchtag":"\($bt)"}' $CIRCLEWKD/config/config.json)
             if  downloadFileGithub.sh "${GENERATEDREPO}" autotranslation.tgz ${TOOLCHAIN_TOKEN} ; then tar -xzf autotranslation.tgz ; fi
       - run:
           name: Render metadata JSON from jsonld
@@ -509,7 +509,7 @@ jobs:
           working_directory: /tmp/workspace
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            GENERATEDREPO=$(jq --arg bt "${CIRCLE_BRANCH}" -r '.generatedrepository + {"filepath":"report4/README.md", "branchtag":"\($bt)"}' $PWD/config/config.json)
+            GENERATEDREPO=$(jq --arg bt "${CIRCLE_BRANCH}" -r '.generatedrepository + {"filepath":"report4/README.md", "branchtag":"\($bt)"}' $CIRCLEWKD/config/config.json)
             if  downloadFileGithub.sh "${GENERATEDREPO}" README.md ${TOOLCHAIN_TOKEN} ; then echo "global report downloaded" ; fi
       - run:
           name: create overview report
