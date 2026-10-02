@@ -41,7 +41,7 @@ jobs:
             - raw-input/
   extract-jsonld-details-4:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.1.0
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     steps:
       - checkout
       - attach_workspace:
@@ -52,21 +52,15 @@ jobs:
             mkdir -p /tmp/workspace/report4
             touch /tmp/workspace/report4/.ignore
       - run:
-          name: install software
-          command: sudo npm install --global @oslo-flanders/ea-converter
-      - run:
-          name: install software stakeholders
-          command: sudo npm install --global @oslo-flanders/stakeholders-converter
-      - run:
           name: upgrade configs to this toolchain
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/upgrade_config-4.sh /tmp/workspace ${CIRCLEWKD}/config
+            upgrade_config-4.sh /tmp/workspace $PWD/config
       - run:
           name: Extract json details from UML diagram(s)
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/extract-what-4.sh jsonld
+            extract-what-4.sh jsonld
       - run:
           name: Show the report (for debugging purposes)
           command: |
@@ -98,7 +92,7 @@ jobs:
             - report4
   render-translation-4:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.1.0
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     parameters:
       generatedRepoFingerprint:
         type: string
@@ -119,30 +113,30 @@ jobs:
           working_directory: /tmp/workspace
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            GENERATEDREPO=$(jq --arg bt "${CIRCLE_BRANCH}" -r '.generatedrepository + {"filepath":"autotranslation.tgz", "branchtag":"\($bt)"}' ${CIRCLEWKD}/config/config.json)
-            if  ${CIRCLEWKD}/scripts/downloadFileGithub.sh "${GENERATEDREPO}" autotranslation.tgz ${TOOLCHAIN_TOKEN} ; then tar -xzf autotranslation.tgz ; fi
+            GENERATEDREPO=$(jq --arg bt "${CIRCLE_BRANCH}" -r '.generatedrepository + {"filepath":"autotranslation.tgz", "branchtag":"\($bt)"}' $PWD/config/config.json)
+            if  downloadFileGithub.sh "${GENERATEDREPO}" autotranslation.tgz ${TOOLCHAIN_TOKEN} ; then tar -xzf autotranslation.tgz ; fi
       - run:
           name: Render metadata JSON from jsonld
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace metadata ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace metadata $PWD/config
       - run:
           name: Render translation JSON from jsonld
           command: |
             mkdir -p /tmp/workspace/translation
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace translation ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace translation $PWD/config
       - run:
           name: Autotranslate the translation files
           command: |
             mkdir -p /tmp/workspace/translation
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace autotranslate ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace autotranslate $PWD/config
       - run:
           name: merge translations with the prime representation
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace merge ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace merge $PWD/config
       - persist_to_workspace:
           root: /tmp/workspace
           when: always
@@ -151,7 +145,7 @@ jobs:
             - autotranslation
   render-html-details-4:
     docker:
-      - image: cimg/node:24.11.0
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     steps:
       - checkout
       - attach_workspace:
@@ -162,16 +156,11 @@ jobs:
             mkdir -p /tmp/workspace/report4/html/
             touch /tmp/workspace/report4/html/.ignore
       - run:
-          name: install software
-          command: |
-            sudo npm install --global @oslo-flanders/json-webuniversum-generator
-            sudo npm install --global @oslo-flanders/html-generator
-      - run:
           name: Render HTML version of merged json file (a)
           command: |
             mkdir -p /tmp/workspace/target /tmp/workspace/reporthtml
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace html ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace html $PWD/config
       - run:
           name: copy the site-skeleton for the html
           command: $PWD/scripts/copy_skeleton.sh
@@ -187,7 +176,7 @@ jobs:
             - target
   validate-jsonld-4:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.1.0
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     steps:
       - checkout
       - attach_workspace:
@@ -198,14 +187,10 @@ jobs:
             mkdir -p /tmp/workspace/report4/jsonld-validation
             touch /tmp/workspace/report4/jsonld-validation/.ignore
       - run:
-          name: install software
-          command: |
-            sudo npm install --global @oslo-flanders/jsonld-validator
-      - run:
           name: Validate OSLO jsonld
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace validation ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace validation $PWD/config
       - run:
           name: List the files which have been created
           command: |
@@ -218,7 +203,7 @@ jobs:
             - target
   render-respec-html-details-4:
     docker:
-      - image: cimg/node:24.11.0
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     steps:
       - checkout
       - attach_workspace:
@@ -229,14 +214,11 @@ jobs:
             mkdir -p /tmp/workspace/report4/respec
             touch /tmp/workspace/report4/respec/.ignore
       - run:
-          name: install software
-          command: sudo npm install --global @oslo-flanders/html-respec-generator
-      - run:
           name: Render HTML version of merged json file (a)
           command: |
             mkdir -p /tmp/workspace/target /tmp/workspace/reporthtml
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace respec ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace respec $PWD/config
       #      - run:
       #          name: copy the site-skeleton for the html -- XXX to be activated when only using this as hmtl renderer / or updated with a target to disambiguate
       #          command: $PWD/scripts/copy_skeleton.sh
@@ -252,7 +234,7 @@ jobs:
             - target
   render-rdf-details-4:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.1.0
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     steps:
       - checkout
       - attach_workspace:
@@ -263,13 +245,10 @@ jobs:
             mkdir -p /tmp/workspace/report4/rdf
             touch /tmp/workspace/report4/rdf/.ignore
       - run:
-          name: install software
-          command: sudo npm install --global @oslo-flanders/rdf-vocabulary-generator
-      - run:
           name: Render RDF version
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace rdf ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace rdf $PWD/config
       - run:
           name: List the files which have been created
           command: |
@@ -282,7 +261,7 @@ jobs:
             - target
   render-shacl-details-4:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.1.0
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     steps:
       - checkout
       - attach_workspace:
@@ -293,13 +272,10 @@ jobs:
             mkdir -p /tmp/workspace/report4/shacl
             touch /tmp/workspace/report4/shacl/.ignore
       - run:
-          name: install software
-          command: sudo npm install --global @oslo-flanders/shacl-template-generator
-      - run:
           name: Render SHACL version of merged json file (a)
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace shacl ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace shacl $PWD/config
       - run:
           name: List the files which have been created
           command: |
@@ -313,7 +289,7 @@ jobs:
             - report4/shacl
   render-context-details-4:
     docker:
-      - image: cimg/node:24.11.0
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     steps:
       - checkout
       - attach_workspace:
@@ -324,13 +300,10 @@ jobs:
             mkdir -p /tmp/workspace/report4/context
             touch /tmp/workspace/report4/context/.ignore
       - run:
-          name: install software
-          command: sudo npm install --global @oslo-flanders/jsonld-context-generator
-      - run:
           name: Render JSONLD context of merged json file (a)
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace context ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace context $PWD/config
       - run:
           name: List the files which have been created
           command: |
@@ -343,7 +316,7 @@ jobs:
             - target
   render-swagger-4:
     docker:
-      - image: cimg/node:24.11.0
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     steps:
       - checkout
       - attach_workspace:
@@ -354,13 +327,10 @@ jobs:
             mkdir -p /tmp/workspace/report4/swagger
             touch /tmp/workspace/report4/swagger/.ignore
       - run:
-          name: install software
-          command: sudo npm install -g @oslo-flanders/swagger-generator
-      - run:
           name: Render swagger file of  merged json file (a)
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace swagger ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace swagger $PWD/config
       - run:
           name: List the files which have been created
           command: |
@@ -373,7 +343,7 @@ jobs:
             - target
   render-example-templates:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.9
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     steps:
       - checkout
       - attach_workspace:
@@ -387,7 +357,7 @@ jobs:
           name: Render example templates
           command: |
             mkdir -p /tmp/workspace/examples
-            $PWD/scripts/render-details.sh /tmp/workspace example $PWD/config
+            render-details4.sh /tmp/workspace example $PWD/config
       - persist_to_workspace:
           root: /tmp/workspace
           when: always
@@ -396,7 +366,7 @@ jobs:
             - target
   render-xsd-details:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev-0.9
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     steps:
       - checkout
       - attach_workspace:
@@ -409,7 +379,7 @@ jobs:
       - run:
           name: Render XSD Details
           command: |
-            $PWD/scripts/render-details.sh /tmp/workspace xsd $PWD/config
+            render-details4.sh /tmp/workspace xsd $PWD/config
             mkdir -p /tmp/workspace/target
       - run:
           name: List the xsd files found
@@ -447,7 +417,7 @@ jobs:
             - target/
   bundle-release:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.1.0
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     steps:
       - checkout
       - attach_workspace:
@@ -456,7 +426,7 @@ jobs:
           name: Bundle ontologies and artefacts
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace bundle ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace bundle $PWD/config
       - persist_to_workspace:
           root: /tmp/workspace
           when: always
@@ -465,7 +435,7 @@ jobs:
             - report4
   expand-links:
     docker:
-      - image: informatievlaanderen/oslo-specification-generator:multilingual-dev4.1.0
+      - image: informatievlaanderen/oslo-pipeline:multilingual-dev4.1.0
     steps:
       - checkout
       - attach_workspace:
@@ -473,8 +443,8 @@ jobs:
       - run:
           name: install gh cli
           command: |
-            sudo apt-get update
-            sudo apt-get -y install gh
+            apt-get update
+            apt-get -y install gh
       - run:
           name: Copy raw assets
           working_directory: /tmp/workspace
@@ -539,14 +509,14 @@ jobs:
           working_directory: /tmp/workspace
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            GENERATEDREPO=$(jq --arg bt "${CIRCLE_BRANCH}" -r '.generatedrepository + {"filepath":"report4/README.md", "branchtag":"\($bt)"}' ${CIRCLEWKD}/config/config.json)
-            if  ${CIRCLEWKD}/scripts/downloadFileGithub.sh "${GENERATEDREPO}" README.md ${TOOLCHAIN_TOKEN} ; then echo "global report downloaded" ; fi
+            GENERATEDREPO=$(jq --arg bt "${CIRCLE_BRANCH}" -r '.generatedrepository + {"filepath":"report4/README.md", "branchtag":"\($bt)"}' $PWD/config/config.json)
+            if  downloadFileGithub.sh "${GENERATEDREPO}" README.md ${TOOLCHAIN_TOKEN} ; then echo "global report downloaded" ; fi
       - run:
           name: create overview report
           no_output_timeout: 45m
           command: |
             export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            ${CIRCLEWKD}/scripts/render-details4.sh /tmp/workspace report ${CIRCLEWKD}/config
+            render-details4.sh /tmp/workspace report $PWD/config
       - persist_to_workspace:
           root: /tmp/workspace
           when: always
@@ -611,13 +581,6 @@ jobs:
           name: Copy static assets
           command: |
             cp -R site-skeleton/* /tmp/generated/
-      - run:
-          name: deploy statistics
-          command: |
-            export CIRCLEWKD=$( eval echo "${CIRCLE_WORKING_DIRECTORY}" )
-            pushd ${CIRCLEWKD}/statistics
-            ./deploy.sh ${CIRCLEWKD}/config /tmp/generated
-            popd
       - run:
           name: clean report directory
           working_directory: /tmp/workspace/report4
