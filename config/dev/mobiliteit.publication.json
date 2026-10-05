@@ -476,7 +476,8 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "mobiliteit-trips-en-aanbod",
     "filename": "config/mobiliteit-trips-en-aanbod-ap.json",
-    "dummy": "2026-10-05 13:47"
+    "dummy": "2026-10-05 13:47",
+    "disabled": true
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit-trips-en-aanbod/pieter",
