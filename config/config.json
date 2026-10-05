@@ -16,7 +16,7 @@
     "strickness": "lazy",
     "version": 4,
     "triggerall": false,
-    "autotranslate": true
+    "autotranslate": false
   },
   "shaclgenerator": {
     "parameters-old": "-m individual -c 'uniqueLanguages' -c 'nodeKind'"
