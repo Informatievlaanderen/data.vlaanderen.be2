@@ -41,7 +41,7 @@ jobs:
             - raw-input/
   extract-jsonld-details-4:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     steps:
       - checkout
       - attach_workspace:
@@ -91,7 +91,7 @@ jobs:
             - report4
   render-translation-4:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     parameters:
       generatedRepoFingerprint:
         type: string
@@ -144,7 +144,7 @@ jobs:
             - autotranslation
   render-html-details-4:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     steps:
       - checkout
       - attach_workspace:
@@ -175,7 +175,7 @@ jobs:
             - target
   validate-jsonld-4:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     steps:
       - checkout
       - attach_workspace:
@@ -202,7 +202,7 @@ jobs:
             - target
   render-respec-html-details-4:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     steps:
       - checkout
       - attach_workspace:
@@ -233,7 +233,7 @@ jobs:
             - target
   render-rdf-details-4:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     steps:
       - checkout
       - attach_workspace:
@@ -260,7 +260,7 @@ jobs:
             - target
   render-shacl-details-4:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     steps:
       - checkout
       - attach_workspace:
@@ -288,7 +288,7 @@ jobs:
             - report4/shacl
   render-context-details-4:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     steps:
       - checkout
       - attach_workspace:
@@ -315,7 +315,7 @@ jobs:
             - target
   render-swagger-4:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     steps:
       - checkout
       - attach_workspace:
@@ -342,7 +342,7 @@ jobs:
             - target
   render-example-templates:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     steps:
       - checkout
       - attach_workspace:
@@ -365,7 +365,7 @@ jobs:
             - target
   render-xsd-details:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     steps:
       - checkout
       - attach_workspace:
@@ -416,7 +416,7 @@ jobs:
             - target/
   bundle-release:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     steps:
       - checkout
       - attach_workspace:
@@ -434,7 +434,7 @@ jobs:
             - report4
   expand-links:
     docker:
-      - image: informatievlaanderen/oslo-pipeline:4.3.1
+      - image: informatievlaanderen/oslo-pipeline:4.3.3
     steps:
       - checkout
       - attach_workspace:
