@@ -12,15 +12,13 @@
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "33",
-    "disabled": true
+    "dummy": "33"
   },
   {
     "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse",
     "seealso": "/doc/applicatieprofiel/thermografische-gebouwanalyse/kandidaatstandaard/2025-05-22",
     "type": "ap",
-    "dummy": "33",
-    "disabled": true
+    "dummy": "33"
   },
   {
     "urlref": "/doc/applicatieprofiel/thermografische-gebouwanalyse/kandidaatstandaard/pieter",
@@ -35,7 +33,6 @@
     "shaclgenerator": {
       "parameters": ""
     },
-    "dummy": "33",
-    "disabled": true
+    "dummy": "33"
   }
 ]
