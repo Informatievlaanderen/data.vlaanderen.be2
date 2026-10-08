@@ -493,8 +493,7 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "netwerk",
     "filename": "config/netwerk-voc.json",
-    "dummy": "2026-10-08 10:00",
-    "disabled": true
+    "dummy": "2026-10-08 12:00"
   },
   {
     "urlref": "/doc/vocabularium/transportnetwerk/pieter",
