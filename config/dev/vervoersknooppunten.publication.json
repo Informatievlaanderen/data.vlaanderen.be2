@@ -127,7 +127,8 @@
     "branchtag": "feature/toolchain-compatibility",
     "name": "vervoersknooppunten",
     "filename": "config/vervoersknooppunten-ap.json",
-    "dummy": "2026-10-08 17:30:00"
+    "dummy": "2026-10-08 17:30:00",
+    "disabled": true
   },
   {
     "urlref": "/doc/vocabularium/mobiliteit/vervoersknooppunten/ontwerpstandaard/toolchain4",
