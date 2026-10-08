@@ -834,15 +834,15 @@
     },
     {
       "urlRef": "Euronorm",
-      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenvignetregistratie/refs/heads/main/resources/artefacts/codelijsten/Euronorm.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenvignetregistratie/refs/heads/main/resources/OSLO-wegenvignetregistratie-IM/artefacts/codelijsten/Euronorm.ttl"
     },
     {
       "urlRef": "Brandstoftype",
-      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenvignetregistratie/refs/heads/main/resources/artefacts/codelijsten/Brandstoftype.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenvignetregistratie/refs/heads/main/resources/OSLO-wegenvignetregistratie-IM/artefacts/codelijsten/Brandstoftype.ttl"
     },
     {
       "urlRef": "Motortype",
-      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenvignetregistratie/refs/heads/main/resources/artefacts/codelijsten/Motortype.ttl"
+      "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenvignetregistratie/refs/heads/main/resources/OSLO-wegenvignetregistratie-IM/artefacts/codelijsten/Motortype.ttl"
     }
   ]
 }
