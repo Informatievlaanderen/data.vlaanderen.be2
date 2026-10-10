@@ -3,27 +3,27 @@
     "urlref": "/ns/voertuigregistratie",
     "seealso": "/doc/vocabularium/voertuigregistratie/ontwerpstandaard/2026-08-28",
     "type": "voc",
-    "dummy": "008"
+    "dummy": "009"
   },
   {
     "urlref": "/doc/vocabularium/voertuigregistratie",
     "seealso": "/doc/vocabularium/voertuigregistratie/ontwerpstandaard/2026-08-28",
     "type": "voc",
-    "dummy": "008"
+    "dummy": "009"
   },
   {
     "urlref": "/ns/voertuigregistratie/2026-08-25",
     "seealso": "/doc/vocabularium/voertuigregistratie/ontwerpstandaard/2026-08-28",
     "type": "voc",
-    "dummy": "008"
+    "dummy": "009"
   },
   {
     "urlref": "/doc/vocabularium/voertuigregistratie/ontwerpstandaard/2026-08-28",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-trajectcontrole",
-    "branchtag": "main",
+    "branchtag": "d644e0e27163f3cbe6b38f8ba881e504c3486d9a",
     "name": "voertuigregistratie",
     "filename": "config/voertuigregistratie-voc.json",
-    "dummy": "008",
+    "dummy": "009",
     "navigation": {
     }
   }
