@@ -130,6 +130,14 @@
     "dummy": "2026-10-12 13:41:00"
   },
   {
+    "urlref": "/doc/vocabularium/mobiliteit/vervoersknooppunten/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-hoppinPunten",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "vervoersknooppunten",
+    "filename": "config/vervoersknooppunten-voc.json",
+    "dummy": "2026-10-13 08:11:00"
+  },
+  {
     "urlref": "/doc/vocabularium/mobiliteit/vervoersknooppunten/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-hoppinPunten",
     "branchtag": "master",
