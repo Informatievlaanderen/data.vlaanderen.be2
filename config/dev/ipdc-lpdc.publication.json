@@ -1,0 +1,40 @@
+[
+  {
+    "urlref": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-07-04",
+    "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
+    "branchtag": "ontwerp-2024-07-04",
+    "name": "ipdc-lpdc-im",
+    "filename": "config/ipdc-lpdc-im.json",
+    "navigation": {
+      "prev": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-04-25"
+    },
+    "disabled": false,
+    "dummy": "002"
+  },
+  {
+    "urlref": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-07-04",
+    "repository": "https://github.com/Informatievlaanderen/ipdc-lpdc",
+    "branchtag": "ontwerp-2024-07-04",
+    "name": "ipdc-lpdc",
+    "filename": "config/ipdc-lpdc-voc.json",
+    "navigation": {
+      "prev": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-04-25"
+    },
+    "disabled": false,
+    "dummy": "002"
+  },
+  {
+    "urlref": "/doc/implementatiemodel/ipdc-lpdc",
+    "seealso": "/doc/implementatiemodel/ipdc-lpdc/ontwerpstandaard/2024-07-04",
+    "type": "ap",
+    "disabled": false,
+    "dummy": "012"
+  },
+  {
+    "urlref": "/ns/ipdc-lpdc",
+    "seealso": "/doc/vocabularium/ipdc-lpdc/ontwerpstandaard/2024-07-04",
+    "type": "voc",
+    "disabled": false,
+    "dummy": "012"
+  }
+]
