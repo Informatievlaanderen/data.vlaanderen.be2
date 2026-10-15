@@ -1,0 +1,10 @@
+[
+  {
+    "urlref": "/doc/vocabularium/mobiliteit/passenger-transport-hubs/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-passengerTransportHubs",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "passenger-transport-hubs",
+    "filename": "config/passenger-transport-hubs-voc.json",
+    "dummy": "2026-10-15 10:49:00"
+  }
+]
