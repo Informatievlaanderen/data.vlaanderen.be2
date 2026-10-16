@@ -7,14 +7,13 @@
     "filename": "config/passenger-transport-hubs-voc.json",
     "dummy": "2026-10-15 10:49:00"
   },
-{
-  "urlref": "/doc/vocabularium/mobiliteit/passenger-transport-hubs/kristof",
-  "repository": "https://github.com/Informatievlaanderen/OSLOthema-passengerTransportHubs",
-  "branchtag": "feature/toolchain-compatibility",
-  "name": "passenger-transport-hubs",
-  "filename": "config/passenger-transport-hubs-voc.json",
-  "languages": ["en"],
-  "autotranslate": false,
-  "dummy": "2026-10-15 10:49:00"
-}
+  {
+    "urlref": "/doc/vocabularium/mobiliteit/passenger-transport-hubs/kristof",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-passengerTransportHubs",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "passenger-transport-hubs",
+    "filename": "config/passenger-transport-hubs-voc.json",
+    "languages": ["en"],
+    "dummy": "2026-10-15 10:49:00"
+  }
 ]
