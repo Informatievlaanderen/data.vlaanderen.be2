@@ -1,5 +1,14 @@
 [
   {
+    "urlref": "/doc/applicatieprofiel/mobiliteit/passenger-transport-hubs/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-passengerTransportHubs",
+    "branchtag": "feature/toolchain-compatibility",
+    "name": "passenger-transport-hubs",
+    "filename": "config/passenger-transport-hubs-ap.json",
+    "languages": ["en"],
+    "dummy": "2026-10-23 15:56:00"
+  },
+  {
     "urlref": "/doc/vocabularium/mobiliteit/passenger-transport-hubs/pieter",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-passengerTransportHubs",
     "branchtag": "feature/toolchain-compatibility",
