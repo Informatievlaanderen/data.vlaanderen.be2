@@ -1,4 +1,19 @@
 [
+    {
+    "urlref": "/doc/implementatiemodel/magda/persoon/test-full",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon",
+    "branchtag": "master",
+    "name": "persoon",
+    "filename": "config/persoon-magda-im.json",
+    "contextgenerator": {
+      "parameters": "--scopedContext true --enablePolymorphism false"
+    },
+    "navigation": {
+      "prev": "/doc/implementatiemodel/magda/persoon/v0.0.3"
+    },
+    "dummy": "001",
+    "disabled": false
+  },
   {
     "urlref": "/doc/implementatiemodel/magda/persoon",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon",
