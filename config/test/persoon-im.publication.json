@@ -9,9 +9,22 @@
       "parameters": "--scopedContext true --enablePolymorphism false"
     },
     "navigation": {
-      "prev": "/doc/implementatiemodel/magda/persoon/v0.0.3"
+      "prev": "/doc/implementatiemodel/magda/persoon/v0.0.4"
     },
-    "dummy": "005",
+    "dummy": "006",
+    "disabled": false
+  },
+      {
+    "urlref": "/ns/magda/persoon/test-full",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-persoon/",
+    "branchtag": "master",
+    "prefix": "magda",
+    "name": "persoon",
+    "filename": "config/persoon-magda-voc.json",
+    "navigation": {
+      "prev": "/ns/magda/persoon/v0.0.4"
+    },
+    "dummy": "006",
     "disabled": false
   },
   {
