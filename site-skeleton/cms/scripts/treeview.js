@@ -22,9 +22,9 @@ root = treeData[0]
 root.x0 = height / 2
 root.y0 = 0
 
-root.children.forEach(toggleAll)
-
 update(root)
+
+root.children.forEach(toggleAll)
 
 d3.select(self.frameElement).style('height', '500px')
 
