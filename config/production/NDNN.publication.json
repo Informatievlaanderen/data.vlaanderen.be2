@@ -11,5 +11,11 @@
     "contextgenerator": {
       "parameters": "--addDomainPrefix true"
     }
+  },
+    {
+    "urlref": "/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen",
+    "seealso": "/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20",
+    "type": "impl",
+    "dummy": "062"
   }
 ]
