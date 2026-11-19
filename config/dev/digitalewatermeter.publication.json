@@ -1,5 +1,13 @@
 [
   {
+    "urlref": "/doc/vocabularium/DigitaleWatermeter/kandidaatstandaard/pieter",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-DigitaleWatermeter",
+    "name": "digitale-watermeter",
+    "branchtag": "feature/toolchain-compatibility",
+    "filename": "config/digitale-watermeter-voc.json",
+    "dummy": "2026-11-19 14:08"
+  },
+  {
     "urlref": "/doc/applicatieprofiel/DigitaleWatermeter/kandidaatstandaard/2025-01-20",
     "repository": "https://github.com/informatievlaanderen/data.vlaanderen.be-generated",
     "branchtag": "production",
