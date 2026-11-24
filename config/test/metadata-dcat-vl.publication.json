@@ -238,6 +238,20 @@
       "type": "ap"
     }
   },
+      {
+    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2026-02-12",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-metadataVoorServices",
+    "branchtag": "erkend_2026_02_12v0.0.2",
+    "name": "DCAT-AP-VL",
+    "filename": "config/metadata-voor-services.json",
+    "dummy": "008",
+    "eaconverter": {
+      "parameters": "--allTags true"
+    },
+    "webuniversumgenerator": {
+      "parameters": "--allTags true"
+    }
+  },
   {
     "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/",
     "seealso": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21",
@@ -252,16 +266,5 @@
       "type": "ap",
       "dummy": 1
     }
-  },
-  {
-    "urlref": "/doc/applicatieprofiel/DCAT-AP-VL/ontwerpstandaard/toolchain4",
-    "repository": "https://github.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen",
-    "branchtag": "master",
-    "name": "DCAT-AP-VL-20",
-    "filename": "config/DCAT-AP-VL-20.json",
-    "navigation": {
-      "prev": "/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2022-04-21"
-    },
-    "dummy": "2025-12-10 09:12:55"
   }
 ]
