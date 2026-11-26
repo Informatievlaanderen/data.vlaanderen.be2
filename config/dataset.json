@@ -845,7 +845,7 @@
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenvignetregistratie/refs/heads/main/resources/OSLO-wegenvignetregistratie-IM/artefacts/codelijsten/Motortype.ttl"
     },
     {
-      "urlRef": "MAGDA-Uitzonderingen",
+      "urlRef": "MAGDA/Mobiliteit/Uitzondering",
       "sourceUrl": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenvignetregistratie/refs/heads/main/resources/OSLO-wegenvignetregistratie-IM/artefacts/codelijsten/MAGDA-Uitzonderingen.ttl"
     }
   ]
