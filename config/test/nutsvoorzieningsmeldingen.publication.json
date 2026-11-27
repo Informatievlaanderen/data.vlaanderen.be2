@@ -1,0 +1,60 @@
+[
+  {
+    "urlref": "/ns/nutsvoorzieningsmelding",
+    "seealso": "/doc/vocabularium/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
+    "type": "voc",
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/nutsvoorzieningsmelding",
+    "seealso": "/doc/vocabularium/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
+    "type": "voc",
+    "dummy": "001"
+  },
+  {
+    "urlref": "/ns/nutsvoorzieningsmelding/2026-11-27",
+    "seealso": "/doc/vocabularium/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
+    "type": "voc",
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/vocabularium/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-Nutsvoorzieningsmeldingen",
+    "branchtag": "master",
+    "name": "nutsvoorzieningsmelding",
+    "filename": "config/nutsvoorzieningsmelding-voc.json",
+    "dummy": "001",
+    "navigation": {}
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/nutsvoorzieningsmelding",
+    "seealso": "/doc/applicatieprofiel/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
+    "type": "ap",
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-Nutsvoorzieningsmeldingen",
+    "branchtag": "master",
+    "name": "nutsvoorzieningsmelding-ap",
+    "filename": "config/nutsvoorzieningsmelding-ap.json",
+    "dummy": "001",
+    "navigation": {}
+  },
+  {
+    "urlref": "/doc/vocabularium/nutsvoorzieningsmelding/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-Nutsvoorzieningsmeldingen",
+    "branchtag": "master",
+    "name": "nutsvoorzieningsmelding",
+    "filename": "config/nutsvoorzieningsmelding-voc.json",
+    "dummy": "001"
+  },
+  {
+    "urlref": "/doc/applicatieprofiel/nutsvoorzieningsmelding/ontwerpstandaard/toolchain4",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-Nutsvoorzieningsmeldingen",
+    "branchtag": "master",
+    "name": "nutsvoorzieningsmelding-ap",
+    "filename": "config/nutsvoorzieningsmelding-ap.json",
+    "dummy": "001"
+  }
+]
