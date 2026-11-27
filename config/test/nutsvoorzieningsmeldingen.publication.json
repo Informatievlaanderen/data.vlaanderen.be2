@@ -20,7 +20,7 @@
   {
     "urlref": "/doc/vocabularium/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-Nutsvoorzieningsmeldingen",
-    "branchtag": "master",
+    "branchtag": "main",
     "name": "nutsvoorzieningsmelding",
     "filename": "config/nutsvoorzieningsmelding-voc.json",
     "dummy": "001",
@@ -35,7 +35,7 @@
   {
     "urlref": "/doc/applicatieprofiel/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-Nutsvoorzieningsmeldingen",
-    "branchtag": "master",
+    "branchtag": "main",
     "name": "nutsvoorzieningsmelding-ap",
     "filename": "config/nutsvoorzieningsmelding-ap.json",
     "dummy": "001",
@@ -44,7 +44,7 @@
   {
     "urlref": "/doc/vocabularium/nutsvoorzieningsmelding/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-Nutsvoorzieningsmeldingen",
-    "branchtag": "master",
+    "branchtag": "main",
     "name": "nutsvoorzieningsmelding",
     "filename": "config/nutsvoorzieningsmelding-voc.json",
     "dummy": "001"
@@ -52,7 +52,7 @@
   {
     "urlref": "/doc/applicatieprofiel/nutsvoorzieningsmelding/ontwerpstandaard/toolchain4",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-Nutsvoorzieningsmeldingen",
-    "branchtag": "master",
+    "branchtag": "main",
     "name": "nutsvoorzieningsmelding-ap",
     "filename": "config/nutsvoorzieningsmelding-ap.json",
     "dummy": "001"
