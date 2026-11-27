@@ -1,36 +1,24 @@
 [
   {
-    "urlref": "/ns/nutsvoorzieningsmelding",
-    "seealso": "/doc/vocabularium/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
-    "type": "voc",
-    "dummy": "001"
-  },
-  {
-    "urlref": "/doc/vocabularium/nutsvoorzieningsmelding",
-    "seealso": "/doc/vocabularium/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
-    "type": "voc",
-    "dummy": "001"
-  },
-  {
-    "urlref": "/ns/nutsvoorzieningsmelding/2026-11-27",
-    "seealso": "/doc/vocabularium/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
-    "type": "voc",
-    "dummy": "001"
-  },
-  {
-    "urlref": "/doc/vocabularium/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
+    "urlref": "/doc/applicatieprofiel/nutsvoorzieningsmeldingen/ontwerpstandaard/2026-11-27",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-Nutsvoorzieningsmeldingen",
     "branchtag": "main",
+<<<<<<< HEAD
     "name": "nutsvoorzieningsmelding",
     "filename": "config/nutsvoorzieningsmelding-voc.json",
+=======
+    "name": "nutsvoorzieningsmeldingen",
+    "filename": "config/nutsvoorzieningsmeldingen-ap.json",
+>>>>>>> b043e207 (Run for nutsvoorzieningsmeldingen)
     "dummy": "001",
     "navigation": {}
   },
   {
-    "urlref": "/doc/applicatieprofiel/nutsvoorzieningsmelding",
-    "seealso": "/doc/applicatieprofiel/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
+    "urlref": "/doc/applicatieprofiel/nutsvoorzieningsmeldingen",
+    "seealso": "/doc/applicatieprofiel/nutsvoorzieningsmeldingen/ontwerpstandaard/2026-11-27",
     "type": "ap",
     "dummy": "001"
+<<<<<<< HEAD
   },
   {
     "urlref": "/doc/applicatieprofiel/nutsvoorzieningsmelding/ontwerpstandaard/2026-11-27",
@@ -56,5 +44,7 @@
     "name": "nutsvoorzieningsmelding-ap",
     "filename": "config/nutsvoorzieningsmelding-ap.json",
     "dummy": "001"
+=======
+>>>>>>> b043e207 (Run for nutsvoorzieningsmeldingen)
   }
 ]
